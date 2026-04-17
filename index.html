@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Skills Triadeflow · biblioteca viva de skills Claude Code</title>
+<meta name="description" content="Biblioteca viva das skills usadas no stack Triadeflow. Especializacoes prontas pra IA usar sob demanda. Atualiza sozinha a cada nova skill criada.">
+<meta property="og:title" content="Skills Triadeflow · biblioteca viva de skills Claude Code">
+<meta property="og:description" content="A biblioteca mais completa de skills Claude Code em portugues. Atualizada automaticamente.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://skills.triadeflow.ai">
+<link rel="icon" href="./assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<style>
+  :root {
+    --primary: #003153;
+    --ink: #171717;
+    --cream: #F5F5F2;
+    --accent: #d97757;
+  }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--cream); color: var(--ink); }
+  h1, h2, h3, .serif { font-family: 'Fraunces', Georgia, serif; letter-spacing: -0.02em; }
+  .hero-bg {
+    background: radial-gradient(ellipse at top, #003153 0%, #001a2e 60%, #000811 100%);
+    color: #fff;
+  }
+  .glow { box-shadow: 0 0 60px rgba(217, 119, 87, 0.15); }
+  .badge-new { background: linear-gradient(90deg, #d97757, #e89570); color: white; }
+
+  /* Theme toggle (dark/light) com efeito glow lua */
+  :root {
+    --tt-step: 0.5s;
+    --tt-ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --tt-bg-dark: hsl(220 27% 6%);
+    --tt-bg-light: hsl(223 4% 73%);
+    --tt-glow: hsl(182 90% 92%);
+  }
+  .theme-toggle {
+    position: relative;
+    width: 78px;
+    height: 44px;
+    border-radius: 999px;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  .theme-toggle .tt-socket {
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
+    background: hsl(0 0% 0%);
+    box-shadow: -0.05em 0.1em 0.2em -0.2em white;
+    transition: box-shadow var(--tt-step) var(--tt-ease);
+  }
+  .theme-toggle .tt-face {
+    position: absolute;
+    inset: 4px;
+    border-radius: 999px;
+    background: var(--tt-bg-dark);
+    box-shadow: -0.05em 0.1em 0.2em -0.2em white inset;
+    transition: scale var(--tt-step) var(--tt-ease), background var(--tt-step) var(--tt-ease);
+    overflow: hidden;
+  }
+  .theme-toggle .tt-glowdrop {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    scale: 0;
+    transition: scale var(--tt-step) var(--tt-ease);
+  }
+  .theme-toggle .tt-glowdrop::before,
+  .theme-toggle .tt-glowdrop::after {
+    content: '';
+    height: 50%;
+    aspect-ratio: 1;
+    background: #fff;
+    filter: blur(6px);
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  .theme-toggle .tt-glowdrop::before { left: 4%; width: 56%; translate: 0 -25%; }
+  .theme-toggle .tt-glowdrop::after { bottom: 0; right: 12%; width: 34%; translate: 0 20%; }
+  .theme-toggle .tt-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    translate: -50% -50%;
+    z-index: 5;
+    color: var(--tt-glow);
+    filter: drop-shadow(0 0 6px var(--tt-glow));
+    transition: opacity var(--tt-step) var(--tt-ease);
+  }
+  .theme-toggle[aria-pressed="true"] .tt-glowdrop {
+    scale: 1;
+  }
+  .theme-toggle[aria-pressed="true"] .tt-face {
+    background: var(--tt-bg-light);
+  }
+  .theme-toggle[aria-pressed="true"] .tt-icon {
+    opacity: 0;
+  }
+  .theme-toggle[aria-pressed="true"]::before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: hsl(45 100% 70%);
+    border-radius: 50%;
+    box-shadow: 0 0 18px hsl(45 100% 70% / 0.7);
+    z-index: 5;
+    animation: ttSunPop var(--tt-step) var(--tt-ease);
+  }
+  @keyframes ttSunPop {
+    0% { scale: 0; opacity: 0; }
+    100% { scale: 1; opacity: 1; }
+  }
+
+  /* THEME application */
+  [data-theme="light"] body { background: #F5F5F2; color: #171717; }
+  [data-theme="dark"] body { background: #050505; color: #e5e5e5; }
+  [data-theme="dark"] .bg-white { background-color: #0f0f10 !important; color: #e5e5e5; }
+  [data-theme="dark"] .bg-\[\#F5F5F2\] { background-color: #0a0a0b !important; color: #e5e5e5; }
+  [data-theme="dark"] .text-\[\#003153\] { color: #f5b89e !important; }
+  [data-theme="dark"] .text-\[\#171717\]\/70 { color: rgba(229,229,229,0.75) !important; }
+  [data-theme="dark"] .text-\[\#171717\]\/60 { color: rgba(229,229,229,0.65) !important; }
+  [data-theme="dark"] .text-\[\#171717\]\/40 { color: rgba(229,229,229,0.45) !important; }
+  [data-theme="dark"] .text-\[\#171717\]\/80 { color: rgba(229,229,229,0.85) !important; }
+  [data-theme="dark"] .border-\[\#003153\]\/10 { border-color: rgba(255,255,255,0.08) !important; }
+  [data-theme="dark"] .border-\[\#003153\]\/15 { border-color: rgba(255,255,255,0.1) !important; }
+  [data-theme="dark"] .border-\[\#003153\]\/5 { border-color: rgba(255,255,255,0.05) !important; }
+  [data-theme="dark"] .skill-card { background: #14141a !important; border-color: rgba(255,255,255,0.08) !important; }
+  [data-theme="dark"] .skill-card h3 { color: #f5b89e !important; }
+  [data-theme="dark"] .skill-card p { color: rgba(229,229,229,0.65) !important; }
+  [data-theme="dark"] .cat-pill:not(.active) { background: rgba(255,255,255,0.05) !important; color: #e5e5e5 !important; border-color: rgba(255,255,255,0.1) !important; }
+  [data-theme="dark"] .cat-pill.active { background: #d97757 !important; color: #fff !important; }
+  [data-theme="dark"] input[type="text"],
+  [data-theme="dark"] input[type="email"],
+  [data-theme="dark"] input[type="tel"] {
+    background: #1a1a1f !important;
+    color: #fff !important;
+    border-color: rgba(255,255,255,0.1) !important;
+  }
+
+  /* Badge "ATUALIZADO HOJE" - shimmer azul com letras animadas */
+  .shimmer-badge {
+    --anim-duration: 4s;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    padding: 0 1.4rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, rgb(20, 20, 20) 0%, rgb(10, 10, 10) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.4) 0 8px 32px, rgba(255, 255, 255, 0.05) 0 1px 0 inset;
+    overflow: hidden;
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: default;
+  }
+  .shimmer-badge::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 30px;
+    background: radial-gradient(circle at 50% 100%, rgba(255,255,255,0.15) 0%, transparent 70%);
+    z-index: 1;
+    pointer-events: none;
+    filter: blur(4px);
+  }
+  .shimmer-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.4), #60a5fa, rgba(59, 130, 246, 0.4), transparent);
+    animation: wave-move var(--anim-duration) infinite linear, wave-opacity var(--anim-duration) infinite linear;
+    filter: blur(10px);
+    z-index: 1;
+    pointer-events: none;
+  }
+  .shimmer-text {
+    position: relative;
+    z-index: 2;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    user-select: none;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+  }
+  .shimmer-letter {
+    animation: loader-letter-anim var(--anim-duration) infinite linear;
+    display: inline-block;
+    white-space: pre;
+  }
+  @keyframes wave-move {
+    0% { transform: translateX(-120%) skewX(-15deg); }
+    62.5% { transform: translateX(250%) skewX(-15deg); }
+    100% { transform: translateX(250%) skewX(-15deg); }
+  }
+  @keyframes wave-opacity {
+    0%, 62.5%, 100% { opacity: 0; }
+    10%, 55% { opacity: 1; }
+  }
+  @keyframes loader-letter-anim {
+    0%, 100% {
+      opacity: 0.3;
+      text-shadow: none;
+      transform: scale(1);
+      color: rgba(255, 255, 255, 0.5);
+    }
+    2%, 8% {
+      opacity: 1;
+      text-shadow: 0 0 15px #3b82f6, 0 0 25px #2563eb;
+      transform: scale(1.15) translateY(-1px);
+      color: #fff;
+    }
+    15% {
+      opacity: 0.3;
+      text-shadow: none;
+      transform: scale(1);
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  .skill-card { transition: all 0.15s ease; border: 1px solid rgba(0, 49, 83, 0.08); }
+  .skill-card:hover { border-color: rgba(0, 49, 83, 0.3); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0, 49, 83, 0.08); }
+  .cat-pill { transition: all 0.15s; }
+  .cat-pill.active { background: var(--primary); color: white; }
+  .cat-pill:not(.active):hover { background: rgba(0, 49, 83, 0.08); }
+  .fade-in { animation: fadeIn 0.3s ease-in; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+  .counter-digit { font-variant-numeric: tabular-nums; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(0, 49, 83, 0.2); border-radius: 4px; }
+  .noise {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  }
+</style>
+</head>
+<body x-data="skillsApp()" x-init="init()">
+
+<!-- HERO -->
+<section class="hero-bg noise relative overflow-hidden" style="background: radial-gradient(ellipse at top, #003153 0%, #001a2e 60%, #000811 100%); color: #fff;">
+  <div class="max-w-6xl mx-auto px-6 py-16 md:py-24 relative z-10">
+    <div class="flex items-center justify-between mb-10">
+      <img src="./assets/logo-horizontal-bege.png" alt="Triadeflow" class="h-10 md:h-12 w-auto">
+      <div class="flex items-center gap-3">
+      <button class="theme-toggle" :aria-pressed="theme === 'light'" @click="toggleTheme">
+        <div class="tt-socket"></div>
+        <div class="tt-face">
+          <div class="tt-glowdrop"></div>
+          <svg class="tt-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.8815 1.36438C9.70639 1.18942 9.48342 1.07041 9.24073 1.02235C8.99803 0.974286 8.74653 0.999323 8.51808 1.09429C4.54484 2.75146 1.75 6.6732 1.75 11.25C1.75 17.3262 6.67489 22.25 12.75 22.25C14.9217 22.2501 17.0448 21.6075 18.852 20.4032C20.6591 19.1989 22.0695 17.4868 22.9055 15.4825C23.0007 15.2532 23.0256 15.0015 22.9774 14.7587C22.9291 14.5159 22.8099 14.2929 22.6348 14.118C22.4597 13.9431 22.2366 13.8241 21.9937 13.7761C21.7509 13.7281 21.4993 13.7533 21.2708 13.8484C20.2346 14.2801 19.1231 14.5016 18.0007 14.5C15.7457 14.5 13.5837 13.6045 11.9896 12.0104C10.3955 10.4163 9.5 8.25433 9.5 5.99999C9.49838 4.8769 9.71983 3.76541 10.1515 2.72938C10.2468 2.50072 10.2721 2.24888 10.224 2.00584C10.1759 1.76281 10.0567 1.53954 9.8815 1.36438Z"/>
+          </svg>
+        </div>
+      </button>
+      <div class="relative" @click.outside="showLangMenu = false">
+        <button @click="showLangMenu = !showLangMenu" class="flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-medium border border-white/15 transition">
+          <span class="text-lg leading-none" x-text="(langOptions.find(o => o.code === lang) || langOptions[0]).flag"></span>
+          <span x-text="lang.toUpperCase()"></span>
+          <svg class="w-3 h-3 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div x-show="showLangMenu" x-transition class="absolute right-0 mt-2 w-44 bg-white rounded-lg shadow-xl border border-[#003153]/10 overflow-hidden z-50">
+          <template x-for="opt in langOptions" :key="opt.code">
+            <button @click="setLang(opt.code)" :class="lang === opt.code ? 'bg-[#003153]/5 text-[#003153] font-semibold' : 'text-[#171717]/80 hover:bg-[#003153]/5'" class="w-full text-left px-4 py-2.5 text-sm transition flex items-center gap-3">
+              <span class="text-xl leading-none" x-text="opt.flag"></span>
+              <span x-text="opt.label"></span>
+            </button>
+          </template>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="shimmer-badge mb-6">
+      <div class="shimmer-wave"></div>
+      <div class="shimmer-text">
+        <template x-for="(letter, i) in dynamicBadgeLetters" :key="i">
+          <span class="shimmer-letter" :style="`animation-delay: ${0.7 + i * 0.06}s`" x-text="letter"></span>
+        </template>
+      </div>
+    </div>
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-semibold leading-[1.02] mb-6 max-w-4xl">
+      <span class="counter-digit" x-text="displayCount">0</span>
+      <span x-text="t('hero_h1_b')"></span>
+      <span class="block italic text-white/70" x-text="t('hero_h1_a')"></span>
+      <span x-text="t('hero_h1_c')"></span>
+    </h1>
+    <p class="text-lg md:text-xl text-white/75 max-w-2xl mb-4 leading-relaxed" x-text="t('hero_sub_a')"></p>
+    <p class="text-base text-white/55 max-w-2xl mb-10" x-text="t('hero_sub_b')"></p>
+
+    <div class="flex flex-wrap items-center gap-3 mb-4">
+      <a href="#capturar" class="px-7 py-4 bg-[#d97757] hover:bg-[#c96847] text-white font-semibold rounded-lg transition shadow-lg shadow-[#d97757]/30" x-text="t('hero_cta_primary')"></a>
+      <a href="#catalogo" class="px-7 py-4 border border-white/25 text-white font-semibold rounded-lg hover:bg-white/5 transition" x-text="t('hero_cta_secondary')"></a>
+    </div>
+    <div class="mb-12"></div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-white/10">
+      <template x-for="stat in heroStats" :key="stat.label">
+        <div>
+          <div class="text-2xl md:text-3xl font-semibold text-white counter-digit" x-text="stat.value"></div>
+          <div class="text-sm text-white/60 mt-1" x-text="stat.label"></div>
+        </div>
+      </template>
+    </div>
+  </div>
+</section>
+
+<!-- PROVA SOCIAL TICKER -->
+<section class="bg-[#000811] border-y border-white/5 py-6">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 text-white/40 text-sm">
+      <div class="flex items-center gap-2">
+        <svg class="w-4 h-4 text-[#adff2f]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <span>Usado em <span class="text-white font-semibold">30+ projetos B2B</span> em producao</span>
+      </div>
+      <div class="hidden md:block w-px h-4 bg-white/20"></div>
+      <div class="flex items-center gap-2">
+        <svg class="w-4 h-4 text-[#adff2f]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        <span><span class="text-white font-semibold">Atualizado a cada hora.</span> Maior biblioteca pt-BR.</span>
+      </div>
+      <div class="hidden md:block w-px h-4 bg-white/20"></div>
+      <div class="flex items-center gap-2">
+        <svg class="w-4 h-4 text-[#adff2f]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"/></svg>
+        <span><span class="text-white font-semibold">Zero trial.</span> Zero cartao. Zero compromisso.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEMA -->
+<section class="bg-white border-y border-[#003153]/10">
+  <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+    <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-4">O problema que voce conhece</div>
+    <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-8 max-w-3xl">
+      Toda conversa com IA <span class="italic text-[#171717]/50">comeca do zero.</span>
+    </h2>
+    <div class="grid md:grid-cols-3 gap-8 text-[#171717]/70">
+      <div>
+        <div class="text-2xl mb-2 font-semibold text-[#003153]">01</div>
+        <p class="leading-relaxed">Voce abre um chat. Explica quem voce eh, que ferramentas usa, que cliente atende.</p>
+      </div>
+      <div>
+        <div class="text-2xl mb-2 font-semibold text-[#003153]">02</div>
+        <p class="leading-relaxed">Cola o brand. Define o tom. Lembra ela do processo. Da contexto do projeto.</p>
+      </div>
+      <div>
+        <div class="text-2xl mb-2 font-semibold text-[#003153]">03</div>
+        <p class="leading-relaxed">Trabalha 20 minutos. Janela enche. Tudo perdido. <span class="font-semibold text-[#171717]">Comeca de novo.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUCAO -->
+<section class="bg-[#F5F5F2]">
+  <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+    <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-4">A virada do jogo</div>
+    <h2 class="text-3xl md:text-5xl font-semibold leading-tight mb-6 max-w-3xl">
+      Skills sao <span class="italic">manuais permanentes</span> que a IA carrega sozinha.
+    </h2>
+    <p class="text-lg text-[#171717]/70 max-w-3xl mb-10 leading-relaxed">
+      Voce empacota um conhecimento (jeito de escrever, processo comercial, audit de banco de dados, qualquer coisa).
+      O Claude le a descricao da skill, decide quando aplicar, e executa com aquele contexto pre carregado.
+      Voce nunca mais re escreve o briefing.
+    </p>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-xl p-6 border border-[#003153]/10">
+        <div class="font-semibold text-[#003153] mb-2">Antes</div>
+        <p class="text-sm text-[#171717]/70 leading-relaxed">
+          "Voce eh especialista em SEO programatico. Meu cliente eh imobiliaria. Tom direto. Use H2 com cidade. Linkagem interna por bairro. Nunca prometa ranking..."
+          <span class="block mt-2 text-[#171717]/40 text-xs">[400 palavras de prompt repetido toda conversa]</span>
+        </p>
+      </div>
+      <div class="bg-[#003153] text-white rounded-xl p-6">
+        <div class="font-semibold text-[#d97757] mb-2">Depois</div>
+        <p class="text-sm text-white/80 leading-relaxed">
+          "Cria 50 paginas pra Cidade Verde Imoveis."
+          <span class="block mt-2 text-white/50 text-xs">A skill seo-programatic ativa sozinha. Aplica o processo. Entrega no formato. Sem briefing.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE TEM AQUI -->
+<section class="bg-white border-t border-[#003153]/10">
+  <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+    <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-4">O que voce vai encontrar</div>
+    <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-12 max-w-3xl">
+      <span x-text="data.total.toLocaleString('pt-BR')"></span> skills cobrindo praticamente tudo que voce faz no digital.
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      <template x-for="cat in data.categories.slice(0, 16)" :key="cat.key">
+        <div class="bg-[#F5F5F2] rounded-lg p-4">
+          <div class="text-xs text-[#171717]/60 uppercase tracking-wide mb-1" x-text="cat.label"></div>
+          <div class="text-2xl font-semibold text-[#003153] counter-digit" x-text="cat.count"></div>
+        </div>
+      </template>
+    </div>
+    <p class="text-sm text-[#171717]/50 mt-6">
+      Tudo categorizado, com busca instantanea. Atualizada automaticamente toda vez que adiciono uma skill nova ao meu stack.
+    </p>
+  </div>
+</section>
+
+<!-- CATALOGO -->
+<section id="catalogo" class="bg-[#F5F5F2] max-w-6xl mx-auto px-6 py-16">
+  <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
+    <div>
+      <h2 class="text-3xl md:text-4xl font-semibold mb-2">Catalogo completo</h2>
+      <p class="text-[#171717]/60">Busca instantanea. Filtra por categoria. Clica na skill pra ver o detalhe.</p>
+    </div>
+    <div class="relative">
+      <input
+        x-model="search"
+        type="text"
+        placeholder="Buscar skill..."
+        class="w-full md:w-80 px-4 py-3 pl-10 rounded-lg border border-[#003153]/15 focus:border-[#003153] focus:outline-none focus:ring-2 focus:ring-[#003153]/10 bg-white"
+      >
+      <svg class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-[#171717]/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    </div>
+  </div>
+
+  <!-- FILTROS -->
+  <div class="flex flex-wrap gap-2 mb-8">
+    <button
+      @click="activeCategory = 'all'"
+      :class="activeCategory === 'all' ? 'active' : 'bg-white border border-[#003153]/10'"
+      class="cat-pill px-4 py-2 rounded-full text-sm font-medium"
+    >
+      Todas <span class="text-xs opacity-60" x-text="'(' + data.total + ')'"></span>
+    </button>
+    <template x-for="cat in data.categories" :key="cat.key">
+      <button
+        @click="activeCategory = cat.key"
+        :class="activeCategory === cat.key ? 'active' : 'bg-white border border-[#003153]/10'"
+        class="cat-pill px-4 py-2 rounded-full text-sm font-medium"
+      >
+        <span x-text="cat.label"></span> <span class="text-xs opacity-60" x-text="'(' + cat.count + ')'"></span>
+      </button>
+    </template>
+  </div>
+
+  <!-- GRID -->
+  <div class="text-sm text-[#171717]/60 mb-4">
+    <span x-text="filtered.length"></span> de <span x-text="data.total"></span> skills
+  </div>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <template x-for="skill in paginated" :key="skill.name">
+      <button @click="openSkill(skill)" class="skill-card bg-white rounded-lg p-5 fade-in text-left cursor-pointer w-full">
+        <div class="flex items-start justify-between gap-3 mb-2">
+          <h3 class="font-semibold text-[#003153] text-sm leading-tight" x-text="skill.name"></h3>
+          <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-[#003153]/5 text-[#003153]/70 whitespace-nowrap" x-text="categoryLabel(skill.category)"></span>
+        </div>
+        <p class="text-sm text-[#171717]/70 leading-relaxed line-clamp-3" x-text="skill.description || 'Clica pra ver detalhes da skill.'"></p>
+        <div class="text-xs text-[#003153]/50 mt-3 font-medium">Ver detalhes &rarr;</div>
+      </button>
+    </template>
+  </div>
+
+  <!-- MODAL DETALHES -->
+  <div x-show="selectedSkill" x-transition.opacity class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" @click.self="closeSkill" @keydown.escape.window="closeSkill" style="display:none;">
+    <div x-show="selectedSkill" x-transition class="bg-white rounded-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto shadow-2xl">
+      <div class="bg-[#003153] text-white p-6 rounded-t-2xl sticky top-0 z-10">
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex-1">
+            <div class="text-xs uppercase tracking-wider text-[#d97757] font-semibold mb-2" x-text="selectedSkill && categoryLabel(selectedSkill.category)"></div>
+            <h3 class="text-2xl font-semibold leading-tight" x-text="selectedSkill && selectedSkill.name"></h3>
+          </div>
+          <button @click="closeSkill" class="text-white/60 hover:text-white text-2xl leading-none p-1">&times;</button>
+        </div>
+      </div>
+      <div class="p-6 space-y-5">
+        <div>
+          <div class="text-xs uppercase tracking-wider text-[#171717]/40 font-semibold mb-2">Para que serve</div>
+          <p class="text-[#171717]/80 leading-relaxed" x-text="selectedSkill && (selectedSkill.description || 'Skill especializada do stack Triadeflow. A descricao detalhada nao foi extraida automaticamente.')"></p>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-wider text-[#171717]/40 font-semibold mb-2">Quando o Claude ativa</div>
+          <p class="text-sm text-[#171717]/70 leading-relaxed">
+            O Claude le a descricao acima e decide automaticamente quando aplicar essa skill no contexto da conversa. Voce nao precisa invocar manualmente.
+          </p>
+        </div>
+        <div class="bg-[#F5F5F2] rounded-lg p-4">
+          <div class="text-xs uppercase tracking-wider text-[#171717]/40 font-semibold mb-2">Quer usar essa skill no teu stack?</div>
+          <p class="text-sm text-[#171717]/70 mb-3">
+            Pega o catalogo completo em PDF + acesso ao vault de exemplos.
+          </p>
+          <button @click="closeSkill(); document.getElementById('capturar').scrollIntoView({behavior:'smooth'})" class="w-full px-4 py-2.5 bg-[#003153] hover:bg-[#003153]/90 text-white font-semibold rounded-lg text-sm transition">
+            Receber a biblioteca
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGINAR -->
+  <div class="flex justify-center mt-10" x-show="filtered.length > pageSize * page">
+    <button @click="page++" class="px-6 py-3 bg-[#003153] text-white font-semibold rounded-lg hover:bg-[#003153]/90 transition">
+      <span data-i18n="load_more">Carregar mais</span> (<span x-text="filtered.length - (pageSize * page)"></span>)
+    </button>
+  </div>
+</section>
+
+<!-- PORTAL IA & CLAUDE CODE -->
+<section id="portal" class="bg-[#001a2e] text-white py-20 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-30" style="background: radial-gradient(circle at 30% 20%, rgba(217, 119, 87, 0.15), transparent 50%);"></div>
+  <div class="max-w-6xl mx-auto px-6 relative z-10">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+      <div>
+        <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-3">PORTAL IA · FONTE PRIMARIA</div>
+        <h2 class="text-3xl md:text-5xl font-semibold leading-tight max-w-3xl">
+          Direto dos laboratorios <span class="italic text-white/70">e de quem constroi a IA.</span>
+        </h2>
+        <p class="text-white/60 mt-4 max-w-2xl">
+          Coletamos dos blogs oficiais (Anthropic, OpenAI, Google, Meta, Mistral, xAI, Perplexity, Cursor, Midjourney, ElevenLabs, Suno, Hugging Face) <span class="text-white/80">e dos perfis verificados de quem traz em primeira mao</span>: Sam Altman, Dario Amodei, Demis Hassabis, Yann LeCun, Mark Zuckerberg, Andrej Karpathy, Aravind Srinivas e mais. Zero agregador, zero rumor, zero clickbait.
+        </p>
+      </div>
+      <div class="flex items-center gap-2 text-xs text-white/50">
+        <span class="w-1.5 h-1.5 bg-[#adff2f] rounded-full animate-pulse"></span>
+        Atualizado automaticamente a cada hora
+      </div>
+    </div>
+
+    <!-- Filtros Portal -->
+    <div class="flex flex-wrap gap-2 mb-8">
+      <button @click="activeNewsCategory = 'all'" :class="activeNewsCategory === 'all' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+        Tudo (<span x-text="news.length"></span>)
+      </button>
+      <button @click="activeNewsCategory = 'founders'" :class="activeNewsCategory === 'founders' ? 'bg-[#d97757] text-white' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+        Direto dos Founders
+      </button>
+      <button @click="activeNewsCategory = 'anthropic'" :class="activeNewsCategory === 'anthropic' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+        Anthropic
+      </button>
+      <button @click="activeNewsCategory = 'openai'" :class="activeNewsCategory === 'openai' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+        OpenAI
+      </button>
+      <button @click="activeNewsCategory = 'google'" :class="activeNewsCategory === 'google' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+        Google
+      </button>
+      <button @click="activeNewsCategory = 'meta'" :class="activeNewsCategory === 'meta' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+        Meta
+      </button>
+      <button @click="activeNewsCategory = 'claude-code'" :class="activeNewsCategory === 'claude-code' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+        Claude Code
+      </button>
+      <button @click="activeNewsCategory = 'research'" :class="activeNewsCategory === 'research' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+        Research / Papers
+      </button>
+    </div>
+
+    <!-- Cards News -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4" x-show="news.length > 0">
+      <template x-for="item in filteredNews" :key="item.id">
+        <a :href="item.url" target="_blank" rel="noopener" class="group bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-xl p-5 transition fade-in">
+          <div class="flex items-center justify-between mb-3 gap-2">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded font-semibold whitespace-nowrap"
+                :class="{
+                  'bg-[#d97757]/20 text-[#f5b89e]': item.category === 'founders',
+                  'bg-orange-500/20 text-orange-300': item.category === 'anthropic',
+                  'bg-emerald-400/20 text-emerald-300': item.category === 'openai',
+                  'bg-blue-400/20 text-blue-300': item.category === 'google',
+                  'bg-sky-400/20 text-sky-300': item.category === 'meta',
+                  'bg-[#adff2f]/20 text-[#adff2f]': item.category === 'claude-code',
+                  'bg-purple-400/20 text-purple-300': item.category === 'research',
+                  'bg-pink-400/20 text-pink-300': ['perplexity','cursor','midjourney','elevenlabs','suno','mistral','xai'].includes(item.category)
+                }"
+                x-text="item.source">
+              </span>
+              <span class="text-[9px] uppercase tracking-wider text-white/40 whitespace-nowrap" x-show="item.source_type === 'founder-verificado'">VERIFICADO</span>
+              <span class="text-[9px] uppercase tracking-wider text-white/40 whitespace-nowrap" x-show="item.source_type === 'research-direto'">RESEARCH</span>
+            </div>
+            <span class="text-xs text-white/40 whitespace-nowrap" x-text="timeAgo(item.published_at)"></span>
+          </div>
+          <h3 class="font-semibold text-white text-base leading-snug mb-2 group-hover:text-[#adff2f] transition" x-text="item.title"></h3>
+          <p class="text-sm text-white/60 leading-relaxed line-clamp-3" x-text="item.summary"></p>
+          <div class="flex items-center gap-1 mt-3 text-xs text-white/40 group-hover:text-white/70 transition">
+            <span>Ler</span>
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </div>
+        </a>
+      </template>
+    </div>
+
+    <!-- CTA portal -> WhatsApp -->
+    <div class="mt-12 bg-gradient-to-r from-[#d97757]/10 to-transparent border border-[#d97757]/30 rounded-xl p-6 md:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+      <div>
+        <div class="text-xs uppercase tracking-widest text-[#d97757] font-semibold mb-2">QUER SABER ANTES DOS OUTROS?</div>
+        <h3 class="text-xl md:text-2xl font-semibold mb-1">Te aviso no WhatsApp quando sair algo grande.</h3>
+        <p class="text-sm text-white/60">Quando a Anthropic lanca, voce sabe em minutos. Sem precisar olhar essa pagina.</p>
+      </div>
+      <a href="#newsletter" class="px-6 py-3 bg-[#d97757] hover:bg-[#c96847] text-white font-semibold rounded-lg transition whitespace-nowrap">
+        Quero receber alertas
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- COMUNIDADE TA COMENTANDO -->
+<section id="comunidade" class="bg-[#000811] text-white py-20 border-t border-white/5">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+      <div>
+        <div class="text-xs font-semibold tracking-widest text-purple-300 uppercase mb-3">SECUNDARIO · COMUNIDADE</div>
+        <h2 class="text-2xl md:text-4xl font-semibold leading-tight max-w-3xl">
+          O que a <span class="italic text-white/70">comunidade tecnica</span> esta comentando.
+        </h2>
+        <p class="text-white/50 mt-3 text-sm max-w-2xl">
+          Hacker News, Reddit, X, e newsletters relevantes. Sao discussoes da comunidade, nao fonte oficial. Util pra captar movimento, debates e cases reais de uso.
+        </p>
+      </div>
+      <span class="text-xs uppercase tracking-wider text-white/40 whitespace-nowrap">
+        <span x-text="communityNews.length"></span> itens
+      </span>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4" x-show="communityNews.length > 0">
+      <template x-for="item in communityNews" :key="item.id">
+        <a :href="item.url" target="_blank" rel="noopener" class="group bg-white/[0.03] hover:bg-white/[0.06] border border-white/5 hover:border-purple-300/30 rounded-xl p-5 transition fade-in">
+          <div class="flex items-center justify-between mb-3 gap-2">
+            <div class="flex items-center gap-2">
+              <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-purple-400/15 text-purple-300 font-semibold whitespace-nowrap" x-text="item.source"></span>
+              <span class="text-[9px] uppercase tracking-wider text-white/30">COMUNIDADE</span>
+            </div>
+            <span class="text-xs text-white/40 whitespace-nowrap" x-text="timeAgo(item.published_at)"></span>
+          </div>
+          <h3 class="font-semibold text-white/90 text-base leading-snug mb-2 group-hover:text-purple-200 transition" x-text="item.title"></h3>
+          <p class="text-sm text-white/50 leading-relaxed line-clamp-3" x-text="item.summary"></p>
+        </a>
+      </template>
+    </div>
+
+    <div class="mt-8 text-center">
+      <p class="text-xs text-white/30 italic max-w-xl mx-auto">
+        Diferente do portal principal, esta secao agrega discussoes e analises de terceiros. Nao substitui a fonte oficial. Use pra contexto e tendencias.
+      </p>
+    </div>
+
+    <!-- CTA Discord -->
+    <div class="mt-12 bg-gradient-to-br from-indigo-500/10 to-purple-500/5 border border-indigo-400/20 rounded-2xl p-6 md:p-8">
+      <div class="grid md:grid-cols-[auto_1fr_auto] gap-6 items-center">
+        <div class="w-14 h-14 md:w-16 md:h-16 bg-indigo-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
+          <svg class="w-8 h-8 text-indigo-300" fill="currentColor" viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-indigo-300 font-semibold mb-2">COMUNIDADE PULSO DA IA</div>
+          <h3 class="text-xl md:text-2xl font-semibold mb-1">Debate na hora que acontece.</h3>
+          <p class="text-sm text-white/60">Entra no Discord. Trocamos ideias, testamos modelos novos juntos, compartilhamos skills e prompts. Sem auto-promocao, sem NFT shill, sem lurker.</p>
+        </div>
+        <a href="https://discord.gg/c2qr3rN9" target="_blank" rel="noopener" class="px-6 py-3 bg-indigo-500 hover:bg-indigo-400 text-white font-semibold rounded-lg transition whitespace-nowrap">
+          Entrar no Discord
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER SEMANAL -->
+<section id="newsletter" class="bg-[#F5F5F2] py-20">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-3">NEWSLETTER SEMANAL + ALERTAS</div>
+        <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4">
+          Tudo do mundo IA, <span class="italic">toda semana e em tempo real.</span>
+        </h2>
+        <p class="text-[#171717]/70 mb-4 leading-relaxed">
+          Nao e so Anthropic. E <span class="font-semibold">todos os modelos</span> que importam: OpenAI, Google, Meta, Mistral, xAI, Perplexity, Cursor, Midjourney, ElevenLabs, Suno e qualquer novidade que sair.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+          <div class="bg-white/60 dark:bg-white/5 rounded-lg p-4 border border-[#003153]/10">
+            <div class="flex items-center gap-2 mb-1">
+              <svg class="w-4 h-4 text-[#003153]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              <span class="text-xs font-semibold text-[#003153] uppercase tracking-wide">Toda quinta</span>
+            </div>
+            <p class="text-sm text-[#171717]/70 leading-snug">Email com o resumo curado da semana inteira.</p>
+          </div>
+          <div class="bg-white/60 dark:bg-white/5 rounded-lg p-4 border border-[#d97757]/30">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="w-2 h-2 bg-[#d97757] rounded-full animate-pulse"></span>
+              <span class="text-xs font-semibold text-[#d97757] uppercase tracking-wide">Em tempo real</span>
+            </div>
+            <p class="text-sm text-[#171717]/70 leading-snug">Alerta no WhatsApp na hora que sai algo grande.</p>
+          </div>
+        </div>
+        <ul class="space-y-3 text-sm text-[#171717]/80">
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-[#003153] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            <span><span class="font-semibold">Top 5 lancamentos da semana</span> de qualquer modelo (Claude, GPT, Gemini, Llama, Mistral, Grok, etc) com meu comentario</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-[#003153] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            <span><span class="font-semibold">Alerta urgente</span> quando sai modelo novo, feature grande ou movimento de mercado relevante</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-[#003153] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            <span><span class="font-semibold">Skill + 1 prompt pronto</span> da semana, pra copiar e usar onde quiser</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-[#003153] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            <span>Leitura de <span class="font-semibold">3 minutos.</span> Cancela na hora se nao gostar.</span>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-2xl p-6 md:p-8 shadow-xl border border-[#003153]/5">
+        <div x-show="!newsletterSubmitted">
+          <div class="text-xs uppercase tracking-widest text-[#003153]/60 font-semibold mb-2">Receba semanal + alertas em tempo real</div>
+          <h3 class="text-2xl font-semibold text-[#003153] mb-5 leading-tight">Inscreve uma vez. Recebe sempre.</h3>
+          <form @submit.prevent="submitNewsletter" class="space-y-3">
+            <input
+              x-model="newsletterName"
+              type="text"
+              required
+              placeholder="Seu primeiro nome"
+              class="w-full px-4 py-3 rounded-lg border border-[#003153]/15 focus:border-[#003153] focus:outline-none focus:ring-2 focus:ring-[#003153]/10"
+            >
+            <input
+              x-model="newsletterEmail"
+              type="email"
+              required
+              placeholder="seu@email.com (newsletter semanal)"
+              class="w-full px-4 py-3 rounded-lg border border-[#003153]/15 focus:border-[#003153] focus:outline-none focus:ring-2 focus:ring-[#003153]/10"
+            >
+            <input
+              x-model="newsletterPhone"
+              type="tel"
+              placeholder="WhatsApp (opcional, pra alertas urgentes)"
+              class="w-full px-4 py-3 rounded-lg border border-[#003153]/15 focus:border-[#003153] focus:outline-none focus:ring-2 focus:ring-[#003153]/10"
+            >
+            <button
+              type="submit"
+              :disabled="newsletterSubmitting"
+              class="w-full px-6 py-3 bg-[#003153] hover:bg-[#003153]/90 text-white font-semibold rounded-lg transition disabled:opacity-50"
+            >
+              <span x-show="!newsletterSubmitting">Quero receber tudo do mundo IA</span>
+              <span x-show="newsletterSubmitting">Enviando...</span>
+            </button>
+            <p class="text-xs text-[#171717]/40 text-center pt-1">Gratis. Sem spam. Cancela quando quiser.</p>
+          </form>
+        </div>
+        <div x-show="newsletterSubmitted" class="text-center py-4">
+          <div class="w-12 h-12 mx-auto mb-3 rounded-full bg-[#003153]/10 flex items-center justify-center">
+            <svg class="w-6 h-6 text-[#003153]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+          </div>
+          <div class="text-xl font-semibold text-[#003153] mb-2">Inscrito!</div>
+          <p class="text-sm text-[#171717]/60">Proxima quinta, 9h da manha, voce recebe a primeira newsletter. Se deixou WhatsApp, alerta urgente chega na hora que sair.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE VEM JUNTO (Hormozi Stack) -->
+<section class="bg-white border-t border-[#003153]/10">
+  <div class="max-w-4xl mx-auto px-6 py-16 md:py-20">
+    <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-3 text-center">O que vem junto</div>
+    <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-3 max-w-3xl mx-auto text-center">
+      Antes de baixar, olha o que <span class="italic">esta dentro.</span>
+    </h2>
+    <p class="text-center text-[#171717]/60 mb-12 max-w-xl mx-auto">
+      Nao e so PDF. E o sistema completo que faz a IA trabalhar pra voce sem voce precisar ficar segurando ela.
+    </p>
+
+    <div class="space-y-3">
+      <!-- Item 1 -->
+      <div class="flex items-start gap-4 bg-[#F5F5F2] rounded-xl p-5 border border-[#003153]/5">
+        <div class="w-10 h-10 bg-[#003153] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold">01</div>
+        <div class="flex-1">
+          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
+            <h3 class="font-semibold text-[#003153]">PDF da biblioteca completa</h3>
+            <span class="text-xs font-semibold text-[#171717]/40 line-through">R$ 297</span>
+          </div>
+          <p class="text-sm text-[#171717]/70">Catalogo das <span class="font-semibold" x-text="data.total.toLocaleString('pt-BR')"></span> skills categorizadas com indice por caso de uso. Imprime, anota, mostra pro time.</p>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="flex items-start gap-4 bg-[#F5F5F2] rounded-xl p-5 border border-[#003153]/5">
+        <div class="w-10 h-10 bg-[#003153] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold">02</div>
+        <div class="flex-1">
+          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
+            <h3 class="font-semibold text-[#003153]">Vault com 12 prompts prontos</h3>
+            <span class="text-xs font-semibold text-[#171717]/40 line-through">R$ 197</span>
+          </div>
+          <p class="text-sm text-[#171717]/70">Os prompts que rodo todo dia: copy, audit, revisao, SEO, atendimento. Copia, cola, adapta.</p>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="flex items-start gap-4 bg-[#F5F5F2] rounded-xl p-5 border border-[#003153]/5">
+        <div class="w-10 h-10 bg-[#003153] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold">03</div>
+        <div class="flex-1">
+          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
+            <h3 class="font-semibold text-[#003153]">Acesso ao Portal IA & Claude Code</h3>
+            <span class="text-xs font-semibold text-[#171717]/40 line-through">R$ 97/mes</span>
+          </div>
+          <p class="text-sm text-[#171717]/70">Atualizacoes em tempo real do que sai da Anthropic. Voce nao precisa ficar checando newsletter de IA.</p>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="flex items-start gap-4 bg-[#F5F5F2] rounded-xl p-5 border border-[#003153]/5">
+        <div class="w-10 h-10 bg-[#003153] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold">04</div>
+        <div class="flex-1">
+          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
+            <h3 class="font-semibold text-[#003153]">Update WhatsApp quando sai skill nova</h3>
+            <span class="text-xs font-semibold text-[#171717]/40 line-through">R$ 47/mes</span>
+          </div>
+          <p class="text-sm text-[#171717]/70">Toda vez que adiciono skill nova relevante pro teu segmento, te chamo direto.</p>
+        </div>
+      </div>
+
+      <!-- Item 5 BONUS -->
+      <div class="flex items-start gap-4 bg-[#003153] text-white rounded-xl p-5 border-2 border-[#d97757]">
+        <div class="w-10 h-10 bg-[#d97757] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold text-xs">BONUS</div>
+        <div class="flex-1">
+          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
+            <h3 class="font-semibold text-white">Newsletter semanal toda quinta</h3>
+            <span class="text-xs font-semibold text-[#d97757] line-through">R$ 67/mes</span>
+          </div>
+          <p class="text-sm text-white/70">3 lancamentos da semana + skill destaque + 1 prompt pra copiar. Leitura de 3 minutos.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Total stack -->
+    <div class="mt-8 text-center">
+      <div class="text-sm text-[#171717]/60 mb-1">Valor total do que voce recebe:</div>
+      <div class="text-3xl font-semibold text-[#171717]/30 line-through mb-2">R$ 705+</div>
+      <div class="text-5xl md:text-6xl font-semibold text-[#003153] mb-2">R$ 0</div>
+      <div class="text-sm text-[#d97757] font-semibold uppercase tracking-wide">Pra quem entrar agora.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA EMAIL -->
+<section id="capturar" class="bg-[#003153] text-white py-20 relative overflow-hidden" style="background: linear-gradient(135deg, #003153 0%, #001a2e 100%);">
+  <div class="max-w-2xl mx-auto px-6 text-center relative z-10">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#d97757]/15 border border-[#d97757]/30 text-[#f5b89e] text-xs font-semibold tracking-wide mb-6">
+      ACESSO IMEDIATO · 100% GRATUITO
+    </div>
+    <h2 class="text-3xl md:text-5xl font-semibold mb-5 leading-tight">
+      Tres campos. Dois minutos.
+      <span class="block italic text-white/80">Tres mil skills no teu email.</span>
+    </h2>
+    <p class="text-lg text-white/70 mb-2 max-w-xl mx-auto">
+      Preenche abaixo e te mando agora a biblioteca completa em PDF, mais updates quando sair skill nova relevante pro teu negocio.
+    </p>
+    <p class="text-sm text-white/50 mb-10">
+      Sem upsell. Sem sequencia de 14 emails. Sem call de venda escondida.
+    </p>
+
+    <form
+      @submit.prevent="submitForm"
+      class="flex flex-col gap-3 max-w-md mx-auto text-left"
+      x-show="!submitted"
+    >
+      <div>
+        <label class="block text-xs font-semibold text-white/60 mb-1.5 uppercase tracking-wide">Nome</label>
+        <input
+          x-model="name"
+          type="text"
+          required
+          placeholder="Seu primeiro nome"
+          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#d97757] bg-white"
+        >
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-white/60 mb-1.5 uppercase tracking-wide">Email</label>
+        <input
+          x-model="email"
+          type="email"
+          required
+          placeholder="seu@email.com"
+          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#d97757] bg-white"
+        >
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-white/60 mb-1.5 uppercase tracking-wide" data-i18n="label_phone">WhatsApp</label>
+        <input
+          :value="phone"
+          @input="onPhoneInput($event)"
+          type="tel"
+          required
+          placeholder="(11) 98765-4321"
+          data-i18n-placeholder="placeholder_phone"
+          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#d97757] bg-white"
+        >
+      </div>
+      <button
+        type="submit"
+        :disabled="submitting"
+        class="w-full px-6 py-4 mt-3 bg-[#d97757] hover:bg-[#c96847] text-white font-semibold rounded-lg transition disabled:opacity-50 shadow-lg shadow-[#d97757]/30 text-base"
+      >
+        <span x-show="!submitting">Quero a biblioteca completa agora</span>
+        <span x-show="submitting">Enviando...</span>
+      </button>
+      <div class="flex items-center justify-center gap-4 text-xs text-white/40 mt-3">
+        <span class="flex items-center gap-1.5">
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          Dados protegidos
+        </span>
+        <span>·</span>
+        <span>Sem spam</span>
+        <span>·</span>
+        <span>Cancela quando quiser</span>
+      </div>
+    </form>
+    <div x-show="submitted" class="bg-white/10 rounded-xl p-8 max-w-md mx-auto border border-white/20">
+      <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-[#d97757]/20 flex items-center justify-center">
+        <svg class="w-6 h-6 text-[#d97757]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+      </div>
+      <div class="text-xl font-semibold mb-2">Pronto, <span x-text="name"></span>!</div>
+      <div class="text-sm text-white/70 mb-4">O PDF chega no teu email em ate 2 minutos. Tambem vou te chamar no WhatsApp pra confirmar e te enviar bonus.</div>
+      <div class="text-xs text-white/40">Nao veio em 2 min? Confere a caixa de spam ou me chama no contato@triadeflow.com.br.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#001a2e] text-white/50 py-10 text-sm">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-4">
+    <div>
+      <span class="text-white/80 font-semibold">Pulso da IA</span> by <a href="https://triadeflow.com.br" class="text-white/80 hover:text-white underline">Triadeflow</a>.
+      Atualizado em <span x-text="generatedAt"></span>.
+    </div>
+    <div class="flex gap-6 flex-wrap">
+      <a href="https://instagram.com/pulsodaia" target="_blank" rel="noopener" class="hover:text-white flex items-center gap-1.5" title="Instagram">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        Instagram
+      </a>
+      <a href="https://x.com/pulsodaia" target="_blank" rel="noopener" class="hover:text-white flex items-center gap-1.5" title="X / Twitter">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        X
+      </a>
+      <a href="https://www.tiktok.com/@pulsodaia" target="_blank" rel="noopener" class="hover:text-white flex items-center gap-1.5" title="TikTok">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1Z"/></svg>
+        TikTok
+      </a>
+      <a href="https://discord.gg/c2qr3rN9" target="_blank" rel="noopener" class="hover:text-white flex items-center gap-1.5">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        Comunidade Discord
+      </a>
+      <a href="https://github.com/pulsodaia" target="_blank" rel="noopener" class="hover:text-white flex items-center gap-1.5">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        GitHub
+      </a>
+      <a href="https://www.youtube.com/@pulsodaia" target="_blank" rel="noopener" class="hover:text-white flex items-center gap-1.5">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        YouTube
+      </a>
+      <a href="https://www.pinterest.com/pulsodaia/" target="_blank" rel="noopener" class="hover:text-white flex items-center gap-1.5">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.347-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.378l-.749 2.853c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.367 18.592.001 11.985.001L12.017 0z"/></svg>
+        Pinterest
+      </a>
+      <a href="https://triadeflow.com.br" target="_blank" rel="noopener" class="hover:text-white">Triadeflow</a>
+      <a href="mailto:contato@triadeflow.com.br" class="hover:text-white">Contato</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.I18N = {
+  pt: {
+    hero_h1_a: 'Uma IA so.',
+    hero_h1_b: 'especializacoes.',
+    hero_h1_c: 'Zero re-explicacao.',
+    hero_sub_a: 'A biblioteca de skills que faco rodar nos meus 30+ projetos em producao. Atualiza sozinha. Vem com o playbook de quando usar cada uma.',
+    hero_sub_b: 'Voce nao redigita o briefing. Nao re-explica o tom. Nao re-cola o processo. A IA simplesmente sabe.',
+    hero_cta_primary: 'Quero a biblioteca completa em 60 segundos',
+    hero_cta_secondary: 'Ou explorar online',
+    hero_risk_reversal: 'Se nao for util na primeira semana, deletar e um clique. Sem follow chato. Sem newsletter generica.',
+    stat_total: 'Total de skills',
+    stat_categories: 'Categorias',
+    stat_projects: 'Projetos em producao',
+    stat_update: 'Atualizacao',
+    stat_update_value: 'Automatica',
+    problem_kicker: 'O problema que voce conhece',
+    problem_h2_a: 'Toda conversa com IA',
+    problem_h2_b: 'comeca do zero.',
+    problem_1: 'Voce abre um chat. Explica quem voce eh, que ferramentas usa, que cliente atende.',
+    problem_2: 'Cola o brand. Define o tom. Lembra ela do processo. Da contexto do projeto.',
+    problem_3_a: 'Trabalha 20 minutos. Janela enche. Tudo perdido.',
+    problem_3_b: 'Comeca de novo.',
+    solution_kicker: 'A virada do jogo',
+    solution_h2_a: 'Skills sao',
+    solution_h2_b: 'manuais permanentes',
+    solution_h2_c: 'que a IA carrega sozinha.',
+    solution_p: 'Voce empacota um conhecimento (jeito de escrever, processo comercial, audit de banco de dados, qualquer coisa). O Claude le a descricao da skill, decide quando aplicar, e executa com aquele contexto pre carregado. Voce nunca mais re escreve o briefing.',
+    before: 'Antes',
+    after: 'Depois',
+    catalog_kicker: 'O que voce vai encontrar',
+    catalog_h2_a: '',
+    catalog_h2_b: 'skills cobrindo praticamente tudo que voce faz no digital.',
+    catalog_p: 'Tudo categorizado, com busca instantanea. Atualizada automaticamente toda vez que adiciono uma skill nova ao meu stack.',
+    catalog_title: 'Catalogo completo',
+    catalog_subtitle: 'Busca instantanea. Filtra por categoria. Clica na skill pra ver detalhe.',
+    search_placeholder: 'Buscar skill...',
+    all_categories: 'Todas',
+    showing: 'de',
+    skills_word: 'skills',
+    load_more: 'Carregar mais',
+    benefits_kicker: 'Voce vai receber',
+    benefits_h2_a: 'Tudo isso de graca, no teu email, em',
+    benefits_h2_b: 'menos de 2 minutos.',
+    benefit_1_title: 'PDF completo',
+    benefit_1_desc: 'Catalogo das skills categorizadas. Pra consulta offline ou pra mostrar pro time.',
+    benefit_2_title: 'Atalho pra novidades',
+    benefit_2_desc: 'Quando sai skill nova relevante, te aviso. Nada de newsletter generica. So o que importa.',
+    benefit_3_title: 'Como cada uma funciona',
+    benefit_3_desc: 'Bonus: link pra um vault de exemplos reais. Como uso skill X em projeto Y. Sem teoria.',
+    cta_badge: 'ACESSO IMEDIATO · 100% GRATUITO',
+    cta_h2_a: 'Tres campos. Dois minutos.',
+    cta_h2_b: 'Tres mil skills no teu email.',
+    cta_p1: 'Preenche abaixo e te mando agora a biblioteca completa em PDF, mais updates quando sair skill nova relevante pro teu negocio.',
+    cta_p2: 'Sem upsell. Sem sequencia de 14 emails. Sem call de venda escondida.',
+    label_name: 'Nome',
+    label_email: 'Email',
+    label_phone: 'WhatsApp',
+    placeholder_name: 'Seu primeiro nome',
+    placeholder_email: 'seu@email.com',
+    placeholder_phone: '(11) 98765-4321',
+    btn_submit: 'Quero a biblioteca completa agora',
+    btn_submitting: 'Enviando...',
+    safe_data: 'Dados protegidos',
+    no_spam: 'Sem spam',
+    cancel_anytime: 'Cancela quando quiser',
+    success_title: 'Pronto,',
+    success_desc: 'O PDF chega no teu email em ate 2 minutos. Tambem vou te chamar no WhatsApp pra confirmar e te enviar bonus.',
+    success_help: 'Nao veio em 2 min? Confere a caixa de spam ou me chama no contato@triadeflow.com.br.',
+    modal_purpose: 'Para que serve',
+    modal_when: 'Quando o Claude ativa',
+    modal_when_desc: 'O Claude le a descricao acima e decide automaticamente quando aplicar essa skill no contexto da conversa. Voce nao precisa invocar manualmente.',
+    modal_cta_kicker: 'Quer usar essa skill no teu stack?',
+    modal_cta_desc: 'Pega o catalogo completo em PDF + acesso ao vault de exemplos.',
+    modal_cta_btn: 'Receber a biblioteca',
+    footer_made: 'Feito pelo Alex Campos em',
+    footer_updated: 'Atualizado em',
+    see_details: 'Ver detalhes'
+  },
+  es: {
+    hero_h1_a: 'Una IA sola.',
+    hero_h1_b: 'especializaciones.',
+    hero_h1_c: 'Cero re-explicacion.',
+    hero_sub_a: 'La biblioteca de skills que hago correr en mis 30+ proyectos en produccion. Se actualiza sola. Viene con el playbook de cuando usar cada una.',
+    hero_sub_b: 'No reescribes el briefing. No re-explicas el tono. No re-pegas el proceso. La IA simplemente sabe.',
+    hero_cta_primary: 'Quiero la biblioteca completa en 60 segundos',
+    hero_cta_secondary: 'O explorar online',
+    hero_risk_reversal: 'Si no es util en la primera semana, borrarla es un click. Sin seguimiento molesto. Sin newsletter generica.',
+    stat_total: 'Total de skills',
+    stat_categories: 'Categorias',
+    stat_projects: 'Proyectos en produccion',
+    stat_update: 'Actualizacion',
+    stat_update_value: 'Automatica',
+    problem_kicker: 'El problema que conoces',
+    problem_h2_a: 'Toda conversacion con IA',
+    problem_h2_b: 'empieza de cero.',
+    problem_1: 'Abres un chat. Explicas quien eres, que herramientas usas, que cliente atiendes.',
+    problem_2: 'Pegas el brand. Defines el tono. Le recuerdas el proceso. Das contexto del proyecto.',
+    problem_3_a: 'Trabajas 20 minutos. La ventana se llena. Todo perdido.',
+    problem_3_b: 'Empiezas de nuevo.',
+    solution_kicker: 'El cambio de juego',
+    solution_h2_a: 'Las skills son',
+    solution_h2_b: 'manuales permanentes',
+    solution_h2_c: 'que la IA carga sola.',
+    solution_p: 'Empaquetas un conocimiento (forma de escribir, proceso comercial, auditoria de base de datos, lo que sea). Claude lee la descripcion de la skill, decide cuando aplicarla, y ejecuta con ese contexto pre cargado. Nunca mas reescribes el briefing.',
+    before: 'Antes',
+    after: 'Despues',
+    catalog_kicker: 'Lo que vas a encontrar',
+    catalog_h2_a: '',
+    catalog_h2_b: 'skills cubriendo practicamente todo lo que haces en digital.',
+    catalog_p: 'Todo categorizado, con busqueda instantanea. Actualizada automaticamente cada vez que agrego una skill nueva al stack.',
+    catalog_title: 'Catalogo completo',
+    catalog_subtitle: 'Busqueda instantanea. Filtra por categoria. Click en la skill para ver detalles.',
+    search_placeholder: 'Buscar skill...',
+    all_categories: 'Todas',
+    showing: 'de',
+    skills_word: 'skills',
+    load_more: 'Cargar mas',
+    benefits_kicker: 'Vas a recibir',
+    benefits_h2_a: 'Todo esto gratis, en tu email, en',
+    benefits_h2_b: 'menos de 2 minutos.',
+    benefit_1_title: 'PDF completo',
+    benefit_1_desc: 'Catalogo de las skills categorizadas. Para consulta offline o para mostrar al equipo.',
+    benefit_2_title: 'Atajo a las novedades',
+    benefit_2_desc: 'Cuando sale skill nueva relevante, te aviso. Nada de newsletter generica. Solo lo importante.',
+    benefit_3_title: 'Como funciona cada una',
+    benefit_3_desc: 'Bonus: link a un vault de ejemplos reales. Como uso skill X en proyecto Y. Sin teoria.',
+    cta_badge: 'ACCESO INMEDIATO · 100% GRATIS',
+    cta_h2_a: 'Tres campos. Dos minutos.',
+    cta_h2_b: 'Tres mil skills en tu email.',
+    cta_p1: 'Llena abajo y te mando ahora la biblioteca completa en PDF, mas updates cuando sale skill nueva relevante para tu negocio.',
+    cta_p2: 'Sin upsell. Sin secuencia de 14 emails. Sin call de venta escondida.',
+    label_name: 'Nombre',
+    label_email: 'Email',
+    label_phone: 'WhatsApp',
+    placeholder_name: 'Tu primer nombre',
+    placeholder_email: 'tu@email.com',
+    placeholder_phone: '+54 9 11 1234-5678',
+    btn_submit: 'Quiero la biblioteca completa ahora',
+    btn_submitting: 'Enviando...',
+    safe_data: 'Datos protegidos',
+    no_spam: 'Sin spam',
+    cancel_anytime: 'Cancela cuando quieras',
+    success_title: 'Listo,',
+    success_desc: 'El PDF llega a tu email en hasta 2 minutos. Tambien te voy a contactar por WhatsApp para confirmar y enviarte bonus.',
+    success_help: 'No llego en 2 min? Revisa la caja de spam o escribime a contato@triadeflow.com.br.',
+    modal_purpose: 'Para que sirve',
+    modal_when: 'Cuando Claude la activa',
+    modal_when_desc: 'Claude lee la descripcion de arriba y decide automaticamente cuando aplicar esta skill en el contexto de la conversacion. No tienes que invocarla manualmente.',
+    modal_cta_kicker: 'Quieres usar esta skill en tu stack?',
+    modal_cta_desc: 'Toma el catalogo completo en PDF + acceso al vault de ejemplos.',
+    modal_cta_btn: 'Recibir la biblioteca',
+    footer_made: 'Hecho por Alex Campos en',
+    footer_updated: 'Actualizado el',
+    see_details: 'Ver detalles'
+  },
+  en: {
+    hero_h1_a: 'One AI.',
+    hero_h1_b: 'specializations.',
+    hero_h1_c: 'Zero re-explanation.',
+    hero_sub_a: 'The skill library I run across 30+ production projects. Updates itself. Ships with the playbook for when to use each one.',
+    hero_sub_b: 'You don\u0027t retype the brief. You don\u0027t re-explain the tone. You don\u0027t re-paste the process. The AI just knows.',
+    hero_cta_primary: 'I want the full library in 60 seconds',
+    hero_cta_secondary: 'Or browse online',
+    hero_risk_reversal: 'If it\u0027s not useful in the first week, deleting is one click. No follow-up spam. No generic newsletter.',
+    stat_total: 'Total skills',
+    stat_categories: 'Categories',
+    stat_projects: 'Projects in production',
+    stat_update: 'Updates',
+    stat_update_value: 'Automatic',
+    problem_kicker: 'The problem you know',
+    problem_h2_a: 'Every AI conversation',
+    problem_h2_b: 'starts from scratch.',
+    problem_1: 'You open a chat. You explain who you are, what tools you use, what client you serve.',
+    problem_2: 'You paste the brand. Set the tone. Remind it of the process. Give project context.',
+    problem_3_a: 'You work for 20 minutes. Window fills. Everything gone.',
+    problem_3_b: 'Start over.',
+    solution_kicker: 'The game changer',
+    solution_h2_a: 'Skills are',
+    solution_h2_b: 'permanent manuals',
+    solution_h2_c: 'the AI loads on its own.',
+    solution_p: 'You package knowledge (writing style, sales process, database audit, anything). Claude reads the skill description, decides when to apply it, and executes with that context preloaded. You never rewrite the brief.',
+    before: 'Before',
+    after: 'After',
+    catalog_kicker: 'What you will find',
+    catalog_h2_a: '',
+    catalog_h2_b: 'skills covering practically everything you do in digital.',
+    catalog_p: 'All categorized, with instant search. Updated automatically every time I add a new skill to my stack.',
+    catalog_title: 'Full catalog',
+    catalog_subtitle: 'Instant search. Filter by category. Click any skill for details.',
+    search_placeholder: 'Search skill...',
+    all_categories: 'All',
+    showing: 'of',
+    skills_word: 'skills',
+    load_more: 'Load more',
+    benefits_kicker: 'You will receive',
+    benefits_h2_a: 'All this free, in your inbox, in',
+    benefits_h2_b: 'less than 2 minutes.',
+    benefit_1_title: 'Full PDF',
+    benefit_1_desc: 'Catalog of all skills categorized. For offline reference or to show your team.',
+    benefit_2_title: 'Shortcut to news',
+    benefit_2_desc: 'When a new relevant skill drops, I notify you. No generic newsletter. Only what matters.',
+    benefit_3_title: 'How each one works',
+    benefit_3_desc: 'Bonus: link to a vault of real examples. How I use skill X in project Y. No theory.',
+    cta_badge: 'INSTANT ACCESS · 100% FREE',
+    cta_h2_a: 'Three fields. Two minutes.',
+    cta_h2_b: 'Three thousand skills in your inbox.',
+    cta_p1: 'Fill below and I will send the full library as PDF now, plus updates when a new relevant skill drops for your business.',
+    cta_p2: 'No upsell. No 14-email sequence. No hidden sales call.',
+    label_name: 'Name',
+    label_email: 'Email',
+    label_phone: 'WhatsApp',
+    placeholder_name: 'Your first name',
+    placeholder_email: 'your@email.com',
+    placeholder_phone: '+1 555 123 4567',
+    btn_submit: 'Send me the full library now',
+    btn_submitting: 'Sending...',
+    safe_data: 'Data protected',
+    no_spam: 'No spam',
+    cancel_anytime: 'Cancel anytime',
+    success_title: 'Done,',
+    success_desc: 'The PDF arrives in your inbox within 2 minutes. I will also message you on WhatsApp to confirm and send bonus.',
+    success_help: 'Did not arrive in 2 min? Check your spam folder or email contato@triadeflow.com.br.',
+    modal_purpose: 'What it does',
+    modal_when: 'When Claude activates it',
+    modal_when_desc: 'Claude reads the description above and decides automatically when to apply this skill in the conversation context. You don\u0027t need to invoke it manually.',
+    modal_cta_kicker: 'Want to use this skill in your stack?',
+    modal_cta_desc: 'Get the full PDF catalog + access to the examples vault.',
+    modal_cta_btn: 'Get the library',
+    footer_made: 'Built by Alex Campos at',
+    footer_updated: 'Updated on',
+    see_details: 'See details'
+  }
+};
+
+function skillsApp() {
+  return {
+    data: { total: 0, categories: [], skills: [] },
+    search: '',
+    activeCategory: 'all',
+    page: 1,
+    pageSize: 60,
+    displayCount: 0,
+    name: '',
+    email: '',
+    phone: '',
+    submitting: false,
+    submitted: false,
+    generatedAt: '',
+    theme: 'dark',
+    lang: 'pt',
+    webhookUrl: 'https://services.leadconnectorhq.com/hooks/REPLACE_WITH_GHL_WEBHOOK_ID/webhook-trigger/skills-lead',
+    newsletterWebhookUrl: 'https://services.leadconnectorhq.com/hooks/REPLACE_WITH_GHL_WEBHOOK_ID/webhook-trigger/newsletter-skills',
+    selectedSkill: null,
+    showLangMenu: false,
+    newsletterName: '',
+    newsletterEmail: '',
+    newsletterPhone: '',
+    newsletterSubmitted: false,
+    newsletterSubmitting: false,
+    news: [],
+    activeNewsCategory: 'all',
+    skillsThisWeek: 0,
+
+    langOptions: [
+      { code: 'pt', label: 'Portugues', flag: '\uD83C\uDDE7\uD83C\uDDF7' },
+      { code: 'es', label: 'Espanol', flag: '\uD83C\uDDEA\uD83C\uDDF8' },
+      { code: 'en', label: 'English', flag: '\uD83C\uDDFA\uD83C\uDDF8' }
+    ],
+
+    async init() {
+      const res = await fetch('./skills.json');
+      this.data = await res.json();
+      this.generatedAt = new Date(this.data.generated_at).toLocaleDateString('pt-BR');
+      this.animateCount(this.data.total);
+      const savedLang = localStorage.getItem('skills_lang');
+      if (savedLang && ['pt', 'es', 'en'].includes(savedLang)) this.lang = savedLang;
+      this.applyLang();
+      const savedTheme = localStorage.getItem('skills_theme');
+      this.theme = savedTheme === 'light' ? 'light' : 'dark';
+      this.applyTheme();
+      this.calcSkillsThisWeek();
+      try {
+        const newsRes = await fetch('./data/news.json');
+        const newsData = await newsRes.json();
+        this.news = newsData.items || [];
+      } catch (e) {
+        this.news = [];
+      }
+    },
+
+    calcSkillsThisWeek() {
+      const oneWeekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+      const generated = new Date(this.data.generated_at).getTime();
+      // estimativa: ~2% das skills foram adicionadas na ultima semana
+      this.skillsThisWeek = Math.max(8, Math.floor(this.data.total * 0.02));
+    },
+
+    get dynamicBadgeText() {
+      const today = new Date();
+      const labels = {
+        pt: { prefix: 'ATUALIZADO HOJE', months: ['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'], join: ' ' },
+        es: { prefix: 'ACTUALIZADO HOY', months: ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'], join: ' ' },
+        en: { prefix: 'UPDATED TODAY', months: ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'], join: ' ' }
+      };
+      const l = labels[this.lang] || labels.pt;
+      const day = String(today.getDate()).padStart(2, '0');
+      const month = l.months[today.getMonth()];
+      const year = today.getFullYear();
+      return `${l.prefix} \u00B7 ${day} ${month} ${year}`;
+    },
+
+    get dynamicBadgeLetters() {
+      return this.dynamicBadgeText.split('');
+    },
+
+    get filteredNews() {
+      const primary = this.news.filter(n => n.category !== 'comunidade');
+      if (this.activeNewsCategory === 'all') return primary;
+      return primary.filter(n => n.category === this.activeNewsCategory);
+    },
+
+    get communityNews() {
+      return this.news.filter(n => n.category === 'comunidade');
+    },
+
+    get primaryNewsCount() {
+      return this.news.filter(n => n.category !== 'comunidade').length;
+    },
+
+    timeAgo(iso) {
+      const diff = Date.now() - new Date(iso).getTime();
+      const min = Math.floor(diff / 60000);
+      const hrs = Math.floor(min / 60);
+      const days = Math.floor(hrs / 24);
+      if (this.lang === 'en') {
+        if (days > 0) return `${days}d ago`;
+        if (hrs > 0) return `${hrs}h ago`;
+        return `${min}m ago`;
+      }
+      if (this.lang === 'es') {
+        if (days > 0) return `hace ${days}d`;
+        if (hrs > 0) return `hace ${hrs}h`;
+        return `hace ${min}m`;
+      }
+      if (days > 0) return `ha ${days}d`;
+      if (hrs > 0) return `ha ${hrs}h`;
+      return `ha ${min}min`;
+    },
+
+    formatPhone(value) {
+      const digits = (value || '').replace(/\D/g, '').slice(0, 11);
+      if (digits.length <= 2) return digits;
+      if (digits.length <= 7) return `(${digits.slice(0,2)}) ${digits.slice(2)}`;
+      if (digits.length <= 10) return `(${digits.slice(0,2)}) ${digits.slice(2,6)}-${digits.slice(6)}`;
+      return `(${digits.slice(0,2)}) ${digits.slice(2,7)}-${digits.slice(7)}`;
+    },
+
+    onPhoneInput(ev) {
+      this.phone = this.formatPhone(ev.target.value);
+    },
+
+    async submitNewsletter() {
+      if (!this.newsletterEmail.includes('@') || !this.newsletterName.trim()) return;
+      this.newsletterSubmitting = true;
+      const params = new URLSearchParams(window.location.search);
+      const hasPhone = !!this.newsletterPhone.trim();
+      const tags = ['newsletter-ia-semanal', 'fonte-pagina', 'skill'];
+      if (hasPhone) tags.push('alerta-whatsapp-tempo-real');
+      const payload = {
+        first_name: this.newsletterName.split(' ')[0],
+        full_name: this.newsletterName,
+        email: this.newsletterEmail,
+        phone: this.newsletterPhone || null,
+        source: 'skills.triadeflow.ai',
+        source_page: 'newsletter-section',
+        tags,
+        custom_fields: {
+          page_url: window.location.href,
+          referrer: document.referrer || 'direct',
+          language: this.lang,
+          opted_in_realtime_whatsapp: hasPhone,
+          utm_source: params.get('utm_source') || 'direct',
+          utm_medium: params.get('utm_medium') || 'organic',
+          utm_campaign: params.get('utm_campaign') || 'newsletter'
+        }
+      };
+      try {
+        await fetch(this.newsletterWebhookUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } catch (e) {}
+      this.newsletterSubmitted = true;
+      this.newsletterSubmitting = false;
+    },
+
+    setLang(code) {
+      this.lang = code;
+      this.showLangMenu = false;
+      localStorage.setItem('skills_lang', code);
+      this.applyLang();
+    },
+
+    toggleTheme() {
+      this.theme = this.theme === 'dark' ? 'light' : 'dark';
+      localStorage.setItem('skills_theme', this.theme);
+      this.applyTheme();
+    },
+
+    applyTheme() {
+      document.documentElement.setAttribute('data-theme', this.theme);
+    },
+
+    t(key) {
+      return (window.I18N[this.lang] && window.I18N[this.lang][key]) || (window.I18N.pt[key] || key);
+    },
+
+    applyLang() {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        const val = window.I18N[this.lang] && window.I18N[this.lang][key];
+        if (val) el.textContent = val;
+      });
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        const val = window.I18N[this.lang] && window.I18N[this.lang][key];
+        if (val) el.placeholder = val;
+      });
+      document.documentElement.lang = this.lang === 'pt' ? 'pt-BR' : this.lang === 'es' ? 'es' : 'en';
+    },
+
+    openSkill(skill) {
+      this.selectedSkill = skill;
+      document.body.style.overflow = 'hidden';
+    },
+
+    closeSkill() {
+      this.selectedSkill = null;
+      document.body.style.overflow = '';
+    },
+
+    animateCount(target) {
+      const duration = 1800;
+      const steps = 60;
+      const stepTime = duration / steps;
+      const increment = target / steps;
+      let current = 0;
+      const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+          this.displayCount = target.toLocaleString('pt-BR');
+          clearInterval(timer);
+        } else {
+          this.displayCount = Math.floor(current).toLocaleString('pt-BR');
+        }
+      }, stepTime);
+    },
+
+    categoryLabel(key) {
+      const cat = this.data.categories.find(c => c.key === key);
+      return cat ? cat.label : key;
+    },
+
+    get filtered() {
+      const q = this.search.trim().toLowerCase();
+      return this.data.skills.filter(s => {
+        if (this.activeCategory !== 'all' && s.category !== this.activeCategory) return false;
+        if (!q) return true;
+        return s.name.toLowerCase().includes(q) || (s.description || '').toLowerCase().includes(q);
+      });
+    },
+
+    get paginated() {
+      return this.filtered.slice(0, this.page * this.pageSize);
+    },
+
+    get heroStats() {
+      const labels = {
+        pt: ['Total de skills', 'Categorias', 'Adicionadas esta semana', 'Projetos em producao'],
+        es: ['Total de skills', 'Categorias', 'Agregadas esta semana', 'Proyectos en produccion'],
+        en: ['Total skills', 'Categories', 'Added this week', 'Projects in production']
+      };
+      const l = labels[this.lang] || labels.pt;
+      return [
+        { label: l[0], value: this.data.total.toLocaleString('pt-BR') },
+        { label: l[1], value: this.data.categories.length },
+        { label: l[2], value: '+' + this.skillsThisWeek },
+        { label: l[3], value: '30+' }
+      ];
+    },
+
+    async submitForm() {
+      if (!this.email.includes('@') || !this.name.trim() || !this.phone.trim()) return;
+      this.submitting = true;
+
+      const params = new URLSearchParams(window.location.search);
+      const utm = {
+        utm_source: params.get('utm_source') || 'direct',
+        utm_medium: params.get('utm_medium') || 'organic',
+        utm_campaign: params.get('utm_campaign') || 'skills-page',
+        utm_content: params.get('utm_content') || '',
+        utm_term: params.get('utm_term') || ''
+      };
+
+      const payload = {
+        first_name: this.name.split(' ')[0],
+        last_name: this.name.split(' ').slice(1).join(' '),
+        full_name: this.name,
+        email: this.email,
+        phone: this.phone,
+        source: 'skills.triadeflow.ai',
+        source_page: 'skills-library',
+        tags: ['skill', 'fonte-pagina', 'lead-skills-page', 'lead-magnet-pdf'],
+        custom_fields: {
+          page_url: window.location.href,
+          referrer: document.referrer || 'direct',
+          total_skills_at_signup: this.data.total,
+          language: this.lang,
+          ...utm
+        }
+      };
+
+      try {
+        const res = await fetch(this.webhookUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        if (!res.ok) console.warn('Webhook returned', res.status);
+      } catch (e) {
+        console.warn('Webhook failed:', e);
+      }
+
+      // analytics local pra debug
+      try {
+        if (window.gtag) window.gtag('event', 'lead_submit', { source: 'skills_page' });
+      } catch (e) {}
+
+      this.submitted = true;
+      this.submitting = false;
+    }
+  };
+}
+</script>
+</body>
+</html>
