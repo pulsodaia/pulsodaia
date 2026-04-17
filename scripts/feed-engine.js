@@ -418,7 +418,82 @@ Responda APENAS com o formato acima. Sem comentarios extras.`;
 
 // ================ PUBLISHER ==================
 
-function renderArticleHtml(article) {
+function formatShortDate(iso) {
+  try {
+    return new Date(iso).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' }).toUpperCase().replace(/\./g, '');
+  } catch { return ''; }
+}
+
+function getRelatedArticles(currentSlug, feedArticles, limit = 3) {
+  if (!Array.isArray(feedArticles)) return [];
+  return feedArticles
+    .filter(a => a.slug !== currentSlug)
+    .sort((a, b) => new Date(b.written_at || b.published_at) - new Date(a.written_at || a.published_at))
+    .slice(0, limit);
+}
+
+function renderRelatedHtml(related) {
+  if (!related || related.length === 0) return '';
+  return `
+    <section class="related-section">
+      <div class="related-eyebrow">CONTINUE LENDO</div>
+      <div class="related-grid">
+        ${related.map(r => `
+        <a href="/feed/${r.slug}/" class="related-card">
+          <div class="related-image">
+            ${r.hero_image
+              ? `<img src="/feed/${r.slug}/${r.hero_image}" alt="${(r.headline || '').replace(/"/g, '&quot;')}" loading="lazy">`
+              : `<div class="related-placeholder"><span>${(r.eyebrow_category || 'PULSO').toUpperCase()}</span></div>`}
+          </div>
+          <div class="related-meta">
+            <span class="related-cat">${(r.eyebrow_category || 'NOTICIA').toUpperCase()}</span>
+            <h4>${r.headline || ''}</h4>
+            <div class="related-byline">Por Pulso da IA · ${formatShortDate(r.published_at || r.written_at)}</div>
+          </div>
+        </a>`).join('')}
+      </div>
+    </section>`;
+}
+
+function renderFollowUsHtml() {
+  return `
+    <section class="follow-us">
+      <div class="container follow-inner">
+        <div class="follow-title">
+          <div class="follow-eyebrow">SIGA O PULSO</div>
+          <h3>Siga a gente por onde quiser.</h3>
+        </div>
+        <div class="social-links">
+          <a href="https://instagram.com/pulsodaia" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://x.com/pulsodaia" target="_blank" rel="noopener" aria-label="X">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            <span>X</span>
+          </a>
+          <a href="https://www.youtube.com/@pulsodaia" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"/></svg>
+            <span>YouTube</span>
+          </a>
+          <a href="https://www.tiktok.com/@pulsodaia" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z"/></svg>
+            <span>TikTok</span>
+          </a>
+          <a href="https://www.pinterest.com/pulsodaia/" target="_blank" rel="noopener" aria-label="Pinterest">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.098.119.112.224.083.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/></svg>
+            <span>Pinterest</span>
+          </a>
+        </div>
+        <div class="subscribe-banner">
+          <span>Newsletter semanal. Toda quinta, 9h. Em portugues.</span>
+          <a href="/#newsletter">Assinar pulso semanal →</a>
+        </div>
+      </div>
+    </section>`;
+}
+
+function renderArticleHtml(article, related) {
   const pubDate = new Date(article.published_at);
   const readableDate = pubDate.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' }).toUpperCase().replace(/\./g, '');
   const metaDesc = (article.meta_description_seo || article.subtitle || '').replace(/"/g, '&quot;').substring(0, 160);
@@ -488,9 +563,11 @@ ${JSON.stringify({
       <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
     </a>
     <div class="nav-links">
-      <a href="/">Portal</a>
+      <a href="/">Home</a>
       <a href="/feed/">Feed</a>
-      <a href="/#newsletter">Newsletter</a>
+      <a href="/feed/?c=lancamento">Lancamentos</a>
+      <a href="/feed/?c=analise">Analises</a>
+      <a href="/#newsletter">Pulso Semanal</a>
     </div>
   </div>
 </header>
@@ -577,7 +654,11 @@ ${JSON.stringify({
       </div>
     </div>
   </article>
+${renderRelatedHtml(related)}
 </div>
+
+${renderFollowUsHtml()}
+
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 <footer class="site">
@@ -608,14 +689,14 @@ async function publishArticle(article) {
     console.log(`  [img] falhou: ${e.message}`);
   }
 
-  fs.writeFileSync(path.join(dir, 'index.html'), renderArticleHtml(article));
+  // Salva article.json pra permitir re-renders sem reprocessar Gemini
+  fs.writeFileSync(path.join(dir, 'article.json'), JSON.stringify(article, null, 2));
 
-  // Atualiza feed.json
+  // Atualiza feed.json ANTES de renderizar (pra related pegar este artigo se for re-publish)
   let feed = { generated_at: new Date().toISOString(), articles: [] };
   if (fs.existsSync(FEED_JSON)) {
     try { feed = JSON.parse(fs.readFileSync(FEED_JSON, 'utf8')); } catch {}
   }
-  // Remove se ja existir (re-publish)
   feed.articles = feed.articles.filter(a => a.slug !== article.slug);
   feed.articles.unshift({
     slug: article.slug,
@@ -629,11 +710,15 @@ async function publishArticle(article) {
     read_time_min: article.read_time_min,
     published_at: article.published_at,
     written_at: article.written_at,
-    quality_score: article.quality_score
+    quality_score: article.quality_score,
+    hero_image: article.hero_image || null
   });
   feed.articles.sort((a, b) => new Date(b.written_at) - new Date(a.written_at));
   feed.generated_at = new Date().toISOString();
   fs.writeFileSync(FEED_JSON, JSON.stringify(feed, null, 2));
+
+  const related = getRelatedArticles(article.slug, feed.articles, 3);
+  fs.writeFileSync(path.join(dir, 'index.html'), renderArticleHtml(article, related));
 
   return dir;
 }
@@ -642,7 +727,7 @@ async function publishArticle(article) {
 
 function ensureArticleCss() {
   const cssPath = path.join(FEED_DIR, 'article.css');
-  if (fs.existsSync(cssPath)) return;
+  // Sempre reescreve pra refletir evolucoes do template
   fs.writeFileSync(cssPath, `* { box-sizing: border-box; margin: 0; padding: 0; }
 html { -webkit-font-smoothing: antialiased; }
 body { background: #0A0A0A; color: #FAFAFA; font-family: 'Inter', sans-serif; font-size: 17px; line-height: 1.7; }
@@ -721,9 +806,48 @@ article.post { padding-bottom: 60px; }
 .share a { color: #A8A8A8; }
 .share a:hover { color: #FF5E1F; }
 
-footer.site { border-top: 1px solid rgba(255,255,255,0.06); padding: 40px 0; margin-top: 60px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; text-align: center; }
+footer.site { border-top: 1px solid rgba(255,255,255,0.06); padding: 40px 0; margin-top: 0; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; text-align: center; }
+
+/* ================= RELATED CARDS (estrutura blog.google) ================= */
+.related-section { margin: 80px 0 0; padding: 48px 0 0; border-top: 1px solid rgba(255,255,255,0.08); }
+.related-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; margin-bottom: 24px; }
+.related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.related-card { display: block; background: transparent; border-radius: 12px; overflow: hidden; transition: transform .2s ease; text-decoration: none; color: inherit; }
+.related-card:hover { transform: translateY(-2px); text-decoration: none; }
+.related-card:hover h4 { color: #FF5E1F; }
+.related-image { aspect-ratio: 16/9; overflow: hidden; border-radius: 8px; background: #1A1A1A; margin-bottom: 14px; position: relative; }
+.related-image img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s ease; }
+.related-card:hover .related-image img { transform: scale(1.03); }
+.related-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #FF5E1F 0%, #0A0A0A 70%); display: flex; align-items: center; justify-content: center; }
+.related-placeholder span { font-family: 'JetBrains Mono', monospace; color: rgba(255,255,255,0.8); font-size: 11px; letter-spacing: 0.2em; }
+.related-meta { padding: 0 4px; }
+.related-cat { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 8px; }
+.related-card h4 { font-family: 'Fraunces', Georgia, serif; font-size: 20px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.25; margin: 0 0 10px; color: #FAFAFA; transition: color .2s ease; }
+.related-byline { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A8A8; letter-spacing: 0.05em; }
+@media (max-width: 880px) { .related-grid { grid-template-columns: 1fr 1fr; } .related-grid .related-card:nth-child(3) { grid-column: 1 / -1; } }
+@media (max-width: 560px) { .related-grid { grid-template-columns: 1fr; } .related-grid .related-card:nth-child(3) { grid-column: auto; } }
+
+/* ================= FOLLOW US (estrutura blog.google) ================= */
+.follow-us { background: #0E0E0E; border-top: 1px solid rgba(255,255,255,0.08); padding: 72px 0 64px; margin-top: 80px; }
+.follow-inner { max-width: 1100px; }
+.follow-title { text-align: center; margin-bottom: 36px; }
+.follow-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; margin-bottom: 10px; }
+.follow-us h3 { font-family: 'Fraunces', Georgia, serif; font-size: clamp(28px, 3.2vw, 40px); font-weight: 600; letter-spacing: -0.02em; color: #FAFAFA; margin: 0; }
+.social-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 40px; }
+.social-links a { display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 999px; color: #FAFAFA; font-size: 13px; font-weight: 500; text-decoration: none; transition: all .2s ease; }
+.social-links a:hover { background: rgba(255,94,31,0.12); border-color: rgba(255,94,31,0.4); color: #FF5E1F; text-decoration: none; }
+.social-links svg { flex-shrink: 0; }
+.subscribe-banner { max-width: 720px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 24px 32px; background: linear-gradient(90deg, rgba(255,94,31,0.08) 0%, rgba(255,94,31,0.02) 100%); border: 1px solid rgba(255,94,31,0.25); border-radius: 16px; }
+.subscribe-banner span { font-size: 15px; color: #FAFAFA; font-weight: 500; }
+.subscribe-banner a { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; white-space: nowrap; }
+.subscribe-banner a:hover { text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 640px) {
+  .follow-us { padding: 56px 0 48px; margin-top: 60px; }
+  .social-links a { padding: 10px 16px; font-size: 12px; }
+  .subscribe-banner { flex-direction: column; align-items: flex-start; padding: 20px; }
+}
 `);
-  console.log('[css] article.css criado');
+  console.log('[css] article.css atualizado');
 }
 
 // ================ MAIN ==================
@@ -790,4 +914,20 @@ async function main() {
   console.log(`\n[feed-engine] concluido · ${published} publicados`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+// Exporta helpers pra outros scripts (rerender-existing.js etc)
+module.exports = {
+  renderArticleHtml,
+  renderRelatedHtml,
+  renderFollowUsHtml,
+  getRelatedArticles,
+  formatShortDate,
+  ensureArticleCss,
+  publishArticle,
+  markdownToHtml,
+  slugify
+};
+
+// So executa main() quando rodado direto via node scripts/feed-engine.js
+if (require.main === module) {
+  main().catch(e => { console.error(e); process.exit(1); });
+}

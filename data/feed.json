@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T13:18:25.309Z",
+  "generated_at": "2026-04-17T19:22:44.804Z",
   "articles": [
     {
       "slug": "google-deepmind-avanca-robotica-autonoma-com-gemini-robotics-er-1-6",
@@ -17,7 +17,8 @@
       "read_time_min": 3,
       "published_at": "Mon, 13 Apr 2026 15:52:13 +0000",
       "written_at": "2026-04-17T13:18:24.412Z",
-      "quality_score": 0.9
+      "quality_score": 0.9,
+      "hero_image": null
     },
     {
       "slug": "google-deepmind-lanca-gemini-3-1-flash-tts-para-fala-artificial-expressiva",
@@ -35,7 +36,8 @@
       "read_time_min": 3,
       "published_at": "Wed, 15 Apr 2026 16:03:19 +0000",
       "written_at": "2026-04-17T13:18:10.411Z",
-      "quality_score": 0.85
+      "quality_score": 0.85,
+      "hero_image": null
     },
     {
       "slug": "google-gemini-3-1-flash-tts-chega-para-tornar-a-voz-da-ia-mais-humana",
@@ -53,7 +55,8 @@
       "read_time_min": 3,
       "published_at": "Wed, 15 Apr 2026 15:00:00 +0000",
       "written_at": "2026-04-17T13:17:53.256Z",
-      "quality_score": 0.88
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
     },
     {
       "slug": "gemini-app-aprimora-criacao-de-imagens-com-contexto-pessoal-e-google-fotos",
@@ -71,7 +74,8 @@
       "read_time_min": 3,
       "published_at": "Thu, 16 Apr 2026 16:00:00 +0000",
       "written_at": "2026-04-17T13:17:39.296Z",
-      "quality_score": 0.85
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
     },
     {
       "slug": "google-chrome-introduz-modo-ia-para-navegacao-aprimorada",
@@ -89,7 +93,8 @@
       "read_time_min": 3,
       "published_at": "Thu, 16 Apr 2026 17:00:00 +0000",
       "written_at": "2026-04-17T13:17:24.095Z",
-      "quality_score": 0.85
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
     }
   ]
 }
