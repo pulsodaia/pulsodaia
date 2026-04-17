@@ -142,7 +142,7 @@
     "max_items_per_source_per_run": 3,
     "min_hours_between_runs": 1,
     "review_before_publish": true,
-    "auto_publish_if_score_above": 0.85,
+    "auto_publish_if_score_above": 0.80,
     "language_output": "pt-BR",
     "target_word_count_min": 350,
     "target_word_count_max": 700

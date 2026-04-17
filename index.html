@@ -286,6 +286,10 @@
         </span>
       </a>
       <div class="flex items-center gap-3">
+      <a href="/feed/" class="hidden md:inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white/5 hover:bg-[#FF5E1F] border border-white/10 hover:border-[#FF5E1F] text-white text-sm font-medium transition">
+        <svg class="w-3.5 h-3.5" viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"/></svg>
+        <span>Feed</span>
+      </a>
       <button class="theme-toggle" :aria-pressed="theme === 'light'" @click="toggleTheme">
         <div class="tt-socket"></div>
         <div class="tt-face">

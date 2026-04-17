@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feed · Pulso da IA</title>
+<meta name="description" content="Tudo que importou no mercado de IA. Fontes oficiais (OpenAI, Google, DeepMind, Anthropic, Meta) em portugues, direto da fonte, sem filtro de influenciador.">
+<meta name="keywords" content="ia, inteligencia artificial, noticias ia brasil, openai, google ai, anthropic, deepmind">
+<meta name="author" content="Pulso da IA">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pulso da IA">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Feed · Pulso da IA">
+<meta property="og:description" content="Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte.">
+<meta property="og:url" content="https://pulsodaia.com.br/feed/">
+<meta property="og:image" content="https://pulsodaia.com.br/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@pulsodaia">
+<link rel="canonical" href="https://pulsodaia.com.br/feed/">
+<link rel="icon" href="/assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-font-smoothing: antialiased; }
+body { background: #0A0A0A; color: #FAFAFA; font-family: 'Inter', sans-serif; font-size: 16px; line-height: 1.6; min-height: 100vh; }
+a { color: #FF5E1F; text-decoration: none; }
+a:hover { text-decoration: none; }
+
+/* Header — mesma estrutura do article */
+header.site { padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.06); position: sticky; top: 0; background: rgba(10,10,10,0.9); backdrop-filter: blur(12px); z-index: 50; }
+header.site .nav { max-width: 1280px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
+header.site .brand { display: flex; align-items: center; gap: 10px; color: #FAFAFA; }
+header.site .brand svg { width: 50px; height: 20px; }
+header.site .brand .wm { font-size: 16px; font-weight: 400; letter-spacing: -0.01em; }
+header.site .brand .wm .da { font-style: italic; color: rgba(255,255,255,0.5); }
+header.site .brand .wm .ia { font-weight: 600; }
+header.site .nav-links { display: flex; gap: 24px; font-size: 13px; }
+header.site .nav-links a { color: #A8A8A8; transition: color .2s; }
+header.site .nav-links a:hover { color: #FAFAFA; }
+header.site .nav-links a.active { color: #FF5E1F; font-weight: 500; }
+
+.container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+
+/* Hero do feed */
+.feed-hero { padding: 72px 0 48px; border-bottom: 1px solid rgba(255,255,255,0.08); text-align: center; }
+.feed-hero-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; margin-bottom: 16px; }
+.feed-hero h1 { font-family: 'Fraunces', Georgia, serif; font-size: clamp(44px, 6vw, 64px); font-weight: 600; letter-spacing: -0.03em; line-height: 1.05; margin-bottom: 20px; color: #FAFAFA; }
+.feed-hero h1 .italic { font-style: italic; color: #FF5E1F; }
+.feed-hero .sub { font-family: 'Fraunces', Georgia, serif; font-size: clamp(18px, 2.2vw, 22px); color: rgba(255,255,255,0.6); font-style: italic; max-width: 640px; margin: 0 auto; font-weight: 400; line-height: 1.45; }
+.feed-hero .stats { display: inline-flex; gap: 32px; margin-top: 32px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #A8A8A8; text-transform: uppercase; letter-spacing: 0.12em; }
+.feed-hero .stats .stat strong { display: block; font-family: 'Fraunces', Georgia, serif; font-size: 28px; font-weight: 600; color: #FAFAFA; text-transform: none; letter-spacing: -0.01em; margin-bottom: 2px; }
+
+/* Filtros (category pills) */
+.filters { padding: 32px 0 24px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.filter-pill { font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 8px 16px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #A8A8A8; text-transform: uppercase; letter-spacing: 0.12em; transition: all .2s ease; background: transparent; cursor: pointer; }
+.filter-pill:hover { border-color: rgba(255,94,31,0.4); color: #FF5E1F; }
+.filter-pill.active { background: #FF5E1F; border-color: #FF5E1F; color: #0A0A0A; font-weight: 600; }
+
+/* Featured article (primeiro do feed — destacado) */
+.featured-section { padding: 48px 0; }
+.featured-card { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: center; }
+.featured-image { aspect-ratio: 16/9; overflow: hidden; border-radius: 12px; background: #1A1A1A; position: relative; }
+.featured-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.featured-card:hover .featured-image img { transform: scale(1.02); }
+.featured-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #FF5E1F 0%, #0A0A0A 70%); display: flex; align-items: center; justify-content: center; }
+.featured-placeholder span { font-family: 'JetBrains Mono', monospace; color: rgba(255,255,255,0.85); font-size: 13px; letter-spacing: 0.2em; }
+.featured-tag { position: absolute; top: 20px; left: 20px; font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 6px 12px; background: #FF5E1F; color: #0A0A0A; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.12em; font-weight: 600; }
+.featured-meta .cat { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 16px; }
+.featured-meta h2 { font-family: 'Fraunces', Georgia, serif; font-size: clamp(28px, 3.8vw, 44px); font-weight: 600; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 16px; color: #FAFAFA; transition: color .2s ease; }
+.featured-card:hover .featured-meta h2 { color: #FF5E1F; }
+.featured-meta p.subtitle { font-family: 'Fraunces', Georgia, serif; font-size: 18px; color: rgba(255,255,255,0.6); font-style: italic; line-height: 1.5; margin-bottom: 20px; }
+.featured-meta .byline { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #A8A8A8; letter-spacing: 0.05em; }
+@media (max-width: 880px) { .featured-card { grid-template-columns: 1fr; gap: 24px; } }
+
+/* Grid de artigos */
+.articles-section { padding: 24px 0 80px; }
+.articles-section h3 { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; margin-bottom: 24px; }
+.articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.article-card { display: block; color: inherit; text-decoration: none; transition: transform .2s ease; }
+.article-card:hover { transform: translateY(-3px); text-decoration: none; }
+.article-card-image { aspect-ratio: 16/9; overflow: hidden; border-radius: 10px; background: #1A1A1A; margin-bottom: 16px; position: relative; }
+.article-card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
+.article-card:hover .article-card-image img { transform: scale(1.04); }
+.article-card-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #FF5E1F 0%, #0A0A0A 70%); display: flex; align-items: center; justify-content: center; }
+.article-card-placeholder span { font-family: 'JetBrains Mono', monospace; color: rgba(255,255,255,0.8); font-size: 11px; letter-spacing: 0.2em; }
+.article-card-cat { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 10px; }
+.article-card h4 { font-family: 'Fraunces', Georgia, serif; font-size: 22px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.22; margin-bottom: 10px; color: #FAFAFA; transition: color .2s ease; }
+.article-card:hover h4 { color: #FF5E1F; }
+.article-card .byline { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A8A8; letter-spacing: 0.05em; }
+@media (max-width: 960px) { .articles-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .articles-grid { grid-template-columns: 1fr; } .featured-section { padding: 32px 0; } }
+
+/* Empty state (quando filtro nao retorna nada) */
+.empty-state { padding: 80px 0; text-align: center; color: #A8A8A8; }
+.empty-state h3 { font-family: 'Fraunces', Georgia, serif; font-size: 24px; color: #FAFAFA; margin-bottom: 8px; }
+
+/* Footer follow-us (mesmo dos articles) */
+.follow-us { background: #0E0E0E; border-top: 1px solid rgba(255,255,255,0.08); padding: 72px 0 64px; margin-top: 40px; }
+.follow-title { text-align: center; margin-bottom: 36px; }
+.follow-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; margin-bottom: 10px; }
+.follow-us h3 { font-family: 'Fraunces', Georgia, serif; font-size: clamp(28px, 3.2vw, 40px); font-weight: 600; letter-spacing: -0.02em; color: #FAFAFA; margin: 0; }
+.social-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 40px; }
+.social-links a { display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 999px; color: #FAFAFA; font-size: 13px; font-weight: 500; text-decoration: none; transition: all .2s ease; }
+.social-links a:hover { background: rgba(255,94,31,0.12); border-color: rgba(255,94,31,0.4); color: #FF5E1F; }
+.subscribe-banner { max-width: 720px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 24px 32px; background: linear-gradient(90deg, rgba(255,94,31,0.08) 0%, rgba(255,94,31,0.02) 100%); border: 1px solid rgba(255,94,31,0.25); border-radius: 16px; }
+.subscribe-banner span { font-size: 15px; color: #FAFAFA; font-weight: 500; }
+.subscribe-banner a { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; white-space: nowrap; }
+.subscribe-banner a:hover { text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 640px) {
+  .subscribe-banner { flex-direction: column; align-items: flex-start; padding: 20px; }
+}
+
+footer.site { border-top: 1px solid rgba(255,255,255,0.06); padding: 40px 0; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; text-align: center; }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="/" class="brand">
+      <svg viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
+      <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/feed/" class="active">Feed</a>
+      <a href="/feed/?c=lancamento" data-cat="lancamento">Lancamentos</a>
+      <a href="/feed/?c=analise" data-cat="analise">Analises</a>
+      <a href="/#newsletter">Pulso Semanal</a>
+    </div>
+  </div>
+</header>
+
+<section class="feed-hero">
+  <div class="container">
+    <div class="feed-hero-eyebrow">FEED</div>
+    <h1>Sinta o pulso do <span class="italic">mercado de IA.</span></h1>
+    <p class="sub">Fontes oficiais em portugues. Direto da fonte, sem filtro de influenciador.</p>
+    <div class="stats" id="feed-stats">
+      <div class="stat"><strong id="stat-count">0</strong>ARTIGOS</div>
+      <div class="stat"><strong>15</strong>FONTES OFICIAIS</div>
+      <div class="stat"><strong>24/7</strong>MOTOR PULSANTE</div>
+    </div>
+  </div>
+</section>
+
+<section class="filters container">
+  <button class="filter-pill active" data-filter="all">Tudo</button>
+  <button class="filter-pill" data-filter="LANCAMENTO">Lancamentos</button>
+  <button class="filter-pill" data-filter="ANALISE">Analises</button>
+  <button class="filter-pill" data-filter="RESEARCH">Research</button>
+  <button class="filter-pill" data-filter="MERCADO">Mercado</button>
+  <button class="filter-pill" data-filter="FOUNDERS">Founders</button>
+  <button class="filter-pill" data-filter="NOTICIA">Noticias</button>
+</section>
+
+<section class="featured-section container" id="featured-wrap"></section>
+
+<section class="articles-section container">
+  <h3>ULTIMOS ARTIGOS</h3>
+  <div class="articles-grid" id="articles-grid"></div>
+  <div class="empty-state" id="empty-state" style="display: none;">
+    <h3>Nenhum artigo nessa categoria ainda.</h3>
+    <p>O motor pulsante publica continuamente. Volta em breve.</p>
+  </div>
+</section>
+
+<section class="follow-us">
+  <div class="container">
+    <div class="follow-title">
+      <div class="follow-eyebrow">SIGA O PULSO</div>
+      <h3>Siga a gente por onde quiser.</h3>
+    </div>
+    <div class="social-links">
+      <a href="https://instagram.com/pulsodaia" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        <span>Instagram</span>
+      </a>
+      <a href="https://x.com/pulsodaia" target="_blank" rel="noopener" aria-label="X">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        <span>X</span>
+      </a>
+      <a href="https://www.youtube.com/@pulsodaia" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"/></svg>
+        <span>YouTube</span>
+      </a>
+      <a href="https://www.tiktok.com/@pulsodaia" target="_blank" rel="noopener" aria-label="TikTok">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z"/></svg>
+        <span>TikTok</span>
+      </a>
+      <a href="https://www.pinterest.com/pulsodaia/" target="_blank" rel="noopener" aria-label="Pinterest">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.098.119.112.224.083.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/></svg>
+        <span>Pinterest</span>
+      </a>
+    </div>
+    <div class="subscribe-banner">
+      <span>Newsletter semanal. Toda quinta, 9h. Em portugues.</span>
+      <a href="/#newsletter">Assinar pulso semanal →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="container">pulsodaia.com.br · Sinta o pulso do mercado de IA · Feito por Alex Campos @ Triadeflow</div>
+</footer>
+
+<script>
+const FEED_URL = '/data/feed.json';
+
+function formatDate(iso) {
+  try {
+    return new Date(iso).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' }).toUpperCase().replace(/\./g, '');
+  } catch { return ''; }
+}
+
+function renderFeatured(a) {
+  const img = a.hero_image
+    ? `<img src="/feed/${a.slug}/${a.hero_image}" alt="${(a.headline || '').replace(/"/g, '&quot;')}" loading="eager">`
+    : `<div class="featured-placeholder"><span>${(a.eyebrow_category || 'PULSO').toUpperCase()}</span></div>`;
+  return `
+    <a href="/feed/${a.slug}/" class="featured-card">
+      <div class="featured-image">
+        <div class="featured-tag">DESTAQUE</div>
+        ${img}
+      </div>
+      <div class="featured-meta">
+        <div class="cat">${(a.eyebrow_category || 'NOTICIA').toUpperCase()} · ${(a.source_name || '').toUpperCase()}</div>
+        <h2>${a.headline || ''}</h2>
+        <p class="subtitle">${a.subtitle || ''}</p>
+        <div class="byline">Por Pulso da IA · ${formatDate(a.published_at || a.written_at)} · ${a.read_time_min || 3} min</div>
+      </div>
+    </a>`;
+}
+
+function renderCard(a) {
+  const img = a.hero_image
+    ? `<img src="/feed/${a.slug}/${a.hero_image}" alt="${(a.headline || '').replace(/"/g, '&quot;')}" loading="lazy">`
+    : `<div class="article-card-placeholder"><span>${(a.eyebrow_category || 'PULSO').toUpperCase()}</span></div>`;
+  return `
+    <a href="/feed/${a.slug}/" class="article-card">
+      <div class="article-card-image">${img}</div>
+      <div class="article-card-cat">${(a.eyebrow_category || 'NOTICIA').toUpperCase()}</div>
+      <h4>${a.headline || ''}</h4>
+      <div class="byline">Por Pulso da IA · ${formatDate(a.published_at || a.written_at)}</div>
+    </a>`;
+}
+
+function applyFilter(allArticles, filter) {
+  if (!filter || filter === 'all') return allArticles;
+  return allArticles.filter(a => (a.eyebrow_category || '').toUpperCase() === filter);
+}
+
+async function boot() {
+  let articles = [];
+  try {
+    const res = await fetch(FEED_URL, { cache: 'no-cache' });
+    const data = await res.json();
+    articles = data.articles || [];
+  } catch (e) {
+    document.getElementById('articles-grid').innerHTML = '<p style="color:#A8A8A8">Erro carregando feed.</p>';
+    return;
+  }
+
+  articles.sort((a, b) => new Date(b.written_at || b.published_at) - new Date(a.written_at || a.published_at));
+
+  // Stats
+  document.getElementById('stat-count').textContent = articles.length;
+
+  // Filtro inicial via query string
+  const urlParams = new URLSearchParams(window.location.search);
+  const initialFilter = (urlParams.get('c') || '').toUpperCase();
+  if (initialFilter) {
+    const pill = document.querySelector(`.filter-pill[data-filter="${initialFilter}"]`);
+    if (pill) {
+      document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+    }
+  }
+
+  function render(filter) {
+    const list = applyFilter(articles, filter);
+    const featuredWrap = document.getElementById('featured-wrap');
+    const grid = document.getElementById('articles-grid');
+    const emptyState = document.getElementById('empty-state');
+
+    if (list.length === 0) {
+      featuredWrap.innerHTML = '';
+      grid.innerHTML = '';
+      emptyState.style.display = 'block';
+      return;
+    }
+    emptyState.style.display = 'none';
+
+    // Featured: primeiro artigo (so quando filtro=all)
+    if (!filter || filter === 'all') {
+      featuredWrap.innerHTML = renderFeatured(list[0]);
+      grid.innerHTML = list.slice(1).map(renderCard).join('');
+    } else {
+      featuredWrap.innerHTML = '';
+      grid.innerHTML = list.map(renderCard).join('');
+    }
+  }
+
+  render(initialFilter || 'all');
+
+  // Filter click
+  document.querySelectorAll('.filter-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      render(pill.dataset.filter);
+      // Atualiza URL sem reload
+      const f = pill.dataset.filter;
+      const url = new URL(window.location);
+      if (f && f !== 'all') url.searchParams.set('c', f.toLowerCase()); else url.searchParams.delete('c');
+      window.history.replaceState({}, '', url);
+    });
+  });
+}
+
+boot();
+</script>
+</body>
+</html>

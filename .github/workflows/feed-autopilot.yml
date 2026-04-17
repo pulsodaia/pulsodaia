@@ -1,0 +1,99 @@
+name: Feed Autopilot
+
+on:
+  schedule:
+    # A cada 2 horas, 5 minutos apos hora cheia (evita 00:00 que tem muito trafego CI)
+    - cron: '5 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max artigos por rodada'
+        required: false
+        default: '3'
+      force_publish:
+        description: 'Publicar mesmo com score baixo'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed-autopilot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run feed-engine
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+        run: |
+          LIMIT="${{ inputs.limit || '3' }}"
+          FORCE="${{ inputs.force_publish || 'false' }}"
+          EXTRA=""
+          if [ "$FORCE" = "true" ]; then EXTRA="--publish"; fi
+          node scripts/feed-engine.js --limit="$LIMIT" $EXTRA | tee /tmp/engine.log
+
+      - name: Check if anything changed
+        id: changes
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "[autopilot] nada novo, nada a commitar"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            git status --short
+          fi
+
+      - name: Commit new articles
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "pulso-autopilot[bot]"
+          git config user.email "autopilot@pulsodaia.com.br"
+          git add -A
+          # Extrai contagem de publicados do log
+          COUNT=$(grep -c "PUBLICADO" /tmp/engine.log || echo "0")
+          git commit -m "chore(autopilot): $COUNT artigo(s) novo(s) [skip ci]" || echo "nada a commitar"
+          git push origin main
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: pulsodaia
+          PAGES_BRANCH: main
+        run: |
+          node deploy.js
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Feed Autopilot — $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.changes.outputs.changed }}" = "true" ]; then
+            echo "Status: novos artigos publicados e deployados" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Status: nada novo coletado" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Log:" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -50 /tmp/engine.log >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "(sem log)" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
