@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>code-generation-printing · Skill Soft Skills & Cultura · Pulso da IA</title>
+<meta name="description" content="This document covers SymPy's capabilities for generating executable code in various languages, converting expressions to different output formats, and customizi">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="canonical" href="https://pulsodaia.com.br/skills/code-generation-printing/">
+<meta property="og:title" content="code-generation-printing · Pulso da IA">
+<meta property="og:description" content="This document covers SymPy's capabilities for generating executable code in various languages, converting expressions to different output formats, and customizi">
+<meta property="og:url" content="https://pulsodaia.com.br/skills/code-generation-printing/">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pulsodaia.com.br/brand/mockups/nova-08-official-portrait.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "code-generation-printing · Skill Soft Skills & Cultura",
+  "description": "This document covers SymPy's capabilities for generating executable code in various languages, converting expressions to different output formats, and customizi",
+  "url": "https://pulsodaia.com.br/skills/code-generation-printing/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Pulso da IA",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pulsodaia.com.br/brand/assets/logo-symbol-400.png"
+    }
+  },
+  "datePublished": "2026-04-17",
+  "articleSection": "Soft Skills & Cultura"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #0A0A0A; color: #FAFAFA; font-family: 'Inter', sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: #FF5E1F; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 840px; margin: 0 auto; padding: 0 24px; }
+header.site { padding: 24px 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 10px; color: #FAFAFA; font-size: 15px; }
+.brand:hover { text-decoration: none; }
+.brand .wm { font-weight: 400; letter-spacing: -0.01em; }
+.brand .wm .da { font-style: italic; color: rgba(255,255,255,0.5); }
+.brand .wm .ia { font-weight: 600; }
+.nav-links { display: flex; gap: 20px; font-size: 13px; }
+.nav-links a { color: #A8A8A8; }
+.nav-links a:hover { color: #FAFAFA; text-decoration: none; }
+.breadcrumb { padding: 20px 0 12px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; text-transform: uppercase; letter-spacing: 0.1em; }
+.breadcrumb a { color: #A8A8A8; }
+.breadcrumb span { color: #FF5E1F; margin: 0 8px; }
+article { padding: 32px 0 80px; }
+.eyebrow { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 12px; }
+h1 { font-family: 'Fraunces', serif; font-size: clamp(36px, 5vw, 56px); font-weight: 600; line-height: 1.05; letter-spacing: -0.02em; margin-bottom: 20px; }
+h1 code { font-family: 'JetBrains Mono', monospace; font-size: 0.75em; background: rgba(255,94,31,0.12); padding: 2px 8px; border-radius: 6px; color: #FF5E1F; font-weight: 500; }
+.lead { font-size: 19px; color: rgba(250,250,250,0.8); margin-bottom: 32px; max-width: 640px; line-height: 1.5; }
+h2 { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500; margin: 48px 0 16px; letter-spacing: -0.01em; }
+h3 { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 600; margin-bottom: 12px; color: #FAFAFA; }
+p { margin-bottom: 16px; color: rgba(250,250,250,0.75); }
+.meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 32px 0; padding: 20px; background: #1A1A1A; border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; }
+.meta-item .label { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #5C5C5C; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px; }
+.meta-item .value { font-size: 15px; color: #FAFAFA; font-weight: 500; }
+.how-it-works { background: #1A1A1A; border-left: 3px solid #FF5E1F; padding: 20px 24px; border-radius: 6px; margin: 32px 0; }
+.how-it-works h3 { color: #FF5E1F; margin-bottom: 8px; font-family: 'JetBrains Mono', monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-top: 20px; }
+.related-card { display: block; padding: 16px; background: #1A1A1A; border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; transition: all 0.15s; }
+.related-card:hover { border-color: rgba(255,94,31,0.3); background: rgba(255,94,31,0.03); text-decoration: none; }
+.related-name { display: block; font-size: 14px; font-weight: 600; color: #FF5E1F; margin-bottom: 6px; font-family: 'JetBrains Mono', monospace; }
+.related-desc { display: block; font-size: 12px; color: #A8A8A8; line-height: 1.5; }
+.cta-box { margin: 48px 0 32px; padding: 28px; background: linear-gradient(135deg, rgba(255,94,31,0.08), rgba(255,94,31,0.02)); border: 1px solid rgba(255,94,31,0.2); border-radius: 16px; text-align: center; }
+.cta-box h2 { font-size: 24px; margin: 0 0 8px; }
+.cta-box p { margin-bottom: 20px; }
+.btn-primary { display: inline-block; padding: 12px 24px; background: #FF5E1F; color: white; border-radius: 8px; font-weight: 600; font-size: 14px; text-decoration: none; }
+.btn-primary:hover { background: #E5501A; text-decoration: none; }
+footer { border-top: 1px solid rgba(255,255,255,0.05); padding: 32px 0; margin-top: 40px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; text-align: center; }
+footer a { color: #A8A8A8; }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="container nav">
+    <a href="/" class="brand">
+      <svg class="logo-symbol" viewBox="0 0 80 32" width="32" height="12" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
+      <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="/">Portal</a>
+      <a href="/#catalogo">Biblioteca</a>
+      <a href="/#newsletter">Newsletter</a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/">Pulso da IA</a><span>›</span><a href="/#catalogo">Biblioteca</a><span>›</span>Soft Skills & Cultura
+  </nav>
+
+  <article>
+    <div class="eyebrow">Skill · Soft Skills & Cultura</div>
+    <h1><code>code-generation-printing</code></h1>
+    <p class="lead">This document covers SymPy's capabilities for generating executable code in various languages, converting expressions to different output formats, and customizing printing behavior.</p>
+
+    <div class="meta-grid">
+      <div class="meta-item">
+        <div class="label">Categoria</div>
+        <div class="value">Soft Skills & Cultura</div>
+      </div>
+      <div class="meta-item">
+        <div class="label">Tipo</div>
+        <div class="value">Claude Code Skill</div>
+      </div>
+      <div class="meta-item">
+        <div class="label">Status</div>
+        <div class="value">Catalogada</div>
+      </div>
+    </div>
+
+    <div class="how-it-works">
+      <h3>Como funciona</h3>
+      <p style="margin:0; color: rgba(250,250,250,0.85); font-size: 14px;">Esta skill eh carregada automaticamente pelo Claude Opus 4.7 quando o contexto da conversa bate com sua area de aplicacao. Voce nao precisa invocar manualmente. A IA le a descricao da skill, decide quando usar, e executa com o conhecimento especializado pre carregado.</p>
+    </div>
+
+    <h2>Sobre esta skill</h2>
+    <p>
+      <code style="font-family: 'JetBrains Mono', monospace; background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">code-generation-printing</code>
+      faz parte da biblioteca de <strong style="color:#FAFAFA;">3.004 skills Claude Code</strong>
+      catalogadas no Pulso da IA. A categoria <em>Soft Skills & Cultura</em> reune especializacoes complementares que a IA pode ativar em sequencia conforme a tarefa.
+    </p>
+    <p>
+      Pra usar essa skill no seu Claude Code, instale-a em <code style="font-family: 'JetBrains Mono', monospace; background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">~/.claude/skills/code-generation-printing/SKILL.md</code>
+      com o frontmatter contendo nome e descricao. A partir dai, a IA carrega automaticamente quando o contexto bate.
+    </p>
+
+    
+    <h2>Skills relacionadas</h2>
+    <p style="color: rgba(250,250,250,0.6); font-size: 14px;">Outras skills de <em>Soft Skills & Cultura</em>:</p>
+    <div class="related-grid">
+      
+    <a href="/skills/acknowledgements/" class="related-card">
+      <span class="related-name">ACKNOWLEDGEMENTS</span>
+      <span class="related-desc">Loki Mode stands on the shoulders of giants. This project incorporates research, patterns,...</span>
+    </a>
+    <a href="/skills/claude/" class="related-card">
+      <span class="related-name">CLAUDE</span>
+      <span class="related-desc">Multi-agent autonomous startup system for Claude Code. Takes PRD to fully deployed, revenu...</span>
+    </a>
+    <a href="/skills/clean-code/" class="related-card">
+      <span class="related-name">clean-code</span>
+      <span class="related-desc">Applies principles from Robert C. Martin's 'Clean Code'. Use this skill when writing, revi...</span>
+    </a>
+    <a href="/skills/code-examples/" class="related-card">
+      <span class="related-name">code-examples</span>
+      <span class="related-desc">500+ code examples organized by category and programming language.</span>
+    </a>
+    <a href="/skills/code-maturity-assessor/" class="related-card">
+      <span class="related-name">code-maturity-assessor</span>
+      <span class="related-desc">Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes co...</span>
+    </a>
+    <a href="/skills/code-refactoring-refactor-clean/" class="related-card">
+      <span class="related-name">code-refactoring-refactor-clean</span>
+      <span class="related-desc">You are a code refactoring expert specializing in clean code principles, SOLID design patt...</span>
+    </a>
+    </div>
+    
+
+    <div class="cta-box">
+      <h2>Receba o catalogo completo</h2>
+      <p>PDF com as 3.004 skills categorizadas + newsletter Pulso Semanal com novidades do mercado IA.</p>
+      <a href="/#capturar" class="btn-primary">Quero receber</a>
+    </div>
+  </article>
+</div>
+
+<footer>
+  <div class="container">
+    <a href="/">pulsodaia.com.br</a> · Pulso da IA · Feito por Alex Campos @ Triadeflow
+  </div>
+</footer>
+</body>
+</html>

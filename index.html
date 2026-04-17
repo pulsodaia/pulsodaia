@@ -6,33 +6,40 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>Skills Triadeflow · biblioteca viva de skills Claude Code</title>
-<meta name="description" content="Biblioteca viva das skills usadas no stack Triadeflow. Especializacoes prontas pra IA usar sob demanda. Atualiza sozinha a cada nova skill criada.">
-<meta property="og:title" content="Skills Triadeflow · biblioteca viva de skills Claude Code">
-<meta property="og:description" content="A biblioteca mais completa de skills Claude Code em portugues. Atualizada automaticamente.">
+<title>Pulso da IA · Sinta o pulso do mercado de IA</title>
+<meta name="description" content="Sinta o pulso do mercado de IA. Novidades dos laboratorios e founders em tempo real, em portugues. Catalogo de 3.004 skills Claude Code.">
+<meta property="og:title" content="Pulso da IA · Sinta o pulso do mercado de IA">
+<meta property="og:description" content="Anthropic, OpenAI, Google, Meta, founders verificados. Toda a IA em primeira mao. 3.004 skills catalogadas.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://skills.triadeflow.ai">
+<meta property="og:url" content="https://pulsodaia.com.br">
+<meta property="og:image" content="https://pulsodaia.com.br/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pulsodaia.com.br/assets/og-image.png">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="canonical" href="https://pulsodaia.com.br/">
 <link rel="icon" href="./assets/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <style>
   :root {
-    --primary: #003153;
+    --primary: #0A0A0A;
     --ink: #171717;
     --cream: #F5F5F2;
-    --accent: #d97757;
+    --accent: #FF5E1F;
   }
   body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--cream); color: var(--ink); }
   h1, h2, h3, .serif { font-family: 'Fraunces', Georgia, serif; letter-spacing: -0.02em; }
   .hero-bg {
-    background: radial-gradient(ellipse at top, #003153 0%, #001a2e 60%, #000811 100%);
+    background: radial-gradient(ellipse at top, #0A0A0A 0%, #1A1A1A 60%, #050505 100%);
     color: #fff;
   }
   .glow { box-shadow: 0 0 60px rgba(217, 119, 87, 0.15); }
-  .badge-new { background: linear-gradient(90deg, #d97757, #e89570); color: white; }
+  .badge-new { background: linear-gradient(90deg, #FF5E1F, #e89570); color: white; }
 
   /* Theme toggle (dark/light) com efeito glow lua */
   :root {
@@ -135,19 +142,19 @@
   [data-theme="dark"] body { background: #050505; color: #e5e5e5; }
   [data-theme="dark"] .bg-white { background-color: #0f0f10 !important; color: #e5e5e5; }
   [data-theme="dark"] .bg-\[\#F5F5F2\] { background-color: #0a0a0b !important; color: #e5e5e5; }
-  [data-theme="dark"] .text-\[\#003153\] { color: #f5b89e !important; }
+  [data-theme="dark"] .text-\[\#0A0A0A\] { color: #f5b89e !important; }
   [data-theme="dark"] .text-\[\#171717\]\/70 { color: rgba(229,229,229,0.75) !important; }
   [data-theme="dark"] .text-\[\#171717\]\/60 { color: rgba(229,229,229,0.65) !important; }
   [data-theme="dark"] .text-\[\#171717\]\/40 { color: rgba(229,229,229,0.45) !important; }
   [data-theme="dark"] .text-\[\#171717\]\/80 { color: rgba(229,229,229,0.85) !important; }
-  [data-theme="dark"] .border-\[\#003153\]\/10 { border-color: rgba(255,255,255,0.08) !important; }
-  [data-theme="dark"] .border-\[\#003153\]\/15 { border-color: rgba(255,255,255,0.1) !important; }
-  [data-theme="dark"] .border-\[\#003153\]\/5 { border-color: rgba(255,255,255,0.05) !important; }
+  [data-theme="dark"] .border-\[\#0A0A0A\]\/10 { border-color: rgba(255,255,255,0.08) !important; }
+  [data-theme="dark"] .border-\[\#0A0A0A\]\/15 { border-color: rgba(255,255,255,0.1) !important; }
+  [data-theme="dark"] .border-\[\#0A0A0A\]\/5 { border-color: rgba(255,255,255,0.05) !important; }
   [data-theme="dark"] .skill-card { background: #14141a !important; border-color: rgba(255,255,255,0.08) !important; }
   [data-theme="dark"] .skill-card h3 { color: #f5b89e !important; }
   [data-theme="dark"] .skill-card p { color: rgba(229,229,229,0.65) !important; }
   [data-theme="dark"] .cat-pill:not(.active) { background: rgba(255,255,255,0.05) !important; color: #e5e5e5 !important; border-color: rgba(255,255,255,0.1) !important; }
-  [data-theme="dark"] .cat-pill.active { background: #d97757 !important; color: #fff !important; }
+  [data-theme="dark"] .cat-pill.active { background: #FF5E1F !important; color: #fff !important; }
   [data-theme="dark"] input[type="text"],
   [data-theme="dark"] input[type="email"],
   [data-theme="dark"] input[type="tel"] {
@@ -250,7 +257,9 @@
   .cat-pill:not(.active):hover { background: rgba(0, 49, 83, 0.08); }
   .fade-in { animation: fadeIn 0.3s ease-in; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
-  .counter-digit { font-variant-numeric: tabular-nums; }
+  .counter-digit { font-variant-numeric: tabular-nums; font-family: 'JetBrains Mono', Menlo, monospace; }
+  .mono { font-family: 'JetBrains Mono', Menlo, monospace; }
+  .shimmer-text { font-family: 'JetBrains Mono', Menlo, monospace !important; }
   ::-webkit-scrollbar { width: 8px; height: 8px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: rgba(0, 49, 83, 0.2); border-radius: 4px; }
@@ -262,10 +271,20 @@
 <body x-data="skillsApp()" x-init="init()">
 
 <!-- HERO -->
-<section class="hero-bg noise relative overflow-hidden" style="background: radial-gradient(ellipse at top, #003153 0%, #001a2e 60%, #000811 100%); color: #fff;">
+<section class="hero-bg noise relative overflow-hidden" style="background: radial-gradient(ellipse at top, #0A0A0A 0%, #1A1A1A 60%, #050505 100%); color: #fff;">
   <div class="max-w-6xl mx-auto px-6 py-16 md:py-24 relative z-10">
     <div class="flex items-center justify-between mb-10">
-      <img src="./assets/logo-horizontal-bege.png" alt="Triadeflow" class="h-10 md:h-12 w-auto">
+      <a href="/" class="flex items-center gap-2.5 group" aria-label="Pulso da IA">
+        <svg class="h-7 md:h-8 w-auto" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+        <span class="text-white tracking-tight text-lg md:text-xl font-normal">
+          pulso<span class="italic text-white/50">da</span><span class="font-semibold">IA</span>
+        </span>
+      </a>
       <div class="flex items-center gap-3">
       <button class="theme-toggle" :aria-pressed="theme === 'light'" @click="toggleTheme">
         <div class="tt-socket"></div>
@@ -282,9 +301,9 @@
           <span x-text="lang.toUpperCase()"></span>
           <svg class="w-3 h-3 opacity-60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
         </button>
-        <div x-show="showLangMenu" x-transition class="absolute right-0 mt-2 w-44 bg-white rounded-lg shadow-xl border border-[#003153]/10 overflow-hidden z-50">
+        <div x-show="showLangMenu" x-transition class="absolute right-0 mt-2 w-44 bg-white rounded-lg shadow-xl border border-[#0A0A0A]/10 overflow-hidden z-50">
           <template x-for="opt in langOptions" :key="opt.code">
-            <button @click="setLang(opt.code)" :class="lang === opt.code ? 'bg-[#003153]/5 text-[#003153] font-semibold' : 'text-[#171717]/80 hover:bg-[#003153]/5'" class="w-full text-left px-4 py-2.5 text-sm transition flex items-center gap-3">
+            <button @click="setLang(opt.code)" :class="lang === opt.code ? 'bg-[#0A0A0A]/5 text-[#0A0A0A] font-semibold' : 'text-[#171717]/80 hover:bg-[#0A0A0A]/5'" class="w-full text-left px-4 py-2.5 text-sm transition flex items-center gap-3">
               <span class="text-xl leading-none" x-text="opt.flag"></span>
               <span x-text="opt.label"></span>
             </button>
@@ -293,7 +312,7 @@
       </div>
       </div>
     </div>
-    <div class="shimmer-badge mb-6">
+    <div class="shimmer-badge mb-8">
       <div class="shimmer-wave"></div>
       <div class="shimmer-text">
         <template x-for="(letter, i) in dynamicBadgeLetters" :key="i">
@@ -301,20 +320,23 @@
         </template>
       </div>
     </div>
-    <h1 class="text-4xl md:text-6xl lg:text-7xl font-semibold leading-[1.02] mb-6 max-w-4xl">
-      <span class="counter-digit" x-text="displayCount">0</span>
-      <span x-text="t('hero_h1_b')"></span>
-      <span class="block italic text-white/70" x-text="t('hero_h1_a')"></span>
-      <span x-text="t('hero_h1_c')"></span>
+    <h1 class="text-5xl md:text-7xl font-semibold leading-[1] mb-8 max-w-4xl tracking-tight">
+      Sinta o pulso
+      <span class="block italic text-white/60">do mercado de IA.</span>
     </h1>
-    <p class="text-lg md:text-xl text-white/75 max-w-2xl mb-4 leading-relaxed" x-text="t('hero_sub_a')"></p>
-    <p class="text-base text-white/55 max-w-2xl mb-10" x-text="t('hero_sub_b')"></p>
+    <p class="text-lg md:text-xl text-white/70 max-w-2xl mb-10 leading-relaxed">
+      Portal brasileiro com as novidades dos laboratorios e founders que constroem IA. Mais catalogo de
+      <span class="font-semibold text-white counter-digit" x-text="displayCount">0</span> skills que uso nos meus projetos.
+    </p>
 
-    <div class="flex flex-wrap items-center gap-3 mb-4">
-      <a href="#capturar" class="px-7 py-4 bg-[#d97757] hover:bg-[#c96847] text-white font-semibold rounded-lg transition shadow-lg shadow-[#d97757]/30" x-text="t('hero_cta_primary')"></a>
-      <a href="#catalogo" class="px-7 py-4 border border-white/25 text-white font-semibold rounded-lg hover:bg-white/5 transition" x-text="t('hero_cta_secondary')"></a>
+    <div class="flex flex-wrap items-center gap-3 mb-16">
+      <a href="#capturar" class="px-6 py-3.5 bg-[#FF5E1F] hover:bg-[#c96847] text-white font-semibold rounded-lg transition">
+        Receber por email
+      </a>
+      <a href="#portal" class="px-6 py-3.5 border border-white/20 text-white font-medium rounded-lg hover:bg-white/5 transition">
+        Ver o portal
+      </a>
     </div>
-    <div class="mb-12"></div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-white/10">
       <template x-for="stat in heroStats" :key="stat.label">
         <div>
@@ -327,7 +349,7 @@
 </section>
 
 <!-- PROVA SOCIAL TICKER -->
-<section class="bg-[#000811] border-y border-white/5 py-6">
+<section class="bg-[#050505] border-y border-white/5 py-6">
   <div class="max-w-6xl mx-auto px-6">
     <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 text-white/40 text-sm">
       <div class="flex items-center gap-2">
@@ -349,23 +371,23 @@
 </section>
 
 <!-- PROBLEMA -->
-<section class="bg-white border-y border-[#003153]/10">
+<section class="bg-white border-y border-[#0A0A0A]/10">
   <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
-    <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-4">O problema que voce conhece</div>
+    <div class="text-xs font-semibold tracking-widest text-[#FF5E1F] uppercase mb-4">O problema que voce conhece</div>
     <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-8 max-w-3xl">
       Toda conversa com IA <span class="italic text-[#171717]/50">comeca do zero.</span>
     </h2>
     <div class="grid md:grid-cols-3 gap-8 text-[#171717]/70">
       <div>
-        <div class="text-2xl mb-2 font-semibold text-[#003153]">01</div>
+        <div class="text-2xl mb-2 font-semibold text-[#0A0A0A]">01</div>
         <p class="leading-relaxed">Voce abre um chat. Explica quem voce eh, que ferramentas usa, que cliente atende.</p>
       </div>
       <div>
-        <div class="text-2xl mb-2 font-semibold text-[#003153]">02</div>
+        <div class="text-2xl mb-2 font-semibold text-[#0A0A0A]">02</div>
         <p class="leading-relaxed">Cola o brand. Define o tom. Lembra ela do processo. Da contexto do projeto.</p>
       </div>
       <div>
-        <div class="text-2xl mb-2 font-semibold text-[#003153]">03</div>
+        <div class="text-2xl mb-2 font-semibold text-[#0A0A0A]">03</div>
         <p class="leading-relaxed">Trabalha 20 minutos. Janela enche. Tudo perdido. <span class="font-semibold text-[#171717]">Comeca de novo.</span></p>
       </div>
     </div>
@@ -375,7 +397,7 @@
 <!-- SOLUCAO -->
 <section class="bg-[#F5F5F2]">
   <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
-    <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-4">A virada do jogo</div>
+    <div class="text-xs font-semibold tracking-widest text-[#FF5E1F] uppercase mb-4">A virada do jogo</div>
     <h2 class="text-3xl md:text-5xl font-semibold leading-tight mb-6 max-w-3xl">
       Skills sao <span class="italic">manuais permanentes</span> que a IA carrega sozinha.
     </h2>
@@ -385,15 +407,15 @@
       Voce nunca mais re escreve o briefing.
     </p>
     <div class="grid md:grid-cols-2 gap-6">
-      <div class="bg-white rounded-xl p-6 border border-[#003153]/10">
-        <div class="font-semibold text-[#003153] mb-2">Antes</div>
+      <div class="bg-white rounded-xl p-6 border border-[#0A0A0A]/10">
+        <div class="font-semibold text-[#0A0A0A] mb-2">Antes</div>
         <p class="text-sm text-[#171717]/70 leading-relaxed">
           "Voce eh especialista em SEO programatico. Meu cliente eh imobiliaria. Tom direto. Use H2 com cidade. Linkagem interna por bairro. Nunca prometa ranking..."
           <span class="block mt-2 text-[#171717]/40 text-xs">[400 palavras de prompt repetido toda conversa]</span>
         </p>
       </div>
-      <div class="bg-[#003153] text-white rounded-xl p-6">
-        <div class="font-semibold text-[#d97757] mb-2">Depois</div>
+      <div class="bg-[#0A0A0A] text-white rounded-xl p-6">
+        <div class="font-semibold text-[#FF5E1F] mb-2">Depois</div>
         <p class="text-sm text-white/80 leading-relaxed">
           "Cria 50 paginas pra Cidade Verde Imoveis."
           <span class="block mt-2 text-white/50 text-xs">A skill seo-programatic ativa sozinha. Aplica o processo. Entrega no formato. Sem briefing.</span>
@@ -404,9 +426,9 @@
 </section>
 
 <!-- O QUE TEM AQUI -->
-<section class="bg-white border-t border-[#003153]/10">
+<section class="bg-white border-t border-[#0A0A0A]/10">
   <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
-    <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-4">O que voce vai encontrar</div>
+    <div class="text-xs font-semibold tracking-widest text-[#FF5E1F] uppercase mb-4">O que voce vai encontrar</div>
     <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-12 max-w-3xl">
       <span x-text="data.total.toLocaleString('pt-BR')"></span> skills cobrindo praticamente tudo que voce faz no digital.
     </h2>
@@ -414,7 +436,7 @@
       <template x-for="cat in data.categories.slice(0, 16)" :key="cat.key">
         <div class="bg-[#F5F5F2] rounded-lg p-4">
           <div class="text-xs text-[#171717]/60 uppercase tracking-wide mb-1" x-text="cat.label"></div>
-          <div class="text-2xl font-semibold text-[#003153] counter-digit" x-text="cat.count"></div>
+          <div class="text-2xl font-semibold text-[#0A0A0A] counter-digit" x-text="cat.count"></div>
         </div>
       </template>
     </div>
@@ -436,7 +458,7 @@
         x-model="search"
         type="text"
         placeholder="Buscar skill..."
-        class="w-full md:w-80 px-4 py-3 pl-10 rounded-lg border border-[#003153]/15 focus:border-[#003153] focus:outline-none focus:ring-2 focus:ring-[#003153]/10 bg-white"
+        class="w-full md:w-80 px-4 py-3 pl-10 rounded-lg border border-[#0A0A0A]/15 focus:border-[#0A0A0A] focus:outline-none focus:ring-2 focus:ring-[#0A0A0A]/10 bg-white"
       >
       <svg class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-[#171717]/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     </div>
@@ -446,7 +468,7 @@
   <div class="flex flex-wrap gap-2 mb-8">
     <button
       @click="activeCategory = 'all'"
-      :class="activeCategory === 'all' ? 'active' : 'bg-white border border-[#003153]/10'"
+      :class="activeCategory === 'all' ? 'active' : 'bg-white border border-[#0A0A0A]/10'"
       class="cat-pill px-4 py-2 rounded-full text-sm font-medium"
     >
       Todas <span class="text-xs opacity-60" x-text="'(' + data.total + ')'"></span>
@@ -454,7 +476,7 @@
     <template x-for="cat in data.categories" :key="cat.key">
       <button
         @click="activeCategory = cat.key"
-        :class="activeCategory === cat.key ? 'active' : 'bg-white border border-[#003153]/10'"
+        :class="activeCategory === cat.key ? 'active' : 'bg-white border border-[#0A0A0A]/10'"
         class="cat-pill px-4 py-2 rounded-full text-sm font-medium"
       >
         <span x-text="cat.label"></span> <span class="text-xs opacity-60" x-text="'(' + cat.count + ')'"></span>
@@ -470,11 +492,11 @@
     <template x-for="skill in paginated" :key="skill.name">
       <button @click="openSkill(skill)" class="skill-card bg-white rounded-lg p-5 fade-in text-left cursor-pointer w-full">
         <div class="flex items-start justify-between gap-3 mb-2">
-          <h3 class="font-semibold text-[#003153] text-sm leading-tight" x-text="skill.name"></h3>
-          <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-[#003153]/5 text-[#003153]/70 whitespace-nowrap" x-text="categoryLabel(skill.category)"></span>
+          <h3 class="font-semibold text-[#0A0A0A] text-sm leading-tight" x-text="skill.name"></h3>
+          <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-[#0A0A0A]/5 text-[#0A0A0A]/70 whitespace-nowrap" x-text="categoryLabel(skill.category)"></span>
         </div>
         <p class="text-sm text-[#171717]/70 leading-relaxed line-clamp-3" x-text="skill.description || 'Clica pra ver detalhes da skill.'"></p>
-        <div class="text-xs text-[#003153]/50 mt-3 font-medium">Ver detalhes &rarr;</div>
+        <div class="text-xs text-[#0A0A0A]/50 mt-3 font-medium">Ver detalhes &rarr;</div>
       </button>
     </template>
   </div>
@@ -482,10 +504,10 @@
   <!-- MODAL DETALHES -->
   <div x-show="selectedSkill" x-transition.opacity class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" @click.self="closeSkill" @keydown.escape.window="closeSkill" style="display:none;">
     <div x-show="selectedSkill" x-transition class="bg-white rounded-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto shadow-2xl">
-      <div class="bg-[#003153] text-white p-6 rounded-t-2xl sticky top-0 z-10">
+      <div class="bg-[#0A0A0A] text-white p-6 rounded-t-2xl sticky top-0 z-10">
         <div class="flex items-start justify-between gap-4">
           <div class="flex-1">
-            <div class="text-xs uppercase tracking-wider text-[#d97757] font-semibold mb-2" x-text="selectedSkill && categoryLabel(selectedSkill.category)"></div>
+            <div class="text-xs uppercase tracking-wider text-[#FF5E1F] font-semibold mb-2" x-text="selectedSkill && categoryLabel(selectedSkill.category)"></div>
             <h3 class="text-2xl font-semibold leading-tight" x-text="selectedSkill && selectedSkill.name"></h3>
           </div>
           <button @click="closeSkill" class="text-white/60 hover:text-white text-2xl leading-none p-1">&times;</button>
@@ -507,7 +529,7 @@
           <p class="text-sm text-[#171717]/70 mb-3">
             Pega o catalogo completo em PDF + acesso ao vault de exemplos.
           </p>
-          <button @click="closeSkill(); document.getElementById('capturar').scrollIntoView({behavior:'smooth'})" class="w-full px-4 py-2.5 bg-[#003153] hover:bg-[#003153]/90 text-white font-semibold rounded-lg text-sm transition">
+          <button @click="closeSkill(); document.getElementById('capturar').scrollIntoView({behavior:'smooth'})" class="w-full px-4 py-2.5 bg-[#0A0A0A] hover:bg-[#0A0A0A]/90 text-white font-semibold rounded-lg text-sm transition">
             Receber a biblioteca
           </button>
         </div>
@@ -517,19 +539,19 @@
 
   <!-- PAGINAR -->
   <div class="flex justify-center mt-10" x-show="filtered.length > pageSize * page">
-    <button @click="page++" class="px-6 py-3 bg-[#003153] text-white font-semibold rounded-lg hover:bg-[#003153]/90 transition">
+    <button @click="page++" class="px-6 py-3 bg-[#0A0A0A] text-white font-semibold rounded-lg hover:bg-[#0A0A0A]/90 transition">
       <span data-i18n="load_more">Carregar mais</span> (<span x-text="filtered.length - (pageSize * page)"></span>)
     </button>
   </div>
 </section>
 
 <!-- PORTAL IA & CLAUDE CODE -->
-<section id="portal" class="bg-[#001a2e] text-white py-20 relative overflow-hidden">
+<section id="portal" class="bg-[#1A1A1A] text-white py-20 relative overflow-hidden">
   <div class="absolute inset-0 opacity-30" style="background: radial-gradient(circle at 30% 20%, rgba(217, 119, 87, 0.15), transparent 50%);"></div>
   <div class="max-w-6xl mx-auto px-6 relative z-10">
     <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
       <div>
-        <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-3">PORTAL IA · FONTE PRIMARIA</div>
+        <div class="text-xs font-semibold tracking-widest text-[#FF5E1F] uppercase mb-3">PORTAL IA · FONTE PRIMARIA</div>
         <h2 class="text-3xl md:text-5xl font-semibold leading-tight max-w-3xl">
           Direto dos laboratorios <span class="italic text-white/70">e de quem constroi a IA.</span>
         </h2>
@@ -545,28 +567,28 @@
 
     <!-- Filtros Portal -->
     <div class="flex flex-wrap gap-2 mb-8">
-      <button @click="activeNewsCategory = 'all'" :class="activeNewsCategory === 'all' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+      <button @click="activeNewsCategory = 'all'" :class="activeNewsCategory === 'all' ? 'bg-white text-[#0A0A0A]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
         Tudo (<span x-text="news.length"></span>)
       </button>
-      <button @click="activeNewsCategory = 'founders'" :class="activeNewsCategory === 'founders' ? 'bg-[#d97757] text-white' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+      <button @click="activeNewsCategory = 'founders'" :class="activeNewsCategory === 'founders' ? 'bg-[#FF5E1F] text-white' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
         Direto dos Founders
       </button>
-      <button @click="activeNewsCategory = 'anthropic'" :class="activeNewsCategory === 'anthropic' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+      <button @click="activeNewsCategory = 'anthropic'" :class="activeNewsCategory === 'anthropic' ? 'bg-white text-[#0A0A0A]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
         Anthropic
       </button>
-      <button @click="activeNewsCategory = 'openai'" :class="activeNewsCategory === 'openai' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+      <button @click="activeNewsCategory = 'openai'" :class="activeNewsCategory === 'openai' ? 'bg-white text-[#0A0A0A]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
         OpenAI
       </button>
-      <button @click="activeNewsCategory = 'google'" :class="activeNewsCategory === 'google' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+      <button @click="activeNewsCategory = 'google'" :class="activeNewsCategory === 'google' ? 'bg-white text-[#0A0A0A]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
         Google
       </button>
-      <button @click="activeNewsCategory = 'meta'" :class="activeNewsCategory === 'meta' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+      <button @click="activeNewsCategory = 'meta'" :class="activeNewsCategory === 'meta' ? 'bg-white text-[#0A0A0A]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
         Meta
       </button>
-      <button @click="activeNewsCategory = 'claude-code'" :class="activeNewsCategory === 'claude-code' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+      <button @click="activeNewsCategory = 'claude-code'" :class="activeNewsCategory === 'claude-code' ? 'bg-white text-[#0A0A0A]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
         Claude Code
       </button>
-      <button @click="activeNewsCategory = 'research'" :class="activeNewsCategory === 'research' ? 'bg-white text-[#003153]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
+      <button @click="activeNewsCategory = 'research'" :class="activeNewsCategory === 'research' ? 'bg-white text-[#0A0A0A]' : 'bg-white/10 text-white border border-white/20 hover:bg-white/20'" class="px-4 py-2 rounded-full text-sm font-medium transition">
         Research / Papers
       </button>
     </div>
@@ -579,7 +601,7 @@
             <div class="flex items-center gap-2 flex-wrap">
               <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded font-semibold whitespace-nowrap"
                 :class="{
-                  'bg-[#d97757]/20 text-[#f5b89e]': item.category === 'founders',
+                  'bg-[#FF5E1F]/20 text-[#f5b89e]': item.category === 'founders',
                   'bg-orange-500/20 text-orange-300': item.category === 'anthropic',
                   'bg-emerald-400/20 text-emerald-300': item.category === 'openai',
                   'bg-blue-400/20 text-blue-300': item.category === 'google',
@@ -606,13 +628,13 @@
     </div>
 
     <!-- CTA portal -> WhatsApp -->
-    <div class="mt-12 bg-gradient-to-r from-[#d97757]/10 to-transparent border border-[#d97757]/30 rounded-xl p-6 md:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+    <div class="mt-12 bg-gradient-to-r from-[#FF5E1F]/10 to-transparent border border-[#FF5E1F]/30 rounded-xl p-6 md:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
       <div>
-        <div class="text-xs uppercase tracking-widest text-[#d97757] font-semibold mb-2">QUER SABER ANTES DOS OUTROS?</div>
+        <div class="text-xs uppercase tracking-widest text-[#FF5E1F] font-semibold mb-2">QUER SABER ANTES DOS OUTROS?</div>
         <h3 class="text-xl md:text-2xl font-semibold mb-1">Te aviso no WhatsApp quando sair algo grande.</h3>
         <p class="text-sm text-white/60">Quando a Anthropic lanca, voce sabe em minutos. Sem precisar olhar essa pagina.</p>
       </div>
-      <a href="#newsletter" class="px-6 py-3 bg-[#d97757] hover:bg-[#c96847] text-white font-semibold rounded-lg transition whitespace-nowrap">
+      <a href="#newsletter" class="px-6 py-3 bg-[#FF5E1F] hover:bg-[#c96847] text-white font-semibold rounded-lg transition whitespace-nowrap">
         Quero receber alertas
       </a>
     </div>
@@ -620,7 +642,7 @@
 </section>
 
 <!-- COMUNIDADE TA COMENTANDO -->
-<section id="comunidade" class="bg-[#000811] text-white py-20 border-t border-white/5">
+<section id="comunidade" class="bg-[#050505] text-white py-20 border-t border-white/5">
   <div class="max-w-6xl mx-auto px-6">
     <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
       <div>
@@ -683,7 +705,7 @@
   <div class="max-w-4xl mx-auto px-6">
     <div class="grid md:grid-cols-2 gap-12 items-center">
       <div>
-        <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-3">NEWSLETTER SEMANAL + ALERTAS</div>
+        <div class="text-xs font-semibold tracking-widest text-[#FF5E1F] uppercase mb-3">NEWSLETTER SEMANAL + ALERTAS</div>
         <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4">
           Tudo do mundo IA, <span class="italic">toda semana e em tempo real.</span>
         </h2>
@@ -691,69 +713,69 @@
           Nao e so Anthropic. E <span class="font-semibold">todos os modelos</span> que importam: OpenAI, Google, Meta, Mistral, xAI, Perplexity, Cursor, Midjourney, ElevenLabs, Suno e qualquer novidade que sair.
         </p>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
-          <div class="bg-white/60 dark:bg-white/5 rounded-lg p-4 border border-[#003153]/10">
+          <div class="bg-white/60 dark:bg-white/5 rounded-lg p-4 border border-[#0A0A0A]/10">
             <div class="flex items-center gap-2 mb-1">
-              <svg class="w-4 h-4 text-[#003153]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-              <span class="text-xs font-semibold text-[#003153] uppercase tracking-wide">Toda quinta</span>
+              <svg class="w-4 h-4 text-[#0A0A0A]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              <span class="text-xs font-semibold text-[#0A0A0A] uppercase tracking-wide">Toda quinta</span>
             </div>
             <p class="text-sm text-[#171717]/70 leading-snug">Email com o resumo curado da semana inteira.</p>
           </div>
-          <div class="bg-white/60 dark:bg-white/5 rounded-lg p-4 border border-[#d97757]/30">
+          <div class="bg-white/60 dark:bg-white/5 rounded-lg p-4 border border-[#FF5E1F]/30">
             <div class="flex items-center gap-2 mb-1">
-              <span class="w-2 h-2 bg-[#d97757] rounded-full animate-pulse"></span>
-              <span class="text-xs font-semibold text-[#d97757] uppercase tracking-wide">Em tempo real</span>
+              <span class="w-2 h-2 bg-[#FF5E1F] rounded-full animate-pulse"></span>
+              <span class="text-xs font-semibold text-[#FF5E1F] uppercase tracking-wide">Em tempo real</span>
             </div>
             <p class="text-sm text-[#171717]/70 leading-snug">Alerta no WhatsApp na hora que sai algo grande.</p>
           </div>
         </div>
         <ul class="space-y-3 text-sm text-[#171717]/80">
           <li class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-[#003153] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            <svg class="w-5 h-5 text-[#0A0A0A] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
             <span><span class="font-semibold">Top 5 lancamentos da semana</span> de qualquer modelo (Claude, GPT, Gemini, Llama, Mistral, Grok, etc) com meu comentario</span>
           </li>
           <li class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-[#003153] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            <svg class="w-5 h-5 text-[#0A0A0A] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
             <span><span class="font-semibold">Alerta urgente</span> quando sai modelo novo, feature grande ou movimento de mercado relevante</span>
           </li>
           <li class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-[#003153] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            <svg class="w-5 h-5 text-[#0A0A0A] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
             <span><span class="font-semibold">Skill + 1 prompt pronto</span> da semana, pra copiar e usar onde quiser</span>
           </li>
           <li class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-[#003153] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            <svg class="w-5 h-5 text-[#0A0A0A] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
             <span>Leitura de <span class="font-semibold">3 minutos.</span> Cancela na hora se nao gostar.</span>
           </li>
         </ul>
       </div>
-      <div class="bg-white rounded-2xl p-6 md:p-8 shadow-xl border border-[#003153]/5">
+      <div class="bg-white rounded-2xl p-6 md:p-8 shadow-xl border border-[#0A0A0A]/5">
         <div x-show="!newsletterSubmitted">
-          <div class="text-xs uppercase tracking-widest text-[#003153]/60 font-semibold mb-2">Receba semanal + alertas em tempo real</div>
-          <h3 class="text-2xl font-semibold text-[#003153] mb-5 leading-tight">Inscreve uma vez. Recebe sempre.</h3>
+          <div class="text-xs uppercase tracking-widest text-[#0A0A0A]/60 font-semibold mb-2">Receba semanal + alertas em tempo real</div>
+          <h3 class="text-2xl font-semibold text-[#0A0A0A] mb-5 leading-tight">Inscreve uma vez. Recebe sempre.</h3>
           <form @submit.prevent="submitNewsletter" class="space-y-3">
             <input
               x-model="newsletterName"
               type="text"
               required
               placeholder="Seu primeiro nome"
-              class="w-full px-4 py-3 rounded-lg border border-[#003153]/15 focus:border-[#003153] focus:outline-none focus:ring-2 focus:ring-[#003153]/10"
+              class="w-full px-4 py-3 rounded-lg border border-[#0A0A0A]/15 focus:border-[#0A0A0A] focus:outline-none focus:ring-2 focus:ring-[#0A0A0A]/10"
             >
             <input
               x-model="newsletterEmail"
               type="email"
               required
               placeholder="seu@email.com (newsletter semanal)"
-              class="w-full px-4 py-3 rounded-lg border border-[#003153]/15 focus:border-[#003153] focus:outline-none focus:ring-2 focus:ring-[#003153]/10"
+              class="w-full px-4 py-3 rounded-lg border border-[#0A0A0A]/15 focus:border-[#0A0A0A] focus:outline-none focus:ring-2 focus:ring-[#0A0A0A]/10"
             >
             <input
               x-model="newsletterPhone"
               type="tel"
               placeholder="WhatsApp (opcional, pra alertas urgentes)"
-              class="w-full px-4 py-3 rounded-lg border border-[#003153]/15 focus:border-[#003153] focus:outline-none focus:ring-2 focus:ring-[#003153]/10"
+              class="w-full px-4 py-3 rounded-lg border border-[#0A0A0A]/15 focus:border-[#0A0A0A] focus:outline-none focus:ring-2 focus:ring-[#0A0A0A]/10"
             >
             <button
               type="submit"
               :disabled="newsletterSubmitting"
-              class="w-full px-6 py-3 bg-[#003153] hover:bg-[#003153]/90 text-white font-semibold rounded-lg transition disabled:opacity-50"
+              class="w-full px-6 py-3 bg-[#0A0A0A] hover:bg-[#0A0A0A]/90 text-white font-semibold rounded-lg transition disabled:opacity-50"
             >
               <span x-show="!newsletterSubmitting">Quero receber tudo do mundo IA</span>
               <span x-show="newsletterSubmitting">Enviando...</span>
@@ -762,10 +784,10 @@
           </form>
         </div>
         <div x-show="newsletterSubmitted" class="text-center py-4">
-          <div class="w-12 h-12 mx-auto mb-3 rounded-full bg-[#003153]/10 flex items-center justify-center">
-            <svg class="w-6 h-6 text-[#003153]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+          <div class="w-12 h-12 mx-auto mb-3 rounded-full bg-[#0A0A0A]/10 flex items-center justify-center">
+            <svg class="w-6 h-6 text-[#0A0A0A]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
           </div>
-          <div class="text-xl font-semibold text-[#003153] mb-2">Inscrito!</div>
+          <div class="text-xl font-semibold text-[#0A0A0A] mb-2">Inscrito!</div>
           <p class="text-sm text-[#171717]/60">Proxima quinta, 9h da manha, voce recebe a primeira newsletter. Se deixou WhatsApp, alerta urgente chega na hora que sair.</p>
         </div>
       </div>
@@ -773,93 +795,46 @@
   </div>
 </section>
 
-<!-- O QUE VEM JUNTO (Hormozi Stack) -->
-<section class="bg-white border-t border-[#003153]/10">
+<!-- O QUE VEM JUNTO -->
+<section class="bg-white border-t border-[#0A0A0A]/10">
   <div class="max-w-4xl mx-auto px-6 py-16 md:py-20">
-    <div class="text-xs font-semibold tracking-widest text-[#d97757] uppercase mb-3 text-center">O que vem junto</div>
-    <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-3 max-w-3xl mx-auto text-center">
-      Antes de baixar, olha o que <span class="italic">esta dentro.</span>
+    <div class="mono text-xs font-semibold tracking-widest text-[#FF5E1F] uppercase mb-3">O que vem junto</div>
+    <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-10 max-w-2xl">
+      Quatro canais, <span class="italic">um cadastro so.</span>
     </h2>
-    <p class="text-center text-[#171717]/60 mb-12 max-w-xl mx-auto">
-      Nao e so PDF. E o sistema completo que faz a IA trabalhar pra voce sem voce precisar ficar segurando ela.
-    </p>
 
-    <div class="space-y-3">
-      <!-- Item 1 -->
-      <div class="flex items-start gap-4 bg-[#F5F5F2] rounded-xl p-5 border border-[#003153]/5">
-        <div class="w-10 h-10 bg-[#003153] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold">01</div>
-        <div class="flex-1">
-          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
-            <h3 class="font-semibold text-[#003153]">PDF da biblioteca completa</h3>
-            <span class="text-xs font-semibold text-[#171717]/40 line-through">R$ 297</span>
-          </div>
-          <p class="text-sm text-[#171717]/70">Catalogo das <span class="font-semibold" x-text="data.total.toLocaleString('pt-BR')"></span> skills categorizadas com indice por caso de uso. Imprime, anota, mostra pro time.</p>
-        </div>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="p-5 border border-[#0A0A0A]/10 rounded-xl">
+        <div class="mono text-xs text-[#FF5E1F] uppercase tracking-wide mb-2">BIBLIOTECA</div>
+        <h3 class="font-semibold text-[#0A0A0A] mb-1">PDF das <span x-text="data.total.toLocaleString('pt-BR')"></span> skills</h3>
+        <p class="text-sm text-[#171717]/70">Catalogo categorizado por caso de uso. Pra consulta offline ou mostrar pro time.</p>
       </div>
 
-      <!-- Item 2 -->
-      <div class="flex items-start gap-4 bg-[#F5F5F2] rounded-xl p-5 border border-[#003153]/5">
-        <div class="w-10 h-10 bg-[#003153] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold">02</div>
-        <div class="flex-1">
-          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
-            <h3 class="font-semibold text-[#003153]">Vault com 12 prompts prontos</h3>
-            <span class="text-xs font-semibold text-[#171717]/40 line-through">R$ 197</span>
-          </div>
-          <p class="text-sm text-[#171717]/70">Os prompts que rodo todo dia: copy, audit, revisao, SEO, atendimento. Copia, cola, adapta.</p>
-        </div>
+      <div class="p-5 border border-[#0A0A0A]/10 rounded-xl">
+        <div class="mono text-xs text-[#FF5E1F] uppercase tracking-wide mb-2">PULSO SEMANAL</div>
+        <h3 class="font-semibold text-[#0A0A0A] mb-1">Email toda quinta</h3>
+        <p class="text-sm text-[#171717]/70">Top 5 da semana, skill destaque, 1 prompt testado. Tres minutos de leitura.</p>
       </div>
 
-      <!-- Item 3 -->
-      <div class="flex items-start gap-4 bg-[#F5F5F2] rounded-xl p-5 border border-[#003153]/5">
-        <div class="w-10 h-10 bg-[#003153] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold">03</div>
-        <div class="flex-1">
-          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
-            <h3 class="font-semibold text-[#003153]">Acesso ao Portal IA & Claude Code</h3>
-            <span class="text-xs font-semibold text-[#171717]/40 line-through">R$ 97/mes</span>
-          </div>
-          <p class="text-sm text-[#171717]/70">Atualizacoes em tempo real do que sai da Anthropic. Voce nao precisa ficar checando newsletter de IA.</p>
-        </div>
+      <div class="p-5 border border-[#0A0A0A]/10 rounded-xl">
+        <div class="mono text-xs text-[#FF5E1F] uppercase tracking-wide mb-2">PULSO URGENTE</div>
+        <h3 class="font-semibold text-[#0A0A0A] mb-1">WhatsApp quando sai algo grande</h3>
+        <p class="text-sm text-[#171717]/70">Opcional. Chega em minutos quando Anthropic, OpenAI ou outro lab publica algo relevante.</p>
       </div>
 
-      <!-- Item 4 -->
-      <div class="flex items-start gap-4 bg-[#F5F5F2] rounded-xl p-5 border border-[#003153]/5">
-        <div class="w-10 h-10 bg-[#003153] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold">04</div>
-        <div class="flex-1">
-          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
-            <h3 class="font-semibold text-[#003153]">Update WhatsApp quando sai skill nova</h3>
-            <span class="text-xs font-semibold text-[#171717]/40 line-through">R$ 47/mes</span>
-          </div>
-          <p class="text-sm text-[#171717]/70">Toda vez que adiciono skill nova relevante pro teu segmento, te chamo direto.</p>
-        </div>
+      <div class="p-5 border border-[#0A0A0A]/10 rounded-xl">
+        <div class="mono text-xs text-[#FF5E1F] uppercase tracking-wide mb-2">SALA DO PULSO</div>
+        <h3 class="font-semibold text-[#0A0A0A] mb-1">Comunidade Discord</h3>
+        <p class="text-sm text-[#171717]/70">Debates, testes coletivos, skills e prompts que funcionam. Convite no email.</p>
       </div>
-
-      <!-- Item 5 BONUS -->
-      <div class="flex items-start gap-4 bg-[#003153] text-white rounded-xl p-5 border-2 border-[#d97757]">
-        <div class="w-10 h-10 bg-[#d97757] rounded-lg flex items-center justify-center flex-shrink-0 text-white font-bold text-xs">BONUS</div>
-        <div class="flex-1">
-          <div class="flex items-center justify-between flex-wrap gap-2 mb-1">
-            <h3 class="font-semibold text-white">Newsletter semanal toda quinta</h3>
-            <span class="text-xs font-semibold text-[#d97757] line-through">R$ 67/mes</span>
-          </div>
-          <p class="text-sm text-white/70">3 lancamentos da semana + skill destaque + 1 prompt pra copiar. Leitura de 3 minutos.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Total stack -->
-    <div class="mt-8 text-center">
-      <div class="text-sm text-[#171717]/60 mb-1">Valor total do que voce recebe:</div>
-      <div class="text-3xl font-semibold text-[#171717]/30 line-through mb-2">R$ 705+</div>
-      <div class="text-5xl md:text-6xl font-semibold text-[#003153] mb-2">R$ 0</div>
-      <div class="text-sm text-[#d97757] font-semibold uppercase tracking-wide">Pra quem entrar agora.</div>
     </div>
   </div>
 </section>
 
 <!-- CTA EMAIL -->
-<section id="capturar" class="bg-[#003153] text-white py-20 relative overflow-hidden" style="background: linear-gradient(135deg, #003153 0%, #001a2e 100%);">
+<section id="capturar" class="bg-[#0A0A0A] text-white py-20 relative overflow-hidden" style="background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);">
   <div class="max-w-2xl mx-auto px-6 text-center relative z-10">
-    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#d97757]/15 border border-[#d97757]/30 text-[#f5b89e] text-xs font-semibold tracking-wide mb-6">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF5E1F]/15 border border-[#FF5E1F]/30 text-[#f5b89e] text-xs font-semibold tracking-wide mb-6">
       ACESSO IMEDIATO · 100% GRATUITO
     </div>
     <h2 class="text-3xl md:text-5xl font-semibold mb-5 leading-tight">
@@ -885,7 +860,7 @@
           type="text"
           required
           placeholder="Seu primeiro nome"
-          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#d97757] bg-white"
+          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#FF5E1F] bg-white"
         >
       </div>
       <div>
@@ -895,7 +870,7 @@
           type="email"
           required
           placeholder="seu@email.com"
-          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#d97757] bg-white"
+          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#FF5E1F] bg-white"
         >
       </div>
       <div>
@@ -907,13 +882,13 @@
           required
           placeholder="(11) 98765-4321"
           data-i18n-placeholder="placeholder_phone"
-          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#d97757] bg-white"
+          class="w-full px-4 py-3 rounded-lg text-[#171717] focus:outline-none focus:ring-2 focus:ring-[#FF5E1F] bg-white"
         >
       </div>
       <button
         type="submit"
         :disabled="submitting"
-        class="w-full px-6 py-4 mt-3 bg-[#d97757] hover:bg-[#c96847] text-white font-semibold rounded-lg transition disabled:opacity-50 shadow-lg shadow-[#d97757]/30 text-base"
+        class="w-full px-6 py-4 mt-3 bg-[#FF5E1F] hover:bg-[#c96847] text-white font-semibold rounded-lg transition disabled:opacity-50 shadow-lg shadow-[#FF5E1F]/30 text-base"
       >
         <span x-show="!submitting">Quero a biblioteca completa agora</span>
         <span x-show="submitting">Enviando...</span>
@@ -930,8 +905,8 @@
       </div>
     </form>
     <div x-show="submitted" class="bg-white/10 rounded-xl p-8 max-w-md mx-auto border border-white/20">
-      <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-[#d97757]/20 flex items-center justify-center">
-        <svg class="w-6 h-6 text-[#d97757]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+      <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-[#FF5E1F]/20 flex items-center justify-center">
+        <svg class="w-6 h-6 text-[#FF5E1F]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
       </div>
       <div class="text-xl font-semibold mb-2">Pronto, <span x-text="name"></span>!</div>
       <div class="text-sm text-white/70 mb-4">O PDF chega no teu email em ate 2 minutos. Tambem vou te chamar no WhatsApp pra confirmar e te enviar bonus.</div>
@@ -941,7 +916,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-[#001a2e] text-white/50 py-10 text-sm">
+<footer class="bg-[#1A1A1A] text-white/50 py-10 text-sm">
   <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-4">
     <div>
       <span class="text-white/80 font-semibold">Pulso da IA</span> by <a href="https://triadeflow.com.br" class="text-white/80 hover:text-white underline">Triadeflow</a>.
@@ -1426,20 +1401,7 @@ function skillsApp() {
     },
 
     animateCount(target) {
-      const duration = 1800;
-      const steps = 60;
-      const stepTime = duration / steps;
-      const increment = target / steps;
-      let current = 0;
-      const timer = setInterval(() => {
-        current += increment;
-        if (current >= target) {
-          this.displayCount = target.toLocaleString('pt-BR');
-          clearInterval(timer);
-        } else {
-          this.displayCount = Math.floor(current).toLocaleString('pt-BR');
-        }
-      }, stepTime);
+      this.displayCount = target.toLocaleString('pt-BR');
     },
 
     categoryLabel(key) {

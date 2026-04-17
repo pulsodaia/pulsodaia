@@ -1,165 +1,210 @@
-# Carrossel Instagram — Lancamento Opus 4.7 + 1.097 Skills
+# Carrossel Instagram · Lancamento Pulso da IA
 
 ## Brand
 
-- Fundo: #003153 (primary) com gradiente pra #001a2e
-- Texto principal: branco
-- Destaque: #d97757 (terracota)
-- Fonte titulo: Fraunces (italic pra headlines)
-- Fonte corpo: Inter
-- Logo Triadeflow canto inferior
+- **Tagline oficial:** Sinta o pulso do mercado de IA.
+- **Fundo:** `#0A0A0A` (Deep Black) com gradiente radial pra `#050505`
+- **Primary:** `#FF5E1F` (Pulse Orange)
+- **Tipografia manchete:** Fraunces italic
+- **Tipografia corpo:** Inter
+- **Tipografia dados/data:** JetBrains Mono
+- **Logo:** horizontal com symbol + wordmark embaixo
+- **Modelo:** Nova (brand/mockups/nova-*.png)
 
 ---
 
-## SLIDE 1 — CAPA
+## SLIDE 1 · CAPA (9:16 ou 1:1)
 
-**Badge superior (terracota):** NOVO · 16 de abril de 2026
+**Badge superior (mono, laranja):**
+`PULSO DA IA · 17 ABR 2026`
 
-**Headline grande (Fraunces, 2 linhas):**
-A Anthropic lancou *Skills*.
-E eu ja tenho 1.097 prontas.
+**Headline (Fraunces 96pt):**
+Sinta o pulso
+*do mercado de IA.*
 
-**Subheadline (Inter, cinza claro):**
-O que isso significa pra quem vive de vender processo, sistema e inteligencia.
+**Subhead (Inter 22pt):**
+Chegou o portal brasileiro que entrega IA direto da fonte.
 
-**Canto inferior:** @triadeflow.ia  ·  arrasta →
+**Canto inferior:** logo horizontal + `arrasta →`
 
 ---
 
-## SLIDE 2 — O PROBLEMA
+## SLIDE 2 · O QUE MUDA
+
+**Eyebrow:** O PROBLEMA
 
 **Headline:**
-Cada conversa com IA comecava do zero.
+Toda novidade de IA nasce em ingles.
 
 **Corpo:**
-Voce abria um chat. Explicava quem era. Que ferramentas usava.
-Que tom, que formato, que processo.
-De novo. E de novo. E de novo.
+Blogs oficiais, tweets de founders, releases no GitHub.
+No Brasil, voce descobre 2-3 dias depois — ja mastigado por portais que so traduzem.
 
-Isso agora acabou.
+Voce perde tempo. Voce perde vantagem.
 
 ---
 
-## SLIDE 3 — O QUE SAO SKILLS
+## SLIDE 3 · A SOLUCAO
+
+**Eyebrow:** A SOLUCAO
+
+**Headline em italico:**
+Pulso da IA eh *fonte primaria.*
+
+**Corpo:**
+A gente pega direto dos laboratorios (Anthropic, OpenAI, Google, Meta, Mistral, xAI) e dos founders verificados (Sam Altman, Dario Amodei, Demis Hassabis, Karpathy).
+
+Traduz. Filtra ruido. Publica em minutos.
+
+---
+
+## SLIDE 4 · O QUE VOCE RECEBE
+
+**Eyebrow:** 4 CANAIS
+
+Grid 2x2:
+
+**1. Biblioteca**
+PDF com 3.004 skills Claude categorizadas.
+
+**2. Pulso Semanal**
+Email toda quinta 9h.
+
+**3. Pulso Urgente**
+Alerta WhatsApp quando sai algo grande.
+
+**4. Sala do Pulso**
+Comunidade Discord.
+
+---
+
+## SLIDE 5 · OS NUMEROS
+
+**Numeros grandes em mono laranja:**
+
+**3.004**
+skills catalogadas
+
+**19**
+categorias
+
+**12**
+labs monitorados
+
+**1**
+cadastro so
+
+---
+
+## SLIDE 6 · A NOVA
+
+[Foto da Nova com logo no peito — estilo Nike, minimalista]
+
+**Overlay (canto inferior):**
+"Quem vive de IA sabe antes."
+— Nova, editor Pulso da IA
+
+---
+
+## SLIDE 7 · O LEMA
+
+**Headline gigante (Fraunces 120pt italic):**
+
+*Sinta o pulso*
+*do mercado de IA.*
+
+(Fundo preto, so o texto enorme e o logo pequeno)
+
+---
+
+## SLIDE 8 · CTA FINAL
 
 **Headline:**
-Skills = manuais que a IA consulta sozinha.
+Comeca agora.
 
 **Corpo:**
-Voce empacota um conhecimento especifico (ex: "como auditar CRM", "como escrever copy no meu tom", "como fazer pentest").
+Um cadastro. Quatro canais. Zero enrolacao.
 
-Claude Opus 4.7 decide sozinho *quando* usar cada uma.
-
-Sem precisar digitar nada.
-
----
-
-## SLIDE 4 — POR QUE ISSO MUDA TUDO
-
-**Headline em italico (Fraunces):**
-E como ter 1.000 especialistas de plantao.
-
-**Corpo:**
-- Cada skill = um tema dominado
-- Ativa sozinha no contexto certo
-- Funciona em qualquer projeto, qualquer cliente
-- Voce deixa de repetir. Passa a entregar.
-
----
-
-## SLIDE 5 — O QUE EU ACUMULEI
-
-**Numero gigante (Fraunces, 120pt):**
-**1.097**
-
-**Abaixo:**
-skills em produ cao
-no meu stack Triadeflow
-
-**Pequeno:**
-Categorizadas em 18 areas: ciencia, cloud, marketing, pentest, Azure, devops, SEO, databases, frontend, mais.
-
----
-
-## SLIDE 6 — AMOSTRA DAS CATEGORIAS
-
-**Grid 3x2:**
-- Ciencia & Bioinformatica — 136
-- Integracoes & Automacoes — 110
-- Azure & Microsoft — 108
-- Cloud & DevOps — 86
-- Frontend & UI — 85
-- AI & Machine Learning — 68
+**Botao gigante (laranja):**
+PULSODAIA.COM.BR
 
 **Rodape:**
-+ 12 outras categorias. Ver tudo em skills.triadeflow.ai
+Ou comenta **PULSO** aqui embaixo que te mando o link no direct.
 
 ---
 
-## SLIDE 7 — APLICACAO REAL
+## CAPTION DO POST
 
-**Headline:**
-Isso ja roda em 30+ projetos que gerencio hoje.
+Chegou o **Pulso da IA**.
 
-**Exemplos rapidos:**
-- Clientes B2B recebendo follow-up automatico
-- Bots WhatsApp qualificando lead 24/7
-- CRM monitorado 100% do dia
-- Copy, dashboards, audits — tudo com consistencia de marca
+Portal brasileiro que pega a IA direto da fonte — antes que os outros portais publiquem.
 
-Skills nao sao hype. Sao ferramenta.
+Anthropic, OpenAI, Google, Meta, Mistral, xAI. Founders verificados. Mais catalogo de 3.004 skills Claude Code.
 
----
+Um cadastro. Quatro canais (PDF + Newsletter + WhatsApp + Discord). Zero enrolacao.
 
-## SLIDE 8 — CTA
+👉 pulsodaia.com.br
 
-**Headline (Fraunces, italico):**
-Quer acesso a todas as 1.097?
-
-**Corpo:**
-Montei a biblioteca completa numa pagina viva — busca, filtro, atualiza sozinha.
-
-**Destaque grande (terracota):**
-Comenta **CLAUDE** aqui embaixo
-que te mando o link no direct.
-
-**Pequeno:**
-Zero venda. Zero follow chato. So o link.
-
----
-
-# CAPTION (publicacao)
-
-A Anthropic lancou Skills no Claude. E mudou o jogo.
-
-Skill = um "manual especializado" que a IA consulta sozinha quando o assunto aparece. Voce nao precisa mais explicar quem voce eh, que tom usar, que processo seguir. A IA lembra. Automatico.
-
-Eu ja tenho 1.097 skills rodando no meu stack Triadeflow. Montei a biblioteca completa numa pagina viva que atualiza sozinha a cada skill nova que crio: skills.triadeflow.ai
-
-Mas pra facilitar — comenta **CLAUDE** aqui que te mando o link direto no direct.
-
-(Nao precisa seguir, nao precisa curtir, nao precisa nada. So comenta. O link chega em minutos.)
+Ou comenta **PULSO** aqui que te mando o link no direct.
 
 ---
 
 ## HASHTAGS
 
-#Claude #ClaudeCode #Anthropic #IA #InteligenciaArtificial #AutomacaoComercial #CRM #Processos #B2B #Produtividade #SaaS #DevTools #Skills #ClaudeOpus #Workflow #Triadeflow
+#IA #InteligenciaArtificial #Claude #ClaudeCode #OpenAI #GPT #Anthropic #Gemini #LLM #PulsoDaIA #FonteBrasileira #Newsletter #B2B #Tech #Dev #Founder #ProductManager #AIEngineer
 
 ---
 
-## VARIACOES DE CAPTION (testar A/B)
+## VARIACOES DE CAPTION (A/B testing)
 
-**Versao curta:**
-A Anthropic lancou Skills. Em 3 semanas eu ja tinha 1.097 rodando no meu stack.
-Comenta CLAUDE que te mando o link da biblioteca completa.
+### Variacao 1 — Provocativa
+Voce fica sabendo das novidades de IA pelos portais brasileiros?
+Entao voce esta 2-3 dias atras da curva.
+Pulso da IA = fonte primaria em portugues.
+Comenta PULSO que eu te mando o link.
 
-**Versao explicativa:**
-Skills mudam como IA funciona pra quem trabalha com sistema. Em vez de explicar tudo toda vez, a IA carrega o conhecimento certo no momento certo — sozinha.
-Montei 1.097 delas. Catalogo completo em pagina viva.
-Comenta CLAUDE que eu te mando.
+### Variacao 2 — Personal
+Passei os ultimos 3 meses construindo uma coisa que me faz falta.
+Um portal brasileiro que pega a IA DIRETO da fonte, antes de virar noticia.
+Hoje entra no ar. Comenta PULSO que te mando.
 
-**Versao provocativa:**
-"Como voce tem tempo pra fazer tudo isso?"
-Nao tenho. A IA tem. Com 1.097 skills especializadas que ativam sozinhas no contexto certo.
-Comenta CLAUDE que te envio a biblioteca.
+### Variacao 3 — Direct benefit
+**Quem vive de IA sabe antes.**
+A partir de hoje: Pulso da IA.
+pulsodaia.com.br
+
+---
+
+## STORIES COMPLEMENTARES (9:16)
+
+**Story 1 — Teaser 24h antes:**
+"Amanha sai."
+Fundo preto + pulse wave animado + "17 ABR"
+
+**Story 2 — Anuncio:**
+"No ar."
+pulsodaia.com.br
+
+**Story 3 — Feature da Nova:**
+Foto Nova + "Conheca a Nova, nossa editora"
+
+**Story 4 — Canais:**
+4 cards dos canais (PDF, Newsletter, WhatsApp, Discord)
+
+**Story 5 — CTA final:**
+"Arrasta pra cima pra entrar"
+Link sticker pra pulsodaia.com.br
+
+---
+
+## REELS (15-30s)
+
+### Reel 1 — Hook rapido
+Cena 1 (2s): "Voce ainda le IA nos portais brasileiros?"
+Cena 2 (3s): lista de Anthropic, OpenAI, Google saindo
+Cena 3 (3s): portais brasileiros 2 dias depois
+Cena 4 (4s): "Pulso da IA: fonte primaria"
+Cena 5 (3s): pulsodaia.com.br
+
+### Reel 2 — Demo do produto
+Nova falando em 30s: "Oi, eu sou a Nova, editor do Pulso da IA. Todo dia eu leio as fontes primarias de IA e traduzo pra voce em 3 minutos. Se voce vive de IA, isso eh pra voce."

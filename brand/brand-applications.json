@@ -1,0 +1,215 @@
+{
+  "_comment": "Biblioteca universal de aplicacoes da marca Pulso da IA. Cada 'type' define onde e como a logo fica.",
+  "_coords": "x/y/w/h sao porcentagens da imagem base (0-1)",
+  "_variants": {
+    "wordmark-white": "pulse wave + texto branco (pra fundos escuros)",
+    "wordmark-black": "pulse wave + texto preto (pra fundos claros)",
+    "wordmark-orange": "tudo laranja (pra fundos brancos neutros)",
+    "symbol-only-orange": "so pulse wave laranja",
+    "symbol-only-white": "so pulse wave branco"
+  },
+  "types": {
+    "tshirt-front-chest": {
+      "_note": "DEFAULT DA MARCA: estilo Nike/premium - simbolo pequeno no peito esquerdo. Usar em TODAS as camisetas padrao.",
+      "label": "Camiseta - peito esquerdo estilo Nike (DEFAULT)",
+      "x": 0.36, "y": 0.66, "width": 0.14,
+      "anchor": "center",
+      "variant": "symbol-only-orange",
+      "blend": "over",
+      "blur": 0.35,
+      "brightness": 0.95
+    },
+    "tshirt-wordmark-centered": {
+      "label": "Camiseta - wordmark horizontal centralizado (uso ocasional)",
+      "x": 0.5, "y": 0.72, "width": 0.45,
+      "anchor": "center",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0.5,
+      "brightness": 0.92
+    },
+    "tshirt-symbol-only": {
+      "label": "Camiseta - so simbolo grande no peito",
+      "x": 0.5, "y": 0.68, "width": 0.38,
+      "anchor": "center",
+      "variant": "symbol-only-orange",
+      "blend": "over",
+      "blur": 0.4,
+      "brightness": 0.94
+    },
+    "tshirt-stacked": {
+      "label": "Camiseta - simbolo em cima + wordmark embaixo (stacked)",
+      "x": 0.5, "y": 0.72, "width": 0.42,
+      "anchor": "center",
+      "variant": "stacked-white",
+      "blend": "over",
+      "blur": 0.4,
+      "brightness": 0.92
+    },
+    "tshirt-front-pocket": {
+      "label": "Camiseta - peito esquerdo (bolso, estilo Nike/premium)",
+      "x": 0.36, "y": 0.66, "width": 0.14,
+      "anchor": "center",
+      "variant": "symbol-only-orange",
+      "blend": "over",
+      "blur": 0.35,
+      "brightness": 0.95
+    },
+    "hoodie-chest": {
+      "label": "Moletom - peito centro",
+      "x": 0.5, "y": 0.45, "width": 0.50,
+      "anchor": "center",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0.5,
+      "brightness": 0.90
+    },
+    "cap-front": {
+      "label": "Bone - frente",
+      "x": 0.5, "y": 0.40, "width": 0.35,
+      "anchor": "center",
+      "variant": "symbol-only-orange",
+      "blend": "over",
+      "blur": 0.2
+    },
+    "mug-side": {
+      "label": "Caneca - lateral",
+      "x": 0.5, "y": 0.50, "width": 0.35,
+      "anchor": "center",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0.3
+    },
+    "mug-white-side": {
+      "label": "Caneca branca - lateral",
+      "x": 0.5, "y": 0.50, "width": 0.35,
+      "anchor": "center",
+      "variant": "wordmark-orange",
+      "blend": "multiply",
+      "blur": 0.3
+    },
+    "notebook-cover": {
+      "label": "Caderno - capa",
+      "x": 0.5, "y": 0.50, "width": 0.45,
+      "anchor": "center",
+      "variant": "wordmark-orange",
+      "blend": "over",
+      "blur": 0.2
+    },
+    "business-card-front": {
+      "label": "Cartao de visita - frente",
+      "x": 0.5, "y": 0.35, "width": 0.55,
+      "anchor": "center",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0.1
+    },
+    "envelope-seal": {
+      "label": "Envelope - selo redondo",
+      "x": 0.80, "y": 0.50, "width": 0.15,
+      "anchor": "center",
+      "variant": "symbol-only-orange",
+      "blend": "over",
+      "blur": 0.2,
+      "rounded": true
+    },
+    "letterhead-header": {
+      "label": "Papel timbrado - cabecalho",
+      "x": 0.08, "y": 0.05, "width": 0.25,
+      "anchor": "left",
+      "variant": "wordmark-black",
+      "blend": "over",
+      "blur": 0
+    },
+    "facade-illuminated": {
+      "label": "Fachada predio - letreiro",
+      "x": 0.5, "y": 0.50, "width": 0.40,
+      "anchor": "center",
+      "variant": "wordmark-orange",
+      "blend": "over",
+      "blur": 1.0,
+      "glow": "orange"
+    },
+    "office-door-plate": {
+      "label": "Placa porta escritorio",
+      "x": 0.5, "y": 0.50, "width": 0.55,
+      "anchor": "center",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0.3
+    },
+    "event-backdrop": {
+      "label": "Backdrop evento",
+      "x": 0.5, "y": 0.48, "width": 0.30,
+      "anchor": "center",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0.3
+    },
+    "youtube-thumb-corner": {
+      "label": "Thumb YouTube - canto inferior",
+      "x": 0.95, "y": 0.92, "width": 0.18,
+      "anchor": "right",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0
+    },
+    "instagram-post-corner": {
+      "label": "Post Instagram - canto",
+      "x": 0.95, "y": 0.92, "width": 0.18,
+      "anchor": "right",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0
+    },
+    "instagram-story-bottom": {
+      "label": "Stories Instagram - rodape",
+      "x": 0.5, "y": 0.90, "width": 0.35,
+      "anchor": "center",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0
+    },
+    "slack-avatar": {
+      "label": "Avatar Slack/Discord",
+      "x": 0.5, "y": 0.50, "width": 0.70,
+      "anchor": "center",
+      "variant": "symbol-only-orange",
+      "blend": "over",
+      "blur": 0
+    },
+    "ad-banner-top-left": {
+      "label": "Ad banner - canto superior esq",
+      "x": 0.05, "y": 0.08, "width": 0.20,
+      "anchor": "left",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0
+    },
+    "sticker-round": {
+      "label": "Adesivo redondo",
+      "x": 0.5, "y": 0.50, "width": 0.70,
+      "anchor": "center",
+      "variant": "wordmark-white",
+      "blend": "over",
+      "blur": 0,
+      "rounded": true
+    },
+    "zoom-background-corner": {
+      "label": "Background Zoom/Teams - canto",
+      "x": 0.05, "y": 0.90, "width": 0.12,
+      "anchor": "left",
+      "variant": "symbol-only-orange",
+      "blend": "over",
+      "blur": 0
+    },
+    "mousepad-corner": {
+      "label": "Mousepad - canto inferior",
+      "x": 0.92, "y": 0.85, "width": 0.12,
+      "anchor": "right",
+      "variant": "symbol-only-orange",
+      "blend": "over",
+      "blur": 0.1
+    }
+  }
+}

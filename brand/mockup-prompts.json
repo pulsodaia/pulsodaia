@@ -1,0 +1,128 @@
+{
+  "brand": "Pulso da IA",
+  "color_hex": "#FF5E1F",
+  "logo_description": "pulse wave symbol (EKG-like) with 3 orange dots in decreasing opacity at the end, followed by wordmark 'pulsodaIA' in modern sans-serif where 'da' is italic lighter and 'IA' is bold",
+  "common_style": "editorial product photography, minimalist, high contrast, professional studio lighting, shot on Leica Q2, 8K resolution, magazine quality",
+  "items": [
+    {
+      "id": "01-business-card",
+      "category": "papelaria",
+      "filename": "01-business-card.png",
+      "prompt": "Professional product photography of a matte black business card with Pulse Orange (#FF5E1F) logo in hot stamping foil. The logo is a minimal pulse wave with 3 dots. Card rests on a dark walnut wood desk, slightly angled. Subtle Pulse Orange glow from the foil. Editorial magazine style, shot on Leica Q2, 8K, soft directional lighting from the left, shallow depth of field."
+    },
+    {
+      "id": "02-letterhead",
+      "category": "papelaria",
+      "filename": "02-letterhead.png",
+      "prompt": "Top-down flat lay photograph of an A4 white letterhead with minimalist design. Top-left corner has a small Pulse Orange (#FF5E1F) pulse wave logo. Bottom has a thin line with mono text 'pulsodaia.com.br'. White paper on a bone white textured surface, soft natural lighting, editorial stationery photography, 8K, magazine quality, very clean and minimal."
+    },
+    {
+      "id": "03-envelope",
+      "category": "papelaria",
+      "filename": "03-envelope.png",
+      "prompt": "Matte black corporate envelope photographed from a 3/4 angle. Sealed with a circular Pulse Orange (#FF5E1F) wax-like seal featuring a minimal pulse wave symbol in white. Soft dramatic side lighting. Resting on dark slate surface. Shot on Hasselblad, editorial style, high contrast, 8K, professional product photography."
+    },
+    {
+      "id": "04-notebook",
+      "category": "papelaria",
+      "filename": "04-notebook.png",
+      "prompt": "Matte black spiral-bound hardcover notebook with a centered Pulse Orange (#FF5E1F) pulse wave symbol embossed on the front. Lying open on a minimal dark desk with a black fountain pen beside it. Shot on Fujifilm GFX, top-down with slight angle, editorial stationery style, 8K, soft diffused lighting from above."
+    },
+    {
+      "id": "05-tshirt-symbol",
+      "category": "merch",
+      "filename": "05-tshirt-symbol.png",
+      "prompt": "Premium black cotton t-shirt on an invisible ghost mannequin, frontal view. Large Pulse Orange (#FF5E1F) pulse wave symbol centered on the chest. Clean studio background in dark charcoal. Professional apparel photography, high contrast lighting, shot on Canon R5, 8K, magazine quality, minimal editorial style."
+    },
+    {
+      "id": "06-tshirt-horizontal",
+      "category": "merch",
+      "filename": "06-tshirt-horizontal.png",
+      "prompt": "Premium black cotton t-shirt on an invisible ghost mannequin, frontal view. Small horizontal 'pulsodaIA' wordmark logo with pulse wave in Pulse Orange (#FF5E1F) on the left chest area. Studio setting, dark charcoal background, minimal editorial apparel photography, shot on Canon R5, 8K, professional quality."
+    },
+    {
+      "id": "07-hoodie",
+      "category": "merch",
+      "filename": "07-hoodie.png",
+      "prompt": "Premium black pullover hoodie hanging on a matte black wooden hanger against a dark concrete wall. 3/4 angle showing the back with horizontal 'pulsodaIA' wordmark in Pulse Orange (#FF5E1F) across the upper back. Moody editorial fashion photography, dramatic side lighting, shot on Leica SL2, 8K."
+    },
+    {
+      "id": "08-cap",
+      "category": "merch",
+      "filename": "08-cap.png",
+      "prompt": "Premium black snapback cap with flat brim, photographed in 3/4 angle. Embroidered Pulse Orange (#FF5E1F) pulse wave symbol on the front panel. Resting on a dark wood surface with a coffee cup nearby. Editorial streetwear photography, soft natural window light, shot on Fujifilm X-T5, 8K, magazine quality."
+    },
+    {
+      "id": "09-mug-white",
+      "category": "merch",
+      "filename": "09-mug-white.png",
+      "prompt": "White ceramic mug with clean minimalist 'pulsodaIA' wordmark in Pulse Orange (#FF5E1F) printed on the side. Steam rising from hot coffee. Resting on a minimalist workspace desk with a MacBook Pro visible in soft focus background. Top-down 45 degree angle, editorial lifestyle photography, shot on Sony A7R V, 8K, warm natural lighting."
+    },
+    {
+      "id": "10-mug-black",
+      "category": "merch",
+      "filename": "10-mug-black.png",
+      "prompt": "Matte black ceramic mug close-up dramatic shot. Centered Pulse Orange (#FF5E1F) pulse wave symbol on the side glowing against the dark surface. Dark background with subtle rim lighting creating silhouette. Editorial product photography, high contrast moody lighting, shot on Hasselblad, 8K, commercial quality."
+    },
+    {
+      "id": "11-facade-sign",
+      "category": "fachada",
+      "filename": "11-facade-sign.png",
+      "prompt": "Modern commercial building facade at dusk with illuminated 'pulsodaIA' wordmark signage. The letters glow in Pulse Orange (#FF5E1F) neon against a dark concrete and glass architecture. Blue hour sky in background, wet pavement reflecting the glow. Architectural editorial photography, shot on Sony A7R V wide angle, 8K, cinematic mood."
+    },
+    {
+      "id": "12-office-door-plate",
+      "category": "fachada",
+      "filename": "12-office-door-plate.png",
+      "prompt": "Matte black aluminum office door plaque with laser-cut 'pulsodaIA' horizontal logo and pulse wave. Mounted beside a dark glass office door. Clean minimalist corporate architecture. Soft overhead LED lighting. Shot straight-on, editorial architectural photography, shot on Canon R5, 8K, high detail."
+    },
+    {
+      "id": "13-event-backdrop",
+      "category": "fachada",
+      "filename": "13-event-backdrop.png",
+      "prompt": "Professional event stage with a massive matte black backdrop featuring the stacked 'pulsodaIA' logo (pulse wave symbol above wordmark) centered in Pulse Orange (#FF5E1F). Two minimalist podiums in front. Low dramatic stage lighting from below. Wide shot from the audience perspective. Corporate event photography, shot on Canon R5, 8K, cinematic."
+    },
+    {
+      "id": "14-meeting-room",
+      "category": "fachada",
+      "filename": "14-meeting-room.png",
+      "prompt": "Modern minimalist meeting room interior. One accent wall has a subtle Pulse Orange (#FF5E1F) pulse wave decorative pattern running horizontally at eye level. Large black conference table, minimalist chairs, exposed concrete ceiling. Soft natural daylight from large windows. Interior design editorial photography, shot on Sony A7R V wide angle, 8K, architectural magazine quality."
+    },
+    {
+      "id": "15-pen",
+      "category": "swag",
+      "filename": "15-pen.png",
+      "prompt": "Matte black premium writing pen on a dark walnut desk with subtle Pulse Orange (#FF5E1F) hot foil 'pulsodaIA' wordmark along the barrel. Close-up macro shot with shallow depth of field, golden hour side lighting creating drama. Editorial luxury product photography, shot on Hasselblad H6D, 8K, commercial quality."
+    },
+    {
+      "id": "16-mousepad",
+      "category": "swag",
+      "filename": "16-mousepad.png",
+      "prompt": "Matte black desk mat with subtle repeating pulse wave pattern in dark charcoal. Minimalist workspace with a mechanical keyboard, black wireless mouse placed on the pad, and a coffee mug nearby. Top-down flat lay, editorial tech lifestyle photography, shot on Sony A7R V, 8K, soft ambient lighting."
+    },
+    {
+      "id": "17-stickers",
+      "category": "swag",
+      "filename": "17-stickers.png",
+      "prompt": "A pack of 4 different 'pulsodaIA' die-cut stickers scattered on a light wood desk surface. One with pulse wave symbol only in Pulse Orange (#FF5E1F), one with horizontal wordmark on black, one with full logo on white, one inverse all-orange with white pulse wave. Top-down flat lay, soft natural lighting, editorial branded merch photography, shot on Fujifilm X-T5, 8K."
+    },
+    {
+      "id": "18-iphone-whatsapp",
+      "category": "digital",
+      "filename": "18-iphone-whatsapp.png",
+      "prompt": "Close-up photograph of a black iPhone 15 Pro showing a WhatsApp notification banner. The sender is 'Pulso da IA' with an orange pulse wave avatar and the message preview says '⚡ PULSO URGENTE: Claude Opus 4.7 saiu...'. Phone held in a person's hand at an angle. Dark ambient background. Shot on Sony A7R V macro, 8K, editorial tech photography, soft focus background."
+    },
+    {
+      "id": "19-macbook-site",
+      "category": "digital",
+      "filename": "19-macbook-site.png",
+      "prompt": "Space Gray MacBook Pro M3 open on a minimalist dark wood desk, screen showing the pulsodaia.com.br homepage with dark theme, Pulse Orange (#FF5E1F) accents, and the headline 'Tudo do mundo IA'. Editorial tech photography angle from 45 degrees. Soft natural window light. Shot on Canon R5, 8K, magazine quality, very clean composition."
+    },
+    {
+      "id": "20-full-setup",
+      "category": "digital",
+      "filename": "20-full-setup.png",
+      "prompt": "Editorial flat lay overhead shot of a minimalist dark wood workspace featuring: MacBook Pro open showing pulsodaia.com.br homepage, black ceramic mug with Pulse Orange pulse wave symbol, black fountain pen, black notebook with orange logo embossed, mechanical keyboard, and a small Pulse Orange (#FF5E1F) sticker on the corner of the laptop. Soft natural lighting. Shot top-down on Sony A7R V wide angle, 8K, editorial tech lifestyle magazine quality."
+    }
+  ]
+}

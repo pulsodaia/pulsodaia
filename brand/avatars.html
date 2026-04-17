@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avatars & Banners · Pulso da IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0A0A0A; color: #FAFAFA; font-family: 'Inter', sans-serif; padding: 60px 32px; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  h1 { font-family: 'Fraunces', serif; font-size: 56px; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 8px; }
+  h1 .italic { font-style: italic; color: #FF5E1F; }
+  .sub { color: #A8A8A8; font-size: 16px; margin-bottom: 60px; }
+  h2 { font-family: 'Fraunces', serif; font-size: 32px; font-weight: 500; margin: 60px 0 24px; }
+  .mono { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; letter-spacing: 0.1em; }
+
+  .platform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  .platform-card {
+    background: #1A1A1A;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .platform-card h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+  .platform-card .spec { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #A8A8A8; margin-bottom: 16px; }
+  .avatar-preview { display: flex; align-items: center; justify-content: center; padding: 24px; background: #FAFAFA; border-radius: 8px; margin-bottom: 16px; }
+  .avatar-preview.dark { background: #050505; }
+
+  .circle-avatar {
+    width: 160px;
+    height: 160px;
+    background: #0A0A0A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .circle-avatar.orange { background: #FF5E1F; }
+  .circle-avatar.white { background: #FAFAFA; }
+
+  .square-avatar {
+    width: 160px;
+    height: 160px;
+    background: #0A0A0A;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .download-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #FF5E1F;
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 8px;
+    cursor: pointer;
+    border: 0;
+    font-family: inherit;
+  }
+  .download-btn:hover { background: #E5501A; }
+
+  /* BANNERS */
+  .banner-row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  .banner-container {
+    background: #1A1A1A;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .banner-x {
+    width: 100%;
+    aspect-ratio: 1500/500;
+    background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .banner-youtube {
+    width: 100%;
+    aspect-ratio: 2560/1440;
+    background: radial-gradient(ellipse at top, #0A0A0A 0%, #050505 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .banner-linkedin {
+    width: 100%;
+    aspect-ratio: 1584/396;
+    background: #0A0A0A;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    gap: 32px;
+    overflow: hidden;
+  }
+
+  .pulse-bg {
+    position: absolute;
+    inset: 0;
+    opacity: 0.08;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100'%3E%3Cpath d='M0 50 L60 50 L80 10 L110 90 L140 30 L170 70 L200 45 L230 55 L260 50 L400 50' stroke='%23FF5E1F' stroke-width='3' fill='none'/%3E%3C/svg%3E");
+    background-size: 400px 100px;
+    background-repeat: repeat-x;
+    background-position: center;
+  }
+
+  .wordmark-large { font-family: 'Inter', sans-serif; font-weight: 400; letter-spacing: -0.02em; color: white; }
+  .wordmark-large .da { font-style: italic; color: rgba(255,255,255,0.55); }
+  .wordmark-large .ia { font-weight: 700; }
+
+  .footer-info {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    text-align: center;
+    color: #5C5C5C;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+  }
+
+  .nav-top { display: flex; gap: 24px; margin-bottom: 60px; padding-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .nav-top a { color: #A8A8A8; text-decoration: none; font-size: 13px; }
+  .nav-top a:hover { color: #FAFAFA; }
+
+  /* Tip box */
+  .tip {
+    background: rgba(255, 94, 31, 0.08);
+    border-left: 3px solid #FF5E1F;
+    padding: 16px 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: rgba(250,250,250,0.8);
+  }
+  .tip strong { color: #FF5E1F; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="nav-top">
+  <a href="/">← Pulso da IA</a>
+  <a href="/brand/brandbook.html">Brandbook</a>
+  <a href="#avatars">Avatars</a>
+  <a href="#banners">Banners</a>
+</div>
+
+<h1>Avatars <span class="italic">e banners.</span></h1>
+<p class="sub">Logos em todos os formatos pra cada plataforma onde @pulsodaia esta travado. Click direito → salvar imagem, ou use os botoes de download SVG.</p>
+
+<div class="tip">
+  <strong>Recomendacao:</strong> pra download em PNG com dimensoes exatas, cada card tem botao "Download PNG" que gera o arquivo no navegador via canvas. Pra SVG limpo, use "Copiar SVG" e salve como .svg
+</div>
+
+<!-- AVATARS -->
+<h2 id="avatars">Avatars de perfil</h2>
+
+<div class="platform-grid">
+
+  <!-- Instagram -->
+  <div class="platform-card">
+    <h3>Instagram</h3>
+    <div class="spec">320 × 320 px · PNG · @pulsodaia</div>
+    <div class="avatar-preview dark">
+      <div class="circle-avatar">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('instagram', 320)">Download PNG 320×320</button>
+  </div>
+
+  <!-- X / Twitter -->
+  <div class="platform-card">
+    <h3>X (Twitter)</h3>
+    <div class="spec">400 × 400 px · PNG · @pulsodaia</div>
+    <div class="avatar-preview dark">
+      <div class="circle-avatar">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('x', 400)">Download PNG 400×400</button>
+  </div>
+
+  <!-- TikTok -->
+  <div class="platform-card">
+    <h3>TikTok</h3>
+    <div class="spec">200 × 200 px · PNG · @pulsodaia</div>
+    <div class="avatar-preview dark">
+      <div class="circle-avatar">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('tiktok', 200)">Download PNG 200×200</button>
+  </div>
+
+  <!-- YouTube -->
+  <div class="platform-card">
+    <h3>YouTube</h3>
+    <div class="spec">800 × 800 px · PNG · @pulsodaia</div>
+    <div class="avatar-preview dark">
+      <div class="circle-avatar">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('youtube', 800)">Download PNG 800×800</button>
+  </div>
+
+  <!-- Pinterest -->
+  <div class="platform-card">
+    <h3>Pinterest</h3>
+    <div class="spec">165 × 165 px · PNG · pulsodaia</div>
+    <div class="avatar-preview">
+      <div class="circle-avatar white" style="background: #FAFAFA;">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('pinterest', 165, 'light')">Download PNG 165×165</button>
+  </div>
+
+  <!-- GitHub -->
+  <div class="platform-card">
+    <h3>GitHub</h3>
+    <div class="spec">500 × 500 px · PNG · pulsodaia org</div>
+    <div class="avatar-preview dark">
+      <div class="square-avatar">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('github', 500, 'square')">Download PNG 500×500</button>
+  </div>
+
+  <!-- Discord -->
+  <div class="platform-card">
+    <h3>Discord</h3>
+    <div class="spec">512 × 512 px · PNG · Sala do Pulso</div>
+    <div class="avatar-preview dark">
+      <div class="circle-avatar">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('discord', 512)">Download PNG 512×512</button>
+  </div>
+
+  <!-- WhatsApp Business -->
+  <div class="platform-card">
+    <h3>WhatsApp / Email</h3>
+    <div class="spec">640 × 640 px · PNG · uso geral</div>
+    <div class="avatar-preview dark">
+      <div class="circle-avatar orange">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="white"/>
+          <circle cx="73" cy="16" r="2.2" fill="white" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="white" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('whatsapp', 640, 'orange')">Download PNG 640×640</button>
+  </div>
+
+</div>
+
+<!-- BANNERS -->
+<h2 id="banners">Banners e capas</h2>
+
+<div class="banner-row">
+
+  <!-- X Header -->
+  <div class="banner-container">
+    <h3 style="margin-bottom: 4px;">X (Twitter) Header</h3>
+    <div class="spec" style="margin-bottom: 16px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #A8A8A8;">1500 × 500 px · JPG ou PNG</div>
+    <div class="banner-x" id="banner-x">
+      <div class="pulse-bg"></div>
+      <div style="position: relative; z-index: 2; display: flex; align-items: center; gap: 24px;">
+        <svg width="100" height="40" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.5" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.5" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.5" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+        <div>
+          <div style="font-family: 'Fraunces'; font-size: 36px; font-style: italic; color: white; line-height: 1;">Pulso da IA</div>
+          <div style="font-family: 'JetBrains Mono'; font-size: 12px; color: rgba(255,255,255,0.5); margin-top: 8px; letter-spacing: 0.15em;">FONTE PRIMARIA · PT-BR · PULSODAIA.COM.BR</div>
+        </div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadBanner('banner-x', 1500, 500, 'x-header')" style="margin-top: 12px;">Download PNG 1500×500</button>
+  </div>
+
+  <!-- YouTube Banner -->
+  <div class="banner-container">
+    <h3 style="margin-bottom: 4px;">YouTube Canal Art</h3>
+    <div class="spec" style="margin-bottom: 16px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #A8A8A8;">2560 × 1440 px · PNG · area segura 1546×423</div>
+    <div class="banner-youtube" id="banner-youtube">
+      <div class="pulse-bg"></div>
+      <div style="position: relative; z-index: 2; text-align: center;">
+        <svg width="140" height="56" viewBox="0 0 80 32" fill="none" style="margin-bottom: 24px;">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.5" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.5" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.5" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+        <div style="font-family: 'Fraunces'; font-size: 56px; font-style: italic; color: white; line-height: 1; margin-bottom: 12px;">Pulso da IA</div>
+        <div style="font-family: 'Inter'; font-size: 18px; color: rgba(255,255,255,0.6); max-width: 500px; line-height: 1.4;">O portal em portugues que pega a IA direto da fonte.</div>
+        <div style="font-family: 'JetBrains Mono'; font-size: 12px; color: #5C5C5C; margin-top: 24px; letter-spacing: 0.2em;">PULSODAIA.COM.BR</div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadBanner('banner-youtube', 2560, 1440, 'youtube-banner')" style="margin-top: 12px;">Download PNG 2560×1440</button>
+  </div>
+
+  <!-- LinkedIn Banner -->
+  <div class="banner-container">
+    <h3 style="margin-bottom: 4px;">LinkedIn Company Banner</h3>
+    <div class="spec" style="margin-bottom: 16px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #A8A8A8;">1584 × 396 px · PNG ou JPG</div>
+    <div class="banner-linkedin" id="banner-linkedin">
+      <div class="pulse-bg"></div>
+      <div style="position: relative; z-index: 2;">
+        <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.5" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.5" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.5" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+      <div style="position: relative; z-index: 2;">
+        <div style="font-family: 'Fraunces'; font-size: 28px; font-style: italic; color: white; line-height: 1;">Pulso da IA</div>
+        <div style="font-family: 'JetBrains Mono'; font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 6px; letter-spacing: 0.15em;">O PORTAL BRASILEIRO DE IA · DIRETO DA FONTE</div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadBanner('banner-linkedin', 1584, 396, 'linkedin-banner')" style="margin-top: 12px;">Download PNG 1584×396</button>
+  </div>
+
+</div>
+
+<h2>Favicons & App Icons</h2>
+
+<div class="platform-grid">
+
+  <div class="platform-card">
+    <h3>Favicon</h3>
+    <div class="spec">16 × 16 & 32 × 32 px · ICO</div>
+    <div class="avatar-preview dark">
+      <div style="width:64px; height:64px; background:#0A0A0A; border-radius:8px; display:flex; align-items:center; justify-content:center;">
+        <svg width="40" height="16" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="3" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="3" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="3" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('favicon-32', 32, 'square')">Download 32×32</button>
+  </div>
+
+  <div class="platform-card">
+    <h3>Apple Touch Icon</h3>
+    <div class="spec">180 × 180 px · PNG · iOS</div>
+    <div class="avatar-preview dark">
+      <div style="width:120px; height:120px; background:#0A0A0A; border-radius:24px; display:flex; align-items:center; justify-content:center;">
+        <svg width="70" height="28" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.5" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.5" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.5" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('apple-touch', 180, 'square-rounded')">Download 180×180</button>
+  </div>
+
+  <div class="platform-card">
+    <h3>Android 512</h3>
+    <div class="spec">512 × 512 px · PNG · PWA manifest</div>
+    <div class="avatar-preview dark">
+      <div style="width:120px; height:120px; background:#0A0A0A; border-radius:22%; display:flex; align-items:center; justify-content:center;">
+        <svg width="70" height="28" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.5" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.5" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.5" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAvatar('android-512', 512, 'square')">Download 512×512</button>
+  </div>
+
+</div>
+
+<div class="footer-info">
+  Pulso da IA · Avatars v1.0 · feito por Alex Campos @ Triadeflow · pulsodaia.com.br
+</div>
+
+</div>
+
+<!-- Download script -->
+<script>
+function downloadAvatar(name, size, variant = 'dark') {
+  const canvas = document.createElement('canvas');
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext('2d');
+
+  const isSquare = variant === 'square' || variant === 'square-rounded';
+  const isOrange = variant === 'orange';
+  const isLight = variant === 'light';
+
+  // Background
+  const bg = isOrange ? '#FF5E1F' : isLight ? '#FAFAFA' : '#0A0A0A';
+  const fg = isOrange ? '#FFFFFF' : '#FF5E1F';
+
+  ctx.fillStyle = bg;
+  if (isSquare || variant === 'square-rounded') {
+    // Square (or rounded square for iOS) - for simplicity fill full
+    if (variant === 'square-rounded') {
+      const r = size * 0.22;
+      ctx.beginPath();
+      ctx.moveTo(r, 0);
+      ctx.arcTo(size, 0, size, r, r);
+      ctx.arcTo(size, size, size - r, size, r);
+      ctx.arcTo(0, size, 0, size - r, r);
+      ctx.arcTo(0, 0, r, 0, r);
+      ctx.closePath();
+      ctx.fill();
+    } else {
+      ctx.fillRect(0, 0, size, size);
+    }
+  } else {
+    ctx.beginPath();
+    ctx.arc(size/2, size/2, size/2, 0, Math.PI*2);
+    ctx.closePath();
+    ctx.fill();
+  }
+
+  // Logo (scaled from viewBox 80x32 to fit 55% of canvas width)
+  const logoW = size * 0.55;
+  const logoH = logoW * (32/80);
+  const offsetX = (size - logoW) / 2;
+  const offsetY = (size - logoH) / 2;
+
+  ctx.strokeStyle = fg;
+  ctx.lineWidth = (size * 0.55) / 80 * 3;
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+
+  // pulse path
+  const scale = logoW / 80;
+  const points = [[2,16],[12,16],[16,4],[22,28],[28,10],[34,22],[40,14],[46,20],[54,16],[64,16]];
+  ctx.beginPath();
+  points.forEach((p, i) => {
+    const x = offsetX + p[0] * scale;
+    const y = offsetY + p[1] * scale;
+    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  });
+  ctx.stroke();
+
+  // dots
+  const dots = [[68, 1], [73, 0.6], [78, 0.3]];
+  ctx.fillStyle = fg;
+  dots.forEach(([x, opacity]) => {
+    ctx.globalAlpha = opacity;
+    ctx.beginPath();
+    ctx.arc(offsetX + x*scale, offsetY + 16*scale, 2.2*scale, 0, Math.PI*2);
+    ctx.fill();
+  });
+  ctx.globalAlpha = 1;
+
+  // Download
+  canvas.toBlob(blob => {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `pulsodaia-${name}-${size}x${size}.png`;
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+}
+
+function downloadBanner(elementId, w, h, name) {
+  // Banner export would use html2canvas or similar
+  // Pra simplicidade, usuario pode usar print screen
+  alert(`Pra exportar esse banner em ${w}x${h}, recomendo:\n\n1. Abre DevTools (F12)\n2. Toggle device toolbar (Ctrl+Shift+M)\n3. Custom size: ${w}x${h}\n4. Screenshot\n\nOu me autoriza ligar a API FAL pra gerar mockups fotorrealistas.`);
+}
+</script>
+
+</body>
+</html>

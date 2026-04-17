@@ -1,0 +1,150 @@
+{
+  "description": "Fontes oficiais do motor pulsante Pulso da IA",
+  "rss_sources": [
+    {
+      "id": "openai-blog",
+      "name": "OpenAI",
+      "category": "openai",
+      "type": "blog-oficial",
+      "rss": "https://openai.com/blog/rss.xml",
+      "fallback_url": "https://openai.com/news/"
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI",
+      "category": "google",
+      "type": "blog-oficial",
+      "rss": "https://blog.google/technology/ai/rss/",
+      "fallback_url": "https://blog.google/technology/ai/"
+    },
+    {
+      "id": "deepmind-blog",
+      "name": "Google DeepMind",
+      "category": "google",
+      "type": "blog-oficial",
+      "rss": "https://deepmind.google/blog/rss.xml",
+      "fallback_url": "https://deepmind.google/discover/blog/"
+    },
+    {
+      "id": "meta-ai-blog",
+      "name": "Meta AI",
+      "category": "meta",
+      "type": "blog-oficial",
+      "rss": "https://ai.meta.com/blog/rss/",
+      "fallback_url": "https://ai.meta.com/blog/"
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face",
+      "category": "opensource",
+      "type": "blog-oficial",
+      "rss": "https://huggingface.co/blog/feed.xml",
+      "fallback_url": "https://huggingface.co/blog"
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic",
+      "category": "anthropic",
+      "type": "blog-oficial",
+      "rss": null,
+      "scrape_url": "https://www.anthropic.com/news",
+      "note": "Anthropic nao tem RSS publico, scraping necessario"
+    },
+    {
+      "id": "mistral-news",
+      "name": "Mistral AI",
+      "category": "mistral",
+      "type": "blog-oficial",
+      "rss": null,
+      "scrape_url": "https://mistral.ai/news",
+      "note": "Nao tem RSS, scraping"
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "name": "ArXiv cs.AI",
+      "category": "research",
+      "type": "research-direto",
+      "rss": "https://rss.arxiv.org/rss/cs.AI",
+      "fallback_url": "https://arxiv.org/list/cs.AI/new",
+      "note": "Papers diarios de AI research"
+    },
+    {
+      "id": "arxiv-cs-cl",
+      "name": "ArXiv cs.CL",
+      "category": "research",
+      "type": "research-direto",
+      "rss": "https://rss.arxiv.org/rss/cs.CL",
+      "fallback_url": "https://arxiv.org/list/cs.CL/new",
+      "note": "Papers de NLP/LLM"
+    },
+    {
+      "id": "claude-code-releases",
+      "name": "Claude Code",
+      "category": "claude-code",
+      "type": "github-release-oficial",
+      "rss": "https://github.com/anthropics/claude-code/releases.atom",
+      "fallback_url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "id": "mcp-spec-releases",
+      "name": "MCP Spec",
+      "category": "claude-code",
+      "type": "github-release-oficial",
+      "rss": "https://github.com/modelcontextprotocol/servers/releases.atom",
+      "fallback_url": "https://github.com/modelcontextprotocol/servers/releases"
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "category": "mercado",
+      "type": "portal-tech",
+      "rss": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "fallback_url": "https://techcrunch.com/category/artificial-intelligence/",
+      "note": "Portal tech, usar com criterio editorial"
+    },
+    {
+      "id": "theverge-ai",
+      "name": "The Verge AI",
+      "category": "mercado",
+      "type": "portal-tech",
+      "rss": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "fallback_url": "https://www.theverge.com/ai-artificial-intelligence"
+    },
+    {
+      "id": "venturebeat-ai",
+      "name": "VentureBeat AI",
+      "category": "mercado",
+      "type": "portal-tech",
+      "rss": "https://venturebeat.com/category/ai/feed/",
+      "fallback_url": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "id": "the-decoder",
+      "name": "The Decoder",
+      "category": "mercado",
+      "type": "portal-tech",
+      "rss": "https://the-decoder.com/feed/",
+      "fallback_url": "https://the-decoder.com/"
+    }
+  ],
+  "twitter_sources": [
+    {"handle": "sama", "name": "Sam Altman", "category": "founders", "entity": "OpenAI CEO"},
+    {"handle": "DarioAmodei", "name": "Dario Amodei", "category": "founders", "entity": "Anthropic CEO"},
+    {"handle": "demishassabis", "name": "Demis Hassabis", "category": "founders", "entity": "DeepMind CEO"},
+    {"handle": "ylecun", "name": "Yann LeCun", "category": "research", "entity": "Meta Chief AI"},
+    {"handle": "karpathy", "name": "Andrej Karpathy", "category": "founders", "entity": "Eureka Labs"},
+    {"handle": "elonmusk", "name": "Elon Musk", "category": "founders", "entity": "xAI / X"},
+    {"handle": "AravSrinivas", "name": "Aravind Srinivas", "category": "founders", "entity": "Perplexity CEO"},
+    {"handle": "miramurati", "name": "Mira Murati", "category": "founders", "entity": "Thinking Machines"},
+    {"handle": "AndrewYNg", "name": "Andrew Ng", "category": "research", "entity": "DeepLearning.AI"}
+  ],
+  "config": {
+    "max_items_per_source_per_run": 3,
+    "min_hours_between_runs": 1,
+    "review_before_publish": true,
+    "auto_publish_if_score_above": 0.85,
+    "language_output": "pt-BR",
+    "target_word_count_min": 350,
+    "target_word_count_max": 700
+  }
+}

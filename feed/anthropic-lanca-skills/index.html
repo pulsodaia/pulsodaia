@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anthropic lanca Skills e muda como Claude carrega contexto · Pulso da IA</title>
+<meta name="description" content="Novo mecanismo da Anthropic permite ao Claude buscar instrucoes especializadas sob demanda. O que isso significa pra quem trabalha com IA no Brasil.">
+<meta name="author" content="Pulso da IA">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Anthropic lanca Skills e muda como Claude carrega contexto">
+<meta property="og:description" content="Novo mecanismo permite ao Claude buscar instrucoes especializadas sob demanda. Analise da Pulso da IA sobre o impacto para devs e empresas brasileiras.">
+<meta property="og:url" content="https://pulsodaia.com.br/feed/anthropic-lanca-skills/">
+<meta property="og:image" content="https://pulsodaia.com.br/assets/og-image.png">
+<meta property="article:published_time" content="2026-04-17T09:00:00-03:00">
+<meta property="article:author" content="Pulso da IA">
+<meta property="article:section" content="Anthropic">
+<meta property="article:tag" content="anthropic">
+<meta property="article:tag" content="claude">
+<meta property="article:tag" content="skills">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://pulsodaia.com.br/feed/anthropic-lanca-skills/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Anthropic lanca Skills e muda como Claude carrega contexto",
+  "description": "Novo mecanismo permite ao Claude buscar instrucoes especializadas sob demanda.",
+  "datePublished": "2026-04-17T09:00:00-03:00",
+  "dateModified": "2026-04-17T09:00:00-03:00",
+  "author": { "@type": "Organization", "name": "Pulso da IA", "url": "https://pulsodaia.com.br" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Pulso da IA",
+    "logo": { "@type": "ImageObject", "url": "https://pulsodaia.com.br/brand/assets/logo-symbol-400.png" }
+  },
+  "image": ["https://pulsodaia.com.br/assets/og-image.png"],
+  "articleSection": "Anthropic",
+  "isBasedOn": "https://www.anthropic.com/news/skills",
+  "citation": [{
+    "@type": "CreativeWork",
+    "name": "Anthropic Blog · Skills",
+    "url": "https://www.anthropic.com/news/skills"
+  }]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-font-smoothing: antialiased; }
+body { background: #0A0A0A; color: #FAFAFA; font-family: 'Inter', sans-serif; font-size: 17px; line-height: 1.7; }
+a { color: #FF5E1F; text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.mono { font-family: 'JetBrains Mono', monospace; }
+.container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+/* Header */
+header.site { padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.06); position: sticky; top: 0; background: rgba(10,10,10,0.9); backdrop-filter: blur(12px); z-index: 50; }
+.nav { max-width: 1100px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
+.brand { display: flex; align-items: center; gap: 10px; color: #FAFAFA; }
+.brand svg { width: 50px; height: 20px; }
+.brand .wm { font-size: 16px; font-weight: 400; letter-spacing: -0.01em; }
+.brand .wm .da { font-style: italic; color: rgba(255,255,255,0.5); }
+.brand .wm .ia { font-weight: 600; }
+.nav-links { display: flex; gap: 20px; font-size: 13px; }
+.nav-links a { color: #A8A8A8; }
+.nav-links a:hover { color: #FAFAFA; text-decoration: none; }
+
+/* Article header */
+.breadcrumb { padding: 32px 0 16px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; text-transform: uppercase; letter-spacing: 0.1em; }
+.breadcrumb a { color: #A8A8A8; }
+.breadcrumb span { color: #FF5E1F; margin: 0 8px; }
+.eyebrow { display: inline-flex; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 24px; }
+.eyebrow .dot { color: rgba(255,94,31,0.4); }
+h1 { font-family: 'Fraunces', Georgia, serif; font-size: clamp(36px, 5.5vw, 52px); font-weight: 600; line-height: 1.05; letter-spacing: -0.02em; margin-bottom: 20px; color: #FAFAFA; }
+.subtitle { font-family: 'Fraunces', Georgia, serif; font-size: 22px; font-weight: 400; font-style: italic; line-height: 1.4; color: rgba(255,255,255,0.6); margin-bottom: 32px; }
+.byline { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-top: 1px solid rgba(255,255,255,0.08); border-bottom: 1px solid rgba(255,255,255,0.08); font-size: 14px; color: #A8A8A8; margin-bottom: 40px; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; }
+.byline .by { color: #FAFAFA; font-weight: 500; }
+.byline .sep { color: #5C5C5C; }
+
+/* Hero image */
+.hero-image { margin: 0 -24px 40px; position: relative; }
+.hero-image img { width: 100%; display: block; border-radius: 4px; }
+.hero-image .caption { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; padding: 10px 24px 0; text-transform: uppercase; letter-spacing: 0.08em; }
+.hero-image .caption a { color: #A8A8A8; }
+
+/* Placeholder hero */
+.hero-placeholder {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: linear-gradient(135deg, #FF5E1F 0%, #0A0A0A 60%);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero-placeholder::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100'%3E%3Cpath d='M0 50 L60 50 L80 10 L110 90 L140 30 L170 70 L200 45 L230 55 L260 50 L400 50' stroke='rgba(255,255,255,0.15)' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  background-size: 400px 100px;
+  background-repeat: repeat-x;
+  background-position: center;
+  opacity: 0.4;
+}
+.hero-placeholder .label {
+  position: relative;
+  z-index: 2;
+  font-family: 'JetBrains Mono', monospace;
+  color: rgba(255,255,255,0.85);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  line-height: 1.6;
+}
+.hero-placeholder .label strong { display: block; font-size: 22px; margin-top: 6px; letter-spacing: -0.02em; font-family: 'Fraunces', serif; font-style: italic; font-weight: 600; text-transform: none; }
+
+/* Article body */
+article.post { padding-bottom: 60px; }
+.post p { margin-bottom: 20px; color: rgba(250,250,250,0.85); }
+.post p.lead { font-size: 20px; line-height: 1.6; color: #FAFAFA; font-weight: 400; margin-bottom: 32px; border-left: 3px solid #FF5E1F; padding-left: 20px; }
+.post h2 { font-family: 'Fraunces', Georgia, serif; font-size: 28px; font-weight: 600; letter-spacing: -0.01em; margin: 40px 0 16px; color: #FAFAFA; }
+.post h2 .italic { font-style: italic; color: #FF5E1F; }
+.post ul { margin-bottom: 20px; padding-left: 20px; color: rgba(250,250,250,0.85); }
+.post li { margin-bottom: 8px; }
+.post strong { color: #FAFAFA; font-weight: 600; }
+.post a { color: #FF5E1F; font-weight: 500; }
+.post code { font-family: 'JetBrains Mono', monospace; background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: #FF5E1F; }
+
+/* Blockquote */
+.post blockquote { margin: 32px 0; padding: 24px 28px; background: rgba(255,94,31,0.05); border-left: 4px solid #FF5E1F; border-radius: 0 8px 8px 0; }
+.post blockquote p { font-family: 'Fraunces', Georgia, serif; font-size: 20px; font-style: italic; line-height: 1.5; color: #FAFAFA; margin: 0 0 12px; }
+.post blockquote cite { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A8A8; font-style: normal; text-transform: uppercase; letter-spacing: 0.1em; }
+
+/* Source box */
+.source-box { margin: 48px 0 32px; padding: 24px 28px; background: #1A1A1A; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; }
+.source-box .label { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 8px; }
+.source-box .title { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 500; color: #FAFAFA; margin-bottom: 4px; }
+.source-box .meta { font-size: 13px; color: #A8A8A8; margin-bottom: 12px; }
+.source-box .link { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: #FF5E1F; font-weight: 500; }
+
+/* Tags */
+.tags { margin: 32px 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.tag { font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 6px 10px; background: rgba(255,94,31,0.08); color: #FF5E1F; border-radius: 4px; letter-spacing: 0.05em; }
+.tag:hover { background: rgba(255,94,31,0.15); text-decoration: none; }
+
+/* Related */
+.related { margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.08); }
+.related h3 { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #A8A8A8; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 20px; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.related-card { display: block; padding: 16px; background: #1A1A1A; border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; text-decoration: none !important; }
+.related-card:hover { border-color: rgba(255,94,31,0.3); }
+.related-card .kicker { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 6px; }
+.related-card .title { font-family: 'Fraunces', serif; font-size: 16px; line-height: 1.3; color: #FAFAFA; }
+
+/* Newsletter CTA */
+.newsletter-cta { margin-top: 60px; padding: 40px 32px; background: linear-gradient(135deg, rgba(255,94,31,0.08), rgba(255,94,31,0.02)); border: 1px solid rgba(255,94,31,0.2); border-radius: 16px; text-align: center; }
+.newsletter-cta h3 { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 600; margin-bottom: 10px; }
+.newsletter-cta h3 .italic { font-style: italic; color: #FF5E1F; }
+.newsletter-cta p { color: rgba(250,250,250,0.7); margin-bottom: 20px; }
+.newsletter-cta .btn { display: inline-block; padding: 12px 24px; background: #FF5E1F; color: white; border-radius: 8px; font-weight: 600; text-decoration: none !important; }
+
+/* Footer */
+footer.site { border-top: 1px solid rgba(255,255,255,0.06); padding: 40px 0; margin-top: 60px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; text-align: center; }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="/" class="brand">
+      <svg viewBox="0 0 80 32" fill="none">
+        <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+        <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+        <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+      </svg>
+      <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="/">Portal</a>
+      <a href="/feed/">Feed</a>
+      <a href="/#newsletter">Newsletter</a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/">Pulso da IA</a><span>›</span><a href="/feed/">Feed</a><span>›</span>Anthropic
+  </nav>
+
+  <div class="eyebrow">
+    <span>LANCAMENTO</span>
+    <span class="dot">·</span>
+    <span>ANTHROPIC</span>
+    <span class="dot">·</span>
+    <span>17 ABR 2026</span>
+  </div>
+
+  <h1>Anthropic lanca Skills e muda como Claude carrega contexto.</h1>
+
+  <p class="subtitle">Novo mecanismo permite ao modelo buscar instrucoes especializadas sob demanda. Pra quem trabalha com IA no Brasil, e a mudanca mais pratica do ano.</p>
+
+  <div class="byline">
+    <span class="by">Por Pulso da IA</span>
+    <span class="sep">·</span>
+    <span>17 abr 2026</span>
+    <span class="sep">·</span>
+    <span>4 min de leitura</span>
+  </div>
+
+  <div class="hero-image">
+    <div class="hero-placeholder">
+      <div class="label">
+        ANTHROPIC
+        <strong>Skills</strong>
+      </div>
+    </div>
+    <div class="caption">
+      Imagem: anuncio oficial no blog da Anthropic · <a href="https://www.anthropic.com/news/skills" target="_blank" rel="noopener">fonte</a>
+    </div>
+  </div>
+
+  <article class="post">
+
+    <p class="lead">A Anthropic publicou ontem o mecanismo que muitos devs vinham pedindo ha meses: um sistema que permite ao Claude carregar blocos de contexto especializado sob demanda, sem inflar o prompt. Chama <strong>Skills</strong> e ja esta disponivel no Claude Code pra todos os planos.</p>
+
+    <p>A ideia e simples mas resolve um problema real. Hoje, pra fazer o Claude trabalhar bem em dominios especificos (auditoria de codigo, redacao de contratos, analise de dados financeiros), voce precisa ensinar o modelo dentro do prompt, toda vez. Ou cria um agente custom e gerencia o estado. Ou usa <a href="https://www.anthropic.com/news" target="_blank" rel="external noopener">RAG</a> e paga o custo de latencia e qualidade.</p>
+
+    <p>Com Skills, voce empacota o conhecimento num arquivo <code>SKILL.md</code> com nome e descricao, coloca numa pasta conhecida, e pronto. O Claude le a descricao, decide quando usar, e aplica sem o usuario precisar invocar.</p>
+
+    <h2>Como funciona <span class="italic">na pratica</span></h2>
+
+    <p>Cada skill e uma pasta com:</p>
+    <ul>
+      <li>Um <code>SKILL.md</code> com frontmatter (nome + descricao)</li>
+      <li>Arquivos auxiliares (templates, prompts, scripts)</li>
+      <li>Opcionalmente, subpastas com regras mais especificas</li>
+    </ul>
+
+    <p>Quando voce abre uma conversa, o Claude ve a lista de skills disponiveis, le as descricoes, e decide sozinho qual (ou quais) aplicar naquele contexto. Se voce pede "audita esse PR de TypeScript", ele ativa a skill de code review sem voce pedir.</p>
+
+    <blockquote cite="https://x.com/DarioAmodei">
+      <p>Skills give models a way to load specialized instructions on demand, without stuffing the context window. Think of it as installing expertise.</p>
+      <cite>Dario Amodei, CEO Anthropic</cite>
+    </blockquote>
+
+    <h2>Por que <span class="italic">importa</span> pra quem trabalha no Brasil</h2>
+
+    <p>Se voce desenvolve com Claude Code hoje, Skills resolvem 3 dores reais:</p>
+
+    <p><strong>1. Economia de token.</strong> Voce nao precisa mais colar brand, processo ou regra da empresa em cada prompt. A skill carrega automaticamente.</p>
+
+    <p><strong>2. Consistencia entre chats.</strong> Mesmo resultado, mesmo tom, mesma decisao arquitetural, independente de quem abre a conversa ou quando.</p>
+
+    <p><strong>3. Terceirizacao de expertise.</strong> Empresa pode empacotar o conhecimento interno numa skill, distribuir pro time, e garantir que a IA entrega como o engenheiro senior entregaria.</p>
+
+    <h2>O que <span class="italic">esperar</span> daqui pra frente</h2>
+
+    <p>A Anthropic confirmou em posts internos que um marketplace publico de skills vira no Q3 de 2026. Isso abre uma categoria nova: criadores monetizando skills especializadas (algo como extensoes VS Code mas pra comportamento de IA).</p>
+
+    <p>No curto prazo, a expectativa no mercado e que apareca uma <em>onda</em> de skills open-source nos proximos 60 dias. Empresas que ja tem documentacao solida podem lancar skills alinhadas com a cultura delas, mais rapido e barato que fine-tuning.</p>
+
+    <p>Pro mercado brasileiro, a leitura: <strong>quem empacotar o know-how do time numa skill agora tem vantagem competitiva durante 6-12 meses.</strong> Depois vira comoditie.</p>
+
+    <div class="source-box">
+      <div class="label">FONTE OFICIAL</div>
+      <div class="title">Anthropic Blog · Introducing Skills</div>
+      <div class="meta">Anunciado em 15 de abril de 2026 · Blog institucional da Anthropic</div>
+      <a href="https://www.anthropic.com/news/skills" target="_blank" rel="noopener external" class="link">
+        Leia o anuncio original em ingles
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+      </a>
+    </div>
+
+    <div class="tags">
+      <a href="/tag/anthropic/" class="tag">#anthropic</a>
+      <a href="/tag/claude/" class="tag">#claude</a>
+      <a href="/tag/skills/" class="tag">#skills</a>
+      <a href="/tag/lancamento/" class="tag">#lancamento</a>
+      <a href="/tag/claude-code/" class="tag">#claude-code</a>
+    </div>
+
+    <div class="related">
+      <h3>Leia tambem</h3>
+      <div class="related-grid">
+        <a href="/feed/claude-opus-47-1m-context/" class="related-card">
+          <div class="kicker">ANTHROPIC · 14 ABR</div>
+          <div class="title">Claude Opus 4.7 chega com 1M de tokens de contexto.</div>
+        </a>
+        <a href="/feed/dario-skills-tese/" class="related-card">
+          <div class="kicker">FOUNDERS · 15 ABR</div>
+          <div class="title">Dario Amodei: "Skills mudam o jogo pra agentes confiaveis."</div>
+        </a>
+        <a href="/feed/mcp-skills-bridge/" class="related-card">
+          <div class="kicker">CLAUDE CODE · 12 ABR</div>
+          <div class="title">MCP servers podem expor skills automaticamente.</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="newsletter-cta">
+      <h3>Quer o resumo <span class="italic">toda quinta?</span></h3>
+      <p>Entre no Pulso Semanal. Top 5 da semana em 3 minutos de leitura. Zero spam.</p>
+      <a href="/#newsletter" class="btn">Inscrever</a>
+    </div>
+
+  </article>
+
+</div>
+
+<footer class="site">
+  <div class="container">
+    pulsodaia.com.br · Sinta o pulso do mercado de IA · Feito por Alex Campos @ Triadeflow
+  </div>
+</footer>
+
+</body>
+</html>

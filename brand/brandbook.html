@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pulso da IA · Brandbook v1.0</title>
+<meta name="description" content="Brandbook oficial da marca Pulso da IA. Logo, cores, tipografia, voz, aplicacoes fisicas e decisoes por tras de cada escolha.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --deep-black: #0A0A0A;
+    --charcoal: #1A1A1A;
+    --pulse-orange: #FF5E1F;
+    --signal-cyan: #00D4D4;
+    --bone-white: #FAFAFA;
+    --muted-gray: #A8A8A8;
+    --dim-gray: #5C5C5C;
+    --alert-red: #E63946;
+    --success-green: #2ECC71;
+    --warning-amber: #F59E0B;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--deep-black);
+    color: var(--bone-white);
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; letter-spacing: -0.02em; font-weight: 600; }
+  h1 { font-size: clamp(48px, 7vw, 80px); line-height: 1; margin-bottom: 24px; }
+  h2 { font-size: clamp(32px, 4vw, 48px); line-height: 1.1; margin-bottom: 32px; padding-top: 24px; }
+  h3 { font-size: 24px; line-height: 1.3; margin-bottom: 16px; }
+  h4 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+  p { margin-bottom: 16px; color: rgba(250, 250, 250, 0.8); }
+  code, .mono { font-family: 'JetBrains Mono', Menlo, monospace; font-size: 0.9em; }
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--pulse-orange);
+    margin-bottom: 12px;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 32px; }
+  hr { border: 0; height: 1px; background: rgba(255,255,255,0.08); margin: 80px 0; }
+
+  /* Header */
+  header.site {
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    position: sticky;
+    top: 0;
+    background: rgba(10,10,10,0.8);
+    backdrop-filter: blur(10px);
+    z-index: 50;
+  }
+  .nav { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--bone-white); }
+  .logo-wordmark { font-size: 18px; font-weight: 400; letter-spacing: -0.01em; }
+  .logo-wordmark .da { font-style: italic; color: var(--muted-gray); }
+  .logo-wordmark .ia { font-weight: 600; }
+  .nav-links { display: flex; gap: 24px; font-size: 13px; font-weight: 500; color: var(--muted-gray); }
+  .nav-links a { color: inherit; text-decoration: none; }
+  .nav-links a:hover { color: var(--bone-white); }
+
+  /* Hero */
+  .hero {
+    padding: 120px 0 80px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .hero .meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--dim-gray);
+    margin-top: 32px;
+  }
+  .hero .italic { font-style: italic; color: var(--muted-gray); }
+
+  /* Sections */
+  section { padding: 80px 0; }
+
+  /* Logo playground */
+  .logo-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .logo-card {
+    padding: 48px 32px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 160px;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .logo-card.light { background: var(--bone-white); color: var(--deep-black); }
+  .logo-card.dark { background: var(--deep-black); color: var(--bone-white); }
+  .logo-card.orange { background: var(--pulse-orange); color: var(--bone-white); }
+  .logo-card .label {
+    position: absolute;
+    font-size: 11px;
+    font-family: 'JetBrains Mono', monospace;
+    opacity: 0.5;
+    margin-top: 100px;
+  }
+  .logo-card.light .logo-wordmark { color: var(--deep-black); }
+  .logo-card.light .da { color: var(--dim-gray); }
+  .logo-card.orange .logo-wordmark { color: var(--bone-white); }
+  .logo-card.orange .da { color: rgba(255,255,255,0.7); }
+
+  /* Variants */
+  .variant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .variant-card {
+    background: var(--charcoal);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+  }
+  .variant-card .caption {
+    margin-top: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--dim-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  /* Colors */
+  .color-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .color-card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .color-swatch {
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+    padding: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .color-info {
+    padding: 16px;
+    background: var(--charcoal);
+  }
+  .color-info h4 { margin-bottom: 4px; }
+  .color-info .uso { color: var(--muted-gray); font-size: 13px; }
+  .color-info .values {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--dim-gray);
+  }
+
+  /* Typography */
+  .type-spec { margin-bottom: 32px; padding: 24px; background: var(--charcoal); border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); }
+  .type-spec .meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--dim-gray);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .type-fraunces-xl { font-family: 'Fraunces', serif; font-size: 72px; font-weight: 600; line-height: 0.95; letter-spacing: -0.02em; }
+  .type-fraunces-l { font-family: 'Fraunces', serif; font-size: 48px; font-weight: 600; line-height: 1.05; }
+  .type-fraunces-m { font-family: 'Fraunces', serif; font-size: 32px; font-weight: 500; line-height: 1.2; }
+  .type-inter-lead { font-size: 20px; font-weight: 400; line-height: 1.5; color: rgba(250,250,250,0.85); }
+  .type-inter-body { font-size: 16px; font-weight: 400; line-height: 1.6; color: rgba(250,250,250,0.75); }
+  .type-inter-small { font-size: 14px; font-weight: 400; color: var(--muted-gray); }
+  .type-mono-stat { font-family: 'JetBrains Mono', monospace; font-size: 48px; font-weight: 600; color: var(--pulse-orange); letter-spacing: -0.02em; }
+  .type-mono-data { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--bone-white); }
+
+  /* Voice */
+  .voice-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+  .voice-card { padding: 24px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); }
+  .voice-card.dont { background: rgba(230, 57, 70, 0.08); border-color: rgba(230, 57, 70, 0.25); }
+  .voice-card.do { background: rgba(46, 204, 113, 0.08); border-color: rgba(46, 204, 113, 0.25); }
+  .voice-card h4 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+  }
+  .voice-card.dont h4 { color: var(--alert-red); }
+  .voice-card.do h4 { color: var(--success-green); }
+  .voice-card ul { margin-left: 20px; color: rgba(250,250,250,0.8); font-size: 14px; line-height: 1.8; }
+  .voice-card li { margin-bottom: 4px; }
+
+  /* Application examples */
+  .apps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+  .app-preview {
+    background: var(--charcoal);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 24px;
+    min-height: 280px;
+  }
+
+  .email-preview {
+    background: var(--bone-white);
+    color: var(--deep-black);
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-top: 12px;
+  }
+  .email-preview .kicker {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--pulse-orange);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .email-preview h5 { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; line-height: 1.2; margin-bottom: 8px; color: var(--deep-black); }
+  .email-preview .lead { color: #333; }
+  .email-preview .div-pulse {
+    height: 2px;
+    background: linear-gradient(90deg, var(--pulse-orange), transparent);
+    margin: 16px 0;
+  }
+
+  .whats-preview {
+    background: #0B141A;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 12px;
+  }
+  .whats-bubble {
+    background: #005C4B;
+    padding: 12px;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    max-width: 90%;
+    font-size: 13px;
+    line-height: 1.5;
+    color: white;
+  }
+
+  /* Button showcase */
+  .btn-primary {
+    background: var(--pulse-orange);
+    color: white;
+    border: 0;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding: 40px 0;
+    margin-top: 80px;
+    color: var(--dim-gray);
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Pulse divider motif */
+  .pulse-divider {
+    margin: 40px 0;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pulse-divider svg { width: 100%; max-width: 300px; height: 20px; }
+
+  @media (max-width: 640px) {
+    .voice-grid { grid-template-columns: 1fr; }
+    hr { margin: 48px 0; }
+    section { padding: 48px 0; }
+    .hero { padding: 64px 0 48px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site">
+  <div class="container nav">
+    <a href="#" class="logo">
+      <svg width="60" height="24" viewBox="0 0 80 32" fill="none">
+        <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+        <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+        <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+      </svg>
+      <span class="logo-wordmark">pulso<span class="da">da</span><span class="ia">IA</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#logo">Logo</a>
+      <a href="#cores">Cores</a>
+      <a href="#tipo">Tipografia</a>
+      <a href="#voz">Voz</a>
+      <a href="#aplicacao">Aplicacao</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div style="display:flex; align-items:center; gap:16px; margin-bottom:48px;">
+      <svg width="100" height="40" viewBox="0 0 80 32" fill="none">
+        <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+        <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+        <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+      </svg>
+      <div>
+        <div style="font-family:'JetBrains Mono'; font-size:10px; color:var(--dim-gray); letter-spacing:0.2em; text-transform:uppercase;">PULSO DA IA</div>
+        <div style="font-family:'JetBrains Mono'; font-size:10px; color:var(--pulse-orange); letter-spacing:0.2em; text-transform:uppercase;">BRANDBOOK v1.0</div>
+      </div>
+    </div>
+    <div class="eyebrow">17 ABR 2026 · documento vivo</div>
+    <h1>Pulso da IA<br><span class="italic" style="color:var(--pulse-orange); opacity:0.85;">Brandbook.</span></h1>
+    <p class="type-inter-lead" style="max-width:680px; margin-top:24px;">
+      Guia visual e editorial completo da marca Pulso da IA. Logo, cores, tipografia, voz, aplicacoes fisicas e as decisoes por tras de cada escolha. Feito pra manter consistencia em toda peca: site, email, social, PDF, apresentacao, papelaria e merch.
+    </p>
+    <div class="meta">feito por Alex Campos @ Triadeflow · pulsodaia.com.br · @pulsodaia</div>
+  </div>
+</section>
+
+<!-- POSICIONAMENTO -->
+<section id="posicionamento">
+  <div class="container">
+    <div class="eyebrow">01 · Posicionamento</div>
+    <h2>Sinta o pulso <span class="italic">do mercado de IA.</span></h2>
+    <p class="type-inter-lead" style="max-width:720px;">
+      Toda novidade importante de IA nasce em ingles, em blogs tecnicos ou tweets de founders, e chega no Brasil 2-3 dias depois, ja mastigada por portais que apenas traduzem. Pulso da IA resolve isso: fonte primaria em portugues, direto dos laboratorios e de quem constroi.
+    </p>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:24px; margin-top:48px;">
+      <div>
+        <h4 style="color:var(--pulse-orange);">Direto</h4>
+        <p class="type-inter-small">Sem enrolacao, sem inchar, sem vender hype.</p>
+      </div>
+      <div>
+        <h4 style="color:var(--pulse-orange);">Informado</h4>
+        <p class="type-inter-small">Entende a fundo, nao eh agregador.</p>
+      </div>
+      <div>
+        <h4 style="color:var(--pulse-orange);">Brasileiro</h4>
+        <p class="type-inter-small">Domina o contexto local, traduz com nuance.</p>
+      </div>
+      <div>
+        <h4 style="color:var(--pulse-orange);">Tecnico</h4>
+        <p class="type-inter-small">Nao simplifica demais, respeita a audiencia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- LOGO -->
+<section id="logo">
+  <div class="container">
+    <div class="eyebrow">02 · Logo</div>
+    <h2>Um pulso que vira <span class="italic">dots digitais.</span></h2>
+    <p style="max-width:680px;">
+      Onda de batimento cardiaco com 5 picos irregulares, seguida de 3 dots em gradacao. Representa a transicao do analogico pro digital, o movimento continuo do mercado e o "sinal em tempo real" sem usar cliches como cerebro, chip ou robo.
+    </p>
+
+    <div class="logo-showcase">
+      <div class="logo-card dark">
+        <a href="#" class="logo">
+          <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+            <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+            <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+            <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+          </svg>
+          <span class="logo-wordmark" style="font-size:24px;">pulso<span class="da">da</span><span class="ia">IA</span></span>
+        </a>
+      </div>
+      <div class="logo-card light">
+        <a href="#" class="logo" style="color:var(--deep-black);">
+          <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+            <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+            <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+            <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+          </svg>
+          <span class="logo-wordmark" style="font-size:24px; color:var(--deep-black);">pulso<span class="da" style="color:var(--dim-gray);">da</span><span class="ia">IA</span></span>
+        </a>
+      </div>
+      <div class="logo-card orange">
+        <a href="#" class="logo" style="color:white;">
+          <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+            <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="68" cy="16" r="1.8" fill="white"/>
+            <circle cx="73" cy="16" r="1.8" fill="white" opacity="0.6"/>
+            <circle cx="78" cy="16" r="1.8" fill="white" opacity="0.3"/>
+          </svg>
+          <span class="logo-wordmark" style="font-size:24px; color:white;">pulso<span class="da" style="color:rgba(255,255,255,0.7);">da</span><span class="ia">IA</span></span>
+        </a>
+      </div>
+    </div>
+
+    <h3 style="margin-top:64px; margin-bottom:16px; font-size:18px;">Variantes</h3>
+    <div class="variant-grid">
+      <div class="variant-card">
+        <svg width="150" height="60" viewBox="0 0 80 32" fill="none" style="width:auto; max-width:100%;">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+        <div class="caption">horizontal</div>
+      </div>
+      <div class="variant-card">
+        <div style="display:flex; flex-direction:column; align-items:center; gap:8px;">
+          <svg width="120" height="48" viewBox="0 0 80 32" fill="none">
+            <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+            <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+            <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+          </svg>
+          <span class="logo-wordmark" style="font-size:18px;">pulso<span class="da">da</span><span class="ia">IA</span></span>
+        </div>
+        <div class="caption">stacked</div>
+      </div>
+      <div class="variant-card">
+        <svg width="120" height="64" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="68" cy="16" r="2.2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2.2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2.2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+        <div class="caption">symbol only</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- CORES -->
+<section id="cores">
+  <div class="container">
+    <div class="eyebrow">03 · Sistema de cores</div>
+    <h2>Preto profundo, <span class="italic">laranja pulsando.</span></h2>
+    <p style="max-width:680px;">80% Deep Black e Bone White (base). 15% Pulse Orange em CTA e logo. 3% Signal Cyan em tech accents. 2% feedback colors quando precisa.</p>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Primarias</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background:#0A0A0A; color:#FAFAFA;">#0A0A0A</div>
+        <div class="color-info">
+          <h4>Deep Black</h4>
+          <div class="uso">Background principal</div>
+          <div class="values"><span>rgb(10,10,10)</span></div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#FF5E1F; color:white;">#FF5E1F</div>
+        <div class="color-info">
+          <h4>Pulse Orange</h4>
+          <div class="uso">CTA, logo, destaques</div>
+          <div class="values"><span>rgb(255,94,31)</span></div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#FAFAFA; color:#0A0A0A;">#FAFAFA</div>
+        <div class="color-info">
+          <h4>Bone White</h4>
+          <div class="uso">Texto principal, background light</div>
+          <div class="values"><span>rgb(250,250,250)</span></div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Secundarias</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background:#00D4D4; color:#0A0A0A;">#00D4D4</div>
+        <div class="color-info">
+          <h4>Signal Cyan</h4>
+          <div class="uso">Tech accents, links ativos</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#A8A8A8; color:white;">#A8A8A8</div>
+        <div class="color-info">
+          <h4>Muted Gray</h4>
+          <div class="uso">Texto secundario</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#1A1A1A; color:#FAFAFA;">#1A1A1A</div>
+        <div class="color-info">
+          <h4>Charcoal</h4>
+          <div class="uso">Cards dark, dividers</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#5C5C5C; color:white;">#5C5C5C</div>
+        <div class="color-info">
+          <h4>Dim Gray</h4>
+          <div class="uso">Metadata, texto terciario</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Feedback</h3>
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-swatch" style="background:#E63946; color:white;">#E63946</div>
+        <div class="color-info">
+          <h4>Alert Red</h4>
+          <div class="uso">Urgente, breaking</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#2ECC71; color:white;">#2ECC71</div>
+        <div class="color-info">
+          <h4>Success Green</h4>
+          <div class="uso">Confirmacao</div>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-swatch" style="background:#F59E0B; color:white;">#F59E0B</div>
+        <div class="color-info">
+          <h4>Warning Amber</h4>
+          <div class="uso">Atencao, nao-critico</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- TIPOGRAFIA -->
+<section id="tipo">
+  <div class="container">
+    <div class="eyebrow">04 · Tipografia</div>
+    <h2>Fraunces, Inter e <span class="italic">JetBrains Mono.</span></h2>
+    <p style="max-width:680px;">Fraunces (serif italic jornalistica) pra manchetes. Inter pra corpo. JetBrains Mono pra datas e stats. Nenhuma outra fonte.</p>
+
+    <div class="type-spec" style="margin-top:48px;">
+      <div class="meta">Fraunces · 72px · 600</div>
+      <div class="type-fraunces-xl">Manchete jornalistica.</div>
+    </div>
+    <div class="type-spec">
+      <div class="meta">Fraunces · 48px · 600</div>
+      <div class="type-fraunces-l">Titulo de secao.</div>
+    </div>
+    <div class="type-spec">
+      <div class="meta">Fraunces · 32px · 500</div>
+      <div class="type-fraunces-m">Titulo de card ou artigo.</div>
+    </div>
+    <div class="type-spec">
+      <div class="meta">Inter · 20px · 400 · Lead</div>
+      <p class="type-inter-lead">Lead paragraph. Contexto em uma frase, sem enrolar. Quem, o que, quando. Vai direto ao ponto e deixa o leitor decidir se continua.</p>
+    </div>
+    <div class="type-spec">
+      <div class="meta">Inter · 16px · 400 · Body</div>
+      <p class="type-inter-body">Body padrao. Usado em paragrafos de materia, descricoes de produto, textos explicativos. Lorem ipsum nao serve aqui. Cada frase precisa carregar informacao.</p>
+    </div>
+    <div class="type-spec">
+      <div class="meta">JetBrains Mono · 48px · 600 · Stat</div>
+      <div class="type-mono-stat">3.004</div>
+    </div>
+    <div class="type-spec">
+      <div class="meta">JetBrains Mono · 13px · 500 · Timestamp</div>
+      <div class="type-mono-data">17 ABR 2026 · 21:47 BRT</div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- VOZ -->
+<section id="voz">
+  <div class="container">
+    <div class="eyebrow">05 · Voz e tom</div>
+    <h2>Direto, <span class="italic">dados primeiro,</span> nada de clichê.</h2>
+    <p style="max-width:680px;">A marca nao fala como um robo de IA. Fala como um analista de mercado que respeita o leitor. Manchete conta a historia. Paragrafos confirmam, nao prolongam.</p>
+
+    <div class="voice-grid" style="margin-top:48px;">
+      <div class="voice-card dont">
+        <h4>Nao usar</h4>
+        <ul>
+          <li>superpoderes</li>
+          <li>biblioteca viva</li>
+          <li>zero re-explicacao</li>
+          <li>em tempo real (generico)</li>
+          <li>revolucionario, transformar</li>
+          <li>o futuro da IA eh X</li>
+          <li>na era da IA</li>
+          <li>sinergia, ecossistema</li>
+          <li>delve, crucial, pivotal</li>
+          <li>"nao eh so X, eh Y"</li>
+        </ul>
+      </div>
+      <div class="voice-card do">
+        <h4>Usar</h4>
+        <ul>
+          <li>sinal, pulso, feed</li>
+          <li>linha direta, canal</li>
+          <li>dados, numeros, benchmark</li>
+          <li>publicaram, anunciaram</li>
+          <li>acompanhei, testei, rodei</li>
+          <li>"tem quem discorde"</li>
+          <li>em minutos, no dia</li>
+          <li>fonte oficial, confirmado</li>
+          <li>impacto pratico</li>
+          <li>assinado por nome</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="margin-top:64px;">Exemplo de aplicacao</h3>
+    <div class="voice-grid" style="margin-top:16px;">
+      <div class="voice-card dont">
+        <h4>Antes</h4>
+        <p style="font-size:14px; color:rgba(250,250,250,0.8); line-height:1.6;">
+          "A Anthropic anunciou hoje uma nova revolucionaria atualizacao que promete transformar a forma como interagimos com inteligencia artificial, abrindo novos horizontes de possibilidades."
+        </p>
+      </div>
+      <div class="voice-card do">
+        <h4>Pulso da IA</h4>
+        <p style="font-size:14px; color:rgba(250,250,250,0.8); line-height:1.6;">
+          "A Anthropic publicou Skills, mecanismo que permite ao Claude carregar instrucoes especializadas sob demanda. Documentacao <a href="#" style="color:var(--pulse-orange);">aqui</a>. Tres aplicacoes: auditoria de codigo, geracao de relatorios, onboarding."
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- NOMENCLATURA -->
+<section id="nomes">
+  <div class="container">
+    <div class="eyebrow">06 · Nomenclatura</div>
+    <h2>Cada produto tem <span class="italic">seu nome proprio.</span></h2>
+    <div style="margin-top:32px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px;">
+      <div class="variant-card" style="text-align:left;">
+        <div class="caption" style="margin-top:0; margin-bottom:8px;">PORTAL PRINCIPAL</div>
+        <h3 style="font-size:22px;">O Feed</h3>
+        <p class="type-inter-small">Homepage com noticias em tempo real dos labs.</p>
+      </div>
+      <div class="variant-card" style="text-align:left;">
+        <div class="caption" style="margin-top:0; margin-bottom:8px;">CATALOGO</div>
+        <h3 style="font-size:22px;">Biblioteca</h3>
+        <p class="type-inter-small">As 3.004 skills Claude Code categorizadas.</p>
+      </div>
+      <div class="variant-card" style="text-align:left;">
+        <div class="caption" style="margin-top:0; margin-bottom:8px;">EMAIL QUINTA 9H</div>
+        <h3 style="font-size:22px;">Pulso Semanal</h3>
+        <p class="type-inter-small">Resumo curado da semana inteira.</p>
+      </div>
+      <div class="variant-card" style="text-align:left;">
+        <div class="caption" style="margin-top:0; margin-bottom:8px;">WHATSAPP</div>
+        <h3 style="font-size:22px; color:var(--alert-red);">Pulso Urgente</h3>
+        <p class="type-inter-small">Breaking news em minutos.</p>
+      </div>
+      <div class="variant-card" style="text-align:left;">
+        <div class="caption" style="margin-top:0; margin-bottom:8px;">DISCORD</div>
+        <h3 style="font-size:22px;">Sala do Pulso</h3>
+        <p class="type-inter-small">Debates tecnicos e trocas.</p>
+      </div>
+      <div class="variant-card" style="text-align:left;">
+        <div class="caption" style="margin-top:0; margin-bottom:8px;">PODCAST FUTURO</div>
+        <h3 style="font-size:22px;">Conversas no Pulso</h3>
+        <p class="type-inter-small">Entrevistas com founders.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- APLICACAO -->
+<section id="aplicacao">
+  <div class="container">
+    <div class="eyebrow">07 · Aplicacao</div>
+    <h2>Como a marca <span class="italic">aparece no mundo.</span></h2>
+
+    <div class="apps-grid">
+      <div class="app-preview">
+        <div class="caption" style="margin-top:0; margin-bottom:16px; font-size:11px; font-family:'JetBrains Mono'; text-transform:uppercase; color:var(--dim-gray);">EMAIL — PULSO SEMANAL</div>
+        <div class="email-preview">
+          <div class="kicker">PULSO SEMANAL · EDICAO #1 · 18 ABR</div>
+          <h5>Skills muda como Claude carrega contexto.</h5>
+          <p class="lead">Anthropic publicou Skills: modelo carrega instrucoes especializadas por demanda. <a href="#" style="color:var(--pulse-orange); text-decoration:none;">Leia</a>.</p>
+          <div class="div-pulse"></div>
+          <div class="kicker">2 MIN DE LEITURA · 17 ABR</div>
+        </div>
+      </div>
+
+      <div class="app-preview">
+        <div class="caption" style="margin-top:0; margin-bottom:16px; font-size:11px; font-family:'JetBrains Mono'; text-transform:uppercase; color:var(--dim-gray);">WHATSAPP — PULSO URGENTE</div>
+        <div class="whats-preview">
+          <div class="whats-bubble">
+            <div style="font-weight:600; margin-bottom:4px;">⚡ PULSO URGENTE</div>
+            Claude Opus 4.7 saiu com janela de 1M de tokens. Dario confirmou no X. Link: anthropic.com/news
+            <div style="font-size:11px; opacity:0.6; margin-top:6px; text-align:right;">21:47</div>
+          </div>
+          <div style="font-size:11px; color:var(--dim-gray); margin-top:8px; text-align:center;">— Pulso da IA</div>
+        </div>
+      </div>
+
+      <div class="app-preview">
+        <div class="caption" style="margin-top:0; margin-bottom:16px; font-size:11px; font-family:'JetBrains Mono'; text-transform:uppercase; color:var(--dim-gray);">BOTOES</div>
+        <div style="display:flex; flex-direction:column; gap:12px; padding:16px;">
+          <button class="btn-primary">Receber por email</button>
+          <button class="btn-secondary">Ver o portal</button>
+        </div>
+      </div>
+
+      <div class="app-preview">
+        <div class="caption" style="margin-top:0; margin-bottom:16px; font-size:11px; font-family:'JetBrains Mono'; text-transform:uppercase; color:var(--dim-gray);">INSTAGRAM — POST DADO</div>
+        <div style="background:#0A0A0A; aspect-ratio:4/5; border-radius:8px; padding:24px; display:flex; flex-direction:column; justify-content:space-between; border:1px solid rgba(255,255,255,0.08);">
+          <div>
+            <div style="font-family:'JetBrains Mono'; font-size:10px; color:var(--pulse-orange); font-weight:600; text-transform:uppercase; letter-spacing:0.15em;">17 ABR · ANTHROPIC</div>
+          </div>
+          <div>
+            <div style="font-family:'JetBrains Mono'; font-size:56px; color:var(--pulse-orange); font-weight:600; line-height:1;">3.004</div>
+            <div style="font-family:'Fraunces'; font-size:20px; color:white; line-height:1.3; margin-top:8px; font-style:italic;">skills ja catalogadas em pt-BR.</div>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-family:'JetBrains Mono'; font-size:10px; color:var(--dim-gray);">
+            <span>pulsodaia.com.br</span>
+            <span>@pulsodaia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- POR QUE CADA DECISAO -->
+<section id="decisoes">
+  <div class="container">
+    <div class="eyebrow">07.5 · Por que cada decisao</div>
+    <h2>Nao inventamos nada <span class="italic">sem motivo.</span></h2>
+    <p style="max-width:680px;">Cada escolha visual e editorial desse brandbook foi pensada. Essa secao explica os porques, em linguagem direta, pra quem precisar defender uma decisao pra terceiros.</p>
+
+    <div style="margin-top:48px; display:grid; grid-template-columns:1fr; gap:24px;">
+
+      <div class="type-spec" style="padding:32px;">
+        <div class="meta">PULSE ORANGE · por que laranja e nao vermelho</div>
+        <h3 style="margin-bottom:12px;">Laranja ganhou em 6 de 6 criterios.</h3>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:16px;">
+          <div><strong style="color:var(--pulse-orange);">Nicho:</strong> <span style="color:rgba(250,250,250,0.75);">vermelho saturado (CNN, Netflix, YouTube). Laranja raro em IA/tech.</span></div>
+          <div><strong style="color:var(--pulse-orange);">Contraste:</strong> <span style="color:rgba(250,250,250,0.75);">7.88:1 em fundo preto (WCAG AAA). Vermelho passa so em AA.</span></div>
+          <div><strong style="color:var(--pulse-orange);">Semiotica:</strong> <span style="color:rgba(250,250,250,0.75);">pulso como energia. Vermelho seria "pulso como sangue" — literal demais.</span></div>
+          <div><strong style="color:var(--pulse-orange);">Hierarquia:</strong> <span style="color:rgba(250,250,250,0.75);">deixa o vermelho livre pra Alert Red (breaking news).</span></div>
+          <div><strong style="color:var(--pulse-orange);">Cultura BR:</strong> <span style="color:rgba(250,250,250,0.75);">vermelho eh politico/promocional. Laranja eh criatividade/energia.</span></div>
+          <div><strong style="color:var(--pulse-orange);">Diferenciacao:</strong> <span style="color:rgba(250,250,250,0.75);">competidor direto nao usa. Pulso vira primeiro no slot.</span></div>
+        </div>
+      </div>
+
+      <div class="type-spec" style="padding:32px;">
+        <div class="meta">SIGNAL CYAN · por que cyan e nao azul</div>
+        <h3 style="margin-bottom:12px;">Cyan eh a cor oposta do laranja.</h3>
+        <p style="color:rgba(250,250,250,0.75);">No circulo cromatico, laranja e cyan sao complementares. Isso da contraste maximo sem cansar o olho. Azul normal (#3B82F6) seria previsivel (Facebook, LinkedIn, Twitter). Cyan + laranja sao Tron, vaporwave, neon — linguagem digital.</p>
+      </div>
+
+      <div class="type-spec" style="padding:32px;">
+        <div class="meta">DARK FIRST · por que default dark mode</div>
+        <h3 style="margin-bottom:12px;">Audiencia tecnica passa o dia em dark mode.</h3>
+        <p style="color:rgba(250,250,250,0.75);">Dev, researcher, founder tech — 80% usam IDE, terminal e apps em dark. Site em dark combina com o ambiente de trabalho deles. Light mode fica como opcao pra quem prefere (toggle no header).</p>
+      </div>
+
+      <div class="type-spec" style="padding:32px;">
+        <div class="meta">FRAUNCES · por que serif italic e nao sans-serif</div>
+        <h3 style="margin-bottom:12px;">Jornalistico bate tech startup.</h3>
+        <p style="color:rgba(250,250,250,0.75);">Sans-serif moderno (Geist, Inter, Satoshi) esta em todo lugar. Fraunces traz DNA editorial — lembra Bloomberg, The Atlantic, Stratechery. Posiciona Pulso da IA como "veiculo jornalistico de IA", nao "mais uma startup de IA".</p>
+      </div>
+
+      <div class="type-spec" style="padding:32px;">
+        <div class="meta">JETBRAINS MONO · por que monospace em stats</div>
+        <h3 style="margin-bottom:12px;">Numeros alinham em grid.</h3>
+        <p style="color:rgba(250,250,250,0.75);">Stats ("3.004 skills") e timestamps ("17 ABR 2026 21:47") em mono ficam com width igual. Quando atualizam (ex: 3.004 → 3.021), nao dancam na tela. Tambem sinaliza "isto eh dado verificavel, nao copy".</p>
+      </div>
+
+      <div class="type-spec" style="padding:32px;">
+        <div class="meta">ONDA + DOTS · por que esse simbolo e nao cerebro/chip/robo</div>
+        <h3 style="margin-bottom:12px;">Cliche de IA eh proibido.</h3>
+        <p style="color:rgba(250,250,250,0.75);">90% das marcas de IA usam cerebro, chip, robo, nodes conectados. Pulso da IA foge disso. Onda de batimento → sinal em tempo real, movimento, vida. Dots no final → transicao analog-digital, pulsos que viram dados. Abstracao com significado.</p>
+      </div>
+
+      <div class="type-spec" style="padding:32px;">
+        <div class="meta">PORTUGUES · por que pt-BR e nao ingles</div>
+        <h3 style="margin-bottom:12px;">Oportunidade de mercado subexplorada.</h3>
+        <p style="color:rgba(250,250,250,0.75);">Mercado brasileiro de IA cresce, mas fontes primarias sao 100% em ingles. Portais BR agregam com atraso. Pulso da IA preenche esse gap: fonte primaria em portugues, direto da fonte. Vantagem competitiva defensavel.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- APLICACOES FISICAS -->
+<section id="fisico">
+  <div class="container">
+    <div class="eyebrow">09 · Aplicacoes fisicas</div>
+    <h2>A marca <span class="italic">fora do digital.</span></h2>
+    <p style="max-width:680px;">Papelaria corporativa, merch, fachada, placas. Todos seguindo a paleta Deep Black + Pulse Orange + Bone White. Consistencia desde cartao de visita ate backdrop de evento.</p>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Papelaria corporativa</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px;">
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#0A0A0A; aspect-ratio:5/3; padding:24px; display:flex; flex-direction:column; justify-content:space-between; border-bottom:2px solid #FF5E1F;">
+          <div>
+            <svg width="60" height="24" viewBox="0 0 80 32" fill="none">
+              <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+              <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+              <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+            </svg>
+          </div>
+          <div>
+            <div style="color:white; font-family:'Fraunces'; font-size:20px; font-weight:600;">Alex Campos</div>
+            <div style="color:#A8A8A8; font-size:13px; margin-top:4px;">editor</div>
+            <div style="font-family:'JetBrains Mono'; font-size:11px; color:#5C5C5C; margin-top:16px;">pulsodaia.com.br · @pulsodaia</div>
+          </div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">cartao de visita · frente</div>
+      </div>
+
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#FAFAFA; aspect-ratio:5/3; padding:24px; display:flex; flex-direction:column;">
+          <div style="display:flex; justify-content:space-between; align-items:start;">
+            <svg width="90" height="36" viewBox="0 0 80 32" fill="none">
+              <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/>
+              <circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/>
+              <circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/>
+            </svg>
+            <div style="font-family:'JetBrains Mono'; font-size:10px; color:#5C5C5C; text-align:right;">17 ABR 2026<br>PULSO DA IA</div>
+          </div>
+          <div style="border-top:1px solid #0A0A0A33; margin-top:auto; padding-top:8px; font-size:11px; color:#5C5C5C;">Triadeflow Digital · contato@triadeflow.com.br</div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">papel timbrado · A4</div>
+      </div>
+
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#0A0A0A; aspect-ratio:5/3; padding:24px; display:flex; align-items:center; justify-content:center; position:relative;">
+          <div style="width:60px; height:60px; border-radius:50%; background:#FF5E1F; display:flex; align-items:center; justify-content:center;">
+            <svg width="28" height="28" viewBox="0 0 80 32" fill="none">
+              <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="white" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="68" cy="16" r="3" fill="white"/>
+              <circle cx="73" cy="16" r="3" fill="white" opacity="0.6"/>
+              <circle cx="78" cy="16" r="3" fill="white" opacity="0.3"/>
+            </svg>
+          </div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">envelope · selo symbol</div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Merch · camiseta, moletom, boné</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px;">
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#0A0A0A; aspect-ratio:1; padding:32px; display:flex; align-items:center; justify-content:center;">
+          <div style="background:#1a1a1a; width:70%; height:80%; border-radius:8px; display:flex; align-items:flex-start; padding:24px; border:1px solid rgba(255,255,255,0.05);">
+            <svg width="50" height="20" viewBox="0 0 80 32" fill="none">
+              <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="68" cy="16" r="2" fill="#FF5E1F"/>
+              <circle cx="73" cy="16" r="2" fill="#FF5E1F" opacity="0.6"/>
+              <circle cx="78" cy="16" r="2" fill="#FF5E1F" opacity="0.3"/>
+            </svg>
+          </div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">camiseta preta · logo peito esq</div>
+      </div>
+
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#0A0A0A; aspect-ratio:1; padding:32px; display:flex; align-items:center; justify-content:center;">
+          <div style="background:#1a1a1a; width:70%; height:80%; border-radius:8px; display:flex; align-items:center; justify-content:center; border:1px solid rgba(255,255,255,0.05);">
+            <svg width="110" height="44" viewBox="0 0 80 32" fill="none">
+              <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="68" cy="16" r="3" fill="#FF5E1F"/>
+              <circle cx="73" cy="16" r="3" fill="#FF5E1F" opacity="0.6"/>
+              <circle cx="78" cy="16" r="3" fill="#FF5E1F" opacity="0.3"/>
+            </svg>
+          </div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">camiseta preta · symbol grande</div>
+      </div>
+
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#0A0A0A; aspect-ratio:1; padding:32px; display:flex; align-items:center; justify-content:center;">
+          <div style="background:#1a1a1a; width:100%; height:50%; border-radius:60% 60% 20% 20% / 80% 80% 20% 20%; display:flex; align-items:center; justify-content:center; border:1px solid rgba(255,255,255,0.05); position:relative;">
+            <svg width="50" height="20" viewBox="0 0 80 32" fill="none">
+              <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="68" cy="16" r="2" fill="#FF5E1F"/>
+              <circle cx="73" cy="16" r="2" fill="#FF5E1F" opacity="0.6"/>
+              <circle cx="78" cy="16" r="2" fill="#FF5E1F" opacity="0.3"/>
+            </svg>
+          </div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">bone preto · bordado frente</div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Caneca · caneta · mousepad</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px;">
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#1a1a1a; aspect-ratio:1; padding:40px; display:flex; align-items:center; justify-content:center;">
+          <div style="background:white; width:60%; height:70%; border-radius:8px 8px 24px 24px; padding:12px; display:flex; align-items:center; justify-content:center;">
+            <div style="font-family:'Inter'; font-size:12px; color:#0A0A0A; font-weight:400;">pulso<span style="font-style:italic; color:#A8A8A8;">da</span><span style="font-weight:700;">IA</span></div>
+          </div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">caneca branca · wordmark</div>
+      </div>
+
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#1a1a1a; aspect-ratio:1; padding:40px; display:flex; align-items:center; justify-content:center;">
+          <div style="background:#0A0A0A; width:15%; height:80%; border-radius:4px; border:1px solid #FF5E1F; position:relative; display:flex; align-items:center; justify-content:center;">
+            <div style="writing-mode:vertical-rl; font-family:'Inter'; font-size:9px; color:#FF5E1F; font-weight:600; letter-spacing:0.1em;">PULSODAIA</div>
+          </div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">caneta preta · hot foil laranja</div>
+      </div>
+
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#0A0A0A; aspect-ratio:2/1; padding:24px; display:flex; align-items:center; justify-content:flex-end;">
+          <svg width="80" height="32" viewBox="0 0 80 32" fill="none" style="opacity:0.3;">
+            <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="68" cy="16" r="1.2" fill="#FF5E1F"/>
+            <circle cx="73" cy="16" r="1.2" fill="#FF5E1F" opacity="0.6"/>
+            <circle cx="78" cy="16" r="1.2" fill="#FF5E1F" opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="caption" style="padding:12px 16px;">mousepad · symbol canto 30%</div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Fachada · placa · backdrop evento</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px;">
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:linear-gradient(180deg,#0A0A0A 0%, #1a1a1a 100%); aspect-ratio:2/1; padding:32px; display:flex; align-items:center; justify-content:center; position:relative;">
+          <div style="position:absolute; inset:16px; border:1px solid #FF5E1F; border-radius:4px; box-shadow:0 0 20px rgba(255,94,31,0.3);"></div>
+          <div style="color:white; font-family:'Fraunces'; font-size:28px; font-weight:600; text-shadow:0 0 10px rgba(255,94,31,0.5);">pulso<span style="font-style:italic; color:rgba(255,255,255,0.6);">da</span>IA</div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">fachada · letreiro iluminado</div>
+      </div>
+
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#FAFAFA; aspect-ratio:3/2; padding:24px; display:flex; align-items:center; justify-content:center; border-radius:2px;">
+          <div style="background:#0A0A0A; padding:16px 32px; display:flex; align-items:center; gap:10px; border-radius:4px;">
+            <svg width="40" height="16" viewBox="0 0 80 32" fill="none">
+              <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="68" cy="16" r="2" fill="#FF5E1F"/>
+              <circle cx="73" cy="16" r="2" fill="#FF5E1F" opacity="0.6"/>
+              <circle cx="78" cy="16" r="2" fill="#FF5E1F" opacity="0.3"/>
+            </svg>
+            <span style="color:white; font-size:13px;">pulso<span style="font-style:italic; color:#A8A8A8;">da</span><span style="font-weight:600;">IA</span></span>
+          </div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">placa de escritorio · corte laser</div>
+      </div>
+
+      <div class="variant-card" style="text-align:left; padding:0; overflow:hidden;">
+        <div style="background:#0A0A0A; aspect-ratio:16/9; padding:40px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;">
+          <svg width="80" height="32" viewBox="0 0 80 32" fill="none">
+            <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="68" cy="16" r="2" fill="#FF5E1F"/>
+            <circle cx="73" cy="16" r="2" fill="#FF5E1F" opacity="0.6"/>
+            <circle cx="78" cy="16" r="2" fill="#FF5E1F" opacity="0.3"/>
+          </svg>
+          <div style="color:white; font-family:'Fraunces'; font-size:24px; font-style:italic;">pulsodaIA</div>
+          <div style="font-family:'JetBrains Mono'; font-size:10px; color:#5C5C5C; margin-top:8px; letter-spacing:0.2em;">PULSODAIA.COM.BR</div>
+        </div>
+        <div class="caption" style="padding:12px 16px;">backdrop evento · 16:9</div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Adesivos (4 formatos)</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px;">
+      <div class="variant-card" style="padding:24px; text-align:center;">
+        <svg width="64" height="24" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="68" cy="16" r="2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+        <div class="caption" style="margin-top:16px;">symbol pequeno</div>
+      </div>
+      <div class="variant-card" style="padding:24px; text-align:center; display:flex; flex-direction:column; align-items:center; gap:4px;">
+        <svg width="44" height="18" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="68" cy="16" r="2" fill="#FF5E1F"/>
+          <circle cx="73" cy="16" r="2" fill="#FF5E1F" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2" fill="#FF5E1F" opacity="0.3"/>
+        </svg>
+        <span style="color:white; font-size:11px;">pulso<span style="font-style:italic; color:#A8A8A8;">da</span><span style="font-weight:600;">IA</span></span>
+        <div class="caption" style="margin-top:8px;">horizontal mini</div>
+      </div>
+      <div class="variant-card" style="padding:24px; text-align:center;">
+        <span style="color:white; font-family:'Fraunces'; font-size:20px; font-style:italic;">pulsodaIA</span>
+        <div class="caption" style="margin-top:16px;">wordmark only</div>
+      </div>
+      <div class="variant-card" style="padding:24px; text-align:center; background:#FF5E1F;">
+        <svg width="64" height="24" viewBox="0 0 80 32" fill="none">
+          <path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="white" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="68" cy="16" r="2" fill="white"/>
+          <circle cx="73" cy="16" r="2" fill="white" opacity="0.6"/>
+          <circle cx="78" cy="16" r="2" fill="white" opacity="0.3"/>
+        </svg>
+        <div class="caption" style="margin-top:16px; color:white;">inverso laranja</div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:48px; margin-bottom:16px; font-size:18px;">Digital estendido</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px;">
+      <div class="variant-card" style="text-align:left;">
+        <h4 style="color:var(--pulse-orange); margin-bottom:8px;">Email signature</h4>
+        <div style="font-size:12px; line-height:1.5; color:rgba(250,250,250,0.8); font-family:'Inter';">
+          <strong>Alex Campos</strong><br>
+          editor @ Pulso da IA<br>
+          <span style="color:#A8A8A8;">pulsodaia.com.br · @pulsodaia</span>
+        </div>
+      </div>
+      <div class="variant-card" style="text-align:left;">
+        <h4 style="color:var(--pulse-orange); margin-bottom:8px;">Zoom/Teams background</h4>
+        <p class="type-inter-small">Preto sólido + pulse wave sutil no canto inferior direito + logo no canto superior esq.</p>
+      </div>
+      <div class="variant-card" style="text-align:left;">
+        <h4 style="color:var(--pulse-orange); margin-bottom:8px;">Slack status</h4>
+        <p class="type-inter-small" style="font-family:'JetBrains Mono';">📡 @ Pulso da IA</p>
+      </div>
+      <div class="variant-card" style="text-align:left;">
+        <h4 style="color:var(--pulse-orange); margin-bottom:8px;">YouTube thumb</h4>
+        <p class="type-inter-small">1280x720 · Fraunces 80px italic + symbol canto + eyebrow mono.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- CHECKLIST -->
+<section>
+  <div class="container">
+    <div class="eyebrow">08 · Checklist antes de publicar</div>
+    <h2>Antes de qualquer <span class="italic">peca sair.</span></h2>
+    <ul style="margin-top:32px; font-size:15px; line-height:2; padding-left:0; list-style:none; max-width:640px;">
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Logo na posicao correta, sem distorcao</li>
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Pulse Orange aplicado em apenas 1-2 elementos</li>
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Manchete em Fraunces, corpo em Inter</li>
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Nenhuma palavra da lista PROIBIDA presente</li>
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Dados e fontes linkados</li>
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Mobile testado</li>
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Modo claro e escuro funcionam</li>
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Tags e categoria certas</li>
+      <li style="padding-left:32px; position:relative;"><span style="position:absolute; left:0; color:var(--pulse-orange);">✓</span>Assinatura "por Pulso da IA" presente</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    Pulso da IA · Brandbook v1.0 · 17 ABR 2026 · feito por Alex Campos @ Triadeflow
+  </div>
+</footer>
+
+</body>
+</html>

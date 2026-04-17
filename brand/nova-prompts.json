@@ -1,0 +1,55 @@
+{
+  "persona": "Nova",
+  "description": "Brazilian woman late 20s, dark brown wavy shoulder-length hair, natural subtle makeup, confident analytical expression. Wearing PLAIN BLACK crew neck t-shirt (no logo, no text, no graphics - pure black fabric).",
+  "style_base": "Editorial magazine photography, shot on Leica Q2 50mm, shallow depth of field, 8K resolution, cinematic color grading, high contrast, professional",
+  "items": [
+    {
+      "id": "nova-01-homeoffice",
+      "filename": "nova-01-homeoffice.png",
+      "aspect": "3:4",
+      "prompt": "Editorial portrait of Brazilian woman late 20s, dark brown wavy shoulder-length hair, natural makeup, confident subtle smile. Wearing a completely plain black crew neck t-shirt (no print, no logo). Minimalist modern home office background softly blurred, MacBook and green plants visible. Soft natural window light from left. Shot on Leica 50mm, shallow DOF, 8K editorial magazine quality."
+    },
+    {
+      "id": "nova-02-headphones",
+      "filename": "nova-02-headphones.png",
+      "aspect": "3:4",
+      "prompt": "Editorial portrait Brazilian woman late 20s, dark brown wavy hair, natural makeup. Wearing premium black over-ear headphones and a PLAIN BLACK crew neck t-shirt (no logo). Focused concentrated expression, reading something off-screen. Dark minimalist workspace background, subtle orange accent light from laptop screen. Shot on Canon R5 85mm, shallow DOF, 8K magazine cover quality, cinematic lighting."
+    },
+    {
+      "id": "nova-03-stage",
+      "filename": "nova-03-stage.png",
+      "aspect": "3:4",
+      "prompt": "Editorial professional photograph of Brazilian woman late 20s speaking on a tech conference stage, dark brown wavy hair, natural makeup, confident gesture with hands, holding a wireless microphone. Wearing PLAIN BLACK crew neck t-shirt and dark jeans. Stage with dramatic spot lighting from above, blurred audience in dark background, subtle orange stage light accents. Editorial event photography, shot on Sony A7R V 85mm, 8K, cinematic."
+    },
+    {
+      "id": "nova-04-breaking-news",
+      "filename": "nova-04-breaking-news.png",
+      "aspect": "3:4",
+      "prompt": "Editorial portrait Brazilian woman late 20s looking at phone with expression of genuine surprise and interest, as if just read a breaking news. Dark brown wavy hair, natural makeup. Wearing PLAIN BLACK crew neck t-shirt (no logo). Modern cafe or coworking background softly blurred, warm afternoon light. Shot on Fujifilm X-T5, 35mm, shallow DOF, candid editorial magazine style 8K."
+    },
+    {
+      "id": "nova-05-warm-coffee",
+      "filename": "nova-05-warm-coffee.png",
+      "aspect": "3:4",
+      "prompt": "Warm editorial portrait of Brazilian woman late 20s with genuine full smile, holding a plain matte black ceramic mug with steam rising. Dark brown wavy hair, natural makeup. Wearing PLAIN BLACK crew neck t-shirt (no logo). Cozy modern home office background softly blurred with plants and wooden shelves. Golden hour natural lighting from left. Shot on Leica 50mm, shallow DOF, warm editorial lifestyle magazine quality 8K."
+    },
+    {
+      "id": "nova-06-dramatic-profile",
+      "filename": "nova-06-dramatic-profile.png",
+      "aspect": "3:4",
+      "prompt": "Dramatic editorial 3/4 profile portrait of Brazilian woman late 20s, dark brown wavy shoulder-length hair, natural makeup, serious analytical expression. Wearing PLAIN BLACK crew neck t-shirt. Dark black background with a single sharp rim light from the right creating strong shadow definition. Chiaroscuro lighting. Shot on Hasselblad 100mm, shallow DOF, editorial cover shoot style, 8K, moody cinematic tone."
+    },
+    {
+      "id": "nova-07-notebook",
+      "filename": "nova-07-notebook.png",
+      "aspect": "3:4",
+      "prompt": "Editorial lifestyle portrait of Brazilian woman late 20s writing in a plain matte black notebook (no logo) with a black fountain pen. Dark brown wavy hair, natural makeup, focused thoughtful expression. Wearing PLAIN BLACK crew neck t-shirt. Minimalist dark wood desk, soft natural window light from the side. Shot on Fujifilm GFX 50mm, shallow DOF, editorial magazine quality 8K, warm tones."
+    },
+    {
+      "id": "nova-08-official-portrait",
+      "filename": "nova-08-official-portrait.png",
+      "aspect": "3:4",
+      "prompt": "Professional official headshot of Brazilian woman late 20s, dark brown wavy shoulder-length hair, natural subtle makeup, confident direct gaze into camera, slight warm smile. Wearing PLAIN BLACK crew neck t-shirt (no logo). Solid charcoal dark grey background, professional studio lighting with soft key light from left, fill light from right, subtle rim light from behind. Shot on Canon R5 85mm prime, shallow DOF, executive portrait magazine quality 8K, minimalist editorial style."
+    }
+  ]
+}
