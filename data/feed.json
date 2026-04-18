@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-04-18T08:09:55.742Z",
+  "generated_at": "2026-04-18T11:53:08.872Z",
   "articles": [
+    {
+      "slug": "modelos-de-ia-abertos-desafiam-exclusividade-de-seguranca-da-anthropic",
+      "headline": "Modelos de IA abertos desafiam exclusividade de segurança da Anthropic",
+      "subtitle": "Pequenos modelos de código aberto replicam análises de vulnerabilidade antes restritas a sistemas fechados.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/the-myth-of-claude-mythos-crumbles-as-small-open-models-hunt-the-same-cybersecurity-bugs-anthropic-showcased/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança cibernética",
+        "modelos abertos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 18 Apr 2026 08:48:05 +0000",
+      "written_at": "2026-04-18T11:53:06.238Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "startup-de-ia-autonoma-capta-us-500-milhoes-em-quatro-meses",
+      "headline": "Startup de IA Autônoma Capta US$ 500 Milhões em Quatro Meses",
+      "subtitle": "Investimento massivo em empresa com ex-pesquisadores de DeepMind e OpenAI aponta para nova corrida por sistemas de IA que se aprimoram.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/self-improving-ai-startup-recursive-superintelligence-pulls-in-500-million-just-four-months-after-founding/",
+      "category": "mercado",
+      "tags": [
+        "ia autonoma",
+        "financiamento",
+        "startup"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 18 Apr 2026 09:32:57 +0000",
+      "written_at": "2026-04-18T11:52:53.572Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ceo-da-anthropic-ve-expansao-ilimitada-para-ia-mas-alerta-sobre-riscos-de-desemp",
+      "headline": "CEO da Anthropic vê expansão ilimitada para IA, mas alerta sobre riscos de desemprego",
+      "subtitle": "Dario Amodei defende que os benefícios da IA devem compensar a disrupção no mercado de trabalho.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-ceo-amodei-declares-there-is-no-end-to-the-rainbow-for-ai-scaling/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "escalabilidade",
+        "mercado de trabalho"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 18 Apr 2026 10:17:28 +0000",
+      "written_at": "2026-04-18T11:52:41.272Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "openai-perde-tres-executivos-em-reestruturacao-focada-em-codigo-e-empresas",
       "headline": "OpenAI Perde Três Executivos em Reestruturação Focada em Código e Empresas",
