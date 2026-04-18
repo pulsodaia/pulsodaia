@@ -1,0 +1,37 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.114",
+  "title": "v2.1.114",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
+  "summary": "<h2>What's changed</h2> <ul> <li>Fixed a crash in the permission dialog when an agent teams teammate requested tool permission</li> </ul>",
+  "published_at": "2026-04-18T01:34:30Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Corrige Instabilidade em Solicitações de Permissão de Agentes",
+  "subtitle": "Atualização pontual foca em estabilidade para interações entre agentes de IA no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A mais recente atualização do Claude Code, versão v2.1.114, lançada em 18 de abril de 2026, aborda um problema específico que causava travamentos na interface de permissões. A correção visa aprimorar a experiência de uso em cenários onde um agente solicita acesso a ferramentas de outro colega.",
+  "body_markdown": "## O que aconteceu\n\nA Anthropic liberou a versão v2.1.114 do Claude Code, um componente essencial para o desenvolvimento e orquestração de agentes de inteligência artificial. Conforme detalhado nas notas de lançamento disponíveis no [repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.114), a principal alteração introduzida nesta atualização foi a correção de um erro que provocava o encerramento inesperado do programa (crash) no momento em que um agente de equipe solicitava permissão para utilizar uma ferramenta de outro membro da equipe. Este tipo de interação, onde agentes colaboram e compartilham capacidades, é fundamental para a construção de sistemas de IA mais complexos e autônomos. A resolução deste bug específico garante que essas solicitações de permissão ocorram de maneira fluida e sem interrupções.\n\n## Por que importa\n\nPara o mercado brasileiro de IA, a estabilidade em plataformas de desenvolvimento e orquestração de agentes é crucial. Sistemas de IA que interagem entre si, compartilhando dados e executando tarefas em conjunto, demandam uma infraestrutura robusta e confiável. Um travamento em um ponto crítico como a gestão de permissões pode comprometer fluxos de trabalho inteiros, desde a automação de processos empresariais até a criação de assistentes virtuais mais sofisticados. A correção implementada pela Anthropic, embora aparentemente pequena, impacta diretamente a capacidade de desenvolvedores e empresas no Brasil de implementarem soluções de IA mais complexas e seguras, onde a colaboração entre diferentes módulos de inteligência é uma necessidade. A confiança na ferramenta aumenta, permitindo que projetos que dependem dessa comunicação entre agentes avancem com maior segurança.\n\n## O que esperar\n\nCom a correção aplicada, espera-se que a interação entre agentes no Claude Code se torne mais previsível e estável. Isso pode incentivar a adoção de arquiteturas de IA mais distribuídas e colaborativas no Brasil. Desenvolvedores que utilizam o Claude Code para construir sistemas de IA para finanças, saúde ou atendimento ao cliente, por exemplo, poderão contar com um fluxo mais suave ao integrar diferentes capacidades. A Anthropic continua a refinar suas ferramentas, e esta atualização, focada na estabilidade, sugere um compromisso contínuo com a melhoria da experiência do usuário. O desenvolvimento futuro provavelmente trará novas funcionalidades, mas a base sólida proporcionada por correções como esta é um pré-requisito para inovações mais avançadas. Para mais detalhes sobre o ciclo de desenvolvimento e outras atualizações, é possível consultar o [histórico completo de releases](https://github.com/anthropics/claude-code/releases/tag/v2.1.114).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Anthropic liberou a versão v2.1.114 do Claude Code, um componente essencial para o desenvolvimento e orquestração de agentes de inteligência artificial. Conforme detalhado nas notas de lançamento disponíveis no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.114\" target=\"_blank\" rel=\"external noopener\">repositório oficial</a>, a principal alteração introduzida nesta atualização foi a correção de um erro que provocava o encerramento inesperado do programa (crash) no momento em que um agente de equipe solicitava permissão para utilizar uma ferramenta de outro membro da equipe. Este tipo de interação, onde agentes colaboram e compartilham capacidades, é fundamental para a construção de sistemas de IA mais complexos e autônomos. A resolução deste bug específico garante que essas solicitações de permissão ocorram de maneira fluida e sem interrupções.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de IA, a estabilidade em plataformas de desenvolvimento e orquestração de agentes é crucial. Sistemas de IA que interagem entre si, compartilhando dados e executando tarefas em conjunto, demandam uma infraestrutura robusta e confiável. Um travamento em um ponto crítico como a gestão de permissões pode comprometer fluxos de trabalho inteiros, desde a automação de processos empresariais até a criação de assistentes virtuais mais sofisticados. A correção implementada pela Anthropic, embora aparentemente pequena, impacta diretamente a capacidade de desenvolvedores e empresas no Brasil de implementarem soluções de IA mais complexas e seguras, onde a colaboração entre diferentes módulos de inteligência é uma necessidade. A confiança na ferramenta aumenta, permitindo que projetos que dependem dessa comunicação entre agentes avancem com maior segurança.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a correção aplicada, espera-se que a interação entre agentes no Claude Code se torne mais previsível e estável. Isso pode incentivar a adoção de arquiteturas de IA mais distribuídas e colaborativas no Brasil. Desenvolvedores que utilizam o Claude Code para construir sistemas de IA para finanças, saúde ou atendimento ao cliente, por exemplo, poderão contar com um fluxo mais suave ao integrar diferentes capacidades. A Anthropic continua a refinar suas ferramentas, e esta atualização, focada na estabilidade, sugere um compromisso contínuo com a melhoria da experiência do usuário. O desenvolvimento futuro provavelmente trará novas funcionalidades, mas a base sólida proporcionada por correções como esta é um pré-requisito para inovações mais avançadas. Para mais detalhes sobre o ciclo de desenvolvimento e outras atualizações, é possível consultar o <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.114\" target=\"_blank\" rel=\"external noopener\">histórico completo de releases</a>.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "agentes de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "agentes de IA",
+    "permissões de ferramentas",
+    "estabilidade",
+    "desenvolvimento de IA"
+  ],
+  "meta_description_seo": "Atualização do Claude Code corrige falha em permissões de agentes. Foco em estabilidade para desenvolvimento de IA colaborativa.",
+  "written_at": "2026-04-18T01:56:16.732Z",
+  "slug": "claude-code-corrige-instabilidade-em-solicitacoes-de-permissao-de-agentes",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/ac1179ede58fe01d21f1892eac087efe58239b6d8ff544fa4d899fc2a0365c85/anthropics/claude-code/releases/tag/v2.1.114"
+}
