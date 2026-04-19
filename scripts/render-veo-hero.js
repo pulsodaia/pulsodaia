@@ -88,15 +88,33 @@ function httpGet(url, headers) {
   });
 }
 
-function downloadFile(url, destPath, headers) {
+function downloadFile(url, destPath, headers, maxRedirects = 5) {
   return new Promise((resolve, reject) => {
-    const u = new URL(url);
-    const file = fs.createWriteStream(destPath);
-    https.get({ hostname: u.hostname, path: u.pathname + u.search, headers: headers || {} }, res => {
-      if (res.statusCode !== 200) return reject(new Error(`Download HTTP ${res.statusCode}`));
-      res.pipe(file);
-      file.on('finish', () => file.close(() => resolve(destPath)));
-    }).on('error', reject);
+    function attempt(currentUrl, redirectsLeft) {
+      const u = new URL(currentUrl);
+      https.get({
+        hostname: u.hostname,
+        path: u.pathname + u.search,
+        headers: headers || {}
+      }, res => {
+        if ([301, 302, 303, 307, 308].includes(res.statusCode) && res.headers.location && redirectsLeft > 0) {
+          const nextUrl = res.headers.location.startsWith('http') ? res.headers.location : `https://${u.hostname}${res.headers.location}`;
+          res.resume();
+          return attempt(nextUrl, redirectsLeft - 1);
+        }
+        if (res.statusCode !== 200) {
+          let errBody = '';
+          res.on('data', c => errBody += c.toString());
+          res.on('end', () => reject(new Error(`Download HTTP ${res.statusCode}: ${errBody.substring(0, 300)}`)));
+          return;
+        }
+        const file = fs.createWriteStream(destPath);
+        res.pipe(file);
+        file.on('finish', () => file.close(() => resolve(destPath)));
+        file.on('error', reject);
+      }).on('error', reject);
+    }
+    attempt(url, maxRedirects);
   });
 }
 
@@ -280,10 +298,17 @@ async function main() {
   log(`Operation: ${opName}`);
 
   const response = await pollOperation(opName);
-  const videos = response?.generatedSamples || response?.generateVideoResponse?.generatedSamples || [];
-  if (!videos.length) throw new Error(`Sem videos no response: ${JSON.stringify(response).substring(0, 400)}`);
+  log(`Response keys: ${JSON.stringify(Object.keys(response || {}))}`);
+  log(`Response dump: ${JSON.stringify(response).substring(0, 500)}`);
 
-  const videoUri = videos[0].video?.uri || videos[0].uri;
+  const videos = response?.generatedSamples
+    || response?.generateVideoResponse?.generatedSamples
+    || response?.videos
+    || response?.generateVideoResponse?.videos
+    || [];
+  if (!videos.length) throw new Error(`Sem videos no response: ${JSON.stringify(response).substring(0, 600)}`);
+
+  const videoUri = videos[0]?.video?.uri || videos[0]?.uri || videos[0]?.gcsUri;
   if (!videoUri) throw new Error(`Sem URI no sample: ${JSON.stringify(videos[0])}`);
 
   const outDir = path.join(VIDEOS_DIR, article.slug);
@@ -291,8 +316,14 @@ async function main() {
   const outPath = path.join(outDir, 'veo-hero.mp4');
 
   log(`Download: ${videoUri}`);
-  const downloadUrl = videoUri.includes('?key=') || videoUri.includes('key=') ? videoUri : `${videoUri}${videoUri.includes('?') ? '&' : '?'}key=${API_KEY}`;
-  await downloadFile(downloadUrl, outPath, { 'x-goog-api-key': API_KEY });
+  const downloadUrl = videoUri.includes('key=') ? videoUri : `${videoUri}${videoUri.includes('?') ? '&' : '?'}key=${API_KEY}`;
+  try {
+    await downloadFile(downloadUrl, outPath, { 'x-goog-api-key': API_KEY });
+  } catch (e) {
+    // Remove arquivo 0 bytes em caso de falha
+    try { if (fs.existsSync(outPath) && fs.statSync(outPath).size === 0) fs.unlinkSync(outPath); } catch {}
+    throw e;
+  }
 
   const sizeMB = (fs.statSync(outPath).size / 1024 / 1024).toFixed(2);
   log(`VIDEO salvo: ${path.relative(ROOT, outPath)} (${sizeMB}MB)`);
