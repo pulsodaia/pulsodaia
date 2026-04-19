@@ -108,10 +108,19 @@ jobs:
           git config user.name "pulso-autopilot[bot]"
           git config user.email "autopilot@pulsodaia.com.br"
           git add -A
-          # Extrai contagem de publicados do log
           COUNT=$(grep -c "PUBLICADO" /tmp/engine.log || echo "0")
           git commit -m "chore(autopilot): $COUNT artigo(s) novo(s) [skip ci]" || echo "nada a commitar"
-          git push origin main
+          # Retry push com rebase em caso de conflito de outros commits paralelos
+          for attempt in 1 2 3; do
+            if git push origin main; then
+              echo "[autopilot] push ok (attempt $attempt)"
+              break
+            fi
+            echo "[autopilot] push falhou (attempt $attempt), rebase e retry..."
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; echo "[autopilot] rebase conflitou, abortando"; exit 1; }
+            sleep 3
+          done
 
       - name: Deploy to Cloudflare Pages
         if: steps.changes.outputs.changed == 'true'
