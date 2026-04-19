@@ -72,7 +72,20 @@ jobs:
           GEMINI_MODEL: gemini-2.5-flash-lite
         run: |
           # Gera social apenas pra artigos SEM pasta social/{slug}/ ainda (nao --force)
+          # generate-social-posts.js ja invoca render-ig-cards.js internamente
           node scripts/generate-social-posts.js | tee /tmp/social.log || echo "[social] falhou, nao eh critico"
+
+      - name: Create GHL Social Planner drafts (FB/IG/Pinterest/Bluesky)
+        env:
+          GHL_LOCATION_PIT: ${{ secrets.GHL_LOCATION_PIT }}
+          GHL_USER_ID: ${{ secrets.GHL_USER_ID }}
+        run: |
+          # So cria drafts pra artigos que AINDA nao tem ghl_posts no meta.json
+          if [ -n "$GHL_LOCATION_PIT" ]; then
+            node scripts/ghl-social-post.js --all 2>&1 | tee -a /tmp/social.log || echo "[ghl] falhou, nao eh critico"
+          else
+            echo "[ghl] GHL_LOCATION_PIT secret nao configurado — skip"
+          fi
 
       - name: Rebuild RSS + static pages (pega novos artigos)
         run: |
