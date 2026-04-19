@@ -192,7 +192,9 @@ Lead: ${article.lead}`;
   log(`Fala (pt-BR): "${spokenLine}"`);
 
   // Monta prompt Veo combinando Nova + script + estrutura 8s
-  const veoPrompt = `Vertical 9:16 cinematic editorial short, 8 seconds. ${novaDescription} She looks directly at camera, slight natural pause, then speaks in Brazilian Portuguese (pt-BR) with calm analytical tone: "${spokenLine}". Subtle medium close-up, natural ambient audio, no music. No text overlays. Realistic lip sync to the Portuguese dialogue. End with a 1-second clean cut to the same woman slightly nodding, still framed. Mood: sober, trustworthy, editorial tech journalism (think Bloomberg Quicktake meets The Verge). Color grading: neutral with slight warm highlights. Do not show any logos or brand names.`;
+  // CRITICAL: Veo 3 tem tendencia de gerar legendas em linguas aleatorias.
+  // Reforcar ABSOLUTELY NO TEXT/SUBTITLES/CAPTIONS no negative prompt.
+  const veoPrompt = `Vertical 9:16 cinematic editorial short, 8 seconds. ${novaDescription} FROM SECOND ONE she is already speaking naturally in Brazilian Portuguese (pt-BR) with calm analytical tone, direct clear diction. Her spoken line: "${spokenLine}". Continuous speech, no intro pause, no silent beginning. Subtle medium close-up framing. Natural room ambient audio only, zero music, zero sound effects. Realistic accurate lip sync to the Brazilian Portuguese dialogue. Mood: sober, trustworthy, editorial tech journalism (Bloomberg Quicktake meets The Verge). Color grading neutral with slight warm highlights. ABSOLUTELY DO NOT GENERATE: any text overlays, any subtitles, any captions, any burned-in text, any lower thirds, any on-screen graphics, any floating text, any language text, any logos, any brand names, any written words of any kind. ZERO text on screen. Pure cinematic footage only.`;
 
   return { veoPrompt, spokenLine };
 }
@@ -217,7 +219,8 @@ async function startVeoGeneration(veoPrompt, novaImagePath) {
       parameters: {
         aspectRatio: '9:16',
         personGeneration: 'allow_adult',
-        durationSeconds: DURATION_SEC
+        durationSeconds: DURATION_SEC,
+        negativePrompt: 'text, subtitles, captions, closed captions, burned-in text, lower thirds, on-screen graphics, logos, watermarks, written words, floating text, language overlay, silent intro, muted beginning, background music, sound effects, dramatic score'
       }
     }
   );

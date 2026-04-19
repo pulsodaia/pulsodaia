@@ -34,17 +34,5 @@
       "status": "draft",
       "job": "multi-hero"
     }
-  },
-  "veo_hero": {
-    "path": "/assets/videos/anthropic-apresenta-claude-design-para-criacao-rapida-de-visuais/veo-hero.mp4",
-    "url": "https://pulsodaia.com.br/assets/videos/anthropic-apresenta-claude-design-para-criacao-rapida-de-visuais/veo-hero.mp4",
-    "model": "veo-3.0-fast-generate-001",
-    "duration_seconds": 8,
-    "cost_usd": 0.64,
-    "cost_brl": 3.2,
-    "veo_prompt": "Vertical 9:16 cinematic editorial short, 8 seconds. Brazilian woman late 20s, dark brown wavy shoulder-length hair, natural makeup, confident direct gaze, wearing plain black crew-neck t-shirt. Minimalist modern home office background softly blurred, MacBook visible, soft window light from left. Editorial magazine quality, Leica 50mm look, shallow DOF. She looks directly at camera, slight natural pause, then speaks in Brazilian Portuguese (pt-BR) with calm analytical tone: \"Anthropic lança Claude Design para agilizar criação visual.\". Subtle medium close-up, natural ambient audio, no music. No text overlays. Realistic lip sync to the Portuguese dialogue. End with a 1-second clean cut to the same woman slightly nodding, still framed. Mood: sober, trustworthy, editorial tech journalism (think Bloomberg Quicktake meets The Verge). Color grading: neutral with slight warm highlights. Do not show any logos or brand names.",
-    "spoken_line": "Anthropic lança Claude Design para agilizar criação visual.",
-    "persona": "Nova",
-    "rendered_at": "2026-04-19T22:46:04.545Z"
   }
 }
