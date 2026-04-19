@@ -42,7 +42,36 @@ function buildSitemap(articles) {
     priority: '0.8'
   }));
 
-  const all = [...staticUrls, ...articleUrls];
+  // Paginas de categoria e tag geradas dinamicamente
+  const catDir = path.join(ROOT, 'categoria');
+  const tagDir = path.join(ROOT, 'tag');
+  const collectionUrls = [];
+  try {
+    if (fs.existsSync(catDir)) {
+      for (const slug of fs.readdirSync(catDir)) {
+        const idx = path.join(catDir, slug, 'index.html');
+        if (fs.existsSync(idx)) collectionUrls.push({
+          loc: `${DOMAIN}/categoria/${slug}/`,
+          lastmod: toW3CDate(fs.statSync(idx).mtime),
+          changefreq: 'daily',
+          priority: '0.7'
+        });
+      }
+    }
+    if (fs.existsSync(tagDir)) {
+      for (const slug of fs.readdirSync(tagDir)) {
+        const idx = path.join(tagDir, slug, 'index.html');
+        if (fs.existsSync(idx)) collectionUrls.push({
+          loc: `${DOMAIN}/tag/${slug}/`,
+          lastmod: toW3CDate(fs.statSync(idx).mtime),
+          changefreq: 'weekly',
+          priority: '0.6'
+        });
+      }
+    }
+  } catch (e) { /* ignore */ }
+
+  const all = [...staticUrls, ...collectionUrls, ...articleUrls];
 
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"';
@@ -151,7 +180,8 @@ function main() {
   // sitemap.xml
   const sitemap = buildSitemap(articles);
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap);
-  console.log(`[seo-files] sitemap.xml · ${articles.length + 6} URLs`);
+  const urlCount = (sitemap.match(/<loc>/g) || []).length;
+  console.log(`[seo-files] sitemap.xml · ${urlCount} URLs (articles + static + collection pages)`);
 
   // sitemap-news.xml
   const { xml: newsXml, count } = buildNewsSitemap(articles);
