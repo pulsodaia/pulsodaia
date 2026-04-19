@@ -1,9 +1,8 @@
 name: Veo Weekly Short (5 clips stitched)
 
 on:
-  schedule:
-    # Domingo 20h UTC = 17h BRT (peak social time)
-    - cron: '0 20 * * 0'
+  # Cron desativado — Veo fica FORA do fluxo automatico.
+  # So roda por trigger manual quando voce aprovar explicitamente.
   workflow_dispatch:
     inputs:
       slug:

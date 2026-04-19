@@ -1,0 +1,120 @@
+name: Veo Manual (prompt voce escreve)
+
+on:
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: 'Prompt completo estruturado (Subject/Context/Action/Spoken/Style/Camera/Lighting/Audio/Negative)'
+        required: true
+      slug:
+        description: 'Slug do artigo (pra organizar em assets/videos/SLUG/)'
+        required: true
+      output_name:
+        description: 'Nome do arquivo (sem .mp4, ex: veo-hero-v3 ou clip-intro)'
+        required: false
+        default: 'veo-manual'
+      duration:
+        description: 'Duracao em segundos (4-8 pra Fast, ate 30 pra Standard)'
+        required: false
+        default: '8'
+      use_nova:
+        description: 'Usar Nova como reference image'
+        required: false
+        default: 'true'
+        type: boolean
+      model:
+        description: 'Modelo Veo'
+        required: false
+        default: 'veo-3.0-fast-generate-001'
+      commit_and_deploy:
+        description: 'Commit + deploy pro Cloudflare apos render'
+        required: false
+        default: 'true'
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veo-manual
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Write prompt to file
+        run: |
+          cat > /tmp/prompt.txt <<'PROMPT_EOF'
+          ${{ inputs.prompt }}
+          PROMPT_EOF
+          echo "=== PROMPT ==="
+          cat /tmp/prompt.txt
+          echo "=============="
+
+      - name: Render Veo manual
+        env:
+          VEO_ENABLED: 'true'
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          VEO_MODEL: ${{ inputs.model }}
+          VEO_DURATION: ${{ inputs.duration }}
+          VEO_USE_NOVA: ${{ inputs.use_nova }}
+          VEO_USD_TO_BRL: '5.0'
+          VEO_COST_PER_SECOND_USD: '0.08'
+        run: |
+          node scripts/render-veo-manual.js \
+            --prompt-file=/tmp/prompt.txt \
+            --slug="${{ inputs.slug }}" \
+            --output-name="${{ inputs.output_name }}" 2>&1 | tee /tmp/veo.log
+
+      - name: Commit + push
+        if: inputs.commit_and_deploy == true
+        run: |
+          git config user.name "pulso-autopilot[bot]"
+          git config user.email "autopilot@pulsodaia.com.br"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nada novo"
+            exit 0
+          fi
+          git commit -m "feat(veo-manual): ${{ inputs.slug }}/${{ inputs.output_name }}.mp4 [skip ci]"
+          for attempt in 1 2 3; do
+            if git push origin main; then break; fi
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            sleep 3
+          done
+
+      - name: Deploy Cloudflare
+        if: inputs.commit_and_deploy == true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: pulsodaia
+          PAGES_BRANCH: main
+        run: node deploy.js || echo "[deploy] falhou"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Veo Manual — $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "**Slug:** ${{ inputs.slug }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Output:** ${{ inputs.output_name }}.mp4" >> $GITHUB_STEP_SUMMARY
+          echo "**URL (apos deploy):**" >> $GITHUB_STEP_SUMMARY
+          echo "\`https://pulsodaia.com.br/assets/videos/${{ inputs.slug }}/${{ inputs.output_name }}.mp4\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -40 /tmp/veo.log >> $GITHUB_STEP_SUMMARY 2>/dev/null
+          echo '```' >> $GITHUB_STEP_SUMMARY
