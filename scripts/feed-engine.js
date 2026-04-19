@@ -1110,6 +1110,18 @@ async function main() {
         await publishArticle(article);
         console.log(`  ✓ PUBLICADO · /feed/${article.slug}/`);
         published++;
+        // Measurement Protocol: dispara article_published event server-side (best-effort)
+        try {
+          const { mpEvent } = require('./measurement-protocol.js');
+          await mpEvent('article_published', {
+            article_slug: article.slug,
+            article_category: article.eyebrow_category || '',
+            article_source: article.source_name || '',
+            article_quality_score: article.quality_score || 0
+          });
+        } catch (mpErr) {
+          // silencioso — MP e opcional, nao pode quebrar publicacao
+        }
       } else {
         // Salva em queue pra review manual
         const queueDir = path.dirname(QUEUE_FILE);

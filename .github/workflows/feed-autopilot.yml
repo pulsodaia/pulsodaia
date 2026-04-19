@@ -43,12 +43,28 @@ jobs:
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GEMINI_MODEL: gemini-2.5-flash-lite
+          GA4_MEASUREMENT_ID: G-32GWZHPJGJ
+          GA4_API_SECRET: ${{ secrets.GA4_API_SECRET }}
         run: |
+          TIME_START=$(date +%s)
           LIMIT="${{ inputs.limit || '3' }}"
           FORCE="${{ inputs.force_publish || 'false' }}"
           EXTRA=""
           if [ "$FORCE" = "true" ]; then EXTRA="--publish"; fi
           node scripts/feed-engine.js --limit="$LIMIT" $EXTRA | tee /tmp/engine.log
+          TIME_END=$(date +%s)
+          DURATION=$((TIME_END - TIME_START))
+          COUNT=$(grep -c "PUBLICADO" /tmp/engine.log || echo "0")
+          # MP event: autopilot_run (best-effort, nao falha se secret missing)
+          node -e "
+            const { mpEvent } = require('./scripts/measurement-protocol.js');
+            mpEvent('autopilot_run', {
+              articles_published: $COUNT,
+              duration_seconds: $DURATION,
+              force_publish: '$FORCE',
+              limit: $LIMIT
+            }).then(r => console.log('[MP] autopilot_run:', r.ok)).catch(() => {});
+          " || echo "[MP] skip"
 
       - name: Generate social posts (novos artigos)
         env:
