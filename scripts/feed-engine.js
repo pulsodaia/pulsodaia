@@ -628,6 +628,8 @@ ${(article.tags || []).map(t => `<meta property="article:tag" content="${t}">`).
 <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM manifest">
 <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Pulso da IA · RSS feed">
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta http-equiv="content-language" content="pt-BR">
+<meta name="google" content="translate">
 <meta name="ai-content-declaration" content="editorial; auto-translated from linked sources; human-curated">
 <script type="application/ld+json">
 ${(() => {
