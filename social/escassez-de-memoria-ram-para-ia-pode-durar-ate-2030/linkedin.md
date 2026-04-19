@@ -18,7 +18,7 @@ O Brasil sente o reflexo dessa limitação, dificultando o avanço de empresas e
 
 👉 Saiba mais: https://pulsodaia.com.br/feed/escassez-de-memoria-ram-para-ia-pode-durar-ate-2030/
 
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/escassez-de-memoria-ram-para-ia-pode-durar-ate-2030/
 
 mercadoia, chipsia, memoriaram, semicondutores, escassez, brasilia, tecnologia
 

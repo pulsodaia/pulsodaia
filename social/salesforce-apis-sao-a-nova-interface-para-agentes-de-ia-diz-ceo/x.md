@@ -9,7 +9,7 @@ APIs viraram a nova interface para agentes de IA, diz CEO da Salesforce. Marc Be
 ---TWEET 2---
 Essa mudança visa desintermediar a interação humana com sistemas corporativos. Ao expor a plataforma via APIs, a Salesforce se torna um campo fértil para agentes autônomos de IA, impulsionando a automação.
 ---TWEET 3---
-Quer as últimas de IA? Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo. Saiba mais: https://pulsodaia.com.br/feed/salesforce-apis-sao-a-nova-interface-para-agentes-de-ia-diz-ceo/
+Quer as últimas de IA? Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/salesforce-apis-sao-a-nova-interface-para-agentes-de-ia-diz-ceo/ Saiba mais: https://pulsodaia.com.br/feed/salesforce-apis-sao-a-nova-interface-para-agentes-de-ia-diz-ceo/
 
 ---
 

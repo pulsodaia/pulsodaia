@@ -13,7 +13,7 @@ A recalibração estratégica da OpenAI visa capitalizar o interesse em IA para 
 
 ---TWEET 3---
 Leia a análise completa e entenda as implicações: https://pulsodaia.com.br/feed/openai-perde-tres-executivos-em-reestruturacao-focada-em-codigo-e-empresas/
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/openai-perde-tres-executivos-em-reestruturacao-focada-em-codigo-e-empresas/
 
 ---
 

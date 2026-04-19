@@ -14,7 +14,7 @@ A Salesforce aposta na desintermediação da interação humana com sistemas cor
 
 Para o mercado brasileiro, essa mudança aponta para uma nova era de integração e eficiência em sistemas de CRM e outras plataformas corporativas, impulsionada pela IA.
 
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/salesforce-apis-sao-a-nova-interface-para-agentes-de-ia-diz-ceo/
 https://pulsodaia.com.br/feed/salesforce-apis-sao-a-nova-interface-para-agentes-de-ia-diz-ceo/
 salesforce, crm, inteligência artificial, apis, automação, tecnologia, liderança
 

@@ -15,7 +15,7 @@ Essa decisão reflete a corrida global por capacidades avançadas de IA. A Meta 
 A notícia, divulgada pelo The Decoder, indica que uma segunda fase de cortes é esperada ainda em 2026. As implicações para o mercado de tecnologia, tanto no Brasil quanto globalmente, são diretas, com potencial aumento na demanda por GPUs e serviços de computação em nuvem.
 
 https://pulsodaia.com.br/feed/meta-corta-10-da-forca-de-trabalho-para-investir-em-infraestrutura-de-ia/
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/meta-corta-10-da-forca-de-trabalho-para-investir-em-infraestrutura-de-ia/
 
 meta, inteligenciaartificial, mercado, tecnologia, infraestrutura, computacao
 

@@ -10,7 +10,7 @@ CEO da Anthropic: IA tem escala ilimitada, mas o risco de desemprego é real. Da
 A visão é que a IA não só otimize processos, mas gere novas oportunidades e valor que superem os efeitos negativos. Essa discussão é crucial para o cenário brasileiro, onde a IA já começa a remodelar diversos setores.
 ---TWEET 3---
 Saiba mais: https://pulsodaia.com.br/feed/ceo-da-anthropic-ve-expansao-ilimitada-para-ia-mas-alerta-sobre-riscos-de-desemp/
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/ceo-da-anthropic-ve-expansao-ilimitada-para-ia-mas-alerta-sobre-riscos-de-desemp/
 
 ---
 

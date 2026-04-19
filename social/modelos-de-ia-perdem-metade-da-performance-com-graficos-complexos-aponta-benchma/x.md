@@ -9,7 +9,7 @@ Modelos de IA líderes perdem metade da performance ao interpretar gráficos com
 ---TWEET 2---
 A falha ocorre mesmo em sistemas proprietários avançados. Isso revela que a conversão de informações gráficas ainda é um obstáculo considerável para a IA, apesar dos avanços em texto e dados estruturados.
 ---TWEET 3---
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo. Leia mais: https://pulsodaia.com.br/feed/modelos-de-ia-perdem-metade-da-performance-com-graficos-complexos-aponta-benchma/
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/modelos-de-ia-perdem-metade-da-performance-com-graficos-complexos-aponta-benchma/ Leia mais: https://pulsodaia.com.br/feed/modelos-de-ia-perdem-metade-da-performance-com-graficos-complexos-aponta-benchma/
 
 ---
 

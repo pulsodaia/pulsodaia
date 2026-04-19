@@ -12,7 +12,7 @@ Por que importa? No Brasil, isso otimiza manufatura, logística e agronegócio. 
 
 ---TWEET 3---
 Descubra os detalhes: https://pulsodaia.com.br/feed/google-deepmind-avanca-robotica-autonoma-com-gemini-robotics-er-1-6/
-Quer mais? Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Quer mais? Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/google-deepmind-avanca-robotica-autonoma-com-gemini-robotics-er-1-6/
 
 ---
 

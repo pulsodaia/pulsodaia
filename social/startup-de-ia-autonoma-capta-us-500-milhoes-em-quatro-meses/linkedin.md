@@ -15,7 +15,7 @@ O investimento massivo vem de apostas na visão da startup de criar sistemas de 
 Essa captação expressiva, mesmo em estágio inicial, sinaliza um apetite crescente por inovações disruptivas em IA. O Brasil, em rápida adoção tecnológica, pode ver oportunidades e desafios com essa nova onda.
 
 Saiba mais: https://pulsodaia.com.br/feed/startup-de-ia-autonoma-capta-us-500-milhoes-em-quatro-meses/
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/startup-de-ia-autonoma-capta-us-500-milhoes-em-quatro-meses/
 
 #inteligenciaartificial #iaautonoma #deepmind #openai #venturecapital #startups
 

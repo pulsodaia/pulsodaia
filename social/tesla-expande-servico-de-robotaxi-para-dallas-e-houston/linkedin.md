@@ -15,7 +15,7 @@ Este movimento indica um avanço significativo nos testes de veículos autônomo
 Para o Brasil, o desenvolvimento nos EUA é um termômetro do progresso na adoção de direção autônoma. Embora regulamentações e infraestrutura ainda sejam barreiras no país, a Tesla demonstra a viabilidade técnica do serviço.
 
 Acompanhe as novidades em: https://pulsodaia.com.br/feed/tesla-expande-servico-de-robotaxi-para-dallas-e-houston/
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/tesla-expande-servico-de-robotaxi-para-dallas-e-houston/
 
 tesla, robotaxi, veiculosautonomos, mobilidadeurbana, texas, dallas, houston, tecnologiaautomotiva
 

@@ -15,7 +15,7 @@ Essa decisão, embora não vinculante no Brasil, aponta uma direção interpreta
 Para criadores e empresas, entender esses limites é fundamental para navegar o cenário em evolução da propriedade intelectual com ferramentas de IA. A capacidade das IAs de gerar novas obras a partir de existentes levanta questões sobre autoria e originalidade.
 
 Saiba mais sobre o caso e suas implicações: https://pulsodaia.com.br/feed/justica-alema-define-que-adaptacao-de-ia-de-foto-protegida-por-direitos-autorais/
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/justica-alema-define-que-adaptacao-de-ia-de-foto-protegida-por-direitos-autorais/
 
 direitosausoria ia alemã propriedadeintelectual criatividade iaGenerativa
 

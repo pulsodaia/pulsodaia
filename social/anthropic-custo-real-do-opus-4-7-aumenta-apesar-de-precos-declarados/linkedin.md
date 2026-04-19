@@ -15,7 +15,7 @@ A diferença está na nova abordagem de tokenização adotada pela Anthropic. Es
 Para desenvolvedores e empresas que dependem de modelos de IA para otimizar processos, entender essa dinâmica de precificação é crucial. A transparência na forma como os tokens são contados e tarifados se torna um fator essencial para a adoção e o planejamento de custos.
 
 https://pulsodaia.com.br/feed/anthropic-custo-real-do-opus-4-7-aumenta-apesar-de-precos-declarados/
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/anthropic-custo-real-do-opus-4-7-aumenta-apesar-de-precos-declarados/
 
 anthropic, opus, precificacaoia, modeloslinguagem, custosia
 

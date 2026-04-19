@@ -89,9 +89,10 @@ REGRAS INVIOLAVEIS:
 1. ZERO TRAVESSAO (nada de "—"). Use virgula, ponto, parenteses ou "e".
 2. ZERO cliches: "revolucionario", "transformar", "futuro da IA", "game-changer", "na era da IA", "sinergia", "ecossistema", "jornada".
 3. PT-BR brasileiro, "voce" (nao "tu").
-4. CTA sempre presente com esta estrutura (usa EXATAMENTE essas palavras, reformule o hook se repetir com o artigo):
-   Pergunta + "Comenta ${CTA_KEYWORD} e receba agora mesmo."
-   Exemplo oficial: "Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta ${CTA_KEYWORD} e receba agora mesmo."
+4. CTA PLATFORM-SPECIFIC (respeita o canal):
+   - LinkedIn + X: CTA deve convidar a ler o artigo completo no portal: "Leia a cobertura completa: ${articleUrl}"
+   - Instagram (caption + cards): CTA eh "Comenta ${CTA_KEYWORD} aqui no post e receba nossas 300+ skills" (activacao DM, funciona so no IG)
+   - NUNCA use "Digite no WhatsApp" em nenhum canal — descartado
 5. Nunca inventar numeros ou fatos que nao estejam no artigo fonte.
 6. Link pro artigo sempre incluido: ${articleUrl}
 
@@ -103,7 +104,7 @@ Post completo pra LinkedIn. Estrutura:
 - Linha em branco
 - 3 a 5 paragrafos curtos (1-3 linhas cada) contando o que aconteceu e por que importa
 - Linha em branco
-- CTA em 2 linhas: link pro artigo + "Comenta ${CTA_KEYWORD} e receba nossas 300+ skills + novidades de IA"
+- CTA final em 2 linhas: "Leia a cobertura completa:" + link pro artigo. (NAO usar Comenta PULSE no LinkedIn — eh pra Instagram)
 - Hashtags no final (5 a 8, todas minusculas, sem #IA generico)
 
 ===INSTAGRAM===
@@ -126,7 +127,7 @@ Assinatura: "Pulso da IA - pulsodaia.com.br"
 Legenda do post Instagram (texto abaixo dos cards). 3-5 linhas:
 - Linha 1: hook curto
 - 2-3 linhas: contexto do artigo
-- CTA: "${CTA_HOOK} Comenta ${CTA_KEYWORD} e recebe na hora."
+- CTA no ultimo tweet: link pro artigo no portal (${articleUrl}). NAO usa Comenta PULSE (so IG tem isso).
 - Link na bio: pulsodaia.com.br
 - 6 a 10 hashtags no final
 

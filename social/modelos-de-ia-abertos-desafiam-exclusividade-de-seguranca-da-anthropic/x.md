@@ -13,7 +13,7 @@ Isso democratiza o acesso a tarefas complexas de segurança cibernética. Profis
 ---TWEET 3---
 Descubra como essa democratização impacta a segurança digital.
 Saiba mais: https://pulsodaia.com.br/feed/modelos-de-ia-abertos-desafiam-exclusividade-de-seguranca-da-anthropic/
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/modelos-de-ia-abertos-desafiam-exclusividade-de-seguranca-da-anthropic/
 
 ---
 

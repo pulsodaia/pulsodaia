@@ -16,7 +16,7 @@ Para o mercado brasileiro de tecnologia, a forma como empresas de IA gerenciam s
 
 Saiba mais no artigo completo: https://pulsodaia.com.br/feed/anthropic-dialoga-com-governo-trump-apesar-de-alerta-de-seguranca-do-pentagono/
 
-Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
+Leia a cobertura completa e mais novidades sobre IA no portal: https://pulsodaia.com.br/feed/anthropic-dialoga-com-governo-trump-apesar-de-alerta-de-seguranca-do-pentagono/
 
 inteligenciaartificial, segurança, politica, tecnologia, estadosunidos, governo, inovacao
 
