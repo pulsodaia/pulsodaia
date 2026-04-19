@@ -162,7 +162,7 @@ REGRAS:
 - Cada fala tem MAX 14 palavras em pt-BR (cabe em 8s)
 - Tom: analista de mercado, direto, sem adjetivo promocional (zero "incrivel/revolucionario")
 - Zero "olha so/pessoal/bora" ou gírias
-- Clipe 5 (CTA) termina com "Leia em pulsodaia ponto com ponto br"
+- Clipe 5 (CTA) DEVE terminar EXATAMENTE com "Leia em pulsodaia ponto com ponto br" (escrever por extenso pra TTS do Veo pronunciar certo — NUNCA escrever "pulsodaia.com.br" com pontos)
 
 NOTICIA:
 Headline: ${article.headline}
