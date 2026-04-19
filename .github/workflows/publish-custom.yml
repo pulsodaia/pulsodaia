@@ -1,0 +1,94 @@
+name: Publish Custom Article
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'URL da fonte (obrigatorio)'
+        required: true
+      title:
+        description: 'Titulo original em EN'
+        required: true
+      source:
+        description: 'Nome da fonte (ex: TechCrunch AI)'
+        required: false
+        default: 'Fonte externa'
+      category:
+        description: 'Categoria (lancamento, noticia, analise...)'
+        required: false
+        default: 'lancamento'
+      summary:
+        description: 'Resumo curto (opcional)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Publish custom article
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+        run: |
+          node scripts/publish-custom.js \
+            --url="${{ inputs.url }}" \
+            --title="${{ inputs.title }}" \
+            --source="${{ inputs.source }}" \
+            --category="${{ inputs.category }}" \
+            --summary="${{ inputs.summary }}" | tee /tmp/publish.log
+
+      - name: Generate social posts
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+        run: |
+          node scripts/generate-social-posts.js | tee /tmp/social.log || echo "[social] falhou"
+
+      - name: Create GHL drafts
+        env:
+          GHL_LOCATION_PIT: ${{ secrets.GHL_LOCATION_PIT }}
+          GHL_USER_ID: ${{ secrets.GHL_USER_ID }}
+        run: |
+          if [ -n "$GHL_LOCATION_PIT" ]; then
+            node scripts/ghl-social-post.js --all 2>&1 || echo "[ghl] falhou"
+          fi
+
+      - name: Rebuild static pages
+        run: node scripts/build-static-pages.js || echo "[build] falhou"
+
+      - name: Commit
+        run: |
+          git config user.name "pulso-autopilot[bot]"
+          git config user.email "autopilot@pulsodaia.com.br"
+          git add -A
+          git commit -m "feat(custom): publicacao manual [skip ci]" || echo "nada"
+          for attempt in 1 2 3; do
+            if git push origin main; then break; fi
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            sleep 3
+          done
+
+      - name: Deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: pulsodaia
+          PAGES_BRANCH: main
+        run: node deploy.js
