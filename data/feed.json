@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-04-18T21:53:13.339Z",
+  "generated_at": "2026-04-19T10:11:11.189Z",
   "articles": [
+    {
+      "slug": "modelos-de-ia-perdem-metade-da-performance-com-graficos-complexos-aponta-benchma",
+      "headline": "Modelos de IA perdem metade da performance com gráficos complexos, aponta benchmark",
+      "subtitle": "Novos testes revelam gargalos na interpretação visual de dados por sistemas avançados.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/even-the-best-ai-models-lose-about-half-their-performance-when-charts-get-complicated-new-benchmark-finds/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "analise de dados",
+        "visualizacao de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 19 Apr 2026 08:35:10 +0000",
+      "written_at": "2026-04-19T10:11:09.477Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "influenciadores-de-ia-inundam-redes-com-conteudo-pro-trump",
+      "headline": "Influenciadores de IA inundam redes com conteúdo pró-Trump",
+      "subtitle": "A ascensão de avatares sintéticos levanta questões sobre manipulação política digital.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-generated-influencers-flood-social-media-with-pro-trump-content-ahead-of-midterms/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "politica digital",
+        "desinformacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 19 Apr 2026 09:07:54 +0000",
+      "written_at": "2026-04-19T10:10:56.673Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "anthropic-custo-real-do-opus-4-7-aumenta-apesar-de-precos-declarados",
+      "headline": "Anthropic: Custo Real do Opus 4.7 Aumenta Apesar de Preços Declarados",
+      "subtitle": "A precificação de tokens em modelos de linguagem pode gerar surpresas para usuários no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/first-token-counts-reveal-opus-4-7-costs-significantly-more-than-4-6-despite-anthropics-flat-pricing/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "anthropic",
+        "custo",
+        "precificacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 19 Apr 2026 10:01:53 +0000",
+      "written_at": "2026-04-19T10:10:43.306Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "escassez-de-memoria-ram-para-ia-pode-durar-ate-2030",
       "headline": "Escassez de Memória RAM para IA Pode Durar Até 2030",
