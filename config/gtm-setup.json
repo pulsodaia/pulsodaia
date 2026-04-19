@@ -1,0 +1,121 @@
+{
+  "_comment": "Config declarativa GTM+GA4. Replicar em outro cliente: trocar IDs em client/gtm/ga4 e rodar `node scripts/setup-gtm-ga4.js --config config/{cliente}.json --publish --cleanup`. O --cleanup apaga tags/triggers/vars que NAO estao neste config (by name).",
+
+  "client": {
+    "name": "Pulso da IA",
+    "domain": "pulsodaia.com.br"
+  },
+
+  "gtm": {
+    "account_id": "6305486821",
+    "account_name": "GTM - TRIADEFLOW",
+    "container_id": "249877205",
+    "container_public_id": "GTM-MXGJBNFB",
+    "container_name": "Pulso da IA",
+    "workspace_name": "Default Workspace",
+    "version_prefix": "autopilot"
+  },
+
+  "ga4": {
+    "account_id": "391895069",
+    "property_id": "533692705",
+    "measurement_id": "G-32GWZHPJGJ",
+    "stream_id": "14397320891",
+    "stream_url": "https://pulsodaia.com.br"
+  },
+
+  "builtin_variables": [
+    "clickClasses", "clickUrl", "clickElement", "clickTarget", "clickText", "clickId",
+    "formElement", "formClasses", "formId", "formUrl",
+    "pageUrl", "pageHostname", "pagePath", "referrer",
+    "errorMessage", "errorUrl", "errorLine"
+  ],
+
+  "variables": [
+    { "name": "GA4 Measurement ID", "type": "constant", "value": "G-32GWZHPJGJ" },
+    { "name": "DLV - article_slug", "type": "dataLayerVar", "key": "article_slug" },
+    { "name": "DLV - article_category", "type": "dataLayerVar", "key": "article_category" },
+    { "name": "DLV - article_source", "type": "dataLayerVar", "key": "article_source" },
+    { "name": "DLV - article_headline", "type": "dataLayerVar", "key": "article_headline" },
+    { "name": "DLV - article_read_time", "type": "dataLayerVar", "key": "article_read_time" },
+    { "name": "DLV - article_published_at", "type": "dataLayerVar", "key": "article_published_at" },
+    { "name": "DLV - article_word_count", "type": "dataLayerVar", "key": "article_word_count" },
+    { "name": "DLV - to_slug", "type": "dataLayerVar", "key": "to_slug" },
+    { "name": "DLV - to_category", "type": "dataLayerVar", "key": "to_category" },
+    { "name": "DLV - card_position", "type": "dataLayerVar", "key": "card_position" },
+    { "name": "DLV - source_domain", "type": "dataLayerVar", "key": "source_domain" },
+    { "name": "DLV - share_channel", "type": "dataLayerVar", "key": "share_channel" },
+    { "name": "DLV - tag_name", "type": "dataLayerVar", "key": "tag_name" },
+    { "name": "DLV - newsletter_source", "type": "dataLayerVar", "key": "newsletter_source" },
+    { "name": "DLV - dropdown_name", "type": "dataLayerVar", "key": "dropdown_name" },
+    { "name": "DLV - category_name", "type": "dataLayerVar", "key": "category_name" },
+    { "name": "DLV - filter_category", "type": "dataLayerVar", "key": "filter_category" },
+    { "name": "DLV - theme_to", "type": "dataLayerVar", "key": "theme_to" },
+    { "name": "DLV - cta_location", "type": "dataLayerVar", "key": "cta_location" },
+    { "name": "DLV - outbound_url", "type": "dataLayerVar", "key": "outbound_url" },
+    { "name": "DLV - outbound_domain", "type": "dataLayerVar", "key": "outbound_domain" },
+    { "name": "DLV - web_vital_value", "type": "dataLayerVar", "key": "value" },
+    { "name": "DLV - web_vital_rating", "type": "dataLayerVar", "key": "rating" },
+    { "name": "DLV - error_message", "type": "dataLayerVar", "key": "error_message" },
+    { "name": "DLV - error_source", "type": "dataLayerVar", "key": "error_source" },
+    { "name": "DLV - error_status", "type": "dataLayerVar", "key": "error_status" }
+  ],
+
+  "triggers": [
+    {
+      "id_ref": "pulso_custom_events",
+      "name": "Pulso - Custom Events (regex)",
+      "type": "customEvent",
+      "event_regex": "^(article_|newsletter_|nav_|theme_|web_vital_|outbound_|tag_|share_|related_|source_|feed_|logo_|breadcrumb_|cta_|whatsapp_).+|^(js_error|unhandled_rejection|resource_error)$"
+    }
+  ],
+
+  "tags": [
+    {
+      "name": "GA4 Configuration",
+      "type": "googtag",
+      "trigger": "ALL_PAGES",
+      "params": { "tagId": "{{GA4 Measurement ID}}" }
+    },
+    {
+      "name": "GA4 Event - Catch-All",
+      "type": "gaawe",
+      "trigger": "pulso_custom_events",
+      "event_name": "{{Event}}",
+      "event_params": [
+        { "name": "article_slug", "value": "{{DLV - article_slug}}" },
+        { "name": "article_category", "value": "{{DLV - article_category}}" },
+        { "name": "article_source", "value": "{{DLV - article_source}}" },
+        { "name": "article_headline", "value": "{{DLV - article_headline}}" },
+        { "name": "article_read_time", "value": "{{DLV - article_read_time}}" },
+        { "name": "article_word_count", "value": "{{DLV - article_word_count}}" },
+        { "name": "to_slug", "value": "{{DLV - to_slug}}" },
+        { "name": "to_category", "value": "{{DLV - to_category}}" },
+        { "name": "card_position", "value": "{{DLV - card_position}}" },
+        { "name": "source_domain", "value": "{{DLV - source_domain}}" },
+        { "name": "share_channel", "value": "{{DLV - share_channel}}" },
+        { "name": "tag_name", "value": "{{DLV - tag_name}}" },
+        { "name": "newsletter_source", "value": "{{DLV - newsletter_source}}" },
+        { "name": "dropdown_name", "value": "{{DLV - dropdown_name}}" },
+        { "name": "category_name", "value": "{{DLV - category_name}}" },
+        { "name": "filter_category", "value": "{{DLV - filter_category}}" },
+        { "name": "theme_to", "value": "{{DLV - theme_to}}" },
+        { "name": "cta_location", "value": "{{DLV - cta_location}}" },
+        { "name": "outbound_url", "value": "{{DLV - outbound_url}}" },
+        { "name": "outbound_domain", "value": "{{DLV - outbound_domain}}" },
+        { "name": "web_vital_value", "value": "{{DLV - web_vital_value}}" },
+        { "name": "web_vital_rating", "value": "{{DLV - web_vital_rating}}" },
+        { "name": "error_message", "value": "{{DLV - error_message}}" },
+        { "name": "error_source", "value": "{{DLV - error_source}}" },
+        { "name": "error_status", "value": "{{DLV - error_status}}" }
+      ]
+    }
+  ],
+
+  "ga4_conversions_only": [
+    "newsletter_submit",
+    "newsletter_success",
+    "whatsapp_click",
+    "cta_assinar_click"
+  ]
+}

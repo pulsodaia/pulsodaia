@@ -6,3 +6,4 @@ logos-temp/
 *.log
 .env
 .env.local
+.secrets/

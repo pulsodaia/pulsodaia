@@ -441,8 +441,8 @@ function renderRelatedHtml(related) {
         <a href="/feed/" class="related-all">Ver tudo →</a>
       </div>
       <div class="related-grid">
-        ${related.map(r => `
-        <a href="/feed/${r.slug}/" class="related-card">
+        ${related.map((r, idx) => `
+        <a href="/feed/${r.slug}/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="${r.slug}" data-gtm-to-category="${r.eyebrow_category || ''}" data-gtm-card-position="${idx + 1}">
           <div class="related-image">
             ${r.hero_image
               ? `<img src="/feed/${r.slug}/${r.hero_image}" alt="${(r.headline || '').replace(/"/g, '&quot;')}" loading="lazy">`
@@ -468,7 +468,7 @@ function renderFollowUsHtml() {
         </div>
         <h3 class="newsletter-headline">Receba o pulso da IA no seu inbox.</h3>
         <p class="newsletter-sub">Toda quinta, 9h. Top 5 da semana em portugues, em 3 minutos de leitura. Zero spam.</p>
-        <form class="newsletter-form" x-data="{ name: '', email: '', submitted: false, submitting: false }" @submit.prevent="submitting=true; fetch('https://services.leadconnectorhq.com/hooks/REPLACE_WITH_GHL_WEBHOOK_ID/webhook-trigger/newsletter-pulsodaia', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, source:'footer', tags:['newsletter-ia-semanal','fonte-footer']})}).finally(()=>{submitted=true;submitting=false;})">
+        <form class="newsletter-form" x-data="{ name: '', email: '', submitted: false, submitting: false }" @submit.prevent="submitting=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'footer-block'}); fetch('https://services.leadconnectorhq.com/hooks/REPLACE_WITH_GHL_WEBHOOK_ID/webhook-trigger/newsletter-pulsodaia', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, source:'footer', tags:['newsletter-ia-semanal','fonte-footer']})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'footer-block'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_message:String(e).substring(0,200)});}).finally(()=>{submitted=true;submitting=false;})">
           <template x-if="!submitted">
             <div class="newsletter-fields">
               <input x-model="name" type="text" placeholder="Seu nome" required aria-label="Nome">
@@ -563,6 +563,13 @@ function renderArticleHtml(article, related) {
   return `<!DOCTYPE html>
 <html lang="pt-BR" data-theme="dark">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MXGJBNFB');</script>
+<!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${article.headline} · Pulso da IA</title>
@@ -614,17 +621,21 @@ ${JSON.stringify({
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/feed/article.css">
 </head>
-<body>
+<body data-article-slug="${article.slug}" data-article-category="${article.eyebrow_category || ''}" data-article-source="${(article.source_name || '').replace(/"/g, '&quot;')}" data-article-headline="${(article.headline || '').replace(/"/g, '&quot;').substring(0, 120)}" data-article-read-time="${article.read_time_min || 3}" data-article-published-at="${article.published_at || ''}" data-article-word-count="${((article.body_markdown || article.body_html || '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length)}">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXGJBNFB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <header class="site">
   <div class="nav">
-    <a href="/" class="brand">
+    <a href="/" class="brand" data-gtm-event="logo_click">
       <svg viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
       <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
     </a>
     <nav class="nav-links" aria-label="Principal">
       <div class="nav-item has-dropdown">
-        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Inovacao & IA <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="inovacao_ia">Inovacao & IA <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
         <div class="nav-dropdown" role="menu">
           <div class="nav-dropdown-grid">
             <div class="nav-col">
@@ -645,7 +656,7 @@ ${JSON.stringify({
         </div>
       </div>
       <div class="nav-item has-dropdown">
-        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Empresas <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="empresas">Empresas <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
         <div class="nav-dropdown" role="menu">
           <div class="nav-dropdown-grid">
             <div class="nav-col">
@@ -667,7 +678,7 @@ ${JSON.stringify({
         </div>
       </div>
       <div class="nav-item has-dropdown">
-        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Novidades <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="novidades">Novidades <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
         <div class="nav-dropdown" role="menu">
           <div class="nav-dropdown-grid">
             <div class="nav-col">
@@ -687,7 +698,7 @@ ${JSON.stringify({
       <a href="/feed/" class="nav-direct">Feed</a>
     </nav>
     <div class="nav-right">
-      <a href="#newsletter" class="nav-cta">Assinar</a>
+      <a href="#newsletter" class="nav-cta" data-gtm-event="cta_assinar_click" data-gtm-cta-location="header">Assinar</a>
       <div class="nav-lang" aria-label="Idioma">PT-BR</div>
     </div>
   </div>
@@ -733,14 +744,14 @@ ${JSON.stringify({
       <div class="label">FONTE OFICIAL</div>
       <div class="title">${article.source_name}</div>
       <div class="meta">${readableDate} · ${sourceDomain}</div>
-      <a href="${article.url}" target="_blank" rel="noopener external" class="link">
+      <a href="${article.url}" target="_blank" rel="noopener external" class="link" data-gtm-event="source_link_click" data-gtm-source-domain="${sourceDomain}">
         Leia o original
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
       </a>
     </div>
 
     <div class="tags">
-      ${(article.tags || []).map(t => `<a href="/tag/${slugify(t)}/" class="tag">#${t}</a>`).join('')}
+      ${(article.tags || []).map(t => `<a href="/tag/${slugify(t)}/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="${t}">#${t}</a>`).join('')}
     </div>
 
     <!-- FORM NEWSLETTER INLINE (em todas as paginas) -->
@@ -751,7 +762,7 @@ ${JSON.stringify({
           <h3>Recebe no inbox <span class="italic">toda quinta.</span></h3>
           <p>Top 5 da semana de IA em portugues, em 3 minutos de leitura. Zero spam.</p>
         </div>
-        <form @submit.prevent="submitting=true; fetch('https://services.leadconnectorhq.com/hooks/REPLACE_WITH_GHL_WEBHOOK_ID/webhook-trigger/newsletter-skills', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, source:'article:${article.slug}', tags:['newsletter-ia-semanal','fonte-pagina','skill']})}).finally(()=>{submitted=true;submitting=false;})" x-show="!submitted">
+        <form @submit.prevent="submitting=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'article-inline', article_slug:'${article.slug}'}); fetch('https://services.leadconnectorhq.com/hooks/REPLACE_WITH_GHL_WEBHOOK_ID/webhook-trigger/newsletter-skills', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, source:'article:${article.slug}', tags:['newsletter-ia-semanal','fonte-pagina','skill']})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'article-inline', article_slug:'${article.slug}'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', error_message:String(e).substring(0,200)});}).finally(()=>{submitted=true;submitting=false;})" x-show="!submitted">
           <input x-model="name" type="text" placeholder="Seu nome" required>
           <input x-model="email" type="email" placeholder="seu@email.com" required>
           <button type="submit" :disabled="submitting">
@@ -769,9 +780,9 @@ ${JSON.stringify({
       <a href="/feed/" class="back-link">← Ver todo o feed</a>
       <div class="share">
         <span>Compartilhar:</span>
-        <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(article.headline)}&url=https://pulsodaia.com.br/feed/${article.slug}/" target="_blank" rel="noopener">X</a>
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://pulsodaia.com.br/feed/${article.slug}/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://wa.me/?text=${encodeURIComponent(article.headline + ' https://pulsodaia.com.br/feed/' + article.slug + '/')}" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(article.headline)}&url=https://pulsodaia.com.br/feed/${article.slug}/" target="_blank" rel="noopener" data-gtm-event="share_twitter" data-gtm-share-channel="twitter">X</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://pulsodaia.com.br/feed/${article.slug}/" target="_blank" rel="noopener" data-gtm-event="share_linkedin" data-gtm-share-channel="linkedin">LinkedIn</a>
+        <a href="https://wa.me/?text=${encodeURIComponent(article.headline + ' https://pulsodaia.com.br/feed/' + article.slug + '/')}" target="_blank" rel="noopener" data-gtm-event="share_whatsapp" data-gtm-share-channel="whatsapp">WhatsApp</a>
       </div>
     </div>
   </article>
@@ -783,6 +794,8 @@ ${renderFollowUsHtml()}
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 ${renderFooterBottom()}
+
+<script defer src="/assets/js/tracking.js"></script>
 </body>
 </html>`;
 }

@@ -15,6 +15,13 @@ function pageShell({ slug, title, metaDesc, eyebrow, headline, subtitle, bodyHtm
   return `<!DOCTYPE html>
 <html lang="pt-BR" data-theme="dark">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MXGJBNFB');</script>
+<!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${title} · Pulso da IA</title>
@@ -61,30 +68,34 @@ body main.static-page { padding: 48px 0 80px; }
 </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXGJBNFB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <header class="site">
   <div class="nav">
-    <a href="/" class="brand">
+    <a href="/" class="brand" data-gtm-event="logo_click">
       <svg viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
       <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
     </a>
     <nav class="nav-links" aria-label="Principal">
       <div class="nav-item has-dropdown">
-        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Inovacao & IA <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="inovacao_ia">Inovacao & IA <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
         <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
           <div class="nav-col"><div class="nav-col-head">Categorias</div><a href="/feed/?c=lancamento">Lancamentos</a><a href="/feed/?c=analise">Analises</a><a href="/feed/?c=research">Research</a><a href="/feed/?c=mercado">Mercado</a><a href="/feed/?c=founders">Founders</a></div>
           <div class="nav-col"><div class="nav-col-head">Formatos</div><a href="/feed/">Feed completo</a><a href="/rss.xml">RSS</a><a href="/#newsletter">Pulso Semanal</a></div>
         </div></div>
       </div>
       <div class="nav-item has-dropdown">
-        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Empresas <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="empresas">Empresas <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
         <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
           <div class="nav-col"><div class="nav-col-head">Modelos</div><a href="/feed/?q=openai">OpenAI</a><a href="/feed/?q=anthropic">Anthropic</a><a href="/feed/?q=google">Google DeepMind</a><a href="/feed/?q=meta">Meta AI</a><a href="/feed/?q=mistral">Mistral</a></div>
           <div class="nav-col"><div class="nav-col-head">Ecossistema</div><a href="/feed/?q=huggingface">HuggingFace</a><a href="/feed/?q=nvidia">NVIDIA</a><a href="/feed/?q=xai">xAI</a><a href="/feed/?q=cohere">Cohere</a></div>
         </div></div>
       </div>
       <div class="nav-item has-dropdown">
-        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Novidades <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="novidades">Novidades <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
         <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
           <div class="nav-col"><div class="nav-col-head">Mercado</div><a href="/feed/?c=mercado">Movimentos</a><a href="/feed/?q=funding">Rodadas de investimento</a><a href="/feed/?q=regulacao">Regulacao</a></div>
           <div class="nav-col"><div class="nav-col-head">Institucional</div><a href="/sobre/">Sobre o Pulso</a><a href="/contato/">Contato</a></div>
@@ -93,7 +104,7 @@ body main.static-page { padding: 48px 0 80px; }
       <a href="/feed/" class="nav-direct">Feed</a>
     </nav>
     <div class="nav-right">
-      <a href="#newsletter" class="nav-cta">Assinar</a>
+      <a href="#newsletter" class="nav-cta" data-gtm-event="cta_assinar_click" data-gtm-cta-location="header">Assinar</a>
       <div class="nav-lang" aria-label="Idioma">PT-BR</div>
     </div>
   </div>
@@ -114,6 +125,7 @@ ${bodyHtml}
 ${engine.renderFollowUsHtml()}
 
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script defer src="/assets/js/tracking.js"></script>
 
 ${engine.renderFooterBottom()}
 </body>

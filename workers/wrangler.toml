@@ -1,0 +1,30 @@
+# Cloudflare Workers config — Pulso da IA GHL->GA4 bridge
+#
+# Deploy:
+#   npx wrangler deploy --config workers/wrangler.toml
+#
+# Secrets (set once, not committed):
+#   npx wrangler secret put GA4_API_SECRET      --config workers/wrangler.toml
+#   npx wrangler secret put GHL_WEBHOOK_SECRET  --config workers/wrangler.toml
+#
+# The `routes` binding attaches the Worker to pulsodaia.com.br/api/ghl/*.
+# Cloudflare must already be proxying the zone (orange cloud) — it is, the
+# DNS for pulsodaia.com.br is managed under account 5ec238b420a9e6b7e78efdde132b4291.
+
+name = "ghl-bridge"
+main = "ghl-bridge.js"
+compatibility_date = "2025-01-01"
+account_id = "5ec238b420a9e6b7e78efdde132b4291"
+
+# Route binding — pulsodaia.com.br zone, path pattern /api/ghl/*
+routes = [
+  { pattern = "pulsodaia.com.br/api/ghl/*", zone_name = "pulsodaia.com.br" }
+]
+
+# Non-secret env vars (secrets live in wrangler secret store, not here)
+[vars]
+GA4_MEASUREMENT_ID = "G-32GWZHPJGJ"
+
+# Observability — enable logs in the CF dashboard
+[observability]
+enabled = true
