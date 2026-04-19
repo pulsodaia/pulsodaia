@@ -126,7 +126,7 @@ const SOBRE = {
 </ul>
 
 <h2>Por tras</h2>
-<p><strong>Alex Campos</strong> conduz o editorial. Fundador da <a href="https://triadeflow.com.br" target="_blank" rel="noopener">Triadeflow</a>, consultoria de implantacao de processo comercial B2B com IA. 30+ projetos em producao usando IA real, nao demonstracao. <a href="https://instagram.com/triadeflow.ia" target="_blank" rel="noopener">@triadeflow.ia</a> no Instagram.</p>
+<p><strong>Alex Campos</strong> conduz o editorial. Fundador da <a href="https://triadeflow.com.br" target="_blank" rel="noopener">Triadeflow</a>, consultoria de implantacao de processo comercial B2B com IA. 30+ projetos em producao usando IA real, nao demonstracao. <a href="https://instagram.com/triadeflow" target="_blank" rel="noopener">@triadeflow</a> no Instagram.</p>
 
 <h2>Quer contribuir?</h2>
 <p>Esta cobrindo IA em portugues e quer ter seu conteudo citado aqui? <a href="/contato/">Manda mensagem</a>. Boas coberturas originais viram referencia no Pulso da IA.</p>
@@ -154,10 +154,10 @@ const CONTATO = {
     <span class="cc-value">+55 19 98380-5908</span>
     <span class="cc-note">Resposta em horas.</span>
   </a>
-  <a href="https://instagram.com/triadeflow.ia" target="_blank" rel="noopener" class="contact-card">
+  <a href="https://instagram.com/triadeflow" target="_blank" rel="noopener" class="contact-card">
     <div class="cc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></div>
     <span class="cc-label">INSTAGRAM</span>
-    <span class="cc-value">@triadeflow.ia</span>
+    <span class="cc-value">@triadeflow</span>
     <span class="cc-note">DM quando rola tempo.</span>
   </a>
 </div>
