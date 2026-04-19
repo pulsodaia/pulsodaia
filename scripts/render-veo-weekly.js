@@ -338,8 +338,7 @@ async function main() {
     if (!article) { log('Nenhum artigo elegivel na semana.'); return; }
   }
 
-  log(`Selecionado: ${article.slug}`);
-  if (args.dryRun) { log('DRY RUN — sem chamar Veo.'); return; }
+  log(`Selecionado: ${article.slug} — ${article.headline}`);
 
   const script = await generateScript5Clips(article);
   log('Roteiro:');
@@ -348,6 +347,13 @@ async function main() {
   log(`  3 B-ROLL:   ${script.clip3_broll_description}`);
   log(`  4 ANALISE:  "${script.clip4_analise}"`);
   log(`  5 CTA:      "${script.clip5_cta}"`);
+
+  if (args.dryRun) {
+    log('DRY RUN — roteiro exibido, Veo NAO chamado (zero custo).');
+    log('Exemplo prompt clip1:');
+    log(buildClipPrompt('intro', script));
+    return;
+  }
 
   const novaImg = process.env.NOVA_REF_IMAGE || path.join(ROOT, 'brand', 'mockups', 'nova-portrait-clean.png');
   const outDir = path.join(VIDEOS_DIR, article.slug);
