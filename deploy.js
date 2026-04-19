@@ -17,7 +17,8 @@ if (!API_TOKEN) { console.error('Set CLOUDFLARE_API_TOKEN'); process.exit(1); }
 const ROOT = __dirname;
 const IGNORE = new Set([
   'node_modules', '.git', '.wrangler', 'logos-temp',
-  'deploy.js', '.gitignore', '.last-generated'
+  'deploy.js', '.gitignore', '.last-generated',
+  'social', 'scripts', 'config'
 ]);
 
 function walk(dir, base = '') {

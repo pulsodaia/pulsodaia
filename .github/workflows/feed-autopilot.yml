@@ -50,6 +50,18 @@ jobs:
           if [ "$FORCE" = "true" ]; then EXTRA="--publish"; fi
           node scripts/feed-engine.js --limit="$LIMIT" $EXTRA | tee /tmp/engine.log
 
+      - name: Generate social posts (novos artigos)
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+        run: |
+          # Gera social apenas pra artigos SEM pasta social/{slug}/ ainda (nao --force)
+          node scripts/generate-social-posts.js | tee /tmp/social.log || echo "[social] falhou, nao eh critico"
+
+      - name: Rebuild RSS + static pages (pega novos artigos)
+        run: |
+          node scripts/build-static-pages.js | tee -a /tmp/engine.log || echo "[build-pages] falhou, nao eh critico"
+
       - name: Check if anything changed
         id: changes
         run: |
