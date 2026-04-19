@@ -1,15 +1,16 @@
-name: Veo Hero Daily
+name: Veo Weekly Short (5 clips stitched)
 
 on:
-  # Cron desativado — usar veo-weekly.yml como primario. Esse fica disponivel
-  # pra teste/trigger manual em lancamentos grandes (Veo 3 Fast single 8s).
+  schedule:
+    # Domingo 20h UTC = 17h BRT (peak social time)
+    - cron: '0 20 * * 0'
   workflow_dispatch:
     inputs:
       slug:
-        description: 'Slug especifico (opcional — auto-seleciona TOP do dia se vazio)'
+        description: 'Slug especifico (opcional — auto TOP da semana se vazio)'
         required: false
       dry_run:
-        description: 'Dry run (sem chamar API, so simulacao)'
+        description: 'Dry run (sem chamar Veo)'
         required: false
         default: 'false'
         type: boolean
@@ -18,13 +19,13 @@ permissions:
   contents: write
 
 concurrency:
-  group: veo-hero-daily
+  group: veo-weekly
   cancel-in-progress: false
 
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,7 +38,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Render Veo hero
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg -qq 2>&1 | tail -3
+
+      - name: Render Veo weekly (5 clips + concat)
         env:
           VEO_ENABLED: 'true'
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
@@ -50,18 +54,18 @@ jobs:
           EXTRA=""
           if [ -n "${{ inputs.slug }}" ]; then EXTRA="--slug=${{ inputs.slug }}"; fi
           if [ "${{ inputs.dry_run }}" = "true" ]; then EXTRA="$EXTRA --dry-run"; fi
-          node scripts/render-veo-hero.js $EXTRA 2>&1 | tee /tmp/veo.log
+          node scripts/render-veo-weekly.js $EXTRA 2>&1 | tee /tmp/veo-weekly.log
 
-      - name: Commit video + spend
+      - name: Commit final video + clips + spend
         run: |
           git config user.name "pulso-autopilot[bot]"
           git config user.email "autopilot@pulsodaia.com.br"
           git add -A
           if git diff --cached --quiet; then
-            echo "[veo] nada novo"
+            echo "[veo-weekly] nada novo"
             exit 0
           fi
-          git commit -m "feat(veo): hero cinematico via Veo 3 Fast [skip ci]"
+          git commit -m "feat(veo): serie cinematica semanal 5x8s via Veo 3 Fast [skip ci]"
           for attempt in 1 2 3; do
             if git push origin main; then break; fi
             git fetch origin main
@@ -69,19 +73,19 @@ jobs:
             sleep 3
           done
 
-      - name: Deploy to Cloudflare
+      - name: Deploy
         if: success()
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           PAGES_PROJECT: pulsodaia
           PAGES_BRANCH: main
-        run: node deploy.js || echo "[deploy] falhou, nao eh critico"
+        run: node deploy.js || echo "[deploy] falhou"
 
       - name: Summary
         if: always()
         run: |
-          echo "### Veo Hero — $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "### Veo Weekly — $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          tail -40 /tmp/veo.log >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "(sem log)" >> $GITHUB_STEP_SUMMARY
+          tail -60 /tmp/veo-weekly.log >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "(sem log)" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY

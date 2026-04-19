@@ -191,10 +191,20 @@ Lead: ${article.lead}`;
   const spokenLine = scriptRes.body.candidates?.[0]?.content?.parts?.[0]?.text?.trim().replace(/^["']|["']$/g, '') || article.headline;
   log(`Fala (pt-BR): "${spokenLine}"`);
 
-  // Monta prompt Veo combinando Nova + script + estrutura 8s
-  // CRITICAL: Veo 3 tem tendencia de gerar legendas em linguas aleatorias.
-  // Reforcar ABSOLUTELY NO TEXT/SUBTITLES/CAPTIONS no negative prompt.
-  const veoPrompt = `Vertical 9:16 cinematic editorial short, 8 seconds. ${novaDescription} FROM SECOND ONE she is already speaking naturally in Brazilian Portuguese (pt-BR) with calm analytical tone, direct clear diction. Her spoken line: "${spokenLine}". Continuous speech, no intro pause, no silent beginning. Subtle medium close-up framing. Natural room ambient audio only, zero music, zero sound effects. Realistic accurate lip sync to the Brazilian Portuguese dialogue. Mood: sober, trustworthy, editorial tech journalism (Bloomberg Quicktake meets The Verge). Color grading neutral with slight warm highlights. ABSOLUTELY DO NOT GENERATE: any text overlays, any subtitles, any captions, any burned-in text, any lower thirds, any on-screen graphics, any floating text, any language text, any logos, any brand names, any written words of any kind. ZERO text on screen. Pure cinematic footage only.`;
+  // Estrutura Veo 3 oficial: Subject/Context/Action/Spoken/Style/Camera/Lighting/Audio/Negative
+  const NEG = `no subtitles, no captions, no closed captions, no burned-in text, no text overlays, no lower thirds, no floating text, no written words in any language, no logos, no watermarks, no on-screen graphics, no glitch effects, no dramatic music, no English dialogue, no foreign language text, no silent intro, no muted beginning`;
+
+  const veoPrompt = [
+    `Subject: Nova — Brazilian woman late 20s, dark brown wavy shoulder-length hair, natural subtle makeup, confident direct gaze, wearing plain black crew-neck t-shirt`,
+    `Context: minimalist modern home office, MacBook visible, green plants, softly blurred background, soft natural window light from the left`,
+    `Action: she is already speaking naturally from second one, looking directly at camera, small natural head movement, confident calm demeanor`,
+    `Spoken text (Portuguese - BR): "${spokenLine}"`,
+    `Style: cinematic editorial, naturalistic, magazine quality, Leica 50mm aesthetic, shallow depth of field, neutral color grading with slight warm highlights`,
+    `Camera: medium close-up, static or very subtle push-in, 50mm lens equivalent`,
+    `Lighting: soft natural window light from the left, editorial portrait feel`,
+    `Audio: clean Brazilian Portuguese dialogue ONLY (pt-BR, accurate lip sync), subtle natural room ambience, zero music, zero sound effects`,
+    `Negative constraints: ${NEG}`
+  ].join('\n');
 
   return { veoPrompt, spokenLine };
 }
