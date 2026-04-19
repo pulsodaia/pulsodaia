@@ -1,11 +1,18 @@
 {
   "month": "2026-04",
-  "spent_usd": 0.64,
-  "spent_brl": 3.2,
+  "spent_usd": 1.28,
+  "spent_brl": 6.4,
   "videos": [
     {
       "slug": "anthropic-apresenta-claude-design-para-criacao-rapida-de-visuais",
       "date": "2026-04-19T22:46:04.545Z",
+      "cost_usd": 0.64,
+      "cost_brl": 3.2,
+      "model": "veo-3.0-fast-generate-001"
+    },
+    {
+      "slug": "anthropic-apresenta-claude-design-para-criacao-rapida-de-visuais",
+      "date": "2026-04-19T23:01:40.996Z",
       "cost_usd": 0.64,
       "cost_brl": 3.2,
       "model": "veo-3.0-fast-generate-001"
