@@ -436,7 +436,10 @@ function renderRelatedHtml(related) {
   if (!related || related.length === 0) return '';
   return `
     <section class="related-section">
-      <div class="related-eyebrow">CONTINUE LENDO</div>
+      <div class="related-header">
+        <h2 class="related-title">Historias relacionadas</h2>
+        <a href="/feed/" class="related-all">Ver tudo →</a>
+      </div>
       <div class="related-grid">
         ${related.map(r => `
         <a href="/feed/${r.slug}/" class="related-card">
@@ -444,11 +447,11 @@ function renderRelatedHtml(related) {
             ${r.hero_image
               ? `<img src="/feed/${r.slug}/${r.hero_image}" alt="${(r.headline || '').replace(/"/g, '&quot;')}" loading="lazy">`
               : `<div class="related-placeholder"><span>${(r.eyebrow_category || 'PULSO').toUpperCase()}</span></div>`}
+            <span class="related-pill">${(r.eyebrow_category || 'NOTICIA').toUpperCase()}</span>
           </div>
           <div class="related-meta">
-            <span class="related-cat">${(r.eyebrow_category || 'NOTICIA').toUpperCase()}</span>
             <h4>${r.headline || ''}</h4>
-            <div class="related-byline">Por Pulso da IA · ${formatShortDate(r.published_at || r.written_at)}</div>
+            <div class="related-byline">Pulso da IA · ${formatShortDate(r.published_at || r.written_at)}</div>
           </div>
         </a>`).join('')}
       </div>
@@ -456,41 +459,98 @@ function renderRelatedHtml(related) {
 }
 
 function renderFollowUsHtml() {
+  const year = new Date().getFullYear();
   return `
+    <section class="newsletter-block" id="newsletter">
+      <div class="container newsletter-inner">
+        <div class="newsletter-icon" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="#FF5E1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="11" width="36" height="26" rx="3"/><path d="M6 14l18 13L42 14"/></svg>
+        </div>
+        <h3 class="newsletter-headline">Receba o pulso da IA no seu inbox.</h3>
+        <p class="newsletter-sub">Toda quinta, 9h. Top 5 da semana em portugues, em 3 minutos de leitura. Zero spam.</p>
+        <form class="newsletter-form" x-data="{ name: '', email: '', submitted: false, submitting: false }" @submit.prevent="submitting=true; fetch('https://services.leadconnectorhq.com/hooks/REPLACE_WITH_GHL_WEBHOOK_ID/webhook-trigger/newsletter-pulsodaia', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, source:'footer', tags:['newsletter-ia-semanal','fonte-footer']})}).finally(()=>{submitted=true;submitting=false;})">
+          <template x-if="!submitted">
+            <div class="newsletter-fields">
+              <input x-model="name" type="text" placeholder="Seu nome" required aria-label="Nome">
+              <input x-model="email" type="email" placeholder="seu@email.com" required aria-label="Email">
+              <button type="submit" :disabled="submitting">
+                <span x-show="!submitting">Assinar</span>
+                <span x-show="submitting">...</span>
+              </button>
+            </div>
+          </template>
+          <div x-show="submitted" class="newsletter-success">
+            <strong>Inscrito.</strong> Proxima quinta, 9h, chega no teu inbox.
+          </div>
+        </form>
+        <div class="newsletter-privacy">
+          Ao assinar voce aceita nossa <a href="/politica-privacidade/">politica de privacidade</a>. Cancele a qualquer momento.
+        </div>
+      </div>
+    </section>
+
     <section class="follow-us">
       <div class="container follow-inner">
-        <div class="follow-title">
-          <div class="follow-eyebrow">SIGA O PULSO</div>
-          <h3>Siga a gente por onde quiser.</h3>
-        </div>
-        <div class="social-links">
-          <a href="https://instagram.com/pulsodaia" target="_blank" rel="noopener" aria-label="Instagram">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
-            <span>Instagram</span>
+        <div class="follow-eyebrow">SIGA O PULSO</div>
+        <h3 class="follow-title">Siga a gente por onde quiser.</h3>
+        <div class="social-circles">
+          <a href="https://instagram.com/pulsodaia" target="_blank" rel="noopener" aria-label="Instagram" class="sc-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
           </a>
-          <a href="https://x.com/pulsodaia" target="_blank" rel="noopener" aria-label="X">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            <span>X</span>
+          <a href="https://x.com/pulsodaia" target="_blank" rel="noopener" aria-label="X" class="sc-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           </a>
-          <a href="https://www.youtube.com/@pulsodaia" target="_blank" rel="noopener" aria-label="YouTube">
+          <a href="https://www.youtube.com/@pulsodaia" target="_blank" rel="noopener" aria-label="YouTube" class="sc-item">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"/></svg>
-            <span>YouTube</span>
           </a>
-          <a href="https://www.tiktok.com/@pulsodaia" target="_blank" rel="noopener" aria-label="TikTok">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z"/></svg>
-            <span>TikTok</span>
+          <a href="https://www.tiktok.com/@pulsodaia" target="_blank" rel="noopener" aria-label="TikTok" class="sc-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z"/></svg>
           </a>
-          <a href="https://www.pinterest.com/pulsodaia/" target="_blank" rel="noopener" aria-label="Pinterest">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.098.119.112.224.083.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/></svg>
-            <span>Pinterest</span>
+          <a href="https://www.pinterest.com/pulsodaia/" target="_blank" rel="noopener" aria-label="Pinterest" class="sc-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.098.119.112.224.083.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/></svg>
           </a>
-        </div>
-        <div class="subscribe-banner">
-          <span>Newsletter semanal. Toda quinta, 9h. Em portugues.</span>
-          <a href="/#newsletter">Assinar pulso semanal →</a>
         </div>
       </div>
     </section>`;
+}
+
+function renderFooterBottom() {
+  const year = new Date().getFullYear();
+  return `
+  <footer class="site">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand-col">
+        <a href="/" class="footer-brand">
+          <svg viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
+          <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
+        </a>
+        <p class="footer-tagline">Sinta o pulso do mercado de IA.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-head">Conteudo</div>
+        <a href="/feed/">Feed completo</a>
+        <a href="/feed/?c=lancamento">Lancamentos</a>
+        <a href="/feed/?c=analise">Analises</a>
+        <a href="/#newsletter">Pulso Semanal</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-head">Sobre</div>
+        <a href="/sobre/">Quem somos</a>
+        <a href="/contato/">Contato</a>
+        <a href="https://triadeflow.com.br" target="_blank" rel="noopener">Triadeflow</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-head">Legal</div>
+        <a href="/politica-privacidade/">Privacidade</a>
+        <a href="/termos/">Termos de uso</a>
+        <a href="/rss.xml">RSS</a>
+      </div>
+    </div>
+    <div class="container footer-meta">
+      <span>© ${year} Pulso da IA · pulsodaia.com.br</span>
+      <span class="footer-signature">Feito por <a href="https://triadeflow.com.br" target="_blank" rel="noopener">Alex Campos @ Triadeflow</a></span>
+    </div>
+  </footer>`;
 }
 
 function renderArticleHtml(article, related) {
@@ -567,8 +627,8 @@ ${JSON.stringify({
       <a href="/feed/">Feed</a>
       <a href="/feed/?c=lancamento">Lancamentos</a>
       <a href="/feed/?c=analise">Analises</a>
-      <a href="/#newsletter">Pulso Semanal</a>
     </div>
+    <a href="#newsletter" class="nav-cta">Assinar</a>
   </div>
 </header>
 
@@ -661,9 +721,7 @@ ${renderFollowUsHtml()}
 
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-<footer class="site">
-  <div class="container">pulsodaia.com.br · Sinta o pulso do mercado de IA · Feito por Alex Campos @ Triadeflow</div>
-</footer>
+${renderFooterBottom()}
 </body>
 </html>`;
 }
@@ -741,9 +799,15 @@ header.site .brand svg { width: 50px; height: 20px; }
 header.site .brand .wm { font-size: 16px; font-weight: 400; letter-spacing: -0.01em; }
 header.site .brand .wm .da { font-style: italic; color: rgba(255,255,255,0.5); }
 header.site .brand .wm .ia { font-weight: 600; }
-header.site .nav-links { display: flex; gap: 20px; font-size: 13px; }
-header.site .nav-links a { color: #A8A8A8; }
+header.site .nav-links { display: flex; gap: 22px; font-size: 13px; margin-left: auto; margin-right: 20px; }
+header.site .nav-links a { color: #A8A8A8; font-weight: 500; }
 header.site .nav-links a:hover { color: #FAFAFA; text-decoration: none; }
+header.site .nav-cta { display: inline-flex; align-items: center; padding: 8px 18px; background: #FF5E1F; color: #FFF; font-size: 13px; font-weight: 600; border-radius: 999px; letter-spacing: 0.01em; transition: background .2s ease; }
+header.site .nav-cta:hover { background: #E5501A; text-decoration: none; color: #FFF; }
+@media (max-width: 720px) {
+  header.site .nav-links { display: none; }
+  header.site .nav-cta { padding: 7px 14px; font-size: 12px; }
+}
 .breadcrumb { padding: 32px 0 16px; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #5C5C5C; text-transform: uppercase; letter-spacing: 0.1em; }
 .breadcrumb a { color: #A8A8A8; }
 .breadcrumb span { color: #FF5E1F; margin: 0 8px; }
@@ -810,41 +874,85 @@ footer.site { border-top: 1px solid rgba(255,255,255,0.06); padding: 40px 0; mar
 
 /* ================= RELATED CARDS (estrutura blog.google) ================= */
 .related-section { margin: 80px 0 0; padding: 48px 0 0; border-top: 1px solid rgba(255,255,255,0.08); }
-.related-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; margin-bottom: 24px; }
+.related-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 28px; gap: 16px; flex-wrap: wrap; }
+.related-title { font-family: 'Fraunces', Georgia, serif; font-size: clamp(24px, 2.4vw, 30px); font-weight: 600; letter-spacing: -0.01em; color: #FAFAFA; margin: 0; }
+.related-all { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.12em; font-weight: 600; }
+.related-all:hover { text-decoration: underline; text-underline-offset: 4px; }
 .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .related-card { display: block; background: transparent; border-radius: 12px; overflow: hidden; transition: transform .2s ease; text-decoration: none; color: inherit; }
-.related-card:hover { transform: translateY(-2px); text-decoration: none; }
+.related-card:hover { transform: translateY(-3px); text-decoration: none; }
 .related-card:hover h4 { color: #FF5E1F; }
-.related-image { aspect-ratio: 16/9; overflow: hidden; border-radius: 8px; background: #1A1A1A; margin-bottom: 14px; position: relative; }
+.related-image { aspect-ratio: 16/9; overflow: hidden; border-radius: 10px; background: #1A1A1A; margin-bottom: 14px; position: relative; }
 .related-image img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s ease; }
-.related-card:hover .related-image img { transform: scale(1.03); }
+.related-card:hover .related-image img { transform: scale(1.04); }
 .related-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #FF5E1F 0%, #0A0A0A 70%); display: flex; align-items: center; justify-content: center; }
 .related-placeholder span { font-family: 'JetBrains Mono', monospace; color: rgba(255,255,255,0.8); font-size: 11px; letter-spacing: 0.2em; }
+.related-pill { position: absolute; top: 12px; left: 12px; font-family: 'JetBrains Mono', monospace; font-size: 10px; padding: 5px 10px; background: rgba(10,10,10,0.78); backdrop-filter: blur(8px); color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; border-radius: 4px; border: 1px solid rgba(255,94,31,0.3); }
 .related-meta { padding: 0 4px; }
-.related-cat { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 8px; }
-.related-card h4 { font-family: 'Fraunces', Georgia, serif; font-size: 20px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.25; margin: 0 0 10px; color: #FAFAFA; transition: color .2s ease; }
-.related-byline { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A8A8; letter-spacing: 0.05em; }
+.related-card h4 { font-family: 'Fraunces', Georgia, serif; font-size: 19px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.25; margin: 0 0 10px; color: #FAFAFA; transition: color .2s ease; }
+.related-byline { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #A8A8A8; letter-spacing: 0.05em; text-transform: uppercase; }
 @media (max-width: 880px) { .related-grid { grid-template-columns: 1fr 1fr; } .related-grid .related-card:nth-child(3) { grid-column: 1 / -1; } }
-@media (max-width: 560px) { .related-grid { grid-template-columns: 1fr; } .related-grid .related-card:nth-child(3) { grid-column: auto; } }
+@media (max-width: 560px) { .related-grid { grid-template-columns: 1fr; } .related-grid .related-card:nth-child(3) { grid-column: auto; } .related-card h4 { font-size: 20px; } }
 
-/* ================= FOLLOW US (estrutura blog.google) ================= */
-.follow-us { background: #0E0E0E; border-top: 1px solid rgba(255,255,255,0.08); padding: 72px 0 64px; margin-top: 80px; }
-.follow-inner { max-width: 1100px; }
-.follow-title { text-align: center; margin-bottom: 36px; }
-.follow-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; margin-bottom: 10px; }
-.follow-us h3 { font-family: 'Fraunces', Georgia, serif; font-size: clamp(28px, 3.2vw, 40px); font-weight: 600; letter-spacing: -0.02em; color: #FAFAFA; margin: 0; }
-.social-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 40px; }
-.social-links a { display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 999px; color: #FAFAFA; font-size: 13px; font-weight: 500; text-decoration: none; transition: all .2s ease; }
-.social-links a:hover { background: rgba(255,94,31,0.12); border-color: rgba(255,94,31,0.4); color: #FF5E1F; text-decoration: none; }
-.social-links svg { flex-shrink: 0; }
-.subscribe-banner { max-width: 720px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 24px 32px; background: linear-gradient(90deg, rgba(255,94,31,0.08) 0%, rgba(255,94,31,0.02) 100%); border: 1px solid rgba(255,94,31,0.25); border-radius: 16px; }
-.subscribe-banner span { font-size: 15px; color: #FAFAFA; font-weight: 500; }
-.subscribe-banner a { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; white-space: nowrap; }
-.subscribe-banner a:hover { text-decoration: underline; text-underline-offset: 4px; }
-@media (max-width: 640px) {
-  .follow-us { padding: 56px 0 48px; margin-top: 60px; }
-  .social-links a { padding: 10px 16px; font-size: 12px; }
-  .subscribe-banner { flex-direction: column; align-items: flex-start; padding: 20px; }
+/* ================= NEWSLETTER BLOCK (footer form inline estilo blog.google) ================= */
+.newsletter-block { background: #0E0E0E; border-top: 1px solid rgba(255,255,255,0.08); padding: 72px 0 56px; margin-top: 80px; scroll-margin-top: 80px; }
+.newsletter-inner { max-width: 640px; text-align: center; }
+.newsletter-icon { display: inline-flex; align-items: center; justify-content: center; width: 72px; height: 72px; background: rgba(255,94,31,0.08); border: 1px solid rgba(255,94,31,0.25); border-radius: 50%; margin-bottom: 20px; }
+.newsletter-headline { font-family: 'Fraunces', Georgia, serif; font-size: clamp(28px, 3.4vw, 40px); font-weight: 600; letter-spacing: -0.02em; line-height: 1.15; color: #FAFAFA; margin: 0 0 12px; }
+.newsletter-sub { font-size: 15px; color: rgba(250,250,250,0.6); margin: 0 auto 28px; max-width: 480px; }
+.newsletter-form { margin-bottom: 16px; }
+.newsletter-fields { display: flex; gap: 8px; max-width: 540px; margin: 0 auto; }
+.newsletter-fields input { flex: 1; padding: 12px 16px; background: #0A0A0A; border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; color: #FAFAFA; font-family: 'Inter', sans-serif; font-size: 14px; transition: border-color .2s ease; }
+.newsletter-fields input:focus { outline: none; border-color: #FF5E1F; }
+.newsletter-fields input[type="text"] { max-width: 150px; }
+.newsletter-fields button { padding: 12px 24px; background: #FF5E1F; color: white; border: 0; border-radius: 8px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: 'Inter', sans-serif; transition: background .2s ease; white-space: nowrap; }
+.newsletter-fields button:hover:not(:disabled) { background: #E5501A; }
+.newsletter-fields button:disabled { opacity: 0.6; cursor: not-allowed; }
+.newsletter-success { padding: 20px; background: rgba(46,204,113,0.08); border: 1px solid rgba(46,204,113,0.25); border-radius: 10px; font-size: 15px; color: #FAFAFA; max-width: 480px; margin: 0 auto; }
+.newsletter-success strong { color: #2ECC71; }
+.newsletter-privacy { font-size: 12px; color: rgba(250,250,250,0.45); max-width: 480px; margin: 0 auto; line-height: 1.5; }
+.newsletter-privacy a { color: rgba(250,250,250,0.7); text-decoration: underline; text-underline-offset: 2px; }
+.newsletter-privacy a:hover { color: #FF5E1F; }
+@media (max-width: 560px) {
+  .newsletter-block { padding: 56px 0 48px; margin-top: 60px; }
+  .newsletter-fields { flex-direction: column; }
+  .newsletter-fields input[type="text"] { max-width: 100%; }
+}
+
+/* ================= FOLLOW US (circulos, estilo blog.google) ================= */
+.follow-us { background: #0A0A0A; padding: 48px 0 32px; }
+.follow-inner { max-width: 900px; text-align: center; }
+.follow-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; margin-bottom: 12px; }
+.follow-title { font-family: 'Fraunces', Georgia, serif; font-size: clamp(22px, 2.4vw, 30px); font-weight: 600; letter-spacing: -0.01em; color: #FAFAFA; margin: 0 0 28px; }
+.social-circles { display: flex; justify-content: center; gap: 14px; }
+.sc-item { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: #FAFAFA; transition: all .2s ease; }
+.sc-item:hover { background: #FF5E1F; border-color: #FF5E1F; color: #FFF; transform: translateY(-2px); text-decoration: none; }
+
+/* ================= FOOTER BOTTOM (grupos de links estilo blog.google) ================= */
+footer.site { border-top: 1px solid rgba(255,255,255,0.08); padding: 48px 0 32px; margin-top: 0; background: #0A0A0A; text-align: left; font-size: 14px; color: #A8A8A8; font-family: 'Inter', sans-serif; }
+.footer-grid { max-width: 1100px; display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap: 40px; padding-bottom: 36px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.footer-brand-col { padding-right: 20px; }
+.footer-brand { display: inline-flex; align-items: center; gap: 10px; color: #FAFAFA; margin-bottom: 12px; }
+.footer-brand:hover { text-decoration: none; }
+.footer-brand svg { width: 56px; height: 22px; }
+.footer-brand .wm { font-size: 16px; font-weight: 400; letter-spacing: -0.01em; }
+.footer-brand .wm .da { font-style: italic; color: rgba(255,255,255,0.5); }
+.footer-brand .wm .ia { font-weight: 600; }
+.footer-tagline { font-size: 13px; color: rgba(250,250,250,0.5); margin: 0; line-height: 1.5; max-width: 260px; }
+.footer-col { display: flex; flex-direction: column; gap: 10px; }
+.footer-head { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 4px; }
+.footer-col a { color: rgba(250,250,250,0.75); font-size: 13px; transition: color .15s ease; }
+.footer-col a:hover { color: #FF5E1F; text-decoration: none; }
+.footer-meta { max-width: 1100px; display: flex; justify-content: space-between; align-items: center; padding-top: 24px; font-size: 12px; color: rgba(250,250,250,0.4); font-family: 'JetBrains Mono', monospace; letter-spacing: 0.02em; flex-wrap: wrap; gap: 12px; }
+.footer-signature a { color: rgba(250,250,250,0.6); }
+.footer-signature a:hover { color: #FF5E1F; text-decoration: none; }
+@media (max-width: 880px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .footer-brand-col { grid-column: 1 / -1; padding-right: 0; margin-bottom: 8px; }
+}
+@media (max-width: 520px) {
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-meta { flex-direction: column; align-items: flex-start; }
 }
 `);
   console.log('[css] article.css atualizado');
@@ -919,6 +1027,7 @@ module.exports = {
   renderArticleHtml,
   renderRelatedHtml,
   renderFollowUsHtml,
+  renderFooterBottom,
   getRelatedArticles,
   formatShortDate,
   ensureArticleCss,
