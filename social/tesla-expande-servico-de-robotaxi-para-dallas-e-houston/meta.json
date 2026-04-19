@@ -11,5 +11,27 @@
   "status": "draft",
   "ghl_posted_at": "2026-04-19T20:29:00.268Z",
   "ghl_post_id": "(id?)",
-  "ghl_status": "draft"
+  "ghl_status": "draft",
+  "ghl_posts": {
+    "facebook": {
+      "post_id": "(id?)",
+      "posted_at": "2026-04-19T20:40:13.261Z",
+      "status": "draft"
+    },
+    "instagram": {
+      "post_id": "(id?)",
+      "posted_at": "2026-04-19T20:40:15.118Z",
+      "status": "draft"
+    },
+    "pinterest": {
+      "post_id": "(id?)",
+      "posted_at": "2026-04-19T20:40:16.950Z",
+      "status": "draft"
+    },
+    "bluesky": {
+      "post_id": "(id?)",
+      "posted_at": "2026-04-19T20:40:18.776Z",
+      "status": "draft"
+    }
+  }
 }

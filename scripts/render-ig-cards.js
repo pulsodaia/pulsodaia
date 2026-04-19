@@ -13,6 +13,8 @@ const sharp = require('sharp');
 
 const ROOT = path.join(__dirname, '..');
 const SOCIAL_DIR = path.join(ROOT, 'social');
+const PUBLIC_CARDS_DIR = path.join(ROOT, 'assets', 'ig-cards'); // deployado publico
+const PUBLIC_CARDS_URL = 'https://pulsodaia.com.br/assets/ig-cards';
 
 const BG = '#0A0A0A';
 const FG = '#FAFAFA';
@@ -178,13 +180,16 @@ async function renderCardsForSlug(slug, opts = {}) {
   const category = meta.article_category || 'PULSO';
 
   const outDir = path.join(SOCIAL_DIR, slug);
+  const publicDir = path.join(PUBLIC_CARDS_DIR, slug);
+  if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir, { recursive: true });
   const totalCards = cards.length;
   const results = [];
 
   for (const card of cards) {
     const outFile = path.join(outDir, `card-${card.n}.png`);
-    if (!opts.force && fs.existsSync(outFile)) {
-      results.push({ card: card.n, status: 'exists' });
+    const publicFile = path.join(publicDir, `card-${card.n}.png`);
+    if (!opts.force && fs.existsSync(outFile) && fs.existsSync(publicFile)) {
+      results.push({ card: card.n, status: 'exists', url: `${PUBLIC_CARDS_URL}/${slug}/card-${card.n}.png` });
       continue;
     }
 
@@ -206,10 +211,10 @@ async function renderCardsForSlug(slug, opts = {}) {
     }
 
     try {
-      await sharp(Buffer.from(svg))
-        .png({ quality: 90, compressionLevel: 9 })
-        .toFile(outFile);
-      results.push({ card: card.n, status: 'rendered', bytes: fs.statSync(outFile).size });
+      const buf = await sharp(Buffer.from(svg)).png({ quality: 90, compressionLevel: 9 }).toBuffer();
+      fs.writeFileSync(outFile, buf);
+      fs.writeFileSync(publicFile, buf);
+      results.push({ card: card.n, status: 'rendered', bytes: buf.length, url: `${PUBLIC_CARDS_URL}/${slug}/card-${card.n}.png` });
     } catch (e) {
       results.push({ card: card.n, status: 'error', error: e.message });
     }

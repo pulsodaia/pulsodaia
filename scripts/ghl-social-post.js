@@ -75,23 +75,52 @@ async function listAccounts() {
 }
 
 // Extrai texto main do linkedin.md (seccao entre primeiro "---" e segundo "---")
-function extractLinkedInText(slug) {
-  const mdPath = path.join(SOCIAL_DIR, slug, 'linkedin.md');
+function extractText(slug, file) {
+  const mdPath = path.join(SOCIAL_DIR, slug, file);
   if (!fs.existsSync(mdPath)) return null;
   const md = fs.readFileSync(mdPath, 'utf8');
   const parts = md.split(/^---$/gm);
   if (parts.length < 3) return null;
-  // parts[0] = header, parts[1] = content, parts[2] = checklist
   return parts[1].trim();
 }
 
-async function createPost({ accountIds, text, scheduleDate, status = 'draft' }) {
+function extractInstagramCaption(slug) {
+  const mdPath = path.join(SOCIAL_DIR, slug, 'instagram.md');
+  if (!fs.existsSync(mdPath)) return null;
+  const md = fs.readFileSync(mdPath, 'utf8');
+  // Caption fica na secao "## Legenda do post" ou similar
+  const match = md.match(/##\s*Legenda do post[\s\S]*?\n\n([\s\S]*?)(?=\n##|\n---|$)/i);
+  if (match) return match[1].trim();
+  // Fallback: pega primeiro paragrafo util
+  return extractText(slug, 'linkedin.md') || '';
+}
+
+// URLs publicas dos cards IG (renderizados em assets/ig-cards/)
+function getCardUrls(slug) {
+  const dir = path.join(__dirname, '..', 'assets', 'ig-cards', slug);
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter(f => /^card-\d+\.png$/.test(f))
+    .sort()
+    .map(f => `https://pulsodaia.com.br/assets/ig-cards/${slug}/${f}`);
+}
+
+// URL publica do hero do artigo (pra Pinterest/single-image posts)
+function getHeroUrl(slug) {
+  const dir = path.join(__dirname, '..', 'feed', slug);
+  if (!fs.existsSync(dir)) return null;
+  const hero = fs.readdirSync(dir).find(f => /^hero\.(jpg|jpeg|png|webp)$/i.test(f));
+  return hero ? `https://pulsodaia.com.br/feed/${slug}/${hero}` : null;
+}
+
+async function createPost({ accountIds, text, mediaUrls = [], scheduleDate, status = 'draft' }) {
   const body = {
     accountIds,
-    summary: text.substring(0, 3000),
+    summary: String(text || '').substring(0, 3000),
     type: 'post',
     status,
     userId: USER_ID,
+    ...(mediaUrls.length ? { media: mediaUrls.map(url => ({ url, type: 'image' })) } : {}),
     ...(scheduleDate ? { scheduleDate } : {})
   };
   const res = await ghlRequest('POST', `/social-media-posting/${LOCATION_ID}/posts`, body);
@@ -120,15 +149,24 @@ async function main() {
 
   if (listOnly) return;
 
-  // Escolhe Facebook account como primeira (v1: so FB text-only)
-  const fbAccount = accounts.find(a => a.platform === 'facebook' && !a.isExpired);
-  if (!fbAccount) {
-    console.error('[ghl] nenhuma conta Facebook ativa. Aborta.');
+  // Escolhe platforms desejadas (default: todas as conectadas ativas exceto YouTube/TikTok que exigem video)
+  const platformsArg = (args.find(a => a.startsWith('--platforms=')) || '').split('=')[1];
+  const wantedPlatforms = platformsArg
+    ? platformsArg.split(',').map(s => s.trim().toLowerCase())
+    : ['facebook', 'instagram', 'pinterest', 'bluesky'];
+
+  const byPlatform = {};
+  for (const a of accounts) {
+    if (a.isExpired) continue;
+    if (wantedPlatforms.includes(a.platform)) byPlatform[a.platform] = a;
+  }
+
+  if (Object.keys(byPlatform).length === 0) {
+    console.error('[ghl] nenhuma conta das platforms solicitadas esta ativa');
     return;
   }
-  console.log(`\n[ghl] usando Facebook: ${fbAccount.name} (${fbAccount.id})`);
+  console.log(`\n[ghl] platforms alvo: ${Object.keys(byPlatform).join(', ')}`);
 
-  // Determina targets
   if (!fs.existsSync(SOCIAL_DIR)) { console.log('social/ nao existe'); return; }
   const slugs = slugArg ? [slugArg] : (allFlag ? fs.readdirSync(SOCIAL_DIR).filter(d => fs.statSync(path.join(SOCIAL_DIR, d)).isDirectory()) : []);
   if (slugs.length === 0) {
@@ -136,47 +174,75 @@ async function main() {
     return;
   }
 
-  console.log(`\n[ghl] postando ${slugs.length} artigo(s) como ${publish ? 'published' : 'draft'}...`);
+  console.log(`\n[ghl] postando ${slugs.length} artigo(s) como ${publish ? 'published' : 'draft'}...\n`);
   let ok = 0, fail = 0;
   for (const slug of slugs) {
-    const text = extractLinkedInText(slug);
-    if (!text) { console.log(`  - ${slug}: sem linkedin.md, skip`); continue; }
+    const linkedinText = extractText(slug, 'linkedin.md');
+    const igCaption = extractInstagramCaption(slug);
+    const xText = extractText(slug, 'x.md');
+    const cardUrls = getCardUrls(slug);
+    const heroUrl = getHeroUrl(slug);
 
-    // Pula se ja tem meta.json com posted_at (evita repostar)
-    const metaPath = path.join(SOCIAL_DIR, slug, 'meta.json');
-    const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf8')) : {};
-    if (meta.ghl_posted_at && !args.includes('--force')) {
-      console.log(`  ✓ ${slug}: ja postado em ${meta.ghl_posted_at}, skip (--force pra reenviar)`);
+    if (!linkedinText && !igCaption) {
+      console.log(`  - ${slug}: sem drafts, skip`);
       continue;
     }
 
-    try {
-      const res = await createPost({
-        accountIds: [fbAccount.id],
-        text,
-        status: publish ? 'published' : 'draft'
-      });
+    const metaPath = path.join(SOCIAL_DIR, slug, 'meta.json');
+    const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf8')) : {};
+    meta.ghl_posts = meta.ghl_posts || {};
 
-      if (res.status >= 200 && res.status < 300) {
-        const postId = res.body?.results?._id || res.body?.results?.id || res.body?._id || '(id?)';
-        console.log(`  ✓ ${slug}: status ${res.status} · post_id=${postId}`);
-        // Atualiza meta.json
-        meta.ghl_posted_at = new Date().toISOString();
-        meta.ghl_post_id = postId;
-        meta.ghl_status = publish ? 'published' : 'draft';
-        fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2));
-        ok++;
+    console.log(`[${slug}]`);
+    for (const [platform, account] of Object.entries(byPlatform)) {
+      if (meta.ghl_posts[platform] && !args.includes('--force')) {
+        console.log(`  - ${platform}: ja postado (${meta.ghl_posts[platform].status}), skip`);
+        continue;
+      }
+
+      // Platform-specific content + media
+      let text, mediaUrls = [];
+      if (platform === 'instagram') {
+        text = igCaption || linkedinText;
+        mediaUrls = cardUrls.length ? cardUrls : (heroUrl ? [heroUrl] : []);
+        if (!mediaUrls.length) { console.log(`  - instagram: sem imagens, skip`); continue; }
+      } else if (platform === 'pinterest') {
+        text = linkedinText;
+        mediaUrls = heroUrl ? [heroUrl] : (cardUrls[0] ? [cardUrls[0]] : []);
+        if (!mediaUrls.length) { console.log(`  - pinterest: sem imagem, skip`); continue; }
+      } else if (platform === 'facebook') {
+        text = linkedinText;
+        mediaUrls = heroUrl ? [heroUrl] : [];
+      } else if (platform === 'bluesky') {
+        text = (xText || linkedinText || '').substring(0, 300);
+        mediaUrls = heroUrl ? [heroUrl] : [];
       } else {
-        console.log(`  ✗ ${slug}: ${res.status} ${JSON.stringify(res.body).substring(0, 200)}`);
+        continue;
+      }
+
+      try {
+        const res = await createPost({
+          accountIds: [account.id],
+          text,
+          mediaUrls,
+          status: publish ? 'published' : 'draft'
+        });
+
+        if (res.status >= 200 && res.status < 300) {
+          const postId = res.body?.results?._id || res.body?.results?.id || res.body?._id || '(id?)';
+          console.log(`  ✓ ${platform}: ${res.status} · post_id=${postId}${mediaUrls.length ? ` · ${mediaUrls.length} media` : ''}`);
+          meta.ghl_posts[platform] = { post_id: postId, posted_at: new Date().toISOString(), status: publish ? 'published' : 'draft' };
+          ok++;
+        } else {
+          console.log(`  ✗ ${platform}: ${res.status} ${JSON.stringify(res.body).substring(0, 160)}`);
+          fail++;
+        }
+      } catch (e) {
+        console.log(`  ✗ ${platform}: ${e.message}`);
         fail++;
       }
-    } catch (e) {
-      console.log(`  ✗ ${slug}: ${e.message}`);
-      fail++;
+      await new Promise(r => setTimeout(r, 1500));
     }
-
-    // Throttle — evita rate limit
-    await new Promise(r => setTimeout(r, 1500));
+    fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2));
   }
 
   console.log(`\n[ghl] ok=${ok} fail=${fail}`);
