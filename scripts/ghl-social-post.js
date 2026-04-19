@@ -179,7 +179,6 @@ async function main() {
   for (const slug of slugs) {
     const linkedinText = extractText(slug, 'linkedin.md');
     const igCaption = extractInstagramCaption(slug);
-    const xText = extractText(slug, 'x.md');
     const cardUrls = getCardUrls(slug);
     const heroUrl = getHeroUrl(slug);
 
@@ -193,51 +192,71 @@ async function main() {
     meta.ghl_posts = meta.ghl_posts || {};
 
     console.log(`[${slug}]`);
-    for (const [platform, account] of Object.entries(byPlatform)) {
-      if (meta.ghl_posts[platform] && !args.includes('--force')) {
-        console.log(`  - ${platform}: ja postado (${meta.ghl_posts[platform].status}), skip`);
-        continue;
-      }
 
-      // Platform-specific content + media
-      let text, mediaUrls = [];
-      if (platform === 'instagram') {
-        text = igCaption || linkedinText;
-        mediaUrls = cardUrls.length ? cardUrls : (heroUrl ? [heroUrl] : []);
-        if (!mediaUrls.length) { console.log(`  - instagram: sem imagens, skip`); continue; }
-      } else if (platform === 'pinterest') {
-        text = linkedinText;
-        mediaUrls = heroUrl ? [heroUrl] : (cardUrls[0] ? [cardUrls[0]] : []);
-        if (!mediaUrls.length) { console.log(`  - pinterest: sem imagem, skip`); continue; }
-      } else if (platform === 'facebook') {
-        text = linkedinText;
-        mediaUrls = heroUrl ? [heroUrl] : [];
-      } else if (platform === 'bluesky') {
-        text = (xText || linkedinText || '').substring(0, 300);
-        mediaUrls = heroUrl ? [heroUrl] : [];
-      } else {
+    // Estrategia: 2 posts maximo
+    // Post A — Instagram (carousel cards, se tiver); senao junta com B
+    // Post B — Multi-platform (FB + Pinterest + Bluesky) com hero image compartilhada
+    const jobs = [];
+
+    if (byPlatform.instagram && cardUrls.length) {
+      jobs.push({
+        key: 'instagram-carousel',
+        accountIds: [byPlatform.instagram.id],
+        text: igCaption || linkedinText,
+        mediaUrls: cardUrls,
+        platforms: ['instagram']
+      });
+    }
+
+    const multiAccounts = [];
+    const multiPlatforms = [];
+    if (byPlatform.facebook) { multiAccounts.push(byPlatform.facebook.id); multiPlatforms.push('facebook'); }
+    if (byPlatform.pinterest && heroUrl) { multiAccounts.push(byPlatform.pinterest.id); multiPlatforms.push('pinterest'); }
+    if (byPlatform.bluesky) { multiAccounts.push(byPlatform.bluesky.id); multiPlatforms.push('bluesky'); }
+    // Se IG nao tiver cards, vai junto com single-image hero
+    if (byPlatform.instagram && !cardUrls.length && heroUrl) {
+      multiAccounts.push(byPlatform.instagram.id);
+      multiPlatforms.push('instagram');
+    }
+
+    if (multiAccounts.length) {
+      jobs.push({
+        key: 'multi-hero',
+        accountIds: multiAccounts,
+        text: linkedinText,
+        mediaUrls: heroUrl ? [heroUrl] : [],
+        platforms: multiPlatforms
+      });
+    }
+
+    for (const job of jobs) {
+      const alreadyDone = job.platforms.every(p => meta.ghl_posts[p] && !args.includes('--force'));
+      if (alreadyDone) {
+        console.log(`  - ${job.key} (${job.platforms.join('+')}): ja postado, skip`);
         continue;
       }
 
       try {
         const res = await createPost({
-          accountIds: [account.id],
-          text,
-          mediaUrls,
+          accountIds: job.accountIds,
+          text: job.text,
+          mediaUrls: job.mediaUrls,
           status: publish ? 'published' : 'draft'
         });
 
         if (res.status >= 200 && res.status < 300) {
-          const postId = res.body?.results?._id || res.body?.results?.id || res.body?._id || '(id?)';
-          console.log(`  ✓ ${platform}: ${res.status} · post_id=${postId}${mediaUrls.length ? ` · ${mediaUrls.length} media` : ''}`);
-          meta.ghl_posts[platform] = { post_id: postId, posted_at: new Date().toISOString(), status: publish ? 'published' : 'draft' };
+          const postId = res.body?.results?._id || res.body?.results?.id || res.body?._id || res.body?.results?.post?._id || '(id?)';
+          console.log(`  ✓ ${job.key} (${job.platforms.join('+')}): ${res.status} · post_id=${postId}${job.mediaUrls.length ? ` · ${job.mediaUrls.length} media` : ''}`);
+          for (const p of job.platforms) {
+            meta.ghl_posts[p] = { post_id: postId, posted_at: new Date().toISOString(), status: publish ? 'published' : 'draft', job: job.key };
+          }
           ok++;
         } else {
-          console.log(`  ✗ ${platform}: ${res.status} ${JSON.stringify(res.body).substring(0, 160)}`);
+          console.log(`  ✗ ${job.key}: ${res.status} ${JSON.stringify(res.body).substring(0, 200)}`);
           fail++;
         }
       } catch (e) {
-        console.log(`  ✗ ${platform}: ${e.message}`);
+        console.log(`  ✗ ${job.key}: ${e.message}`);
         fail++;
       }
       await new Promise(r => setTimeout(r, 1500));

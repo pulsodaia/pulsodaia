@@ -8,5 +8,31 @@
   "cta_keyword": "PULSE",
   "cta_whatsapp": "+55 19 98380-5908",
   "model": "gemini-2.5-flash-lite",
-  "status": "draft"
+  "status": "draft",
+  "ghl_posts": {
+    "instagram": {
+      "post_id": "69e53fcd3212177b2481d275",
+      "posted_at": "2026-04-19T20:49:16.708Z",
+      "status": "draft",
+      "job": "instagram-carousel"
+    },
+    "facebook": {
+      "post_id": "69e53fcf89d075805118d9af",
+      "posted_at": "2026-04-19T20:49:18.706Z",
+      "status": "draft",
+      "job": "multi-hero"
+    },
+    "pinterest": {
+      "post_id": "69e53fcf89d075805118d9af",
+      "posted_at": "2026-04-19T20:49:18.706Z",
+      "status": "draft",
+      "job": "multi-hero"
+    },
+    "bluesky": {
+      "post_id": "69e53fcf89d075805118d9af",
+      "posted_at": "2026-04-19T20:49:18.706Z",
+      "status": "draft",
+      "job": "multi-hero"
+    }
+  }
 }
