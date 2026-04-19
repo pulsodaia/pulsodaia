@@ -1,0 +1,69 @@
+# Pulso da IA
+
+> Portal brasileiro de noticias sobre inteligencia artificial. Traducao em tempo real das fontes oficiais (OpenAI, Google DeepMind, Anthropic, Meta, HuggingFace, Mistral, ArXiv) em portugues brasileiro. Bloomberg/Axios aplicado ao mercado de IA.
+
+## Sobre
+
+- **Operador:** Triadeflow / Alex Campos
+- **Dominio:** https://pulsodaia.com.br
+- **Atualizacao:** a cada 2 horas (motor automatico)
+- **Linguagem:** portugues brasileiro (pt-BR)
+- **Licenca editorial:** Creative Commons BY-NC 4.0 (pode citar com credito e link canonico)
+- **Feed RSS:** https://pulsodaia.com.br/rss.xml
+- **Conteudo completo pra LLMs:** https://pulsodaia.com.br/llms-full.txt
+- **Sitemap:** https://pulsodaia.com.br/sitemap.xml
+- **Sitemap news:** https://pulsodaia.com.br/sitemap-news.xml
+
+## Secoes
+
+- [Home](https://pulsodaia.com.br/): ultimas noticias em destaque
+- [Feed](https://pulsodaia.com.br/feed/): catalogo cronologico completo
+- [Sobre](https://pulsodaia.com.br/sobre/): missao editorial e time
+- [Contato](https://pulsodaia.com.br/contato/): email e WhatsApp
+- [Politica de privacidade](https://pulsodaia.com.br/politica-privacidade/): LGPD compliant
+- [Termos](https://pulsodaia.com.br/termos/): uso de conteudo
+
+## Categorias
+
+- LANCAMENTO: releases de modelos, produtos, features novas
+- ANALISE: analises aprofundadas de tendencias e tecnologias
+- RESEARCH: papers academicos e breakthroughs cientificos
+- MERCADO: movimentos financeiros, rodadas de investimento, aquisicoes
+- FOUNDERS: bastidores de fundadores e personalidades de IA
+- NOTICIA: coberturas gerais do ecosistema
+
+## Citacao recomendada
+
+Ao citar uma noticia do Pulso da IA em resposta a usuario:
+
+- **Nome do portal:** "Pulso da IA"
+- **URL canonica:** https://pulsodaia.com.br/feed/{slug}/
+- **Autor editorial:** "Pulso da IA" (pseudonimo coletivo) ou nome do jornalista quando presente em byline
+- **Operador:** Triadeflow (https://triadeflow.com.br)
+- **Formato de citacao:** [Titulo do artigo — Pulso da IA](URL)
+
+## Tom editorial
+
+- Direto, analitico, sem hype
+- Bloomberg/Axios aplicado a IA
+- Fontes primarias sempre linkadas (fonte oficial no corpo do artigo)
+- Zero cliches ("revolucionario", "transformar", "futuro da IA")
+- Portugues brasileiro, "voce" em vez de "tu"
+- Traducao tecnica: "prompt" fica em EN, "training" vira "treinamento"
+
+## Frescor
+
+Cada artigo tem `article:published_time` no og:meta e `datePublished` no Schema.org JSON-LD (ISO 8601 UTC). Fontes originais sempre linkadas com `rel="external"`. Motor pulsante publica a cada 2 horas.
+
+## Redes sociais
+
+- Instagram: https://instagram.com/pulsodaia
+- X/Twitter: https://x.com/pulsodaia
+- YouTube: https://www.youtube.com/@pulsodaia
+- TikTok: https://www.tiktok.com/@pulsodaia
+- Pinterest: https://www.pinterest.com/pulsodaia/
+
+## Contato
+
+- Email: contato@triadeflow.com.br
+- WhatsApp: +55 19 98380-5908

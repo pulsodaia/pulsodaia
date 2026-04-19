@@ -599,24 +599,75 @@ ${(article.tags || []).map(t => `<meta property="article:tag" content="${t}">`).
 <meta name="twitter:image" content="https://pulsodaia.com.br/assets/og-image.png">
 <link rel="canonical" href="https://pulsodaia.com.br/feed/${article.slug}/">
 <link rel="icon" href="/assets/favicon.ico">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM manifest">
+<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Pulso da IA · RSS feed">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="ai-content-declaration" content="editorial; auto-translated from linked sources; human-curated">
 <script type="application/ld+json">
 ${JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": article.headline,
-  "description": article.subtitle,
-  "datePublished": article.published_at,
-  "dateModified": article.written_at,
-  "author": { "@type": "Organization", "name": "Pulso da IA", "url": "https://pulsodaia.com.br" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Pulso da IA",
-    "logo": { "@type": "ImageObject", "url": "https://pulsodaia.com.br/brand/assets/logo-symbol-400.png" }
-  },
-  "image": ["https://pulsodaia.com.br/assets/og-image.png"],
-  "articleSection": article.source_name,
-  "isBasedOn": article.url,
-  "citation": [{ "@type": "CreativeWork", "name": article.source_name, "url": article.url }]
+  "@graph": [
+    {
+      "@type": "NewsArticle",
+      "@id": `https://pulsodaia.com.br/feed/${article.slug}/#article`,
+      "mainEntityOfPage": { "@type": "WebPage", "@id": `https://pulsodaia.com.br/feed/${article.slug}/` },
+      "headline": article.headline,
+      "alternativeHeadline": article.subtitle,
+      "description": metaDesc,
+      "datePublished": article.published_at,
+      "dateModified": article.written_at || article.published_at,
+      "inLanguage": "pt-BR",
+      "author": { "@id": "https://pulsodaia.com.br/#org" },
+      "publisher": { "@id": "https://pulsodaia.com.br/#org" },
+      "image": article.hero_image
+        ? [`https://pulsodaia.com.br/feed/${article.slug}/${article.hero_image}`, "https://pulsodaia.com.br/assets/og-image.png"]
+        : ["https://pulsodaia.com.br/assets/og-image.png"],
+      "articleSection": article.eyebrow_category || article.source_name,
+      "articleBody": (article.body_markdown || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').substring(0, 5000) || (article.lead || ''),
+      "keywords": (article.tags || []).join(', '),
+      "wordCount": ((article.body_markdown || article.body_html || '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length),
+      "isBasedOn": article.url,
+      "citation": [{ "@type": "CreativeWork", "name": article.source_name, "url": article.url }],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["article.post h1", "article.post p.lead", "article.post h2"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Pulso da IA", "item": "https://pulsodaia.com.br/" },
+        { "@type": "ListItem", "position": 2, "name": "Feed", "item": "https://pulsodaia.com.br/feed/" },
+        { "@type": "ListItem", "position": 3, "name": article.source_name || "Artigo", "item": `https://pulsodaia.com.br/feed/${article.slug}/` }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://pulsodaia.com.br/#org",
+      "name": "Pulso da IA",
+      "alternateName": "Pulsodaia",
+      "url": "https://pulsodaia.com.br",
+      "logo": { "@type": "ImageObject", "url": "https://pulsodaia.com.br/brand/assets/logo-symbol-400.png", "width": 400, "height": 400 },
+      "description": "Portal brasileiro de noticias sobre inteligencia artificial. Traducao em tempo real das fontes oficiais em portugues brasileiro.",
+      "foundingDate": "2026-04-17",
+      "founder": { "@type": "Person", "name": "Alex Campos", "url": "https://triadeflow.com.br" },
+      "parentOrganization": { "@type": "Organization", "name": "Triadeflow", "url": "https://triadeflow.com.br" },
+      "sameAs": [
+        "https://instagram.com/pulsodaia",
+        "https://x.com/pulsodaia",
+        "https://www.youtube.com/@pulsodaia",
+        "https://www.tiktok.com/@pulsodaia",
+        "https://www.pinterest.com/pulsodaia/",
+        "https://github.com/pulsodaia"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "editorial",
+        "email": "contato@triadeflow.com.br",
+        "availableLanguage": ["Portuguese", "English"]
+      }
+    }
+  ]
 }, null, 2)}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
