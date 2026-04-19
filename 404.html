@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<!-- Consent Mode v2 (DEVE rodar antes do GTM) -->
+<script src="/assets/js/consent.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MXGJBNFB');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagina nao encontrada · Pulso da IA</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="A pagina que voce procura nao existe mais ou nunca existiu. Volta pra home ou feed.">
+<link rel="icon" href="/assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0A0A0A; color: #FAFAFA; font-family: 'Inter', sans-serif; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.wrap { max-width: 560px; text-align: center; }
+.mono { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 20px; }
+h1 { font-family: 'Fraunces', Georgia, serif; font-size: clamp(52px, 8vw, 80px); font-weight: 600; letter-spacing: -0.03em; line-height: 1; margin-bottom: 16px; }
+h1 .italic { font-style: italic; color: #FF5E1F; }
+.sub { font-family: 'Fraunces', serif; font-size: 22px; font-style: italic; color: rgba(255,255,255,0.6); line-height: 1.4; margin-bottom: 32px; }
+.path { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: rgba(255,255,255,0.4); background: rgba(255,255,255,0.04); padding: 12px 16px; border-radius: 8px; margin-bottom: 32px; word-break: break-all; }
+.actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.actions a { display: inline-flex; align-items: center; padding: 12px 24px; border-radius: 999px; font-size: 14px; font-weight: 500; text-decoration: none; transition: all .15s ease; }
+.primary { background: #FF5E1F; color: #FFFFFF; }
+.primary:hover { background: #E5501A; }
+.secondary { background: transparent; color: #FAFAFA; border: 1px solid rgba(255,255,255,0.25); }
+.secondary:hover { border-color: #FF5E1F; color: #FF5E1F; }
+.pulse-wave { margin-bottom: 32px; display: flex; justify-content: center; }
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXGJBNFB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="wrap">
+  <div class="pulse-wave">
+    <svg viewBox="0 0 120 40" width="120" height="40" fill="none">
+      <path d="M2 20 L20 20 L26 4 L34 36 L42 10 L52 32 L60 18 L68 26 L80 20 L100 20" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="106" cy="20" r="2" fill="#FF5E1F"/>
+      <circle cx="112" cy="20" r="2" fill="#FF5E1F" opacity="0.6"/>
+      <circle cx="118" cy="20" r="2" fill="#FF5E1F" opacity="0.3"/>
+    </svg>
+  </div>
+  <div class="mono">404 · Not Found</div>
+  <h1>Esta pagina <span class="italic">nao existe.</span></h1>
+  <p class="sub">Ou nunca existiu. Ou foi movida. Ou o pulso dessa IA parou.</p>
+  <div class="path" id="pathBox"></div>
+  <div class="actions">
+    <a href="/" class="primary" data-gtm-event="404_action" data-gtm-action="home">Voltar pra home</a>
+    <a href="/feed/" class="secondary" data-gtm-event="404_action" data-gtm-action="feed">Ir pro feed</a>
+    <a href="/contato/" class="secondary" data-gtm-event="404_action" data-gtm-action="contato">Avisar o time</a>
+  </div>
+</div>
+
+<script>
+// Pagina path atual
+document.getElementById('pathBox').textContent = 'pulsodaia.com.br' + location.pathname;
+// Dispara evento 404 no GA4 com path tentado
+(window.dataLayer = window.dataLayer || []).push({
+  event: 'page_not_found',
+  page_path: location.pathname,
+  page_referrer: document.referrer || '(direct)'
+});
+</script>
+<script defer src="/assets/js/tracking.js"></script>
+</body>
+</html>
