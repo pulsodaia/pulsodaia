@@ -108,20 +108,50 @@ Post completo pra LinkedIn. Estrutura:
 - Hashtags no final (5 a 8, todas minusculas, sem #IA generico)
 
 ===INSTAGRAM===
-Roteiro pra post de 3 cards (carrossel). Cada card em bloco separado com ---CARD N--- como titulo.
+Roteiro pra carrossel de 2 a 10 cards (decida baseado na complexidade):
+- 2 cards: breaking news simples (capa + CTA)
+- 3-5 cards: noticias padrao (capa + 1-3 corpo + CTA) ← maioria dos casos
+- 6-10 cards: analises profundas, listas, comparativos, timelines
 
----CARD 1 (CAPA)---
-Manchete de maximo 8 palavras (hook visual, Fraunces-style).
-Subtitulo de 1 linha explicando o assunto.
-Emoji laranja ou orange dot sugerido.
+Cada card em bloco ---CARD N (TIPO)---. Tipos disponiveis:
+- COVER: sempre o primeiro, manchete hook + subtitle (max 8 palavras title, 1 linha sub)
+- COVER_HERO: capa com destaque pra imagem do artigo (use se fonte tem imagem forte)
+- INSIGHT: texto corrido, 2-3 paragrafos curtos (max 350 chars total)
+- STAT: numero grande destacado + contexto (ex: "500M USD" + "rodada da OpenAI em 2026")
+- QUOTE: frase destaque entre aspas (max 180 chars) + autor/fonte
+- LIST: 3-5 bullets curtos (max 60 chars cada)
+- TIMELINE: 2-4 pontos numerados com data/momento (ex: "2023: GPT-4" / "2026: GPT-5")
+- COMPARISON: A vs B, duas colunas com 3-4 linhas cada
+- SOURCE: creditos da fonte original + URL canonica
+- CTA: sempre o ultimo, "Comenta ${CTA_KEYWORD}..."
+
+Formato estrito:
+
+---CARD 1 (COVER)---
+TITLE: Manchete hook de ate 8 palavras
+SUBTITLE: Frase de contexto em 1 linha
 
 ---CARD 2 (INSIGHT)---
-Texto principal do post: 2-3 paragrafos curtos com o que aconteceu e por que importa. Maximo 350 caracteres total.
+BODY: Texto corrido, 2-3 paragrafos curtos, max 350 chars
 
----CARD 3 (CTA)---
-Manchete: "${CTA_HOOK}"
-Texto: "Comenta ${CTA_KEYWORD} aqui no post e recebe na hora"
-Assinatura: "Pulso da IA - pulsodaia.com.br"
+---CARD 3 (STAT)---
+STAT: 500M USD
+LABEL: Rodada da OpenAI em 2026
+
+---CARD 4 (QUOTE)---
+QUOTE: "Frase destaque em aspas diretas"
+ATTRIBUTION: Nome, Cargo
+
+---CARD 5 (LIST)---
+ITEM: Primeiro ponto da lista
+ITEM: Segundo ponto
+ITEM: Terceiro ponto
+
+---CARD N (CTA)---
+TITLE: ${CTA_HOOK}
+INSTRUCTION: Comenta ${CTA_KEYWORD} aqui no post e recebe na hora
+
+Use 3-5 cards por padrao. Use 6-10 SOMENTE quando o artigo tem material pra tanto (analise profunda, comparativos, listas ricas). Nunca encha de cards vazios.
 
 ===INSTAGRAM_CAPTION===
 Legenda do post Instagram (texto abaixo dos cards). 3-5 linhas:
