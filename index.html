@@ -267,6 +267,46 @@
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
   }
 
+  /* ================= HEADER theme-aware (padrao site-wide, identico aos artigos e portal) ================= */
+  header.site { background: rgba(10,10,10,0.95); border-bottom: 1px solid rgba(255,255,255,0.08); position: sticky; top: 0; z-index: 50; backdrop-filter: blur(12px); }
+  header.site .nav { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 72px; display: flex; align-items: center; gap: 32px; }
+  header.site .brand { display: flex; align-items: center; gap: 10px; color: #FAFAFA; text-decoration: none; flex-shrink: 0; }
+  header.site .brand svg { width: 56px; height: 22px; }
+  header.site .brand .wm { font-size: 17px; font-weight: 400; letter-spacing: -0.01em; color: #FAFAFA; }
+  header.site .brand .wm .da { font-style: italic; color: rgba(255,255,255,0.55); }
+  header.site .brand .wm .ia { font-weight: 600; }
+  header.site .nav-links { display: flex; align-items: center; gap: 4px; flex: 1; }
+  header.site .nav-item { position: relative; }
+  header.site .nav-trigger, header.site .nav-direct { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; background: transparent; border: 0; font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; color: #FAFAFA; cursor: pointer; border-radius: 8px; transition: background .15s ease; text-decoration: none; line-height: 1.2; }
+  header.site .nav-trigger:hover, header.site .nav-direct:hover { background: rgba(255,255,255,0.08); color: #FAFAFA; }
+  header.site .nav-trigger .caret { transition: transform .2s ease; color: rgba(255,255,255,0.55); }
+  header.site .nav-item:hover .nav-trigger .caret, header.site .nav-item:focus-within .nav-trigger .caret { transform: rotate(180deg); }
+  header.site .nav-dropdown { position: absolute; top: calc(100% + 8px); left: 0; min-width: 520px; background: #1A1A1A; border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; box-shadow: 0 12px 32px rgba(0,0,0,0.5); padding: 20px 24px; opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity .18s ease, transform .18s ease, visibility 0s linear .18s; z-index: 100; }
+  header.site .nav-item:hover .nav-dropdown, header.site .nav-item:focus-within .nav-dropdown { opacity: 1; visibility: visible; transform: translateY(0); transition: opacity .18s ease, transform .18s ease, visibility 0s; }
+  header.site .nav-dropdown-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  header.site .nav-col { display: flex; flex-direction: column; gap: 4px; }
+  header.site .nav-col-head { font-size: 11px; font-weight: 600; color: #FF5E1F; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; padding: 0 8px; }
+  header.site .nav-col a { display: block; padding: 8px 8px; font-size: 14px; color: rgba(255,255,255,0.85); font-weight: 400; border-radius: 6px; text-decoration: none; transition: background .15s ease; line-height: 1.3; }
+  header.site .nav-col a:hover { background: rgba(255,255,255,0.06); color: #FF5E1F; }
+  header.site .nav-right { display: flex; align-items: center; gap: 16px; margin-left: auto; flex-shrink: 0; }
+  header.site .nav-cta { display: inline-flex; align-items: center; padding: 8px 20px; background: transparent; color: #FAFAFA; font-size: 14px; font-weight: 500; border: 1px solid rgba(255,255,255,0.25); border-radius: 999px; transition: all .15s ease; text-decoration: none; line-height: 1.2; }
+  header.site .nav-cta:hover { background: #FF5E1F; color: #FFFFFF; border-color: #FF5E1F; }
+  header.site .nav-lang { font-size: 13px; color: rgba(255,255,255,0.65); font-weight: 500; padding: 6px 10px; border-radius: 6px; cursor: default; }
+  [data-theme="light"] header.site { background: #FFFFFF; border-bottom: 1px solid rgba(0,0,0,0.08); backdrop-filter: none; }
+  [data-theme="light"] header.site .brand, [data-theme="light"] header.site .brand .wm { color: #1a1a1a; }
+  [data-theme="light"] header.site .brand .wm .da { color: rgba(26,26,26,0.55); }
+  [data-theme="light"] header.site .nav-trigger, [data-theme="light"] header.site .nav-direct { color: #1a1a1a; }
+  [data-theme="light"] header.site .nav-trigger:hover, [data-theme="light"] header.site .nav-direct:hover { background: rgba(0,0,0,0.06); color: #1a1a1a; }
+  [data-theme="light"] header.site .nav-trigger .caret { color: rgba(26,26,26,0.55); }
+  [data-theme="light"] header.site .nav-dropdown { background: #FFFFFF; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+  [data-theme="light"] header.site .nav-col-head { color: rgba(26,26,26,0.5); }
+  [data-theme="light"] header.site .nav-col a { color: #1a1a1a; }
+  [data-theme="light"] header.site .nav-col a:hover { background: rgba(0,0,0,0.05); color: #1a1a1a; }
+  [data-theme="light"] header.site .nav-cta { color: #1a1a1a; border: 1px solid rgba(26,26,26,0.25); }
+  [data-theme="light"] header.site .nav-cta:hover { background: #1a1a1a; color: #FFFFFF; border-color: #1a1a1a; }
+  [data-theme="light"] header.site .nav-lang { color: rgba(26,26,26,0.65); }
+  @media (max-width: 960px) { header.site .nav { padding: 0 20px; gap: 16px; } header.site .nav-links { display: none; } header.site .nav-lang { display: none; } header.site .nav-cta { padding: 7px 14px; font-size: 13px; } }
+
   /* ================= FOOTER PADRAO (identico aos artigos e portal feed) ================= */
   .newsletter-block { background: #0E0E0E; border-top: 1px solid rgba(255,255,255,0.08); padding: 72px 0 56px; scroll-margin-top: 80px; }
   .newsletter-block .nlc { max-width: 640px; margin: 0 auto; padding: 0 24px; text-align: center; color: #FAFAFA; }
@@ -318,6 +358,44 @@
 </style>
 </head>
 <body x-data="skillsApp()" x-init="init()">
+
+<!-- HEADER PADRAO site-wide (identico blog.google em light, brand em dark) -->
+<header class="site">
+  <div class="nav">
+    <a href="/" class="brand">
+      <svg viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
+      <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Principal">
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Inovacao & IA <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
+          <div class="nav-col"><div class="nav-col-head">Categorias</div><a href="/feed/?c=lancamento">Lancamentos</a><a href="/feed/?c=analise">Analises</a><a href="/feed/?c=research">Research</a><a href="/feed/?c=mercado">Mercado</a><a href="/feed/?c=founders">Founders</a></div>
+          <div class="nav-col"><div class="nav-col-head">Formatos</div><a href="/feed/">Feed completo</a><a href="/rss.xml">RSS</a><a href="#newsletter-bottom">Pulso Semanal</a></div>
+        </div></div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Empresas <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
+          <div class="nav-col"><div class="nav-col-head">Modelos</div><a href="/feed/?q=openai">OpenAI</a><a href="/feed/?q=anthropic">Anthropic</a><a href="/feed/?q=google">Google DeepMind</a><a href="/feed/?q=meta">Meta AI</a><a href="/feed/?q=mistral">Mistral</a></div>
+          <div class="nav-col"><div class="nav-col-head">Ecossistema</div><a href="/feed/?q=huggingface">HuggingFace</a><a href="/feed/?q=nvidia">NVIDIA</a><a href="/feed/?q=xai">xAI</a><a href="/feed/?q=cohere">Cohere</a></div>
+        </div></div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Novidades <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
+          <div class="nav-col"><div class="nav-col-head">Mercado</div><a href="/feed/?c=mercado">Movimentos</a><a href="/feed/?q=funding">Rodadas de investimento</a><a href="/feed/?q=regulacao">Regulacao</a></div>
+          <div class="nav-col"><div class="nav-col-head">Institucional</div><a href="/sobre/">Sobre o Pulso</a><a href="/contato/">Contato</a></div>
+        </div></div>
+      </div>
+      <a href="/feed/" class="nav-direct">Feed</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#newsletter-bottom" class="nav-cta">Assinar</a>
+      <div class="nav-lang" aria-label="Idioma">PT-BR</div>
+    </div>
+  </div>
+</header>
 
 <!-- HERO -->
 <section class="hero-bg noise relative overflow-hidden" style="background: radial-gradient(ellipse at top, #0A0A0A 0%, #1A1A1A 60%, #050505 100%); color: #fff;">
