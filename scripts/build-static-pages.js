@@ -126,7 +126,7 @@ const SOBRE = {
 </ul>
 
 <h2>Por tras</h2>
-<p><strong>Alex Campos</strong> conduz o editorial. Fundador da <a href="https://triadeflow.com.br" target="_blank" rel="noopener">Triadeflow</a>, consultoria de implantacao de processo comercial B2B com IA. 30+ projetos em producao usando IA real, nao demonstracao. <a href="https://instagram.com/triadeflow" target="_blank" rel="noopener">@triadeflow</a> no Instagram.</p>
+<p><strong>Alex Campos</strong> conduz o editorial. Fundador da <a href="https://triadeflow.com.br" target="_blank" rel="noopener">Triadeflow</a>, consultoria de implantacao de processo comercial B2B com IA. 30+ projetos em producao usando IA real, nao demonstracao. No Instagram: <a href="https://instagram.com/alexcamposcrm" target="_blank" rel="noopener">@alexcamposcrm</a>.</p>
 
 <h2>Quer contribuir?</h2>
 <p>Esta cobrindo IA em portugues e quer ter seu conteudo citado aqui? <a href="/contato/">Manda mensagem</a>. Boas coberturas originais viram referencia no Pulso da IA.</p>
