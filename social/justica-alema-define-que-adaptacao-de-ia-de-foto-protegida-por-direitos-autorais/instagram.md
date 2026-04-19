@@ -19,7 +19,7 @@ Isso abre um precedente importante para o uso de IA na criação de conteúdo de
 
 ---CARD 3 (CTA)---
 Quer a biblioteca completa?
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Pulso da IA - pulsodaia.com.br
 
 ---
@@ -30,7 +30,7 @@ Justiça alemã define limites para IA e direitos autorais.
 Uma decisão recente aponta que adaptações de fotos por IA, focando apenas no motivo, podem não configurar violação de direitos autorais. A corte alemã analisou a expressão original da obra.
 
 Entenda as implicações para criadores e o futuro do conteúdo derivado.
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 
 direitosausoria inteligênciaartificial iaalemã propriedadeintelectual criatividade iaGenerativa conteúdo derivado

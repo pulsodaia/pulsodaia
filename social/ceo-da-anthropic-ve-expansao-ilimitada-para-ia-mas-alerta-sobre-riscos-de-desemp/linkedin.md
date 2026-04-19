@@ -17,7 +17,7 @@ A proposta é clara: os benefícios gerados pela IA devem ser substanciais o suf
 Essa discussão é crucial para o Brasil, onde a IA já começa a impactar diversos setores. A capacidade de gerar eficiência e valor só tende a aumentar.
 
 Saiba mais: https://pulsodaia.com.br/feed/ceo-da-anthropic-ve-expansao-ilimitada-para-ia-mas-alerta-sobre-riscos-de-desemp/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 ceoanthropic, inteligenartificial, mercado-de-trabalho, automacao, disrupcao, riscos-ia
 

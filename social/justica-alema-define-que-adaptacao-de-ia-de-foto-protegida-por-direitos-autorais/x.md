@@ -10,7 +10,7 @@ Justiça alemã: IA que adapta foto em estilo quadrinhos não viola direitos aut
 Isso importa para o Brasil. A decisão sinaliza uma tendência interpretativa sobre o uso de IA na criação de conteúdo derivado, distinguindo inspiração de cópia.
 
 Saiba mais e entenda as implicações: https://pulsodaia.com.br/feed/justica-alema-define-que-adaptacao-de-ia-de-foto-protegida-por-direitos-autorais/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 ---TWEET 1---
 Justiça alemã: IA que adapta foto em estilo quadrinhos não viola direitos autorais se copiar só o motivo. A corte focou na expressão original da obra.
 
@@ -19,7 +19,7 @@ Isso importa para o Brasil. A decisão sinaliza uma tendência interpretativa so
 
 ---TWEET 3---
 Saiba mais e entenda as implicações: https://pulsodaia.com.br/feed/justica-alema-define-que-adaptacao-de-ia-de-foto-protegida-por-direitos-autorais/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 ---
 

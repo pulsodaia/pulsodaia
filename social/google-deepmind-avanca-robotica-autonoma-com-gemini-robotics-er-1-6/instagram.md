@@ -20,7 +20,7 @@ No Brasil, a robótica autônoma tem potencial para otimizar manufatura, logíst
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -30,7 +30,7 @@ Assinatura: Pulso da IA - pulsodaia.com.br
 Robôs entendem o mundo 3D.
 O Google DeepMind apresentou o Gemini Robotics ER 1.6, que aprimora o raciocínio espacial e a compreensão multi-visão de robôs, permitindo operação autônoma em cenários reais. Isso é um passo importante para a robótica no Brasil.
 
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 
 robótica inteligênciaartificial googledeepmind avançostecnologia IApararobôs

@@ -21,7 +21,7 @@ Este avanço é um indicador importante do progresso da Tesla em testes com veí
 
 ---CARD 3 (CTA)---
 Quer a biblioteca completa?
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Pulso da IA - pulsodaia.com.br
 
 ---
@@ -34,7 +34,7 @@ A montadora confirmou a expansão do seu serviço de robotáxi para Dallas e Hou
 
 Saiba mais sobre o impacto dessa expansão: https://pulsodaia.com.br/feed/tesla-expande-servico-de-robotaxi-para-dallas-e-houston/
 
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 
 #teslarobotaxi #veiculosemautorista #mobilidadeautonoma #tecnologiadadirecao #inovacaoautomotiva #pulsodaia #dallastexas #houstontx

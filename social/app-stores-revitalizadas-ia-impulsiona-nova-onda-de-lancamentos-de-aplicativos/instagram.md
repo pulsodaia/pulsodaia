@@ -17,7 +17,7 @@ Lojas de aplicativos registram aumento expressivo de lançamentos em 2026. Ferra
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -26,7 +26,7 @@ Assinatura: Pulso da IA - pulsodaia.com.br
 
 Apps voltaram com tudo.
 A inteligência artificial está injetando um novo fôlego no mercado de software para dispositivos móveis. Novas ferramentas simplificam o desenvolvimento, permitindo uma nova onda de lançamentos.
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 appstores, inteligenciaartificial, desenvolvimento, inovacao, mercadoapps, tecnologia, apps
 

@@ -20,7 +20,7 @@ Isso levanta debates sobre o uso crescente de IA no Brasil. A facilidade em obte
 
 ---CARD 3 (CTA)---
 Quer a biblioteca completa?
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Pulso da IA - pulsodaia.com.br
 
 ---
@@ -33,7 +33,7 @@ Uma nova pesquisa revela que interações curtas com assistentes de IA para obte
 
 Descubra o que isso significa para você e para o mercado brasileiro.
 
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 
 #analiseia #cognicao #aprendizado #desenvolvimentohumano #tecnologia #pesquisa #inteligenciaartificial #habilidadescognitivas

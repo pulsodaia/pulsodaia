@@ -15,7 +15,7 @@ O foco parece migrar para ferramentas de desenvolvimento de código e a expansã
 Para o mercado brasileiro, isso significa um olhar atento para como a OpenAI moldará soluções para negócios e programação.
 
 Saiba mais: https://pulsodaia.com.br/feed/openai-perde-tres-executivos-em-reestruturacao-focada-em-codigo-e-empresas/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 openai, ia, tecnologia, desenvolvimento, empresas, mercado corporativo, reestruturacao
 

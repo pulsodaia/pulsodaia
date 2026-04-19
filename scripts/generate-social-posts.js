@@ -26,9 +26,12 @@ const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash-lite';
 const GEMINI_DELAY_MS = 5000;
 
 // CTA padrao ajustavel via env
-const CTA_WHATSAPP = process.env.CTA_WHATSAPP || '+55 19 98380-5908';
 const CTA_KEYWORD = process.env.CTA_KEYWORD || 'PULSE';
-const CTA_PROMISE = process.env.CTA_PROMISE || 'receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.';
+const CTA_HOOK = process.env.CTA_HOOK || 'Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA?';
+const CTA_ACTION = process.env.CTA_ACTION || `Comenta ${CTA_KEYWORD} e receba agora mesmo`;
+// Compat (scripts antigos ainda podem usar estes)
+const CTA_WHATSAPP = process.env.CTA_WHATSAPP || '+55 19 98380-5908';
+const CTA_PROMISE = `${CTA_HOOK} ${CTA_ACTION}.`;
 
 if (!fs.existsSync(SOCIAL_DIR)) fs.mkdirSync(SOCIAL_DIR, { recursive: true });
 
@@ -86,7 +89,9 @@ REGRAS INVIOLAVEIS:
 1. ZERO TRAVESSAO (nada de "—"). Use virgula, ponto, parenteses ou "e".
 2. ZERO cliches: "revolucionario", "transformar", "futuro da IA", "game-changer", "na era da IA", "sinergia", "ecossistema", "jornada".
 3. PT-BR brasileiro, "voce" (nao "tu").
-4. CTA sempre presente: "Digite ${CTA_KEYWORD} no WhatsApp ${CTA_WHATSAPP} e ${CTA_PROMISE}"
+4. CTA sempre presente com esta estrutura (usa EXATAMENTE essas palavras, reformule o hook se repetir com o artigo):
+   Pergunta + "Comenta ${CTA_KEYWORD} e receba agora mesmo."
+   Exemplo oficial: "Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta ${CTA_KEYWORD} e receba agora mesmo."
 5. Nunca inventar numeros ou fatos que nao estejam no artigo fonte.
 6. Link pro artigo sempre incluido: ${articleUrl}
 
@@ -98,7 +103,7 @@ Post completo pra LinkedIn. Estrutura:
 - Linha em branco
 - 3 a 5 paragrafos curtos (1-3 linhas cada) contando o que aconteceu e por que importa
 - Linha em branco
-- CTA em 2 linhas: link pro artigo + CTA da biblioteca
+- CTA em 2 linhas: link pro artigo + "Comenta ${CTA_KEYWORD} e receba nossas 300+ skills + novidades de IA"
 - Hashtags no final (5 a 8, todas minusculas, sem #IA generico)
 
 ===INSTAGRAM===
@@ -113,15 +118,15 @@ Emoji laranja ou orange dot sugerido.
 Texto principal do post: 2-3 paragrafos curtos com o que aconteceu e por que importa. Maximo 350 caracteres total.
 
 ---CARD 3 (CTA)---
-Manchete: "Quer a biblioteca completa?"
-Texto: "Digite ${CTA_KEYWORD} no WhatsApp ${CTA_WHATSAPP} e ${CTA_PROMISE}"
+Manchete: "${CTA_HOOK}"
+Texto: "Comenta ${CTA_KEYWORD} aqui no post e recebe na hora"
 Assinatura: "Pulso da IA - pulsodaia.com.br"
 
 ===INSTAGRAM_CAPTION===
 Legenda do post Instagram (texto abaixo dos cards). 3-5 linhas:
 - Linha 1: hook curto
 - 2-3 linhas: contexto do artigo
-- CTA: "Digite ${CTA_KEYWORD} no WhatsApp ${CTA_WHATSAPP} e ${CTA_PROMISE}"
+- CTA: "${CTA_HOOK} Comenta ${CTA_KEYWORD} e recebe na hora."
 - Link na bio: pulsodaia.com.br
 - 6 a 10 hashtags no final
 

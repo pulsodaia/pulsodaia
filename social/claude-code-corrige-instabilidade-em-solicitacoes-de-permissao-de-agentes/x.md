@@ -11,7 +11,7 @@ Agentes de IA travavam ao pedir permissão para ferramentas. A versão v2.1.114 
 Essa correção é vital para o mercado de IA no Brasil. Sistemas complexos dependem de interações estáveis entre agentes. Um travamento em permissões pode parar automações inteiras.
 
 ---TWEET 3---
-Quer a biblioteca completa? Digite PULSE no WhatsApp +55 19 98380-5908 e receba mais de 2 mil skills de IA. Leia mais: https://pulsodaia.com.br/feed/claude-code-corrige-instabilidade-em-solicitacoes-de-permissao-de-agentes/
+Quer a biblioteca completa? Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 ---
 

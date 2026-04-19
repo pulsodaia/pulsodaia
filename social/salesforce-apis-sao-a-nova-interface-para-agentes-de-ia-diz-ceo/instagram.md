@@ -18,7 +18,7 @@ Marc Benioff, CEO da Salesforce, afirma que APIs substituem interfaces de usuár
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -27,7 +27,7 @@ Assinatura: Pulso da IA - pulsodaia.com.br
 
 APIs são a nova UI para IA.
 O CEO da Salesforce, Marc Benioff, acredita que as APIs se tornarão a principal forma de interação para agentes de IA, eliminando a necessidade de interfaces gráficas tradicionais. A mudança visa simplificar a automação dentro da plataforma.
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 salesforce, crm, inteligênciaartificial, apis, automaçãocomia, tecnologia, inovacao, business
 

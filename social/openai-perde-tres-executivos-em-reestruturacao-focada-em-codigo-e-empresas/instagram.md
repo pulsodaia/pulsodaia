@@ -18,7 +18,7 @@ A OpenAI perdeu três executivos em uma reestruturação interna. A mudança sin
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -29,7 +29,7 @@ OpenAI muda o foco.
 
 A gigante da IA está passando por uma reestruturação que resultou na saída de três executivos. As mudanças indicam um direcionamento para soluções de codificação e o mercado empresarial.
 
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 
 openai, inteligenciaartificial, tecnologia, inovacao, codificacao, mercadoempresarial, ia, desenvolvimento

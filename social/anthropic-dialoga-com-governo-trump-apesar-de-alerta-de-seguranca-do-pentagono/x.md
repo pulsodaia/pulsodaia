@@ -11,7 +11,7 @@ Anthropic conversa com governo Trump, apesar de alerta do Pentágono. Empresa de
 A designação pelo Pentágono aponta preocupações sobre segurança e confiabilidade. A persistência das conversas sugere esforço para mitigar riscos e navegar o ambiente regulatório. A dinâmica IA vs. segurança nacional se intensifica.
 
 ---TWEET 3---
-Quer entender as implicações? Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar. Leia mais: https://pulsodaia.com.br/feed/anthropic-dialoga-com-governo-trump-apesar-de-alerta-de-seguranca-do-pentagono/
+Quer entender as implicações? Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo. Leia mais: https://pulsodaia.com.br/feed/anthropic-dialoga-com-governo-trump-apesar-de-alerta-de-seguranca-do-pentagono/
 
 ---
 

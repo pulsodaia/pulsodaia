@@ -12,7 +12,7 @@ O aporte massivo em uma startup tão jovem aponta para uma corrida por sistemas 
 
 ---TWEET 3---
 Saiba mais sobre essa nova força em IA autônoma: https://pulsodaia.com.br/feed/startup-de-ia-autonoma-capta-us-500-milhoes-em-quatro-meses/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 ---
 

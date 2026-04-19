@@ -14,7 +14,7 @@ A estabilidade em plataformas de desenvolvimento de IA é essencial para o merca
 
 Esta correção pontual melhora a confiabilidade para quem constrói e orquestra sistemas de IA.
 
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 https://pulsodaia.com.br/feed/claude-code-corrige-instabilidade-em-solicitacoes-de-permissao-de-agentes/
 
 claude code, agentes de ia, desenvolvimento de ia, estabilidade, atualizacao, orquestracao de ia, anthropic

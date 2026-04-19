@@ -10,7 +10,7 @@ Cerebras Systems, gigante dos chips para IA, deu entrada com pedido de IPO. A mo
 A decisão vem após acordos com AWS e indicações de negociações com OpenAI. O movimento reflete a demanda crescente por hardware especializado em IA e a maturidade do setor.
 ---TWEET 3---
 Quer saber mais sobre o futuro do hardware de IA?
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link: https://pulsodaia.com.br/feed/cerebras-sinaliza-entrada-na-bolsa-de-valores-em-busca-de-capital-para-expansao-/
 
 ---

@@ -15,7 +15,7 @@ O uso dessas representações digitais levanta questões sobre a autenticidade e
 A origem dessa proliferação ainda é incerta, podendo ser desde iniciativas individuais até campanhas mais organizadas. O ex-presidente já utilizou conteúdo gerado por IA.
 
 Saiba mais: https://pulsodaia.com.br/feed/influenciadores-de-ia-inundam-redes-com-conteudo-pro-trump/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 influenciadoresvirtuais inteligenciartificial politicadigital manipulaçãodados midiaetica debatepublico
 

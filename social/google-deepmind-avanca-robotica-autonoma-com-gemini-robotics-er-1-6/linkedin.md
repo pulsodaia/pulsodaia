@@ -15,7 +15,7 @@ Esses avanços são cruciais para que robôs interpretem cenários complexos e t
 No Brasil, isso abre portas para otimizar setores como manufatura e logística, reduzindo custos e melhorando a produtividade. A adoção de robótica avançada se torna mais acessível.
 
 Saiba mais: https://pulsodaia.com.br/feed/google-deepmind-avanca-robotica-autonoma-com-gemini-robotics-er-1-6/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 robóticaautônoma googledeepmind inteligênciaartificial modelosdeia raciocínioespacial
 

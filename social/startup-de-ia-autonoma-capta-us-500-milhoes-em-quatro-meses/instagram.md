@@ -18,7 +18,7 @@ A Recursive Superintelligence, focada em IA autônoma, levantou US$ 500 milhões
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -27,7 +27,7 @@ Assinatura: Pulso da IA - pulsodaia.com.br
 
 IA Autônoma: $500 milhões em 4 meses.
 Uma nova força, a Recursive Superintelligence, com ex-pesquisadores de DeepMind e OpenAI, levantou um aporte expressivo em tempo recorde. A aposta é em sistemas que se aprimoram sozinhos.
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 #ia #inteligenciaartificial #startupia #deepmind #openai #venturecapital #tecnologia #inovacao
 

@@ -18,7 +18,7 @@ Meta planeja demitir cerca de 8.000 funcionários em maio, liberando capital par
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -27,7 +27,7 @@ Assinatura: Pulso da IA - pulsodaia.com.br
 
 Meta redimensiona quadro de funcionários.
 O gigante das redes sociais demitirá cerca de 8.000 pessoas para focar em infraestrutura de IA. Uma troca estratégica de mão de obra por poder computacional, impulsionada pela corrida tecnológica.
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 meta, inteligenciaartificial, mercado, tecnologia, infraestrutura, computacao, demissao, inovacao
 

@@ -15,7 +15,7 @@ A empresa fechou acordos recentes com Amazon Web Services (AWS) e há relatos de
 A entrada da Cerebras no mercado de capitais reflete a maturidade e o crescimento do setor de semicondutores para IA. Para o Brasil, isso pode significar acesso mais direto a tecnologias avançadas.
 
 Saiba mais: https://pulsodaia.com.br/feed/cerebras-sinaliza-entrada-na-bolsa-de-valores-em-busca-de-capital-para-expansao-/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 cerebras, ipo, hardwareia, semicondutores, amazonwebservices, openai, inteligenciartificial
 

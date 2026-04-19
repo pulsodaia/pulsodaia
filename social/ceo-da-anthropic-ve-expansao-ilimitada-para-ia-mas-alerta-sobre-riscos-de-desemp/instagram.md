@@ -19,7 +19,7 @@ Dario Amodei, líder da Anthropic, prevê crescimento contínuo para a inteligê
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -30,7 +30,7 @@ Expansão ilimitada da IA, mas com alerta sério.
 
 O CEO da Anthropic vê um futuro com crescimento contínuo para a inteligência artificial, mas destaca a necessidade de lidar com os riscos de desemprego. A indústria precisa garantir que os benefícios superem os impactos negativos.
 
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 
 inteligenciaartificial, ia, anthropic, desemprego, mercado-de-trabalho, automacao, futuro-tecnologia, inovacao

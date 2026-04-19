@@ -15,7 +15,7 @@ A IA simplifica e acelera o desenvolvimento, desde a concepção até os testes.
 Para o Brasil, isso significa uma chance de competir em um mercado mais aberto, impulsionando a inovação local.
 
 Saiba mais em: https://pulsodaia.com.br/feed/app-stores-revitalizadas-ia-impulsiona-nova-onda-de-lancamentos-de-aplicativos/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 appstores, desenvolvimento mobile, inteligencia artificial, mercado de apps, inovacao brasileira
 

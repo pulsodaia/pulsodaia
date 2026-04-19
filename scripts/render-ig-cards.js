@@ -21,8 +21,9 @@ const FG = '#FAFAFA';
 const ACCENT = '#FF5E1F';
 const CARD_SIZE = 1080;
 
-const CTA_WHATSAPP = process.env.CTA_WHATSAPP || '+55 19 98380-5908';
 const CTA_KEYWORD = process.env.CTA_KEYWORD || 'PULSE';
+const CTA_HOOK_1 = 'Quer 300+ skills';
+const CTA_HOOK_2 = 'de IA pra rodar?';
 
 function esc(s) {
   return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -130,12 +131,6 @@ function renderInsightSvg({ body, category, cardNum, totalCards }) {
 }
 
 function renderCtaSvg({ cardNum, totalCards }) {
-  const steps = [
-    { n: '1', text: `Abre o WhatsApp ${CTA_WHATSAPP}` },
-    { n: '2', text: `Digita ${CTA_KEYWORD}` },
-    { n: '3', text: 'Recebe 2 mil+ skills de IA' }
-  ];
-
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${CARD_SIZE}" height="${CARD_SIZE}" viewBox="0 0 ${CARD_SIZE} ${CARD_SIZE}">
     <defs>
       <linearGradient id="ctaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -152,15 +147,23 @@ function renderCtaSvg({ cardNum, totalCards }) {
       <circle cx="266" cy="20" r="3.5" fill="#ffffff" opacity="0.3"/>
       <text x="290" y="28" font-family="Georgia, serif" font-size="40" font-weight="400" fill="#ffffff">pulso<tspan font-style="italic" fill="#ffffffcc">da</tspan><tspan font-weight="700">IA</tspan></text>
     </g>
-    <text x="72" y="190" font-family="'Courier New', monospace" font-size="22" font-weight="700" letter-spacing="4" fill="#ffffff">BONUS</text>
-    <text x="72" y="380" font-family="Georgia, serif" font-size="88" font-weight="600" fill="${FG}" letter-spacing="-2">Quer a biblioteca</text>
-    <text x="72" y="478" font-family="Georgia, serif" font-size="88" font-weight="600" font-style="italic" fill="${ACCENT}" letter-spacing="-2">completa?</text>
-    ${steps.map((s, i) => `
-    <g transform="translate(72, ${600 + i * 100})">
-      <circle cx="30" cy="0" r="30" fill="${ACCENT}"/>
-      <text x="30" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="700" fill="${BG}">${s.n}</text>
-      <text x="90" y="12" font-family="Georgia, serif" font-size="34" fill="${FG}">${esc(s.text)}</text>
-    </g>`).join('')}
+    <text x="72" y="190" font-family="'Courier New', monospace" font-size="22" font-weight="700" letter-spacing="4" fill="#ffffff">BONUS GRATUITO</text>
+
+    <!-- Title principal -->
+    <text x="72" y="370" font-family="Georgia, serif" font-size="88" font-weight="600" fill="${FG}" letter-spacing="-2">${esc(CTA_HOOK_1)}</text>
+    <text x="72" y="468" font-family="Georgia, serif" font-size="88" font-weight="600" font-style="italic" fill="${ACCENT}" letter-spacing="-2">${esc(CTA_HOOK_2)}</text>
+
+    <!-- Subtitle -->
+    <text x="72" y="560" font-family="Georgia, serif" font-size="32" font-style="italic" fill="#ffffff99" letter-spacing="-0.5">+ novidades de IA toda semana no seu inbox</text>
+
+    <!-- Big CTA box -->
+    <rect x="72" y="640" width="${CARD_SIZE - 144}" height="180" rx="20" fill="${ACCENT}"/>
+    <text x="${CARD_SIZE / 2}" y="712" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="600" fill="${BG}">Comenta</text>
+    <text x="${CARD_SIZE / 2}" y="782" text-anchor="middle" font-family="Georgia, serif" font-size="88" font-weight="700" fill="${BG}" letter-spacing="4">${esc(CTA_KEYWORD)}</text>
+
+    <!-- Footer instruction -->
+    <text x="${CARD_SIZE / 2}" y="890" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#ffffffcc">aqui no post e recebe <tspan font-weight="700" fill="${FG}">na hora</tspan></text>
+
     <rect x="72" y="${CARD_SIZE - 120}" width="${CARD_SIZE - 144}" height="1" fill="#ffffff30"/>
     <text x="72" y="${CARD_SIZE - 70}" font-family="'Courier New', monospace" font-size="22" letter-spacing="2" fill="#ffffff80">PULSODAIA.COM.BR</text>
     <text x="${CARD_SIZE - 72}" y="${CARD_SIZE - 70}" text-anchor="end" font-family="'Courier New', monospace" font-size="22" letter-spacing="2" fill="${ACCENT}">${cardNum} / ${totalCards}</text>

@@ -19,7 +19,7 @@ A Anthropic lançou a v2.1.114 do Claude Code. A atualização resolve um proble
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -30,7 +30,7 @@ Agentes de IA paravam de funcionar.
 
 A nova versão do Claude Code (v2.1.114) conserta um bug que travava o sistema em solicitações de permissão entre agentes. Essencial para fluxos de trabalho de IA mais estáveis.
 
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 
 claude, ia, inteligenciaartificial, desenvolvimentoia, atualizacaoia, agentesia, techbrasil, pulsodaia

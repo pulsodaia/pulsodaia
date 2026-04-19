@@ -18,7 +18,7 @@ Produção de memória DRAM, essencial para IA, está defasada. Fabricantes esti
 
 ---CARD 3 (CTA)---
 Manchete: Quer a biblioteca completa?
-Texto: Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Texto: Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Assinatura: Pulso da IA - pulsodaia.com.br
 
 ---
@@ -27,7 +27,7 @@ Assinatura: Pulso da IA - pulsodaia.com.br
 
 Falta de chips de memória RAM para IA é uma realidade.
 A produção global não acompanha a demanda, com projeções indicando escassez até 2030. Isso impacta o desenvolvimento de novas tecnologias de IA.
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 ia, inteligênciaartificial, memoriaram, chips, tecnologia, mercado, brasil, pulsodaia, escassez, futuro
 

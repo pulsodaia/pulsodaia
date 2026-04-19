@@ -16,7 +16,7 @@ Ainda não compreendemos totalmente os efeitos a longo prazo dessa interação. 
 
 Acesse o artigo completo para entender os detalhes: https://pulsodaia.com.br/feed/dez-minutos-com-ia-podem-comprometer-habilidade-de-resolucao-de-problemas/
 
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 analiseia, cognicao, aprendizado, desenvolvimentohumano, tecnologia, pesquisa
 

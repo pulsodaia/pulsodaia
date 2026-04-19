@@ -12,7 +12,7 @@ https://pulsodaia.com.br/feed/dez-minutos-com-ia-podem-comprometer-habilidade-de
 Isso é crucial no Brasil, onde a IA é cada vez mais adotada. A facilidade em obter soluções prontas pode impactar o desenvolvimento de habilidades cognitivas essenciais a longo prazo. (2/3)
 
 ---TWEET 3---
-Entenda os detalhes e as implicações. Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar. (3/3)
+Entenda os detalhes e as implicações. Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo. (3/3)
 
 ---
 

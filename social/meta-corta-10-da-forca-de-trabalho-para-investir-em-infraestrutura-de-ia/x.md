@@ -14,7 +14,7 @@ Essa movimentação reflete a corrida global por capacidades avançadas de IA. A
 ---TWEET 3---
 Saiba mais sobre essa estratégia e suas implicações.
 https://pulsodaia.com.br/feed/meta-corta-10-da-forca-de-trabalho-para-investir-em-infraestrutura-de-ia/
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 
 ---
 

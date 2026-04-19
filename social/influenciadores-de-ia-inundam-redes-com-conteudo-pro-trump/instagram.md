@@ -18,7 +18,7 @@ Influenciadores virtuais criados por IA estão disseminando conteúdo pró-Trump
 
 ---CARD 3 (CTA)---
 Quer a biblioteca completa?
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Pulso da IA - pulsodaia.com.br
 
 ---
@@ -27,7 +27,7 @@ Pulso da IA - pulsodaia.com.br
 
 IA na política: uma nova frente de influência.
 Centenas de influenciadores virtuais criados por inteligência artificial estão inundando redes sociais com conteúdo pró-Trump. Essas contas acumulam milhares de seguidores e milhões de visualizações, um sinal da crescente aplicação de IA em campanhas políticas e o potencial de manipulação.
-Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Link na bio: pulsodaia.com.br
 
 inteligenciartificial politicadigital midiasociais avatares IAconteudo manipulaçãopolitica debatepublico midiaetica

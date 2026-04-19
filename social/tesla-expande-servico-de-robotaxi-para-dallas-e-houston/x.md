@@ -11,7 +11,7 @@ Tesla agora testa robotáxis em Dallas e Houston. A expansão do serviço autôn
 Este passo é um indicativo do avanço da Tesla em testes com veículos sem motorista. Para o Brasil, o desenvolvimento nos EUA serve como um indicador do ritmo de adoção de tecnologias de direção autônoma.
 
 ---TWEET 3---
-Quer ficar por dentro? Digite PULSE no WhatsApp +55 19 98380-5908 e receba nossa biblioteca com mais de 2 mil skills de IA prontas pra rodar.
+Quer ficar por dentro? Quer receber todas nossas mais de 300 skills e ficar por dentro de tudo que esta rolando no mundo da IA? Comenta PULSE e receba agora mesmo.
 Leia a notícia completa: https://pulsodaia.com.br/feed/tesla-expande-servico-de-robotaxi-para-dallas-e-houston/
 
 ---
