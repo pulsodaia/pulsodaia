@@ -134,15 +134,15 @@ function selectTopArticle() {
     try {
       const meta = JSON.parse(fs.readFileSync(path.join(SOCIAL_DIR, slug, 'meta.json'), 'utf8'));
       if (meta.veo_hero) continue; // ja tem Veo
-      const pubDate = new Date(meta.published_at || meta.written_at);
+      const pubDate = new Date(meta.generated_at || meta.published_at || meta.written_at);
       // Ultimas 48h apenas (hero deve ser fresco)
       if (today - pubDate > 48 * 3600 * 1000) continue;
       candidates.push({
         slug,
         score: meta.quality_score || 0.7,
-        headline: meta.headline || '',
-        lead: meta.lead || '',
-        category: meta.eyebrow_category || '',
+        headline: meta.article_headline || meta.headline || '',
+        lead: meta.article_lead || meta.lead || '',
+        category: meta.article_category || meta.eyebrow_category || '',
         meta_path: path.join(SOCIAL_DIR, slug, 'meta.json'),
         meta
       });
@@ -199,7 +199,6 @@ async function startVeoGeneration(veoPrompt, novaImagePath) {
       parameters: {
         aspectRatio: '9:16',
         personGeneration: 'allow_adult',
-        numberOfVideos: 1,
         durationSeconds: DURATION_SEC
       }
     }
@@ -255,7 +254,15 @@ async function main() {
     const metaPath = path.join(SOCIAL_DIR, args.slug, 'meta.json');
     if (!fs.existsSync(metaPath)) fatal(`Slug ${args.slug} sem meta.json`);
     const meta = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
-    article = { slug: args.slug, headline: meta.headline, lead: meta.lead, category: meta.eyebrow_category, meta_path: metaPath, meta, score: meta.quality_score };
+    article = {
+      slug: args.slug,
+      headline: meta.article_headline || meta.headline || '',
+      lead: meta.article_lead || meta.lead || '',
+      category: meta.article_category || meta.eyebrow_category || '',
+      meta_path: metaPath,
+      meta,
+      score: meta.quality_score || 0.7
+    };
   } else {
     article = selectTopArticle();
     if (!article) { log('Nenhum artigo elegivel (sem veo_hero, <48h).'); return; }
