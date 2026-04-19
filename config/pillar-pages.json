@@ -1,0 +1,283 @@
+[
+  {
+    "slug": "modelos-de-ia",
+    "title": "Modelos de IA: OpenAI, Anthropic, Google DeepMind, Meta e Mistral",
+    "lead": "Um guia atualizado dos principais modelos de IA que dominam o mercado em 2026, de GPT-5 a Claude Sonnet 4.7, Gemini e Llama, com comparativos de capacidade, preco e casos de uso pra times brasileiros.",
+    "description": "Guia completo sobre modelos de inteligencia artificial em 2026. OpenAI GPT-5, Anthropic Claude Sonnet 4.7, Google Gemini, Meta Llama, Mistral. Comparativo tecnico e casos de uso.",
+    "tags": ["modelos", "openai", "anthropic", "google", "meta", "mistral"],
+    "related_categories": ["LANCAMENTO", "ANALISE"],
+    "related_tags": ["openai", "anthropic", "google", "meta", "mistral"],
+    "sections": [
+      {
+        "h2": "O panorama de modelos em 2026",
+        "paragraphs": [
+          "Em abril de 2026, o mercado de modelos fundacionais de IA esta consolidado em tres grandes players comerciais (OpenAI, Anthropic, Google DeepMind) mais dois players open-source de peso (Meta com Llama e Mistral com sua familia open). Microsoft Copilot e Amazon Nova operam como camadas de distribuicao sobre OpenAI e Anthropic respectivamente.",
+          "A diferenca entre modelos nao esta mais so em benchmarks — agora a conversa esta em context window (Claude Opus 4.7 com 1M tokens), latencia de inferencia, custo por milhao de tokens, e capacidade de agent (tool use e computer use). Estes quatro vetores sao o que pesa na decisao tecnica de 2026."
+        ]
+      },
+      {
+        "h2": "OpenAI: GPT-5 e a familia O",
+        "paragraphs": [
+          "OpenAI mantem lideranca em marca mesmo com preco premium. GPT-5 (released em Q1 2026) entregou salto em reasoning multi-passo e reducao de alucinacoes em 40% vs GPT-4o. Modelos O3 e O4-mini seguem sendo a escolha pra tasks que exigem pensamento profundo.",
+          "No Brasil, ChatGPT tem 62% do mercado de LLMs consumer segundo dados recentes. Pra aplicacoes empresariais, a Azure OpenAI Service ainda domina entre enterprises grandes pela integracao com o stack Microsoft."
+        ]
+      },
+      {
+        "h2": "Anthropic: Claude Sonnet 4.7 e Opus 4.7",
+        "paragraphs": [
+          "Anthropic ganhou market share em 2025-2026 especialmente em coding (Claude Code) e em aplicacoes que exigem qualidade de writing em portugues. Claude Sonnet 4.7 (default) e o modelo mais cost-effective pra maioria dos casos em 2026.",
+          "Claude Opus 4.7 (1M context) domina em tasks de analise de documentacao extensa e em arquitetura de software. Claude Haiku 4.5 e o escolhido pra chatbots e automacao de alto volume."
+        ]
+      },
+      {
+        "h2": "Google DeepMind: Gemini 3.x",
+        "paragraphs": [
+          "Google DeepMind lancou Gemini 3.1 Flash TTS em Q2 2026, empurrando o estado-da-arte em text-to-speech. Gemini 3.1 Ultra e Pro cobrem use cases multimodais (imagem, video, audio) com qualidade comparavel a GPT-5.",
+          "Integracao nativa com Google Workspace (Docs, Gmail, Drive) e o diferencial pra times ja no ecosistema Google. Gemini via Vertex AI tambem domina no pricing por token em scale enterprise."
+        ]
+      },
+      {
+        "h2": "Meta e Mistral: open-source de peso",
+        "paragraphs": [
+          "Meta Llama 4 (anunciado em Q1 2026) empurrou o estado-da-arte open-weight. Pra times que precisam rodar on-premise por compliance (financeiro, saude, governo BR), Llama 4 eh a opcao com capacidade proxima dos modelos fechados.",
+          "Mistral entrega Mistral Large 3 e tem parceria com provedores cloud europeus e brasileiros (OCI, Azul Data). Pra fintechs brasileiras com necessidade de soberania de dados, Mistral tem ganho espaco."
+        ]
+      },
+      {
+        "h2": "Como escolher modelo em 2026",
+        "paragraphs": [
+          "Recomendacao pratica pra time brasileiro em 2026:",
+          "Producao B2C alto volume: Claude Haiku 4.5 ou GPT-5 mini (custo imbativel) — agente de atendimento, classificacao, geracao de texto curto. Producao B2B qualidade alta: Claude Sonnet 4.7 ou GPT-5 — analise, redacao longa, code review. Tarefas complexas de reasoning: Claude Opus 4.7 ou O3 — arquitetura, debugging, planning. Multimodal (imagem/video): Gemini 3.1 Pro ou GPT-5 Vision. Compliance on-prem: Llama 4 ou Mistral Large 3."
+        ]
+      }
+    ],
+    "faq": [
+      { "q": "Qual eh o melhor modelo de IA pra usar em 2026?", "a": "Nao existe 'melhor' universal. Em 2026 a escolha depende do caso de uso: Claude Sonnet 4.7 eh equilibrio custo/qualidade pra maioria, GPT-5 domina reasoning profundo, Gemini 3.1 lidera multimodal, e Llama 4 eh a melhor opcao open-source." },
+      { "q": "Claude eh melhor que ChatGPT?", "a": "Em tasks de coding e writing em portugues, Claude Sonnet 4.7 tem vantagem pequena consistente em benchmarks publicos de 2026. Em reasoning puro e uso de ferramentas, GPT-5 ainda lidera. Pra escolha empresarial, considere tambem preco, latencia e integracao com stack existente." },
+      { "q": "Vale a pena usar modelo open-source como Llama?", "a": "Sim, se voce precisa rodar on-premise, tem compliance estrito, ou custo de API eh inviavel pra seu volume. Llama 4 e Mistral Large 3 sao competitivos em qualidade com modelos fechados e permitem fine-tuning full." }
+    ]
+  },
+  {
+    "slug": "regulacao-ia-brasil",
+    "title": "Regulacao de IA no Brasil: Marco Legal, LGPD e o que esta mudando em 2026",
+    "lead": "O estado da regulamentacao de inteligencia artificial no Brasil em 2026: Marco Legal da IA (PL 2338), acoes da ANPD, comparativos com EU AI Act e impacto pra empresas que operam com IA no pais.",
+    "description": "Regulacao de IA no Brasil 2026. Marco Legal da IA (PL 2338), LGPD para IA, diretrizes ANPD. Comparativo com EU AI Act. Guia pra empresas.",
+    "tags": ["regulacao", "brasil", "lgpd", "marco-legal-ia", "anpd"],
+    "related_categories": ["MERCADO", "NOTICIA"],
+    "related_tags": ["regulacao", "brasil", "lgpd"],
+    "sections": [
+      {
+        "h2": "Estado da regulacao em abril de 2026",
+        "paragraphs": [
+          "O Marco Legal da IA (PL 2338/2023) foi aprovado no Congresso brasileiro em outubro de 2025 e entra em vigor gradualmente em 2026-2027. Traz obrigacoes especificas pra sistemas de alto risco (credito, RH, saude publica, seguranca publica), que precisam de avaliacao de impacto previa e supervisao humana significativa.",
+          "A ANPD (Autoridade Nacional de Protecao de Dados) assumiu papel central na regulacao pratica de IA via aplicacao da LGPD. Em 2025 publicou diretrizes especificas sobre decisoes automatizadas, direitos do titular em sistemas de IA e requisitos de explicabilidade."
+        ]
+      },
+      {
+        "h2": "Comparativo com EU AI Act e outras jurisdicoes",
+        "paragraphs": [
+          "O Marco Legal BR eh mais leve que o EU AI Act em termos de requisitos pra modelos fundacionais, mas traz obrigacoes similares pra sistemas de alto risco. A principal diferenca: na UE, modelos fundacionais com mais de 10^25 FLOPs tem requisitos adicionais (transparencia de dados de treino, avaliacoes de risco sistemico). No Brasil, essa categoria ainda esta em discussao regulatoria.",
+          "Reino Unido e EUA seguem com abordagem mais pragmatica (sem lei unica de IA ate 2026). China tem aproximacao vertical por setor. Brasil se posiciona no meio — framework amplo mas menos detalhado que UE."
+        ]
+      },
+      {
+        "h2": "Impacto pra empresas que operam com IA no Brasil",
+        "paragraphs": [
+          "Empresas que usam IA pra decisoes com impacto relevante em pessoas (credito, emprego, saude, justica) precisam: (1) fazer avaliacao de impacto antes de deploy, (2) garantir explicabilidade das decisoes, (3) ter canal de contestacao humana, (4) registrar o sistema em cadastro publico (se alto risco).",
+          "Na pratica, startups brasileiras que usam LLMs fechados (GPT, Claude, Gemini) recaem em obrigacoes moderadas — precisam declarar uso, mitigar riscos conhecidos e ter politica de governanca. Fintechs ja cumprem parte desses requisitos via Open Finance e LGPD."
+        ]
+      },
+      {
+        "h2": "O que esperar ate 2027",
+        "paragraphs": [
+          "Regulamentacao infralegal (decretos ANPD, atos do novo orgao supervisor de IA) vai detalhar o que esta no PL 2338. Temas sensiveis que ainda vao ser definidos: direitos de autor em treino de modelos (ainda judicializado), regime especifico pra sistemas de reconhecimento facial em espacos publicos, e requisitos pra modelos open-source distribuidos.",
+          "Conselho Nacional de Justica (CNJ) publicou em 2025 Resolucao 332 atualizada, definindo regras pra uso de IA generativa em decisoes judiciais. Setor publico eh onde regulacao esta mais detalhada."
+        ]
+      }
+    ],
+    "faq": [
+      { "q": "Qual eh a lei de IA no Brasil?", "a": "O Marco Legal da Inteligencia Artificial (PL 2338/2023), aprovado em outubro de 2025 e com vigencia gradual em 2026-2027. Estabelece categorias de risco e obrigacoes especificas pra sistemas de alto risco." },
+      { "q": "LGPD se aplica a sistemas de IA?", "a": "Sim. A LGPD regula qualquer tratamento de dados pessoais, incluindo em sistemas de IA. A ANPD publicou diretrizes especificas sobre decisoes automatizadas, direito a explicacao e requisitos de transparencia." },
+      { "q": "Minha empresa pequena precisa se preocupar?", "a": "Se voce usa IA pra decisoes com impacto em pessoas (credito, contratacao, diagnostico), sim. Se uso eh interno e baixo impacto (produtividade de texto, codigo), as obrigacoes sao minimas — mas LGPD sempre se aplica pra dados pessoais tratados." }
+    ]
+  },
+  {
+    "slug": "ferramentas-de-ia",
+    "title": "Ferramentas de IA que todo profissional brasileiro deveria conhecer em 2026",
+    "lead": "Guia pratico das ferramentas de IA mais uteis em 2026 pra profissionais brasileiros: ChatGPT, Claude, Perplexity, Gemini, Cursor, Copilot e alternativas brasileiras que merecem atencao.",
+    "description": "Ferramentas de IA essenciais em 2026. ChatGPT, Claude, Perplexity, Gemini, Cursor, GitHub Copilot. Comparativo pratico e recomendacoes por profissao.",
+    "tags": ["ferramentas", "chatgpt", "claude", "perplexity", "gemini", "cursor"],
+    "related_categories": ["ANALISE", "LANCAMENTO"],
+    "related_tags": ["openai", "anthropic", "google", "ferramentas"],
+    "sections": [
+      {
+        "h2": "Categorias de ferramentas em 2026",
+        "paragraphs": [
+          "As ferramentas de IA se dividem em 5 categorias principais em 2026: (1) assistentes conversacionais generalistas (ChatGPT, Claude, Gemini), (2) ferramentas de busca AI-first (Perplexity, Phind, You.com), (3) IDEs e coding assistants (Cursor, GitHub Copilot, Claude Code, Windsurf), (4) ferramentas de criacao (Midjourney, DALL-E, Runway, Suno), (5) agentes e automacao (AutoGPT, CrewAI, Claude Agent SDK).",
+          "Pra time brasileiro, a recomendacao pratica eh rodar 2-3 generalistas em paralelo (ChatGPT + Claude + Perplexity) + 1 IDE assistant especifico pro stack do time."
+        ]
+      },
+      {
+        "h2": "Os 3 assistentes que todo profissional usa",
+        "paragraphs": [
+          "**ChatGPT Plus ($20/mes):** ainda eh o mais reconhecido no Brasil. Bom pra brainstorming, writing, explicacoes didaticas. Tem GPTs customizados e web search integrado.",
+          "**Claude Pro ($20/mes):** qualidade superior em redacao em portugues e em tasks de analise longa (ate 1M tokens context em Opus 4.7). Claude Projects eh excelente pra contextualizar trabalho recorrente.",
+          "**Perplexity Pro ($20/mes):** busca AI que sempre cita fontes. Substitui Google pra pesquisa rapida de fatos e referencias. Pages feature permite criar paginas publicas pesquisaveis."
+        ]
+      },
+      {
+        "h2": "Coding: Cursor vs Copilot vs Claude Code",
+        "paragraphs": [
+          "**Cursor ($20/mes):** fork do VS Code focado em IA. Melhor experiencia de autocompletar e edicao contextual em 2026. Domina em workflow de edicao rapida.",
+          "**GitHub Copilot ($10/mes):** integrado com VS Code, JetBrains, etc. Mais barato mas interface menos inovadora. Bom pra timers que nao querem trocar de IDE.",
+          "**Claude Code (CLI, $20/mes via Claude Pro):** o diferente — opera em terminal. Excelente pra tasks de longa duracao autonomas (setup de projeto, refatoracao ampla, analise de codebase inteira). Pulso da IA eh gerado com Claude Code."
+        ]
+      },
+      {
+        "h2": "Alternativas brasileiras que valem atencao",
+        "paragraphs": [
+          "**Mentes AI, Lexa IA, Maritaca:** startups brasileiras com produtos especificos (voz, conversacao em portugues, modelos treinados em BR). Ecosistema ainda cedo mas crescendo.",
+          "**Triadeflow (triadeflow.com.br):** consultoria brasileira especializada em implantacao de processo comercial B2B com IA (WhatsApp, CRM, voz)."
+        ]
+      }
+    ],
+    "faq": [
+      { "q": "Qual a melhor IA pra usar no trabalho?", "a": "Em 2026, a recomendacao pratica eh combinar Claude Pro (writing e analise), ChatGPT Plus (brainstorming e versatilidade) e Perplexity Pro (pesquisa com fontes). Pra coding, adicionar Cursor ou Claude Code." },
+      { "q": "Vale pagar tres assinaturas de IA?", "a": "Se voce usa IA profissionalmente 2+ horas por dia, vale — cada ferramenta tem forca especifica. Se uso eh esporadico, uma so (Claude ou ChatGPT) resolve 80% dos casos. Perplexity eh complemento gratuito util ate no plano free." },
+      { "q": "Existe alternativa brasileira boa?", "a": "Startups como Maritaca AI tem modelos treinados especificamente pra portugues, mas a qualidade ainda esta abaixo dos grandes (Claude, GPT, Gemini) em uso geral. Pra casos especificos (portugues regional, compliance), podem valer." }
+    ]
+  },
+  {
+    "slug": "ia-no-trabalho",
+    "title": "Como a IA esta mudando o trabalho no Brasil em 2026",
+    "lead": "Impacto real da IA no mercado de trabalho brasileiro: que profissoes estao mudando, quais sao as habilidades novas em demanda, e o que esta acontecendo com salarios em roles tech e nao-tech.",
+    "description": "IA no mercado de trabalho brasileiro em 2026. Profissoes em transformacao, novas habilidades em demanda, impacto em salarios tech. Dados atualizados.",
+    "tags": ["trabalho", "mercado", "profissoes", "brasil", "salarios"],
+    "related_categories": ["MERCADO", "ANALISE"],
+    "related_tags": ["mercado", "brasil", "trabalho"],
+    "sections": [
+      {
+        "h2": "O que mudou em 2 anos",
+        "paragraphs": [
+          "Entre 2024 e 2026, o impacto da IA generativa no trabalho deixou de ser previsao e passou a ser dado. Funcoes de nivel junior em customer support, copywriting basico, analise de dados elementar e alguma programacao repetitiva foram significativamente reduzidas ou reformatadas em praticamente todas empresas mid-to-large no Brasil.",
+          "Paralelamente, novas funcoes emergiram: AI Product Manager, LLM Engineer, Prompt Engineer (em declinio mas ainda existe), Agent Architect, AI QA Specialist. Estes papers sao criados pelo mercado — ainda nao ha formacao formal suficiente no Brasil."
+        ]
+      },
+      {
+        "h2": "Profissoes mais afetadas",
+        "paragraphs": [
+          "**Muito afetadas (reducao de 20-40% em vagas junior 2024-2026):** SDR/BDR, copywriter junior, customer support tier 1, paralegais, analistas de dados juniores, ilustradores comerciais simples.",
+          "**Moderadamente afetadas:** designers graficos (reducao de 10-20%), tradutores tecnicos (reducao em documentacao simples, mantida em nuance alta), programadores full-stack juniores (redefinidos como IA-augmented).",
+          "**Pouco afetadas ou em alta:** AI/ML engineers (+40% em vagas), product managers com experiencia IA (+30%), security engineers (IA expande superficie de ataque), professionals de compliance em IA (nova funcao)."
+        ]
+      },
+      {
+        "h2": "Habilidades novas em demanda",
+        "paragraphs": [
+          "**Prompt engineering aplicado:** saber estruturar tarefas complexas pra modelos. Nao eh profissao standalone mas eh skill essencial em quase toda funcao de conhecimento em 2026.",
+          "**Agent architecture:** desenhar fluxos onde agentes IA fazem trabalho autonomo, com guardrails. Esta eh a habilidade mais valorizada em 2026 em roles de engenharia.",
+          "**AI governance:** avaliar riscos, compliance, mitigacao de vies. Setor publico, juridico e saude lideram demanda."
+        ]
+      },
+      {
+        "h2": "Salarios em 2026 no Brasil",
+        "paragraphs": [
+          "Salarios em roles IA-heavy subiram significativamente. Dados do mercado brasileiro abril 2026: AI/ML Engineer pleno BRL 18-28k, senior BRL 30-50k. AI Product Manager BRL 25-45k. Agent Architect (funcao nova) BRL 30-60k em senioridade.",
+          "Funcoes tradicionais que integraram IA tem salario premium de 15-25% vs mesma funcao sem IA. Exemplo: copywriter senior com uso avancado de IA = BRL 12-18k (vs BRL 8-12k sem)."
+        ]
+      }
+    ],
+    "faq": [
+      { "q": "A IA vai eliminar meu emprego?", "a": "Quase ninguem vai ser totalmente substituido. Mas TODA profissao esta sendo reformatada. Profissionais que dominam uso de IA tem vantagem sobre quem nao usa — e essa vantagem eh crescente. A pergunta certa eh: 'como integro IA no que faco' em vez de 'vou ser substituido'." },
+      { "q": "Que habilidade de IA devo aprender primeiro?", "a": "Uso pratico das 3 ferramentas principais (Claude, ChatGPT, Perplexity) em tasks do seu trabalho diario. Sem teoria — so aplicacao. Depois: agent architecture (como compor fluxos autonomos) e governanca basica (riscos e mitigacao)." },
+      { "q": "Programador vai ser substituido?", "a": "Nao — mas o programador junior que codifica sem IA vai perder espaco rapido. Programadores IA-augmented estao 2-5x mais produtivos em tasks comuns. A barra de entrada em programacao subiu, nao desceu." }
+    ]
+  },
+  {
+    "slug": "benchmarks-e-research",
+    "title": "Benchmarks e research de IA: como entender o que eh melhor em 2026",
+    "lead": "Guia dos benchmarks mais relevantes pra avaliar modelos de IA em 2026: MMLU, HumanEval, SWE-Bench, HLE, e como ler papers de research sem ser pesquisador.",
+    "description": "Benchmarks de IA 2026 explicados. MMLU, HumanEval, SWE-Bench, HLE, ARC-AGI. Como interpretar metricas e ler papers de research de IA.",
+    "tags": ["benchmarks", "research", "mmlu", "humaneval", "swebench"],
+    "related_categories": ["RESEARCH", "ANALISE"],
+    "related_tags": ["research", "benchmarks"],
+    "sections": [
+      {
+        "h2": "Por que benchmarks importam (e onde enganam)",
+        "paragraphs": [
+          "Benchmarks sao testes padronizados que comparam modelos em tarefas especificas. Sao uteis pra ter ordem de grandeza, mas tem 3 limitacoes serias: (1) modelos sao treinados com awareness dos benchmarks (contamination), (2) benchmarks saturam rapido (modelos atingem 90%+ em poucos meses), (3) performance em benchmark nem sempre traduz pra uso real.",
+          "Em 2026, a conversa migrou de 'qual modelo pontua mais em MMLU' pra 'qual modelo performa melhor em arena humana de longo prazo'. Chatbot Arena (LMSys) e evals proprios das empresas sao mais relevantes que leaderboards estaticos."
+        ]
+      },
+      {
+        "h2": "Os benchmarks que ainda importam em 2026",
+        "paragraphs": [
+          "**MMLU-Pro:** versao atualizada e mais dificil do classico MMLU. Mede conhecimento multi-disciplinar. Estado-da-arte abril 2026: ~88% (GPT-5, Claude Opus 4.7).",
+          "**HumanEval Plus / LiveCodeBench:** teste de coding. Modelos top atingem 90%+. Use com cuidado — test sets vazam rapido.",
+          "**SWE-Bench Verified:** tasks reais de GitHub, resolver issues. Muito mais dificil — estado-da-arte ~65% em 2026. Mede capacidade agentic em coding.",
+          "**HLE (Humanity's Last Exam):** lancado em 2024, mede conhecimento especializado em 3000 questoes. Atual SOTA ~30% — longe de saturar.",
+          "**ARC-AGI:** teste de raciocinio abstrato. Modelos top chegaram ~85% em 2025 com reasoning chains pesadas. Eh um dos benchmarks mais relevantes pra medir 'inteligencia geral'.",
+          "**Chatbot Arena (LMSys):** usuarios humanos escolhem qual resposta eh melhor em head-to-head. Ranking em tempo real de todos modelos."
+        ]
+      },
+      {
+        "h2": "Como ler papers de research sem ser pesquisador",
+        "paragraphs": [
+          "Papers publicados em ArXiv e NeurIPS/ICML sao o fluxo primario de research. Pra profissional aplicado, recomendacao eh: (1) ler abstract e conclusion, (2) verificar section de 'limitations', (3) pular detalhes matematicos se nao sao essenciais, (4) sempre checar qual comparacao eles fazem — se omitem comparacao com state-of-the-art atual, eh red flag.",
+          "Agregadores como Papers With Code, Emergent Mind e Alphaxiv ajudam filtrar papers por topico e impacto. Pulso da IA cobre releases relevantes dessa area na categoria RESEARCH."
+        ]
+      }
+    ],
+    "faq": [
+      { "q": "Qual benchmark eu devo olhar pra escolher modelo?", "a": "Pra uso geral em 2026, comece pelo Chatbot Arena (LMSys) — mede qualidade percebida por humanos reais. Pra coding, LiveCodeBench e SWE-Bench. Pra reasoning, ARC-AGI ou HLE. Nunca confie em um benchmark so — use 2-3 em conjunto." },
+      { "q": "Por que os benchmarks ficam saturados rapido?", "a": "Tres razoes: (1) modelos novos sao treinados com benchmarks em mente (contamination), (2) benchmarks fixos tem resposta certa que eventualmente vaza pro treino, (3) progresso real do campo eh muito rapido. Solucao: benchmarks dinamicos e evals humanas (Arena)." },
+      { "q": "Como me manter atualizado com research sem ser academico?", "a": "Acompanhe 3 canais: Pulso da IA (categoria RESEARCH), Papers With Code (paginas de state-of-the-art) e Emergent Mind (resumo semanal de papers). 30 minutos por semana bastam pra acompanhar o essencial." }
+    ]
+  },
+  {
+    "slug": "founders-e-investimentos",
+    "title": "Founders e investimentos em IA: quem esta construindo e quem esta pagando em 2026",
+    "lead": "Panorama dos principais founders e rodadas de investimento em IA em 2026: OpenAI, Anthropic, xAI, SSI, Mistral, e as startups brasileiras que estao captando serio.",
+    "description": "Founders e investimentos em IA em 2026. Sam Altman, Dario Amodei, Elon Musk, Ilya Sutskever. Rodadas de investimento. Startups brasileiras em destaque.",
+    "tags": ["founders", "investimentos", "funding", "startups"],
+    "related_categories": ["FOUNDERS", "MERCADO"],
+    "related_tags": ["founders", "funding"],
+    "sections": [
+      {
+        "h2": "O mapa de founders relevantes",
+        "paragraphs": [
+          "**Sam Altman (OpenAI):** ainda o founder mais visivel. CEO de empresa que chegou a $200B+ valuation em 2026. OpenAI se tornou a empresa privada mais valiosa da historia.",
+          "**Dario e Daniela Amodei (Anthropic):** founders da Anthropic, valuation $100B+ em 2026 apos round Series F. Posicionados como 'safety-first' tem captado investimento de players conservadores (Google, Amazon).",
+          "**Elon Musk (xAI):** xAI cresceu agressivamente via Grok 4 e integracao com X/Twitter. Valuation ~$80B em 2026. Modelo Grok virou preferido de certas verticais (financeiro, defesa).",
+          "**Ilya Sutskever (SSI - Safe Superintelligence):** ex-cofundador OpenAI, levantou $5B em 2025 sem produto publico. Foco declarado em AGI safety. Raro caso de empresa com valuation $10B+ sem revenue."
+        ]
+      },
+      {
+        "h2": "Rodadas de investimento em 2025-2026",
+        "paragraphs": [
+          "2025 teve os maiores rounds privados da historia tech: OpenAI ($40B Softbank), Anthropic ($10B Amazon/Google combinados), xAI ($15B). 2026 continua com rounds menores mas numerosos — proliferacao de startups de camada especializada (vertical AI em saude, juridico, financeiro, educacao).",
+          "Fundos dedicados a IA multiplicaram: Andreessen Horowitz com $7B AI fund, Lightspeed com $3B AI fund, Sequoia com vehicle especifico. No Brasil, KPTL, Kaszek e SoftBank Latam aumentaram alocacao a startups IA brasileiras."
+        ]
+      },
+      {
+        "h2": "Startups brasileiras captando em 2025-2026",
+        "paragraphs": [
+          "Brasil ainda esta cedo em IA comparado a US/Europa/China, mas alguns casos destacam: Cerebras (presenca BR expandindo), Maritaca AI (Series A BRL 30M em 2025 pra modelos ptBR), Dito (CRM com IA, Series B), Talentus Digital (RH com IA, crescimento organico). Triadeflow opera em consultoria (no Pulso da IA).",
+          "Setores mais quentes pra captacao brasileira: Legal Tech (IA em analise de contratos), HR Tech (recrutamento e avaliacao), FinTech (underwriting IA), Health Tech (diagnostico e prescricao assistida)."
+        ]
+      },
+      {
+        "h2": "O que esperar em 2026-2027",
+        "paragraphs": [
+          "Previsoes: consolidacao de players de infraestrutura (provedores de LLM API vao cair pra 4-6 grandes), explosao de AI agents verticais (centenas de startups resolvendo problemas especificos), e aumento de scrutinio regulatorio (especialmente UE e eventualmente Brasil).",
+          "No Brasil especificamente: esperamos 2-3 IPOs/M&As de startups IA em 2026-2027. Talentos devem concentrar em 10-15 empresas ancora que vao definir mercado por uma decada."
+        ]
+      }
+    ],
+    "faq": [
+      { "q": "Qual a empresa de IA mais valiosa em 2026?", "a": "OpenAI eh a mais valiosa empresa privada de IA em 2026, com valuation proximo a $200B apos rodada Softbank de 2025. Anthropic eh a segunda com ~$100B." },
+      { "q": "Existe startup brasileira relevante em IA?", "a": "Sim, embora ecosistema esteja cedo. Maritaca AI (modelos ptBR), Dito (CRM com IA) e algumas verticais em LegalTech e HRTech se destacam. 2026-2027 deve trazer primeiras saidas (IPO/M&A) significativas." },
+      { "q": "Como acompanhar rodadas de investimento em IA?", "a": "Fontes recomendadas: TechCrunch categoria AI, The Information AI briefing (pago, valioso), e Pulso da IA categoria FOUNDERS/MERCADO pra cobertura em portugues." }
+    ]
+  }
+]

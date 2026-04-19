@@ -42,34 +42,41 @@ function buildSitemap(articles) {
     priority: '0.8'
   }));
 
-  // Paginas de categoria e tag geradas dinamicamente
-  const catDir = path.join(ROOT, 'categoria');
-  const tagDir = path.join(ROOT, 'tag');
-  const collectionUrls = [];
-  try {
-    if (fs.existsSync(catDir)) {
-      for (const slug of fs.readdirSync(catDir)) {
-        const idx = path.join(catDir, slug, 'index.html');
-        if (fs.existsSync(idx)) collectionUrls.push({
-          loc: `${DOMAIN}/categoria/${slug}/`,
+  // Paginas geradas dinamicamente: categoria, tag, pillar, autores
+  const scanDir = (dirName, pathPrefix, changefreq, priority) => {
+    const dir = path.join(ROOT, dirName);
+    const results = [];
+    if (!fs.existsSync(dir)) return results;
+    for (const slug of fs.readdirSync(dir)) {
+      const idx = path.join(dir, slug, 'index.html');
+      if (fs.existsSync(idx)) {
+        results.push({
+          loc: `${DOMAIN}${pathPrefix}/${slug}/`,
           lastmod: toW3CDate(fs.statSync(idx).mtime),
-          changefreq: 'daily',
-          priority: '0.7'
+          changefreq, priority
         });
       }
     }
-    if (fs.existsSync(tagDir)) {
-      for (const slug of fs.readdirSync(tagDir)) {
-        const idx = path.join(tagDir, slug, 'index.html');
-        if (fs.existsSync(idx)) collectionUrls.push({
-          loc: `${DOMAIN}/tag/${slug}/`,
-          lastmod: toW3CDate(fs.statSync(idx).mtime),
-          changefreq: 'weekly',
-          priority: '0.6'
-        });
-      }
+    return results;
+  };
+
+  const collectionUrls = [
+    ...scanDir('categoria', '/categoria', 'daily', '0.7'),
+    ...scanDir('tag', '/tag', 'weekly', '0.6'),
+    ...scanDir('pillar', '/pillar', 'weekly', '0.85'),
+    ...scanDir('autores', '/autores', 'monthly', '0.6')
+  ];
+
+  // Indices de collection pages
+  const indexPages = [
+    { path: path.join(ROOT, 'pillar', 'index.html'), url: `${DOMAIN}/pillar/`, priority: '0.7', changefreq: 'weekly' },
+    { path: path.join(ROOT, 'autores', 'index.html'), url: `${DOMAIN}/autores/`, priority: '0.5', changefreq: 'monthly' }
+  ];
+  for (const ip of indexPages) {
+    if (fs.existsSync(ip.path)) {
+      collectionUrls.push({ loc: ip.url, lastmod: toW3CDate(fs.statSync(ip.path).mtime), changefreq: ip.changefreq, priority: ip.priority });
     }
-  } catch (e) { /* ignore */ }
+  }
 
   const all = [...staticUrls, ...collectionUrls, ...articleUrls];
 

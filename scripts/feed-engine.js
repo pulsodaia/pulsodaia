@@ -327,6 +327,13 @@ tag1, tag2, tag3
 keyword 1, keyword 2, keyword 3
 ===META===
 Descricao SEO de 155 caracteres pra Google
+===FAQ===
+Q: Pergunta curta em linguagem natural que um usuario faria no Google ou ChatGPT sobre este tema?
+A: Resposta direta de 2-3 frases, baseada no conteudo do artigo. Zero cliche.
+Q: Segunda pergunta relevante?
+A: Segunda resposta direta.
+Q: Terceira pergunta?
+A: Terceira resposta.
 ===END===
 
 REGRAS:
@@ -384,6 +391,24 @@ Responda APENAS com o formato acima. Sem comentarios extras.`;
         sections[k] = sections[k].replace(/—/g, ',').replace(/–/g, '-');
       });
 
+      // Parse FAQs do bloco ===FAQ=== (formato Q: ... A: ...)
+      const faq = [];
+      if (sections.faq) {
+        const lines = sections.faq.split(/\r?\n/).map(l => l.trim());
+        let current = null;
+        for (const line of lines) {
+          if (/^Q:\s*/i.test(line)) {
+            if (current && current.q && current.a) faq.push(current);
+            current = { q: line.replace(/^Q:\s*/i, '').trim(), a: '' };
+          } else if (/^A:\s*/i.test(line) && current) {
+            current.a = line.replace(/^A:\s*/i, '').trim();
+          } else if (current && current.a && line) {
+            current.a += ' ' + line;
+          }
+        }
+        if (current && current.q && current.a) faq.push(current);
+      }
+
       const article = {
         headline: sections.headline,
         subtitle: sections.subtitle || '',
@@ -395,7 +420,8 @@ Responda APENAS com o formato acima. Sem comentarios extras.`;
         read_time_min: parseInt(sections.read_time || '3'),
         quality_score: parseFloat(sections.score || '0.75'),
         seo_keywords: (sections.keywords || '').split(',').map(s => s.trim()).filter(Boolean),
-        meta_description_seo: sections.meta || ''
+        meta_description_seo: sections.meta || '',
+        faq: faq.slice(0, 5)
       };
 
       return {
@@ -604,9 +630,8 @@ ${(article.tags || []).map(t => `<meta property="article:tag" content="${t}">`).
 <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 <meta name="ai-content-declaration" content="editorial; auto-translated from linked sources; human-curated">
 <script type="application/ld+json">
-${JSON.stringify({
-  "@context": "https://schema.org",
-  "@graph": [
+${(() => {
+  const graph = [
     {
       "@type": "NewsArticle",
       "@id": `https://pulsodaia.com.br/feed/${article.slug}/#article`,
@@ -667,8 +692,20 @@ ${JSON.stringify({
         "availableLanguage": ["Portuguese", "English"]
       }
     }
-  ]
-}, null, 2)}
+  ];
+  if (article.faq && article.faq.length) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `https://pulsodaia.com.br/feed/${article.slug}/#faq`,
+      "mainEntity": article.faq.map(f => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      }))
+    });
+  }
+  return JSON.stringify({ "@context": "https://schema.org", "@graph": graph }, null, 2);
+})()}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
