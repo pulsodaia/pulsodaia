@@ -154,35 +154,48 @@ function selectTopArticle() {
 }
 
 async function generateVeoPrompt(article) {
-  log(`Gerando prompt Veo via Gemini pro artigo: ${article.headline}`);
-  const prompt = `Voce eh diretor cinematografico. Gere um prompt Veo 3 curto (max 60 palavras) pra video vertical 9:16 de 8 segundos sobre a noticia abaixo. Estilo: cinematico, sobrio, editorial tech tipo Apple keynote. Inclua: cena visual especifica, camera (close/wide/tilt), iluminacao, UM elemento de texto sobrepondo (headline curta pt-BR max 6 palavras). Nada de logos reais. Retorne APENAS o prompt Veo em ingles, sem markdown.
+  log(`Gerando roteiro Veo via Gemini pro artigo: ${article.headline}`);
 
-NOTICIA:
+  // Nova eh a persona fixa do Pulso da IA (consistencia entre videos)
+  const novaDescription = `Brazilian woman late 20s, dark brown wavy shoulder-length hair, natural makeup, confident direct gaze, wearing plain black crew-neck t-shirt. Minimalist modern home office background softly blurred, MacBook visible, soft window light from left. Editorial magazine quality, Leica 50mm look, shallow DOF.`;
+
+  const scriptPrompt = `Voce eh roteirista de short noticioso (estilo Pulso da IA, Brazilian AI news portal). Crie UMA frase curta em pt-BR (max 12 palavras) que a apresentadora Nova vai falar direto pra camera sobre a noticia. Tom: analista de mercado, direto, sem emocao, sem adjetivos promocionais. Zero "incrivel/revolucionario/game-changer". Retorne APENAS a frase, sem aspas, sem markdown.
+
 Headline: ${article.headline}
-Lead: ${article.lead}
-Categoria: ${article.category}`;
+Lead: ${article.lead}`;
 
-  const res = await httpPost(
+  const scriptRes = await httpPost(
     `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${API_KEY}`,
     {},
-    { contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.8, maxOutputTokens: 200 } }
+    { contents: [{ parts: [{ text: scriptPrompt }] }], generationConfig: { temperature: 0.7, maxOutputTokens: 80 } }
   );
+  if (scriptRes.status !== 200) throw new Error(`Gemini script ${scriptRes.status}: ${JSON.stringify(scriptRes.body).substring(0, 300)}`);
+  const spokenLine = scriptRes.body.candidates?.[0]?.content?.parts?.[0]?.text?.trim().replace(/^["']|["']$/g, '') || article.headline;
+  log(`Fala (pt-BR): "${spokenLine}"`);
 
-  if (res.status !== 200) {
-    throw new Error(`Gemini ${res.status}: ${JSON.stringify(res.body).substring(0, 300)}`);
-  }
-  const text = res.body.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
-  if (!text) throw new Error('Gemini sem texto no prompt');
-  return text;
+  // Monta prompt Veo combinando Nova + script + estrutura 8s
+  const veoPrompt = `Vertical 9:16 cinematic editorial short, 8 seconds. ${novaDescription} She looks directly at camera, slight natural pause, then speaks in Brazilian Portuguese (pt-BR) with calm analytical tone: "${spokenLine}". Subtle medium close-up, natural ambient audio, no music. No text overlays. Realistic lip sync to the Portuguese dialogue. End with a 1-second clean cut to the same woman slightly nodding, still framed. Mood: sober, trustworthy, editorial tech journalism (think Bloomberg Quicktake meets The Verge). Color grading: neutral with slight warm highlights. Do not show any logos or brand names.`;
+
+  return { veoPrompt, spokenLine };
 }
 
-async function startVeoGeneration(veoPrompt) {
+async function startVeoGeneration(veoPrompt, novaImagePath) {
   log(`Disparando Veo ${MODEL} (async)...`);
+  const instance = { prompt: veoPrompt };
+
+  // Se temos imagem de referencia da Nova, passa como image-to-video
+  if (novaImagePath && fs.existsSync(novaImagePath)) {
+    const imgBytes = fs.readFileSync(novaImagePath).toString('base64');
+    const mimeType = novaImagePath.endsWith('.jpg') || novaImagePath.endsWith('.jpeg') ? 'image/jpeg' : 'image/png';
+    instance.image = { bytesBase64Encoded: imgBytes, mimeType };
+    log(`  usando Nova como reference: ${path.basename(novaImagePath)}`);
+  }
+
   const res = await httpPost(
     `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:predictLongRunning`,
     { 'x-goog-api-key': API_KEY },
     {
-      instances: [{ prompt: veoPrompt }],
+      instances: [instance],
       parameters: {
         aspectRatio: '9:16',
         personGeneration: 'allow_adult',
@@ -251,10 +264,12 @@ async function main() {
   log(`Selecionado: ${article.slug} (score ${article.score})`);
   if (args.dryRun) { log('DRY RUN — sem chamadas API.'); return; }
 
-  const veoPrompt = await generateVeoPrompt(article);
+  const { veoPrompt, spokenLine } = await generateVeoPrompt(article);
   log(`Prompt Veo: ${veoPrompt}`);
 
-  const opName = await startVeoGeneration(veoPrompt);
+  // Nova portrait como referencia visual (mantem rosto consistente entre videos)
+  const novaRef = process.env.NOVA_REF_IMAGE || path.join(ROOT, 'brand', 'mockups', 'nova-portrait-clean.png');
+  const opName = await startVeoGeneration(veoPrompt, novaRef);
   log(`Operation: ${opName}`);
 
   const response = await pollOperation(opName);
@@ -284,6 +299,8 @@ async function main() {
     cost_usd: costPerVideo,
     cost_brl: costBrl,
     veo_prompt: veoPrompt,
+    spoken_line: spokenLine,
+    persona: 'Nova',
     rendered_at: new Date().toISOString()
   };
   fs.writeFileSync(article.meta_path, JSON.stringify(article.meta, null, 2));
