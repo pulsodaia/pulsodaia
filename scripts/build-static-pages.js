@@ -68,13 +68,34 @@ body main.static-page { padding: 48px 0 80px; }
       <svg viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
       <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
     </a>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/feed/">Feed</a>
-      <a href="/feed/?c=lancamento">Lancamentos</a>
-      <a href="/feed/?c=analise">Analises</a>
+    <nav class="nav-links" aria-label="Principal">
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Inovacao & IA <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
+          <div class="nav-col"><div class="nav-col-head">Categorias</div><a href="/feed/?c=lancamento">Lancamentos</a><a href="/feed/?c=analise">Analises</a><a href="/feed/?c=research">Research</a><a href="/feed/?c=mercado">Mercado</a><a href="/feed/?c=founders">Founders</a></div>
+          <div class="nav-col"><div class="nav-col-head">Formatos</div><a href="/feed/">Feed completo</a><a href="/rss.xml">RSS</a><a href="/#newsletter">Pulso Semanal</a></div>
+        </div></div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Empresas <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
+          <div class="nav-col"><div class="nav-col-head">Modelos</div><a href="/feed/?q=openai">OpenAI</a><a href="/feed/?q=anthropic">Anthropic</a><a href="/feed/?q=google">Google DeepMind</a><a href="/feed/?q=meta">Meta AI</a><a href="/feed/?q=mistral">Mistral</a></div>
+          <div class="nav-col"><div class="nav-col-head">Ecossistema</div><a href="/feed/?q=huggingface">HuggingFace</a><a href="/feed/?q=nvidia">NVIDIA</a><a href="/feed/?q=xai">xAI</a><a href="/feed/?q=cohere">Cohere</a></div>
+        </div></div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true">Novidades <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu"><div class="nav-dropdown-grid">
+          <div class="nav-col"><div class="nav-col-head">Mercado</div><a href="/feed/?c=mercado">Movimentos</a><a href="/feed/?q=funding">Rodadas de investimento</a><a href="/feed/?q=regulacao">Regulacao</a></div>
+          <div class="nav-col"><div class="nav-col-head">Institucional</div><a href="/sobre/">Sobre o Pulso</a><a href="/contato/">Contato</a></div>
+        </div></div>
+      </div>
+      <a href="/feed/" class="nav-direct">Feed</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#newsletter" class="nav-cta">Assinar</a>
+      <div class="nav-lang" aria-label="Idioma">PT-BR</div>
     </div>
-    <a href="#newsletter" class="nav-cta">Assinar</a>
   </div>
 </header>
 
