@@ -306,6 +306,21 @@ async function main() {
       const sections = await generateForArticle(article);
       const dir = writeOutputs(entry.slug, sections, article);
       console.log(`  ✓ ${path.relative(ROOT, dir)}`);
+
+      // Render IG cards PNG via Sharp (best-effort, nao pode travar geracao)
+      try {
+        const { spawn } = require('child_process');
+        const proc = spawn('node', [path.join(__dirname, 'render-ig-cards.js'), `--slug=${entry.slug}`], { stdio: 'pipe' });
+        await new Promise((resolve) => {
+          proc.on('close', () => resolve());
+          proc.on('error', () => resolve());
+          setTimeout(() => { try { proc.kill(); } catch {} resolve(); }, 30000);
+        });
+        console.log(`  ✓ IG cards PNG renderizados`);
+      } catch (renderErr) {
+        console.log(`  ! render PNG falhou: ${renderErr.message.substring(0, 80)}`);
+      }
+
       ok++;
       await new Promise(r => setTimeout(r, GEMINI_DELAY_MS));
     } catch (e) {
