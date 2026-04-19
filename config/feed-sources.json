@@ -2,6 +2,16 @@
   "description": "Fontes oficiais do motor pulsante Pulso da IA",
   "rss_sources": [
     {
+      "id": "anthropic-twitter",
+      "name": "Anthropic (X/Twitter)",
+      "category": "anthropic",
+      "type": "twitter-rsshub",
+      "rss": "https://rsshub.app/twitter/user/anthropicai",
+      "fallback_url": "https://x.com/anthropicai",
+      "note": "Anuncios oficiais Anthropic vao primeiro no X — prioritario",
+      "priority": "high"
+    },
+    {
       "id": "openai-blog",
       "name": "OpenAI",
       "category": "openai",
