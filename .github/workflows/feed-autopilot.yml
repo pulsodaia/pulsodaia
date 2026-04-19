@@ -87,6 +87,20 @@ jobs:
             echo "[ghl] GHL_LOCATION_PIT secret nao configurado — skip"
           fi
 
+      - name: Render short videos (FFmpeg 9:16 MP4 dos cards)
+        run: |
+          # Instala ffmpeg + renderiza video pra artigos SEM assets/videos/{slug}/short.mp4
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg -qq 2>&1 | tail -3
+          for meta in social/*/meta.json; do
+            slug=$(basename $(dirname "$meta"))
+            card_dir="assets/ig-cards/$slug"
+            video="assets/videos/$slug/short.mp4"
+            if [ -d "$card_dir" ] && [ ! -f "$video" ]; then
+              echo "[video] renderizando $slug..."
+              node scripts/render-video.js --slug="$slug" 2>&1 | tail -3 || echo "[video] $slug falhou"
+            fi
+          done
+
       - name: Rebuild RSS + static pages (pega novos artigos)
         run: |
           node scripts/build-static-pages.js | tee -a /tmp/engine.log || echo "[build-pages] falhou, nao eh critico"
