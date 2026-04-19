@@ -798,6 +798,8 @@ ${renderFollowUsHtml()}
 ${renderFooterBottom()}
 
 <script defer src="/assets/js/tracking.js"></script>
+<!-- GHL External Tracking (attribution CRM HUB) -->
+<script src="https://link.triadeflow.ai/js/external-tracking.js" data-tracking-id="tk_bca577a169fb418e896b50cae1972352"></script>
 </body>
 </html>`;
 }
