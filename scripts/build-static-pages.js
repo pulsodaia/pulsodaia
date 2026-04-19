@@ -154,10 +154,10 @@ const CONTATO = {
     <span class="cc-value">+55 19 98380-5908</span>
     <span class="cc-note">Resposta em horas.</span>
   </a>
-  <a href="https://instagram.com/triadeflow" target="_blank" rel="noopener" class="contact-card">
+  <a href="https://instagram.com/pulsodaia" target="_blank" rel="noopener" class="contact-card">
     <div class="cc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></div>
     <span class="cc-label">INSTAGRAM</span>
-    <span class="cc-value">@triadeflow</span>
+    <span class="cc-value">@pulsodaia</span>
     <span class="cc-note">DM quando rola tempo.</span>
   </a>
 </div>

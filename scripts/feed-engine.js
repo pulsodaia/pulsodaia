@@ -494,7 +494,7 @@ function renderFollowUsHtml() {
         <div class="follow-eyebrow">SIGA O PULSO</div>
         <h3 class="follow-title">Siga a gente por onde quiser.</h3>
         <div class="social-circles">
-          <a href="https://instagram.com/triadeflow" target="_blank" rel="noopener" aria-label="Instagram" class="sc-item">
+          <a href="https://instagram.com/pulsodaia" target="_blank" rel="noopener" aria-label="Instagram" class="sc-item">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
           </a>
           <a href="https://x.com/pulsodaia" target="_blank" rel="noopener" aria-label="X" class="sc-item">
