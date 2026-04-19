@@ -159,7 +159,7 @@ Cria um roteiro estruturado em 5 clipes de 8 segundos cada (40s total vertical 9
 A apresentadora Nova fala em 4 clipes (intro, contexto, analise, cta). Clipe 3 eh B-ROLL sem narracao (cena tech).
 
 REGRAS:
-- Cada fala tem MAX 14 palavras em pt-BR (cabe em 8s)
+- Cada fala tem 15-18 palavras em pt-BR (preenche os 8s, evita Veo repetir palavras por ter tempo sobrando)
 - Tom: analista de mercado, direto, sem adjetivo promocional (zero "incrivel/revolucionario")
 - Zero "olha so/pessoal/bora" ou gírias
 - Clipe 5 (CTA) DEVE terminar EXATAMENTE com "Leia em pulsodaia ponto com ponto br" (escrever por extenso pra TTS do Veo pronunciar certo — NUNCA escrever "pulsodaia.com.br" com pontos)

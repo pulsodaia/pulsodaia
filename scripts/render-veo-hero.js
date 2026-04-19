@@ -177,7 +177,7 @@ async function generateVeoPrompt(article) {
   // Nova eh a persona fixa do Pulso da IA (consistencia entre videos)
   const novaDescription = `Brazilian woman late 20s, dark brown wavy shoulder-length hair, natural makeup, confident direct gaze, wearing plain black crew-neck t-shirt. Minimalist modern home office background softly blurred, MacBook visible, soft window light from left. Editorial magazine quality, Leica 50mm look, shallow DOF.`;
 
-  const scriptPrompt = `Voce eh roteirista de short noticioso (estilo Pulso da IA, Brazilian AI news portal). Crie UMA frase curta em pt-BR (max 12 palavras) que a apresentadora Nova vai falar direto pra camera sobre a noticia. Tom: analista de mercado, direto, sem emocao, sem adjetivos promocionais. Zero "incrivel/revolucionario/game-changer". Retorne APENAS a frase, sem aspas, sem markdown.
+  const scriptPrompt = `Voce eh roteirista de short noticioso (estilo Pulso da IA, Brazilian AI news portal). Crie UMA frase em pt-BR com 15-18 palavras que a apresentadora Nova vai falar direto pra camera sobre a noticia (preenche 8 segundos de fala, evita Veo repetir palavras por sobrar tempo). Tom: analista de mercado, direto, sem emocao, sem adjetivos promocionais. Zero "incrivel/revolucionario/game-changer". Retorne APENAS a frase, sem aspas, sem markdown.
 
 Headline: ${article.headline}
 Lead: ${article.lead}`;
