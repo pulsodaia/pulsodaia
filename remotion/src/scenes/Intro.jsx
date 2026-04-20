@@ -1,16 +1,15 @@
-import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 
 export const Intro = ({ category }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  // Pulso pulsante (circulo que bate como coracao)
-  const pulse = Math.sin((frame / fps) * Math.PI * 2) * 0.08 + 1;
+  const pulse = Math.sin((frame / fps) * Math.PI * 2) * 0.06 + 1;
 
   const logoOpacity = spring({ frame, fps, config: { damping: 12, stiffness: 100 } });
-  const logoY = interpolate(spring({ frame, fps, config: { damping: 14, stiffness: 120 } }), [0, 1], [30, 0]);
+  const logoScale = spring({ frame, fps, config: { damping: 14, stiffness: 120 } });
 
-  const categoryOpacity = spring({ frame: frame - fps * 0.8, fps, config: { damping: 14 } });
+  const categoryOpacity = spring({ frame: frame - fps * 0.7, fps, config: { damping: 14 } });
 
   return (
     <AbsoluteFill
@@ -19,47 +18,43 @@ export const Intro = ({ category }) => {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        gap: 40
+        gap: 50
       }}
     >
-      {/* Pulso visual central */}
+      {/* Halo pulsante laranja atras do logo */}
       <div
         style={{
-          width: 180,
-          height: 180,
+          position: 'absolute',
+          width: 700,
+          height: 700,
           borderRadius: '50%',
-          background: 'radial-gradient(circle, #FF5E1F 0%, rgba(255, 94, 31, 0.15) 60%, transparent 100%)',
-          transform: `scale(${pulse})`,
-          boxShadow: '0 0 80px rgba(255, 94, 31, 0.4)',
-          opacity: logoOpacity
+          background: 'radial-gradient(circle, rgba(255, 94, 31, 0.25) 0%, transparent 65%)',
+          transform: `scale(${pulse})`
         }}
       />
 
-      {/* Marca */}
-      <div
+      {/* Logo Pulso da IA real */}
+      <Img
+        src={staticFile('logo/pulso-full.png')}
         style={{
-          fontFamily: 'Fraunces, Inter, serif',
-          fontSize: 80,
-          fontWeight: 600,
-          color: '#FAFAFA',
-          letterSpacing: '-0.02em',
-          transform: `translateY(${logoY}px)`,
-          opacity: logoOpacity
+          width: 720,
+          height: 'auto',
+          opacity: logoOpacity,
+          transform: `scale(${logoScale})`,
+          filter: 'drop-shadow(0 0 24px rgba(255, 94, 31, 0.4))'
         }}
-      >
-        Pulso <span style={{ fontStyle: 'italic', color: 'rgba(250,250,250,0.6)' }}>da IA</span>
-      </div>
+      />
 
       {/* Categoria */}
       <div
         style={{
-          padding: '10px 24px',
+          padding: '12px 28px',
           border: '1.5px solid #FF5E1F',
           borderRadius: 999,
           color: '#FF5E1F',
-          fontSize: 22,
+          fontSize: 26,
           fontWeight: 700,
-          letterSpacing: '0.15em',
+          letterSpacing: '0.18em',
           textTransform: 'uppercase',
           opacity: categoryOpacity
         }}
