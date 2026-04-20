@@ -20,16 +20,22 @@ export const CTA = ({ ctaKeyword = 'PULSO' }) => {
         gap: 50
       }}
     >
-      {/* Logo topo pequeno */}
-      <Img
-        src={staticFile('logo/pulso-full.png')}
-        style={{
-          width: 380,
-          height: 'auto',
-          opacity: subOpacity,
-          marginBottom: -20
-        }}
-      />
+      {/* Simbolo + marca tipografada */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 18, opacity: subOpacity }}>
+        <Img src={staticFile('logo/pulso-symbol.png')} style={{ width: 70, height: 'auto' }} />
+        <div
+          style={{
+            fontFamily: 'Fraunces, Inter, serif',
+            fontSize: 52,
+            fontWeight: 500,
+            color: '#FAFAFA',
+            letterSpacing: '-0.02em',
+            lineHeight: 1
+          }}
+        >
+          Pulso <span style={{ fontStyle: 'italic', color: 'rgba(250,250,250,0.55)', fontWeight: 400 }}>da</span> IA
+        </div>
+      </div>
 
       {/* Texto hook */}
       <div
