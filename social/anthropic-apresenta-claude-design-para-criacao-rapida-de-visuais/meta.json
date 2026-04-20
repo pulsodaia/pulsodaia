@@ -9,32 +9,6 @@
   "cta_whatsapp": "+55 19 98380-5908",
   "model": "gemini-2.5-flash-lite",
   "status": "draft",
-  "ghl_posts": {
-    "facebook": {
-      "post_id": "69e54ff7b8d1b8057a0fc0bd",
-      "posted_at": "2026-04-19T21:58:15.607Z",
-      "status": "draft",
-      "job": "multi-hero"
-    },
-    "pinterest": {
-      "post_id": "69e54ff7b8d1b8057a0fc0bd",
-      "posted_at": "2026-04-19T21:58:15.607Z",
-      "status": "draft",
-      "job": "multi-hero"
-    },
-    "bluesky": {
-      "post_id": "69e54ff7b8d1b8057a0fc0bd",
-      "posted_at": "2026-04-19T21:58:15.607Z",
-      "status": "draft",
-      "job": "multi-hero"
-    },
-    "instagram": {
-      "post_id": "69e54ff7b8d1b8057a0fc0bd",
-      "posted_at": "2026-04-19T21:58:15.607Z",
-      "status": "draft",
-      "job": "multi-hero"
-    }
-  },
   "veo_hero": {
     "path": "/assets/videos/anthropic-apresenta-claude-design-para-criacao-rapida-de-visuais/veo-hero.mp4",
     "url": "https://pulsodaia.com.br/assets/videos/anthropic-apresenta-claude-design-para-criacao-rapida-de-visuais/veo-hero.mp4",
@@ -46,5 +20,43 @@
     "spoken_line": "Anthropic lança Claude Design para agilizar criação visual.",
     "persona": "Nova",
     "rendered_at": "2026-04-19T23:01:40.996Z"
+  },
+  "ghl_posts": {
+    "facebook": {
+      "post_id": "69e592cbb8d1b8af945e77e0",
+      "posted_at": "2026-04-20T02:43:24.101Z",
+      "status": "draft",
+      "job": "video-reels-shorts-tiktok"
+    },
+    "pinterest": {
+      "post_id": "69e592c9b8d1b8b8815e754c",
+      "posted_at": "2026-04-20T02:43:22.195Z",
+      "status": "draft",
+      "job": "multi-hero"
+    },
+    "bluesky": {
+      "post_id": "69e592c9b8d1b8b8815e754c",
+      "posted_at": "2026-04-20T02:43:22.195Z",
+      "status": "draft",
+      "job": "multi-hero"
+    },
+    "instagram": {
+      "post_id": "69e592cbb8d1b8af945e77e0",
+      "posted_at": "2026-04-20T02:43:24.101Z",
+      "status": "draft",
+      "job": "video-reels-shorts-tiktok"
+    },
+    "tiktok": {
+      "post_id": "69e592cbb8d1b8af945e77e0",
+      "posted_at": "2026-04-20T02:43:24.101Z",
+      "status": "draft",
+      "job": "video-reels-shorts-tiktok"
+    },
+    "youtube": {
+      "post_id": "69e592cbb8d1b8af945e77e0",
+      "posted_at": "2026-04-20T02:43:24.101Z",
+      "status": "draft",
+      "job": "video-reels-shorts-tiktok"
+    }
   }
 }

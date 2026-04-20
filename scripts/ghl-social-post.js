@@ -113,10 +113,21 @@ function getHeroUrl(slug) {
   return hero ? `https://pulsodaia.com.br/feed/${slug}/${hero}` : null;
 }
 
-async function createPost({ accountIds, text, mediaUrls = [], scheduleDate, status = 'draft' }) {
+async function createPost({ accountIds, text, mediaUrls = [], scheduleDate, status = 'draft', title, tags = [] }) {
+  // Pra YouTube/TikTok title, prefixamos o texto com titulo na primeira linha
+  // (GHL API nao aceita youtubeOptions/tiktokOptions — so summary)
+  let summary = String(text || '').substring(0, 3000);
+  if (title) {
+    const cleanTitle = String(title).substring(0, 95);
+    // Se texto nao comeca com titulo, prefixa
+    if (!summary.toLowerCase().startsWith(cleanTitle.toLowerCase().substring(0, 30))) {
+      summary = `${cleanTitle}\n\n${summary}`.substring(0, 3000);
+    }
+  }
+
   const body = {
     accountIds,
-    summary: String(text || '').substring(0, 3000),
+    summary,
     type: 'post',
     status,
     userId: USER_ID,
@@ -243,7 +254,9 @@ async function main() {
         accountIds: videoAccounts,
         text: igCaption || linkedinText,
         mediaUrls: [videoUrl],
-        platforms: videoPlatforms
+        platforms: videoPlatforms,
+        title: meta.article_headline || slug.replace(/-/g, ' '),
+        tags: ['inteligenciaartificial', 'IA', 'noticiasdeIA', 'pulsodaia', meta.article_category?.toLowerCase() || 'ia'].filter(Boolean)
       });
     }
 
@@ -259,7 +272,9 @@ async function main() {
           accountIds: job.accountIds,
           text: job.text,
           mediaUrls: job.mediaUrls,
-          status: publish ? 'published' : 'draft'
+          status: publish ? 'published' : 'draft',
+          title: job.title,
+          tags: job.tags
         });
 
         if (res.status >= 200 && res.status < 300) {
