@@ -1,0 +1,78 @@
+name: Remotion Auto (dispara render pra artigos novos)
+
+# Dispara automaticamente depois do Feed Autopilot concluir.
+# Descobre artigos com feed/{slug}/index.html mas SEM assets/videos/{slug}/remotion.mp4
+# e enfileira um run do Remotion Video por slug.
+
+on:
+  workflow_run:
+    workflows: ["Feed Autopilot"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'Max slugs por rodada'
+        required: false
+        default: '2'
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: remotion-auto
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    # Roda mesmo se feed-autopilot falhar (pra pegar artigos publicados antes)
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Descobrir slugs sem remotion.mp4
+        id: find
+        run: |
+          MAX="${{ inputs.max || '2' }}"
+          echo "max=$MAX"
+          MISSING=""
+          count=0
+          for dir in feed/*/; do
+            slug=$(basename "$dir")
+            # ignora paginas especiais
+            [ "$slug" = "." ] && continue
+            [ ! -f "$dir/index.html" ] && continue
+            if [ ! -f "assets/videos/$slug/remotion.mp4" ]; then
+              MISSING="$MISSING $slug"
+              count=$((count+1))
+              if [ "$count" -ge "$MAX" ]; then break; fi
+            fi
+          done
+          echo "slugs=$MISSING" >> $GITHUB_OUTPUT
+          echo "count=$count" >> $GITHUB_OUTPUT
+          echo "[auto] $count artigo(s) sem remotion.mp4:$MISSING"
+
+      - name: Dispara Remotion Video pra cada slug
+        if: steps.find.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for slug in ${{ steps.find.outputs.slugs }}; do
+            echo "[auto] disparando remotion-video.yml slug=$slug"
+            gh workflow run remotion-video.yml -f slug="$slug" -f force=false || echo "[auto] falhou $slug"
+            sleep 5
+          done
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Remotion Auto — $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "Slugs disparados: ${{ steps.find.outputs.count }}" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.find.outputs.slugs }}" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY

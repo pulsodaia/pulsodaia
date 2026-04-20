@@ -97,6 +97,18 @@ jobs:
           PAGES_BRANCH: main
         run: node deploy.js || echo "[deploy] falhou"
 
+      - name: GHL Social Planner (cria/atualiza drafts video)
+        env:
+          GHL_LOCATION_PIT: ${{ secrets.GHL_LOCATION_PIT }}
+          GHL_USER_ID: ${{ secrets.GHL_USER_ID }}
+        run: |
+          if [ -z "$GHL_LOCATION_PIT" ]; then
+            echo "[ghl] secret GHL_LOCATION_PIT ausente, skip"
+            exit 0
+          fi
+          # --force re-cria drafts (deleta ghl_posts entries pra video re-postar)
+          node scripts/ghl-social-post.js --slug="${{ inputs.slug }}" --force 2>&1 | tee -a /tmp/remotion.log || echo "[ghl] falhou nao critico"
+
       - name: Summary
         if: always()
         run: |
