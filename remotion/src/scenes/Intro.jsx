@@ -33,15 +33,14 @@ export const Intro = ({ category }) => {
         }}
       />
 
-      {/* Logo Pulso da IA real */}
+      {/* Logo Pulso da IA real — sem shadow (evita efeito encaixotado) */}
       <Img
         src={staticFile('logo/pulso-full.png')}
         style={{
-          width: 720,
+          width: 800,
           height: 'auto',
           opacity: logoOpacity,
-          transform: `scale(${logoScale})`,
-          filter: 'drop-shadow(0 0 24px rgba(255, 94, 31, 0.4))'
+          transform: `scale(${logoScale})`
         }}
       />
 

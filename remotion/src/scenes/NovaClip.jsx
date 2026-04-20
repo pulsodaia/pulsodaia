@@ -16,10 +16,11 @@ export const NovaClip = ({ clipPath, label }) => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: '#0A0A0A', opacity }}>
+      {/* Muted: fala PT-BR do Veo nao esta precisa, usar so visual */}
       <OffthreadVideo
         src={staticFile(clipPath)}
         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-        volume={1}
+        muted
       />
       {/* Overlay badge inferior */}
       {label && (

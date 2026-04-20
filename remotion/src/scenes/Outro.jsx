@@ -33,7 +33,7 @@ export const Outro = () => {
       <Img
         src={staticFile('logo/pulso-full.png')}
         style={{
-          width: 640,
+          width: 760,
           height: 'auto',
           opacity: logoOpacity,
           transform: `scale(${pulse})`

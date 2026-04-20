@@ -24,7 +24,7 @@ export const CTA = ({ ctaKeyword = 'PULSO' }) => {
       <Img
         src={staticFile('logo/pulso-full.png')}
         style={{
-          width: 280,
+          width: 380,
           height: 'auto',
           opacity: subOpacity,
           marginBottom: -20

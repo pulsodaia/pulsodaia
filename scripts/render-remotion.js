@@ -61,34 +61,8 @@ function copyNovaClipToPublic(slug) {
 }
 
 function pickGalleryImages(slug, heroUrl) {
-  // Combina hero do artigo + 2 imagens da Nova (public/nova-images/ commitadas)
-  const gallery = [];
-  if (heroUrl) gallery.push(heroUrl);
-
-  // Pool de 6 Nova mockups commitados em public/nova-images/
-  const novaFiles = [
-    'nova-01-homeoffice.png',
-    'nova-02-headphones.png',
-    'nova-04-breaking-news.png',
-    'nova-05-warm-coffee.png',
-    'nova-07-notebook.png',
-    'nova-08-official-portrait.png'
-  ];
-
-  // Hash simples pra escolher 2 diferentes por slug (varia por artigo)
-  let hash = 0;
-  for (const c of slug) hash = (hash * 31 + c.charCodeAt(0)) & 0xffffffff;
-  hash = Math.abs(hash);
-
-  const picks = [novaFiles[hash % novaFiles.length], novaFiles[(hash + 3) % novaFiles.length]];
-  for (const fn of picks) {
-    // Valida que esta commitado (evita 404 no render)
-    const publicFile = path.join(REMOTION_PUBLIC, 'nova-images', fn);
-    if (fs.existsSync(publicFile)) {
-      gallery.push(`/nova-images/${fn}`);
-    }
-  }
-  return gallery;
+  // So hero do artigo (sem Nova mockups extras)
+  return heroUrl ? [heroUrl] : [];
 }
 
 function maybeGenerateNarration(slug, force) {
