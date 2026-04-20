@@ -120,7 +120,7 @@ async function createPost({ accountIds, text, mediaUrls = [], scheduleDate, stat
     type: 'post',
     status,
     userId: USER_ID,
-    ...(mediaUrls.length ? { media: mediaUrls.map(url => ({ url, type: 'image' })) } : {}),
+    ...(mediaUrls.length ? { media: mediaUrls.map(url => ({ url, type: /\.(mp4|mov|webm)$/i.test(url) ? 'video' : 'image' })) } : {}),
     ...(scheduleDate ? { scheduleDate } : {})
   };
   const res = await ghlRequest('POST', `/social-media-posting/${LOCATION_ID}/posts`, body);
@@ -153,7 +153,7 @@ async function main() {
   const platformsArg = (args.find(a => a.startsWith('--platforms=')) || '').split('=')[1];
   const wantedPlatforms = platformsArg
     ? platformsArg.split(',').map(s => s.trim().toLowerCase())
-    : ['facebook', 'instagram', 'pinterest', 'bluesky'];
+    : ['facebook', 'instagram', 'pinterest', 'bluesky', 'tiktok', 'youtube'];
 
   const byPlatform = {};
   for (const a of accounts) {
@@ -226,6 +226,24 @@ async function main() {
         text: linkedinText,
         mediaUrls: heroUrl ? [heroUrl] : [],
         platforms: multiPlatforms
+      });
+    }
+
+    // Video Remotion (Reels/Shorts/TikTok) — se assets/videos/{slug}/remotion.mp4 existe
+    const videoUrl = `https://pulsodaia.com.br/assets/videos/${slug}/remotion.mp4`;
+    const videoAccounts = [];
+    const videoPlatforms = [];
+    if (byPlatform.instagram) { videoAccounts.push(byPlatform.instagram.id); videoPlatforms.push('instagram'); }
+    if (byPlatform.facebook) { videoAccounts.push(byPlatform.facebook.id); videoPlatforms.push('facebook'); }
+    if (byPlatform.tiktok) { videoAccounts.push(byPlatform.tiktok.id); videoPlatforms.push('tiktok'); }
+    if (byPlatform.youtube) { videoAccounts.push(byPlatform.youtube.id); videoPlatforms.push('youtube'); }
+    if (videoAccounts.length) {
+      jobs.push({
+        key: 'video-reels-shorts-tiktok',
+        accountIds: videoAccounts,
+        text: igCaption || linkedinText,
+        mediaUrls: [videoUrl],
+        platforms: videoPlatforms
       });
     }
 
