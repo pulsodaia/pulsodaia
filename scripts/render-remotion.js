@@ -61,11 +61,11 @@ function copyNovaClipToPublic(slug) {
 }
 
 function pickGalleryImages(slug, heroUrl) {
-  // Combina hero do artigo + 2 imagens da Nova (brand/mockups/)
+  // Combina hero do artigo + 2 imagens da Nova (public/nova-images/ commitadas)
   const gallery = [];
   if (heroUrl) gallery.push(heroUrl);
 
-  // Adiciona 2-3 Nova mockups rotativos (hash do slug pra variar por artigo)
+  // Pool de 6 Nova mockups commitados em public/nova-images/
   const novaFiles = [
     'nova-01-homeoffice.png',
     'nova-02-headphones.png',
@@ -75,18 +75,16 @@ function pickGalleryImages(slug, heroUrl) {
     'nova-08-official-portrait.png'
   ];
 
-  // Hash simples pra escolher 2 diferentes por slug
+  // Hash simples pra escolher 2 diferentes por slug (varia por artigo)
   let hash = 0;
   for (const c of slug) hash = (hash * 31 + c.charCodeAt(0)) & 0xffffffff;
-  const publicNovaImgDir = path.join(REMOTION_PUBLIC, 'nova-images');
-  if (!fs.existsSync(publicNovaImgDir)) fs.mkdirSync(publicNovaImgDir, { recursive: true });
+  hash = Math.abs(hash);
 
   const picks = [novaFiles[hash % novaFiles.length], novaFiles[(hash + 3) % novaFiles.length]];
   for (const fn of picks) {
-    const src = path.join(BRAND_MOCKUPS, fn);
-    if (fs.existsSync(src)) {
-      const dest = path.join(publicNovaImgDir, fn);
-      fs.copyFileSync(src, dest);
+    // Valida que esta commitado (evita 404 no render)
+    const publicFile = path.join(REMOTION_PUBLIC, 'nova-images', fn);
+    if (fs.existsSync(publicFile)) {
       gallery.push(`/nova-images/${fn}`);
     }
   }
