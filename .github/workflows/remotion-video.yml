@@ -106,8 +106,10 @@ jobs:
             echo "[ghl] secret GHL_LOCATION_PIT ausente, skip"
             exit 0
           fi
-          # --force re-cria drafts (deleta ghl_posts entries pra video re-postar)
-          node scripts/ghl-social-post.js --slug="${{ inputs.slug }}" --force 2>&1 | tee -a /tmp/remotion.log || echo "[ghl] falhou nao critico"
+          # --force so em re-render manual (input force=true). Senao skip jobs ja postados.
+          EXTRA=""
+          if [ "${{ inputs.force }}" = "true" ]; then EXTRA="--force"; fi
+          node scripts/ghl-social-post.js --slug="${{ inputs.slug }}" $EXTRA 2>&1 | tee -a /tmp/remotion.log || echo "[ghl] falhou nao critico"
 
       - name: Summary
         if: always()
