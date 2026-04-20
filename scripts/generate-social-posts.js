@@ -114,44 +114,50 @@ Roteiro pra carrossel de 2 a 10 cards (decida baseado na complexidade):
 - 6-10 cards: analises profundas, listas, comparativos, timelines
 
 Cada card em bloco ---CARD N (TIPO)---. Tipos disponiveis:
-- COVER: sempre o primeiro, manchete hook + subtitle (max 8 palavras title, 1 linha sub)
-- COVER_HERO: capa com destaque pra imagem do artigo (use se fonte tem imagem forte)
-- INSIGHT: texto corrido, 2-3 paragrafos curtos (max 350 chars total)
-- STAT: numero grande destacado + contexto (ex: "500M USD" + "rodada da OpenAI em 2026")
-- QUOTE: frase destaque entre aspas (max 180 chars) + autor/fonte
-- LIST: 3-5 bullets curtos (max 60 chars cada)
-- TIMELINE: 2-4 pontos numerados com data/momento (ex: "2023: GPT-4" / "2026: GPT-5")
-- COMPARISON: A vs B, duas colunas com 3-4 linhas cada
-- SOURCE: creditos da fonte original + URL canonica
+- COVER_HERO: **USE SEMPRE NO CARD 1** (exceto se nao tem hero_image no artigo). Capa com imagem hero do artigo como fundo, overlay escuro, titulo branco por cima. Aproveita visual real da noticia.
+- COVER: so use se hero_image faltar. Manchete hook + subtitle fundo solido.
+- STAT: numero grande destacado + contexto (ex: "500M USD" + "rodada da OpenAI em 2026"). Use quando artigo tem cifra, percentual, metrica, data marcante.
+- QUOTE: frase destaque entre aspas (max 180 chars) + autor/fonte. Use quando artigo tem citacao direta de CEO, pesquisador, founder.
+- LIST: 3-5 bullets curtos (max 60 chars cada). Use quando artigo lista features, pontos, etapas.
+- TIMELINE: 2-4 pontos numerados com data/momento. Use em comparativos temporais.
+- COMPARISON: A vs B, duas colunas. Use em concorrencia/benchmark.
+- INSIGHT: texto corrido. **USE SOMENTE 1 card desse tipo por carrossel** (se nao couber em STAT/QUOTE/LIST). Evite abusar.
+- SOURCE: creditos da fonte original + URL canonica.
 - CTA: sempre o ultimo, "Comenta ${CTA_KEYWORD}..."
 
-Formato estrito:
+**REGRA DE VARIACAO OBRIGATORIA:**
+- Card 1 = COVER_HERO (sempre, se tem imagem)
+- Cards internos = **PELO MENOS 2 tipos DIFERENTES** de {STAT, QUOTE, LIST, TIMELINE, COMPARISON}. Nao repita 2x o mesmo tipo. Nunca encadeie so INSIGHT.
+- Card final = CTA
 
----CARD 1 (COVER)---
+Extraia do artigo: numeros → STAT, citacoes → QUOTE, listas → LIST, datas → TIMELINE, concorrencia → COMPARISON.
+
+Formato estrito (EXEMPLO CORRETO com tipos variados):
+
+---CARD 1 (COVER_HERO)---
 TITLE: Manchete hook de ate 8 palavras
 SUBTITLE: Frase de contexto em 1 linha
 
----CARD 2 (INSIGHT)---
-BODY: Texto corrido, 2-3 paragrafos curtos, max 350 chars
-
----CARD 3 (STAT)---
+---CARD 2 (STAT)---
 STAT: 500M USD
-LABEL: Rodada da OpenAI em 2026
+LABEL: Rodada fechada em 4 meses
 
----CARD 4 (QUOTE)---
-QUOTE: "Frase destaque em aspas diretas"
+---CARD 3 (QUOTE)---
+QUOTE: "Frase destaque em aspas diretas do founder/CEO"
 ATTRIBUTION: Nome, Cargo
 
----CARD 5 (LIST)---
+---CARD 4 (LIST)---
 ITEM: Primeiro ponto da lista
 ITEM: Segundo ponto
 ITEM: Terceiro ponto
 
----CARD N (CTA)---
+---CARD 5 (CTA)---
 TITLE: ${CTA_HOOK}
 INSTRUCTION: Comenta ${CTA_KEYWORD} aqui no post e recebe na hora
 
-Use 3-5 cards por padrao. Use 6-10 SOMENTE quando o artigo tem material pra tanto (analise profunda, comparativos, listas ricas). Nunca encha de cards vazios.
+**Decisao de quantos cards:** 4-6 cards no padrao (COVER_HERO + 2-4 internos variados + CTA). Use 7-10 so em analises profundas.
+**Extracao obrigatoria:** varrer o artigo procurando numeros, citacoes, listas, datas. Se tem numero → STAT. Se tem citacao → QUOTE. Se lista features → LIST. Se data/marcos → TIMELINE.
+**NAO faca:** 4 cards INSIGHT seguidos. Isso e preguica. Cada tipo diferente mantem o olho do usuario engajado no carrossel.
 
 ===INSTAGRAM_CAPTION===
 Legenda do post Instagram (texto abaixo dos cards). 3-5 linhas:
