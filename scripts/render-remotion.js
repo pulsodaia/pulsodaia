@@ -97,7 +97,7 @@ function main() {
   const propsFile = path.join(REMOTION_DIR, '.props.json');
   fs.writeFileSync(propsFile, JSON.stringify(props));
 
-  const cmd = ['render', 'article-short', outPath, `--props=${propsFile}`];
+  const cmd = ['render', 'src/index.jsx', 'article-short', outPath, `--props=${propsFile}`];
   log(`Executando: npx remotion ${cmd.join(' ')}`);
   const res = spawnSync('npx', ['remotion', ...cmd], {
     cwd: REMOTION_DIR,
