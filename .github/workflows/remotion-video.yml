@@ -35,14 +35,15 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install system deps (Chromium pre-reqs)
+      - name: Install system deps (Chromium + ffmpeg)
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq \
             libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 \
             libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
             libgbm1 libpango-1.0-0 libcairo2 libasound2t64 \
-            fonts-liberation fonts-noto-color-emoji 2>&1 | tail -3 || true
+            fonts-liberation fonts-noto-color-emoji \
+            ffmpeg 2>&1 | tail -3 || true
 
       - name: Install Remotion deps
         working-directory: remotion
@@ -52,6 +53,10 @@ jobs:
       - name: Render video
         env:
           REMOTION_CHROMIUM_OPTIONS: '--disable-web-security --no-sandbox'
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+          TTS_MODEL: gemini-2.5-flash-preview-tts
+          TTS_VOICE: Kore
         run: |
           EXTRA=""
           if [ "${{ inputs.force }}" = "true" ]; then EXTRA="--force"; fi
