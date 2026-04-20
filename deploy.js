@@ -36,10 +36,11 @@ function walk(dir, base = '') {
 
 function contentHash(filepath, extHint) {
   const data = fs.readFileSync(filepath);
-  // Cloudflare Pages usa SHA-256 do conteudo + extension hint (ex: html,json,png)
-  // Hash final: 32 chars hex
   const ext = (extHint || path.extname(filepath).slice(1)).toLowerCase();
-  const content = Buffer.concat([data, Buffer.from(ext)]);
+  // Inclui MIME no hash pra forcar re-upload quando MIME map muda
+  // (CF cacheia contentType no primeiro upload; se ficou octet-stream, precisa novo hash)
+  const mimeStr = mime(ext);
+  const content = Buffer.concat([data, Buffer.from(ext), Buffer.from(mimeStr)]);
   return crypto.createHash('sha256').update(content).digest('hex').slice(0, 32);
 }
 
