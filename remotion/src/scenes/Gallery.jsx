@@ -1,6 +1,12 @@
-import { AbsoluteFill, Img, interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 
-// Galeria crossfade de 2-4 imagens durante X segundos
+// Resolve URL: absoluta (http) usa direto; relativa /path usa staticFile
+function resolveSrc(src) {
+  if (!src) return '';
+  if (src.startsWith('http://') || src.startsWith('https://')) return src;
+  return staticFile(src.replace(/^\//, ''));
+}
+
 export const Gallery = ({ images = [] }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
@@ -14,7 +20,8 @@ export const Gallery = ({ images = [] }) => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: '#0A0A0A' }}>
-      {images.map((src, i) => {
+      {images.map((rawSrc, i) => {
+        const src = resolveSrc(rawSrc);
         const start = i * perImage;
         const end = start + perImage;
         const fadeIn = start;
