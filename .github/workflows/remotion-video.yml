@@ -72,12 +72,22 @@ jobs:
             exit 0
           fi
           git commit -m "feat(remotion): video motion-graphics ${{ inputs.slug }} [skip ci]"
+          # Em caso de conflito binario (video concorrente), prefere o NOSSO video (mais novo)
           for attempt in 1 2 3; do
-            if git push origin main; then break; fi
+            if git push origin main; then
+              echo "push ok (attempt $attempt)"
+              exit 0
+            fi
+            echo "push falhou (attempt $attempt), rebase com ours..."
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; exit 1; }
+            git -c core.editor=true rebase -X ours origin/main || {
+              git rebase --abort
+              echo "rebase impossivel, abortando"
+              exit 1
+            }
             sleep 3
           done
+          exit 1
 
       - name: Deploy Cloudflare
         env:
