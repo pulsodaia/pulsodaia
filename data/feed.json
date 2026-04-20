@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-19T23:56:30.279Z",
+  "generated_at": "2026-04-20T11:26:01.552Z",
   "articles": [
+    {
+      "slug": "registro-de-ia-no-canada-transparencia-burocratica-esconde-uso-interno-em-massa",
+      "headline": "Registro de IA no Canadá: Transparência Burocrática Esconde Uso Interno em Massa",
+      "subtitle": "Nova análise do registro federal de IA do Canadá expõe discrepâncias entre discurso oficial e prática administrativa.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.15514",
+      "category": "research",
+      "tags": [
+        "ia",
+        "governo",
+        "transparencia",
+        "canadá"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 20 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-20T11:26:01.474Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "gist-nova-arquitetura-mapeia-ambientes-complexos-para-robos-autonomos",
+      "headline": "GIST: Nova Arquitetura Mapeia Ambientes Complexos para Robôs Autônomos",
+      "subtitle": "Pesquisa em IA avança na navegação de robôs em locais como armazéns e hospitais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.15495",
+      "category": "research",
+      "tags": [
+        "navegação autônoma",
+        "robótica",
+        "visão computacional",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 20 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-20T11:25:45.542Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "deeper-med-nova-abordagem-de-ia-quer-dar-mais-confiabilidade-a-pesquisa-medica-b",
+      "headline": "DeepER-Med: Nova abordagem de IA quer dar mais confiabilidade à pesquisa médica baseada em evidências",
+      "subtitle": "Sistema busca tornar a inteligência artificial mais transparente e confiável para a área da saúde no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.15456",
+      "category": "research",
+      "tags": [
+        "ia na saude",
+        "pesquisa medica",
+        "transparencia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 20 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-20T11:25:33.869Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-enfrenta-questoes-existenciais-pos-aquisicoes",
       "headline": "OpenAI Enfrenta Questões Existenciais Pós-Aquisições",
