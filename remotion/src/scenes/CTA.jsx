@@ -34,7 +34,7 @@ export const CTA = ({ ctaKeyword = 'PULSO' }) => {
         }}
       >
         Receba <span style={{ color: '#FF5E1F' }}>+3.000 skills</span>
-        <br />de IA
+        <br />do Claude
       </div>
 
       {/* Box CTA */}
@@ -74,16 +74,20 @@ export const CTA = ({ ctaKeyword = 'PULSO' }) => {
         </div>
       </div>
 
-      {/* Logo PNG limpa no fim */}
-      <Img
-        src={staticFile('logo/pulso-full.png')}
-        style={{
-          width: 480,
-          height: 'auto',
-          opacity: logoOpacity,
-          marginTop: 20
-        }}
-      />
+      {/* Simbolo + URL (sem logo full PNG que fica ilegivel no "da") */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 14, opacity: logoOpacity, marginTop: 10 }}>
+        <Img src={staticFile('logo/pulso-symbol.png')} style={{ width: 64, height: 'auto' }} />
+        <div
+          style={{
+            fontSize: 32,
+            fontWeight: 500,
+            color: '#FAFAFA',
+            letterSpacing: '0.02em'
+          }}
+        >
+          pulsodaia.com.br
+        </div>
+      </div>
     </AbsoluteFill>
   );
 };

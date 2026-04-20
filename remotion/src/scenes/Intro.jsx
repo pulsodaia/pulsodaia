@@ -1,19 +1,16 @@
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 
-// Intro limpa: texto categoria em cima + logo PNG sozinha embaixo
-export const Intro = ({ category, headline }) => {
+// Intro: categoria + simbolo pulse + URL (sem tentativa de renderizar "Pulso da IA" que fica ilegivel)
+export const Intro = ({ category }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const pulse = Math.sin((frame / fps) * Math.PI * 2) * 0.05 + 1;
+  const pulse = Math.sin((frame / fps) * Math.PI * 2) * 0.06 + 1;
 
   const categoryOpacity = spring({ frame, fps, config: { damping: 14 } });
-  const logoOpacity = spring({ frame: frame - fps * 0.3, fps, config: { damping: 12, stiffness: 100 } });
-  const logoY = interpolate(
-    spring({ frame: frame - fps * 0.3, fps, config: { damping: 14, stiffness: 120 } }),
-    [0, 1],
-    [40, 0]
-  );
+  const symbolOpacity = spring({ frame: frame - fps * 0.3, fps, config: { damping: 12, stiffness: 100 } });
+  const symbolScale = spring({ frame: frame - fps * 0.3, fps, config: { damping: 14, stiffness: 120 } });
+  const urlOpacity = spring({ frame: frame - fps * 1.1, fps, config: { damping: 14 } });
 
   return (
     <AbsoluteFill
@@ -22,22 +19,22 @@ export const Intro = ({ category, headline }) => {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        gap: 56
+        gap: 48
       }}
     >
-      {/* Halo pulsante atras */}
+      {/* Halo pulsante */}
       <div
         style={{
           position: 'absolute',
           width: 800,
           height: 800,
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(255, 94, 31, 0.2) 0%, transparent 60%)',
+          background: 'radial-gradient(circle, rgba(255, 94, 31, 0.22) 0%, transparent 60%)',
           transform: `scale(${pulse})`
         }}
       />
 
-      {/* CATEGORIA — texto em cima */}
+      {/* Categoria topo */}
       <div
         style={{
           padding: '16px 36px',
@@ -54,16 +51,29 @@ export const Intro = ({ category, headline }) => {
         {category}
       </div>
 
-      {/* LOGO — PNG limpo, sem typography overlay */}
+      {/* Simbolo pulse — unico elemento de marca no intro */}
       <Img
-        src={staticFile('logo/pulso-full.png')}
+        src={staticFile('logo/pulso-symbol.png')}
         style={{
-          width: 880,
+          width: 360,
           height: 'auto',
-          opacity: logoOpacity,
-          transform: `translateY(${logoY}px)`
+          opacity: symbolOpacity,
+          transform: `scale(${symbolScale * pulse})`
         }}
       />
+
+      {/* URL limpo embaixo */}
+      <div
+        style={{
+          fontSize: 36,
+          fontWeight: 500,
+          color: '#FAFAFA',
+          letterSpacing: '0.02em',
+          opacity: urlOpacity
+        }}
+      >
+        pulsodaia.com.br
+      </div>
     </AbsoluteFill>
   );
 };
