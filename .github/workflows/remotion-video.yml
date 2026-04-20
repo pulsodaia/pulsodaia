@@ -1,0 +1,93 @@
+name: Remotion Video (motion graphics)
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Slug do artigo (ex: anthropic-apresenta-claude-design-para-criacao-rapida-de-visuais)'
+        required: true
+      force:
+        description: 'Forcar re-render se ja existe'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: remotion-video
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install system deps (Chromium pre-reqs)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 \
+            libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
+            libgbm1 libpango-1.0-0 libcairo2 libasound2t64 \
+            fonts-liberation fonts-noto-color-emoji 2>&1 | tail -3 || true
+
+      - name: Install Remotion deps
+        working-directory: remotion
+        run: |
+          npm install --no-audit --no-fund 2>&1 | tail -10
+
+      - name: Render video
+        env:
+          REMOTION_CHROMIUM_OPTIONS: '--disable-web-security --no-sandbox'
+        run: |
+          EXTRA=""
+          if [ "${{ inputs.force }}" = "true" ]; then EXTRA="--force"; fi
+          node scripts/render-remotion.js --slug="${{ inputs.slug }}" $EXTRA 2>&1 | tee /tmp/remotion.log
+
+      - name: Commit + push
+        run: |
+          git config user.name "pulso-autopilot[bot]"
+          git config user.email "autopilot@pulsodaia.com.br"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nada novo"
+            exit 0
+          fi
+          git commit -m "feat(remotion): video motion-graphics ${{ inputs.slug }} [skip ci]"
+          for attempt in 1 2 3; do
+            if git push origin main; then break; fi
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            sleep 3
+          done
+
+      - name: Deploy Cloudflare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: pulsodaia
+          PAGES_BRANCH: main
+        run: node deploy.js || echo "[deploy] falhou"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Remotion Video — $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "**Slug:** ${{ inputs.slug }}" >> $GITHUB_STEP_SUMMARY
+          echo "**URL:** https://pulsodaia.com.br/assets/videos/${{ inputs.slug }}/remotion.mp4" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -50 /tmp/remotion.log >> $GITHUB_STEP_SUMMARY 2>/dev/null
+          echo '```' >> $GITHUB_STEP_SUMMARY
