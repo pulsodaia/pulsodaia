@@ -105,41 +105,42 @@ function main() {
   const igMd = fs.existsSync(igPath) ? fs.readFileSync(igPath, 'utf8') : '';
   const { insights, stats, quotes, lists } = extractStructuredFromIG(igMd);
 
-  // Copia Nova clip se existir
-  const novaClipPath = copyNovaClipToPublic(args.slug);
-  if (novaClipPath) log(`Nova clip encontrado: ${novaClipPath}`);
-
-  // Gera galeria (hero + 2 Nova mockups)
   const heroUrl = meta.hero_image || `https://pulsodaia.com.br/feed/${args.slug}/hero.png`;
-  const galleryImages = pickGalleryImages(args.slug, heroUrl);
-  log(`Gallery: ${galleryImages.length} imagens`);
 
-  // Gera narração TTS (best-effort, nao bloqueia)
+  // Gera narração TTS — pipeline principal agora
   const narrationAudioPath = args.noNarration ? null : maybeGenerateNarration(args.slug, args.force);
   if (narrationAudioPath) log(`Narracao: ${narrationAudioPath}`);
+
+  // Le duracao do MP3 pra sincronizar scenes (gravada em .duration.txt pelo generate-narration.js)
+  let narrationDurationSec = 42; // default fallback
+  if (narrationAudioPath) {
+    const durPath = path.join(REMOTION_PUBLIC, narrationAudioPath.replace(/\.mp3$/, '.duration.txt'));
+    if (fs.existsSync(durPath)) {
+      const d = parseFloat(fs.readFileSync(durPath, 'utf8').trim());
+      if (d > 0) {
+        narrationDurationSec = Math.ceil(d) + 1; // +1s buffer de fade final
+        log(`Duracao narracao: ${d.toFixed(2)}s -> video ${narrationDurationSec}s`);
+      }
+    }
+  }
 
   const props = {
     headline: meta.article_headline || 'Sem titulo',
     subtitle: meta.subtitle || meta.article_subtitle || '',
     category: meta.article_category || 'NOTÍCIA',
     heroUrl,
-    galleryImages,
     insights: insights.length > 0 ? insights.slice(0, 3) : (lists.slice(0, 3).length > 0 ? lists.slice(0, 3) : ['Novidade no mercado de IA']),
-    stat: stats[0] || null,
-    quote: quotes[0] || null,
     articleUrl: meta.article_url || `https://pulsodaia.com.br/feed/${args.slug}/`,
     ctaKeyword: 'PULSO',
-    novaClipPath,
     narrationAudioPath,
-    musicAudioPath: null
+    narrationDurationSec
   };
 
   log(`Render props:`);
   log(`  headline: ${props.headline}`);
-  log(`  stat: ${stats.length ? 'sim' : 'nao'}`);
-  log(`  quote: ${quotes.length ? 'sim' : 'nao'}`);
-  log(`  nova: ${novaClipPath ? 'sim' : 'nao'}`);
+  log(`  insights: ${props.insights.length}`);
   log(`  narration: ${narrationAudioPath ? 'sim' : 'nao'}`);
+  log(`  duracao: ${narrationDurationSec}s`);
 
   const propsFile = path.join(REMOTION_DIR, '.props.json');
   fs.writeFileSync(propsFile, JSON.stringify(props));

@@ -157,6 +157,19 @@ async function synthesizeTTS(narration, slug) {
 
   const sizeKB = (fs.statSync(mp3Path).size / 1024).toFixed(1);
   log(`MP3 salvo: ${path.relative(ROOT, mp3Path)} (${sizeKB}KB)`);
+
+  // Mede duracao via ffprobe pra Remotion sincronizar scenes
+  const probe = spawnSync('ffprobe', [
+    '-v', 'error', '-show_entries', 'format=duration',
+    '-of', 'default=noprint_wrappers=1:nokey=1', mp3Path
+  ], { stdio: ['ignore', 'pipe', 'pipe'] });
+  const duration = parseFloat((probe.stdout || '').toString().trim()) || 0;
+  if (duration > 0) {
+    const durationPath = mp3Path.replace(/\.mp3$/, '.duration.txt');
+    fs.writeFileSync(durationPath, String(duration));
+    log(`Duracao: ${duration.toFixed(2)}s (salvo em ${path.basename(durationPath)})`);
+  }
+
   return mp3Path;
 }
 

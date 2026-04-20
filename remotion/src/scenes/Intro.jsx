@@ -1,14 +1,19 @@
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 
-export const Intro = ({ category }) => {
+// Intro limpa: texto categoria em cima + logo PNG sozinha embaixo
+export const Intro = ({ category, headline }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const pulse = Math.sin((frame / fps) * Math.PI * 2) * 0.06 + 1;
+  const pulse = Math.sin((frame / fps) * Math.PI * 2) * 0.05 + 1;
 
-  const symbolOpacity = spring({ frame, fps, config: { damping: 12, stiffness: 100 } });
-  const textOpacity = spring({ frame: frame - fps * 0.3, fps, config: { damping: 14, stiffness: 120 } });
-  const categoryOpacity = spring({ frame: frame - fps * 1.0, fps, config: { damping: 14 } });
+  const categoryOpacity = spring({ frame, fps, config: { damping: 14 } });
+  const logoOpacity = spring({ frame: frame - fps * 0.3, fps, config: { damping: 12, stiffness: 100 } });
+  const logoY = interpolate(
+    spring({ frame: frame - fps * 0.3, fps, config: { damping: 14, stiffness: 120 } }),
+    [0, 1],
+    [40, 0]
+  );
 
   return (
     <AbsoluteFill
@@ -20,62 +25,45 @@ export const Intro = ({ category }) => {
         gap: 56
       }}
     >
-      {/* Halo pulsante laranja */}
+      {/* Halo pulsante atras */}
       <div
         style={{
           position: 'absolute',
-          width: 700,
-          height: 700,
+          width: 800,
+          height: 800,
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(255, 94, 31, 0.22) 0%, transparent 65%)',
+          background: 'radial-gradient(circle, rgba(255, 94, 31, 0.2) 0%, transparent 60%)',
           transform: `scale(${pulse})`
         }}
       />
 
-      {/* Simbolo pulse no topo */}
-      <Img
-        src={staticFile('logo/pulso-symbol.png')}
-        style={{
-          width: 200,
-          height: 'auto',
-          opacity: symbolOpacity,
-          transform: `scale(${pulse})`
-        }}
-      />
-
-      {/* Marca tipografada — legivel, sem squish */}
+      {/* CATEGORIA — texto em cima */}
       <div
         style={{
-          fontFamily: 'Fraunces, Inter, serif',
-          fontSize: 130,
-          fontWeight: 500,
-          color: '#FAFAFA',
-          letterSpacing: '-0.03em',
-          lineHeight: 1,
-          opacity: textOpacity,
-          textAlign: 'center'
-        }}
-      >
-        Pulso <span style={{ fontStyle: 'italic', color: 'rgba(250,250,250,0.55)', fontWeight: 400 }}>da</span> IA
-      </div>
-
-      {/* Categoria */}
-      <div
-        style={{
-          padding: '14px 32px',
-          border: '1.5px solid #FF5E1F',
+          padding: '16px 36px',
+          border: '2px solid #FF5E1F',
           borderRadius: 999,
           color: '#FF5E1F',
-          fontSize: 28,
+          fontSize: 32,
           fontWeight: 700,
-          letterSpacing: '0.2em',
+          letterSpacing: '0.22em',
           textTransform: 'uppercase',
-          opacity: categoryOpacity,
-          marginTop: 20
+          opacity: categoryOpacity
         }}
       >
         {category}
       </div>
+
+      {/* LOGO — PNG limpo, sem typography overlay */}
+      <Img
+        src={staticFile('logo/pulso-full.png')}
+        style={{
+          width: 880,
+          height: 'auto',
+          opacity: logoOpacity,
+          transform: `translateY(${logoY}px)`
+        }}
+      />
     </AbsoluteFill>
   );
 };

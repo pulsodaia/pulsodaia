@@ -4,10 +4,10 @@ export const CTA = ({ ctaKeyword = 'PULSO' }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const scale = spring({ frame, fps, config: { damping: 12, stiffness: 90 } });
+  const topOpacity = spring({ frame, fps, config: { damping: 14 } });
+  const boxScale = spring({ frame: frame - fps * 0.3, fps, config: { damping: 12, stiffness: 90 } });
   const pulse = Math.sin((frame / fps) * Math.PI * 3) * 0.03 + 1;
-
-  const subOpacity = spring({ frame: frame - fps * 0.6, fps, config: { damping: 14 } });
+  const logoOpacity = spring({ frame: frame - fps * 0.8, fps, config: { damping: 14 } });
 
   return (
     <AbsoluteFill
@@ -20,58 +20,40 @@ export const CTA = ({ ctaKeyword = 'PULSO' }) => {
         gap: 50
       }}
     >
-      {/* Simbolo + marca tipografada */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 18, opacity: subOpacity }}>
-        <Img src={staticFile('logo/pulso-symbol.png')} style={{ width: 70, height: 'auto' }} />
-        <div
-          style={{
-            fontFamily: 'Fraunces, Inter, serif',
-            fontSize: 52,
-            fontWeight: 500,
-            color: '#FAFAFA',
-            letterSpacing: '-0.02em',
-            lineHeight: 1
-          }}
-        >
-          Pulso <span style={{ fontStyle: 'italic', color: 'rgba(250,250,250,0.55)', fontWeight: 400 }}>da</span> IA
-        </div>
-      </div>
-
-      {/* Texto hook */}
+      {/* Texto hook topo */}
       <div
         style={{
           fontFamily: 'Fraunces, Inter, serif',
-          fontSize: 52,
-          fontWeight: 600,
+          fontSize: 58,
+          fontWeight: 500,
           color: '#FAFAFA',
           letterSpacing: '-0.02em',
           textAlign: 'center',
           lineHeight: 1.1,
-          opacity: subOpacity
+          opacity: topOpacity
         }}
       >
         Receba <span style={{ color: '#FF5E1F' }}>+3.000 skills</span>
-        <br />
-        de IA
+        <br />de IA
       </div>
 
-      {/* Box CTA PULSO */}
+      {/* Box CTA */}
       <div
         style={{
           border: '3px solid #FF5E1F',
           borderRadius: 32,
           padding: '40px 56px',
           textAlign: 'center',
-          transform: `scale(${scale * pulse})`,
+          transform: `scale(${boxScale * pulse})`,
           background: 'rgba(255, 94, 31, 0.08)'
         }}
       >
         <div
           style={{
-            fontSize: 24,
+            fontSize: 26,
             fontWeight: 600,
             color: 'rgba(250,250,250,0.6)',
-            marginBottom: 10,
+            marginBottom: 12,
             letterSpacing: '0.05em',
             textTransform: 'uppercase'
           }}
@@ -81,7 +63,7 @@ export const CTA = ({ ctaKeyword = 'PULSO' }) => {
         <div
           style={{
             fontFamily: 'Fraunces, Inter, serif',
-            fontSize: 110,
+            fontSize: 120,
             fontWeight: 600,
             color: '#FF5E1F',
             letterSpacing: '-0.03em',
@@ -92,17 +74,16 @@ export const CTA = ({ ctaKeyword = 'PULSO' }) => {
         </div>
       </div>
 
-      <div
+      {/* Logo PNG limpa no fim */}
+      <Img
+        src={staticFile('logo/pulso-full.png')}
         style={{
-          fontSize: 26,
-          fontWeight: 500,
-          color: 'rgba(250,250,250,0.55)',
-          opacity: subOpacity,
-          textAlign: 'center'
+          width: 480,
+          height: 'auto',
+          opacity: logoOpacity,
+          marginTop: 20
         }}
-      >
-        aqui no post
-      </div>
+      />
     </AbsoluteFill>
   );
 };
