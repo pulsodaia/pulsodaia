@@ -1609,6 +1609,21 @@ function skillsApp() {
           utm_campaign: params.get('utm_campaign') || 'newsletter'
         }
       };
+
+      // event_id + touch context pra dedup Pixel+CAPI+GA4
+      const nlEventId = (window.PulsoTracking && window.PulsoTracking.newEventId)
+        ? window.PulsoTracking.newEventId()
+        : (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()));
+      const npt = window.PulsoTracking || {};
+      payload.event_id = nlEventId;
+      payload.capi_event_name = 'Lead';
+      payload.event_time = Math.floor(Date.now() / 1000);
+      payload.url = window.location.href;
+      payload.fbc = npt.getCookie ? npt.getCookie('_fbc') : null;
+      payload.fbp = npt.getCookie ? npt.getCookie('_fbp') : null;
+      payload.first_touch = npt.getFirstTouch ? npt.getFirstTouch() : null;
+      payload.last_touch = npt.getLastTouch ? npt.getLastTouch() : null;
+
       try {
         await fetch(this.newsletterWebhookUrl, {
           method: 'POST',
@@ -1616,6 +1631,13 @@ function skillsApp() {
           body: JSON.stringify(payload)
         });
       } catch (e) {}
+
+      // Pixel + GA4 client com eventID compartilhado
+      try {
+        if (window.gtag) window.gtag('event', 'newsletter_subscribe', { event_id: nlEventId, newsletter_source: 'newsletter-section' });
+        if (window.fbq) window.fbq('track', 'Lead', { content_name: 'newsletter', content_category: 'newsletter' }, { eventID: nlEventId });
+      } catch (e) {}
+
       this.newsletterSubmitted = true;
       this.newsletterSubmitting = false;
     },
@@ -1715,6 +1737,17 @@ function skillsApp() {
         utm_term: params.get('utm_term') || ''
       };
 
+      // event_id UUID v4 compartilhado (Pixel client + CAPI server dedup)
+      const eventId = (window.PulsoTracking && window.PulsoTracking.newEventId)
+        ? window.PulsoTracking.newEventId()
+        : (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + '-' + Math.random().toString(36).slice(2));
+
+      const pt = window.PulsoTracking || {};
+      const firstTouch = pt.getFirstTouch ? pt.getFirstTouch() : null;
+      const lastTouch = pt.getLastTouch ? pt.getLastTouch() : null;
+      const fbc = pt.getCookie ? pt.getCookie('_fbc') : null;
+      const fbp = pt.getCookie ? pt.getCookie('_fbp') : null;
+
       const payload = {
         first_name: this.name.split(' ')[0],
         last_name: this.name.split(' ').slice(1).join(' '),
@@ -1730,7 +1763,16 @@ function skillsApp() {
           total_skills_at_signup: this.data.total,
           language: this.lang,
           ...utm
-        }
+        },
+        // CAPI fields
+        event_id: eventId,
+        capi_event_name: 'Lead',
+        event_time: Math.floor(Date.now() / 1000),
+        url: window.location.href,
+        fbc: fbc,
+        fbp: fbp,
+        first_touch: firstTouch,
+        last_touch: lastTouch
       };
 
       try {
@@ -1744,10 +1786,10 @@ function skillsApp() {
         console.warn('Webhook failed:', e);
       }
 
-      // analytics local pra debug
+      // Pixel + GA4 client com eventID compartilhado pra dedup com CAPI
       try {
-        if (window.gtag) window.gtag('event', 'lead_submit', { source: 'skills_page' });
-        if (window.fbq) window.fbq('track', 'Lead', { content_name: 'skills_page', content_category: 'lead_magnet_pdf' });
+        if (window.gtag) window.gtag('event', 'lead_submit', { event_id: eventId, source: 'skills_page' });
+        if (window.fbq) window.fbq('track', 'Lead', { content_name: 'skills_page', content_category: 'lead_magnet_pdf' }, { eventID: eventId });
       } catch (e) {}
 
       this.submitted = true;

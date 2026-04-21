@@ -32,10 +32,16 @@ const GHL_API_BASE = 'https://services.leadconnectorhq.com';
 const GHL_API_VERSION = '2021-07-28';
 const GHL_LOCATION_ID = 'l4nQqozhymP3hUZibeRY'; // Pulso da IA sub-account
 
+const META_GRAPH_BASE = 'https://graph.facebook.com/v21.0';
+const META_PIXEL_ID_DEFAULT = '944241681711983';
+const COOKIE_DOMAIN = '.pulsodaia.com.br';
+const COOKIE_MAX_AGE = 63072000; // 2 anos
+
 // CORS allowlist: dominios do portal
 const CORS_ORIGINS = [
   'https://pulsodaia.com.br',
   'https://pulsodaia.pages.dev',
+  'https://collect.pulsodaia.com.br',
   'http://localhost:8080',
   'http://localhost:3000'
 ];
@@ -59,9 +65,19 @@ export default {
       });
     }
 
-    // Route: newsletter subscribe (browser -> GHL + MP)
+    // Route: newsletter subscribe (browser -> GHL + MP + CAPI)
     if (url.pathname === '/api/newsletter-subscribe' && request.method === 'POST') {
       return handleNewsletterSubscribe(request, env, allowedOrigin);
+    }
+
+    // Route: track/init (set first-party cookie via Set-Cookie header)
+    if (url.pathname === '/track/init' && request.method === 'POST') {
+      return handleTrackInit(request, env, allowedOrigin);
+    }
+
+    // Route: track/event (receive client event, forward CAPI + GA4 MP)
+    if (url.pathname === '/track/event' && request.method === 'POST') {
+      return handleTrackEvent(request, env, allowedOrigin);
     }
 
     // Route: GHL webhook -> MP event
@@ -145,30 +161,76 @@ async function handleNewsletterSubscribe(request, env, origin) {
   const ok = ghlStatus >= 200 && ghlStatus < 300;
   const duplicate = ghlStatus === 422 && /duplicate|already exists/i.test(ghlBodyRaw);
 
+  // event_id (UUID v4) — idealmente veio do client (deduplica Pixel+CAPI+GA4)
+  const eventId = body.event_id || crypto.randomUUID();
+  const emailHash = await sha256Hex(email);
+  const phoneHash = body.phone ? await sha256Hex(String(body.phone).replace(/\D+/g, '')) : null;
+  const firstNameHash = firstName ? await sha256Hex(firstName) : null;
+  const lastNameHash = lastName ? await sha256Hex(lastName) : null;
+
+  // Dispara Meta CAPI Lead (best-effort, paralelo com GA4)
+  const capiPromise = sendMetaCAPI(env, {
+    event_id: eventId,
+    event_name: body.capi_event_name || 'Lead',
+    event_time: body.event_time || Math.floor(Date.now() / 1000),
+    event_source_url: body.url || 'https://pulsodaia.com.br/',
+    action_source: 'website',
+    user_data: {
+      em: [emailHash],
+      ph: phoneHash ? [phoneHash] : undefined,
+      fn: firstNameHash ? [firstNameHash] : undefined,
+      ln: lastNameHash ? [lastNameHash] : undefined,
+      fbc: body.fbc || null,
+      fbp: body.fbp || null,
+      client_ip_address: request.headers.get('CF-Connecting-IP') || null,
+      client_user_agent: request.headers.get('User-Agent') || null
+    },
+    custom_data: {
+      content_name: source,
+      content_category: body.source_page || 'newsletter',
+      article_slug: articleSlug || null,
+      first_touch: body.first_touch || null,
+      last_touch: body.last_touch || null,
+      duplicate: duplicate ? 'true' : 'false'
+    }
+  }).catch(err => ({ error: err.message }));
+
   // Dispara MP event newsletter_confirmed (best-effort)
   const measurementId = env.GA4_MEASUREMENT_ID || 'G-32GWZHPJGJ';
   const apiSecret = env.GA4_API_SECRET;
-  if (apiSecret) {
+  const ga4Promise = apiSecret ? (async () => {
     try {
-      const clientId = `em-${(await sha256Hex(email)).slice(0, 16)}`;
+      const clientId = deriveGa4ClientId(body, emailHash);
       await fetch(`https://www.google-analytics.com/mp/collect?measurement_id=${encodeURIComponent(measurementId)}&api_secret=${encodeURIComponent(apiSecret)}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           client_id: clientId,
+          timestamp_micros: Date.now() * 1000,
+          non_personalized_ads: false,
+          user_data: {
+            sha256_email_address: [emailHash],
+            sha256_phone_number: phoneHash ? [phoneHash] : undefined
+          },
           events: [{
             name: 'newsletter_confirmed',
             params: {
+              event_id: eventId,
+              engagement_time_msec: 1,
               event_source: 'worker',
               newsletter_source: source,
               article_slug: articleSlug || '(na)',
-              duplicate: duplicate ? 'true' : 'false'
+              duplicate: duplicate ? 'true' : 'false',
+              value: 0,
+              currency: 'BRL'
             }
           }]
         })
       });
     } catch (mpErr) { /* silencioso */ }
-  }
+  })() : Promise.resolve();
+
+  await Promise.allSettled([capiPromise, ga4Promise]);
 
   if (ok || duplicate) {
     return json({ status: 'ok', duplicate, ghl_status: ghlStatus }, 200, origin);
@@ -221,6 +283,192 @@ async function handleWebhook(request, env, eventName, origin) {
   }
 
   return json({ status: 'ok', event: eventName, client_id: clientId, ga_status: mpStatus }, 200, origin);
+}
+
+// =============== TRACK/INIT (set first-party cookie via Set-Cookie header) ===============
+
+async function handleTrackInit(request, env, origin) {
+  let body = {};
+  try {
+    body = await request.json();
+  } catch (e) {
+    return json({ error: 'invalid_json' }, 400, origin);
+  }
+
+  const firstTouch = body.first_touch || {};
+  const ftValue = encodeURIComponent(JSON.stringify(firstTouch).slice(0, 3500));
+
+  const headers = {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': origin,
+    'Access-Control-Allow-Credentials': 'true',
+    'Set-Cookie': [
+      `_pda_fp=${ftValue}`,
+      `Max-Age=${COOKIE_MAX_AGE}`,
+      `Path=/`,
+      `Domain=${COOKIE_DOMAIN}`,
+      `SameSite=Lax`,
+      `Secure`
+    ].join('; ')
+  };
+
+  return new Response(JSON.stringify({ ok: true }), { status: 200, headers });
+}
+
+// =============== TRACK/EVENT (receive client event, forward CAPI + GA4 MP) ===============
+
+async function handleTrackEvent(request, env, origin) {
+  let body = {};
+  try {
+    body = await request.json();
+  } catch (e) {
+    return json({ error: 'invalid_json' }, 400, origin);
+  }
+
+  const eventId = body.event_id || crypto.randomUUID();
+  const eventName = String(body.event_name || 'PageView').slice(0, 50);
+  const eventTime = body.event_time || Math.floor(Date.now() / 1000);
+
+  const ud = body.user_data || {};
+  const email = ud.email ? String(ud.email).trim().toLowerCase() : null;
+  const phone = ud.phone ? String(ud.phone).replace(/\D+/g, '') : null;
+  const emailHash = email ? await sha256Hex(email) : null;
+  const phoneHash = phone ? await sha256Hex(phone) : null;
+
+  const fpCookie = parseFirstPartyCookie(request);
+
+  // Meta CAPI
+  const capiPromise = sendMetaCAPI(env, {
+    event_id: eventId,
+    event_name: eventName,
+    event_time: eventTime,
+    event_source_url: body.url || 'https://pulsodaia.com.br/',
+    action_source: 'website',
+    user_data: {
+      em: emailHash ? [emailHash] : undefined,
+      ph: phoneHash ? [phoneHash] : undefined,
+      fbc: body.fbc || null,
+      fbp: body.fbp || null,
+      client_ip_address: request.headers.get('CF-Connecting-IP') || null,
+      client_user_agent: request.headers.get('User-Agent') || null
+    },
+    custom_data: Object.assign(
+      {},
+      body.custom_data || {},
+      body.first_touch ? { first_touch: body.first_touch } : {},
+      body.last_touch ? { last_touch: body.last_touch } : {},
+      fpCookie ? { first_touch_cookie: fpCookie } : {}
+    )
+  }).catch(err => ({ error: err.message }));
+
+  // GA4 Measurement Protocol
+  const measurementId = env.GA4_MEASUREMENT_ID || 'G-32GWZHPJGJ';
+  const apiSecret = env.GA4_API_SECRET;
+  const ga4Promise = apiSecret ? (async () => {
+    try {
+      const clientId = deriveGa4ClientId(body, emailHash);
+      const gaName = eventName.toLowerCase().replace(/[^a-z0-9_]+/g, '_').slice(0, 40);
+      await fetch(`https://www.google-analytics.com/mp/collect?measurement_id=${encodeURIComponent(measurementId)}&api_secret=${encodeURIComponent(apiSecret)}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          client_id: clientId,
+          timestamp_micros: eventTime * 1000000,
+          non_personalized_ads: false,
+          user_data: {
+            sha256_email_address: emailHash ? [emailHash] : undefined,
+            sha256_phone_number: phoneHash ? [phoneHash] : undefined
+          },
+          events: [{
+            name: gaName,
+            params: Object.assign(
+              { event_id: eventId, engagement_time_msec: 1, event_source: 'worker' },
+              body.custom_data || {}
+            )
+          }]
+        })
+      });
+    } catch (mpErr) { /* silencioso */ }
+  })() : Promise.resolve();
+
+  const [capiResult] = await Promise.allSettled([capiPromise, ga4Promise]);
+  let capiStatus = 'failed';
+  if (capiResult.status === 'fulfilled') {
+    const val = capiResult.value;
+    if (val && val.skipped === 'no_capi_token') capiStatus = 'skipped_no_token';
+    else if (val && val.error) capiStatus = 'error';
+    else capiStatus = 'sent';
+  }
+
+  return json({
+    status: 'ok',
+    event_id: eventId,
+    event_name: eventName,
+    capi: capiStatus,
+    ga4: apiSecret ? 'sent' : 'skipped_no_secret'
+  }, 200, origin);
+}
+
+// =============== Meta CAPI helper ===============
+
+async function sendMetaCAPI(env, eventData) {
+  const pixelId = env.META_PIXEL_ID || META_PIXEL_ID_DEFAULT;
+  const token = env.META_CAPI_ACCESS_TOKEN;
+  if (!token) return { skipped: 'no_capi_token' };
+
+  // Clean user_data (remove undefined)
+  const userData = {};
+  Object.entries(eventData.user_data || {}).forEach(([k, v]) => {
+    if (v !== undefined && v !== null) userData[k] = v;
+  });
+
+  const payload = {
+    data: [{
+      event_name: eventData.event_name,
+      event_time: eventData.event_time,
+      event_id: eventData.event_id,
+      action_source: eventData.action_source || 'website',
+      event_source_url: eventData.event_source_url,
+      user_data: userData,
+      custom_data: eventData.custom_data || {}
+    }]
+  };
+
+  if (env.META_TEST_EVENT_CODE) {
+    payload.test_event_code = env.META_TEST_EVENT_CODE;
+  }
+
+  const res = await fetch(
+    `${META_GRAPH_BASE}/${pixelId}/events?access_token=${encodeURIComponent(token)}`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }
+  );
+  const data = await res.json();
+  if (!res.ok) {
+    console.error('[capi] error', res.status, JSON.stringify(data).slice(0, 300));
+  }
+  return { status: res.status, response: data };
+}
+
+function parseFirstPartyCookie(request) {
+  const cookieHeader = request.headers.get('Cookie') || '';
+  const match = cookieHeader.match(/_pda_fp=([^;]+)/);
+  if (!match) return null;
+  try { return JSON.parse(decodeURIComponent(match[1])); }
+  catch (e) { return null; }
+}
+
+function deriveGa4ClientId(body, emailHash) {
+  // Priority: _ga cookie (format GA1.2.xxxx.yyyy) > email hash > phone hash > uuid
+  if (body.ga) {
+    const parts = String(body.ga).split('.');
+    if (parts.length >= 4) return `${parts[2]}.${parts[3]}`;
+  }
+  if (emailHash) return `em-${emailHash.slice(0, 16)}`;
+  return crypto.randomUUID();
 }
 
 // =============== helpers ===============

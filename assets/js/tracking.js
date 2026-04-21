@@ -292,12 +292,141 @@
     }, true);
   }
 
+  // ---------- UTM persister + event_id + collector ----------
+  var UTM_KEYS = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid','ttclid','msclkid'];
+  // Collector URL (P1: trocar pra https://collect.pulsodaia.com.br quando CNAME estiver configurado)
+  var COLLECTOR = 'https://ghl-bridge.pulsodaia.workers.dev';
+
+  function newEventId() {
+    if (window.crypto && typeof crypto.randomUUID === 'function') return crypto.randomUUID();
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+      var r = Math.random() * 16 | 0;
+      return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+    });
+  }
+
+  function getCookie(name) {
+    try {
+      var m = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]+)'));
+      return m ? decodeURIComponent(m[1]) : null;
+    } catch (e) { return null; }
+  }
+
+  function capturaTouch() {
+    var url = new URL(window.location.href);
+    var touch = {};
+    UTM_KEYS.forEach(function (k) {
+      var v = url.searchParams.get(k);
+      if (v) touch[k] = v;
+    });
+    touch.referrer = document.referrer || 'direct';
+    touch.landing = url.pathname;
+    touch.ts = Date.now();
+    return touch;
+  }
+
+  function hasTrackingParams(touch) {
+    return Object.keys(touch).some(function (k) {
+      return k.indexOf('utm_') === 0 || /clid$/.test(k);
+    });
+  }
+
+  function initUTM() {
+    var touch = capturaTouch();
+    if (!hasTrackingParams(touch)) return;
+
+    try {
+      if (!localStorage.getItem('_pda_first_touch')) {
+        localStorage.setItem('_pda_first_touch', JSON.stringify(touch));
+      }
+      localStorage.setItem('_pda_last_touch', JSON.stringify(touch));
+      var journey = JSON.parse(localStorage.getItem('_pda_journey') || '[]');
+      journey.push(touch);
+      localStorage.setItem('_pda_journey', JSON.stringify(journey.slice(-10)));
+    } catch (e) { log('utm storage fail', e); }
+
+    try {
+      fetch(COLLECTOR + '/track/init', {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ first_touch: touch })
+      }).catch(function () {});
+    } catch (e) {}
+  }
+
+  function getFirstTouch() {
+    try { return JSON.parse(localStorage.getItem('_pda_first_touch') || '{}'); }
+    catch (e) { return {}; }
+  }
+
+  function getLastTouch() {
+    try { return JSON.parse(localStorage.getItem('_pda_last_touch') || '{}'); }
+    catch (e) { return {}; }
+  }
+
+  async function sha256HexClient(input) {
+    if (!input || !window.crypto || !crypto.subtle) return null;
+    try {
+      var buf = new TextEncoder().encode(String(input).trim().toLowerCase());
+      var hash = await crypto.subtle.digest('SHA-256', buf);
+      return Array.from(new Uint8Array(hash)).map(function (b) { return b.toString(16).padStart(2, '0'); }).join('');
+    } catch (e) { return null; }
+  }
+
+  function sendEvent(eventName, data, userData) {
+    var eventId = (data && data.event_id) || newEventId();
+    var payload = {
+      event_id: eventId,
+      event_name: eventName,
+      event_time: Math.floor(Date.now() / 1000),
+      url: window.location.href,
+      fbc: getCookie('_fbc'),
+      fbp: getCookie('_fbp'),
+      ga: getCookie('_ga'),
+      first_touch: getFirstTouch(),
+      last_touch: getLastTouch(),
+      custom_data: data || {},
+      user_data: userData || {}
+    };
+
+    if (window.fbq) {
+      try { window.fbq('track', eventName, data || {}, { eventID: eventId }); } catch (e) { log('fbq fail', e); }
+    }
+    if (window.gtag) {
+      try {
+        var gaName = eventName.toLowerCase().replace(/\s+/g, '_');
+        window.gtag('event', gaName, Object.assign({ event_id: eventId }, data || {}));
+      } catch (e) { log('gtag fail', e); }
+    }
+
+    try {
+      fetch(COLLECTOR + '/track/event', {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).catch(function () {});
+    } catch (e) {}
+
+    return eventId;
+  }
+
+  window.PulsoTracking = window.PulsoTracking || {};
+  window.PulsoTracking.newEventId = newEventId;
+  window.PulsoTracking.sendEvent = sendEvent;
+  window.PulsoTracking.getFirstTouch = getFirstTouch;
+  window.PulsoTracking.getLastTouch = getLastTouch;
+  window.PulsoTracking.getCookie = getCookie;
+  window.PulsoTracking.sha256Hex = sha256HexClient;
+
   // ---------- Boot ----------
   function boot() {
     if (!window.dataLayer) {
       log('dataLayer not defined, noop');
       return;
     }
+    try { initUTM(); } catch (e) { log('utm fail', e); }
     try { initScroll(); } catch (e) { log('scroll fail', e); }
     try { initTime(); } catch (e) { log('time fail', e); }
     try { initClickTracking(); } catch (e) { log('click fail', e); }
