@@ -397,6 +397,7 @@ async function handleTrackEvent(request, env, origin) {
     const val = capiResult.value;
     if (val && val.skipped === 'no_capi_token') capiStatus = 'skipped_no_token';
     else if (val && val.error) capiStatus = 'error';
+    else if (val && val.status && val.status >= 400) capiStatus = 'error';
     else capiStatus = 'sent';
   }
 
