@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-21T00:26:03.230Z",
-  "total": 3006,
+  "generated_at": "2026-04-21T00:35:56.679Z",
+  "total": 3007,
   "categories": [
     {
       "key": "outros",
@@ -50,7 +50,7 @@
     {
       "key": "marketing-seo",
       "label": "Marketing, SEO & Copy",
-      "count": 84
+      "count": 85
     },
     {
       "key": "backend",
@@ -6269,7 +6269,7 @@
     },
     {
       "name": "email-marketing-ben-settle-style",
-      "description": "Escreve email marketing no estilo Ben Settle — diario, curto, pessoal, provocativo, storytelling, anti-marketing. Usar quando o usuario pedir copy de email (welcome, sequencia, newsletter, broadcast) pros projetos Triadeflow / Pulso da IA / HUB. Tambem aplica pra qualquer copy de email marketing em PT-BR que precise de deliverability alta e engagement (cair no Primario, nao Promocoes).",
+      "description": "Escreve email marketing em PT-BR no estilo Ben Settle (diario, curto, pessoal, storytelling, anti-marketing) pros projetos Triadeflow / Pulso da IA / HUB / TDI. Use quando o usuario pedir welcome email, sequencia de nutricao, newsletter semanal, broadcast, re-engagement, drip campaign, email de lead magnet, onboarding email, ou qualquer copy de email marketing em portugues. Tambem use quando o usuario mencionar \"email marketing\", \"escrever email\", \"newsletter\", \"sequencia email\", \"copy email\", \"",
       "category": "marketing-seo",
       "origin": "claude"
     },
@@ -6278,6 +6278,12 @@
       "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold out",
       "category": "marketing-seo",
       "origin": "flowhub"
+    },
+    {
+      "name": "email-structures",
+      "description": "**Quando usar:** a maioria dos emails. Padrao Ben Settle.",
+      "category": "marketing-seo",
+      "origin": "claude"
     },
     {
       "name": "email-systems",
@@ -15653,9 +15659,9 @@
     },
     {
       "name": "subject-lines",
-      "description": "The subject line determines whether the email gets read. The data is counterintuitive: **short, boring, internal-looking subject lines win decisively.**",
+      "description": "1. **3-7 palavras** (max 50 caracteres — Gmail corta em 60)",
       "category": "outros",
-      "origin": "flowhub"
+      "origin": "claude"
     },
     {
       "name": "substrate-vulnerability-scanner",
