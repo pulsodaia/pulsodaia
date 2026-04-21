@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-17T00:08:09.755Z",
-  "total": 3004,
+  "generated_at": "2026-04-21T00:26:03.230Z",
+  "total": 3006,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1442
+      "count": 1443
     },
     {
       "key": "ai-ml",
@@ -50,7 +50,7 @@
     {
       "key": "marketing-seo",
       "label": "Marketing, SEO & Copy",
-      "count": 83
+      "count": 84
     },
     {
       "key": "backend",
@@ -6268,6 +6268,12 @@
       "origin": "claude"
     },
     {
+      "name": "email-marketing-ben-settle-style",
+      "description": "Escreve email marketing no estilo Ben Settle — diario, curto, pessoal, provocativo, storytelling, anti-marketing. Usar quando o usuario pedir copy de email (welcome, sequencia, newsletter, broadcast) pros projetos Triadeflow / Pulso da IA / HUB. Tambem aplica pra qualquer copy de email marketing em PT-BR que precise de deliverability alta e engagement (cair no Primario, nao Promocoes).",
+      "category": "marketing-seo",
+      "origin": "claude"
+    },
+    {
       "name": "email-sequence",
       "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold out",
       "category": "marketing-seo",
@@ -12228,6 +12234,12 @@
     {
       "name": "primitives",
       "description": "Primitives are the fundamental building blocks for executing quantum circuits. Qiskit provides two main primitives: **Sampler** (for measuring bitstrings) and **Estimator** (for computing expectation values).",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "principles",
+      "description": "Cada email = depositar crenca. 80% conteudo, 20% oferta. Mas toda venda vem de email diario — nao de \"campanhas especiais\". A lista lembra de voce quando voce lembra dela.",
       "category": "outros",
       "origin": "claude"
     },
