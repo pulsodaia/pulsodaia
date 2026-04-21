@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 21 Apr 2026 00:13:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 11:50:40 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Multimodal: Extraindo Fatos de Conteúdo Híbrido para Combater Desinformação</title>
+      <link>https://pulsodaia.com.br/feed/ia-multimodal-extraindo-fatos-de-conteudo-hibrido-para-combater-desinformacao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-multimodal-extraindo-fatos-de-conteudo-hibrido-para-combater-desinformacao/</guid>
+      <pubDate>Tue, 21 Apr 2026 11:45:34 GMT</pubDate>
+      <description>Novos desafios surgem na verificação de fatos de posts em redes sociais que combinam texto e imagens.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.16311">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Agentes de IA Koreanos Ganham Verossimilhança com Dados Sintéticos</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-koreanos-ganham-verossimilhanca-com-dados-sinteticos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-koreanos-ganham-verossimilhanca-com-dados-sinteticos/</guid>
+      <pubDate>Tue, 21 Apr 2026 11:45:20 GMT</pubDate>
+      <description>Nova abordagem utiliza personas sintéticas para refinar a representação demográfica em modelos de linguagem.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas">Hugging Face</source>
+    </item>
+    <item>
+      <title>QIMMA: Novo Ranking Avalia Qualidade de Modelos de Linguagem em Árabe</title>
+      <link>https://pulsodaia.com.br/feed/qimma-novo-ranking-avalia-qualidade-de-modelos-de-linguagem-em-arabe/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/qimma-novo-ranking-avalia-qualidade-de-modelos-de-linguagem-em-arabe/</guid>
+      <pubDate>Tue, 21 Apr 2026 11:45:08 GMT</pubDate>
+      <description>Iniciativa visa padronizar e impulsionar o desenvolvimento de LLMs para o idioma árabe, com reflexos potenciais para o mercado brasileiro de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard">Hugging Face</source>
+    </item>
     <item>
       <title>Gemini do Google Chega a Mais Sete Mercados na Integração com o Chrome</title>
       <link>https://pulsodaia.com.br/feed/gemini-do-google-chega-a-mais-sete-mercados-na-integracao-com-o-chrome/</link>

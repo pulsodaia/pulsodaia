@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-21T00:08:04.187Z",
+  "generated_at": "2026-04-21T11:45:34.804Z",
   "articles": [
+    {
+      "slug": "ia-multimodal-extraindo-fatos-de-conteudo-hibrido-para-combater-desinformacao",
+      "headline": "IA Multimodal: Extraindo Fatos de Conteúdo Híbrido para Combater Desinformação",
+      "subtitle": "Novos desafios surgem na verificação de fatos de posts em redes sociais que combinam texto e imagens.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2604.16311",
+      "category": "research",
+      "tags": [
+        "ia",
+        "verificacao de fatos",
+        "multimodal"
+      ],
+      "read_time_min": 4,
+      "published_at": "Tue, 21 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-21T11:45:34.677Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-koreanos-ganham-verossimilhanca-com-dados-sinteticos",
+      "headline": "Agentes de IA Koreanos Ganham Verossimilhança com Dados Sintéticos",
+      "subtitle": "Nova abordagem utiliza personas sintéticas para refinar a representação demográfica em modelos de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "coreia do sul",
+        "dados sinteticos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 21 Apr 2026 00:40:10 GMT",
+      "written_at": "2026-04-21T11:45:20.991Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "qimma-novo-ranking-avalia-qualidade-de-modelos-de-linguagem-em-arabe",
+      "headline": "QIMMA: Novo Ranking Avalia Qualidade de Modelos de Linguagem em Árabe",
+      "subtitle": "Iniciativa visa padronizar e impulsionar o desenvolvimento de LLMs para o idioma árabe, com reflexos potenciais para o mercado brasileiro de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "arabe",
+        "ranking",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 21 Apr 2026 10:09:58 GMT",
+      "written_at": "2026-04-21T11:45:08.198Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "gemini-do-google-chega-a-mais-sete-mercados-na-integracao-com-o-chrome",
       "headline": "Gemini do Google Chega a Mais Sete Mercados na Integração com o Chrome",
