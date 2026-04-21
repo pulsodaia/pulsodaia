@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-21T00:59:32.929Z",
-  "total": 3012,
+  "generated_at": "2026-04-21T01:05:38.768Z",
+  "total": 3013,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1448
+      "count": 1449
     },
     {
       "key": "ai-ml",
@@ -768,6 +768,12 @@
     {
       "name": "alerts",
       "description": "---",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "alex-voice-profile",
+      "description": "**Fonte:** analise de reunioes do Fireflies (usuario `contato@triadeflow.com.br`). Base estatistica: 10 transcripts processados. Data da analise: 2026-04-20.",
       "category": "outros",
       "origin": "claude"
     },
