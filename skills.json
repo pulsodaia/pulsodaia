@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-21T00:35:56.679Z",
-  "total": 3007,
+  "generated_at": "2026-04-21T00:50:05.496Z",
+  "total": 3012,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1443
+      "count": 1448
     },
     {
       "key": "ai-ml",
@@ -1588,6 +1588,12 @@
       "origin": "claude"
     },
     {
+      "name": "awareness-levels",
+      "description": "**Conceito core:** voce NAO pode vender a mesma coisa da mesma forma pra todo mundo. Cada pessoa esta em um nivel de consciencia diferente e precisa de copy diferente.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "aws-compliance-checker",
       "description": "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
       "category": "cloud-devops",
@@ -2706,6 +2712,12 @@
     {
       "name": "branding",
       "description": "---",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "brasil-adaptation",
+      "description": "Este arquivo garante que a skill nao entregue \"Ben Settle traduzido\" e sim \"email marketing que funciona no Brasil\".",
       "category": "outros",
       "origin": "claude"
     },
@@ -3960,6 +3972,12 @@
     {
       "name": "common_workflows",
       "description": "This document provides examples of common workflows and use cases for working with NCBI Gene database.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "common-mistakes",
+      "description": "Esses sao os erros mais comuns que matam deliverability, engagement ou parecem email de marqueteiro. Cada um com motivo e alternativa.",
       "category": "outros",
       "origin": "claude"
     },
@@ -6646,6 +6664,12 @@
       "origin": "claude"
     },
     {
+      "name": "examples-ptbr",
+      "description": "5 por projeto (Pulso da IA / Triadeflow / HUB-TDI). Cada exemplo tem subject, preheader, body, assinatura e P.S.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "EXAMPLES.vi",
       "description": "Các kỹ năng (skills) vốn dĩ đã mạnh mẽ khi đứng riêng lẻ, nhưng chúng sẽ trở nên không thể ngăn cản khi được kết hợp lại với nhau.",
       "category": "outros",
@@ -7283,9 +7307,9 @@
     },
     {
       "name": "frameworks",
-      "description": "Frameworks beat templates — they teach thinking patterns, not copy-paste shortcuts.",
+      "description": "Frameworks comprovados que funcionam em email. Escolher 1 por email baseado no objetivo.",
       "category": "outros",
-      "origin": "flowhub"
+      "origin": "claude"
     },
     {
       "name": "fred-economic-data",
@@ -9985,6 +10009,12 @@
       "name": "markitdown",
       "description": "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.",
       "category": "science",
+      "origin": "claude"
+    },
+    {
+      "name": "masters",
+      "description": "Skill foi construida em cima de Ben Settle, mas toda formula ficou mais forte incorporando principios destes 9 outros lendarios. Este arquivo consolida o que cada um contribuiu.",
+      "category": "outros",
       "origin": "claude"
     },
     {
