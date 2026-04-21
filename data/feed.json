@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-20T16:21:11.861Z",
+  "generated_at": "2026-04-21T00:08:04.187Z",
   "articles": [
+    {
+      "slug": "gemini-do-google-chega-a-mais-sete-mercados-na-integracao-com-o-chrome",
+      "headline": "Gemini do Google Chega a Mais Sete Mercados na Integração com o Chrome",
+      "subtitle": "Expansão da IA generativa do Google em navegadores amplia alcance global, com Brasil aguardando novidades.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
+      "category": "mercado",
+      "tags": [
+        "gemini",
+        "google chrome",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 20 Apr 2026 22:00:00 +0000",
+      "written_at": "2026-04-21T00:08:04.126Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "amazon-investe-us-5-bilhoes-na-anthropic-garantindo-us-100-bilhoes-em-gastos-na-",
+      "headline": "Amazon Investe US$ 5 Bilhões na Anthropic, Garantindo US$ 100 Bilhões em Gastos na AWS",
+      "subtitle": "Acordo estratégico fortalece a computação em nuvem para IA, com implicações para o mercado brasileiro.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+      "category": "mercado",
+      "tags": [
+        "amazon",
+        "anthropic",
+        "aws",
+        "inteligencia artificial",
+        "nuvem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 20 Apr 2026 23:10:27 +0000",
+      "written_at": "2026-04-21T00:07:53.787Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-116-otimiza-sessoes-grandes-e-melhora-experiencia-de-desenvolvim",
+      "headline": "Claude Code 2.1.116 Otimiza Sessões Grandes e Melhora Experiência de Desenvolvimento",
+      "subtitle": "Atualização do assistente de código da Anthropic foca em velocidade e usabilidade para desenvolvedores brasileiros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-04-20T22:18:28Z",
+      "written_at": "2026-04-21T00:07:41.908Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "adobe-lanca-plataforma-de-agentes-corporativos-para-combater-concorrencia-de-ia",
       "headline": "Adobe lança plataforma de agentes corporativos para combater concorrência de IA",
