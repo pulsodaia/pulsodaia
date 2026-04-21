@@ -110,7 +110,11 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; font-weight: 600; letter-s
     <p class="sub">O catalogo completo das skills Claude Code do stack Triadeflow. Categorizado por area, com indice e descricao de cada uma.</p>
   </div>
 
-  <div class="meta">pulsodaia.com.br · @pulsodaia</div>
+  <div class="meta">
+    <a href="https://pulsodaia.com.br" style="color:inherit;text-decoration:none;">pulsodaia.com.br</a>
+    ·
+    <a href="https://www.instagram.com/alexcamposcrm" style="color:inherit;text-decoration:none;">@alexcamposcrm</a>
+  </div>
 </section>
 
 <!-- TOC -->
@@ -119,8 +123,10 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; font-weight: 600; letter-s
   <ul class="toc-list">
     ${sortedCategories.map(c => `
       <li class="toc-item">
-        <span class="cat-name">${c.label}</span>
-        <span class="cat-count">${c.count}</span>
+        <a href="https://pulsodaia.com.br/categoria/${c.key}/" style="text-decoration:none;color:inherit;display:flex;justify-content:space-between;width:100%;">
+          <span class="cat-name">${c.label}</span>
+          <span class="cat-count">${c.count}</span>
+        </a>
       </li>
     `).join('')}
   </ul>
@@ -144,8 +150,10 @@ ${sortedCategories.map(cat => `
   </div>
   ${(skillsByCategory[cat.key] || []).map(s => `
     <div class="skill">
-      <div class="skill-name">${s.name}</div>
-      <div class="skill-desc">${(s.description || 'Skill da biblioteca Pulso da IA.').replace(/</g, '&lt;').substring(0, 240)}</div>
+      <a href="https://pulsodaia.com.br/skills/${s.name}/" style="text-decoration:none;color:inherit;display:block;">
+        <div class="skill-name">${s.name}</div>
+        <div class="skill-desc">${(s.description || 'Skill da biblioteca Pulso da IA.').replace(/</g, '&lt;').substring(0, 240)}</div>
+      </a>
     </div>
   `).join('')}
 </section>
@@ -155,7 +163,8 @@ ${sortedCategories.map(cat => `
 <section class="backcover">
   <h2>Receba as novas<br><span style="font-style: italic; color: #FF5E1F;">toda semana</span></h2>
   <p style="color: #5C5C5C; max-width: 400pt; margin-bottom: 30pt; font-size: 12pt;">Inscreva-se no Pulso Semanal pra receber as novidades do mercado de IA toda quinta-feira, direto das fontes oficiais.</p>
-  <div class="cta-url">pulsodaia.com.br</div>
+  <a href="https://pulsodaia.com.br" style="text-decoration:none;"><div class="cta-url">pulsodaia.com.br</div></a>
+  <a href="https://www.instagram.com/alexcamposcrm" style="margin-top:18pt;display:inline-block;font-family:'JetBrains Mono',monospace;font-size:10pt;color:#5C5C5C;text-decoration:none;">@alexcamposcrm</a>
   <p style="margin-top: 40pt; color: #A8A8A8; font-size: 9pt;">Feito por Alex Campos @ Triadeflow</p>
 </section>
 
