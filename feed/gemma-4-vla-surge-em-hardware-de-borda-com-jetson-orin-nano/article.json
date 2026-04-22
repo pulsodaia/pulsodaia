@@ -1,0 +1,54 @@
+{
+  "id": "https://huggingface.co/blog/nvidia/gemma4",
+  "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
+  "url": "https://huggingface.co/blog/nvidia/gemma4",
+  "summary": "",
+  "published_at": "Wed, 22 Apr 2026 15:40:50 GMT",
+  "source_id": "huggingface-blog",
+  "source_name": "Hugging Face",
+  "category": "opensource",
+  "source_type": "blog-oficial",
+  "headline": "Gemma 4 VLA Surge em Hardware de Borda com Jetson Orin Nano",
+  "subtitle": "A nova capacidade multimodal de modelos de linguagem abre portas para aplicações de IA mais inteligentes em dispositivos compactos no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Hugging Face demonstrou o modelo de linguagem grande Gemma 4 com capacidades de Visão e Linguagem (VLA) operando em um dispositivo de ponta, o Jetson Orin Nano. Essa integração sugere um avanço na capacidade de processamento de IA multimodal diretamente em hardware de borda, sem depender de nuvens.",
+  "body_markdown": "## O que aconteceu\n\nA demonstração recente divulgada pela Hugging Face, em colaboração com a NVIDIA, apresentou o modelo Gemma 4 com funcionalidade VLA rodando de forma eficiente em um Jetson Orin Nano. O Jetson Orin Nano é um computador de placa única projetado para robótica e sistemas embarcados, conhecido por seu baixo consumo de energia e capacidade de processamento local. A capacidade VLA do Gemma 4 significa que ele pode processar e entender informações tanto de texto quanto de imagens, permitindo interações mais ricas e contextuais. Essa demonstração, detalhada no blog da Hugging Face, valida a viabilidade de executar modelos de IA complexos e multimodais em hardware acessível e de baixo consumo, um passo importante para a democratização da IA em aplicações do mundo real. A performance observada no Jetson Orin Nano sugere que modelos VLA podem ser integrados em dispositivos que antes eram limitados por recursos computacionais.\n\n## Por que importa\n\nA capacidade de rodar modelos VLA diretamente em dispositivos de borda como o Jetson Orin Nano tem implicações significativas para o mercado brasileiro. Atualmente, muitas aplicações de IA que exigem processamento multimodal dependem de servidores em nuvem, o que pode gerar custos elevados, latência e preocupações com privacidade de dados. Com essa tecnologia, empresas e desenvolvedores no Brasil poderão criar soluções de IA mais autônomas e responsivas. Imagine sistemas de vigilância mais inteligentes que não apenas detectam movimento, mas também identificam objetos ou eventos específicos em tempo real, ou robôs industriais capazes de inspecionar produtos com precisão visual e textual. A redução da dependência da nuvem também pode ser crucial para áreas com conectividade limitada. O acesso a essa capacidade em hardware de borda pode impulsionar inovações em setores como agronegócio, manufatura e logística, tornando a IA mais acessível e prática para uma gama maior de aplicações.\n\n## O que esperar\n\nA demonstração do Gemma 4 VLA no Jetson Orin Nano é um indicativo forte do futuro da IA embarcada. Espera-se que essa tendência leve ao desenvolvimento de dispositivos mais capazes e versáteis em diversas áreas. Para o Brasil, isso significa um potencial para acelerar a adoção de tecnologias de IA em larga escala, desde cidades inteligentes até automação industrial. A otimização de modelos como o Gemma para hardware de borda abre caminho para a criação de novas categorias de produtos e serviços. A comunidade de desenvolvedores, especialmente aqueles que trabalham com plataformas como a Hugging Face e o ecossistema NVIDIA Jetson, terá acesso a ferramentas mais poderosas para construir aplicações inovadoras. A expectativa é de que vejamos um aumento na pesquisa e desenvolvimento de casos de uso específicos para o mercado brasileiro, aproveitando essa nova capacidade multimodal em dispositivos compactos e eficientes. Você pode acompanhar mais detalhes sobre essas inovações e seus desenvolvimentos futuros no [blog oficial da Hugging Face](https://huggingface.co/blog/nvidia/gemma4). A contínua evolução dessas tecnologias promete expandir ainda mais as fronteiras do que é possível com a inteligência artificial em dispositivos do dia a dia. Mais informações sobre a plataforma NVIDIA Jetson podem ser encontradas [aqui](https://huggingface.co/blog/nvidia/gemma4).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A demonstração recente divulgada pela Hugging Face, em colaboração com a NVIDIA, apresentou o modelo Gemma 4 com funcionalidade VLA rodando de forma eficiente em um Jetson Orin Nano. O Jetson Orin Nano é um computador de placa única projetado para robótica e sistemas embarcados, conhecido por seu baixo consumo de energia e capacidade de processamento local. A capacidade VLA do Gemma 4 significa que ele pode processar e entender informações tanto de texto quanto de imagens, permitindo interações mais ricas e contextuais. Essa demonstração, detalhada no blog da Hugging Face, valida a viabilidade de executar modelos de IA complexos e multimodais em hardware acessível e de baixo consumo, um passo importante para a democratização da IA em aplicações do mundo real. A performance observada no Jetson Orin Nano sugere que modelos VLA podem ser integrados em dispositivos que antes eram limitados por recursos computacionais.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de rodar modelos VLA diretamente em dispositivos de borda como o Jetson Orin Nano tem implicações significativas para o mercado brasileiro. Atualmente, muitas aplicações de IA que exigem processamento multimodal dependem de servidores em nuvem, o que pode gerar custos elevados, latência e preocupações com privacidade de dados. Com essa tecnologia, empresas e desenvolvedores no Brasil poderão criar soluções de IA mais autônomas e responsivas. Imagine sistemas de vigilância mais inteligentes que não apenas detectam movimento, mas também identificam objetos ou eventos específicos em tempo real, ou robôs industriais capazes de inspecionar produtos com precisão visual e textual. A redução da dependência da nuvem também pode ser crucial para áreas com conectividade limitada. O acesso a essa capacidade em hardware de borda pode impulsionar inovações em setores como agronegócio, manufatura e logística, tornando a IA mais acessível e prática para uma gama maior de aplicações.</p>\n\n<h2>O que esperar</h2>\n\n<p>A demonstração do Gemma 4 VLA no Jetson Orin Nano é um indicativo forte do futuro da IA embarcada. Espera-se que essa tendência leve ao desenvolvimento de dispositivos mais capazes e versáteis em diversas áreas. Para o Brasil, isso significa um potencial para acelerar a adoção de tecnologias de IA em larga escala, desde cidades inteligentes até automação industrial. A otimização de modelos como o Gemma para hardware de borda abre caminho para a criação de novas categorias de produtos e serviços. A comunidade de desenvolvedores, especialmente aqueles que trabalham com plataformas como a Hugging Face e o ecossistema NVIDIA Jetson, terá acesso a ferramentas mais poderosas para construir aplicações inovadoras. A expectativa é de que vejamos um aumento na pesquisa e desenvolvimento de casos de uso específicos para o mercado brasileiro, aproveitando essa nova capacidade multimodal em dispositivos compactos e eficientes. Você pode acompanhar mais detalhes sobre essas inovações e seus desenvolvimentos futuros no <a href=\"https://huggingface.co/blog/nvidia/gemma4\" target=\"_blank\" rel=\"external noopener\">blog oficial da Hugging Face</a>. A contínua evolução dessas tecnologias promete expandir ainda mais as fronteiras do que é possível com a inteligência artificial em dispositivos do dia a dia. Mais informações sobre a plataforma NVIDIA Jetson podem ser encontradas <a href=\"https://huggingface.co/blog/nvidia/gemma4\" target=\"_blank\" rel=\"external noopener\">aqui</a>.</p>",
+  "tags": [
+    "gemma",
+    "vlca",
+    "jetson",
+    "nvidia",
+    "hugging face"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "Gemma 4",
+    "VLA",
+    "Jetson Orin Nano",
+    "IA de borda",
+    "Hugging Face",
+    "NVIDIA",
+    "IA multimodal"
+  ],
+  "meta_description_seo": "Gemma 4 com capacidades VLA roda em Jetson Orin Nano, impulsionando IA de borda. Notícias sobre IA multimodal no Brasil.",
+  "faq": [
+    {
+      "q": "O que é Gemma 4 VLA?",
+      "a": "Gemma 4 VLA é um modelo de linguagem que combina capacidades de processamento de texto e imagem. Ele permite que dispositivos entendam e interajam com informações visuais e textuais simultaneamente."
+    },
+    {
+      "q": "Onde essa demonstração ocorreu?",
+      "a": "A demonstração ocorreu rodando o modelo Gemma 4 VLA em um Jetson Orin Nano, um computador de placa única projetado para aplicações de IA em hardware de borda."
+    },
+    {
+      "q": "Qual o impacto para o Brasil?",
+      "a": "Para o Brasil, isso significa o potencial de desenvolver soluções de IA mais autônomas, eficientes e acessíveis, especialmente em áreas com conectividade limitada, impulsionando a inovação em diversos setores."
+    }
+  ],
+  "written_at": "2026-04-22T16:18:40.782Z",
+  "slug": "gemma-4-vla-surge-em-hardware-de-borda-com-jetson-orin-nano",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/gemma4.png"
+}

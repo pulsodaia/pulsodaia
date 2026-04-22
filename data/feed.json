@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-22T11:43:31.430Z",
+  "generated_at": "2026-04-22T16:18:41.123Z",
   "articles": [
+    {
+      "slug": "gemma-4-vla-surge-em-hardware-de-borda-com-jetson-orin-nano",
+      "headline": "Gemma 4 VLA Surge em Hardware de Borda com Jetson Orin Nano",
+      "subtitle": "A nova capacidade multimodal de modelos de linguagem abre portas para aplicações de IA mais inteligentes em dispositivos compactos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/gemma4",
+      "category": "opensource",
+      "tags": [
+        "gemma",
+        "vlca",
+        "jetson",
+        "nvidia",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 22 Apr 2026 15:40:50 GMT",
+      "written_at": "2026-04-22T16:18:40.782Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "deepmind-expande-alcance-com-consultorias-globais-para-acelerar-adocao-de-ia-de-",
+      "headline": "DeepMind Expande Alcance com Consultorias Globais para Acelerar Adoção de IA de Ponta",
+      "subtitle": "Parceria visa democratizar o acesso a tecnologias avançadas de inteligência artificial para empresas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "deepmind",
+        "consultoria"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 21 Apr 2026 14:54:15 +0000",
+      "written_at": "2026-04-22T16:18:26.718Z",
+      "quality_score": 0.85,
+      "hero_image": null
+    },
+    {
+      "slug": "google-apresenta-novas-tpus-oitava-geracao-focadas-em-agentes-de-ia",
+      "headline": "Google Apresenta Novas TPUs Oitava Geração Focadas em Agentes de IA",
+      "subtitle": "A gigante de tecnologia anuncia hardware especializado para impulsionar a próxima onda de sistemas autônomos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "category": "google",
+      "tags": [
+        "tpu",
+        "google cloud",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 22 Apr 2026 12:00:00 +0000",
+      "written_at": "2026-04-22T16:18:13.754Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelo-de-ia-perigoso-da-anthropic-em-maos-erradas",
       "headline": "Modelo de IA perigoso da Anthropic em mãos erradas",
