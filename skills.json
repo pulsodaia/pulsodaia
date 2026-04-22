@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-21T01:11:25.849Z",
-  "total": 3013,
+  "generated_at": "2026-04-22T04:27:34.842Z",
+  "total": 3019,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1449
+      "count": 1455
     },
     {
       "key": "ai-ml",
@@ -102,6 +102,12 @@
     {
       "name": "_contributing",
       "description": "This document provides guidelines for creating effective Postgres best",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "_DEPRECATED_sequences-pulsodaia-vende-hub-errado",
+      "description": "6 sequencias completas, todas aplicando: voice profile Alex, sem travessao, Pulso da IA com \"da\", minuscula no inicio, P.S. em todos, CTA soft inline.",
       "category": "outros",
       "origin": "claude"
     },
@@ -7132,6 +7138,12 @@
       "origin": "claude"
     },
     {
+      "name": "fluxo-ux-completo",
+      "description": "Mapeia TODOS os estados e fluxos de experiência do usuário em aplicações, indo muito além do happy path. Use quando precisar: 1. Documentar fluxo completo de UX (todas as telas, popups, estados alternativos) 2. Planejar feature nova e garantir que nenhum estado foi esquecido 3. Gerar prompts prontos para IAs de design (Stitch, v0, Figma AI) 4. Validar se planejamento estratégico casa com especificação de telas 5. Criar documentação técnica para agentes programadores de frontend 6. Mapear casos e",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "focus-and-selection",
       "description": "---",
       "category": "outros",
@@ -11374,6 +11386,12 @@
       "origin": "claude"
     },
     {
+      "name": "padroes-ui",
+      "description": "Referência rápida de padrões comuns para usar na documentação de fluxos.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "page-controls",
       "description": "---",
       "category": "outros",
@@ -14782,6 +14800,12 @@
       "origin": "flowhub"
     },
     {
+      "name": "sequences-pulsodaia",
+      "description": "**Versao:** 2.0 (refeita em 2026-04-21)",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "sequencing",
       "description": "Sequencing patterns for Remotion - delay, trim, limit duration of items",
       "category": "outros",
@@ -15343,6 +15367,12 @@
       "name": "spec-reviewer-prompt",
       "description": "Use this template when dispatching a spec compliance reviewer subagent.",
       "category": "ai-ml",
+      "origin": "claude"
+    },
+    {
+      "name": "spec-template",
+      "description": "> **Versão:** 1.0",
+      "category": "outros",
       "origin": "claude"
     },
     {
@@ -16512,6 +16542,12 @@
     {
       "name": "timing_guidelines",
       "description": "Proper timing is critical for professional scientific presentations. This guide provides detailed guidelines for slide counts, time allocation, pacing strategies, and practice techniques to ensure your presentation fits the allotted time while maintaining engagement and clarity.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "tipos-estados",
+      "description": "Use este checklist para garantir que NENHUM estado foi esquecido ao mapear uma tela.",
       "category": "outros",
       "origin": "claude"
     },
