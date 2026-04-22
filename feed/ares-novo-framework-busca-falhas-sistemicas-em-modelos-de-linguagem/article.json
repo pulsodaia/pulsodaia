@@ -1,0 +1,52 @@
+{
+  "id": "oai:arXiv.org:2604.18789v1",
+  "title": "ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System",
+  "url": "https://arxiv.org/abs/2604.18789",
+  "summary": "arXiv:2604.18789v1 Announce Type: new Abstract: Reinforcement Learning from Human Feedback (RLHF) is central to aligning Large Language Models (LLMs), yet it introduces a critical vulnerability: an imperfect Reward Model (RM) can become a single point of failure when it fails to penalize unsafe behaviors. While existing red-teaming approaches primarily target policy-level weaknesses, they overlook what we term systemic weaknesses cases where both the core LLM and the RM fail in tandem. We present ARES, a framework that systematically discovers and mitigates such dual vulnerabilities. ARES employs a ``Safety Mentor'' that dynamically composes semantically coherent adversarial prompts by combining structured component types (topics, personas, tactics, goals) and generates corresponding malicious and safe responses. This dual-targeting approach exposes weaknesses in both the core LLM and the RM simultaneously. Using the vulnerabilities gained, ARES implements a two-stage repair process: f",
+  "published_at": "Wed, 22 Apr 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "ARES: Novo Framework Busca Falhas Sistêmicas em Modelos de Linguagem",
+  "subtitle": "Pesquisadores propõem método para identificar e corrigir vulnerabilidades duplas em LLMs e seus sistemas de recompensa.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo estudo publicado no arXiv, intitulado ARES, apresenta uma abordagem para detectar e mitigar falhas em sistemas de aprendizado por reforço com feedback humano (RLHF). A pesquisa foca em vulnerabilidades onde tanto o modelo de linguagem quanto o modelo de recompensa falham simultaneamente, um ponto crítico para a segurança de LLMs.",
+  "body_markdown": "## O que aconteceu\n\nA pesquisa em Inteligência Artificial avança com a introdução do ARES, um framework que visa resolver um problema crucial no alinhamento de Grandes Modelos de Linguagem (LLMs). O método de Aprendizado por Reforço com Feedback Humano (RLHF), amplamente utilizado para tornar os LLMs mais seguros e úteis, possui uma fragilidade inerente: um Modelo de Recompensa (RM) imperfeito pode se tornar um ponto único de falha. Isso acontece quando o RM deixa de penalizar comportamentos indesejados, abrindo portas para riscos. Abordagens anteriores de \"red-teaming\" focavam principalmente em fraquezas no nível da política do modelo, negligenciando o que os autores chamam de \"fraquezas sistêmicas\". Estas são situações onde tanto o LLM principal quanto o RM falham em conjunto. O ARES foi projetado para descobrir e corrigir essas vulnerabilidades duplas de forma sistemática. Ele utiliza um \"Mentor de Segurança\" capaz de compor dinamicamente prompts adversários semanticamente coerentes, combinando tipos estruturados de componentes como tópicos, personas, táticas e objetivos. O objetivo é gerar prompts maliciosos que explorem essas falhas conjuntas. Mais detalhes sobre a metodologia podem ser encontrados no artigo original em [arXiv cs.AI](https://arxiv.org/abs/2604.18789).\n\n## Por que importa\n\nA segurança e a confiabilidade dos LLMs são preocupações crescentes, especialmente com sua adoção em diversas aplicações no Brasil. Falhas sistêmicas, onde tanto o modelo quanto seu sistema de avaliação falham em conjunto, representam um risco significativo. Se um LLM é treinado para ser seguro, mas o mecanismo que avalia sua segurança também falha, todo o esforço de alinhamento pode ser comprometido. Isso pode levar à geração de conteúdo inadequado, desinformação ou até mesmo a comportamentos prejudiciais, sem que o sistema de controle identifique o problema. A capacidade do ARES de identificar essas falhas duplas é fundamental para o desenvolvimento de sistemas de IA mais robustos e confiáveis, essenciais para a construção de confiança e para a implementação segura de IA em setores críticos da economia brasileira, como finanças, saúde e educação.\n\n## O que esperar\n\nCom o ARES, espera-se um avanço na capacidade de testar e garantir a segurança de LLMs. Ao focar nas falhas sistêmicas, os pesquisadores abrem um novo caminho para aprimorar os processos de treinamento e validação. A capacidade de gerar prompts adversários de forma dinâmica e estruturada sugere que os futuros sistemas de IA poderão ser submetidos a testes mais rigorosos e eficazes. Isso pode levar a LLMs que não apenas performam bem em tarefas, mas que também são intrinsecamente mais resistentes a manipulações e comportamentos indesejados. A pesquisa sugere que o \"Mentor de Segurança\" do ARES é um componente chave para essa melhoria. A expectativa é que frameworks como o ARES se tornem parte integrante do ciclo de desenvolvimento de LLMs, garantindo que as preocupações com segurança sejam abordadas de maneira proativa e abrangente. Informações adicionais sobre a pesquisa estão disponíveis em [arXiv cs.AI](https://arxiv.org/abs/2604.18789).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A pesquisa em Inteligência Artificial avança com a introdução do ARES, um framework que visa resolver um problema crucial no alinhamento de Grandes Modelos de Linguagem (LLMs). O método de Aprendizado por Reforço com Feedback Humano (RLHF), amplamente utilizado para tornar os LLMs mais seguros e úteis, possui uma fragilidade inerente: um Modelo de Recompensa (RM) imperfeito pode se tornar um ponto único de falha. Isso acontece quando o RM deixa de penalizar comportamentos indesejados, abrindo portas para riscos. Abordagens anteriores de \"red-teaming\" focavam principalmente em fraquezas no nível da política do modelo, negligenciando o que os autores chamam de \"fraquezas sistêmicas\". Estas são situações onde tanto o LLM principal quanto o RM falham em conjunto. O ARES foi projetado para descobrir e corrigir essas vulnerabilidades duplas de forma sistemática. Ele utiliza um \"Mentor de Segurança\" capaz de compor dinamicamente prompts adversários semanticamente coerentes, combinando tipos estruturados de componentes como tópicos, personas, táticas e objetivos. O objetivo é gerar prompts maliciosos que explorem essas falhas conjuntas. Mais detalhes sobre a metodologia podem ser encontrados no artigo original em <a href=\"https://arxiv.org/abs/2604.18789\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A segurança e a confiabilidade dos LLMs são preocupações crescentes, especialmente com sua adoção em diversas aplicações no Brasil. Falhas sistêmicas, onde tanto o modelo quanto seu sistema de avaliação falham em conjunto, representam um risco significativo. Se um LLM é treinado para ser seguro, mas o mecanismo que avalia sua segurança também falha, todo o esforço de alinhamento pode ser comprometido. Isso pode levar à geração de conteúdo inadequado, desinformação ou até mesmo a comportamentos prejudiciais, sem que o sistema de controle identifique o problema. A capacidade do ARES de identificar essas falhas duplas é fundamental para o desenvolvimento de sistemas de IA mais robustos e confiáveis, essenciais para a construção de confiança e para a implementação segura de IA em setores críticos da economia brasileira, como finanças, saúde e educação.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com o ARES, espera-se um avanço na capacidade de testar e garantir a segurança de LLMs. Ao focar nas falhas sistêmicas, os pesquisadores abrem um novo caminho para aprimorar os processos de treinamento e validação. A capacidade de gerar prompts adversários de forma dinâmica e estruturada sugere que os futuros sistemas de IA poderão ser submetidos a testes mais rigorosos e eficazes. Isso pode levar a LLMs que não apenas performam bem em tarefas, mas que também são intrinsecamente mais resistentes a manipulações e comportamentos indesejados. A pesquisa sugere que o \"Mentor de Segurança\" do ARES é um componente chave para essa melhoria. A expectativa é que frameworks como o ARES se tornem parte integrante do ciclo de desenvolvimento de LLMs, garantindo que as preocupações com segurança sejam abordadas de maneira proativa e abrangente. Informações adicionais sobre a pesquisa estão disponíveis em <a href=\"https://arxiv.org/abs/2604.18789\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>.</p>",
+  "tags": [
+    "ia",
+    "llm",
+    "segurança de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "ARES",
+    "RLHF",
+    "LLM",
+    "modelo de recompensa",
+    "segurança de IA",
+    "red teaming",
+    "vulnerabilidades sistêmicas"
+  ],
+  "meta_description_seo": "Novo framework ARES identifica e corrige falhas duplas em LLMs e sistemas de recompensa, aprimorando a segurança e confiabilidade da IA.",
+  "faq": [
+    {
+      "q": "O que é RLHF e qual sua importância para os LLMs?",
+      "a": "RLHF, ou Aprendizado por Reforço com Feedback Humano, é um método usado para alinhar LLMs, tornando-os mais seguros e úteis. Ele utiliza feedback humano para guiar o aprendizado do modelo."
+    },
+    {
+      "q": "O que são \"fraquezas sistêmicas\" em LLMs mencionadas no estudo?",
+      "a": "Fraquezas sistêmicas ocorrem quando tanto o modelo de linguagem (LLM) quanto seu Modelo de Recompensa (RM) falham simultaneamente em detectar ou penalizar comportamentos indesejados."
+    },
+    {
+      "q": "Como o ARES busca resolver essas falhas?",
+      "a": "O ARES utiliza um \"Mentor de Segurança\" para criar prompts adversários que exploram essas falhas duplas, permitindo sua descoberta e posterior mitigação."
+    }
+  ],
+  "written_at": "2026-04-22T06:25:28.034Z",
+  "slug": "ares-novo-framework-busca-falhas-sistemicas-em-modelos-de-linguagem",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-04-21T23:54:18.643Z",
+  "generated_at": "2026-04-22T06:25:28.074Z",
   "articles": [
+    {
+      "slug": "ares-novo-framework-busca-falhas-sistemicas-em-modelos-de-linguagem",
+      "headline": "ARES: Novo Framework Busca Falhas Sistêmicas em Modelos de Linguagem",
+      "subtitle": "Pesquisadores propõem método para identificar e corrigir vulnerabilidades duplas em LLMs e seus sistemas de recompensa.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.18789",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "segurança de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 22 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-22T06:25:28.034Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-generativa-nova-ferramenta-visualiza-amostras-de-modelos-de-linguagem-alem-de",
+      "headline": "IA Generativa: Nova Ferramenta Visualiza Amostras de Modelos de Linguagem Além de Uma Única Resposta",
+      "subtitle": "Pesquisadores brasileiros que trabalham com LLMs ganham nova perspectiva sobre a variabilidade das gerações.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.18724",
+      "category": "research",
+      "tags": [
+        "ia generativa",
+        "modelos de linguagem",
+        "visualização de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 22 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-22T06:25:15.190Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-avancada-busca-solucao-para-sequencias-com-lacunas-variaveis",
+      "headline": "IA Avançada Busca Solução para Sequências com Lacunas Variáveis",
+      "subtitle": "Novas abordagens algorítmicas prometem refinar a análise de dados com restrições temporais e estruturais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.18645",
+      "category": "research",
+      "tags": [
+        "ia",
+        "algoritmos",
+        "bioinformática"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 22 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-22T06:25:04.611Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "spacex-negocia-opcao-de-compra-da-cursor-por-us-60-bilhoes",
       "headline": "SpaceX Negocia Opção de Compra da Cursor por US$ 60 Bilhões",
