@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-04-22T16:18:41.123Z",
+  "generated_at": "2026-04-23T17:05:25.617Z",
   "articles": [
+    {
+      "slug": "manuscrito-voynich-analise-revela-estrutura-complexa-de-escrita-desafiando-decif",
+      "headline": "Manuscrito Voynich: Análise Revela Estrutura Complexa de Escrita, Desafiando Decifração",
+      "subtitle": "Pesquisa aponta para padrões direcionais na escrita do manuscrito, sugerindo um sistema de codificação mais intrincado do que se pensava.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2604.19762",
+      "category": "research",
+      "tags": [
+        "manuscrito voynich",
+        "criptografia",
+        "linguistica computacional"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 23 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-23T17:05:25.594Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-deepmind-desacopla-treinamento-distribuido-de-ia-com-diloco",
+      "headline": "Google DeepMind Desacopla Treinamento Distribuído de IA com DiLoCo",
+      "subtitle": "Nova abordagem promete maior resiliência e eficiência para modelos de inteligência artificial no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/decoupled-diloco/",
+      "category": "google",
+      "tags": [
+        "ia distribuida",
+        "google deepmind",
+        "treinamento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 22 Apr 2026 10:20:03 +0000",
+      "written_at": "2026-04-23T17:05:14.436Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
+    {
+      "slug": "google-expande-infraestrutura-na-europa-com-primeiro-data-center-na-austria",
+      "headline": "Google Expande Infraestrutura na Europa com Primeiro Data Center na Áustria",
+      "subtitle": "Investimento em Kronstorf reforça presença da gigante de tecnologia e gera empregos locais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "category": "google",
+      "tags": [
+        "google",
+        "data center",
+        "infraestrutura"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 23 Apr 2026 09:00:00 +0000",
+      "written_at": "2026-04-23T17:05:03.424Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "gemma-4-vla-surge-em-hardware-de-borda-com-jetson-orin-nano",
       "headline": "Gemma 4 VLA Surge em Hardware de Borda com Jetson Orin Nano",

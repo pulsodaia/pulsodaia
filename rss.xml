@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 22 Apr 2026 16:23:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 17:12:37 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Manuscrito Voynich: Análise Revela Estrutura Complexa de Escrita, Desafiando Decifração</title>
+      <link>https://pulsodaia.com.br/feed/manuscrito-voynich-analise-revela-estrutura-complexa-de-escrita-desafiando-decif/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/manuscrito-voynich-analise-revela-estrutura-complexa-de-escrita-desafiando-decif/</guid>
+      <pubDate>Thu, 23 Apr 2026 17:05:25 GMT</pubDate>
+      <description>Pesquisa aponta para padrões direcionais na escrita do manuscrito, sugerindo um sistema de codificação mais intrincado do que se pensava.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.19762">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Google DeepMind Desacopla Treinamento Distribuído de IA com DiLoCo</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-desacopla-treinamento-distribuido-de-ia-com-diloco/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-desacopla-treinamento-distribuido-de-ia-com-diloco/</guid>
+      <pubDate>Thu, 23 Apr 2026 17:05:14 GMT</pubDate>
+      <description>Nova abordagem promete maior resiliência e eficiência para modelos de inteligência artificial no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/decoupled-diloco/">Google DeepMind</source>
+    </item>
+    <item>
+      <title>Google Expande Infraestrutura na Europa com Primeiro Data Center na Áustria</title>
+      <link>https://pulsodaia.com.br/feed/google-expande-infraestrutura-na-europa-com-primeiro-data-center-na-austria/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-expande-infraestrutura-na-europa-com-primeiro-data-center-na-austria/</guid>
+      <pubDate>Thu, 23 Apr 2026 17:05:03 GMT</pubDate>
+      <description>Investimento em Kronstorf reforça presença da gigante de tecnologia e gera empregos locais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/">Google AI</source>
+    </item>
     <item>
       <title>Gemma 4 VLA Surge em Hardware de Borda com Jetson Orin Nano</title>
       <link>https://pulsodaia.com.br/feed/gemma-4-vla-surge-em-hardware-de-borda-com-jetson-orin-nano/</link>
@@ -430,33 +457,6 @@
       <description>Mudanças internas na gigante da IA sinalizam um direcionamento estratégico para clientes corporativos e desenvolvimento de ferramentas de programação.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/openai-loses-three-executives-in-one-swoop-as-restructuring-reshapes-its-product-lineup/">The Decoder</source>
-    </item>
-    <item>
-      <title>Meta Corta 10% da Força de Trabalho para Investir em Infraestrutura de IA</title>
-      <link>https://pulsodaia.com.br/feed/meta-corta-10-da-forca-de-trabalho-para-investir-em-infraestrutura-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-corta-10-da-forca-de-trabalho-para-investir-em-infraestrutura-de-ia/</guid>
-      <pubDate>Sat, 18 Apr 2026 08:09:41 GMT</pubDate>
-      <description>Decisão de Zuckerberg prioriza poder computacional em detrimento de pessoal, refletindo a corrida global por capacidades avançadas de inteligência artificial.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/zuckerberg-reportedly-trades-headcount-for-compute-as-meta-readies-to-cut-10-percent-of-its-workforce-to-fund-ai-infrastructure/">The Decoder</source>
-    </item>
-    <item>
-      <title>Claude Code Corrige Instabilidade em Solicitações de Permissão de Agentes</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-corrige-instabilidade-em-solicitacoes-de-permissao-de-agentes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-corrige-instabilidade-em-solicitacoes-de-permissao-de-agentes/</guid>
-      <pubDate>Sat, 18 Apr 2026 01:56:16 GMT</pubDate>
-      <description>Atualização pontual foca em estabilidade para interações entre agentes de IA no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.114">Claude Code</source>
-    </item>
-    <item>
-      <title>Google DeepMind Avança Robótica Autônoma com Gemini Robotics ER 1.6</title>
-      <link>https://pulsodaia.com.br/feed/google-deepmind-avanca-robotica-autonoma-com-gemini-robotics-er-1-6/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-avanca-robotica-autonoma-com-gemini-robotics-er-1-6/</guid>
-      <pubDate>Fri, 17 Apr 2026 13:18:24 GMT</pubDate>
-      <description>Novas capacidades de raciocínio espacial prometem acelerar a adoção de robôs em tarefas complexas no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/gemini-robotics-er-1-6/">Google DeepMind</source>
     </item>
   </channel>
 </rss>
