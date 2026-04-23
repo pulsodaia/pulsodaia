@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-04-23T17:05:25.617Z",
+  "generated_at": "2026-04-23T21:10:14.338Z",
   "articles": [
+    {
+      "slug": "openai-avanca-rumo-ao-super-app-com-lancamento-do-gpt-5-5",
+      "headline": "OpenAI Avança Rumo ao \"Super App\" com Lançamento do GPT-5.5",
+      "subtitle": "O novo modelo da empresa promete capacidades aprimoradas, aproximando a IA de uma plataforma unificada.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "gpt-5.5",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 2,
+      "published_at": "Thu, 23 Apr 2026 18:29:29 +0000",
+      "written_at": "2026-04-23T21:10:14.268Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "noscroll-o-bot-de-ia-que-filtra-o-pior-da-internet-para-voce",
+      "headline": "Noscroll: O Bot de IA Que Filtra o Pior da Internet Para Você",
+      "subtitle": "Uma nova ferramenta promete aliviar a sobrecarga de informações negativas, um desafio crescente no consumo digital.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "bem-estar digital",
+        "doomscrolling"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 23 Apr 2026 19:38:25 +0000",
+      "written_at": "2026-04-23T21:10:04.138Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "tpus-do-google-acelerando-cargas-de-trabalho-de-ia-cada-vez-mais-exigentes",
+      "headline": "TPUs do Google: Acelerando Cargas de Trabalho de IA Cada Vez Mais Exigentes",
+      "subtitle": "A infraestrutura de hardware do Google Cloud é crucial para o avanço da inteligência artificial no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+      "category": "google",
+      "tags": [
+        "tpu",
+        "google cloud",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "written_at": "2026-04-23T21:09:52.750Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "manuscrito-voynich-analise-revela-estrutura-complexa-de-escrita-desafiando-decif",
       "headline": "Manuscrito Voynich: Análise Revela Estrutura Complexa de Escrita, Desafiando Decifração",
