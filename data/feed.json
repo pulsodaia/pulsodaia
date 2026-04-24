@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-04-24T09:14:03.142Z",
+  "generated_at": "2026-04-24T14:55:57.834Z",
   "articles": [
+    {
+      "slug": "nothing-lanca-ferramenta-de-ditado-com-ia-para-mais-de-100-idiomas",
+      "headline": "Nothing lança ferramenta de ditado com IA para mais de 100 idiomas",
+      "subtitle": "A empresa aposta em processamento local para privacidade e eficiência em comunicação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+      "category": "mercado",
+      "tags": [
+        "ditado",
+        "ia",
+        "privacidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 24 Apr 2026 13:41:42 +0000",
+      "written_at": "2026-04-24T14:55:57.778Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "cto-da-uber-participa-de-debate-sobre-ia-em-sao-francisco",
+      "headline": "CTO da Uber Participa de Debate sobre IA em São Francisco",
+      "subtitle": "A discussão abordará os desafios e oportunidades da inteligência artificial em larga escala.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/",
+      "category": "mercado",
+      "tags": [
+        "uber",
+        "inteligência artificial",
+        "tecnologia",
+        "inovação",
+        "cto"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 24 Apr 2026 14:00:00 +0000",
+      "written_at": "2026-04-24T14:55:47.914Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "deepseek-v4-contexto-de-um-milhao-de-tokens-para-agentes-de-ia",
+      "headline": "DeepSeek-V4: Contexto de Um Milhão de Tokens para Agentes de IA",
+      "subtitle": "Novos modelos de linguagem da DeepSeek AI prometem processar quantidades massivas de informação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/deepseekv4",
+      "category": "opensource",
+      "tags": [
+        "deepseek",
+        "modelos de linguagem",
+        "contexto",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 24 Apr 2026 00:00:00 GMT",
+      "written_at": "2026-04-24T14:55:35.579Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "governanca-para-ia-generativa-em-ambientes-de-aprendizado-novo-framework-propoe-",
       "headline": "Governança para IA Generativa em Ambientes de Aprendizado: Novo Framework Propõe Abordagem Orientada a Entregas",
