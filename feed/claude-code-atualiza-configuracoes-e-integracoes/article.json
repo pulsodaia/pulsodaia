@@ -1,0 +1,52 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.119",
+  "title": "v2.1.119",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+  "summary": "<h2>What's changed</h2> <ul> <li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override precedence</li> <li>Added <code>prUrlTemplate</code> setting to point the footer PR badge at a custom code-review URL instead of github.com</li> <li>Added <code>CLAUDE_CODE_HIDE_CWD</code> environment variable to hide the working directory in the startup logo</li> <li><code>--from-pr</code> now accepts GitLab merge-request, Bitbucket pull-request, and GitHub Enterprise PR URLs</li> <li><code>--print</code> mode now honors the agent's <code>tools:</code> and <code>disallowedTools:</code> frontmatter, matching interactive-mode behavior</li> <li><code>--agent <name></code> now honors the agent definition's <code>permissionMode</code> for built-in agents</li> <li>PowerShell tool commands can now be auto-approved in permission mode, matching Bash behavior</li> <li>Hooks: <code>PostToolUse</code",
+  "published_at": "2026-04-23T23:24:19Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Atualiza Configurações e Integrações",
+  "subtitle": "Ferramenta de desenvolvimento com IA foca em persistência e flexibilidade para usuários brasileiros.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A versão v2.1.119 do Claude Code introduz melhorias significativas na gestão de configurações, permitindo que ajustes de tema, modo de editor e verbosidade sejam salvos localmente. A atualização também expande a compatibilidade com sistemas de controle de versão, tornando a ferramenta mais adaptável a fluxos de trabalho diversos.",
+  "body_markdown": "## O que aconteceu\n\nA mais recente atualização do Claude Code, a versão v2.1.119, traz um conjunto de aprimoramentos focados em usabilidade e integração. Uma das mudanças centrais é a persistência das configurações. Agora, as preferências de tema, modo de editor, verbosidade e outros ajustes são salvos no arquivo `~/.claude/settings.json`. Isso significa que as personalizações feitas pelo usuário serão mantidas entre as sessões e poderão ser sobrescritas por configurações de projeto ou locais, seguindo uma ordem de precedência clara.\n\nAdicionalmente, foi introduzida a configuração `prUrlTemplate`. Essa opção permite que o link de \"PR badge\" no rodapé aponte para URLs de revisão de código customizadas, em vez de direcionar sempre para o GitHub.com. Outra novidade é a variável de ambiente `CLAUDE_CODE_HIDE_CWD`, que possibilita ocultar o diretório de trabalho atual na tela de inicialização do programa.\n\nA funcionalidade `--from-pr` foi ampliada para aceitar URLs de merge requests do GitLab e pull requests do Bitbucket, além dos já suportados do GitHub Enterprise. Por fim, o modo `--print` agora respeita as diretivas `tools:` e `disallowedTools:` definidas no frontmatter do agente, replicando o comportamento observado no modo interativo. A capacidade de invocar agentes específicos via `--agent <name>` também foi refinada para honrar as configurações de ferramentas. Detalhes completos das alterações podem ser encontrados no [repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.119).\n\n## Por que importa\n\nPara desenvolvedores que utilizam o Claude Code no Brasil, essas atualizações representam um avanço na personalização e na eficiência do fluxo de trabalho. A persistência das configurações reduz a necessidade de reconfigurar a ferramenta repetidamente, economizando tempo em cada nova sessão de desenvolvimento. A capacidade de integrar-se a diferentes plataformas de controle de versão, como GitLab e Bitbucket, amplia o leque de projetos onde o Claude Code pode ser aplicado sem adaptações complexas.\n\nA flexibilidade de apontar o \"PR badge\" para sistemas de revisão de código internos ou específicos da empresa também é um benefício importante para organizações com fluxos de trabalho de code review particulares. A ocultação do diretório de trabalho pode ser útil em ambientes onde a discrição sobre a estrutura de pastas é desejada. Ao alinhar o comportamento dos modos `--print` e interativo em relação ao uso de ferramentas, a consistência na execução de agentes é garantida, minimizando surpresas e erros.\n\n## O que esperar\n\nCom essas melhorias, o Claude Code consolida sua posição como uma ferramenta de desenvolvimento assistido por IA mais robusta e adaptável. A tendência é que futuras atualizações continuem a refinar a integração com sistemas de desenvolvimento e a oferecer maior controle sobre o comportamento do agente. A expansão do suporte a diferentes provedores de controle de versão sugere um caminho de maior interoperabilidade. A comunidade de desenvolvedores pode esperar um Claude Code cada vez mais alinhado às diversas necessidades de um ambiente de desenvolvimento moderno. Para mais informações sobre as funcionalidades e o futuro da ferramenta, consulte o [changelog detalhado](https://github.com/anthropics/claude-code/releases/tag/v2.1.119).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A mais recente atualização do Claude Code, a versão v2.1.119, traz um conjunto de aprimoramentos focados em usabilidade e integração. Uma das mudanças centrais é a persistência das configurações. Agora, as preferências de tema, modo de editor, verbosidade e outros ajustes são salvos no arquivo <code>~/.claude/settings.json</code>. Isso significa que as personalizações feitas pelo usuário serão mantidas entre as sessões e poderão ser sobrescritas por configurações de projeto ou locais, seguindo uma ordem de precedência clara.</p>\n\n<p>Adicionalmente, foi introduzida a configuração <code>prUrlTemplate</code>. Essa opção permite que o link de \"PR badge\" no rodapé aponte para URLs de revisão de código customizadas, em vez de direcionar sempre para o GitHub.com. Outra novidade é a variável de ambiente <code>CLAUDE_CODE_HIDE_CWD</code>, que possibilita ocultar o diretório de trabalho atual na tela de inicialização do programa.</p>\n\n<p>A funcionalidade <code>--from-pr</code> foi ampliada para aceitar URLs de merge requests do GitLab e pull requests do Bitbucket, além dos já suportados do GitHub Enterprise. Por fim, o modo <code>--print</code> agora respeita as diretivas <code>tools:</code> e <code>disallowedTools:</code> definidas no frontmatter do agente, replicando o comportamento observado no modo interativo. A capacidade de invocar agentes específicos via <code>--agent <name></code> também foi refinada para honrar as configurações de ferramentas. Detalhes completos das alterações podem ser encontrados no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.119\" target=\"_blank\" rel=\"external noopener\">repositório oficial</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para desenvolvedores que utilizam o Claude Code no Brasil, essas atualizações representam um avanço na personalização e na eficiência do fluxo de trabalho. A persistência das configurações reduz a necessidade de reconfigurar a ferramenta repetidamente, economizando tempo em cada nova sessão de desenvolvimento. A capacidade de integrar-se a diferentes plataformas de controle de versão, como GitLab e Bitbucket, amplia o leque de projetos onde o Claude Code pode ser aplicado sem adaptações complexas.</p>\n\n<p>A flexibilidade de apontar o \"PR badge\" para sistemas de revisão de código internos ou específicos da empresa também é um benefício importante para organizações com fluxos de trabalho de code review particulares. A ocultação do diretório de trabalho pode ser útil em ambientes onde a discrição sobre a estrutura de pastas é desejada. Ao alinhar o comportamento dos modos <code>--print</code> e interativo em relação ao uso de ferramentas, a consistência na execução de agentes é garantida, minimizando surpresas e erros.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com essas melhorias, o Claude Code consolida sua posição como uma ferramenta de desenvolvimento assistido por IA mais robusta e adaptável. A tendência é que futuras atualizações continuem a refinar a integração com sistemas de desenvolvimento e a oferecer maior controle sobre o comportamento do agente. A expansão do suporte a diferentes provedores de controle de versão sugere um caminho de maior interoperabilidade. A comunidade de desenvolvedores pode esperar um Claude Code cada vez mais alinhado às diversas necessidades de um ambiente de desenvolvimento moderno. Para mais informações sobre as funcionalidades e o futuro da ferramenta, consulte o <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.119\" target=\"_blank\" rel=\"external noopener\">changelog detalhado</a>.</p>",
+  "tags": [
+    "claude code",
+    "desenvolvimento",
+    "ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "v2.1.119",
+    "configurações de IA",
+    "desenvolvimento com IA",
+    "GitLab",
+    "Bitbucket",
+    "GitHub Enterprise"
+  ],
+  "meta_description_seo": "Claude Code v2.1.119: Novas configurações persistentes, suporte a GitLab/Bitbucket e mais flexibilidade para desenvolvedores.",
+  "faq": [
+    {
+      "q": "Quais configurações do Claude Code agora persistem?",
+      "a": "As configurações de tema, modo de editor, verbosidade e outras podem ser salvas no arquivo `~/.claude/settings.json`, mantendo-se entre as sessões."
+    },
+    {
+      "q": "O Claude Code agora suporta outros sistemas de controle de versão além do GitHub?",
+      "a": "Sim, a funcionalidade `--from-pr` foi expandida para aceitar URLs de merge requests do GitLab e pull requests do Bitbucket."
+    },
+    {
+      "q": "Como a nova configuração `prUrlTemplate` afeta o uso do Claude Code?",
+      "a": "Ela permite customizar o link do \"PR badge\" para apontar para sistemas de revisão de código específicos, em vez de apenas o GitHub.com."
+    }
+  ],
+  "written_at": "2026-04-24T00:11:39.246Z",
+  "slug": "claude-code-atualiza-configuracoes-e-integracoes",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/3b1adec281fb454f673711d7afdfb0627089576031ebc756f8f14c60b7eff697/anthropics/claude-code/releases/tag/v2.1.119"
+}

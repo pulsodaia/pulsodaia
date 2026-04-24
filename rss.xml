@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 23 Apr 2026 21:15:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 00:17:15 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude se conecta a apps pessoais: Spotify, Uber Eats e TurboTax agora acessíveis</title>
+      <link>https://pulsodaia.com.br/feed/claude-se-conecta-a-apps-pessoais-spotify-uber-eats-e-turbotax-agora-acessiveis/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-se-conecta-a-apps-pessoais-spotify-uber-eats-e-turbotax-agora-acessiveis/</guid>
+      <pubDate>Fri, 24 Apr 2026 00:12:01 GMT</pubDate>
+      <description>A inteligência artificial da Anthropic expande seu alcance para o cotidiano do usuário brasileiro.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors">The Verge AI</source>
+    </item>
+    <item>
+      <title>Sierra, de Bret Taylor, adquire startup francesa de IA Fragment</title>
+      <link>https://pulsodaia.com.br/feed/sierra-de-bret-taylor-adquire-startup-francesa-de-ia-fragment/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/sierra-de-bret-taylor-adquire-startup-francesa-de-ia-fragment/</guid>
+      <pubDate>Fri, 24 Apr 2026 00:11:49 GMT</pubDate>
+      <description>Aquisição reforça atuação da empresa no desenvolvimento de agentes de atendimento ao cliente com inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Atualiza Configurações e Integrações</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-configuracoes-e-integracoes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-configuracoes-e-integracoes/</guid>
+      <pubDate>Fri, 24 Apr 2026 00:11:39 GMT</pubDate>
+      <description>Ferramenta de desenvolvimento com IA foca em persistência e flexibilidade para usuários brasileiros.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.119">Claude Code</source>
+    </item>
     <item>
       <title>OpenAI Avança Rumo ao "Super App" com Lançamento do GPT-5.5</title>
       <link>https://pulsodaia.com.br/feed/openai-avanca-rumo-ao-super-app-com-lancamento-do-gpt-5-5/</link>
@@ -430,33 +457,6 @@
       <description>Estudo recente aponta que o uso excessivo de inteligência artificial como fonte de respostas pode ter um impacto negativo na capacidade cognitiva.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/just-ten-minutes-of-using-ai-as-an-answer-machine-can-measurably-erode-problem-solving-skills-new-study-finds/">The Decoder</source>
-    </item>
-    <item>
-      <title>Salesforce: APIs são a nova interface para agentes de IA, diz CEO</title>
-      <link>https://pulsodaia.com.br/feed/salesforce-apis-sao-a-nova-interface-para-agentes-de-ia-diz-ceo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/salesforce-apis-sao-a-nova-interface-para-agentes-de-ia-diz-ceo/</guid>
-      <pubDate>Sat, 18 Apr 2026 14:26:22 GMT</pubDate>
-      <description>A gigante do CRM aposta na desintermediação da interação humana com sistemas corporativos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/salesforce-ceo-marc-benioff-says-apis-are-the-new-ui-for-ai-agents/">The Decoder</source>
-    </item>
-    <item>
-      <title>App Stores Revitalizadas: IA Impulsiona Nova Onda de Lançamentos de Aplicativos</title>
-      <link>https://pulsodaia.com.br/feed/app-stores-revitalizadas-ia-impulsiona-nova-onda-de-lancamentos-de-aplicativos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/app-stores-revitalizadas-ia-impulsiona-nova-onda-de-lancamentos-de-aplicativos/</guid>
-      <pubDate>Sat, 18 Apr 2026 14:26:10 GMT</pubDate>
-      <description>Dados recentes sugerem que a inteligência artificial pode estar injetando um novo fôlego no mercado de software para dispositivos móveis no Brasil e no mundo.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Modelos de IA abertos desafiam exclusividade de segurança da Anthropic</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-ia-abertos-desafiam-exclusividade-de-seguranca-da-anthropic/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-abertos-desafiam-exclusividade-de-seguranca-da-anthropic/</guid>
-      <pubDate>Sat, 18 Apr 2026 11:53:06 GMT</pubDate>
-      <description>Pequenos modelos de código aberto replicam análises de vulnerabilidade antes restritas a sistemas fechados.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/the-myth-of-claude-mythos-crumbles-as-small-open-models-hunt-the-same-cybersecurity-bugs-anthropic-showcased/">The Decoder</source>
     </item>
   </channel>
 </rss>

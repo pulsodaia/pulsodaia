@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-04-23T21:10:14.338Z",
+  "generated_at": "2026-04-24T00:12:01.247Z",
   "articles": [
+    {
+      "slug": "claude-se-conecta-a-apps-pessoais-spotify-uber-eats-e-turbotax-agora-acessiveis",
+      "headline": "Claude se conecta a apps pessoais: Spotify, Uber Eats e TurboTax agora acessíveis",
+      "subtitle": "A inteligência artificial da Anthropic expande seu alcance para o cotidiano do usuário brasileiro.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
+      "category": "mercado",
+      "tags": [
+        "claude",
+        "anthropic",
+        "ia pessoal"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-04-23T18:27:11-04:00",
+      "written_at": "2026-04-24T00:12:01.034Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "sierra-de-bret-taylor-adquire-startup-francesa-de-ia-fragment",
+      "headline": "Sierra, de Bret Taylor, adquire startup francesa de IA Fragment",
+      "subtitle": "Aquisição reforça atuação da empresa no desenvolvimento de agentes de atendimento ao cliente com inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "atendimento ao cliente",
+        "aquisição"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 23 Apr 2026 21:00:00 +0000",
+      "written_at": "2026-04-24T00:11:49.889Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-atualiza-configuracoes-e-integracoes",
+      "headline": "Claude Code Atualiza Configurações e Integrações",
+      "subtitle": "Ferramenta de desenvolvimento com IA foca em persistência e flexibilidade para usuários brasileiros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "desenvolvimento",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-04-23T23:24:19Z",
+      "written_at": "2026-04-24T00:11:39.246Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "openai-avanca-rumo-ao-super-app-com-lancamento-do-gpt-5-5",
       "headline": "OpenAI Avança Rumo ao \"Super App\" com Lançamento do GPT-5.5",
