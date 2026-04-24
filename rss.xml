@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 24 Apr 2026 00:17:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 09:19:09 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Governança para IA Generativa em Ambientes de Aprendizado: Novo Framework Propõe Abordagem Orientada a Entregas</title>
+      <link>https://pulsodaia.com.br/feed/governanca-para-ia-generativa-em-ambientes-de-aprendizado-novo-framework-propoe-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governanca-para-ia-generativa-em-ambientes-de-aprendizado-novo-framework-propoe-/</guid>
+      <pubDate>Fri, 24 Apr 2026 09:14:02 GMT</pubDate>
+      <description>Pesquisa no arXiv apresenta modelo para avaliar outputs de IA em áreas que exigem conhecimento humano profundo.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.19751">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Modelos de IA abusam de ferramentas externas por "ilusão de conhecimento"</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-ia-abusam-de-ferramentas-externas-por-ilusao-de-conhecimento/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-abusam-de-ferramentas-externas-por-ilusao-de-conhecimento/</guid>
+      <pubDate>Fri, 24 Apr 2026 09:13:52 GMT</pubDate>
+      <description>Pesquisa aponta que LLMs podem depender demais de APIs, ignorando sua própria base de dados.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.19749">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA de Ponta no Navegador: Hugging Face Facilita Integração de Modelos em Extensões Chrome</title>
+      <link>https://pulsodaia.com.br/feed/ia-de-ponta-no-navegador-hugging-face-facilita-integracao-de-modelos-em-extensoe/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-ponta-no-navegador-hugging-face-facilita-integracao-de-modelos-em-extensoe/</guid>
+      <pubDate>Fri, 24 Apr 2026 09:13:42 GMT</pubDate>
+      <description>Desenvolvedores brasileiros ganham nova ferramenta para rodar processamento de linguagem natural diretamente no browser.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/transformersjs-chrome-extension">Hugging Face</source>
+    </item>
     <item>
       <title>Claude se conecta a apps pessoais: Spotify, Uber Eats e TurboTax agora acessíveis</title>
       <link>https://pulsodaia.com.br/feed/claude-se-conecta-a-apps-pessoais-spotify-uber-eats-e-turbotax-agora-acessiveis/</link>
@@ -430,33 +457,6 @@
       <description>Movimento sinaliza avanço na adoção de veículos autônomos nos EUA.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Cerebras Sinaliza Entrada na Bolsa de Valores em Busca de Capital para Expansão de Chips de IA</title>
-      <link>https://pulsodaia.com.br/feed/cerebras-sinaliza-entrada-na-bolsa-de-valores-em-busca-de-capital-para-expansao-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cerebras-sinaliza-entrada-na-bolsa-de-valores-em-busca-de-capital-para-expansao-/</guid>
-      <pubDate>Sat, 18 Apr 2026 19:56:14 GMT</pubDate>
-      <description>A fabricante de semicondutores, com acordos recentes com gigantes da tecnologia, prepara-se para sua oferta pública inicial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic dialoga com governo Trump apesar de alerta de segurança do Pentágono</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-dialoga-com-governo-trump-apesar-de-alerta-de-seguranca-do-pentagono/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-dialoga-com-governo-trump-apesar-de-alerta-de-seguranca-do-pentagono/</guid>
-      <pubDate>Sat, 18 Apr 2026 17:56:01 GMT</pubDate>
-      <description>Empresa de IA busca manter pontes com Washington enquanto enfrenta escrutínio.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Dez Minutos com IA Podem Comprometer Habilidade de Resolução de Problemas</title>
-      <link>https://pulsodaia.com.br/feed/dez-minutos-com-ia-podem-comprometer-habilidade-de-resolucao-de-problemas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/dez-minutos-com-ia-podem-comprometer-habilidade-de-resolucao-de-problemas/</guid>
-      <pubDate>Sat, 18 Apr 2026 14:26:35 GMT</pubDate>
-      <description>Estudo recente aponta que o uso excessivo de inteligência artificial como fonte de respostas pode ter um impacto negativo na capacidade cognitiva.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/just-ten-minutes-of-using-ai-as-an-answer-machine-can-measurably-erode-problem-solving-skills-new-study-finds/">The Decoder</source>
     </item>
   </channel>
 </rss>

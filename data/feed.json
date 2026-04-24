@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-04-24T00:12:01.247Z",
+  "generated_at": "2026-04-24T09:14:03.142Z",
   "articles": [
+    {
+      "slug": "governanca-para-ia-generativa-em-ambientes-de-aprendizado-novo-framework-propoe-",
+      "headline": "Governança para IA Generativa em Ambientes de Aprendizado: Novo Framework Propõe Abordagem Orientada a Entregas",
+      "subtitle": "Pesquisa no arXiv apresenta modelo para avaliar outputs de IA em áreas que exigem conhecimento humano profundo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.19751",
+      "category": "research",
+      "tags": [
+        "ia generativa",
+        "governança de ia",
+        "aprendizado"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 24 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-24T09:14:02.903Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-ia-abusam-de-ferramentas-externas-por-ilusao-de-conhecimento",
+      "headline": "Modelos de IA abusam de ferramentas externas por \"ilusão de conhecimento\"",
+      "subtitle": "Pesquisa aponta que LLMs podem depender demais de APIs, ignorando sua própria base de dados.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.19749",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 24 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-24T09:13:52.540Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-de-ponta-no-navegador-hugging-face-facilita-integracao-de-modelos-em-extensoe",
+      "headline": "IA de Ponta no Navegador: Hugging Face Facilita Integração de Modelos em Extensões Chrome",
+      "subtitle": "Desenvolvedores brasileiros ganham nova ferramenta para rodar processamento de linguagem natural diretamente no browser.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "category": "opensource",
+      "tags": [
+        "transformers.js",
+        "hugging face",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 23 Apr 2026 00:00:00 GMT",
+      "written_at": "2026-04-24T09:13:42.602Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "claude-se-conecta-a-apps-pessoais-spotify-uber-eats-e-turbotax-agora-acessiveis",
       "headline": "Claude se conecta a apps pessoais: Spotify, Uber Eats e TurboTax agora acessíveis",

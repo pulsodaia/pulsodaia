@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2604.19749v1",
+  "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
+  "url": "https://arxiv.org/abs/2604.19749",
+  "summary": "arXiv:2604.19749v1 Announce Type: new Abstract: Equipping LLMs with external tools effectively addresses internal reasoning limitations. However, it introduces a critical yet under-explored phenomenon: tool overuse, the unnecessary tool-use during reasoning. In this paper, we first reveal this phenomenon is pervasive across diverse LLMs. We then experimentally elucidate its underlying mechanisms through two key lenses: (1) First, by analyzing tool-use behavior across different internal knowledge availability regions, we identify a \\textit{knowledge epistemic illusion}: models misjudge internal knowledge boundaries and fail to accurately perceive their actual knowledge availability. To mitigate this, we propose a knowledge-aware epistemic boundary alignment strategy based on direct preference optimization, which reduces tool usage in by 82.8\\% while yielding an accuracy improvement. (2) Second, we establish a causal link between reward structures and tool-use behavior by visualizing the",
+  "published_at": "Fri, 24 Apr 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Modelos de IA abusam de ferramentas externas por \"ilusão de conhecimento\"",
+  "subtitle": "Pesquisa aponta que LLMs podem depender demais de APIs, ignorando sua própria base de dados.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Modelos de linguagem grandes (LLMs) demonstram uma tendência preocupante de usar ferramentas externas desnecessariamente, mesmo quando a informação está disponível internamente. Uma nova pesquisa no arXiv revela o fenômeno da \"ilusão de conhecimento epistêmico\", onde os modelos superestimam suas limitações internas.",
+  "body_markdown": "## O que aconteceu\n\nUma pesquisa publicada no arXiv, intitulada \"The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?\", identifica um comportamento recorrente em diversos LLMs: o uso excessivo de ferramentas externas. Em vez de acessar e processar informações de seu próprio conhecimento interno, esses modelos optam por consultar APIs ou outras fontes externas de forma desnecessária. Isso ocorre mesmo quando a resposta poderia ser gerada de maneira eficiente com os dados já treinados. A pesquisa, disponível em [arxiv.org/abs/2604.19749](https://arxiv.org/abs/2604.19749), sugere que essa dependência de ferramentas externas não é uma falha de design intencional, mas sim uma consequência de como os modelos interpretam suas próprias capacidades.\n\n## Por que importa\n\nPara o mercado brasileiro de IA, essa descoberta tem implicações significativas. A dependência excessiva de ferramentas externas pode aumentar os custos operacionais devido ao uso de APIs pagas e à latência introduzida pelas chamadas externas. Além disso, compromete a velocidade e a eficiência em aplicações críticas onde respostas rápidas são essenciais. Empresas que desenvolvem ou utilizam soluções baseadas em LLMs precisam estar cientes dessa tendência para otimizar o desempenho e a relação custo-benefício. A \"ilusão de conhecimento epistêmico\" pode levar a decisões subótimas, onde o modelo assume que não sabe algo, quando na verdade a informação está latente em seus parâmetros de treinamento. Isso afeta diretamente a confiabilidade e a performance de chatbots, assistentes virtuais e sistemas de análise de dados que dependem de LLMs.\n\n## O que esperar\n\nOs pesquisadores propõem uma estratégia de \"alinhamento de fronteira epistêmica consciente do conhecimento\", focada em melhorar a percepção do modelo sobre seus próprios limites de conhecimento. Isso envolve treinar o modelo para reconhecer com mais precisão quando a informação necessária está disponível internamente e quando a consulta externa é realmente benéfica. A expectativa é que, com o avanço dessas técnicas, os LLMs se tornem mais autossuficientes e eficientes. O desenvolvimento de modelos que compreendam melhor seus próprios dados de treinamento pode levar a aplicações de IA mais robustas e econômicas no Brasil, reduzindo a dependência de infraestruturas externas e aumentando a precisão em tarefas complexas. O estudo em [arxiv.org/abs/2604.19749](https://arxiv.org/abs/2604.19749) é um passo inicial para mitigar esse problema.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Uma pesquisa publicada no arXiv, intitulada \"The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?\", identifica um comportamento recorrente em diversos LLMs: o uso excessivo de ferramentas externas. Em vez de acessar e processar informações de seu próprio conhecimento interno, esses modelos optam por consultar APIs ou outras fontes externas de forma desnecessária. Isso ocorre mesmo quando a resposta poderia ser gerada de maneira eficiente com os dados já treinados. A pesquisa, disponível em <a href=\"https://arxiv.org/abs/2604.19749\" target=\"_blank\" rel=\"external noopener\">arxiv.org/abs/2604.19749</a>, sugere que essa dependência de ferramentas externas não é uma falha de design intencional, mas sim uma consequência de como os modelos interpretam suas próprias capacidades.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de IA, essa descoberta tem implicações significativas. A dependência excessiva de ferramentas externas pode aumentar os custos operacionais devido ao uso de APIs pagas e à latência introduzida pelas chamadas externas. Além disso, compromete a velocidade e a eficiência em aplicações críticas onde respostas rápidas são essenciais. Empresas que desenvolvem ou utilizam soluções baseadas em LLMs precisam estar cientes dessa tendência para otimizar o desempenho e a relação custo-benefício. A \"ilusão de conhecimento epistêmico\" pode levar a decisões subótimas, onde o modelo assume que não sabe algo, quando na verdade a informação está latente em seus parâmetros de treinamento. Isso afeta diretamente a confiabilidade e a performance de chatbots, assistentes virtuais e sistemas de análise de dados que dependem de LLMs.</p>\n\n<h2>O que esperar</h2>\n\n<p>Os pesquisadores propõem uma estratégia de \"alinhamento de fronteira epistêmica consciente do conhecimento\", focada em melhorar a percepção do modelo sobre seus próprios limites de conhecimento. Isso envolve treinar o modelo para reconhecer com mais precisão quando a informação necessária está disponível internamente e quando a consulta externa é realmente benéfica. A expectativa é que, com o avanço dessas técnicas, os LLMs se tornem mais autossuficientes e eficientes. O desenvolvimento de modelos que compreendam melhor seus próprios dados de treinamento pode levar a aplicações de IA mais robustas e econômicas no Brasil, reduzindo a dependência de infraestruturas externas e aumentando a precisão em tarefas complexas. O estudo em <a href=\"https://arxiv.org/abs/2604.19749\" target=\"_blank\" rel=\"external noopener\">arxiv.org/abs/2604.19749</a> é um passo inicial para mitigar esse problema.</p>",
+  "tags": [
+    "ia",
+    "llm",
+    "pesquisa"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "modelos de linguagem",
+    "ferramentas externas",
+    "conhecimento interno",
+    "ilusão epistêmica",
+    "otimização de IA"
+  ],
+  "meta_description_seo": "Pesquisa revela que LLMs usam ferramentas externas desnecessariamente por \"ilusão de conhecimento\", impactando eficiência e custos.",
+  "faq": [
+    {
+      "q": "Por que os modelos de IA usam ferramentas externas mesmo quando não precisam?",
+      "a": "Os modelos podem sofrer de uma \"ilusão de conhecimento epistêmico\", onde eles erroneamente acreditam que não possuem a informação internamente e, portanto, recorrem a ferramentas externas."
+    },
+    {
+      "q": "Qual o impacto disso para o mercado?",
+      "a": "Isso pode aumentar custos operacionais e latência, além de comprometer a eficiência e a confiabilidade das aplicações de IA."
+    },
+    {
+      "q": "Existe uma solução para esse problema?",
+      "a": "Sim, pesquisadores propõem estratégias para melhorar a percepção do modelo sobre seu próprio conhecimento interno, incentivando o uso mais eficiente de suas capacidades."
+    }
+  ],
+  "written_at": "2026-04-24T09:13:52.540Z",
+  "slug": "modelos-de-ia-abusam-de-ferramentas-externas-por-ilusao-de-conhecimento",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
