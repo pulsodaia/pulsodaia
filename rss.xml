@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 25 Apr 2026 20:03:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 22:00:54 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Governador do Maine Veta Moratória em Data Centers, Abrindo Caminho para Expansão</title>
+      <link>https://pulsodaia.com.br/feed/governador-do-maine-veta-moratoria-em-data-centers-abrindo-caminho-para-expansao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governador-do-maine-veta-moratoria-em-data-centers-abrindo-caminho-para-expansao/</guid>
+      <pubDate>Sat, 25 Apr 2026 21:55:54 GMT</pubDate>
+      <description>A decisão impacta a legislação pioneira que visava frear a construção de novas instalações de processamento de dados.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Anthropic testa mercado de comércio autônomo entre IAs</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-testa-mercado-de-comercio-autonomo-entre-ias/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-testa-mercado-de-comercio-autonomo-entre-ias/</guid>
+      <pubDate>Sat, 25 Apr 2026 21:55:44 GMT</pubDate>
+      <description>A empresa de IA explora a negociação direta entre agentes para transações comerciais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Tóquio se firma como polo de inovação tecnológica em 2026</title>
       <link>https://pulsodaia.com.br/feed/toquio-se-firma-como-polo-de-inovacao-tecnologica-em-2026/</link>
@@ -439,24 +457,6 @@
       <description>Atualização do assistente de código da Anthropic foca em velocidade e usabilidade para desenvolvedores brasileiros.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.116">Claude Code</source>
-    </item>
-    <item>
-      <title>Adobe lança plataforma de agentes corporativos para combater concorrência de IA</title>
-      <link>https://pulsodaia.com.br/feed/adobe-lanca-plataforma-de-agentes-corporativos-para-combater-concorrencia-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/adobe-lanca-plataforma-de-agentes-corporativos-para-combater-concorrencia-de-ia/</guid>
-      <pubDate>Mon, 20 Apr 2026 16:21:10 GMT</pubDate>
-      <description>Gigante do software busca se adaptar à pressão de startups de IA com nova oferta para empresas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/adobe-fights-ai-disruption-of-its-own-business-model-with-new-enterprise-agent-platform/">The Decoder</source>
-    </item>
-    <item>
-      <title>Liderança da Fermi Deixa o Comando em Meio a Desafios de Campus de IA Nuclear</title>
-      <link>https://pulsodaia.com.br/feed/lideranca-da-fermi-deixa-o-comando-em-meio-a-desafios-de-campus-de-ia-nuclear/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/lideranca-da-fermi-deixa-o-comando-em-meio-a-desafios-de-campus-de-ia-nuclear/</guid>
-      <pubDate>Mon, 20 Apr 2026 16:20:59 GMT</pubDate>
-      <description>Saídas inesperadas na startup de energia nuclear com foco em IA levantam questões sobre seu futuro.</description>
-      <category>FOUNDERS</category>
-      <source url="https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
