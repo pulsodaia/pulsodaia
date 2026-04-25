@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-04-24T22:27:46.423Z",
+  "generated_at": "2026-04-25T06:08:22.802Z",
   "articles": [
+    {
+      "slug": "ia-apreende-a-longo-prazo-novo-framework-coevolui-decisores-e-banco-de-habilidad",
+      "headline": "IA apreende a longo prazo: novo framework coevolui decisores e banco de habilidades",
+      "subtitle": "Pesquisadores buscam superar limitações de LLMs em tarefas complexas e sequenciais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.20987",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llms",
+        "aprendizado de maquina"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 25 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-25T06:08:22.764Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-de-regras-em-armadilha-de-concordancia-nova-metricas-para-avaliacao",
+      "headline": "IA de Regras em Armadilha de Concordância: Nova Métricas para Avaliação",
+      "subtitle": "Pesquisa propõe novas métricas para avaliar sistemas de IA que operam sob regras, evitando a falha de avaliação comum.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.20972",
+      "category": "research",
+      "tags": [
+        "ia",
+        "avaliacao de ia",
+        "governanca de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 25 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-25T06:08:11.504Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-automatiza-planejamento-militar-desafios-e-necessidades-globais",
+      "headline": "IA Automatiza Planejamento Militar: Desafios e Necessidades Globais",
+      "subtitle": "A corrida por sistemas autônomos no campo de batalha avança, mas detalhes técnicos permanecem sob sigilo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.20862",
+      "category": "research",
+      "tags": [
+        "ia militar",
+        "planejamento automatizado",
+        "defesa nacional"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 25 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-25T06:08:00.004Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "comfyui-atinge-us-500-milhoes-em-avaliacao-com-crescente-busca-por-controle-cria",
       "headline": "ComfyUI Atinge US$ 500 Milhões em Avaliação com Crescente Busca por Controle Criativo em IA",

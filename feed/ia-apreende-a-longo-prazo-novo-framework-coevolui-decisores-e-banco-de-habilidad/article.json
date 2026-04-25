@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2604.20987v1",
+  "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+  "url": "https://arxiv.org/abs/2604.20987",
+  "summary": "arXiv:2604.20987v1 Announce Type: new Abstract: Long horizon interactive environments are a testbed for evaluating agents skill usage abilities. These environments demand multi step reasoning, the chaining of multiple skills over many timesteps, and robust decision making under delayed rewards and partial observability. Games are a good testbed for evaluating agent skill usage in environments. Large Language Models (LLMs) offer a promising alternative as game playing agents, but they often struggle with consistent long horizon decision making because they lack a mechanism to discover, retain, and reuse structured skills across episodes. We present COSPLAY, a co evolution framework in which an LLM decision agent retrieves skills from a learnable skill bank to guide action taking, while an agent managed skill pipeline discovers reusable skills from the agents unlabeled rollouts to form a skill bank. Our framework improves both the decision agent to learn better skill retrieval and action",
+  "published_at": "Sat, 25 Apr 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA apreende a longo prazo: novo framework coevolui decisores e banco de habilidades",
+  "subtitle": "Pesquisadores buscam superar limitações de LLMs em tarefas complexas e sequenciais.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo estudo publicado no arXiv propõe o COSPLAY, um framework que une Large Language Models (LLMs) a um banco de habilidades estruturado. O objetivo é aprimorar a capacidade de tomada de decisão de IAs em tarefas de longo prazo, um desafio persistente.",
+  "body_markdown": "## O que aconteceu\n\nAmbientes interativos de longo prazo, como jogos complexos, servem como laboratórios para testar as capacidades de uso de habilidades por agentes de IA. Essas tarefas exigem raciocínio multi-etapas, encadeamento de diversas habilidades ao longo de muitos passos de tempo e tomada de decisão robusta, mesmo com recompensas atrasadas e observabilidade parcial. Embora os LLMs apresentem um potencial promissor como agentes de jogo, eles frequentemente falham em manter a consistência em decisões de longo prazo. A causa principal é a falta de um mecanismo para descobrir, reter e reutilizar habilidades estruturadas entre diferentes episódios de aprendizado. Para solucionar essa lacuna, pesquisadores apresentaram o COSPLAY, um framework de coevolução. Neste sistema, um agente decisor baseado em LLM acessa habilidades de um banco de dados que pode ser aprendido. Essa interação guia a execução de ações, permitindo que a IA navegue por sequências complexas de eventos. O framework detalhado na publicação [Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks](https://arxiv.org/abs/2604.20987) busca integrar a flexibilidade dos LLMs com a precisão e a reutilização de habilidades específicas.\n\n## Por que importa\n\nA capacidade de executar tarefas de longo prazo de forma confiável é crucial para a adoção prática de IAs em diversos setores no Brasil. Imagine assistentes virtuais capazes de gerenciar projetos complexos, robôs autônomos que realizam missões de múltiplos estágios ou sistemas de recomendação que compreendem e antecipam necessidades do usuário ao longo do tempo. A limitação atual dos LLMs em manter o contexto e a sequência de ações em horizontes estendidos impede que essas aplicações alcancem seu pleno potencial. O COSPLAY, ao propor um mecanismo para que LLMs descubram e utilizem um repertório de habilidades de forma eficiente, pode pavimentar o caminho para IAs mais competentes em cenários que exigem planejamento e execução prolongados. Isso pode significar desde automação de processos industriais mais sofisticados até a criação de ferramentas de auxílio à pesquisa científica que demandam um encadeamento lógico de passos.\n\n## O que esperar\n\nO desenvolvimento do COSPLAY abre portas para novas arquiteturas de IA. A coevolução proposta sugere um ciclo onde tanto o agente decisor quanto o banco de habilidades se aprimoram mutuamente. O LLM aprende quais habilidades são mais eficazes para diferentes situações, enquanto o banco de dados se expande com novas competências ou otimiza as existentes. Espera-se que essa abordagem leve a agentes de IA mais adaptáveis e eficientes em tarefas complexas. A pesquisa ainda está em seus estágios iniciais, mas a direção aponta para a criação de IAs que não apenas entendem instruções, mas também possuem um \"know-how\" estruturado para executá-las. A capacidade de aprender e gerenciar um conjunto de habilidades reutilizáveis é um passo importante para que as IAs possam lidar com desafios do mundo real que vão além de interações pontuais. Os próximos passos provavelmente envolverão testes em uma gama mais ampla de ambientes e a exploração de diferentes mecanismos para a aprendizagem e atualização do banco de habilidades, conforme detalhado no [artigo original](https://arxiv.org/abs/2604.20987).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Ambientes interativos de longo prazo, como jogos complexos, servem como laboratórios para testar as capacidades de uso de habilidades por agentes de IA. Essas tarefas exigem raciocínio multi-etapas, encadeamento de diversas habilidades ao longo de muitos passos de tempo e tomada de decisão robusta, mesmo com recompensas atrasadas e observabilidade parcial. Embora os LLMs apresentem um potencial promissor como agentes de jogo, eles frequentemente falham em manter a consistência em decisões de longo prazo. A causa principal é a falta de um mecanismo para descobrir, reter e reutilizar habilidades estruturadas entre diferentes episódios de aprendizado. Para solucionar essa lacuna, pesquisadores apresentaram o COSPLAY, um framework de coevolução. Neste sistema, um agente decisor baseado em LLM acessa habilidades de um banco de dados que pode ser aprendido. Essa interação guia a execução de ações, permitindo que a IA navegue por sequências complexas de eventos. O framework detalhado na publicação <a href=\"https://arxiv.org/abs/2604.20987\" target=\"_blank\" rel=\"external noopener\">Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</a> busca integrar a flexibilidade dos LLMs com a precisão e a reutilização de habilidades específicas.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de executar tarefas de longo prazo de forma confiável é crucial para a adoção prática de IAs em diversos setores no Brasil. Imagine assistentes virtuais capazes de gerenciar projetos complexos, robôs autônomos que realizam missões de múltiplos estágios ou sistemas de recomendação que compreendem e antecipam necessidades do usuário ao longo do tempo. A limitação atual dos LLMs em manter o contexto e a sequência de ações em horizontes estendidos impede que essas aplicações alcancem seu pleno potencial. O COSPLAY, ao propor um mecanismo para que LLMs descubram e utilizem um repertório de habilidades de forma eficiente, pode pavimentar o caminho para IAs mais competentes em cenários que exigem planejamento e execução prolongados. Isso pode significar desde automação de processos industriais mais sofisticados até a criação de ferramentas de auxílio à pesquisa científica que demandam um encadeamento lógico de passos.</p>\n\n<h2>O que esperar</h2>\n\n<p>O desenvolvimento do COSPLAY abre portas para novas arquiteturas de IA. A coevolução proposta sugere um ciclo onde tanto o agente decisor quanto o banco de habilidades se aprimoram mutuamente. O LLM aprende quais habilidades são mais eficazes para diferentes situações, enquanto o banco de dados se expande com novas competências ou otimiza as existentes. Espera-se que essa abordagem leve a agentes de IA mais adaptáveis e eficientes em tarefas complexas. A pesquisa ainda está em seus estágios iniciais, mas a direção aponta para a criação de IAs que não apenas entendem instruções, mas também possuem um \"know-how\" estruturado para executá-las. A capacidade de aprender e gerenciar um conjunto de habilidades reutilizáveis é um passo importante para que as IAs possam lidar com desafios do mundo real que vão além de interações pontuais. Os próximos passos provavelmente envolverão testes em uma gama mais ampla de ambientes e a exploração de diferentes mecanismos para a aprendizagem e atualização do banco de habilidades, conforme detalhado no <a href=\"https://arxiv.org/abs/2604.20987\" target=\"_blank\" rel=\"external noopener\">artigo original</a>.</p>",
+  "tags": [
+    "ia",
+    "llms",
+    "aprendizado de maquina"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "IA",
+    "LLMs",
+    "agentes",
+    "aprendizado de maquina",
+    "tarefas de longo prazo",
+    "banco de habilidades"
+  ],
+  "meta_description_seo": "Novo framework COSPLAY coevolui LLMs e bancos de habilidades para superar desafios em tarefas de IA de longo prazo.",
+  "faq": [
+    {
+      "q": "O que é o framework COSPLAY?",
+      "a": "COSPLAY é um framework de coevolução que une Large Language Models (LLMs) a um banco de habilidades estruturado. Ele visa melhorar a capacidade de tomada de decisão de IAs em tarefas que exigem múltiplos passos e planejamento de longo prazo."
+    },
+    {
+      "q": "Por que LLMs têm dificuldade com tarefas de longo prazo?",
+      "a": "LLMs frequentemente lutam com decisões consistentes de longo prazo porque lhes falta um mecanismo para descobrir, reter e reutilizar habilidades estruturadas de forma eficaz entre diferentes episódios de aprendizado."
+    },
+    {
+      "q": "Qual o impacto potencial do COSPLAY para a IA no Brasil?",
+      "a": "O COSPLAY pode permitir o desenvolvimento de IAs mais capazes em tarefas complexas e sequenciais, abrindo portas para aplicações mais sofisticadas em automação industrial, robótica e assistentes virtuais avançados."
+    }
+  ],
+  "written_at": "2026-04-25T06:08:22.764Z",
+  "slug": "ia-apreende-a-longo-prazo-novo-framework-coevolui-decisores-e-banco-de-habilidad",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
