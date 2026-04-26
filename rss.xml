@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 26 Apr 2026 14:38:59 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 18:11:12 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Equity da Anthropic como Moeda para Imóveis na Bay Area</title>
+      <link>https://pulsodaia.com.br/feed/equity-da-anthropic-como-moeda-para-imoveis-na-bay-area/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/equity-da-anthropic-como-moeda-para-imoveis-na-bay-area/</guid>
+      <pubDate>Sun, 26 Apr 2026 18:06:08 GMT</pubDate>
+      <description>Negociação incomum para propriedade de luxo reflete valorização de startups de IA.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/">TechCrunch AI</source>
+    </item>
     <item>
       <title>OpenAI Integra Codex ao GPT-5.5, Foco em Agentes de Código</title>
       <link>https://pulsodaia.com.br/feed/openai-integra-codex-ao-gpt-5-5-foco-em-agentes-de-codigo/</link>
@@ -448,15 +457,6 @@
       <description>Novos desafios surgem na verificação de fatos de posts em redes sociais que combinam texto e imagens.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2604.16311">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Agentes de IA Koreanos Ganham Verossimilhança com Dados Sintéticos</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-koreanos-ganham-verossimilhanca-com-dados-sinteticos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-koreanos-ganham-verossimilhanca-com-dados-sinteticos/</guid>
-      <pubDate>Tue, 21 Apr 2026 11:45:20 GMT</pubDate>
-      <description>Nova abordagem utiliza personas sintéticas para refinar a representação demográfica em modelos de linguagem.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas">Hugging Face</source>
     </item>
   </channel>
 </rss>
