@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-22T04:36:23.113Z",
-  "total": 3019,
+  "generated_at": "2026-04-26T16:56:29.807Z",
+  "total": 3021,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1455
+      "count": 1456
     },
     {
       "key": "ai-ml",
@@ -85,7 +85,7 @@
     {
       "key": "documentation",
       "label": "Documentacao & Escrita",
-      "count": 42
+      "count": 43
     },
     {
       "key": "personal-dev",
@@ -1606,6 +1606,12 @@
       "origin": "claude"
     },
     {
+      "name": "awesome-design-md",
+      "description": "Apply ready-to-use DESIGN.md design systems extracted from 59+ real brands (Stripe, Apple, Vercel, Linear, Notion, Spotify, Tesla, Ferrari, etc.) to generate pixel-accurate UI matching their visual language. Use when the user says \"build me a page like X\", \"make it look like X\", \"create a UI inspired by X\", \"apply the X design system\", or asks for landing pages / components matching a known brand aesthetic.",
+      "category": "documentation",
+      "origin": "claude"
+    },
+    {
       "name": "aws-compliance-checker",
       "description": "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
       "category": "cloud-devops",
@@ -3090,6 +3096,12 @@
     {
       "name": "case-studies",
       "description": "Analysis of sharp edges in widely-used libraries. These aren't implementation bugs—they're design decisions that make secure usage difficult.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "catalog",
+      "description": "Quick reference of all 59+ brands available via `npx getdesign add <slug>`.",
       "category": "outros",
       "origin": "claude"
     },
