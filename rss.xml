@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 26 Apr 2026 10:38:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 14:38:59 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI Integra Codex ao GPT-5.5, Foco em Agentes de Código</title>
+      <link>https://pulsodaia.com.br/feed/openai-integra-codex-ao-gpt-5-5-foco-em-agentes-de-codigo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-integra-codex-ao-gpt-5-5-foco-em-agentes-de-codigo/</guid>
+      <pubDate>Sun, 26 Apr 2026 14:33:32 GMT</pubDate>
+      <description>Decisão da OpenAI sinaliza consolidação de modelos e avanço em capacidades de programação autônoma para o mercado brasileiro.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/">The Decoder</source>
+    </item>
     <item>
       <title>Usuários do Claude nos EUA são mais ricos que de rivais de IA, aponta pesquisa</title>
       <link>https://pulsodaia.com.br/feed/usuarios-do-claude-nos-eua-sao-mais-ricos-que-de-rivais-de-ia-aponta-pesquisa/</link>
@@ -448,15 +457,6 @@
       <description>Nova abordagem utiliza personas sintéticas para refinar a representação demográfica em modelos de linguagem.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas">Hugging Face</source>
-    </item>
-    <item>
-      <title>QIMMA: Novo Ranking Avalia Qualidade de Modelos de Linguagem em Árabe</title>
-      <link>https://pulsodaia.com.br/feed/qimma-novo-ranking-avalia-qualidade-de-modelos-de-linguagem-em-arabe/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/qimma-novo-ranking-avalia-qualidade-de-modelos-de-linguagem-em-arabe/</guid>
-      <pubDate>Tue, 21 Apr 2026 11:45:08 GMT</pubDate>
-      <description>Iniciativa visa padronizar e impulsionar o desenvolvimento de LLMs para o idioma árabe, com reflexos potenciais para o mercado brasileiro de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard">Hugging Face</source>
     </item>
   </channel>
 </rss>
