@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-25T21:55:54.862Z",
+  "generated_at": "2026-04-26T10:33:03.656Z",
   "articles": [
+    {
+      "slug": "usuarios-do-claude-nos-eua-sao-mais-ricos-que-de-rivais-de-ia-aponta-pesquisa",
+      "headline": "Usuários do Claude nos EUA são mais ricos que de rivais de IA, aponta pesquisa",
+      "subtitle": "O perfil socioeconômico dos usuários de assistentes de IA revela nuances no mercado.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "pesquisa",
+        "usuarios"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 26 Apr 2026 08:50:02 +0000",
+      "written_at": "2026-04-26T10:33:01.583Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-em-financas-modelos-avancados-falham-em-entregar-conteudo-para-clientes-de-ba",
+      "headline": "IA em Finanças: Modelos Avançados Falham em Entregar Conteúdo para Clientes de Banco de Investimento",
+      "subtitle": "Uma análise com 500 profissionais revela que, apesar do potencial, a IA ainda não substitui a precisão humana em entregas corporativas.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "finanças",
+        "bancos de investimento",
+        "precisao",
+        "tecnologia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 26 Apr 2026 09:18:16 +0000",
+      "written_at": "2026-04-26T10:32:45.730Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-prompts-antigos-prejudicam-gpt-5-5-desenvolvedores-precisam-de-nova-base",
+      "headline": "OpenAI: Prompts Antigos Prejudicam GPT-5.5; Desenvolvedores Precisam de Nova Base",
+      "subtitle": "A empresa sugere uma mudança de paradigma para extrair o máximo potencial de modelos de linguagem avançados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "gpt-5.5",
+        "engenharia de prompts"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 26 Apr 2026 10:20:04 +0000",
+      "written_at": "2026-04-26T10:32:33.103Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "governador-do-maine-veta-moratoria-em-data-centers-abrindo-caminho-para-expansao",
       "headline": "Governador do Maine Veta Moratória em Data Centers, Abrindo Caminho para Expansão",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 25 Apr 2026 22:00:54 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 10:38:28 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Usuários do Claude nos EUA são mais ricos que de rivais de IA, aponta pesquisa</title>
+      <link>https://pulsodaia.com.br/feed/usuarios-do-claude-nos-eua-sao-mais-ricos-que-de-rivais-de-ia-aponta-pesquisa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/usuarios-do-claude-nos-eua-sao-mais-ricos-que-de-rivais-de-ia-aponta-pesquisa/</guid>
+      <pubDate>Sun, 26 Apr 2026 10:33:01 GMT</pubDate>
+      <description>O perfil socioeconômico dos usuários de assistentes de IA revela nuances no mercado.</description>
+      <category>RESEARCH</category>
+      <source url="https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/">The Decoder</source>
+    </item>
+    <item>
+      <title>IA em Finanças: Modelos Avançados Falham em Entregar Conteúdo para Clientes de Banco de Investimento</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-financas-modelos-avancados-falham-em-entregar-conteudo-para-clientes-de-ba/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-financas-modelos-avancados-falham-em-entregar-conteudo-para-clientes-de-ba/</guid>
+      <pubDate>Sun, 26 Apr 2026 10:32:45 GMT</pubDate>
+      <description>Uma análise com 500 profissionais revela que, apesar do potencial, a IA ainda não substitui a precisão humana em entregas corporativas.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/">The Decoder</source>
+    </item>
+    <item>
+      <title>OpenAI: Prompts Antigos Prejudicam GPT-5.5; Desenvolvedores Precisam de Nova Base</title>
+      <link>https://pulsodaia.com.br/feed/openai-prompts-antigos-prejudicam-gpt-5-5-desenvolvedores-precisam-de-nova-base/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-prompts-antigos-prejudicam-gpt-5-5-desenvolvedores-precisam-de-nova-base/</guid>
+      <pubDate>Sun, 26 Apr 2026 10:32:33 GMT</pubDate>
+      <description>A empresa sugere uma mudança de paradigma para extrair o máximo potencial de modelos de linguagem avançados.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline/">The Decoder</source>
+    </item>
     <item>
       <title>Governador do Maine Veta Moratória em Data Centers, Abrindo Caminho para Expansão</title>
       <link>https://pulsodaia.com.br/feed/governador-do-maine-veta-moratoria-em-data-centers-abrindo-caminho-para-expansao/</link>
@@ -430,33 +457,6 @@
       <description>Iniciativa visa padronizar e impulsionar o desenvolvimento de LLMs para o idioma árabe, com reflexos potenciais para o mercado brasileiro de IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard">Hugging Face</source>
-    </item>
-    <item>
-      <title>Gemini do Google Chega a Mais Sete Mercados na Integração com o Chrome</title>
-      <link>https://pulsodaia.com.br/feed/gemini-do-google-chega-a-mais-sete-mercados-na-integracao-com-o-chrome/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-do-google-chega-a-mais-sete-mercados-na-integracao-com-o-chrome/</guid>
-      <pubDate>Tue, 21 Apr 2026 00:08:04 GMT</pubDate>
-      <description>Expansão da IA generativa do Google em navegadores amplia alcance global, com Brasil aguardando novidades.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Amazon Investe US$ 5 Bilhões na Anthropic, Garantindo US$ 100 Bilhões em Gastos na AWS</title>
-      <link>https://pulsodaia.com.br/feed/amazon-investe-us-5-bilhoes-na-anthropic-garantindo-us-100-bilhoes-em-gastos-na-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-investe-us-5-bilhoes-na-anthropic-garantindo-us-100-bilhoes-em-gastos-na-/</guid>
-      <pubDate>Tue, 21 Apr 2026 00:07:53 GMT</pubDate>
-      <description>Acordo estratégico fortalece a computação em nuvem para IA, com implicações para o mercado brasileiro.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code 2.1.116 Otimiza Sessões Grandes e Melhora Experiência de Desenvolvimento</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-2-1-116-otimiza-sessoes-grandes-e-melhora-experiencia-de-desenvolvim/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-2-1-116-otimiza-sessoes-grandes-e-melhora-experiencia-de-desenvolvim/</guid>
-      <pubDate>Tue, 21 Apr 2026 00:07:41 GMT</pubDate>
-      <description>Atualização do assistente de código da Anthropic foca em velocidade e usabilidade para desenvolvedores brasileiros.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.116">Claude Code</source>
     </item>
   </channel>
 </rss>
