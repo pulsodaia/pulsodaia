@@ -1,6 +1,67 @@
 {
-  "generated_at": "2026-04-27T09:11:16.376Z",
+  "generated_at": "2026-04-27T16:12:12.160Z",
   "articles": [
+    {
+      "slug": "china-bloqueia-aquisicao-de-us-2-bilhoes-da-meta-por-investigacao",
+      "headline": "China bloqueia aquisição de US$ 2 bilhões da Meta por investigação",
+      "subtitle": "Decisão de Pequim afeta a estratégia de agentes de IA da Meta e pode gerar ondas no mercado global.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
+      "category": "mercado",
+      "tags": [
+        "meta",
+        "china",
+        "inteligencia artificial",
+        "aquisicao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 27 Apr 2026 13:16:55 +0000",
+      "written_at": "2026-04-27T16:12:11.999Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-lanca-ferramenta-para-proteger-dados-em-aplicacoes-web-com-ia",
+      "headline": "OpenAI Lança Ferramenta para Proteger Dados em Aplicações Web com IA",
+      "subtitle": "Nova funcionalidade visa garantir privacidade de usuários em serviços que integram modelos de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "category": "opensource",
+      "tags": [
+        "openai",
+        "privacidade",
+        "ia",
+        "web apps",
+        "lgpd"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 27 Apr 2026 00:00:00 GMT",
+      "written_at": "2026-04-27T16:11:59.311Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-e-kaggle-reeditam-curso-intensivo-de-agentes-de-ia-com-foco-em-vibe-codin",
+      "headline": "Google e Kaggle Reeditam Curso Intensivo de Agentes de IA com Foco em Vibe Coding",
+      "subtitle": "Iniciativa busca capacitar desenvolvedores em técnicas avançadas de programação para IA generativa.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "category": "google",
+      "tags": [
+        "ia generativa",
+        "agentes de ia",
+        "google ai",
+        "kaggle"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 27 Apr 2026 13:00:00 +0000",
+      "written_at": "2026-04-27T16:11:47.978Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-para-diagnostico-medico-agente-adaptavel-e-reprodutivel-promete-clareza-em-im",
       "headline": "IA para Diagnóstico Médico: Agente Adaptável e Reprodutível Promete Clareza em Imagens Clínicas",
