@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 27 Apr 2026 00:08:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 09:16:21 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA para Diagnóstico Médico: Agente Adaptável e Reprodutível Promete Clareza em Imagens Clínicas</title>
+      <link>https://pulsodaia.com.br/feed/ia-para-diagnostico-medico-agente-adaptavel-e-reprodutivel-promete-clareza-em-im/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-diagnostico-medico-agente-adaptavel-e-reprodutivel-promete-clareza-em-im/</guid>
+      <pubDate>Mon, 27 Apr 2026 09:11:16 GMT</pubDate>
+      <description>Pesquisadores propõem framework para superar desafios de variabilidade e rastreabilidade em processamento de imagens médicas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.21936">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA e Matemática: Novo Teste Avalia Raciocínio Abstrato em Comunicação</title>
+      <link>https://pulsodaia.com.br/feed/ia-e-matematica-novo-teste-avalia-raciocinio-abstrato-em-comunicacao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-e-matematica-novo-teste-avalia-raciocinio-abstrato-em-comunicacao/</guid>
+      <pubDate>Mon, 27 Apr 2026 09:11:05 GMT</pubDate>
+      <description>Pesquisa no ArXiv propõe benchmark para ir além do reconhecimento de padrões em LLMs.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.21935">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>DeepMind e Coreia do Sul Unem Forças para Avanços Científicos com IA de Ponta</title>
+      <link>https://pulsodaia.com.br/feed/deepmind-e-coreia-do-sul-unem-forcas-para-avancos-cientificos-com-ia-de-ponta/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-e-coreia-do-sul-unem-forcas-para-avancos-cientificos-com-ia-de-ponta/</guid>
+      <pubDate>Mon, 27 Apr 2026 09:10:54 GMT</pubDate>
+      <description>Parceria visa acelerar descobertas em diversas áreas, com potencial impacto para o desenvolvimento tecnológico global.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/">Google DeepMind</source>
+    </item>
     <item>
       <title>Equity da Anthropic como Moeda para Imóveis na Bay Area</title>
       <link>https://pulsodaia.com.br/feed/equity-da-anthropic-como-moeda-para-imoveis-na-bay-area/</link>
@@ -430,33 +457,6 @@
       <description>Plataforma busca reengajar usuários com o mundo real através de sugestões personalizadas geradas por inteligência artificial.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/04/21/bond-social-media-platform-ai-memories-kick-doomscrolling-habit/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Segurança Cibernética e IA: A Transparência é Chave para o Futuro</title>
-      <link>https://pulsodaia.com.br/feed/seguranca-cibernetica-e-ia-a-transparencia-e-chave-para-o-futuro/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/seguranca-cibernetica-e-ia-a-transparencia-e-chave-para-o-futuro/</guid>
-      <pubDate>Tue, 21 Apr 2026 16:20:28 GMT</pubDate>
-      <description>A abertura no desenvolvimento de modelos de IA para cibersegurança pode definir a agilidade e eficácia contra ameaças emergentes no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://huggingface.co/blog/cybersecurity-openness">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Ads Aprimora Segurança e Velocidade com Novas Funções do Ads Advisor</title>
-      <link>https://pulsodaia.com.br/feed/google-ads-aprimora-seguranca-e-velocidade-com-novas-funcoes-do-ads-advisor/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-ads-aprimora-seguranca-e-velocidade-com-novas-funcoes-do-ads-advisor/</guid>
-      <pubDate>Tue, 21 Apr 2026 16:20:17 GMT</pubDate>
-      <description>Atualizações visam otimizar a experiência de anunciantes na plataforma brasileira.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/products/ads-commerce/ads-advisor-google-ads/">Google AI</source>
-    </item>
-    <item>
-      <title>IA Multimodal: Extraindo Fatos de Conteúdo Híbrido para Combater Desinformação</title>
-      <link>https://pulsodaia.com.br/feed/ia-multimodal-extraindo-fatos-de-conteudo-hibrido-para-combater-desinformacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-multimodal-extraindo-fatos-de-conteudo-hibrido-para-combater-desinformacao/</guid>
-      <pubDate>Tue, 21 Apr 2026 11:45:34 GMT</pubDate>
-      <description>Novos desafios surgem na verificação de fatos de posts em redes sociais que combinam texto e imagens.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.16311">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

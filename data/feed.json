@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-04-26T18:06:08.241Z",
+  "generated_at": "2026-04-27T09:11:16.376Z",
   "articles": [
+    {
+      "slug": "ia-para-diagnostico-medico-agente-adaptavel-e-reprodutivel-promete-clareza-em-im",
+      "headline": "IA para Diagnóstico Médico: Agente Adaptável e Reprodutível Promete Clareza em Imagens Clínicas",
+      "subtitle": "Pesquisadores propõem framework para superar desafios de variabilidade e rastreabilidade em processamento de imagens médicas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.21936",
+      "category": "research",
+      "tags": [
+        "ia medica",
+        "processamento de imagem",
+        "reprodutibilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 27 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-27T09:11:16.233Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-e-matematica-novo-teste-avalia-raciocinio-abstrato-em-comunicacao",
+      "headline": "IA e Matemática: Novo Teste Avalia Raciocínio Abstrato em Comunicação",
+      "subtitle": "Pesquisa no ArXiv propõe benchmark para ir além do reconhecimento de padrões em LLMs.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.21935",
+      "category": "research",
+      "tags": [
+        "ia",
+        "matemática",
+        "raciocínio",
+        "linguagem natural"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 27 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-27T09:11:05.478Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "deepmind-e-coreia-do-sul-unem-forcas-para-avancos-cientificos-com-ia-de-ponta",
+      "headline": "DeepMind e Coreia do Sul Unem Forças para Avanços Científicos com IA de Ponta",
+      "subtitle": "Parceria visa acelerar descobertas em diversas áreas, com potencial impacto para o desenvolvimento tecnológico global.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "deepmind",
+        "coreia do sul"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 27 Apr 2026 07:00:06 +0000",
+      "written_at": "2026-04-27T09:10:54.622Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
     {
       "slug": "equity-da-anthropic-como-moeda-para-imoveis-na-bay-area",
       "headline": "Equity da Anthropic como Moeda para Imóveis na Bay Area",
