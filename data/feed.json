@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-27T21:38:04.251Z",
+  "generated_at": "2026-04-28T07:40:48.961Z",
   "articles": [
+    {
+      "slug": "opiniao-publica-desafia-elon-musk-no-tribunal-contra-sam-altman",
+      "headline": "Opinião Pública Desafia Elon Musk no Tribunal Contra Sam Altman",
+      "subtitle": "A percepção pública sobre o bilionário pode influenciar o julgamento em um caso crucial para o futuro da OpenAI.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/919469/elon-musk-dont-like",
+      "category": "mercado",
+      "tags": [
+        "elon musk",
+        "sam altman",
+        "openai",
+        "litígio",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-04-27T23:39:33-04:00",
+      "written_at": "2026-04-28T07:40:48.758Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-v2-1-121-mais-controle-e-eficiencia-para-desenvolvedores-de-ia",
+      "headline": "Claude Code v2.1.121: Mais Controle e Eficiência para Desenvolvedores de IA",
+      "subtitle": "Novas funcionalidades no Claude Code visam otimizar o fluxo de trabalho e a gestão de plugins para a comunidade brasileira de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "desenvolvimento de ia",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-04-28T00:31:31Z",
+      "written_at": "2026-04-28T07:40:35.385Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-adapta-ultrassonografia-com-fisica-para-imagens-mais-claras",
+      "headline": "IA Adapta Ultrassonografia com Física para Imagens Mais Claras",
+      "subtitle": "Novas técnicas de machine learning prometem refinar diagnósticos médicos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "ultrassonografia",
+        "saude"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 28 Apr 2026 00:28:13 GMT",
+      "written_at": "2026-04-28T07:40:24.731Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "investidores-apostam-em-app-de-tela-inicial-com-ia-para-iphone-antes-do-lancamen",
       "headline": "Investidores apostam em app de tela inicial com IA para iPhone antes do lançamento",

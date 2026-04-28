@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 27 Apr 2026 21:44:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 07:45:28 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Opinião Pública Desafia Elon Musk no Tribunal Contra Sam Altman</title>
+      <link>https://pulsodaia.com.br/feed/opiniao-publica-desafia-elon-musk-no-tribunal-contra-sam-altman/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/opiniao-publica-desafia-elon-musk-no-tribunal-contra-sam-altman/</guid>
+      <pubDate>Tue, 28 Apr 2026 07:40:48 GMT</pubDate>
+      <description>A percepção pública sobre o bilionário pode influenciar o julgamento em um caso crucial para o futuro da OpenAI.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/tech/919469/elon-musk-dont-like">The Verge AI</source>
+    </item>
+    <item>
+      <title>Claude Code v2.1.121: Mais Controle e Eficiência para Desenvolvedores de IA</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-121-mais-controle-e-eficiencia-para-desenvolvedores-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-121-mais-controle-e-eficiencia-para-desenvolvedores-de-ia/</guid>
+      <pubDate>Tue, 28 Apr 2026 07:40:35 GMT</pubDate>
+      <description>Novas funcionalidades no Claude Code visam otimizar o fluxo de trabalho e a gestão de plugins para a comunidade brasileira de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.121">Claude Code</source>
+    </item>
+    <item>
+      <title>IA Adapta Ultrassonografia com Física para Imagens Mais Claras</title>
+      <link>https://pulsodaia.com.br/feed/ia-adapta-ultrassonografia-com-fisica-para-imagens-mais-claras/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-adapta-ultrassonografia-com-fisica-para-imagens-mais-claras/</guid>
+      <pubDate>Tue, 28 Apr 2026 07:40:24 GMT</pubDate>
+      <description>Novas técnicas de machine learning prometem refinar diagnósticos médicos no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging">Hugging Face</source>
+    </item>
     <item>
       <title>Investidores apostam em app de tela inicial com IA para iPhone antes do lançamento</title>
       <link>https://pulsodaia.com.br/feed/investidores-apostam-em-app-de-tela-inicial-com-ia-para-iphone-antes-do-lancamen/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisadores propõem método para identificar e corrigir vulnerabilidades duplas em LLMs e seus sistemas de recompensa.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2604.18789">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Generativa: Nova Ferramenta Visualiza Amostras de Modelos de Linguagem Além de Uma Única Resposta</title>
-      <link>https://pulsodaia.com.br/feed/ia-generativa-nova-ferramenta-visualiza-amostras-de-modelos-de-linguagem-alem-de/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-generativa-nova-ferramenta-visualiza-amostras-de-modelos-de-linguagem-alem-de/</guid>
-      <pubDate>Wed, 22 Apr 2026 06:25:15 GMT</pubDate>
-      <description>Pesquisadores brasileiros que trabalham com LLMs ganham nova perspectiva sobre a variabilidade das gerações.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2604.18724">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Avançada Busca Solução para Sequências com Lacunas Variáveis</title>
-      <link>https://pulsodaia.com.br/feed/ia-avancada-busca-solucao-para-sequencias-com-lacunas-variaveis/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-avancada-busca-solucao-para-sequencias-com-lacunas-variaveis/</guid>
-      <pubDate>Wed, 22 Apr 2026 06:25:04 GMT</pubDate>
-      <description>Novas abordagens algorítmicas prometem refinar a análise de dados com restrições temporais e estruturais.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.18645">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>SpaceX Negocia Opção de Compra da Cursor por US$ 60 Bilhões</title>
-      <link>https://pulsodaia.com.br/feed/spacex-negocia-opcao-de-compra-da-cursor-por-us-60-bilhoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/spacex-negocia-opcao-de-compra-da-cursor-por-us-60-bilhoes/</guid>
-      <pubDate>Tue, 21 Apr 2026 23:54:18 GMT</pubDate>
-      <description>A gigante aeroespacial de Elon Musk avalia aquisição de startup de IA para codificação, um movimento que pode redefinir o cenário tecnológico.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
