@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-04-28T21:41:03.529Z",
+  "generated_at": "2026-04-29T06:42:55.984Z",
   "articles": [
+    {
+      "slug": "ia-dados-com-cauda-longa-superam-uniformidade-em-raciocinio-complexo",
+      "headline": "IA: Dados com \"cauda longa\" superam uniformidade em raciocínio complexo",
+      "subtitle": "Pesquisa sugere que a distribuição natural da informação é mais eficaz para treinar modelos de IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.22951",
+      "category": "research",
+      "tags": [
+        "ia",
+        "machine learning",
+        "dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 29 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-29T06:42:55.897Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "pexa-nova-abordagem-em-text-to-sql-promete-alta-precisao-com-agilidade",
+      "headline": "PExA: Nova Abordagem em Text-to-SQL Promete Alta Precisão com Agilidade",
+      "subtitle": "Pesquisadores apresentam método que otimiza a geração de consultas SQL a partir de linguagem natural, superando desafios de latência e desempenho.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.22934",
+      "category": "research",
+      "tags": [
+        "text-to-sql",
+        "inteligencia artificial",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 29 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-29T06:42:44.060Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-aprimora-diagnostico-de-falhas-em-aeronaves-de-aviacao-geral-com-gemeos-digit",
+      "headline": "IA Aprimora Diagnóstico de Falhas em Aeronaves de Aviação Geral com Gêmeos Digitais e FMEA",
+      "subtitle": "Nova abordagem promete maior segurança e eficiência na manutenção de aeronaves brasileiras.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.22777",
+      "category": "research",
+      "tags": [
+        "ia",
+        "aviacao geral",
+        "diagnostico de falhas"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 29 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-29T06:42:32.522Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "google-amplia-acesso-do-pentagono-a-sua-ia-apos-recusa-da-anthropic",
       "headline": "Google Amplia Acesso do Pentágono à Sua IA Após Recusa da Anthropic",

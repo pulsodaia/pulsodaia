@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 28 Apr 2026 21:46:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 06:48:09 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA: Dados com "cauda longa" superam uniformidade em raciocínio complexo</title>
+      <link>https://pulsodaia.com.br/feed/ia-dados-com-cauda-longa-superam-uniformidade-em-raciocinio-complexo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-dados-com-cauda-longa-superam-uniformidade-em-raciocinio-complexo/</guid>
+      <pubDate>Wed, 29 Apr 2026 06:42:55 GMT</pubDate>
+      <description>Pesquisa sugere que a distribuição natural da informação é mais eficaz para treinar modelos de IA.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.22951">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>PExA: Nova Abordagem em Text-to-SQL Promete Alta Precisão com Agilidade</title>
+      <link>https://pulsodaia.com.br/feed/pexa-nova-abordagem-em-text-to-sql-promete-alta-precisao-com-agilidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pexa-nova-abordagem-em-text-to-sql-promete-alta-precisao-com-agilidade/</guid>
+      <pubDate>Wed, 29 Apr 2026 06:42:44 GMT</pubDate>
+      <description>Pesquisadores apresentam método que otimiza a geração de consultas SQL a partir de linguagem natural, superando desafios de latência e desempenho.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.22934">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Aprimora Diagnóstico de Falhas em Aeronaves de Aviação Geral com Gêmeos Digitais e FMEA</title>
+      <link>https://pulsodaia.com.br/feed/ia-aprimora-diagnostico-de-falhas-em-aeronaves-de-aviacao-geral-com-gemeos-digit/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprimora-diagnostico-de-falhas-em-aeronaves-de-aviacao-geral-com-gemeos-digit/</guid>
+      <pubDate>Wed, 29 Apr 2026 06:42:32 GMT</pubDate>
+      <description>Nova abordagem promete maior segurança e eficiência na manutenção de aeronaves brasileiras.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.22777">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Google Amplia Acesso do Pentágono à Sua IA Após Recusa da Anthropic</title>
       <link>https://pulsodaia.com.br/feed/google-amplia-acesso-do-pentagono-a-sua-ia-apos-recusa-da-anthropic/</link>
@@ -430,33 +457,6 @@
       <description>Uma nova ferramenta promete aliviar a sobrecarga de informações negativas, um desafio crescente no consumo digital.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>TPUs do Google: Acelerando Cargas de Trabalho de IA Cada Vez Mais Exigentes</title>
-      <link>https://pulsodaia.com.br/feed/tpus-do-google-acelerando-cargas-de-trabalho-de-ia-cada-vez-mais-exigentes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/tpus-do-google-acelerando-cargas-de-trabalho-de-ia-cada-vez-mais-exigentes/</guid>
-      <pubDate>Thu, 23 Apr 2026 21:09:52 GMT</pubDate>
-      <description>A infraestrutura de hardware do Google Cloud é crucial para o avanço da inteligência artificial no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/">Google AI</source>
-    </item>
-    <item>
-      <title>Manuscrito Voynich: Análise Revela Estrutura Complexa de Escrita, Desafiando Decifração</title>
-      <link>https://pulsodaia.com.br/feed/manuscrito-voynich-analise-revela-estrutura-complexa-de-escrita-desafiando-decif/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/manuscrito-voynich-analise-revela-estrutura-complexa-de-escrita-desafiando-decif/</guid>
-      <pubDate>Thu, 23 Apr 2026 17:05:25 GMT</pubDate>
-      <description>Pesquisa aponta para padrões direcionais na escrita do manuscrito, sugerindo um sistema de codificação mais intrincado do que se pensava.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.19762">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Google DeepMind Desacopla Treinamento Distribuído de IA com DiLoCo</title>
-      <link>https://pulsodaia.com.br/feed/google-deepmind-desacopla-treinamento-distribuido-de-ia-com-diloco/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-desacopla-treinamento-distribuido-de-ia-com-diloco/</guid>
-      <pubDate>Thu, 23 Apr 2026 17:05:14 GMT</pubDate>
-      <description>Nova abordagem promete maior resiliência e eficiência para modelos de inteligência artificial no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/decoupled-diloco/">Google DeepMind</source>
     </item>
   </channel>
 </rss>
