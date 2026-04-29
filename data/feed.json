@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-29T06:42:55.984Z",
+  "generated_at": "2026-04-29T23:14:53.577Z",
   "articles": [
+    {
+      "slug": "deepinfra-aposta-em-hugging-face-para-escalar-inferencia-de-ia",
+      "headline": "DeepInfra Aposta em Hugging Face para Escalar Inferência de IA",
+      "subtitle": "A plataforma de infraestrutura de IA se integra ao ecossistema Hugging Face para democratizar o acesso a modelos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "category": "opensource",
+      "tags": [
+        "deepinfra",
+        "hugging face",
+        "inferência de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 29 Apr 2026 00:00:00 GMT",
+      "written_at": "2026-04-29T23:14:52.719Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ibm-detalha-arquitetura-dos-modelos-granite-4-1",
+      "headline": "IBM Detalha Arquitetura dos Modelos Granite 4.1",
+      "subtitle": "A Hugging Face revela a engenharia por trás dos LLMs da IBM, com foco em eficiência e especialização.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "category": "opensource",
+      "tags": [
+        "ibm",
+        "granite 4.1",
+        "llm",
+        "arquitetura",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 29 Apr 2026 15:01:48 GMT",
+      "written_at": "2026-04-29T23:14:42.793Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "avaliacao-de-ia-torna-se-novo-gargalo-computacional",
+      "headline": "Avaliação de IA Torna-se Novo Gargalo Computacional",
+      "subtitle": "O custo e a complexidade da validação de modelos de inteligência artificial crescem, impactando o desenvolvimento e a implantação no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "category": "opensource",
+      "tags": [
+        "avaliacao de ia",
+        "gargalo computacional",
+        "desenvolvimento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 29 Apr 2026 16:45:09 GMT",
+      "written_at": "2026-04-29T23:14:31.803Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-dados-com-cauda-longa-superam-uniformidade-em-raciocinio-complexo",
       "headline": "IA: Dados com \"cauda longa\" superam uniformidade em raciocínio complexo",

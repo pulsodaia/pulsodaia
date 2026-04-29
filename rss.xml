@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 29 Apr 2026 06:48:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 23:22:18 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>DeepInfra Aposta em Hugging Face para Escalar Inferência de IA</title>
+      <link>https://pulsodaia.com.br/feed/deepinfra-aposta-em-hugging-face-para-escalar-inferencia-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepinfra-aposta-em-hugging-face-para-escalar-inferencia-de-ia/</guid>
+      <pubDate>Wed, 29 Apr 2026 23:14:52 GMT</pubDate>
+      <description>A plataforma de infraestrutura de IA se integra ao ecossistema Hugging Face para democratizar o acesso a modelos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/inference-providers-deepinfra">Hugging Face</source>
+    </item>
+    <item>
+      <title>IBM Detalha Arquitetura dos Modelos Granite 4.1</title>
+      <link>https://pulsodaia.com.br/feed/ibm-detalha-arquitetura-dos-modelos-granite-4-1/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-detalha-arquitetura-dos-modelos-granite-4-1/</guid>
+      <pubDate>Wed, 29 Apr 2026 23:14:42 GMT</pubDate>
+      <description>A Hugging Face revela a engenharia por trás dos LLMs da IBM, com foco em eficiência e especialização.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ibm-granite/granite-4-1">Hugging Face</source>
+    </item>
+    <item>
+      <title>Avaliação de IA Torna-se Novo Gargalo Computacional</title>
+      <link>https://pulsodaia.com.br/feed/avaliacao-de-ia-torna-se-novo-gargalo-computacional/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/avaliacao-de-ia-torna-se-novo-gargalo-computacional/</guid>
+      <pubDate>Wed, 29 Apr 2026 23:14:31 GMT</pubDate>
+      <description>O custo e a complexidade da validação de modelos de inteligência artificial crescem, impactando o desenvolvimento e a implantação no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/evaleval/eval-costs-bottleneck">Hugging Face</source>
+    </item>
     <item>
       <title>IA: Dados com "cauda longa" superam uniformidade em raciocínio complexo</title>
       <link>https://pulsodaia.com.br/feed/ia-dados-com-cauda-longa-superam-uniformidade-em-raciocinio-complexo/</link>
@@ -430,33 +457,6 @@
       <description>Aquisição reforça atuação da empresa no desenvolvimento de agentes de atendimento ao cliente com inteligência artificial.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Atualiza Configurações e Integrações</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-configuracoes-e-integracoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-configuracoes-e-integracoes/</guid>
-      <pubDate>Fri, 24 Apr 2026 00:11:39 GMT</pubDate>
-      <description>Ferramenta de desenvolvimento com IA foca em persistência e flexibilidade para usuários brasileiros.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.119">Claude Code</source>
-    </item>
-    <item>
-      <title>OpenAI Avança Rumo ao "Super App" com Lançamento do GPT-5.5</title>
-      <link>https://pulsodaia.com.br/feed/openai-avanca-rumo-ao-super-app-com-lancamento-do-gpt-5-5/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-avanca-rumo-ao-super-app-com-lancamento-do-gpt-5-5/</guid>
-      <pubDate>Thu, 23 Apr 2026 21:10:14 GMT</pubDate>
-      <description>O novo modelo da empresa promete capacidades aprimoradas, aproximando a IA de uma plataforma unificada.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Noscroll: O Bot de IA Que Filtra o Pior da Internet Para Você</title>
-      <link>https://pulsodaia.com.br/feed/noscroll-o-bot-de-ia-que-filtra-o-pior-da-internet-para-voce/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/noscroll-o-bot-de-ia-que-filtra-o-pior-da-internet-para-voce/</guid>
-      <pubDate>Thu, 23 Apr 2026 21:10:04 GMT</pubDate>
-      <description>Uma nova ferramenta promete aliviar a sobrecarga de informações negativas, um desafio crescente no consumo digital.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
