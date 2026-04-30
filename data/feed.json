@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-30T13:10:44.254Z",
+  "generated_at": "2026-04-30T18:55:11.477Z",
   "articles": [
+    {
+      "slug": "musk-confirma-xai-usou-modelos-da-openai-para-treinar-o-grok",
+      "headline": "Musk Confirma: xAI Usou Modelos da OpenAI para Treinar o Grok",
+      "subtitle": "Declaração em tribunal levanta questões sobre a propriedade intelectual e a competição no desenvolvimento de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "category": "mercado",
+      "tags": [
+        "elon musk",
+        "xai",
+        "openai",
+        "grok",
+        "destilacao de modelos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 30 Apr 2026 18:03:57 +0000",
+      "written_at": "2026-04-30T18:55:11.350Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-reforca-seguranca-do-chatgpt-com-chaves-fisicas",
+      "headline": "OpenAI Reforça Segurança do ChatGPT com Chaves Físicas",
+      "subtitle": "Nova medida de proteção para contas do ChatGPT visa aumentar a segurança dos usuários.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+      "category": "mercado",
+      "tags": [
+        "seguranca",
+        "chatgpt",
+        "openai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 30 Apr 2026 18:20:03 +0000",
+      "written_at": "2026-04-30T18:54:53.029Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "deepmind-avanca-em-assistente-medico-de-ia-para-cuidado-ampliado",
+      "headline": "DeepMind Avança em Assistente Médico de IA para Cuidado Ampliado",
+      "subtitle": "Pesquisa da Google explora um modelo de saúde com IA atuando como colega clínico.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/ai-co-clinician/",
+      "category": "google",
+      "tags": [
+        "ia na saude",
+        "deepmind",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 30 Apr 2026 12:14:15 +0000",
+      "written_at": "2026-04-30T18:54:41.863Z",
+      "quality_score": 0.85,
+      "hero_image": null
+    },
     {
       "slug": "openai-restringe-acesso-a-novo-modelo-de-ia-para-ciberdefesa",
       "headline": "OpenAI Restringe Acesso a Novo Modelo de IA para Ciberdefesa",

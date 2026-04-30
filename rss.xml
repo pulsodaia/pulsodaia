@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 30 Apr 2026 13:16:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 19:00:18 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Musk Confirma: xAI Usou Modelos da OpenAI para Treinar o Grok</title>
+      <link>https://pulsodaia.com.br/feed/musk-confirma-xai-usou-modelos-da-openai-para-treinar-o-grok/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/musk-confirma-xai-usou-modelos-da-openai-para-treinar-o-grok/</guid>
+      <pubDate>Thu, 30 Apr 2026 18:55:11 GMT</pubDate>
+      <description>Declaração em tribunal levanta questões sobre a propriedade intelectual e a competição no desenvolvimento de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>OpenAI Reforça Segurança do ChatGPT com Chaves Físicas</title>
+      <link>https://pulsodaia.com.br/feed/openai-reforca-seguranca-do-chatgpt-com-chaves-fisicas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-reforca-seguranca-do-chatgpt-com-chaves-fisicas/</guid>
+      <pubDate>Thu, 30 Apr 2026 18:54:53 GMT</pubDate>
+      <description>Nova medida de proteção para contas do ChatGPT visa aumentar a segurança dos usuários.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>DeepMind Avança em Assistente Médico de IA para Cuidado Ampliado</title>
+      <link>https://pulsodaia.com.br/feed/deepmind-avanca-em-assistente-medico-de-ia-para-cuidado-ampliado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-avanca-em-assistente-medico-de-ia-para-cuidado-ampliado/</guid>
+      <pubDate>Thu, 30 Apr 2026 18:54:41 GMT</pubDate>
+      <description>Pesquisa da Google explora um modelo de saúde com IA atuando como colega clínico.</description>
+      <category>RESEARCH</category>
+      <source url="https://deepmind.google/blog/ai-co-clinician/">Google DeepMind</source>
+    </item>
     <item>
       <title>OpenAI Restringe Acesso a Novo Modelo de IA para Ciberdefesa</title>
       <link>https://pulsodaia.com.br/feed/openai-restringe-acesso-a-novo-modelo-de-ia-para-ciberdefesa/</link>
@@ -430,33 +457,6 @@
       <description>Gigantes de IA e startups competem por mentes brilhantes, indicando um mercado dinâmico no Brasil e no mundo.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Gemini Sugere Rotinas de Organização Impulsionadas por IA</title>
-      <link>https://pulsodaia.com.br/feed/gemini-sugere-rotinas-de-organizacao-impulsionadas-por-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-sugere-rotinas-de-organizacao-impulsionadas-por-ia/</guid>
-      <pubDate>Fri, 24 Apr 2026 22:27:26 GMT</pubDate>
-      <description>O assistente de IA do Google oferece dicas práticas para otimizar espaços físicos e digitais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/">Google AI</source>
-    </item>
-    <item>
-      <title>Nothing lança ferramenta de ditado com IA para mais de 100 idiomas</title>
-      <link>https://pulsodaia.com.br/feed/nothing-lanca-ferramenta-de-ditado-com-ia-para-mais-de-100-idiomas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nothing-lanca-ferramenta-de-ditado-com-ia-para-mais-de-100-idiomas/</guid>
-      <pubDate>Fri, 24 Apr 2026 14:55:57 GMT</pubDate>
-      <description>A empresa aposta em processamento local para privacidade e eficiência em comunicação.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>CTO da Uber Participa de Debate sobre IA em São Francisco</title>
-      <link>https://pulsodaia.com.br/feed/cto-da-uber-participa-de-debate-sobre-ia-em-sao-francisco/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cto-da-uber-participa-de-debate-sobre-ia-em-sao-francisco/</guid>
-      <pubDate>Fri, 24 Apr 2026 14:55:47 GMT</pubDate>
-      <description>A discussão abordará os desafios e oportunidades da inteligência artificial em larga escala.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
