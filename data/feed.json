@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-04-29T23:14:53.577Z",
+  "generated_at": "2026-04-30T07:55:12.390Z",
   "articles": [
+    {
+      "slug": "ia-para-previsoes-ciencia-por-tras-da-precisao-nao-apenas-pontuacoes",
+      "headline": "IA para Previsões: Ciência por Trás da Precisão, Não Apenas Pontuações",
+      "subtitle": "Um novo benchmark no arXiv explora o raciocínio estratégico de agentes de IA, indo além das tabelas de acertos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.26106",
+      "category": "research",
+      "tags": [
+        "inteligencia artificial",
+        "previsao",
+        "raciocino estrategico"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 30 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-30T07:55:12.333Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "distill-belief-nova-abordagem-otimiza-localizacao-de-fontes-em-campos-fisicos",
+      "headline": "Distill-Belief: Nova Abordagem Otimiza Localização de Fontes em Campos Físicos",
+      "subtitle": "Pesquisa em IA avança em métodos para inferir parâmetros de campos com maior precisão e eficiência.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.26095",
+      "category": "research",
+      "tags": [
+        "localizacao de fontes",
+        "inferencia bayesiana",
+        "aprendizado por reforco"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 30 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-30T07:55:00.900Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-autonomos-operam-com-capital-real-em-teste-de-trading",
+      "headline": "Agentes de IA Autônomos Operam com Capital Real em Teste de Trading",
+      "subtitle": "Um experimento de 21 dias com 3.505 agentes de IA e ETH real mostra a viabilidade de transações onchain.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.26091",
+      "category": "research",
+      "tags": [
+        "ia",
+        "cripto",
+        "trading",
+        "onchain",
+        "agentes autonomos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 30 Apr 2026 00:00:00 -0400",
+      "written_at": "2026-04-30T07:54:49.456Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "deepinfra-aposta-em-hugging-face-para-escalar-inferencia-de-ia",
       "headline": "DeepInfra Aposta em Hugging Face para Escalar Inferência de IA",

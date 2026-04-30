@@ -1,0 +1,56 @@
+{
+  "id": "oai:arXiv.org:2604.26091v1",
+  "title": "Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital",
+  "url": "https://arxiv.org/abs/2604.26091",
+  "summary": "arXiv:2604.26091v1 Announce Type: new Abstract: We study reliability in autonomous language-model agents that translate user mandates into validated tool actions under real capital. The setting is DX Terminal Pro, a 21-day deployment in which 3,505 user-funded agents traded real ETH in a bounded onchain market. Users configured vaults through structured controls and natural-language strategies, but only agents could choose normal buy/sell trades. The system produced 7.5M agent invocations, roughly 300K onchain actions, about $20M in volume, more than 5,000 ETH deployed, roughly 70B inference tokens, and 99.9% settlement success for policy-valid submitted transactions. Long-running agents accumulated thousands of sequential decisions, including 6,000+ prompt-state-action cycles for continuously active agents, yielding a large-scale trace from user mandate to rendered prompt, reasoning, validation, portfolio state, and settlement. Reliability did not come from the base model alone; it em",
+  "published_at": "Thu, 30 Apr 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Agentes de IA Autônomos Operam com Capital Real em Teste de Trading",
+  "subtitle": "Um experimento de 21 dias com 3.505 agentes de IA e ETH real mostra a viabilidade de transações onchain.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um estudo publicado no arXiv detalha um teste de 21 dias onde 3.505 agentes autônomos baseados em modelos de linguagem operaram com capital real em um mercado onchain. O experimento, realizado no DX Terminal Pro, envolveu a execução de 7.5 milhões de invocações de agentes e cerca de 300 mil ações onchain, movimentando aproximadamente 20 milhões de dólares em volume.",
+  "body_markdown": "## O que aconteceu\n\nA pesquisa \"Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital\" (Controles de Camada Operacional para Agentes de Modelo de Linguagem Onchain Sob Capital Real), disponível no [arXiv](https://arxiv.org/abs/2604.26091), descreve um teste prático com agentes autônomos de IA. Durante 21 dias, 3.505 desses agentes foram financiados por usuários e realizaram negociações de ETH em um mercado onchain. Os usuários definiram cofres e estratégias de negociação usando linguagem natural e controles estruturados, mas a decisão final sobre as compras e vendas de ETH era exclusivamente dos agentes. O sistema registrou um volume total de aproximadamente 20 milhões de dólares, com mais de 5.000 ETH negociados. Foram geradas cerca de 70 bilhões de tokens de inferência, e a taxa de sucesso na liquidação de transações válidas foi de 99.9%. Agentes que operaram por longos períodos acumularam milhares de decisões sequenciais, com alguns executando mais de 6.000 ciclos de prompt-estado-ação.\n\n## Por que importa\n\nEste experimento oferece uma visão concreta sobre a aplicação de agentes autônomos de IA em cenários financeiros reais, especialmente no universo cripto. A capacidade de traduzir mandatos de usuários em ações validadas e executadas onchain, com capital real, demonstra um avanço significativo na confiabilidade e utilidade prática dessas tecnologias. Para o mercado brasileiro, que tem visto um interesse crescente em criptoativos e automação, a demonstração de um sistema robusto com alta taxa de sucesso em transações onchain pode abrir portas para novas aplicações em gestão de portfólio, trading algorítmico e outras finanças descentralizadas. A validação de que agentes de IA podem operar com sucesso sob um \"capital real\" remove uma barreira importante para a adoção em larga escala.\n\n## O que esperar\n\nOs resultados deste teste sugerem um caminho promissor para o desenvolvimento e implementação de agentes de IA mais sofisticados e autônomos. A alta taxa de sucesso na liquidação de transações (99.9%) e o volume de negociação alcançado indicam que os controles operacionais implementados foram eficazes em garantir a segurança e a eficiência. Espera-se que futuras pesquisas se concentrem em refinar esses controles, expandir a gama de ferramentas e mercados que os agentes podem interagir, e explorar modelos de governança e segurança para operações de maior escala. A capacidade de agentes realizarem milhares de ciclos de decisão sequenciais abre caminho para estratégias de negociação mais complexas e adaptativas. Detalhes adicionais e análises mais profundas podem ser encontrados no [artigo original](https://arxiv.org/abs/2604.26091).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A pesquisa \"Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital\" (Controles de Camada Operacional para Agentes de Modelo de Linguagem Onchain Sob Capital Real), disponível no <a href=\"https://arxiv.org/abs/2604.26091\" target=\"_blank\" rel=\"external noopener\">arXiv</a>, descreve um teste prático com agentes autônomos de IA. Durante 21 dias, 3.505 desses agentes foram financiados por usuários e realizaram negociações de ETH em um mercado onchain. Os usuários definiram cofres e estratégias de negociação usando linguagem natural e controles estruturados, mas a decisão final sobre as compras e vendas de ETH era exclusivamente dos agentes. O sistema registrou um volume total de aproximadamente 20 milhões de dólares, com mais de 5.000 ETH negociados. Foram geradas cerca de 70 bilhões de tokens de inferência, e a taxa de sucesso na liquidação de transações válidas foi de 99.9%. Agentes que operaram por longos períodos acumularam milhares de decisões sequenciais, com alguns executando mais de 6.000 ciclos de prompt-estado-ação.</p>\n\n<h2>Por que importa</h2>\n\n<p>Este experimento oferece uma visão concreta sobre a aplicação de agentes autônomos de IA em cenários financeiros reais, especialmente no universo cripto. A capacidade de traduzir mandatos de usuários em ações validadas e executadas onchain, com capital real, demonstra um avanço significativo na confiabilidade e utilidade prática dessas tecnologias. Para o mercado brasileiro, que tem visto um interesse crescente em criptoativos e automação, a demonstração de um sistema robusto com alta taxa de sucesso em transações onchain pode abrir portas para novas aplicações em gestão de portfólio, trading algorítmico e outras finanças descentralizadas. A validação de que agentes de IA podem operar com sucesso sob um \"capital real\" remove uma barreira importante para a adoção em larga escala.</p>\n\n<h2>O que esperar</h2>\n\n<p>Os resultados deste teste sugerem um caminho promissor para o desenvolvimento e implementação de agentes de IA mais sofisticados e autônomos. A alta taxa de sucesso na liquidação de transações (99.9%) e o volume de negociação alcançado indicam que os controles operacionais implementados foram eficazes em garantir a segurança e a eficiência. Espera-se que futuras pesquisas se concentrem em refinar esses controles, expandir a gama de ferramentas e mercados que os agentes podem interagir, e explorar modelos de governança e segurança para operações de maior escala. A capacidade de agentes realizarem milhares de ciclos de decisão sequenciais abre caminho para estratégias de negociação mais complexas e adaptativas. Detalhes adicionais e análises mais profundas podem ser encontrados no <a href=\"https://arxiv.org/abs/2604.26091\" target=\"_blank\" rel=\"external noopener\">artigo original</a>.</p>",
+  "tags": [
+    "ia",
+    "cripto",
+    "trading",
+    "onchain",
+    "agentes autonomos"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "agentes de IA",
+    "modelos de linguagem",
+    "onchain",
+    "capital real",
+    "DX Terminal Pro",
+    "ETH",
+    "trading",
+    "finanças descentralizadas",
+    "arXiv"
+  ],
+  "meta_description_seo": "Agentes autônomos de IA operaram com capital real em teste de trading onchain, movimentando US$20M em ETH. Saiba mais sobre a viabilidade e o impacto.",
+  "faq": [
+    {
+      "q": "O que são agentes de IA onchain operando com capital real?",
+      "a": "São programas autônomos baseados em modelos de linguagem que executam transações financeiras em blockchains utilizando fundos reais, como demonstrado no teste com ETH."
+    },
+    {
+      "q": "Qual foi o volume de negociação neste experimento?",
+      "a": "O experimento gerou um volume aproximado de 20 milhões de dólares em negociações de ETH."
+    },
+    {
+      "q": "Qual a taxa de sucesso das transações executadas pelos agentes?",
+      "a": "O sistema obteve uma taxa de sucesso de 99.9% para transações submetidas e válidas."
+    }
+  ],
+  "written_at": "2026-04-30T07:54:49.456Z",
+  "slug": "agentes-de-ia-autonomos-operam-com-capital-real-em-teste-de-trading",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
