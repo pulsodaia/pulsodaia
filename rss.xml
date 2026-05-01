@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 30 Apr 2026 22:44:36 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 07:59:35 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Adeus, LLM: Nova Abordagem Garante Migrações Seguras para Sistemas de IA em Produção</title>
+      <link>https://pulsodaia.com.br/feed/adeus-llm-nova-abordagem-garante-migracoes-seguras-para-sistemas-de-ia-em-produc/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/adeus-llm-nova-abordagem-garante-migracoes-seguras-para-sistemas-de-ia-em-produc/</guid>
+      <pubDate>Fri, 01 May 2026 07:54:39 GMT</pubDate>
+      <description>Pesquisa acadêmica propõe metodologia para empresas brasileiras lidarem com a obsolescência de modelos de linguagem.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.27082">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Redes Neurais de Spiking Binárias Ganham Análise Causal</title>
+      <link>https://pulsodaia.com.br/feed/redes-neurais-de-spiking-binarias-ganham-analise-causal/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/redes-neurais-de-spiking-binarias-ganham-analise-causal/</guid>
+      <pubDate>Fri, 01 May 2026 07:54:27 GMT</pubDate>
+      <description>Pesquisa no arXiv propõe método para explicar decisões de modelos de IA inspirados no cérebro.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.27007">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA aprende física com mais agilidade: novo método adapta redes neurais a diferentes problemas</title>
+      <link>https://pulsodaia.com.br/feed/ia-aprende-fisica-com-mais-agilidade-novo-metodo-adapta-redes-neurais-a-diferent/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-fisica-com-mais-agilidade-novo-metodo-adapta-redes-neurais-a-diferent/</guid>
+      <pubDate>Fri, 01 May 2026 07:54:16 GMT</pubDate>
+      <description>Pesquisadores propõem LAM-PINN para otimizar o uso de redes neurais informadas por física em simulações científicas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2604.26999">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>OpenAI Restringe Acesso a Ferramenta de Cibersegurança GPT-5.5 Cyber, Priorizando Defensores Críticos</title>
       <link>https://pulsodaia.com.br/feed/openai-restringe-acesso-a-ferramenta-de-ciberseguranca-gpt-5-5-cyber-priorizando/</link>
@@ -430,33 +457,6 @@
       <description>A iniciativa ambiciosa dos Emirados Árabes Unidos levanta questões sobre a adoção de IA em serviços públicos globais.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/the-uae-wants-half-its-government-run-by-autonomous-ai-agents-within-two-years/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA mais capaz fecha acordos melhores e deixa usuários alheios à desvantagem</title>
-      <link>https://pulsodaia.com.br/feed/ia-mais-capaz-fecha-acordos-melhores-e-deixa-usuarios-alheios-a-desvantagem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-mais-capaz-fecha-acordos-melhores-e-deixa-usuarios-alheios-a-desvantagem/</guid>
-      <pubDate>Sat, 25 Apr 2026 10:31:03 GMT</pubDate>
-      <description>Um experimento da Anthropic revela como modelos de linguagem avançados podem criar disparidades econômicas sutis, mas significativas.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/anthropic-says-stronger-ai-models-cut-better-deals-and-the-losers-dont-even-notice/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA apreende a longo prazo: novo framework coevolui decisores e banco de habilidades</title>
-      <link>https://pulsodaia.com.br/feed/ia-apreende-a-longo-prazo-novo-framework-coevolui-decisores-e-banco-de-habilidad/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-apreende-a-longo-prazo-novo-framework-coevolui-decisores-e-banco-de-habilidad/</guid>
-      <pubDate>Sat, 25 Apr 2026 06:08:22 GMT</pubDate>
-      <description>Pesquisadores buscam superar limitações de LLMs em tarefas complexas e sequenciais.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.20987">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA de Regras em Armadilha de Concordância: Nova Métricas para Avaliação</title>
-      <link>https://pulsodaia.com.br/feed/ia-de-regras-em-armadilha-de-concordancia-nova-metricas-para-avaliacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-regras-em-armadilha-de-concordancia-nova-metricas-para-avaliacao/</guid>
-      <pubDate>Sat, 25 Apr 2026 06:08:11 GMT</pubDate>
-      <description>Pesquisa propõe novas métricas para avaliar sistemas de IA que operam sob regras, evitando a falha de avaliação comum.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.20972">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

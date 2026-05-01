@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-04-30T22:38:37.504Z",
+  "generated_at": "2026-05-01T07:54:39.286Z",
   "articles": [
+    {
+      "slug": "adeus-llm-nova-abordagem-garante-migracoes-seguras-para-sistemas-de-ia-em-produc",
+      "headline": "Adeus, LLM: Nova Abordagem Garante Migrações Seguras para Sistemas de IA em Produção",
+      "subtitle": "Pesquisa acadêmica propõe metodologia para empresas brasileiras lidarem com a obsolescência de modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.27082",
+      "category": "research",
+      "tags": [
+        "llm",
+        "migração",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 01 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-01T07:54:39.157Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "redes-neurais-de-spiking-binarias-ganham-analise-causal",
+      "headline": "Redes Neurais de Spiking Binárias Ganham Análise Causal",
+      "subtitle": "Pesquisa no arXiv propõe método para explicar decisões de modelos de IA inspirados no cérebro.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.27007",
+      "category": "research",
+      "tags": [
+        "ia explicavel",
+        "redes neurais",
+        "spiking neural networks"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 01 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-01T07:54:27.434Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-aprende-fisica-com-mais-agilidade-novo-metodo-adapta-redes-neurais-a-diferent",
+      "headline": "IA aprende física com mais agilidade: novo método adapta redes neurais a diferentes problemas",
+      "subtitle": "Pesquisadores propõem LAM-PINN para otimizar o uso de redes neurais informadas por física em simulações científicas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2604.26999",
+      "category": "research",
+      "tags": [
+        "ia",
+        "fisica",
+        "redes neurais",
+        "meta-aprendizagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 01 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-01T07:54:16.117Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-restringe-acesso-a-ferramenta-de-ciberseguranca-gpt-5-5-cyber-priorizando",
       "headline": "OpenAI Restringe Acesso a Ferramenta de Cibersegurança GPT-5.5 Cyber, Priorizando Defensores Críticos",
