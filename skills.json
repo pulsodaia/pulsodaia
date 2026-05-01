@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-26T16:56:29.807Z",
-  "total": 3021,
+  "generated_at": "2026-05-01T01:16:49.594Z",
+  "total": 3022,
   "categories": [
     {
       "key": "outros",
@@ -10,7 +10,7 @@
     {
       "key": "ai-ml",
       "label": "AI & Machine Learning",
-      "count": 165
+      "count": 166
     },
     {
       "key": "cloud-devops",
@@ -9780,6 +9780,12 @@
     {
       "name": "llm-application-dev-prompt-optimize",
       "description": "You are an expert prompt engineer specializing in crafting effective prompts for LLMs through advanced techniques including constitutional AI, chain-of-thought reasoning, and model-specific optimizati",
+      "category": "ai-ml",
+      "origin": "claude"
+    },
+    {
+      "name": "llm-council",
+      "description": "Run any question, idea, or decision through a council of 5 AI advisors who independently analyze it, peer-review each other anonymously, and synthesize a final verdict. Based on Karpathy's LLM Council methodology. MANDATORY TRIGGERS: 'council this', 'run the council', 'war room this', 'pressure-test this', 'stress-test this', 'debate this'. STRONG TRIGGERS (use when combined with a real decision or tradeoff): 'should I X or Y', 'which option', 'what would you do', 'is this the right move', 'vali",
       "category": "ai-ml",
       "origin": "claude"
     },
