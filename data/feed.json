@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-05-02T10:39:10.105Z",
+  "generated_at": "2026-05-02T14:41:33.396Z",
   "articles": [
+    {
+      "slug": "xai-lanca-clonagem-de-voz-a-partir-de-um-minuto-de-audio",
+      "headline": "xAI lança clonagem de voz a partir de um minuto de áudio",
+      "subtitle": "Nova funcionalidade permite a desenvolvedores criar sósias vocais para aplicações de IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/xais-new-custom-voices-feature-turns-a-minute-of-speech-into-a-usable-voice-clone/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "clonagem de voz",
+        "xai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 02 May 2026 12:14:46 +0000",
+      "written_at": "2026-05-02T14:41:30.605Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-ia-de-ponta-falham-em-raciocinio-sistematico-aponta-analise",
+      "headline": "Modelos de IA de ponta falham em raciocínio sistemático, aponta análise",
+      "subtitle": "Uma nova avaliação do benchmark ARC-AGI-3 revela deficiências persistentes em sistemas avançados de OpenAI e Anthropic.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "raciocinio",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 02 May 2026 13:31:52 +0000",
+      "written_at": "2026-05-02T14:41:14.731Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "chatgpt-agora-rastreia-usuarios-para-anuncios-por-padrao-em-busca-de-novas-recei",
       "headline": "ChatGPT agora rastreia usuários para anúncios por padrão em busca de novas receitas",

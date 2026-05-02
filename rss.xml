@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 02 May 2026 10:44:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 14:47:13 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>xAI lança clonagem de voz a partir de um minuto de áudio</title>
+      <link>https://pulsodaia.com.br/feed/xai-lanca-clonagem-de-voz-a-partir-de-um-minuto-de-audio/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/xai-lanca-clonagem-de-voz-a-partir-de-um-minuto-de-audio/</guid>
+      <pubDate>Sat, 02 May 2026 14:41:30 GMT</pubDate>
+      <description>Nova funcionalidade permite a desenvolvedores criar sósias vocais para aplicações de IA no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/xais-new-custom-voices-feature-turns-a-minute-of-speech-into-a-usable-voice-clone/">The Decoder</source>
+    </item>
+    <item>
+      <title>Modelos de IA de ponta falham em raciocínio sistemático, aponta análise</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-ia-de-ponta-falham-em-raciocinio-sistematico-aponta-analise/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-de-ponta-falham-em-raciocinio-sistematico-aponta-analise/</guid>
+      <pubDate>Sat, 02 May 2026 14:41:14 GMT</pubDate>
+      <description>Uma nova avaliação do benchmark ARC-AGI-3 revela deficiências persistentes em sistemas avançados de OpenAI e Anthropic.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/">The Decoder</source>
+    </item>
     <item>
       <title>ChatGPT agora rastreia usuários para anúncios por padrão em busca de novas receitas</title>
       <link>https://pulsodaia.com.br/feed/chatgpt-agora-rastreia-usuarios-para-anuncios-por-padrao-em-busca-de-novas-recei/</link>
@@ -439,24 +457,6 @@
       <description>Uma análise com 500 profissionais revela que, apesar do potencial, a IA ainda não substitui a precisão humana em entregas corporativas.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/">The Decoder</source>
-    </item>
-    <item>
-      <title>OpenAI: Prompts Antigos Prejudicam GPT-5.5; Desenvolvedores Precisam de Nova Base</title>
-      <link>https://pulsodaia.com.br/feed/openai-prompts-antigos-prejudicam-gpt-5-5-desenvolvedores-precisam-de-nova-base/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-prompts-antigos-prejudicam-gpt-5-5-desenvolvedores-precisam-de-nova-base/</guid>
-      <pubDate>Sun, 26 Apr 2026 10:32:33 GMT</pubDate>
-      <description>A empresa sugere uma mudança de paradigma para extrair o máximo potencial de modelos de linguagem avançados.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline/">The Decoder</source>
-    </item>
-    <item>
-      <title>Governador do Maine Veta Moratória em Data Centers, Abrindo Caminho para Expansão</title>
-      <link>https://pulsodaia.com.br/feed/governador-do-maine-veta-moratoria-em-data-centers-abrindo-caminho-para-expansao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governador-do-maine-veta-moratoria-em-data-centers-abrindo-caminho-para-expansao/</guid>
-      <pubDate>Sat, 25 Apr 2026 21:55:54 GMT</pubDate>
-      <description>A decisão impacta a legislação pioneira que visava frear a construção de novas instalações de processamento de dados.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
