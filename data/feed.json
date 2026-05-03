@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-05-03T07:32:06.518Z",
+  "generated_at": "2026-05-03T11:08:59.901Z",
   "articles": [
+    {
+      "slug": "china-atrasada-na-corrida-da-ia-relatorio-dos-eua-divide-opinioes",
+      "headline": "China Atrasada na Corrida da IA? Relatório dos EUA Divide Opiniões",
+      "subtitle": "Enquanto um benchmark governamental americano aponta defasagem chinesa, dados independentes e a competitividade de preços levantam questionamentos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "china",
+        "estados unidos",
+        "corrida da ia",
+        "tecnologia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 03 May 2026 08:12:00 +0000",
+      "written_at": "2026-05-03T11:08:57.334Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "estudo-do-mit-revela-segredo-por-tras-da-performance-confiavel-de-modelos-de-lin",
+      "headline": "Estudo do MIT revela segredo por trás da performance confiável de modelos de linguagem",
+      "subtitle": "Pesquisadores desvendam a razão pela qual o aumento do tamanho de modelos de IA melhora seus resultados.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "mit"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 03 May 2026 08:42:45 +0000",
+      "written_at": "2026-05-03T11:08:43.352Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "microsoft-insere-marca-de-ia-em-commits-de-codigo-mesmo-com-recursos-desativados",
+      "headline": "Microsoft insere marca de IA em commits de código, mesmo com recursos desativados",
+      "subtitle": "A prática levanta questões sobre transparência e consentimento no desenvolvimento de software.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "visual studio code",
+        "microsoft",
+        "copilot"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 03 May 2026 09:31:15 +0000",
+      "written_at": "2026-05-03T11:08:29.641Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelos-de-ia-divergem-em-dilemas-eticos-quem-define-os-limites",
       "headline": "Modelos de IA Divergem em Dilemas Éticos: Quem Define os Limites?",

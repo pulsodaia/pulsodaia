@@ -1,0 +1,53 @@
+{
+  "id": "https://the-decoder.com/?p=35107",
+  "title": "Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off",
+  "url": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
+  "summary": "Microsoft quietly slipped a \"Co-Authored-by Copilot\" line into Git commits in Visual Studio Code - even for developers who had turned off the AI features entirely. The article Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off appeared first on The Decoder .",
+  "published_at": "Sun, 03 May 2026 09:31:15 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "Microsoft insere marca de IA em commits de código, mesmo com recursos desativados",
+  "subtitle": "A prática levanta questões sobre transparência e consentimento no desenvolvimento de software.",
+  "eyebrow_category": "ANALISE",
+  "lead": "A Microsoft foi flagrada adicionando a marcação \"Co-Authored-by Copilot\" a commits de código no Visual Studio Code. A inclusão ocorreu mesmo quando os recursos de IA estavam explicitamente desligados pelos desenvolvedores, gerando preocupações sobre a gestão de contribuições de código.",
+  "body_markdown": "## O que aconteceu\n\nRelatos recentes indicam que a Microsoft implementou uma alteração sutil no Visual Studio Code, um dos ambientes de desenvolvimento integrado (IDE) mais populares do mundo. A empresa passou a incluir a linha \"Co-Authored-by Copilot\" em commits de código. O ponto crucial é que essa inserção aconteceu independentemente da configuração do usuário, ou seja, mesmo que as funcionalidades de inteligência artificial, como o próprio GitHub Copilot, estivessem desativadas. Essa prática foi detalhada em uma reportagem do The Decoder, que trouxe à tona a falta de clareza sobre a origem de parte do código gerado ou assistido por IA. A modificação parece ter sido feita de forma discreta, sem um aviso explícito aos usuários sobre a alteração no comportamento do sistema de versionamento de código. A inclusão automática dessa linha sugere um esforço para atribuir a autoria do código a ferramentas de IA, mesmo sem a permissão ou conhecimento do desenvolvedor humano.\n\n## Por que importa\n\nNo Brasil, onde o desenvolvimento de software tem crescido significativamente, a transparência na autoria de código é um pilar fundamental para a colaboração e a propriedade intelectual. A prática da Microsoft levanta um debate importante sobre o consentimento e a atribuição correta de créditos. Desenvolvedores que optam por desativar ferramentas de IA podem se sentir enganados ao verem seus commits marcados como \"co-autorados\" por uma ferramenta que não estavam utilizando ativamente. Isso pode ter implicações legais e éticas, especialmente em projetos de código aberto ou corporativos onde a rastreabilidade e a autoria são cruciais. A falta de clareza pode minar a confiança na plataforma e nas ferramentas que a Microsoft oferece. Para empresas brasileiras que dependem de um controle rigoroso sobre seus ativos de código, essa situação exige atenção e uma análise aprofundada das políticas de uso de IA em seus fluxos de trabalho.\n\n## O que esperar\n\nA exposição dessa prática pode forçar a Microsoft a reconsiderar sua abordagem. É provável que haja uma pressão crescente por maior transparência e opções de controle mais granulares para os usuários. Podemos esperar que a empresa emita um comunicado oficial para esclarecer a motivação por trás dessa inclusão automática e, possivelmente, ofereça atualizações para o Visual Studio Code que permitam aos usuários desativar completamente essa marcação, ou que a ativação seja estritamente opcional e claramente comunicada. Para o mercado brasileiro, isso reforça a necessidade de as empresas e desenvolvedores estarem atentos às políticas de uso de ferramentas de IA e exigirem clareza sobre como suas contribuições são registradas. A comunidade de desenvolvimento deve continuar a debater e a demandar práticas éticas e transparentes no uso de IA no ciclo de desenvolvimento de software, conforme destacado em outras análises sobre o impacto da IA no código. A expectativa é que essa situação sirva como um catalisador para discussões mais amplas sobre a governança da IA no desenvolvimento de software.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Relatos recentes indicam que a Microsoft implementou uma alteração sutil no Visual Studio Code, um dos ambientes de desenvolvimento integrado (IDE) mais populares do mundo. A empresa passou a incluir a linha \"Co-Authored-by Copilot\" em commits de código. O ponto crucial é que essa inserção aconteceu independentemente da configuração do usuário, ou seja, mesmo que as funcionalidades de inteligência artificial, como o próprio GitHub Copilot, estivessem desativadas. Essa prática foi detalhada em uma reportagem do The Decoder, que trouxe à tona a falta de clareza sobre a origem de parte do código gerado ou assistido por IA. A modificação parece ter sido feita de forma discreta, sem um aviso explícito aos usuários sobre a alteração no comportamento do sistema de versionamento de código. A inclusão automática dessa linha sugere um esforço para atribuir a autoria do código a ferramentas de IA, mesmo sem a permissão ou conhecimento do desenvolvedor humano.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, onde o desenvolvimento de software tem crescido significativamente, a transparência na autoria de código é um pilar fundamental para a colaboração e a propriedade intelectual. A prática da Microsoft levanta um debate importante sobre o consentimento e a atribuição correta de créditos. Desenvolvedores que optam por desativar ferramentas de IA podem se sentir enganados ao verem seus commits marcados como \"co-autorados\" por uma ferramenta que não estavam utilizando ativamente. Isso pode ter implicações legais e éticas, especialmente em projetos de código aberto ou corporativos onde a rastreabilidade e a autoria são cruciais. A falta de clareza pode minar a confiança na plataforma e nas ferramentas que a Microsoft oferece. Para empresas brasileiras que dependem de um controle rigoroso sobre seus ativos de código, essa situação exige atenção e uma análise aprofundada das políticas de uso de IA em seus fluxos de trabalho.</p>\n\n<h2>O que esperar</h2>\n\n<p>A exposição dessa prática pode forçar a Microsoft a reconsiderar sua abordagem. É provável que haja uma pressão crescente por maior transparência e opções de controle mais granulares para os usuários. Podemos esperar que a empresa emita um comunicado oficial para esclarecer a motivação por trás dessa inclusão automática e, possivelmente, ofereça atualizações para o Visual Studio Code que permitam aos usuários desativar completamente essa marcação, ou que a ativação seja estritamente opcional e claramente comunicada. Para o mercado brasileiro, isso reforça a necessidade de as empresas e desenvolvedores estarem atentos às políticas de uso de ferramentas de IA e exigirem clareza sobre como suas contribuições são registradas. A comunidade de desenvolvimento deve continuar a debater e a demandar práticas éticas e transparentes no uso de IA no ciclo de desenvolvimento de software, conforme destacado em outras análises sobre o impacto da IA no código. A expectativa é que essa situação sirva como um catalisador para discussões mais amplas sobre a governança da IA no desenvolvimento de software.</p>",
+  "tags": [
+    "ia",
+    "visual studio code",
+    "microsoft",
+    "copilot"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Visual Studio Code",
+    "Microsoft",
+    "Copilot",
+    "atribuição de código",
+    "IA",
+    "desenvolvimento de software",
+    "transparência"
+  ],
+  "meta_description_seo": "Microsoft insere marca de IA em commits de código no VS Code, mesmo com recursos desligados, levantando questões sobre transparência e consentimento.",
+  "faq": [
+    {
+      "q": "Por que a Microsoft incluiu \"Co-Authored-by Copilot\" em commits mesmo com a IA desativada?",
+      "a": "A fonte original sugere que a inclusão ocorreu sem consentimento explícito, possivelmente como uma forma de rastrear e atribuir contribuições de código geradas ou assistidas por IA, mesmo que o recurso estivesse inativo para o usuário."
+    },
+    {
+      "q": "Quais as implicações dessa prática para os desenvolvedores?",
+      "a": "Desenvolvedores podem se sentir lesados pela atribuição de autoria a uma ferramenta que não utilizaram, levantando questões éticas e de propriedade intelectual sobre o código gerado."
+    },
+    {
+      "q": "O que se espera que aconteça a seguir?",
+      "a": "Espera-se que a Microsoft reavalie sua abordagem, aumentando a transparência e oferecendo mais controle aos usuários sobre a marcação de autoria de código."
+    }
+  ],
+  "written_at": "2026-05-03T11:08:29.641Z",
+  "slug": "microsoft-insere-marca-de-ia-em-commits-de-codigo-mesmo-com-recursos-desativados",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/05/microsoft_logo.png"
+}

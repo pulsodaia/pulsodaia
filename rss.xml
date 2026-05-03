@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 03 May 2026 07:36:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 11:14:07 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>China Atrasada na Corrida da IA? Relatório dos EUA Divide Opiniões</title>
+      <link>https://pulsodaia.com.br/feed/china-atrasada-na-corrida-da-ia-relatorio-dos-eua-divide-opinioes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/china-atrasada-na-corrida-da-ia-relatorio-dos-eua-divide-opinioes/</guid>
+      <pubDate>Sun, 03 May 2026 11:08:57 GMT</pubDate>
+      <description>Enquanto um benchmark governamental americano aponta defasagem chinesa, dados independentes e a competitividade de preços levantam questionamentos.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/">The Decoder</source>
+    </item>
+    <item>
+      <title>Estudo do MIT revela segredo por trás da performance confiável de modelos de linguagem</title>
+      <link>https://pulsodaia.com.br/feed/estudo-do-mit-revela-segredo-por-tras-da-performance-confiavel-de-modelos-de-lin/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/estudo-do-mit-revela-segredo-por-tras-da-performance-confiavel-de-modelos-de-lin/</guid>
+      <pubDate>Sun, 03 May 2026 11:08:43 GMT</pubDate>
+      <description>Pesquisadores desvendam a razão pela qual o aumento do tamanho de modelos de IA melhora seus resultados.</description>
+      <category>RESEARCH</category>
+      <source url="https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/">The Decoder</source>
+    </item>
+    <item>
+      <title>Microsoft insere marca de IA em commits de código, mesmo com recursos desativados</title>
+      <link>https://pulsodaia.com.br/feed/microsoft-insere-marca-de-ia-em-commits-de-codigo-mesmo-com-recursos-desativados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/microsoft-insere-marca-de-ia-em-commits-de-codigo-mesmo-com-recursos-desativados/</guid>
+      <pubDate>Sun, 03 May 2026 11:08:29 GMT</pubDate>
+      <description>A prática levanta questões sobre transparência e consentimento no desenvolvimento de software.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/">The Decoder</source>
+    </item>
     <item>
       <title>Modelos de IA Divergem em Dilemas Éticos: Quem Define os Limites?</title>
       <link>https://pulsodaia.com.br/feed/modelos-de-ia-divergem-em-dilemas-eticos-quem-define-os-limites/</link>
@@ -430,33 +457,6 @@
       <description>Iniciativa busca capacitar desenvolvedores em técnicas avançadas de programação para IA generativa.</description>
       <category>LANCAMENTO</category>
       <source url="https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/">Google AI</source>
-    </item>
-    <item>
-      <title>IA para Diagnóstico Médico: Agente Adaptável e Reprodutível Promete Clareza em Imagens Clínicas</title>
-      <link>https://pulsodaia.com.br/feed/ia-para-diagnostico-medico-agente-adaptavel-e-reprodutivel-promete-clareza-em-im/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-diagnostico-medico-agente-adaptavel-e-reprodutivel-promete-clareza-em-im/</guid>
-      <pubDate>Mon, 27 Apr 2026 09:11:16 GMT</pubDate>
-      <description>Pesquisadores propõem framework para superar desafios de variabilidade e rastreabilidade em processamento de imagens médicas.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.21936">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA e Matemática: Novo Teste Avalia Raciocínio Abstrato em Comunicação</title>
-      <link>https://pulsodaia.com.br/feed/ia-e-matematica-novo-teste-avalia-raciocinio-abstrato-em-comunicacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-e-matematica-novo-teste-avalia-raciocinio-abstrato-em-comunicacao/</guid>
-      <pubDate>Mon, 27 Apr 2026 09:11:05 GMT</pubDate>
-      <description>Pesquisa no ArXiv propõe benchmark para ir além do reconhecimento de padrões em LLMs.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.21935">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>DeepMind e Coreia do Sul Unem Forças para Avanços Científicos com IA de Ponta</title>
-      <link>https://pulsodaia.com.br/feed/deepmind-e-coreia-do-sul-unem-forcas-para-avancos-cientificos-com-ia-de-ponta/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-e-coreia-do-sul-unem-forcas-para-avancos-cientificos-com-ia-de-ponta/</guid>
-      <pubDate>Mon, 27 Apr 2026 09:10:54 GMT</pubDate>
-      <description>Parceria visa acelerar descobertas em diversas áreas, com potencial impacto para o desenvolvimento tecnológico global.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/">Google DeepMind</source>
     </item>
   </channel>
 </rss>
