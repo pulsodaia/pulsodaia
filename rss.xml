@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 02 May 2026 22:13:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 07:36:36 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos de IA Divergem em Dilemas Éticos: Quem Define os Limites?</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-ia-divergem-em-dilemas-eticos-quem-define-os-limites/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-divergem-em-dilemas-eticos-quem-define-os-limites/</guid>
+      <pubDate>Sun, 03 May 2026 07:31:55 GMT</pubDate>
+      <description>Um novo estudo revela que os principais modelos de linguagem respondem de forma distinta a cenários morais complexos, levantando questões sobre controle e valores.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/">The Decoder</source>
+    </item>
+    <item>
+      <title>Xiaomi MiMo-V2.5-Pro: Código Autônomo de Longa Duração Desafia Modelos Fechados</title>
+      <link>https://pulsodaia.com.br/feed/xiaomi-mimo-v2-5-pro-codigo-autonomo-de-longa-duracao-desafia-modelos-fechados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/xiaomi-mimo-v2-5-pro-codigo-autonomo-de-longa-duracao-desafia-modelos-fechados/</guid>
+      <pubDate>Sun, 03 May 2026 07:31:31 GMT</pubDate>
+      <description>A gigante chinesa aposta em modelos abertos para competir em eficiência e tempo de execução.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/">The Decoder</source>
+    </item>
     <item>
       <title>Academia de Hollywood barra IA em roteiros e atuações para o Oscar</title>
       <link>https://pulsodaia.com.br/feed/academia-de-hollywood-barra-ia-em-roteiros-e-atuacoes-para-o-oscar/</link>
@@ -439,24 +457,6 @@
       <description>Parceria visa acelerar descobertas em diversas áreas, com potencial impacto para o desenvolvimento tecnológico global.</description>
       <category>LANCAMENTO</category>
       <source url="https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Equity da Anthropic como Moeda para Imóveis na Bay Area</title>
-      <link>https://pulsodaia.com.br/feed/equity-da-anthropic-como-moeda-para-imoveis-na-bay-area/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/equity-da-anthropic-como-moeda-para-imoveis-na-bay-area/</guid>
-      <pubDate>Sun, 26 Apr 2026 18:06:08 GMT</pubDate>
-      <description>Negociação incomum para propriedade de luxo reflete valorização de startups de IA.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OpenAI Integra Codex ao GPT-5.5, Foco em Agentes de Código</title>
-      <link>https://pulsodaia.com.br/feed/openai-integra-codex-ao-gpt-5-5-foco-em-agentes-de-codigo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-integra-codex-ao-gpt-5-5-foco-em-agentes-de-codigo/</guid>
-      <pubDate>Sun, 26 Apr 2026 14:33:32 GMT</pubDate>
-      <description>Decisão da OpenAI sinaliza consolidação de modelos e avanço em capacidades de programação autônoma para o mercado brasileiro.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/openai-kills-its-dedicated-coding-model-codex-again-folding-it-into-gpt-5-5/">The Decoder</source>
     </item>
   </channel>
 </rss>
