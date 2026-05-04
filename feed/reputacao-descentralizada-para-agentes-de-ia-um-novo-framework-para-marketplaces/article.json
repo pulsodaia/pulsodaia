@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2605.00073v1",
+  "title": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
+  "url": "https://arxiv.org/abs/2605.00073",
+  "summary": "arXiv:2605.00073v1 Announce Type: new Abstract: Decentralized, agentic AI marketplaces are rapidly emerging to support software engineering tasks such as debugging, patch generation, and security auditing, often operating without centralized oversight. However, existing reputation mechanisms fail in this setting for three fundamental reasons: agents can strategically optimize against evaluation procedures; demonstrated competence does not reliably transfer across heterogeneous task contexts; and verification rigor varies widely, from lightweight automated checks to costly expert review. Current approaches to reputation drawing on federated learning, blockchain-based AI platforms, and large language model safety research are unable to address these challenges in combination. We therefore propose \\textbf{AgentReputation}, a decentralized, three-layer reputation framework for agentic AI systems. The framework separates task execution, reputation services, and tamper-proof persistence to b",
+  "published_at": "Mon, 04 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Reputação Descentralizada para Agentes de IA: Um Novo Framework para Marketplaces",
+  "subtitle": "Pesquisa propõe solução para garantir confiabilidade em mercados de código e serviços de IA sem supervisão central.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores apresentaram um framework de reputação descentralizada para agentes de IA. A iniciativa visa resolver desafios críticos em marketplaces emergentes de inteligência artificial, onde a ausência de supervisão centralizada levanta questões sobre confiabilidade e desempenho.",
+  "body_markdown": "## O que aconteceu\n\nUm novo artigo científico publicado no arXiv propõe o \"AgentReputation\", um framework para construir sistemas de reputação descentralizados para agentes de IA. Esses agentes operam em marketplaces que facilitam tarefas de engenharia de software, como depuração, geração de patches e auditoria de segurança. A ausência de uma autoridade central nesses ambientes apresenta um obstáculo significativo para a confiança. O trabalho, disponível em [AgentReputation: A Decentralized Agentic AI Reputation Framework](https://arxiv.org/abs/2605.00073), identifica três falhas fundamentais nos mecanismos de reputação atuais: a otimização estratégica dos agentes contra procedimentos de avaliação, a variabilidade na transferência de competência entre diferentes contextos de tarefas e a inconsistência no rigor da verificação, que pode variar de verificações automatizadas simples a revisões complexas por especialistas. Abordagens existentes que utilizam aprendizado federado, plataformas de IA baseadas em blockchain e pesquisa em segurança de modelos de linguagem de grande porte não conseguem resolver essas questões em conjunto.\n\n## Por que importa\n\nA proliferação de marketplaces de IA descentralizados, sem supervisão direta, demanda mecanismos robustos para avaliar a confiabilidade e a competência dos agentes. No Brasil, onde a adoção de tecnologias de IA avança rapidamente em diversos setores, a falta de um sistema de reputação confiável pode inibir a participação e a colaboração entre desenvolvedores e empresas. A dificuldade em validar a qualidade do trabalho de um agente, a incerteza sobre a aplicabilidade de suas habilidades em diferentes cenários e a variação na profundidade das verificações criam um ambiente de risco. Um framework como o AgentReputation pode ser crucial para estabelecer um padrão de confiança, permitindo que empresas e desenvolvedores brasileiros utilizem esses marketplaces com maior segurança e previsibilidade, impulsionando a inovação e a eficiência.\n\n## O que esperar\n\nO framework AgentReputation busca superar as limitações atuais ao propor uma abordagem mais integrada e resiliente. A pesquisa sugere que a descentralização é chave para evitar a manipulação e garantir a transparência. A expectativa é que o desenvolvimento e a adoção de tais sistemas permitam a criação de marketplaces de IA mais seguros e eficientes. Isso pode levar a uma maior especialização dos agentes e a um ecossistema mais dinâmico para a engenharia de software baseada em IA. A continuidade da pesquisa nesta área, como explorado em trabalhos relacionados à [segurança de modelos de linguagem](https://arxiv.org/abs/2605.00073), será fundamental para refinar esses mecanismos. O futuro aponta para sistemas onde a reputação é construída de forma contínua e verificável, mesmo sem uma entidade centralizadora.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo artigo científico publicado no arXiv propõe o \"AgentReputation\", um framework para construir sistemas de reputação descentralizados para agentes de IA. Esses agentes operam em marketplaces que facilitam tarefas de engenharia de software, como depuração, geração de patches e auditoria de segurança. A ausência de uma autoridade central nesses ambientes apresenta um obstáculo significativo para a confiança. O trabalho, disponível em <a href=\"https://arxiv.org/abs/2605.00073\" target=\"_blank\" rel=\"external noopener\">AgentReputation: A Decentralized Agentic AI Reputation Framework</a>, identifica três falhas fundamentais nos mecanismos de reputação atuais: a otimização estratégica dos agentes contra procedimentos de avaliação, a variabilidade na transferência de competência entre diferentes contextos de tarefas e a inconsistência no rigor da verificação, que pode variar de verificações automatizadas simples a revisões complexas por especialistas. Abordagens existentes que utilizam aprendizado federado, plataformas de IA baseadas em blockchain e pesquisa em segurança de modelos de linguagem de grande porte não conseguem resolver essas questões em conjunto.</p>\n\n<h2>Por que importa</h2>\n\n<p>A proliferação de marketplaces de IA descentralizados, sem supervisão direta, demanda mecanismos robustos para avaliar a confiabilidade e a competência dos agentes. No Brasil, onde a adoção de tecnologias de IA avança rapidamente em diversos setores, a falta de um sistema de reputação confiável pode inibir a participação e a colaboração entre desenvolvedores e empresas. A dificuldade em validar a qualidade do trabalho de um agente, a incerteza sobre a aplicabilidade de suas habilidades em diferentes cenários e a variação na profundidade das verificações criam um ambiente de risco. Um framework como o AgentReputation pode ser crucial para estabelecer um padrão de confiança, permitindo que empresas e desenvolvedores brasileiros utilizem esses marketplaces com maior segurança e previsibilidade, impulsionando a inovação e a eficiência.</p>\n\n<h2>O que esperar</h2>\n\n<p>O framework AgentReputation busca superar as limitações atuais ao propor uma abordagem mais integrada e resiliente. A pesquisa sugere que a descentralização é chave para evitar a manipulação e garantir a transparência. A expectativa é que o desenvolvimento e a adoção de tais sistemas permitam a criação de marketplaces de IA mais seguros e eficientes. Isso pode levar a uma maior especialização dos agentes e a um ecossistema mais dinâmico para a engenharia de software baseada em IA. A continuidade da pesquisa nesta área, como explorado em trabalhos relacionados à <a href=\"https://arxiv.org/abs/2605.00073\" target=\"_blank\" rel=\"external noopener\">segurança de modelos de linguagem</a>, será fundamental para refinar esses mecanismos. O futuro aponta para sistemas onde a reputação é construída de forma contínua e verificável, mesmo sem uma entidade centralizadora.</p>",
+  "tags": [
+    "ia",
+    "reputacao",
+    "descentralizacao"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "reputacao descentralizada",
+    "marketplaces de IA",
+    "agentes de IA",
+    "framework de reputacao"
+  ],
+  "meta_description_seo": "Pesquisa propõe framework de reputação descentralizada para agentes de IA em marketplaces, abordando desafios de confiabilidade e desempenho.",
+  "faq": [
+    {
+      "q": "O que é o framework AgentReputation?",
+      "a": "AgentReputation é um sistema de reputação descentralizado projetado para agentes de IA que operam em marketplaces. Ele visa resolver problemas de confiabilidade e desempenho nesses ambientes sem supervisão central."
+    },
+    {
+      "q": "Quais são os principais desafios que o AgentReputation busca resolver?",
+      "a": "O framework aborda a otimização contra avaliações, a dificuldade de transferir competência entre tarefas diferentes e a variação no rigor da verificação de agentes."
+    },
+    {
+      "q": "Por que a descentralização é importante para a reputação de agentes de IA?",
+      "a": "A descentralização é vista como essencial para evitar manipulação, garantir transparência e construir confiança em marketplaces onde não há uma autoridade central para supervisionar as interações e avaliações."
+    }
+  ],
+  "written_at": "2026-05-04T16:22:37.402Z",
+  "slug": "reputacao-descentralizada-para-agentes-de-ia-um-novo-framework-para-marketplaces",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

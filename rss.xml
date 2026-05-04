@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 03 May 2026 22:13:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 16:29:32 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Falha em LLMs para solicitações maliciosas: estudo aponta para explicações locais e causais</title>
+      <link>https://pulsodaia.com.br/feed/falha-em-llms-para-solicitacoes-maliciosas-estudo-aponta-para-explicacoes-locais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/falha-em-llms-para-solicitacoes-maliciosas-estudo-aponta-para-explicacoes-locais/</guid>
+      <pubDate>Mon, 04 May 2026 16:22:50 GMT</pubDate>
+      <description>Pesquisa em modelos de linguagem avançados revela vulnerabilidades e sugere caminhos para maior segurança.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.00123">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Reputação Descentralizada para Agentes de IA: Um Novo Framework para Marketplaces</title>
+      <link>https://pulsodaia.com.br/feed/reputacao-descentralizada-para-agentes-de-ia-um-novo-framework-para-marketplaces/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/reputacao-descentralizada-para-agentes-de-ia-um-novo-framework-para-marketplaces/</guid>
+      <pubDate>Mon, 04 May 2026 16:22:37 GMT</pubDate>
+      <description>Pesquisa propõe solução para garantir confiabilidade em mercados de código e serviços de IA sem supervisão central.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.00073">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>TADI: IA Orquestra Dados de Poços de Petróleo para Análise Avançada</title>
+      <link>https://pulsodaia.com.br/feed/tadi-ia-orquestra-dados-de-pocos-de-petroleo-para-analise-avancada/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/tadi-ia-orquestra-dados-de-pocos-de-petroleo-para-analise-avancada/</guid>
+      <pubDate>Mon, 04 May 2026 16:22:26 GMT</pubDate>
+      <description>Sistema agentico processa relatórios e dados técnicos para extrair inteligência acionável.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.00060">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Criador de meme "This is fine" acusa startup de IA de roubar arte para campanha publicitária</title>
       <link>https://pulsodaia.com.br/feed/criador-de-meme-this-is-fine-acusa-startup-de-ia-de-roubar-arte-para-campanha-pu/</link>
@@ -430,33 +457,6 @@
       <description>Novas funcionalidades no Claude Code visam otimizar o fluxo de trabalho e a gestão de plugins para a comunidade brasileira de IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.121">Claude Code</source>
-    </item>
-    <item>
-      <title>IA Adapta Ultrassonografia com Física para Imagens Mais Claras</title>
-      <link>https://pulsodaia.com.br/feed/ia-adapta-ultrassonografia-com-fisica-para-imagens-mais-claras/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-adapta-ultrassonografia-com-fisica-para-imagens-mais-claras/</guid>
-      <pubDate>Tue, 28 Apr 2026 07:40:24 GMT</pubDate>
-      <description>Novas técnicas de machine learning prometem refinar diagnósticos médicos no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging">Hugging Face</source>
-    </item>
-    <item>
-      <title>Investidores apostam em app de tela inicial com IA para iPhone antes do lançamento</title>
-      <link>https://pulsodaia.com.br/feed/investidores-apostam-em-app-de-tela-inicial-com-ia-para-iphone-antes-do-lancamen/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/investidores-apostam-em-app-de-tela-inicial-com-ia-para-iphone-antes-do-lancamen/</guid>
-      <pubDate>Mon, 27 Apr 2026 21:38:04 GMT</pubDate>
-      <description>O interesse em um iPhone mais inteligente impulsiona o financiamento de novas soluções.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Ineffable Intelligence: David Silver Levanta US$ 1,1 Bilhão para IA Autônoma</title>
-      <link>https://pulsodaia.com.br/feed/ineffable-intelligence-david-silver-levanta-us-1-1-bilhao-para-ia-autonoma/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ineffable-intelligence-david-silver-levanta-us-1-1-bilhao-para-ia-autonoma/</guid>
-      <pubDate>Mon, 27 Apr 2026 21:37:53 GMT</pubDate>
-      <description>O ex-pesquisador do DeepMind mira um modelo de aprendizado sem dependência de dados humanos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

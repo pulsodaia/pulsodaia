@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-03T22:07:45.404Z",
+  "generated_at": "2026-05-04T16:22:50.480Z",
   "articles": [
+    {
+      "slug": "falha-em-llms-para-solicitacoes-maliciosas-estudo-aponta-para-explicacoes-locais",
+      "headline": "Falha em LLMs para solicitações maliciosas: estudo aponta para explicações locais e causais",
+      "subtitle": "Pesquisa em modelos de linguagem avançados revela vulnerabilidades e sugere caminhos para maior segurança.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.00123",
+      "category": "research",
+      "tags": [
+        "ia",
+        "segurança",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 04 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-04T16:22:50.344Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "reputacao-descentralizada-para-agentes-de-ia-um-novo-framework-para-marketplaces",
+      "headline": "Reputação Descentralizada para Agentes de IA: Um Novo Framework para Marketplaces",
+      "subtitle": "Pesquisa propõe solução para garantir confiabilidade em mercados de código e serviços de IA sem supervisão central.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.00073",
+      "category": "research",
+      "tags": [
+        "ia",
+        "reputacao",
+        "descentralizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 04 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-04T16:22:37.402Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "tadi-ia-orquestra-dados-de-pocos-de-petroleo-para-analise-avancada",
+      "headline": "TADI: IA Orquestra Dados de Poços de Petróleo para Análise Avançada",
+      "subtitle": "Sistema agentico processa relatórios e dados técnicos para extrair inteligência acionável.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.00060",
+      "category": "research",
+      "tags": [
+        "ia",
+        "petroleo",
+        "perfuracao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 04 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-04T16:22:26.954Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "criador-de-meme-this-is-fine-acusa-startup-de-ia-de-roubar-arte-para-campanha-pu",
       "headline": "Criador de meme \"This is fine\" acusa startup de IA de roubar arte para campanha publicitária",

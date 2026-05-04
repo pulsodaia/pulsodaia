@@ -1,0 +1,54 @@
+{
+  "id": "oai:arXiv.org:2605.00060v1",
+  "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+  "url": "https://arxiv.org/abs/2605.00060",
+  "summary": "arXiv:2605.00060v1 Announce Type: new Abstract: We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field dataset, TADI integrates 1,759 daily drilling reports, selected WITSML real-time objects, 15,634 production records, formation tops, and perforations into a dual-store architecture: DuckDB for structured queries over 12 tables with 65,447 rows, and ChromaDB for semantic search over 36,709 embedded documents. Twelve domain-specialized tools, orchestrated by a large language model via iterative function calling, support multi-step evidence gathering that cross-references structured drilling measurements with daily report narratives. The system parses all 1,759 DDR XML files with zero errors, handles three incompatible well naming conventions, and is backed by 95 automated tests plus a 130-question stress-question taxonomy spanning six operationa",
+  "published_at": "Mon, 04 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "TADI: IA Orquestra Dados de Poços de Petróleo para Análise Avançada",
+  "subtitle": "Sistema agentico processa relatórios e dados técnicos para extrair inteligência acionável.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores apresentaram TADI, um sistema de inteligência artificial que utiliza modelos de linguagem grandes (LLMs) para integrar e analisar dados complexos de operações de perfuração de poços. O objetivo é gerar insights baseados em evidências a partir de uma vasta quantidade de informações heterogêneas.",
+  "body_markdown": "## O que aconteceu\n\nUm novo sistema de IA, batizado de TADI (Tool-Augmented Drilling Intelligence), foi detalhado em um artigo no arXiv. Ele foi projetado para processar e interpretar dados de perfuração de poços de petróleo, transformando informações operacionais brutas em inteligência analítica concreta. O TADI opera com uma arquitetura de dupla base de dados: DuckDB para consultas estruturadas e ChromaDB para busca semântica. O sistema foi testado com um conjunto de dados do campo Volve da Equinor, que inclui 1.759 relatórios diários de perfuração, objetos WITSML em tempo real, 15.634 registros de produção, informações sobre formações geológicas e perfurações. A inteligência do TADI reside na orquestração de doze ferramentas especializadas por um LLM, que executa chamadas de função iterativas para coletar evidências multifacetadas. Essa abordagem permite cruzar medições estruturadas de perfuração com narrativas contidas nos relatórios diários. A descrição completa do sistema está disponível no [artigo original no arXiv](https://arxiv.org/abs/2605.00060).\n\n## Por que importa\n\nA indústria de exploração e produção de petróleo e gás lida com volumes massivos de dados gerados em ambientes complexos e muitas vezes remotos. A capacidade de extrair inteligência acionável desses dados de forma eficiente e confiável é crucial para otimizar operações, reduzir custos e aumentar a segurança. Sistemas como o TADI representam um avanço na aplicação de IA para resolver desafios práticos no setor. No Brasil, onde a Petrobras e outras empresas buscam otimizar a produção em campos maduros e explorar novas fronteiras, a capacidade de integrar e analisar dados de poços de maneira mais inteligente pode acelerar a tomada de decisão e melhorar a eficiência operacional. A orquestração de LLMs com ferramentas específicas para a área de perfuração demonstra um caminho promissor para superar a dificuldade de processar dados não estruturados, como relatórios manuais, juntamente com dados técnicos.\n\n## O que esperar\n\nA pesquisa sugere que sistemas agenticos orquestrados por LLMs podem gerenciar a complexidade de dados de poços de petróleo de forma mais eficaz do que abordagens tradicionais. O sucesso do TADI em cruzar informações estruturadas e não estruturadas abre portas para a automação de análises que antes exigiam intervenção humana extensiva e especializada. A próxima fase de desenvolvimento provavelmente envolverá a expansão para outros conjuntos de dados, o aprimoramento das ferramentas de análise e a integração com sistemas de controle operacional. A comunidade de pesquisa em IA e os profissionais da indústria de petróleo e gás podem acompanhar os avanços e as potenciais aplicações comerciais detalhadas em publicações futuras, como as encontradas no [repositório arXiv](https://arxiv.org/abs/2605.00060). A tendência é que tais sistemas se tornem ferramentas padrão para análise e otimização em operações de perfuração.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo sistema de IA, batizado de TADI (Tool-Augmented Drilling Intelligence), foi detalhado em um artigo no arXiv. Ele foi projetado para processar e interpretar dados de perfuração de poços de petróleo, transformando informações operacionais brutas em inteligência analítica concreta. O TADI opera com uma arquitetura de dupla base de dados: DuckDB para consultas estruturadas e ChromaDB para busca semântica. O sistema foi testado com um conjunto de dados do campo Volve da Equinor, que inclui 1.759 relatórios diários de perfuração, objetos WITSML em tempo real, 15.634 registros de produção, informações sobre formações geológicas e perfurações. A inteligência do TADI reside na orquestração de doze ferramentas especializadas por um LLM, que executa chamadas de função iterativas para coletar evidências multifacetadas. Essa abordagem permite cruzar medições estruturadas de perfuração com narrativas contidas nos relatórios diários. A descrição completa do sistema está disponível no <a href=\"https://arxiv.org/abs/2605.00060\" target=\"_blank\" rel=\"external noopener\">artigo original no arXiv</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A indústria de exploração e produção de petróleo e gás lida com volumes massivos de dados gerados em ambientes complexos e muitas vezes remotos. A capacidade de extrair inteligência acionável desses dados de forma eficiente e confiável é crucial para otimizar operações, reduzir custos e aumentar a segurança. Sistemas como o TADI representam um avanço na aplicação de IA para resolver desafios práticos no setor. No Brasil, onde a Petrobras e outras empresas buscam otimizar a produção em campos maduros e explorar novas fronteiras, a capacidade de integrar e analisar dados de poços de maneira mais inteligente pode acelerar a tomada de decisão e melhorar a eficiência operacional. A orquestração de LLMs com ferramentas específicas para a área de perfuração demonstra um caminho promissor para superar a dificuldade de processar dados não estruturados, como relatórios manuais, juntamente com dados técnicos.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa sugere que sistemas agenticos orquestrados por LLMs podem gerenciar a complexidade de dados de poços de petróleo de forma mais eficaz do que abordagens tradicionais. O sucesso do TADI em cruzar informações estruturadas e não estruturadas abre portas para a automação de análises que antes exigiam intervenção humana extensiva e especializada. A próxima fase de desenvolvimento provavelmente envolverá a expansão para outros conjuntos de dados, o aprimoramento das ferramentas de análise e a integração com sistemas de controle operacional. A comunidade de pesquisa em IA e os profissionais da indústria de petróleo e gás podem acompanhar os avanços e as potenciais aplicações comerciais detalhadas em publicações futuras, como as encontradas no <a href=\"https://arxiv.org/abs/2605.00060\" target=\"_blank\" rel=\"external noopener\">repositório arXiv</a>. A tendência é que tais sistemas se tornem ferramentas padrão para análise e otimização em operações de perfuração.</p>",
+  "tags": [
+    "ia",
+    "petroleo",
+    "perfuracao"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "IA",
+    "LLM",
+    "perfuração de poços",
+    "dados de petróleo",
+    "análise de dados",
+    "TADI",
+    "Equinor",
+    "DuckDB",
+    "ChromaDB"
+  ],
+  "meta_description_seo": "Sistema TADI usa IA agentica para analisar dados de perfuração de poços de petróleo, integrando relatórios e dados técnicos para insights acionáveis.",
+  "faq": [
+    {
+      "q": "O que é o sistema TADI?",
+      "a": "TADI é um sistema de inteligência artificial agentica que integra e analisa dados de operações de perfuração de poços de petróleo. Ele utiliza LLMs para orquestrar ferramentas especializadas e processar informações estruturadas e não estruturadas."
+    },
+    {
+      "q": "Quais tipos de dados o TADI processa?",
+      "a": "O TADI processa relatórios diários de perfuração, dados em tempo real (WITSML), registros de produção, informações de formações geológicas e dados de perfurações."
+    },
+    {
+      "q": "Qual o benefício principal do TADI para a indústria petrolífera?",
+      "a": "O principal benefício é a capacidade de gerar inteligência analítica baseada em evidências a partir de dados complexos e heterogêneos, otimizando a tomada de decisão e a eficiência operacional em perfurações."
+    }
+  ],
+  "written_at": "2026-05-04T16:22:26.954Z",
+  "slug": "tadi-ia-orquestra-dados-de-pocos-de-petroleo-para-analise-avancada",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
