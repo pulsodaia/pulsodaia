@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-04T16:22:50.480Z",
+  "generated_at": "2026-05-04T21:46:05.375Z",
   "articles": [
+    {
+      "slug": "ia-de-imagem-impulsiona-downloads-de-apps-superando-chatbots-em-engajamento-inic",
+      "headline": "IA de Imagem Impulsiona Downloads de Apps, Superando Chatbots em Engajamento Inicial",
+      "subtitle": "A demanda por criatividade visual gerada por IA está atraindo usuários, mas a monetização ainda é um desafio.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+      "category": "mercado",
+      "tags": [
+        "ia de imagem",
+        "aplicativos",
+        "monetização",
+        "crescimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 04 May 2026 19:12:49 +0000",
+      "written_at": "2026-05-04T21:46:05.354Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "gemini-api-webhooks-agilizam-processos-de-longa-duracao",
+      "headline": "Gemini API: Webhooks Agilizam Processos de Longa Duração",
+      "subtitle": "Google introduz notificações baseadas em eventos para otimizar a interação com modelos de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "category": "google",
+      "tags": [
+        "gemini api",
+        "webhooks",
+        "google ai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 04 May 2026 15:30:00 +0000",
+      "written_at": "2026-05-04T21:45:54.866Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-amplia-capacidades-de-ia-com-novidades-de-abril-de-2026",
+      "headline": "Google Amplia Capacidades de IA com Novidades de Abril de 2026",
+      "subtitle": "A gigante de tecnologia detalha avanços em modelos e aplicações que impactam o cenário digital.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "category": "google",
+      "tags": [
+        "google",
+        "inteligencia artificial",
+        "atualizacoes"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 04 May 2026 17:00:00 +0000",
+      "written_at": "2026-05-04T21:45:44.471Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "falha-em-llms-para-solicitacoes-maliciosas-estudo-aponta-para-explicacoes-locais",
       "headline": "Falha em LLMs para solicitações maliciosas: estudo aponta para explicações locais e causais",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 04 May 2026 16:29:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 21:52:20 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA de Imagem Impulsiona Downloads de Apps, Superando Chatbots em Engajamento Inicial</title>
+      <link>https://pulsodaia.com.br/feed/ia-de-imagem-impulsiona-downloads-de-apps-superando-chatbots-em-engajamento-inic/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-imagem-impulsiona-downloads-de-apps-superando-chatbots-em-engajamento-inic/</guid>
+      <pubDate>Mon, 04 May 2026 21:46:05 GMT</pubDate>
+      <description>A demanda por criatividade visual gerada por IA está atraindo usuários, mas a monetização ainda é um desafio.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Gemini API: Webhooks Agilizam Processos de Longa Duração</title>
+      <link>https://pulsodaia.com.br/feed/gemini-api-webhooks-agilizam-processos-de-longa-duracao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-api-webhooks-agilizam-processos-de-longa-duracao/</guid>
+      <pubDate>Mon, 04 May 2026 21:45:54 GMT</pubDate>
+      <description>Google introduz notificações baseadas em eventos para otimizar a interação com modelos de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/">Google AI</source>
+    </item>
+    <item>
+      <title>Google Amplia Capacidades de IA com Novidades de Abril de 2026</title>
+      <link>https://pulsodaia.com.br/feed/google-amplia-capacidades-de-ia-com-novidades-de-abril-de-2026/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-amplia-capacidades-de-ia-com-novidades-de-abril-de-2026/</guid>
+      <pubDate>Mon, 04 May 2026 21:45:44 GMT</pubDate>
+      <description>A gigante de tecnologia detalha avanços em modelos e aplicações que impactam o cenário digital.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/">Google AI</source>
+    </item>
     <item>
       <title>Falha em LLMs para solicitações maliciosas: estudo aponta para explicações locais e causais</title>
       <link>https://pulsodaia.com.br/feed/falha-em-llms-para-solicitacoes-maliciosas-estudo-aponta-para-explicacoes-locais/</link>
@@ -430,33 +457,6 @@
       <description>A nova arquitetura da NVIDIA promete avanços significativos na compreensão de dados complexos para aplicações corporativas no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Tradutor Completa 20 Anos: Evolução de Experimento a Ferramenta Global</title>
-      <link>https://pulsodaia.com.br/feed/google-tradutor-completa-20-anos-evolucao-de-experimento-a-ferramenta-global/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-tradutor-completa-20-anos-evolucao-de-experimento-a-ferramenta-global/</guid>
-      <pubDate>Tue, 28 Apr 2026 16:19:12 GMT</pubDate>
-      <description>A plataforma que democratizou a comunicação entre idiomas celebra duas décadas de avanços.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/">Google AI</source>
-    </item>
-    <item>
-      <title>Opinião Pública Desafia Elon Musk no Tribunal Contra Sam Altman</title>
-      <link>https://pulsodaia.com.br/feed/opiniao-publica-desafia-elon-musk-no-tribunal-contra-sam-altman/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/opiniao-publica-desafia-elon-musk-no-tribunal-contra-sam-altman/</guid>
-      <pubDate>Tue, 28 Apr 2026 07:40:48 GMT</pubDate>
-      <description>A percepção pública sobre o bilionário pode influenciar o julgamento em um caso crucial para o futuro da OpenAI.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/tech/919469/elon-musk-dont-like">The Verge AI</source>
-    </item>
-    <item>
-      <title>Claude Code v2.1.121: Mais Controle e Eficiência para Desenvolvedores de IA</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-121-mais-controle-e-eficiencia-para-desenvolvedores-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-121-mais-controle-e-eficiencia-para-desenvolvedores-de-ia/</guid>
-      <pubDate>Tue, 28 Apr 2026 07:40:35 GMT</pubDate>
-      <description>Novas funcionalidades no Claude Code visam otimizar o fluxo de trabalho e a gestão de plugins para a comunidade brasileira de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.121">Claude Code</source>
     </item>
   </channel>
 </rss>
