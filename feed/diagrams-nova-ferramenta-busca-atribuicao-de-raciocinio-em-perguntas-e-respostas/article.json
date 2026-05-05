@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2605.00905v1",
+  "title": "DIAGRAMS: A Review Framework for Reasoning-Level Attribution in Diagram QA",
+  "url": "https://arxiv.org/abs/2605.00905",
+  "summary": "arXiv:2605.00905v1 Announce Type: new Abstract: Diagram question answering (Diagram QA) requires reasoning-level attribution that links each question-answer pair to all visual regions needed to derive the answer, rather than only the region containing the final response. Creating such structured evidence across diagrams, charts, maps, circuits, and infographics is time-consuming, and existing annotation tools tightly couple their interfaces to dataset-specific formats. We present DIAGRAMS, a lightweight, schema-driven review framework that decouples interface logic from dataset-specific JSON structures through an internal meta-schema and dataset adapters. Given an image and QA pair with optional candidate regions, the system performs QA-conditioned evidence selection and proposes the regions required for reasoning. When QA pairs or candidate regions are missing, it generates them and supports human verification and refinement. Across six Diagram QA datasets, model-suggested evidence ac",
+  "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "DIAGRAMS: Nova Ferramenta Busca Atribuicao de Raciocinio em Perguntas e Respostas Visuais",
+  "subtitle": "Pesquisadores desenvolvem framework para aprimorar a precisao em sistemas de IA que interpretam graficos e infograficos.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Um novo framework, batizado de DIAGRAMS, surge para resolver um gargalo na interpretacao de Inteligencia Artificial em dados visuais complexos. A ferramenta visa atribuir com precisao as partes de um diagrama necessarias para gerar uma resposta, indo alem da simples localizacao da resposta final.",
+  "body_markdown": "## O que aconteceu\n\nA interpretacao de perguntas e respostas baseadas em diagramas (Diagram QA) exige que os sistemas de IA identifiquem nao apenas onde uma resposta se encontra, mas tambem quais elementos visuais foram cruciais para alcancar essa conclusao. Criar essa \"evidencia\" estruturada em graficos, mapas e infograficos e um processo demorado, e as ferramentas atuais geralmente sao rigidas e ligadas a formatos de dataset especificos. Para contornar essa limitacao, foi apresentado o DIAGRAMS. Este e um framework de revisao leve e guiado por esquema, que desvincula a logica da interface de estruturas JSON especificas de cada dataset, utilizando um meta-esquema interno e adaptadores de dataset. O sistema, ao receber uma imagem e um par de pergunta e resposta, com regioes candidatas opcionais, realiza a selecao de evidencia condicionada pela pergunta e propõe as regioes relevantes. O trabalho detalha o funcionamento e a proposta do DIAGRAMS em um artigo publicado no arXiv. [Acesse o artigo completo aqui](https://arxiv.org/abs/2605.00905).\n\n## Por que importa\n\nA capacidade de um sistema de IA demonstrar seu raciocínio por tras de uma resposta em um diagrama tem implicacoes significativas para a confianca e a interpretabilidade. No contexto brasileiro, onde a visualizacao de dados em relatorios financeiros, graficos de mercado e infograficos de noticias e recorrente, a precisao na interpretacao desses elementos e fundamental. Um sistema que pode nao apenas responder corretamente, mas tambem justificar sua resposta apontando para as evidencias visuais, aumenta a credibilidade e facilita a auditoria de decisao. Isso e especialmente importante em setores regulados ou onde a precisao e critica, como finanças, engenharia e pesquisa cientifica. A aplicacao do DIAGRAMS pode levar a ferramentas de analise de dados mais robustas e confiaveis para empresas e profissionais no Brasil.\n\n## O que esperar\n\nO DIAGRAMS representa um passo importante para tornar a IA mais transparente em suas interacoes com dados visuais. Ao desacoplar a interface do formato de dados, a ferramenta promete maior flexibilidade e facilidade de adaptacao a novos datasets e tipos de diagramas. Isso pode acelerar o desenvolvimento de sistemas Diagram QA mais sofisticados e aplicaveis a uma gama maior de cenarios. Espera-se que pesquisas futuras explorem a integracao do DIAGRAMS com modelos de linguagem maiores e sistemas de visao computacional, aprimorando a capacidade de atribuicao de raciocinio. A comunidade de pesquisa podera se beneficiar de um framework mais generico para a criacao de datasets de Diagram QA, reduzindo o esforco de anotacao e padronizando a metodologia. Para mais detalhes sobre a proposta e sua implementacao, [consulte a publicacao original](https://arxiv.org/abs/2605.00905).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A interpretacao de perguntas e respostas baseadas em diagramas (Diagram QA) exige que os sistemas de IA identifiquem nao apenas onde uma resposta se encontra, mas tambem quais elementos visuais foram cruciais para alcancar essa conclusao. Criar essa \"evidencia\" estruturada em graficos, mapas e infograficos e um processo demorado, e as ferramentas atuais geralmente sao rigidas e ligadas a formatos de dataset especificos. Para contornar essa limitacao, foi apresentado o DIAGRAMS. Este e um framework de revisao leve e guiado por esquema, que desvincula a logica da interface de estruturas JSON especificas de cada dataset, utilizando um meta-esquema interno e adaptadores de dataset. O sistema, ao receber uma imagem e um par de pergunta e resposta, com regioes candidatas opcionais, realiza a selecao de evidencia condicionada pela pergunta e propõe as regioes relevantes. O trabalho detalha o funcionamento e a proposta do DIAGRAMS em um artigo publicado no arXiv. <a href=\"https://arxiv.org/abs/2605.00905\" target=\"_blank\" rel=\"external noopener\">Acesse o artigo completo aqui</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de um sistema de IA demonstrar seu raciocínio por tras de uma resposta em um diagrama tem implicacoes significativas para a confianca e a interpretabilidade. No contexto brasileiro, onde a visualizacao de dados em relatorios financeiros, graficos de mercado e infograficos de noticias e recorrente, a precisao na interpretacao desses elementos e fundamental. Um sistema que pode nao apenas responder corretamente, mas tambem justificar sua resposta apontando para as evidencias visuais, aumenta a credibilidade e facilita a auditoria de decisao. Isso e especialmente importante em setores regulados ou onde a precisao e critica, como finanças, engenharia e pesquisa cientifica. A aplicacao do DIAGRAMS pode levar a ferramentas de analise de dados mais robustas e confiaveis para empresas e profissionais no Brasil.</p>\n\n<h2>O que esperar</h2>\n\n<p>O DIAGRAMS representa um passo importante para tornar a IA mais transparente em suas interacoes com dados visuais. Ao desacoplar a interface do formato de dados, a ferramenta promete maior flexibilidade e facilidade de adaptacao a novos datasets e tipos de diagramas. Isso pode acelerar o desenvolvimento de sistemas Diagram QA mais sofisticados e aplicaveis a uma gama maior de cenarios. Espera-se que pesquisas futuras explorem a integracao do DIAGRAMS com modelos de linguagem maiores e sistemas de visao computacional, aprimorando a capacidade de atribuicao de raciocinio. A comunidade de pesquisa podera se beneficiar de um framework mais generico para a criacao de datasets de Diagram QA, reduzindo o esforco de anotacao e padronizando a metodologia. Para mais detalhes sobre a proposta e sua implementacao, <a href=\"https://arxiv.org/abs/2605.00905\" target=\"_blank\" rel=\"external noopener\">consulte a publicacao original</a>.</p>",
+  "tags": [
+    "ia",
+    "processamento de imagem",
+    "interpretacao de dados"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "Diagram QA",
+    "Inteligencia Artificial",
+    "Atribuicao de Raciocinio",
+    "Visao Computacional",
+    "Interpretacao de Graficos"
+  ],
+  "meta_description_seo": "DIAGRAMS: Nova ferramenta de IA para atribuicao de raciocinio em perguntas e respostas visuais. Melhora interpretacao de graficos e infograficos.",
+  "faq": [
+    {
+      "q": "O que o framework DIAGRAMS faz?",
+      "a": "O DIAGRAMS e um framework de revisao que ajuda sistemas de IA a identificar quais partes de um diagrama sao necessarias para responder a uma pergunta, alem de apenas localizar a resposta final."
+    },
+    {
+      "q": "Qual o problema que o DIAGRAMS busca resolver?",
+      "a": "Ele busca resolver a dificuldade e o tempo gasto na criacao de anotacoes que liguem pares de pergunta e resposta a todos os elementos visuais relevantes em diagramas, graficos, mapas e infograficos."
+    },
+    {
+      "q": "Como o DIAGRAMS facilita o trabalho com diferentes datasets?",
+      "a": "O DIAGRAMS desvincula a logica da interface de formatos de dataset especificos atraves de um meta-esquema interno e adaptadores de dataset, tornando-o mais leve e flexivel."
+    }
+  ],
+  "written_at": "2026-05-05T06:30:16.365Z",
+  "slug": "diagrams-nova-ferramenta-busca-atribuicao-de-raciocinio-em-perguntas-e-respostas",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

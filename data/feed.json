@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-04T21:46:05.375Z",
+  "generated_at": "2026-05-05T06:30:26.921Z",
   "articles": [
+    {
+      "slug": "ia-metodo-simples-revela-objetivos-ocultos-em-modelos-afinados",
+      "headline": "IA: Método Simples Revela Objetivos Ocultos em Modelos Afinados",
+      "subtitle": "Pesquisa em IA aponta falhas em \"modelos organismos\" usados para testes de segurança.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.00994",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "segurança de ia",
+        "perplexidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-05T06:30:26.835Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "diagrams-nova-ferramenta-busca-atribuicao-de-raciocinio-em-perguntas-e-respostas",
+      "headline": "DIAGRAMS: Nova Ferramenta Busca Atribuicao de Raciocinio em Perguntas e Respostas Visuais",
+      "subtitle": "Pesquisadores desenvolvem framework para aprimorar a precisao em sistemas de IA que interpretam graficos e infograficos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.00905",
+      "category": "research",
+      "tags": [
+        "ia",
+        "processamento de imagem",
+        "interpretacao de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-05T06:30:16.365Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "pesquisadores-desenvolvem-h-probes-para-desvendar-estruturas-hierarquicas-em-mod",
+      "headline": "Pesquisadores Desenvolvem H-Probes para Desvendar Estruturas Hierárquicas em Modelos de Linguagem",
+      "subtitle": "Nova ferramenta analisa como modelos de IA processam e representam informações complexas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.00847",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 05 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-05T06:30:05.115Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-de-imagem-impulsiona-downloads-de-apps-superando-chatbots-em-engajamento-inic",
       "headline": "IA de Imagem Impulsiona Downloads de Apps, Superando Chatbots em Engajamento Inicial",

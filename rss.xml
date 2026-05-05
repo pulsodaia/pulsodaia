@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 04 May 2026 21:52:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 06:37:56 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA: Método Simples Revela Objetivos Ocultos em Modelos Afinados</title>
+      <link>https://pulsodaia.com.br/feed/ia-metodo-simples-revela-objetivos-ocultos-em-modelos-afinados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-metodo-simples-revela-objetivos-ocultos-em-modelos-afinados/</guid>
+      <pubDate>Tue, 05 May 2026 06:30:26 GMT</pubDate>
+      <description>Pesquisa em IA aponta falhas em "modelos organismos" usados para testes de segurança.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.00994">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>DIAGRAMS: Nova Ferramenta Busca Atribuicao de Raciocinio em Perguntas e Respostas Visuais</title>
+      <link>https://pulsodaia.com.br/feed/diagrams-nova-ferramenta-busca-atribuicao-de-raciocinio-em-perguntas-e-respostas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/diagrams-nova-ferramenta-busca-atribuicao-de-raciocinio-em-perguntas-e-respostas/</guid>
+      <pubDate>Tue, 05 May 2026 06:30:16 GMT</pubDate>
+      <description>Pesquisadores desenvolvem framework para aprimorar a precisao em sistemas de IA que interpretam graficos e infograficos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.00905">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Pesquisadores Desenvolvem H-Probes para Desvendar Estruturas Hierárquicas em Modelos de Linguagem</title>
+      <link>https://pulsodaia.com.br/feed/pesquisadores-desenvolvem-h-probes-para-desvendar-estruturas-hierarquicas-em-mod/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pesquisadores-desenvolvem-h-probes-para-desvendar-estruturas-hierarquicas-em-mod/</guid>
+      <pubDate>Tue, 05 May 2026 06:30:05 GMT</pubDate>
+      <description>Nova ferramenta analisa como modelos de IA processam e representam informações complexas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.00847">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>IA de Imagem Impulsiona Downloads de Apps, Superando Chatbots em Engajamento Inicial</title>
       <link>https://pulsodaia.com.br/feed/ia-de-imagem-impulsiona-downloads-de-apps-superando-chatbots-em-engajamento-inic/</link>
@@ -430,33 +457,6 @@
       <description>A gigante do e-commerce aposta em interatividade por voz para aprimorar a experiência de compra online.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>AWS Anuncia Integração com Novos Produtos da OpenAI, Incluindo Agente Autônomo</title>
-      <link>https://pulsodaia.com.br/feed/aws-anuncia-integracao-com-novos-produtos-da-openai-incluindo-agente-autonomo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/aws-anuncia-integracao-com-novos-produtos-da-openai-incluindo-agente-autonomo/</guid>
-      <pubDate>Tue, 28 Apr 2026 21:40:40 GMT</pubDate>
-      <description>Movimento estratégico da Amazon Web Services expande acesso a modelos de ponta da OpenAI para desenvolvedores brasileiros.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Lovable Lança App de "Vibe Coding" para Desenvolvimento Web em Dispositivos Móveis</title>
-      <link>https://pulsodaia.com.br/feed/lovable-lanca-app-de-vibe-coding-para-desenvolvimento-web-em-dispositivos-moveis/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/lovable-lanca-app-de-vibe-coding-para-desenvolvimento-web-em-dispositivos-moveis/</guid>
-      <pubDate>Tue, 28 Apr 2026 16:19:36 GMT</pubDate>
-      <description>A nova ferramenta busca democratizar a criação de aplicações web, permitindo codificação diretamente no smartphone ou tablet.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>NVIDIA Revela Nemotron 3 Nano Omni: Inteligência Multimodal para Análise Profunda de Documentos, Áudio e Vídeo</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-revela-nemotron-3-nano-omni-inteligencia-multimodal-para-analise-profunda/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-revela-nemotron-3-nano-omni-inteligencia-multimodal-para-analise-profunda/</guid>
-      <pubDate>Tue, 28 Apr 2026 16:19:25 GMT</pubDate>
-      <description>A nova arquitetura da NVIDIA promete avanços significativos na compreensão de dados complexos para aplicações corporativas no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Hugging Face</source>
     </item>
   </channel>
 </rss>
