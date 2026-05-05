@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-05T06:30:26.921Z",
+  "generated_at": "2026-05-05T11:53:23.879Z",
   "articles": [
+    {
+      "slug": "casa-branca-discute-revisao-governamental-de-novos-modelos-de-ia",
+      "headline": "Casa Branca discute revisão governamental de novos modelos de IA",
+      "subtitle": "Gigantes da tecnologia foram informados sobre planos que podem exigir aprovação estatal antes do lançamento de sistemas avançados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/white-house-briefed-anthropic-google-and-openai-on-plans-for-a-government-ai-review-process/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "regulamentacao",
+        "casa branca"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 05 May 2026 09:53:31 +0000",
+      "written_at": "2026-05-05T11:53:20.726Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "amazon-sagemaker-adiciona-ajuste-fino-agente-para-modelos-de-linguagem",
+      "headline": "Amazon SageMaker Adiciona Ajuste Fino Agente para Modelos de Linguagem",
+      "subtitle": "Nova funcionalidade visa simplificar a personalização de LLMs por desenvolvedores no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/",
+      "category": "mercado",
+      "tags": [
+        "sagemaker",
+        "ia",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 05 May 2026 10:08:45 +0000",
+      "written_at": "2026-05-05T11:53:06.129Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "trabalhadores-do-google-deepmind-se-organizam-para-vetar-contratos-militares-de-",
+      "headline": "Trabalhadores do Google DeepMind se organizam para vetar contratos militares de IA",
+      "subtitle": "A mobilização em Londres levanta questões sobre a ética no desenvolvimento de inteligência artificial no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/923918/google-deepmind-union-bid-ai-military-israel",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "google",
+        "sindicato"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-05T06:08:33-04:00",
+      "written_at": "2026-05-05T11:52:49.013Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-metodo-simples-revela-objetivos-ocultos-em-modelos-afinados",
       "headline": "IA: Método Simples Revela Objetivos Ocultos em Modelos Afinados",
