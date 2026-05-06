@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 06 May 2026 16:00:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 21:00:19 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Greg Brockman Detalha Saída de Elon Musk da OpenAI</title>
+      <link>https://pulsodaia.com.br/feed/greg-brockman-detalha-saida-de-elon-musk-da-openai/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/greg-brockman-detalha-saida-de-elon-musk-da-openai/</guid>
+      <pubDate>Wed, 06 May 2026 20:54:23 GMT</pubDate>
+      <description>A revelação pública de negociações tensas entre fundadores de startups de IA lança luz sobre as dinâmicas iniciais da OpenAI.</description>
+      <category>FOUNDERS</category>
+      <source url="https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>vLLM: Nova Abordagem Prioriza Correção Antes de Ajustes com Reforço</title>
+      <link>https://pulsodaia.com.br/feed/vllm-nova-abordagem-prioriza-correcao-antes-de-ajustes-com-reforco/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vllm-nova-abordagem-prioriza-correcao-antes-de-ajustes-com-reforco/</guid>
+      <pubDate>Wed, 06 May 2026 20:54:12 GMT</pubDate>
+      <description>A ServiceNow AI apresenta uma metodologia que busca a precisão fundamental em modelos de linguagem, antes de refinar com aprendizado por reforço.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">Hugging Face</source>
+    </item>
+    <item>
+      <title>Google Search integra IA para dicas de jardinagem</title>
+      <link>https://pulsodaia.com.br/feed/google-search-integra-ia-para-dicas-de-jardinagem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-search-integra-ia-para-dicas-de-jardinagem/</guid>
+      <pubDate>Wed, 06 May 2026 20:54:01 GMT</pubDate>
+      <description>Ferramentas de busca ganham funcionalidades focadas em auxiliar o cultivo de plantas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/products-and-platforms/products/search/gardening-tips/">Google AI</source>
+    </item>
     <item>
       <title>Roteiro para IA e Machine Learning na Manufatura Inteligente Aponta Caminhos para 2026</title>
       <link>https://pulsodaia.com.br/feed/roteiro-para-ia-e-machine-learning-na-manufatura-inteligente-aponta-caminhos-par/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa em IA avança em métodos para inferir parâmetros de campos com maior precisão e eficiência.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2604.26095">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Agentes de IA Autônomos Operam com Capital Real em Teste de Trading</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-autonomos-operam-com-capital-real-em-teste-de-trading/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-autonomos-operam-com-capital-real-em-teste-de-trading/</guid>
-      <pubDate>Thu, 30 Apr 2026 07:54:49 GMT</pubDate>
-      <description>Um experimento de 21 dias com 3.505 agentes de IA e ETH real mostra a viabilidade de transações onchain.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.26091">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>DeepInfra Aposta em Hugging Face para Escalar Inferência de IA</title>
-      <link>https://pulsodaia.com.br/feed/deepinfra-aposta-em-hugging-face-para-escalar-inferencia-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepinfra-aposta-em-hugging-face-para-escalar-inferencia-de-ia/</guid>
-      <pubDate>Wed, 29 Apr 2026 23:14:52 GMT</pubDate>
-      <description>A plataforma de infraestrutura de IA se integra ao ecossistema Hugging Face para democratizar o acesso a modelos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/inference-providers-deepinfra">Hugging Face</source>
-    </item>
-    <item>
-      <title>IBM Detalha Arquitetura dos Modelos Granite 4.1</title>
-      <link>https://pulsodaia.com.br/feed/ibm-detalha-arquitetura-dos-modelos-granite-4-1/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-detalha-arquitetura-dos-modelos-granite-4-1/</guid>
-      <pubDate>Wed, 29 Apr 2026 23:14:42 GMT</pubDate>
-      <description>A Hugging Face revela a engenharia por trás dos LLMs da IBM, com foco em eficiência e especialização.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/ibm-granite/granite-4-1">Hugging Face</source>
     </item>
   </channel>
 </rss>

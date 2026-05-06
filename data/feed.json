@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-06T15:54:46.664Z",
+  "generated_at": "2026-05-06T20:54:23.827Z",
   "articles": [
+    {
+      "slug": "greg-brockman-detalha-saida-de-elon-musk-da-openai",
+      "headline": "Greg Brockman Detalha Saída de Elon Musk da OpenAI",
+      "subtitle": "A revelação pública de negociações tensas entre fundadores de startups de IA lança luz sobre as dinâmicas iniciais da OpenAI.",
+      "eyebrow_category": "FOUNDERS",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "elon musk",
+        "greg brockman"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 06 May 2026 18:23:54 +0000",
+      "written_at": "2026-05-06T20:54:23.695Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "vllm-nova-abordagem-prioriza-correcao-antes-de-ajustes-com-reforco",
+      "headline": "vLLM: Nova Abordagem Prioriza Correção Antes de Ajustes com Reforço",
+      "subtitle": "A ServiceNow AI apresenta uma metodologia que busca a precisão fundamental em modelos de linguagem, antes de refinar com aprendizado por reforço.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "category": "opensource",
+      "tags": [
+        "llm",
+        "inteligência artificial",
+        "servicenow ai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 06 May 2026 19:06:55 GMT",
+      "written_at": "2026-05-06T20:54:12.373Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-search-integra-ia-para-dicas-de-jardinagem",
+      "headline": "Google Search integra IA para dicas de jardinagem",
+      "subtitle": "Ferramentas de busca ganham funcionalidades focadas em auxiliar o cultivo de plantas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+      "category": "google",
+      "tags": [
+        "google search",
+        "inteligência artificial",
+        "jardinagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 06 May 2026 16:00:00 +0000",
+      "written_at": "2026-05-06T20:54:01.136Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "roteiro-para-ia-e-machine-learning-na-manufatura-inteligente-aponta-caminhos-par",
       "headline": "Roteiro para IA e Machine Learning na Manufatura Inteligente Aponta Caminhos para 2026",
