@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-05T11:53:23.879Z",
+  "generated_at": "2026-05-06T15:54:46.664Z",
   "articles": [
+    {
+      "slug": "roteiro-para-ia-e-machine-learning-na-manufatura-inteligente-aponta-caminhos-par",
+      "headline": "Roteiro para IA e Machine Learning na Manufatura Inteligente Aponta Caminhos para 2026",
+      "subtitle": "Um novo documento técnico detalha os desafios e oportunidades para a adoção de IA na indústria brasileira.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.00839",
+      "category": "research",
+      "tags": [
+        "ia",
+        "machine learning",
+        "manufatura inteligente"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 06 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-06T15:54:46.634Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-introduz-testes-privados-para-lideranca-de-reconhecimento-de-voz-ab",
+      "headline": "Hugging Face Introduz Testes Privados para Liderança de Reconhecimento de Voz Aberto",
+      "subtitle": "Novidade visa aprimorar a avaliação de modelos ASR com dados confidenciais, impactando o desenvolvimento no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+      "category": "opensource",
+      "tags": [
+        "asr",
+        "hugging face",
+        "privacidade de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 06 May 2026 00:00:00 GMT",
+      "written_at": "2026-05-06T15:54:35.642Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-investe-us-3-5-milhoes-em-competicao-de-cinema-com-ia",
+      "headline": "Google Investe US$ 3.5 Milhões em Competição de Cinema com IA",
+      "subtitle": "Iniciativa busca explorar o potencial da inteligência artificial na narrativa audiovisual brasileira.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "cinema",
+        "tecnologia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 05 May 2026 16:00:00 +0000",
+      "written_at": "2026-05-06T15:54:24.757Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "casa-branca-discute-revisao-governamental-de-novos-modelos-de-ia",
       "headline": "Casa Branca discute revisão governamental de novos modelos de IA",
