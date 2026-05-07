@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2605.04169v1",
+  "title": "Actionable Real-Time Modeling of Surgical Team Dynamics via Time-Expanded Interaction Graphs",
+  "url": "https://arxiv.org/abs/2605.04169",
+  "summary": "arXiv:2605.04169v1 Announce Type: new Abstract: Surgical team performance arises from complex interactions between technical execution and non-technical skills, including communication and coordination dynamics. However, current surgical AI systems predominantly model visual workflow signals, lacking structured representations of intraoperative team interactions over time. We propose a real-time actionable approach for modeling surgical team dynamics using time-expanded interaction graphs, where team members are modeled as time-indexed nodes and communication exchanges define directed edges. This spatio-temporal expansion enables dynamic interaction modeling, while allowing efficient inference with a static graph neural network. The model predicts procedural efficiency as the deviation from the expected duration and supports real-time deployment. Beyond prediction, we perform a counterfactual analysis to identify minimal changes in communication structure and interpretable behavioral v",
+  "published_at": "Thu, 07 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Mapeia Dinâmica de Equipes Cirúrgicas em Tempo Real",
+  "subtitle": "Nova abordagem em pesquisa usa grafos temporais para analisar interações e prever eficiência em procedimentos.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores propõem um método inovador para modelar a dinâmica de equipes cirúrgicas em tempo real. Utilizando grafos de interação expandidos no tempo, o sistema representa membros da equipe como nós indexados e a comunicação como arestas direcionadas, permitindo uma análise profunda das interações não técnicas.",
+  "body_markdown": "## O que aconteceu\n\nUm artigo publicado no arXiv, \"Actionable Real-Time Modeling of Surgical Team Dynamics via Time-Expanded Interaction Graphs\", introduz uma nova metodologia para analisar o desempenho de equipes cirúrgicas. A abordagem se afasta do foco exclusivo em sinais visuais de fluxo de trabalho, comum em sistemas de IA cirúrgica atuais. Em vez disso, o modelo proposto estrutura as interações intraoperatórias ao longo do tempo. Ele utiliza grafos de interação expandidos no tempo, onde cada membro da equipe é um nó associado a um instante específico, e as trocas de comunicação são representadas por arestas direcionadas entre esses nós. Essa expansão espaço-temporal permite capturar a evolução das interações de forma dinâmica. A inferência é realizada de maneira eficiente por meio de redes neurais de grafos estáticas, o que facilita a aplicação prática. O objetivo final é prever a eficiência do procedimento com base nesses padrões dinâmicos de interação. Saiba mais sobre a pesquisa em [arXiv cs.AI](https://arxiv.org/abs/2605.04169).\n\n## Por que importa\n\nA eficiência em cirurgias não depende apenas da habilidade técnica do cirurgião, mas de uma complexa teia de comunicação e coordenação entre toda a equipe. Falhas nesse aspecto não técnico podem levar a atrasos, erros e, em última instância, impactar a segurança do paciente. No Brasil, onde a saúde pública e privada buscam otimizar recursos e resultados, compreender e melhorar a dinâmica de equipe é crucial. Sistemas que conseguem modelar e prever gargalos de comunicação ou coordenação em tempo real podem oferecer insights valiosos para treinamento de equipes, otimização de protocolos e até mesmo intervenções pontuais durante procedimentos complexos. Essa tecnologia tem o potencial de elevar o padrão de cuidado, tornando as cirurgias mais seguras e eficientes, um benefício direto para pacientes e para o sistema de saúde como um todo.\n\n## O que esperar\n\nA pesquisa abre caminho para o desenvolvimento de ferramentas de apoio à decisão em tempo real para salas de cirurgia. A capacidade de modelar interações dinâmicas pode levar a sistemas que alertam a equipe sobre potenciais problemas de comunicação ou coordenação antes que eles afetem o procedimento. Isso pode se traduzir em treinamento mais eficaz para futuros cirurgiões e equipes, focando não apenas nas habilidades técnicas, mas também nas competências interpessoais essenciais. A aplicação de redes neurais de grafos para análise de dados temporais complexos, como interações humanas, demonstra a versatilidade dessas tecnologias. Futuros desenvolvimentos podem integrar esses modelos com dados de vídeo e sensores para uma compreensão ainda mais rica do ambiente cirúrgico. Explore detalhes sobre este avanço em [Actionable Real-Time Modeling of Surgical Team Dynamics](https://arxiv.org/abs/2605.04169).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um artigo publicado no arXiv, \"Actionable Real-Time Modeling of Surgical Team Dynamics via Time-Expanded Interaction Graphs\", introduz uma nova metodologia para analisar o desempenho de equipes cirúrgicas. A abordagem se afasta do foco exclusivo em sinais visuais de fluxo de trabalho, comum em sistemas de IA cirúrgica atuais. Em vez disso, o modelo proposto estrutura as interações intraoperatórias ao longo do tempo. Ele utiliza grafos de interação expandidos no tempo, onde cada membro da equipe é um nó associado a um instante específico, e as trocas de comunicação são representadas por arestas direcionadas entre esses nós. Essa expansão espaço-temporal permite capturar a evolução das interações de forma dinâmica. A inferência é realizada de maneira eficiente por meio de redes neurais de grafos estáticas, o que facilita a aplicação prática. O objetivo final é prever a eficiência do procedimento com base nesses padrões dinâmicos de interação. Saiba mais sobre a pesquisa em <a href=\"https://arxiv.org/abs/2605.04169\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A eficiência em cirurgias não depende apenas da habilidade técnica do cirurgião, mas de uma complexa teia de comunicação e coordenação entre toda a equipe. Falhas nesse aspecto não técnico podem levar a atrasos, erros e, em última instância, impactar a segurança do paciente. No Brasil, onde a saúde pública e privada buscam otimizar recursos e resultados, compreender e melhorar a dinâmica de equipe é crucial. Sistemas que conseguem modelar e prever gargalos de comunicação ou coordenação em tempo real podem oferecer insights valiosos para treinamento de equipes, otimização de protocolos e até mesmo intervenções pontuais durante procedimentos complexos. Essa tecnologia tem o potencial de elevar o padrão de cuidado, tornando as cirurgias mais seguras e eficientes, um benefício direto para pacientes e para o sistema de saúde como um todo.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa abre caminho para o desenvolvimento de ferramentas de apoio à decisão em tempo real para salas de cirurgia. A capacidade de modelar interações dinâmicas pode levar a sistemas que alertam a equipe sobre potenciais problemas de comunicação ou coordenação antes que eles afetem o procedimento. Isso pode se traduzir em treinamento mais eficaz para futuros cirurgiões e equipes, focando não apenas nas habilidades técnicas, mas também nas competências interpessoais essenciais. A aplicação de redes neurais de grafos para análise de dados temporais complexos, como interações humanas, demonstra a versatilidade dessas tecnologias. Futuros desenvolvimentos podem integrar esses modelos com dados de vídeo e sensores para uma compreensão ainda mais rica do ambiente cirúrgico. Explore detalhes sobre este avanço em <a href=\"https://arxiv.org/abs/2605.04169\" target=\"_blank\" rel=\"external noopener\">Actionable Real-Time Modeling of Surgical Team Dynamics</a>.</p>",
+  "tags": [
+    "ia",
+    "cirurgia",
+    "pesquisa",
+    "dinamica de equipe"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligência artificial",
+    "modelagem de equipe",
+    "cirurgia",
+    "grafos de interação",
+    "dinâmica temporal"
+  ],
+  "meta_description_seo": "Nova IA analisa interações de equipes cirúrgicas em tempo real usando grafos temporais para prever eficiência. Pesquisa em arXiv.",
+  "faq": [
+    {
+      "q": "Como essa IA analisa a dinâmica da equipe cirúrgica?",
+      "a": "A IA utiliza grafos de interação expandidos no tempo. Membros da equipe são representados como nós, e a comunicação entre eles forma arestas direcionadas, capturando a evolução das interações."
+    },
+    {
+      "q": "Qual o principal benefício dessa tecnologia para cirurgias?",
+      "a": "O principal benefício é a capacidade de prever a eficiência do procedimento com base na dinâmica da equipe, permitindo potenciais intervenções para otimizar a coordenação e a comunicação."
+    },
+    {
+      "q": "Onde essa pesquisa foi publicada?",
+      "a": "A pesquisa foi publicada no repositório arXiv, sob a categoria cs.AI, com o título \"Actionable Real-Time Modeling of Surgical Team Dynamics via Time-Expanded Interaction Graphs\"."
+    }
+  ],
+  "written_at": "2026-05-07T08:03:36.833Z",
+  "slug": "ia-mapeia-dinamica-de-equipes-cirurgicas-em-tempo-real",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

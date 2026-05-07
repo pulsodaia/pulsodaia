@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-06T20:54:23.827Z",
+  "generated_at": "2026-05-07T08:03:36.926Z",
   "articles": [
+    {
+      "slug": "ia-mapeia-dinamica-de-equipes-cirurgicas-em-tempo-real",
+      "headline": "IA Mapeia Dinâmica de Equipes Cirúrgicas em Tempo Real",
+      "subtitle": "Nova abordagem em pesquisa usa grafos temporais para analisar interações e prever eficiência em procedimentos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.04169",
+      "category": "research",
+      "tags": [
+        "ia",
+        "cirurgia",
+        "pesquisa",
+        "dinamica de equipe"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 07 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-07T08:03:36.833Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nova-abordagem-em-aprendizado-por-reforco-promete-estabilidade-e-controle-de-var",
+      "headline": "Nova abordagem em aprendizado por reforço promete estabilidade e controle de variância",
+      "subtitle": "Pesquisa acadêmica no arXiv sugere avanço para algoritmos de IA mais confiáveis.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.04100",
+      "category": "research",
+      "tags": [
+        "aprendizado por reforço",
+        "inteligência artificial",
+        "pesquisa acadêmica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 07 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-07T08:03:25.337Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "lcm-nova-arquitetura-de-memoria-para-llms-supera-claude-code-em-tarefas-de-conte",
+      "headline": "LCM: Nova arquitetura de memória para LLMs supera Claude Code em tarefas de contexto longo",
+      "subtitle": "Estudo publicado no arXiv introduz método que promete ganhos significativos em eficiência e performance para modelos de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.04050",
+      "category": "research",
+      "tags": [
+        "llm",
+        "inteligencia artificial",
+        "contexto longo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 07 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-07T08:03:13.656Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "greg-brockman-detalha-saida-de-elon-musk-da-openai",
       "headline": "Greg Brockman Detalha Saída de Elon Musk da OpenAI",

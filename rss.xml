@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 06 May 2026 21:00:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 08:08:56 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Mapeia Dinâmica de Equipes Cirúrgicas em Tempo Real</title>
+      <link>https://pulsodaia.com.br/feed/ia-mapeia-dinamica-de-equipes-cirurgicas-em-tempo-real/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-mapeia-dinamica-de-equipes-cirurgicas-em-tempo-real/</guid>
+      <pubDate>Thu, 07 May 2026 08:03:36 GMT</pubDate>
+      <description>Nova abordagem em pesquisa usa grafos temporais para analisar interações e prever eficiência em procedimentos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.04169">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Nova abordagem em aprendizado por reforço promete estabilidade e controle de variância</title>
+      <link>https://pulsodaia.com.br/feed/nova-abordagem-em-aprendizado-por-reforco-promete-estabilidade-e-controle-de-var/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-abordagem-em-aprendizado-por-reforco-promete-estabilidade-e-controle-de-var/</guid>
+      <pubDate>Thu, 07 May 2026 08:03:25 GMT</pubDate>
+      <description>Pesquisa acadêmica no arXiv sugere avanço para algoritmos de IA mais confiáveis.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.04100">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>LCM: Nova arquitetura de memória para LLMs supera Claude Code em tarefas de contexto longo</title>
+      <link>https://pulsodaia.com.br/feed/lcm-nova-arquitetura-de-memoria-para-llms-supera-claude-code-em-tarefas-de-conte/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/lcm-nova-arquitetura-de-memoria-para-llms-supera-claude-code-em-tarefas-de-conte/</guid>
+      <pubDate>Thu, 07 May 2026 08:03:13 GMT</pubDate>
+      <description>Estudo publicado no arXiv introduz método que promete ganhos significativos em eficiência e performance para modelos de linguagem.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.04050">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Greg Brockman Detalha Saída de Elon Musk da OpenAI</title>
       <link>https://pulsodaia.com.br/feed/greg-brockman-detalha-saida-de-elon-musk-da-openai/</link>
@@ -430,33 +457,6 @@
       <description>A gigante de tecnologia aposta alto em inteligência artificial, mesmo com queda na base ativa.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/tech/921089/meta-earnings-q1-2026-user-decline-ai-investments">The Verge AI</source>
-    </item>
-    <item>
-      <title>IA da Meta Alcança Marco de 10 Milhões de Conversas Semanais com Empresas</title>
-      <link>https://pulsodaia.com.br/feed/ia-da-meta-alcanca-marco-de-10-milhoes-de-conversas-semanais-com-empresas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-da-meta-alcanca-marco-de-10-milhoes-de-conversas-semanais-com-empresas/</guid>
-      <pubDate>Thu, 30 Apr 2026 13:10:19 GMT</pubDate>
-      <description>Ferramentas de IA generativa da Meta demonstram adoção significativa no ambiente corporativo.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA para Previsões: Ciência por Trás da Precisão, Não Apenas Pontuações</title>
-      <link>https://pulsodaia.com.br/feed/ia-para-previsoes-ciencia-por-tras-da-precisao-nao-apenas-pontuacoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-previsoes-ciencia-por-tras-da-precisao-nao-apenas-pontuacoes/</guid>
-      <pubDate>Thu, 30 Apr 2026 07:55:12 GMT</pubDate>
-      <description>Um novo benchmark no arXiv explora o raciocínio estratégico de agentes de IA, indo além das tabelas de acertos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.26106">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Distill-Belief: Nova Abordagem Otimiza Localização de Fontes em Campos Físicos</title>
-      <link>https://pulsodaia.com.br/feed/distill-belief-nova-abordagem-otimiza-localizacao-de-fontes-em-campos-fisicos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/distill-belief-nova-abordagem-otimiza-localizacao-de-fontes-em-campos-fisicos/</guid>
-      <pubDate>Thu, 30 Apr 2026 07:55:00 GMT</pubDate>
-      <description>Pesquisa em IA avança em métodos para inferir parâmetros de campos com maior precisão e eficiência.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2604.26095">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
