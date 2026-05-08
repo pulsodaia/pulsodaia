@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-05-08T05:48:26.014Z",
+  "generated_at": "2026-05-08T10:55:09.770Z",
   "articles": [
+    {
+      "slug": "ia-autonoma-da-mozilla-descobre-centenas-de-falhas-antigas-no-firefox",
+      "headline": "IA Autônoma da Mozilla Descobre Centenas de Falhas Antigas no Firefox",
+      "subtitle": "Ferramenta de IA da Anthropic identificou 271 vulnerabilidades não reportadas, algumas com até duas décadas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/mozillas-agentic-ai-pipeline-turns-claude-mythos-preview-loose-and-finds-271-unknown-firefox-vulnerabilities/",
+      "category": "mercado",
+      "tags": [
+        "segurança",
+        "inteligência artificial",
+        "firefox"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 08 May 2026 09:23:28 +0000",
+      "written_at": "2026-05-08T10:55:06.821Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-clinica-medica-avanca-em-plataformas-amd-sem-dependencia-de-cuda",
+      "headline": "IA Clínica Médica Avança em Plataformas AMD, Sem Dependência de CUDA",
+      "subtitle": "A democratização do treinamento de modelos de saúde ganha novo fôlego com a adaptação de ferramentas de ponta para hardware alternativo.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa",
+      "category": "opensource",
+      "tags": [
+        "ia medica",
+        "amd",
+        "rocm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 08 May 2026 07:54:18 GMT",
+      "written_at": "2026-05-08T10:54:54.260Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-gera-dados-de-sumarizacao-com-foco-em-consultas-a-partir-de-conjuntos-existen",
       "headline": "IA Gera Dados de Sumarização com Foco em Consultas a Partir de Conjuntos Existentes",
