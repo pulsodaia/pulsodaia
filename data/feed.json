@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-08T10:55:09.770Z",
+  "generated_at": "2026-05-08T21:37:11.720Z",
   "articles": [
+    {
+      "slug": "emo-nova-arquitetura-de-ia-busca-modularidade-emergente-em-treinamento",
+      "headline": "EMO: Nova Arquitetura de IA Busca Modularidade Emergente em Treinamento",
+      "subtitle": "Pesquisa em aprendizado de máquina introduz técnica para otimizar modelos complexos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/emo",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "aprendizado de maquina",
+        "modularidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 08 May 2026 16:03:50 GMT",
+      "written_at": "2026-05-08T21:37:11.516Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "cybersecqwen-4b-modelos-de-ia-pequenos-e-locais-para-ciberseguranca-ganham-forca",
+      "headline": "CyberSecQwen-4B: Modelos de IA pequenos e locais para cibersegurança ganham força",
+      "subtitle": "A necessidade de ferramentas de IA especializadas e acessíveis para a defesa cibernética impulsiona o desenvolvimento de modelos compactos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "ciberseguranca",
+        "modelos pequenos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 08 May 2026 17:41:05 GMT",
+      "written_at": "2026-05-08T21:36:59.828Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-une-lendas-da-publicidade-e-ia-para-criar-anuncios-para-pequenos-negocios",
+      "headline": "Google Une Lendas da Publicidade e IA para Criar Anúncios para Pequenos Negócios",
+      "subtitle": "Iniciativa \"The Small Brief\" busca democratizar o acesso a campanhas criativas no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "publicidade",
+        "pequenos negocios"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 08 May 2026 15:00:00 +0000",
+      "written_at": "2026-05-08T21:36:48.776Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-autonoma-da-mozilla-descobre-centenas-de-falhas-antigas-no-firefox",
       "headline": "IA Autônoma da Mozilla Descobre Centenas de Falhas Antigas no Firefox",
