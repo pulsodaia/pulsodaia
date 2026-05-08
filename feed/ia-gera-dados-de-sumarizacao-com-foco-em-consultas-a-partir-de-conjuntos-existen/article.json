@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2605.05392v1",
+  "title": "Generating Query-Focused Summarization Datasets from Query-Free Summarization Datasets",
+  "url": "https://arxiv.org/abs/2605.05392",
+  "summary": "arXiv:2605.05392v1 Announce Type: new Abstract: Large-scale datasets are widely used to perform summarization tasks, but they may not include queries alongside documents and summaries. In the search for suitable datasets for Query-Focused Summarization (QFS), we identify two research questions: Is it possible to automatically generate evidence-based query keywords from query-free datasets? Does evidence-based query generation support the QFS task? This paper proposes an evidence-based model to generate queries from query-free datasets. To evaluate our model intrinsically, we compare the similarity between the original queries and the system-generated queries of two QFS datasets. We also perform summarization tasks using different pre-trained models, as well as a state-of-the-art (SOTA) QFS model, to measure the extrinsic performance of our query generation approach. Experimental results indicate that summaries generated using evidence-based queries achieve competitive ROUGE scores comp",
+  "published_at": "Fri, 08 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Gera Dados de Sumarização com Foco em Consultas a Partir de Conjuntos Existentes",
+  "subtitle": "Pesquisadores propõem método para adaptar datasets de IA, abrindo caminho para sumarização mais precisa.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo estudo publicado no arXiv propõe um método para gerar automaticamente dados de sumarização focada em consultas (QFS) a partir de conjuntos de dados que não incluem tais consultas. A pesquisa aborda a limitação de dados existentes para tarefas de sumarização mais específicas.",
+  "body_markdown": "## O que aconteceu\n\nA sumarização automática de textos é uma área crucial para a inteligência artificial, mas a maioria dos grandes conjuntos de dados disponíveis para treinamento de modelos não inclui consultas específicas. Isso dificulta o desenvolvimento de sistemas capazes de gerar resumos que respondam diretamente a uma pergunta ou tópico de interesse. Para superar essa barreira, pesquisadores apresentaram um modelo que gera palavras-chave de consulta baseadas em evidências diretamente de datasets de sumarização sem consulta. O trabalho busca responder a duas questões centrais: a possibilidade de gerar consultas baseadas em evidências de forma automática e se essa geração de consultas auxilia efetivamente a tarefa de sumarização focada em consultas. A proposta visa tornar a sumarização mais direcionada e útil para aplicações práticas, permitindo que modelos de IA entendam e extraiam informações relevantes com base em um foco específico. O estudo, disponível no [arXiv cs.CL](https://arxiv.org/abs/2605.05392), detalha a metodologia e os resultados preliminares.\n\n## Por que importa\n\nNo Brasil, a demanda por ferramentas de IA que processem e resumam grandes volumes de informação de maneira eficiente é crescente. Empresas e instituições lidam diariamente com relatórios extensos, notícias, documentos legais e dados complexos. A capacidade de gerar resumos que atendam a consultas específicas, como \"quais foram os principais impactos econômicos da nova legislação\" ou \"resuma os riscos de segurança mencionados neste relatório\", é fundamental para a tomada de decisões ágil e informada. A falta de datasets adequados para treinar modelos de sumarização focada em consultas limita o avanço dessas aplicações no mercado nacional. O método proposto pode democratizar o acesso a datasets de alta qualidade, permitindo que desenvolvedores brasileiros e pesquisadores criem soluções de IA mais sofisticadas e adaptadas às necessidades locais, sem a necessidade de investimentos vultosos na criação manual de novos conjuntos de dados.\n\n## O que esperar\n\nA pesquisa abre portas para o aprimoramento contínuo de modelos de sumarização. A validação intrínseca do modelo compara a similaridade entre as consultas originais e as geradas pelo sistema em dois datasets de QFS, indicando o potencial de precisão. Além disso, a avaliação através de tarefas de sumarização com diferentes modelos pré-treinados e um modelo de ponta (SOTA) em QFS determinará a eficácia prática da abordagem. Espera-se que essa metodologia permita a criação de datasets maiores e mais diversificados, impulsionando o desenvolvimento de assistentes de IA mais competentes em extrair informações precisas de grandes volumes de texto. O avanço nesta área pode levar a ferramentas de pesquisa e análise de conteúdo mais inteligentes, beneficiando setores como o jurídico, financeiro e jornalístico no Brasil. Para mais detalhes técnicos, consulte o [artigo completo no arXiv](https://arxiv.org/abs/2605.05392).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A sumarização automática de textos é uma área crucial para a inteligência artificial, mas a maioria dos grandes conjuntos de dados disponíveis para treinamento de modelos não inclui consultas específicas. Isso dificulta o desenvolvimento de sistemas capazes de gerar resumos que respondam diretamente a uma pergunta ou tópico de interesse. Para superar essa barreira, pesquisadores apresentaram um modelo que gera palavras-chave de consulta baseadas em evidências diretamente de datasets de sumarização sem consulta. O trabalho busca responder a duas questões centrais: a possibilidade de gerar consultas baseadas em evidências de forma automática e se essa geração de consultas auxilia efetivamente a tarefa de sumarização focada em consultas. A proposta visa tornar a sumarização mais direcionada e útil para aplicações práticas, permitindo que modelos de IA entendam e extraiam informações relevantes com base em um foco específico. O estudo, disponível no <a href=\"https://arxiv.org/abs/2605.05392\" target=\"_blank\" rel=\"external noopener\">arXiv cs.CL</a>, detalha a metodologia e os resultados preliminares.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, a demanda por ferramentas de IA que processem e resumam grandes volumes de informação de maneira eficiente é crescente. Empresas e instituições lidam diariamente com relatórios extensos, notícias, documentos legais e dados complexos. A capacidade de gerar resumos que atendam a consultas específicas, como \"quais foram os principais impactos econômicos da nova legislação\" ou \"resuma os riscos de segurança mencionados neste relatório\", é fundamental para a tomada de decisões ágil e informada. A falta de datasets adequados para treinar modelos de sumarização focada em consultas limita o avanço dessas aplicações no mercado nacional. O método proposto pode democratizar o acesso a datasets de alta qualidade, permitindo que desenvolvedores brasileiros e pesquisadores criem soluções de IA mais sofisticadas e adaptadas às necessidades locais, sem a necessidade de investimentos vultosos na criação manual de novos conjuntos de dados.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa abre portas para o aprimoramento contínuo de modelos de sumarização. A validação intrínseca do modelo compara a similaridade entre as consultas originais e as geradas pelo sistema em dois datasets de QFS, indicando o potencial de precisão. Além disso, a avaliação através de tarefas de sumarização com diferentes modelos pré-treinados e um modelo de ponta (SOTA) em QFS determinará a eficácia prática da abordagem. Espera-se que essa metodologia permita a criação de datasets maiores e mais diversificados, impulsionando o desenvolvimento de assistentes de IA mais competentes em extrair informações precisas de grandes volumes de texto. O avanço nesta área pode levar a ferramentas de pesquisa e análise de conteúdo mais inteligentes, beneficiando setores como o jurídico, financeiro e jornalístico no Brasil. Para mais detalhes técnicos, consulte o <a href=\"https://arxiv.org/abs/2605.05392\" target=\"_blank\" rel=\"external noopener\">artigo completo no arXiv</a>.</p>",
+  "tags": [
+    "ia",
+    "sumarizacao",
+    "processamento de linguagem natural"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "sumarização focada em consultas",
+    "geração de consultas",
+    "datasets de IA",
+    "processamento de linguagem natural",
+    "aprendizado de máquina"
+  ],
+  "meta_description_seo": "Pesquisadores propõem método para gerar automaticamente dados de sumarização focada em consultas a partir de datasets existentes, impactando o desenvolvimento de IA no Brasil.",
+  "faq": [
+    {
+      "q": "Como este estudo melhora a sumarização de textos por IA?",
+      "a": "O estudo propõe um método para criar automaticamente conjuntos de dados para sumarização focada em consultas. Isso permite treinar modelos de IA para gerar resumos que respondem diretamente a perguntas específicas, em vez de resumos gerais."
+    },
+    {
+      "q": "Qual a importância disso para o Brasil?",
+      "a": "Para o Brasil, isso significa a possibilidade de desenvolver ferramentas de IA mais precisas e úteis para analisar grandes volumes de texto, como documentos legais ou notícias, sem a necessidade de criar manualmente novos dados de treinamento."
+    },
+    {
+      "q": "O método proposto já é perfeito?",
+      "a": "O estudo apresenta uma proposta e avalia sua eficácia comparando consultas geradas com originais e testando em tarefas de sumarização. Os resultados preliminares indicam potencial, mas a pesquisa continua a ser validada."
+    }
+  ],
+  "written_at": "2026-05-08T05:48:25.953Z",
+  "slug": "ia-gera-dados-de-sumarizacao-com-foco-em-consultas-a-partir-de-conjuntos-existen",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

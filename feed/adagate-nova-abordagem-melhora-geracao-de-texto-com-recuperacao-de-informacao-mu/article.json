@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2605.05245v1",
+  "title": "AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop Retrieval-Augmented Generation",
+  "url": "https://arxiv.org/abs/2605.05245",
+  "summary": "arXiv:2605.05245v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) remains brittle on multi-hop questions in realistic deployment settings, where retrieved evidence may be noisy or redundant and only limited context can be passed to the generator. Existing controllers address parts of this problem, but typically either expand context additively, select from a fixed top-k set, or optimize relevance without explicitly repairing missing bridge facts. We propose AdaGATE, a training-free evidence controller for multi-hop RAG that frames evidence selection as a token-constrained repair problem. AdaGATE combines entity centric gap tracking, targeted micro-query generation, and a utility based selection mechanism that balances gap coverage, corroboration, novelty, redundancy, and direct question relevance. We evaluate AdaGATE on HotpotQA under clean, redundancy, and noise injected retrieval conditions. Across all three settings, AdaGATE achieves the best evidence F1 among the",
+  "published_at": "Fri, 08 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "AdaGATE: Nova Abordagem Melhora Geração de Texto com Recuperação de Informação Multi-Hop",
+  "subtitle": "Pesquisadores propõem método para tornar sistemas de IA mais precisos em responder perguntas complexas.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo método de controle de evidências para geração aumentada por recuperação (RAG) foi apresentado, prometendo maior robustez em responder perguntas que exigem múltiplos saltos de informação. O AdaGATE foca em reparar lacunas de conhecimento de forma eficiente.",
+  "body_markdown": "## O que aconteceu\n\nA busca por sistemas de inteligência artificial mais capazes de responder perguntas complexas, que demandam a conexão de diversas informações, avança com a proposta do AdaGATE. Este sistema, detalhado em um artigo publicado no arXiv [cs.CL](https://arxiv.org/abs/2605.05245), aborda uma limitação inerente aos modelos RAG atuais. Em cenários práticos, a recuperação de evidências para perguntas que exigem múltiplos passos pode ser falha, apresentando dados ruidosos ou redundantes. Além disso, a quantidade de contexto que pode ser passada para o gerador de texto é limitada. Soluções existentes tentam mitigar esses problemas, mas frequentemente expandem o contexto de forma aditiva, selecionam de um conjunto fixo de melhores resultados, ou otimizam a relevância sem corrigir explicitamente fatos que faltam para ligar as informações. O AdaGATE se diferencia ao tratar a seleção de evidências como um problema de reparo com restrição de tokens, sem necessidade de treinamento específico para o controlador.\n\n## Por que importa\n\nA capacidade de lidar com perguntas multi-hop de forma confiável é crucial para a adoção de IA em diversas áreas no Brasil. Imagine sistemas de suporte ao cliente que precisam consultar bases de conhecimento extensas e interligadas para resolver dúvidas complexas, ou ferramentas de pesquisa acadêmica que sintetizam informações de múltiplos artigos. Falhas na recuperação e na conexão desses dados levam a respostas imprecisas ou incompletas, minando a confiança do usuário. O AdaGATE, ao propor um mecanismo de seleção de evidências que equilibra cobertura de lacunas, corroboração, novidade e redundância, tem o potencial de melhorar significativamente a qualidade das respostas geradas. Isso pode impactar desde a eficiência de processos internos em empresas até a precisão de ferramentas educacionais e de pesquisa no país, tornando a IA uma aliada mais confiável no dia a dia.\n\n## O que esperar\n\nO AdaGATE introduz três componentes principais: rastreamento de lacunas centrado em entidades, geração de micro-queries direcionadas e um mecanismo de seleção baseado em utilidade. Essa combinação permite que o sistema identifique quais informações estão faltando para responder a uma pergunta e gere consultas específicas para obtê-las. A seleção final das evidências considera um balanço de diversos fatores, buscando a melhor cobertura e a menor redundância. A abordagem \"training-free\" para o controlador de evidências sugere uma implementação mais direta e adaptável. Espera-se que essa metodologia abra caminho para sistemas RAG mais robustos e menos propensos a erros em cenários de uso real. A pesquisa em [geração aumentada por recuperação](https://arxiv.org/abs/2605.05245) continua a evoluir, e o AdaGATE representa um passo importante para superar as limitações atuais. Futuras iterações podem refinar ainda mais o balanceamento de critérios de seleção e explorar a escalabilidade dessa técnica.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A busca por sistemas de inteligência artificial mais capazes de responder perguntas complexas, que demandam a conexão de diversas informações, avança com a proposta do AdaGATE. Este sistema, detalhado em um artigo publicado no arXiv <a href=\"https://arxiv.org/abs/2605.05245\" target=\"_blank\" rel=\"external noopener\">cs.CL</a>, aborda uma limitação inerente aos modelos RAG atuais. Em cenários práticos, a recuperação de evidências para perguntas que exigem múltiplos passos pode ser falha, apresentando dados ruidosos ou redundantes. Além disso, a quantidade de contexto que pode ser passada para o gerador de texto é limitada. Soluções existentes tentam mitigar esses problemas, mas frequentemente expandem o contexto de forma aditiva, selecionam de um conjunto fixo de melhores resultados, ou otimizam a relevância sem corrigir explicitamente fatos que faltam para ligar as informações. O AdaGATE se diferencia ao tratar a seleção de evidências como um problema de reparo com restrição de tokens, sem necessidade de treinamento específico para o controlador.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de lidar com perguntas multi-hop de forma confiável é crucial para a adoção de IA em diversas áreas no Brasil. Imagine sistemas de suporte ao cliente que precisam consultar bases de conhecimento extensas e interligadas para resolver dúvidas complexas, ou ferramentas de pesquisa acadêmica que sintetizam informações de múltiplos artigos. Falhas na recuperação e na conexão desses dados levam a respostas imprecisas ou incompletas, minando a confiança do usuário. O AdaGATE, ao propor um mecanismo de seleção de evidências que equilibra cobertura de lacunas, corroboração, novidade e redundância, tem o potencial de melhorar significativamente a qualidade das respostas geradas. Isso pode impactar desde a eficiência de processos internos em empresas até a precisão de ferramentas educacionais e de pesquisa no país, tornando a IA uma aliada mais confiável no dia a dia.</p>\n\n<h2>O que esperar</h2>\n\n<p>O AdaGATE introduz três componentes principais: rastreamento de lacunas centrado em entidades, geração de micro-queries direcionadas e um mecanismo de seleção baseado em utilidade. Essa combinação permite que o sistema identifique quais informações estão faltando para responder a uma pergunta e gere consultas específicas para obtê-las. A seleção final das evidências considera um balanço de diversos fatores, buscando a melhor cobertura e a menor redundância. A abordagem \"training-free\" para o controlador de evidências sugere uma implementação mais direta e adaptável. Espera-se que essa metodologia abra caminho para sistemas RAG mais robustos e menos propensos a erros em cenários de uso real. A pesquisa em <a href=\"https://arxiv.org/abs/2605.05245\" target=\"_blank\" rel=\"external noopener\">geração aumentada por recuperação</a> continua a evoluir, e o AdaGATE representa um passo importante para superar as limitações atuais. Futuras iterações podem refinar ainda mais o balanceamento de critérios de seleção e explorar a escalabilidade dessa técnica.</p>",
+  "tags": [
+    "rag",
+    "geração de texto",
+    "inteligência artificial"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "AdaGATE",
+    "Retrieval-Augmented Generation",
+    "RAG",
+    "Multi-Hop",
+    "IA",
+    "Processamento de Linguagem Natural"
+  ],
+  "meta_description_seo": "AdaGATE melhora a geração de texto em IA para perguntas complexas, corrigindo lacunas de informação em RAG sem necessidade de treinamento.",
+  "faq": [
+    {
+      "q": "O que é AdaGATE e qual seu principal objetivo?",
+      "a": "AdaGATE é um novo método para aprimorar a geração de texto em sistemas de IA que utilizam recuperação de informação. Seu objetivo é melhorar a precisão em responder perguntas complexas que exigem a conexão de múltiplos fatos."
+    },
+    {
+      "q": "Como o AdaGATE lida com informações imprecisas ou incompletas em perguntas multi-hop?",
+      "a": "O AdaGATE trata a seleção de evidências como um problema de reparo, rastreando lacunas de conhecimento, gerando micro-queries direcionadas para preenchê-las e utilizando um mecanismo de seleção que equilibra cobertura, corroboração e novidade."
+    },
+    {
+      "q": "O AdaGATE precisa de treinamento adicional para funcionar?",
+      "a": "Não, o AdaGATE é apresentado como um controlador de evidências \"training-free\", o que significa que ele não requer treinamento específico para o mecanismo de controle de evidências."
+    }
+  ],
+  "written_at": "2026-05-08T05:48:02.709Z",
+  "slug": "adagate-nova-abordagem-melhora-geracao-de-texto-com-recuperacao-de-informacao-mu",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

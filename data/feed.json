@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-07T20:49:39.371Z",
+  "generated_at": "2026-05-08T05:48:26.014Z",
   "articles": [
+    {
+      "slug": "ia-gera-dados-de-sumarizacao-com-foco-em-consultas-a-partir-de-conjuntos-existen",
+      "headline": "IA Gera Dados de Sumarização com Foco em Consultas a Partir de Conjuntos Existentes",
+      "subtitle": "Pesquisadores propõem método para adaptar datasets de IA, abrindo caminho para sumarização mais precisa.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.05392",
+      "category": "research",
+      "tags": [
+        "ia",
+        "sumarizacao",
+        "processamento de linguagem natural"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 08 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-08T05:48:25.953Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-em-sala-de-aula-contragarantias-contra-o-desvio-cognitivo",
+      "headline": "IA em Sala de Aula: Contragarantias Contra o Desvio Cognitivo",
+      "subtitle": "Estudo aponta o uso de contra-argumentos como ferramenta para manter o pensamento crítico em meio ao avanço da IA generativa no ambiente acadêmico.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.05353",
+      "category": "research",
+      "tags": [
+        "ia generativa",
+        "pensamento crítico",
+        "educação superior"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 08 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-08T05:48:14.168Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "adagate-nova-abordagem-melhora-geracao-de-texto-com-recuperacao-de-informacao-mu",
+      "headline": "AdaGATE: Nova Abordagem Melhora Geração de Texto com Recuperação de Informação Multi-Hop",
+      "subtitle": "Pesquisadores propõem método para tornar sistemas de IA mais precisos em responder perguntas complexas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.05245",
+      "category": "research",
+      "tags": [
+        "rag",
+        "geração de texto",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 08 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-08T05:48:02.709Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "acao-de-musk-forca-escrutinio-da-seguranca-da-openai",
       "headline": "Ação de Musk força escrutínio da segurança da OpenAI",
