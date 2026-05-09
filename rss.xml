@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 09 May 2026 19:50:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 22:31:46 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Glossário Essencial de IA: Desvendando os Termos que Você Já Ouviu e Concordou</title>
+      <link>https://pulsodaia.com.br/feed/glossario-essencial-de-ia-desvendando-os-termos-que-voce-ja-ouviu-e-concordou/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/glossario-essencial-de-ia-desvendando-os-termos-que-voce-ja-ouviu-e-concordou/</guid>
+      <pubDate>Sat, 09 May 2026 22:25:57 GMT</pubDate>
+      <description>Um guia prático para entender a terminologia da inteligência artificial que permeia o noticiário brasileiro.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/">TechCrunch AI</source>
+    </item>
     <item>
       <title>OncoAgent: IA para Suporte à Decisão Oncológica com Foco em Privacidade</title>
       <link>https://pulsodaia.com.br/feed/oncoagent-ia-para-suporte-a-decisao-oncologica-com-foco-em-privacidade/</link>
@@ -448,15 +457,6 @@
       <description>Um novo estudo revela que os principais modelos de linguagem respondem de forma distinta a cenários morais complexos, levantando questões sobre controle e valores.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/">The Decoder</source>
-    </item>
-    <item>
-      <title>Xiaomi MiMo-V2.5-Pro: Código Autônomo de Longa Duração Desafia Modelos Fechados</title>
-      <link>https://pulsodaia.com.br/feed/xiaomi-mimo-v2-5-pro-codigo-autonomo-de-longa-duracao-desafia-modelos-fechados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/xiaomi-mimo-v2-5-pro-codigo-autonomo-de-longa-duracao-desafia-modelos-fechados/</guid>
-      <pubDate>Sun, 03 May 2026 07:31:31 GMT</pubDate>
-      <description>A gigante chinesa aposta em modelos abertos para competir em eficiência e tempo de execução.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/">The Decoder</source>
     </item>
   </channel>
 </rss>
