@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-08T21:37:11.720Z",
+  "generated_at": "2026-05-09T11:15:09.383Z",
   "articles": [
+    {
+      "slug": "novo-benchmark-avalia-limitacoes-de-acesso-a-dados-em-sistemas-de-ia-empresariai",
+      "headline": "Novo Benchmark Avalia Limitações de Acesso a Dados em Sistemas de IA Empresariais",
+      "subtitle": "A precisão de agentes de IA corporativos sob restrições de dados é testada por nova métrica.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.05379",
+      "category": "research",
+      "tags": [
+        "ia empresarial",
+        "segurança de dados",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 09 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-09T11:15:09.350Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "zaya1-8b-modelo-moe-com-foco-em-raciocinio-supera-gigantes-com-menos-parametros-",
+      "headline": "ZAYA1-8B: Modelo MoE com Foco em Raciocínio Supera Gigantes com Menos Parâmetros Ativos",
+      "subtitle": "Nova arquitetura de IA da Zyphra demonstra eficiência em matemática e código, desafiando modelos maiores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.05365",
+      "category": "research",
+      "tags": [
+        "moe",
+        "raciocinio",
+        "eficiencia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 09 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-09T11:14:57.244Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "desvendando-discrepancias-na-anotacao-de-ia-a-busca-por-clareza-em-politicas-de-",
+      "headline": "Desvendando Discrepâncias na Anotação de IA: A Busca por Clareza em Políticas de Segurança",
+      "subtitle": "Um estudo em arXiv aponta para a dificuldade em entender as razões por trás da divergência entre anotadores de dados de IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.05329",
+      "category": "research",
+      "tags": [
+        "ia",
+        "segurança",
+        "anotação de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 09 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-09T11:14:45.372Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "emo-nova-arquitetura-de-ia-busca-modularidade-emergente-em-treinamento",
       "headline": "EMO: Nova Arquitetura de IA Busca Modularidade Emergente em Treinamento",

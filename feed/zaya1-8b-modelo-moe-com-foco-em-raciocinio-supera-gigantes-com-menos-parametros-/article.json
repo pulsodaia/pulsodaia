@@ -1,0 +1,54 @@
+{
+  "id": "oai:arXiv.org:2605.05365v1",
+  "title": "ZAYA1-8B Technical Report",
+  "url": "https://arxiv.org/abs/2605.05365",
+  "summary": "arXiv:2605.05365v1 Announce Type: new Abstract: We present ZAYA1-8B, a reasoning-focused mixture-of-experts (MoE) model with 700M active and 8B total parameters, built on Zyphra's MoE++ architecture. ZAYA1-8B's core pretraining, midtraining, and supervised fine-tuning (SFT) were performed on a full-stack AMD compute, networking, and software platform. With under 1B active parameters, ZAYA1-8B matches or exceeds DeepSeek-R1-0528 on several challenging mathematics and coding benchmarks, and remains competitive with substantially larger open-weight reasoning models. ZAYA1-8B was trained from scratch for reasoning, with reasoning data included from pretraining onward using an answer-preserving trimming scheme. Post-training uses a four-stage RL cascade: reasoning warmup on math and puzzles; a 400-task RLVE-Gym curriculum; math and code RL with test-time compute traces and synthetic code environments built from competitive-programming references; and behavioral RL for chat and instruction f",
+  "published_at": "Sat, 09 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "ZAYA1-8B: Modelo MoE com Foco em Raciocínio Supera Gigantes com Menos Parâmetros Ativos",
+  "subtitle": "Nova arquitetura de IA da Zyphra demonstra eficiência em matemática e código, desafiando modelos maiores.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Zyphra apresentou o ZAYA1-8B, um modelo de linguagem com arquitetura Mixture-of-Experts (MoE) que se destaca pelo foco em raciocínio. Com apenas 700 milhões de parâmetros ativos, o modelo compete com IA's substancialmente maiores em benchmarks de matemática e programação.",
+  "body_markdown": "## O que aconteceu\n\nA Zyphra detalhou em um relatório técnico no arXiv o desenvolvimento do ZAYA1-8B, um modelo de IA baseado em sua arquitetura MoE++. Este modelo possui 8 bilhões de parâmetros totais, mas utiliza apenas 700 milhões de forma ativa durante a inferência. O treinamento, que incluiu dados de raciocínio desde a fase de pré-treinamento, foi realizado em uma plataforma de computação AMD completa. Os resultados indicam que o ZAYA1-8B iguala ou supera o desempenho de modelos como o DeepSeek-R1-0528 em tarefas desafiadoras de matemática e codificação, mesmo sendo significativamente menor em termos de parâmetros ativos. A abordagem de treinamento foi estruturada em três fases principais: pré-treinamento, midtraining e fine-tuning supervisionado (SFT), seguidas por uma cascata de aprendizado por reforço em quatro estágios, que incluiu um aquecimento focado em quebra-cabeças e problemas matemáticos. O relatório completo está disponível em [arXiv:2605.05365](https://arxiv.org/abs/2605.05365).\n\n## Por que importa\n\nA eficiência demonstrada pelo ZAYA1-8B é um ponto crucial para o mercado brasileiro de IA. A capacidade de alcançar alta performance com um número reduzido de parâmetros ativos significa menor custo computacional para treinamento e inferência. Isso pode democratizar o acesso a modelos de IA avançados para empresas e pesquisadores no Brasil, que muitas vezes enfrentam barreiras de custo em infraestrutura de hardware. Modelos mais eficientes também abrem portas para a implementação de IA em dispositivos com recursos limitados, expandindo seu uso em aplicações locais e personalizadas. A ênfase em raciocínio, em detrimento de modelos generalistas que demandam mais recursos, sugere um caminho para IA mais especializada e direcionada a problemas complexos, algo de grande interesse para setores como finanças, saúde e educação no país.\n\n## O que esperar\n\nO sucesso do ZAYA1-8B sugere uma tendência crescente na otimização de arquiteturas MoE para eficiência. Espera-se que a Zyphra continue a refinar sua metodologia, possivelmente explorando conjuntos de dados ainda mais focados em raciocínio e novas técnicas de fine-tuning. A comunidade de IA, tanto global quanto brasileira, certamente observará de perto como essa abordagem pode ser replicada ou adaptada para outros domínios. A competição com modelos de pesos abertos maiores, mas com mais parâmetros ativos, demonstra que o design da arquitetura e a estratégia de treinamento são tão importantes quanto a escala bruta. Para mais detalhes sobre a metodologia e os resultados, consulte o [relatório técnico](https://arxiv.org/abs/2605.05365). A evolução para modelos mais eficientes e com capacidades de raciocínio aprimoradas pode acelerar a adoção de IA em larga escala no Brasil.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Zyphra detalhou em um relatório técnico no arXiv o desenvolvimento do ZAYA1-8B, um modelo de IA baseado em sua arquitetura MoE++. Este modelo possui 8 bilhões de parâmetros totais, mas utiliza apenas 700 milhões de forma ativa durante a inferência. O treinamento, que incluiu dados de raciocínio desde a fase de pré-treinamento, foi realizado em uma plataforma de computação AMD completa. Os resultados indicam que o ZAYA1-8B iguala ou supera o desempenho de modelos como o DeepSeek-R1-0528 em tarefas desafiadoras de matemática e codificação, mesmo sendo significativamente menor em termos de parâmetros ativos. A abordagem de treinamento foi estruturada em três fases principais: pré-treinamento, midtraining e fine-tuning supervisionado (SFT), seguidas por uma cascata de aprendizado por reforço em quatro estágios, que incluiu um aquecimento focado em quebra-cabeças e problemas matemáticos. O relatório completo está disponível em <a href=\"https://arxiv.org/abs/2605.05365\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.05365</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A eficiência demonstrada pelo ZAYA1-8B é um ponto crucial para o mercado brasileiro de IA. A capacidade de alcançar alta performance com um número reduzido de parâmetros ativos significa menor custo computacional para treinamento e inferência. Isso pode democratizar o acesso a modelos de IA avançados para empresas e pesquisadores no Brasil, que muitas vezes enfrentam barreiras de custo em infraestrutura de hardware. Modelos mais eficientes também abrem portas para a implementação de IA em dispositivos com recursos limitados, expandindo seu uso em aplicações locais e personalizadas. A ênfase em raciocínio, em detrimento de modelos generalistas que demandam mais recursos, sugere um caminho para IA mais especializada e direcionada a problemas complexos, algo de grande interesse para setores como finanças, saúde e educação no país.</p>\n\n<h2>O que esperar</h2>\n\n<p>O sucesso do ZAYA1-8B sugere uma tendência crescente na otimização de arquiteturas MoE para eficiência. Espera-se que a Zyphra continue a refinar sua metodologia, possivelmente explorando conjuntos de dados ainda mais focados em raciocínio e novas técnicas de fine-tuning. A comunidade de IA, tanto global quanto brasileira, certamente observará de perto como essa abordagem pode ser replicada ou adaptada para outros domínios. A competição com modelos de pesos abertos maiores, mas com mais parâmetros ativos, demonstra que o design da arquitetura e a estratégia de treinamento são tão importantes quanto a escala bruta. Para mais detalhes sobre a metodologia e os resultados, consulte o <a href=\"https://arxiv.org/abs/2605.05365\" target=\"_blank\" rel=\"external noopener\">relatório técnico</a>. A evolução para modelos mais eficientes e com capacidades de raciocínio aprimoradas pode acelerar a adoção de IA em larga escala no Brasil.</p>",
+  "tags": [
+    "moe",
+    "raciocinio",
+    "eficiencia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "ZAYA1-8B",
+    "Mixture-of-Experts",
+    "Zyphra",
+    "IA",
+    "raciocínio",
+    "matemática",
+    "codificação",
+    "MoE++",
+    "eficiência computacional"
+  ],
+  "meta_description_seo": "ZAYA1-8B: Modelo MoE da Zyphra com foco em raciocínio supera IA's maiores com menos parâmetros ativos. Eficiência para o mercado brasileiro.",
+  "faq": [
+    {
+      "q": "O que é o ZAYA1-8B?",
+      "a": "O ZAYA1-8B é um modelo de linguagem com arquitetura Mixture-of-Experts (MoE) desenvolvido pela Zyphra. Ele se destaca por seu foco em raciocínio e por utilizar apenas 700 milhões de parâmetros ativos, apesar de ter 8 bilhões no total."
+    },
+    {
+      "q": "Quais os principais diferenciais do ZAYA1-8B?",
+      "a": "Seu principal diferencial é a alta performance em tarefas de raciocínio, matemática e codificação, com um número de parâmetros ativos significativamente menor que modelos concorrentes. Isso resulta em maior eficiência computacional."
+    },
+    {
+      "q": "O ZAYA1-8B é relevante para o mercado brasileiro?",
+      "a": "Sim, a eficiência do ZAYA1-8B pode reduzir custos de implementação de IA no Brasil, democratizando o acesso a modelos avançados e permitindo sua aplicação em dispositivos com recursos limitados."
+    }
+  ],
+  "written_at": "2026-05-09T11:14:57.244Z",
+  "slug": "zaya1-8b-modelo-moe-com-foco-em-raciocinio-supera-gigantes-com-menos-parametros-",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

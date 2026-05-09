@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 08 May 2026 21:42:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 11:20:40 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Novo Benchmark Avalia Limitações de Acesso a Dados em Sistemas de IA Empresariais</title>
+      <link>https://pulsodaia.com.br/feed/novo-benchmark-avalia-limitacoes-de-acesso-a-dados-em-sistemas-de-ia-empresariai/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/novo-benchmark-avalia-limitacoes-de-acesso-a-dados-em-sistemas-de-ia-empresariai/</guid>
+      <pubDate>Sat, 09 May 2026 11:15:09 GMT</pubDate>
+      <description>A precisão de agentes de IA corporativos sob restrições de dados é testada por nova métrica.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.05379">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>ZAYA1-8B: Modelo MoE com Foco em Raciocínio Supera Gigantes com Menos Parâmetros Ativos</title>
+      <link>https://pulsodaia.com.br/feed/zaya1-8b-modelo-moe-com-foco-em-raciocinio-supera-gigantes-com-menos-parametros-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/zaya1-8b-modelo-moe-com-foco-em-raciocinio-supera-gigantes-com-menos-parametros-/</guid>
+      <pubDate>Sat, 09 May 2026 11:14:57 GMT</pubDate>
+      <description>Nova arquitetura de IA da Zyphra demonstra eficiência em matemática e código, desafiando modelos maiores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.05365">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Desvendando Discrepâncias na Anotação de IA: A Busca por Clareza em Políticas de Segurança</title>
+      <link>https://pulsodaia.com.br/feed/desvendando-discrepancias-na-anotacao-de-ia-a-busca-por-clareza-em-politicas-de-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/desvendando-discrepancias-na-anotacao-de-ia-a-busca-por-clareza-em-politicas-de-/</guid>
+      <pubDate>Sat, 09 May 2026 11:14:45 GMT</pubDate>
+      <description>Um estudo em arXiv aponta para a dificuldade em entender as razões por trás da divergência entre anotadores de dados de IA.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.05329">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>EMO: Nova Arquitetura de IA Busca Modularidade Emergente em Treinamento</title>
       <link>https://pulsodaia.com.br/feed/emo-nova-arquitetura-de-ia-busca-modularidade-emergente-em-treinamento/</link>
@@ -430,33 +457,6 @@
       <description>Nova funcionalidade permite a desenvolvedores criar sósias vocais para aplicações de IA no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/xais-new-custom-voices-feature-turns-a-minute-of-speech-into-a-usable-voice-clone/">The Decoder</source>
-    </item>
-    <item>
-      <title>Modelos de IA de ponta falham em raciocínio sistemático, aponta análise</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-ia-de-ponta-falham-em-raciocinio-sistematico-aponta-analise/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-de-ponta-falham-em-raciocinio-sistematico-aponta-analise/</guid>
-      <pubDate>Sat, 02 May 2026 14:41:14 GMT</pubDate>
-      <description>Uma nova avaliação do benchmark ARC-AGI-3 revela deficiências persistentes em sistemas avançados de OpenAI e Anthropic.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/">The Decoder</source>
-    </item>
-    <item>
-      <title>ChatGPT agora rastreia usuários para anúncios por padrão em busca de novas receitas</title>
-      <link>https://pulsodaia.com.br/feed/chatgpt-agora-rastreia-usuarios-para-anuncios-por-padrao-em-busca-de-novas-recei/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/chatgpt-agora-rastreia-usuarios-para-anuncios-por-padrao-em-busca-de-novas-recei/</guid>
-      <pubDate>Sat, 02 May 2026 10:39:08 GMT</pubDate>
-      <description>A OpenAI ajusta sua estratégia de monetização, impactando a privacidade de usuários gratuitos no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/">The Decoder</source>
-    </item>
-    <item>
-      <title>Musk se autodeclara "tollo" por investimento inicial na OpenAI, agora avaliada em US$ 800 bilhões</title>
-      <link>https://pulsodaia.com.br/feed/musk-se-autodeclara-tollo-por-investimento-inicial-na-openai-agora-avaliada-em-u/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/musk-se-autodeclara-tollo-por-investimento-inicial-na-openai-agora-avaliada-em-u/</guid>
-      <pubDate>Sat, 02 May 2026 10:38:56 GMT</pubDate>
-      <description>O fundador da xAI expressou arrependimento em tribunal, revelando tensão com a empresa que ajudou a fundar.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/elon-musk-calls-himself-a-fool-for-giving-openai-38-million-that-became-an-800-billion-company/">The Decoder</source>
     </item>
   </channel>
 </rss>
