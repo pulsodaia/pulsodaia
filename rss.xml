@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 09 May 2026 15:21:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 19:50:49 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OncoAgent: IA para Suporte à Decisão Oncológica com Foco em Privacidade</title>
+      <link>https://pulsodaia.com.br/feed/oncoagent-ia-para-suporte-a-decisao-oncologica-com-foco-em-privacidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/oncoagent-ia-para-suporte-a-decisao-oncologica-com-foco-em-privacidade/</guid>
+      <pubDate>Sat, 09 May 2026 19:45:43 GMT</pubDate>
+      <description>Nova estrutura de agentes múltiplos promete avanços na aplicação de IA em diagnósticos médicos sensíveis no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper">Hugging Face</source>
+    </item>
     <item>
       <title>IA Atinge Nível de Pesquisa de Doutorado em Matemática, Gowers Sugere Novo Paradigma</title>
       <link>https://pulsodaia.com.br/feed/ia-atinge-nivel-de-pesquisa-de-doutorado-em-matematica-gowers-sugere-novo-paradi/</link>
@@ -448,15 +457,6 @@
       <description>A gigante chinesa aposta em modelos abertos para competir em eficiência e tempo de execução.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/">The Decoder</source>
-    </item>
-    <item>
-      <title>Academia de Hollywood barra IA em roteiros e atuações para o Oscar</title>
-      <link>https://pulsodaia.com.br/feed/academia-de-hollywood-barra-ia-em-roteiros-e-atuacoes-para-o-oscar/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/academia-de-hollywood-barra-ia-em-roteiros-e-atuacoes-para-o-oscar/</guid>
-      <pubDate>Sat, 02 May 2026 22:07:01 GMT</pubDate>
-      <description>Decisão marca um ponto de inflexão na relação entre inteligência artificial e a indústria cinematográfica.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
