@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 11 May 2026 11:55:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 18:31:30 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA no Combate a Cibercriminosos: Google Detém Ataque Zero-Day</title>
+      <link>https://pulsodaia.com.br/feed/ia-no-combate-a-cibercriminosos-google-detem-ataque-zero-day/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-no-combate-a-cibercriminosos-google-detem-ataque-zero-day/</guid>
+      <pubDate>Mon, 11 May 2026 18:26:00 GMT</pubDate>
+      <description>Ataque que visava burlar autenticação de dois fatores foi identificado e neutralizado, evidenciando o uso de IA por criminosos e a defesa por ferramentas semelhantes.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped">The Verge AI</source>
+    </item>
+    <item>
+      <title>Cowboy Space capta US$ 275 milhões para data centers orbitais diante da escassez de foguetes</title>
+      <link>https://pulsodaia.com.br/feed/cowboy-space-capta-us-275-milhoes-para-data-centers-orbitais-diante-da-escassez-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cowboy-space-capta-us-275-milhoes-para-data-centers-orbitais-diante-da-escassez-/</guid>
+      <pubDate>Mon, 11 May 2026 18:25:48 GMT</pubDate>
+      <description>A demanda crescente por poder computacional para IA impulsiona a busca por infraestrutura fora da Terra.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Digg Revive com Foco em Agregação de Notícias de IA</title>
+      <link>https://pulsodaia.com.br/feed/digg-revive-com-foco-em-agregacao-de-noticias-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/digg-revive-com-foco-em-agregacao-de-noticias-de-ia/</guid>
+      <pubDate>Mon, 11 May 2026 18:25:36 GMT</pubDate>
+      <description>Plataforma busca nova vida curando conteúdo sobre inteligência artificial para um público cada vez mais ávido por informação.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA que "pensa mais" pode ter viés mais forte, sugere estudo</title>
       <link>https://pulsodaia.com.br/feed/ia-que-pensa-mais-pode-ter-vies-mais-forte-sugere-estudo/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisadores desenvolvem framework para aprimorar a precisao em sistemas de IA que interpretam graficos e infograficos.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2605.00905">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Pesquisadores Desenvolvem H-Probes para Desvendar Estruturas Hierárquicas em Modelos de Linguagem</title>
-      <link>https://pulsodaia.com.br/feed/pesquisadores-desenvolvem-h-probes-para-desvendar-estruturas-hierarquicas-em-mod/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pesquisadores-desenvolvem-h-probes-para-desvendar-estruturas-hierarquicas-em-mod/</guid>
-      <pubDate>Tue, 05 May 2026 06:30:05 GMT</pubDate>
-      <description>Nova ferramenta analisa como modelos de IA processam e representam informações complexas.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.00847">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>IA de Imagem Impulsiona Downloads de Apps, Superando Chatbots em Engajamento Inicial</title>
-      <link>https://pulsodaia.com.br/feed/ia-de-imagem-impulsiona-downloads-de-apps-superando-chatbots-em-engajamento-inic/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-imagem-impulsiona-downloads-de-apps-superando-chatbots-em-engajamento-inic/</guid>
-      <pubDate>Mon, 04 May 2026 21:46:05 GMT</pubDate>
-      <description>A demanda por criatividade visual gerada por IA está atraindo usuários, mas a monetização ainda é um desafio.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Gemini API: Webhooks Agilizam Processos de Longa Duração</title>
-      <link>https://pulsodaia.com.br/feed/gemini-api-webhooks-agilizam-processos-de-longa-duracao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-api-webhooks-agilizam-processos-de-longa-duracao/</guid>
-      <pubDate>Mon, 04 May 2026 21:45:54 GMT</pubDate>
-      <description>Google introduz notificações baseadas em eventos para otimizar a interação com modelos de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/">Google AI</source>
     </item>
   </channel>
 </rss>

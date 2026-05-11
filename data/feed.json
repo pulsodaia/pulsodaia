@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-11T11:50:00.246Z",
+  "generated_at": "2026-05-11T18:26:01.152Z",
   "articles": [
+    {
+      "slug": "ia-no-combate-a-cibercriminosos-google-detem-ataque-zero-day",
+      "headline": "IA no Combate a Cibercriminosos: Google Detém Ataque Zero-Day",
+      "subtitle": "Ataque que visava burlar autenticação de dois fatores foi identificado e neutralizado, evidenciando o uso de IA por criminosos e a defesa por ferramentas semelhantes.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
+      "category": "mercado",
+      "tags": [
+        "cibersegurança",
+        "inteligência artificial",
+        "ataques zero-day"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-11T12:09:42-04:00",
+      "written_at": "2026-05-11T18:26:00.545Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "cowboy-space-capta-us-275-milhoes-para-data-centers-orbitais-diante-da-escassez-",
+      "headline": "Cowboy Space capta US$ 275 milhões para data centers orbitais diante da escassez de foguetes",
+      "subtitle": "A demanda crescente por poder computacional para IA impulsiona a busca por infraestrutura fora da Terra.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "data center",
+        "espaço"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 11 May 2026 13:00:00 +0000",
+      "written_at": "2026-05-11T18:25:48.738Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "digg-revive-com-foco-em-agregacao-de-noticias-de-ia",
+      "headline": "Digg Revive com Foco em Agregação de Notícias de IA",
+      "subtitle": "Plataforma busca nova vida curando conteúdo sobre inteligência artificial para um público cada vez mais ávido por informação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+      "category": "mercado",
+      "tags": [
+        "digg",
+        "inteligencia artificial",
+        "agregador de noticias"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 11 May 2026 17:02:35 +0000",
+      "written_at": "2026-05-11T18:25:36.637Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-que-pensa-mais-pode-ter-vies-mais-forte-sugere-estudo",
       "headline": "IA que \"pensa mais\" pode ter viés mais forte, sugere estudo",
