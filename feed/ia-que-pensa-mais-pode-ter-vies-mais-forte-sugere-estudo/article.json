@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2605.06672v1",
+  "title": "More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models",
+  "url": "https://arxiv.org/abs/2605.06672",
+  "summary": "arXiv:2605.06672v1 Announce Type: new Abstract: Chain-of-thought (CoT) reasoning and reasoning-tuned models such as DeepSeek-R1 are commonly assumed to reduce shallow heuristic biases by thinking carefully. We test this on position bias in multiple-choice QA and find a different story: within any reasoning-capable model, per-question position bias scales with the length of the reasoning trajectory. Across thirteen reasoning-mode configurations (two R1-distilled 7-8B models, two base models prompted with CoT, and DeepSeek-R1 at 671B) on MMLU, ARC-Challenge, and GPQA, twelve show a positive partial correlation between trajectory length and Position Bias Score (PBS) after controlling for accuracy, ranging from 0.11 to 0.41 (all p < 0.05). All twelve open-weight reasoning-mode configurations show monotonically increasing PBS across length quartiles. A truncation intervention provides causal evidence: continuations resumed from later points in the trajectory are increasingly likely to shift",
+  "published_at": "Mon, 11 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA que \"pensa mais\" pode ter viés mais forte, sugere estudo",
+  "subtitle": "Modelos de raciocínio em IA exibem correlação positiva entre complexidade do pensamento e viés de posição.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisa publicada no arXiv aponta que modelos de IA treinados para raciocinar, como o Chain-of-Thought, podem apresentar um viés de posição mais acentuado conforme a complexidade do seu processo de pensamento aumenta. A descoberta desafia a suposição comum de que um raciocínio mais elaborado necessariamente mitiga vieses.",
+  "body_markdown": "## O que aconteceu\n\nUma nova análise de modelos de inteligência artificial sugere que a suposta melhoria na capacidade de raciocínio, muitas vezes associada a abordagens como o Chain-of-Thought (CoT), pode vir acompanhada de um efeito colateral inesperado. Ao invés de reduzir vieses heurísticos superficiais, modelos que exibem maior capacidade de raciocínio demonstram uma tendência a apresentar um viés de posição mais pronunciado. Isso significa que, em tarefas de múltipla escolha, a posição em que uma resposta correta aparece no conjunto de opções pode influenciar mais fortemente a decisão do modelo quanto mais complexo for seu \"pensamento\" para chegar àquela resposta. O estudo, disponível no repositório arXiv em [arXiv:2605.06672](https://arxiv.org/abs/2605.06672), testou essa hipótese em diversas configurações de modelos, incluindo o DeepSeek-R1, e em conjuntos de dados de referência como MMLU, ARC-Challenge e GPQA.\n\n## Por que importa\n\nPara o ecossistema de IA no Brasil, essa descoberta tem implicações diretas. A adoção de modelos mais sofisticados para tarefas críticas, como análise de documentos legais, diagnósticos médicos preliminares ou mesmo na otimização de processos industriais, pressupõe uma maior confiabilidade e menor suscetibilidade a erros sistemáticos. Se a própria sofisticação do raciocínio leva a um viés maior, a validação e o ajuste fino desses modelos tornam-se ainda mais cruciais. Empresas e pesquisadores brasileiros que investem em IA para fins de tomada de decisão precisam estar cientes de que a complexidade do processamento interno de um modelo não garante a ausência de vieses, podendo, paradoxalmente, exacerbá-los. Isso exige um escrutínio maior nas métricas de avaliação, indo além da precisão geral para analisar como vieses específicos se manifestam em diferentes níveis de processamento.\n\n## O que esperar\n\nOs resultados indicam que a relação entre o comprimento da \"trajetória de raciocínio\" (a sequência de passos que o modelo utiliza para chegar a uma resposta) e o \"Position Bias Score\" (PBS) é positivamente correlacionada em doze das treze configurações testadas. Isso sugere que a busca por modelos mais \"pensantes\" pode inadvertidamente amplificar o viés de posição. Futuras pesquisas precisarão focar em desenvolver métodos para mitigar esse viés específico, possivelmente através de técnicas de treinamento que incentivem a robustez contra a ordem das opções, ou explorando arquiteturas de modelo alternativas. A comunidade de IA, incluindo a brasileira, deve adaptar seus protocolos de teste para detectar e corrigir esse tipo de viés, garantindo que os avanços em raciocínio não comprometam a equidade e a confiabilidade dos sistemas de IA. O estudo, detalhado em [arXiv:2605.06672](https://arxiv.org/abs/2605.06672), abre caminho para investigações sobre como otimizar o raciocínio sem introduzir ou agravar vieses indesejados.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Uma nova análise de modelos de inteligência artificial sugere que a suposta melhoria na capacidade de raciocínio, muitas vezes associada a abordagens como o Chain-of-Thought (CoT), pode vir acompanhada de um efeito colateral inesperado. Ao invés de reduzir vieses heurísticos superficiais, modelos que exibem maior capacidade de raciocínio demonstram uma tendência a apresentar um viés de posição mais pronunciado. Isso significa que, em tarefas de múltipla escolha, a posição em que uma resposta correta aparece no conjunto de opções pode influenciar mais fortemente a decisão do modelo quanto mais complexo for seu \"pensamento\" para chegar àquela resposta. O estudo, disponível no repositório arXiv em <a href=\"https://arxiv.org/abs/2605.06672\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.06672</a>, testou essa hipótese em diversas configurações de modelos, incluindo o DeepSeek-R1, e em conjuntos de dados de referência como MMLU, ARC-Challenge e GPQA.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o ecossistema de IA no Brasil, essa descoberta tem implicações diretas. A adoção de modelos mais sofisticados para tarefas críticas, como análise de documentos legais, diagnósticos médicos preliminares ou mesmo na otimização de processos industriais, pressupõe uma maior confiabilidade e menor suscetibilidade a erros sistemáticos. Se a própria sofisticação do raciocínio leva a um viés maior, a validação e o ajuste fino desses modelos tornam-se ainda mais cruciais. Empresas e pesquisadores brasileiros que investem em IA para fins de tomada de decisão precisam estar cientes de que a complexidade do processamento interno de um modelo não garante a ausência de vieses, podendo, paradoxalmente, exacerbá-los. Isso exige um escrutínio maior nas métricas de avaliação, indo além da precisão geral para analisar como vieses específicos se manifestam em diferentes níveis de processamento.</p>\n\n<h2>O que esperar</h2>\n\n<p>Os resultados indicam que a relação entre o comprimento da \"trajetória de raciocínio\" (a sequência de passos que o modelo utiliza para chegar a uma resposta) e o \"Position Bias Score\" (PBS) é positivamente correlacionada em doze das treze configurações testadas. Isso sugere que a busca por modelos mais \"pensantes\" pode inadvertidamente amplificar o viés de posição. Futuras pesquisas precisarão focar em desenvolver métodos para mitigar esse viés específico, possivelmente através de técnicas de treinamento que incentivem a robustez contra a ordem das opções, ou explorando arquiteturas de modelo alternativas. A comunidade de IA, incluindo a brasileira, deve adaptar seus protocolos de teste para detectar e corrigir esse tipo de viés, garantindo que os avanços em raciocínio não comprometam a equidade e a confiabilidade dos sistemas de IA. O estudo, detalhado em <a href=\"https://arxiv.org/abs/2605.06672\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.06672</a>, abre caminho para investigações sobre como otimizar o raciocínio sem introduzir ou agravar vieses indesejados.</p>",
+  "tags": [
+    "ia",
+    "vieses",
+    "raciocínio"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligência artificial",
+    "viés de posição",
+    "chain-of-thought",
+    "modelos de linguagem",
+    "pesquisa em ia"
+  ],
+  "meta_description_seo": "Estudo revela que modelos de IA com raciocínio mais complexo podem ter viés de posição mais forte, desafiando suposições sobre heurísticas.",
+  "faq": [
+    {
+      "q": "O que é o viés de posição em modelos de IA?",
+      "a": "Viés de posição refere-se à tendência de um modelo de IA favorecer respostas com base em sua localização em uma lista de opções, em vez de seu conteúdo intrínseco. Isso pode ocorrer em tarefas de múltipla escolha."
+    },
+    {
+      "q": "Como o Chain-of-Thought (CoT) se relaciona com esse viés?",
+      "a": "A pesquisa sugere que modelos que utilizam Chain-of-Thought (CoT) para raciocinar de forma mais elaborada podem, paradoxalmente, apresentar um viés de posição mais acentuado à medida que a complexidade de seu processo de raciocínio aumenta."
+    },
+    {
+      "q": "Quais são as implicações práticas dessa descoberta para o desenvolvimento de IA?",
+      "a": "Isso significa que a complexidade do raciocínio de um modelo não garante a ausência de vieses. É necessário um escrutínio maior nas avaliações de IA e o desenvolvimento de técnicas específicas para mitigar o viés de posição, mesmo em modelos avançados."
+    }
+  ],
+  "written_at": "2026-05-11T11:50:00.158Z",
+  "slug": "ia-que-pensa-mais-pode-ter-vies-mais-forte-sugere-estudo",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-10T22:31:42.975Z",
+  "generated_at": "2026-05-11T11:50:00.246Z",
   "articles": [
+    {
+      "slug": "ia-que-pensa-mais-pode-ter-vies-mais-forte-sugere-estudo",
+      "headline": "IA que \"pensa mais\" pode ter viés mais forte, sugere estudo",
+      "subtitle": "Modelos de raciocínio em IA exibem correlação positiva entre complexidade do pensamento e viés de posição.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.06672",
+      "category": "research",
+      "tags": [
+        "ia",
+        "vieses",
+        "raciocínio"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 11 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-11T11:50:00.158Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "graphdc-nova-arquitetura-de-ia-para-analise-de-grafos-complexos",
+      "headline": "GraphDC: Nova Arquitetura de IA para Análise de Grafos Complexos",
+      "subtitle": "Pesquisadores propõem sistema multiagente para superar limitações de LLMs em tarefas com grafos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.06671",
+      "category": "research",
+      "tags": [
+        "ia",
+        "grafos",
+        "llms"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 11 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-11T11:49:47.985Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-finance-com-ia-chega-a-europa-abrindo-caminho-para-expansao-global",
+      "headline": "Google Finance com IA chega à Europa, abrindo caminho para expansão global",
+      "subtitle": "A plataforma financeira do Google, agora turbinada por inteligência artificial, ganha suporte em idiomas europeus, indicando uma futura integração no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "category": "google",
+      "tags": [
+        "google finance",
+        "inteligencia artificial",
+        "fintech"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 11 May 2026 06:00:00 +0000",
+      "written_at": "2026-05-11T11:49:36.440Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ficcao-sobre-ia-malefica-pode-ter-influenciado-claude-a-tentar-chantagem-diz-ant",
       "headline": "Ficção sobre IA \"maléfica\" pode ter influenciado Claude a tentar chantagem, diz Anthropic",
