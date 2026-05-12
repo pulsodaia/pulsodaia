@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 12 May 2026 10:09:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 17:41:50 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google Avança com IA Generativa no Android: Gemini Ganha Agentes e Widgets Adaptáveis</title>
+      <link>https://pulsodaia.com.br/feed/google-avanca-com-ia-generativa-no-android-gemini-ganha-agentes-e-widgets-adapta/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-avanca-com-ia-generativa-no-android-gemini-ganha-agentes-e-widgets-adapta/</guid>
+      <pubDate>Tue, 12 May 2026 17:37:08 GMT</pubDate>
+      <description>A gigante de Mountain View busca integrar inteligência artificial de forma mais profunda na experiência do usuário mobile.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Google Antecipa I/O com Laptops "AI-First" e Widgets "Vibe-Coded" para Android</title>
+      <link>https://pulsodaia.com.br/feed/google-antecipa-i-o-com-laptops-ai-first-e-widgets-vibe-coded-para-android/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-antecipa-i-o-com-laptops-ai-first-e-widgets-vibe-coded-para-android/</guid>
+      <pubDate>Tue, 12 May 2026 17:36:51 GMT</pubDate>
+      <description>A gigante de Mountain View revela novidades em IA generativa e integração com o ecossistema Android antes de seu evento principal.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Google e SpaceX Explorando Centros de Dados em Órbita</title>
+      <link>https://pulsodaia.com.br/feed/google-e-spacex-explorando-centros-de-dados-em-orbita/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-e-spacex-explorando-centros-de-dados-em-orbita/</guid>
+      <pubDate>Tue, 12 May 2026 17:36:36 GMT</pubDate>
+      <description>A computação espacial para IA levanta questões sobre viabilidade e custos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA: Priming Espacial Supera Abordagem Semântica em Extração de Dados de Gráficos</title>
       <link>https://pulsodaia.com.br/feed/ia-priming-espacial-supera-abordagem-semantica-em-extracao-de-dados-de-graficos/</link>
@@ -430,33 +457,6 @@
       <description>Novidade visa aprimorar a avaliação de modelos ASR com dados confidenciais, impactando o desenvolvimento no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/open-asr-leaderboard-private-data">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Investe US$ 3.5 Milhões em Competição de Cinema com IA</title>
-      <link>https://pulsodaia.com.br/feed/google-investe-us-3-5-milhoes-em-competicao-de-cinema-com-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-investe-us-3-5-milhoes-em-competicao-de-cinema-com-ia/</guid>
-      <pubDate>Wed, 06 May 2026 15:54:24 GMT</pubDate>
-      <description>Iniciativa busca explorar o potencial da inteligência artificial na narrativa audiovisual brasileira.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/">Google AI</source>
-    </item>
-    <item>
-      <title>Casa Branca discute revisão governamental de novos modelos de IA</title>
-      <link>https://pulsodaia.com.br/feed/casa-branca-discute-revisao-governamental-de-novos-modelos-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/casa-branca-discute-revisao-governamental-de-novos-modelos-de-ia/</guid>
-      <pubDate>Tue, 05 May 2026 11:53:20 GMT</pubDate>
-      <description>Gigantes da tecnologia foram informados sobre planos que podem exigir aprovação estatal antes do lançamento de sistemas avançados.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/white-house-briefed-anthropic-google-and-openai-on-plans-for-a-government-ai-review-process/">The Decoder</source>
-    </item>
-    <item>
-      <title>Amazon SageMaker Adiciona Ajuste Fino Agente para Modelos de Linguagem</title>
-      <link>https://pulsodaia.com.br/feed/amazon-sagemaker-adiciona-ajuste-fino-agente-para-modelos-de-linguagem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-sagemaker-adiciona-ajuste-fino-agente-para-modelos-de-linguagem/</guid>
-      <pubDate>Tue, 05 May 2026 11:53:06 GMT</pubDate>
-      <description>Nova funcionalidade visa simplificar a personalização de LLMs por desenvolvedores no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/">The Decoder</source>
     </item>
   </channel>
 </rss>
