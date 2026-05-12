@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-12T17:37:08.598Z",
+  "generated_at": "2026-05-12T22:38:30.264Z",
   "articles": [
+    {
+      "slug": "anthropic-alerta-investidores-sobre-plataformas-de-acoes-secundarias",
+      "headline": "Anthropic alerta investidores sobre plataformas de ações secundárias",
+      "subtitle": "Empresa de IA reforça controle sobre participação acionária e alerta para transações inválidas.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "inteligência artificial",
+        "investimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 12 May 2026 17:36:34 +0000",
+      "written_at": "2026-05-12T22:38:30.244Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "elon-musk-considerou-doar-openai-aos-proprios-filhos-segundo-sam-altman",
+      "headline": "Elon Musk considerou doar OpenAI aos próprios filhos, segundo Sam Altman",
+      "subtitle": "Depoimento de Sam Altman revela preocupações de Musk com o controle da inteligência artificial avançada.",
+      "eyebrow_category": "FOUNDERS",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "elon musk",
+        "sam altman"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 12 May 2026 18:05:15 +0000",
+      "written_at": "2026-05-12T22:38:19.229Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-140-ajusta-agentes-e-corrige-falhas",
+      "headline": "Claude Code 2.1.140 Ajusta Agentes e Corrige Falhas",
+      "subtitle": "Atualização foca em usabilidade e estabilidade para desenvolvedores de IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-12T21:09:45Z",
+      "written_at": "2026-05-12T22:38:08.143Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "google-avanca-com-ia-generativa-no-android-gemini-ganha-agentes-e-widgets-adapta",
       "headline": "Google Avança com IA Generativa no Android: Gemini Ganha Agentes e Widgets Adaptáveis",

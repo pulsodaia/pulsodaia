@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 12 May 2026 17:41:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 22:43:32 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic alerta investidores sobre plataformas de ações secundárias</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-alerta-investidores-sobre-plataformas-de-acoes-secundarias/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-alerta-investidores-sobre-plataformas-de-acoes-secundarias/</guid>
+      <pubDate>Tue, 12 May 2026 22:38:30 GMT</pubDate>
+      <description>Empresa de IA reforça controle sobre participação acionária e alerta para transações inválidas.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Elon Musk considerou doar OpenAI aos próprios filhos, segundo Sam Altman</title>
+      <link>https://pulsodaia.com.br/feed/elon-musk-considerou-doar-openai-aos-proprios-filhos-segundo-sam-altman/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/elon-musk-considerou-doar-openai-aos-proprios-filhos-segundo-sam-altman/</guid>
+      <pubDate>Tue, 12 May 2026 22:38:19 GMT</pubDate>
+      <description>Depoimento de Sam Altman revela preocupações de Musk com o controle da inteligência artificial avançada.</description>
+      <category>FOUNDERS</category>
+      <source url="https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code 2.1.140 Ajusta Agentes e Corrige Falhas</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-2-1-140-ajusta-agentes-e-corrige-falhas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-2-1-140-ajusta-agentes-e-corrige-falhas/</guid>
+      <pubDate>Tue, 12 May 2026 22:38:08 GMT</pubDate>
+      <description>Atualização foca em usabilidade e estabilidade para desenvolvedores de IA no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.140">Claude Code</source>
+    </item>
     <item>
       <title>Google Avança com IA Generativa no Android: Gemini Ganha Agentes e Widgets Adaptáveis</title>
       <link>https://pulsodaia.com.br/feed/google-avanca-com-ia-generativa-no-android-gemini-ganha-agentes-e-widgets-adapta/</link>
@@ -430,33 +457,6 @@
       <description>A ServiceNow AI apresenta uma metodologia que busca a precisão fundamental em modelos de linguagem, antes de refinar com aprendizado por reforço.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Search integra IA para dicas de jardinagem</title>
-      <link>https://pulsodaia.com.br/feed/google-search-integra-ia-para-dicas-de-jardinagem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-search-integra-ia-para-dicas-de-jardinagem/</guid>
-      <pubDate>Wed, 06 May 2026 20:54:01 GMT</pubDate>
-      <description>Ferramentas de busca ganham funcionalidades focadas em auxiliar o cultivo de plantas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/products-and-platforms/products/search/gardening-tips/">Google AI</source>
-    </item>
-    <item>
-      <title>Roteiro para IA e Machine Learning na Manufatura Inteligente Aponta Caminhos para 2026</title>
-      <link>https://pulsodaia.com.br/feed/roteiro-para-ia-e-machine-learning-na-manufatura-inteligente-aponta-caminhos-par/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/roteiro-para-ia-e-machine-learning-na-manufatura-inteligente-aponta-caminhos-par/</guid>
-      <pubDate>Wed, 06 May 2026 15:54:46 GMT</pubDate>
-      <description>Um novo documento técnico detalha os desafios e oportunidades para a adoção de IA na indústria brasileira.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.00839">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Hugging Face Introduz Testes Privados para Liderança de Reconhecimento de Voz Aberto</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-introduz-testes-privados-para-lideranca-de-reconhecimento-de-voz-ab/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-introduz-testes-privados-para-lideranca-de-reconhecimento-de-voz-ab/</guid>
-      <pubDate>Wed, 06 May 2026 15:54:35 GMT</pubDate>
-      <description>Novidade visa aprimorar a avaliação de modelos ASR com dados confidenciais, impactando o desenvolvimento no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/open-asr-leaderboard-private-data">Hugging Face</source>
     </item>
   </channel>
 </rss>
