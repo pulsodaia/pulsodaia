@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 11 May 2026 18:31:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 10:09:15 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA: Priming Espacial Supera Abordagem Semântica em Extração de Dados de Gráficos</title>
+      <link>https://pulsodaia.com.br/feed/ia-priming-espacial-supera-abordagem-semantica-em-extracao-de-dados-de-graficos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-priming-espacial-supera-abordagem-semantica-em-extracao-de-dados-de-graficos/</guid>
+      <pubDate>Tue, 12 May 2026 10:03:47 GMT</pubDate>
+      <description>Nova técnica promete maior precisão para modelos de linguagem em análises científicas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.08220">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Atenção em Modelos Visão Linguagem: Confiança Não Vem da Concentração Visual</title>
+      <link>https://pulsodaia.com.br/feed/atencao-em-modelos-visao-linguagem-confianca-nao-vem-da-concentracao-visual/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/atencao-em-modelos-visao-linguagem-confianca-nao-vem-da-concentracao-visual/</guid>
+      <pubDate>Tue, 12 May 2026 10:03:35 GMT</pubDate>
+      <description>Novo estudo desafia a intuição de que mapas de atenção mais focados em imagens garantem respostas mais confiáveis em sistemas de IA.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.08200">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>AWS e Hugging Face Detalham Infraestrutura para Modelos Fundacionais</title>
+      <link>https://pulsodaia.com.br/feed/aws-e-hugging-face-detalham-infraestrutura-para-modelos-fundacionais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/aws-e-hugging-face-detalham-infraestrutura-para-modelos-fundacionais/</guid>
+      <pubDate>Tue, 12 May 2026 10:03:17 GMT</pubDate>
+      <description>Parceria foca em otimização de treinamento e inferência para IA generativa no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/amazon/foundation-model-building-blocks">Hugging Face</source>
+    </item>
     <item>
       <title>IA no Combate a Cibercriminosos: Google Detém Ataque Zero-Day</title>
       <link>https://pulsodaia.com.br/feed/ia-no-combate-a-cibercriminosos-google-detem-ataque-zero-day/</link>
@@ -430,33 +457,6 @@
       <description>Nova funcionalidade visa simplificar a personalização de LLMs por desenvolvedores no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/">The Decoder</source>
-    </item>
-    <item>
-      <title>Trabalhadores do Google DeepMind se organizam para vetar contratos militares de IA</title>
-      <link>https://pulsodaia.com.br/feed/trabalhadores-do-google-deepmind-se-organizam-para-vetar-contratos-militares-de-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/trabalhadores-do-google-deepmind-se-organizam-para-vetar-contratos-militares-de-/</guid>
-      <pubDate>Tue, 05 May 2026 11:52:49 GMT</pubDate>
-      <description>A mobilização em Londres levanta questões sobre a ética no desenvolvimento de inteligência artificial no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/tech/923918/google-deepmind-union-bid-ai-military-israel">The Verge AI</source>
-    </item>
-    <item>
-      <title>IA: Método Simples Revela Objetivos Ocultos em Modelos Afinados</title>
-      <link>https://pulsodaia.com.br/feed/ia-metodo-simples-revela-objetivos-ocultos-em-modelos-afinados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-metodo-simples-revela-objetivos-ocultos-em-modelos-afinados/</guid>
-      <pubDate>Tue, 05 May 2026 06:30:26 GMT</pubDate>
-      <description>Pesquisa em IA aponta falhas em "modelos organismos" usados para testes de segurança.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.00994">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>DIAGRAMS: Nova Ferramenta Busca Atribuicao de Raciocinio em Perguntas e Respostas Visuais</title>
-      <link>https://pulsodaia.com.br/feed/diagrams-nova-ferramenta-busca-atribuicao-de-raciocinio-em-perguntas-e-respostas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/diagrams-nova-ferramenta-busca-atribuicao-de-raciocinio-em-perguntas-e-respostas/</guid>
-      <pubDate>Tue, 05 May 2026 06:30:16 GMT</pubDate>
-      <description>Pesquisadores desenvolvem framework para aprimorar a precisao em sistemas de IA que interpretam graficos e infograficos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2605.00905">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

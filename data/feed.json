@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-11T18:26:01.152Z",
+  "generated_at": "2026-05-12T10:03:47.723Z",
   "articles": [
+    {
+      "slug": "ia-priming-espacial-supera-abordagem-semantica-em-extracao-de-dados-de-graficos",
+      "headline": "IA: Priming Espacial Supera Abordagem Semântica em Extração de Dados de Gráficos",
+      "subtitle": "Nova técnica promete maior precisão para modelos de linguagem em análises científicas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.08220",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "processamento visual"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 12 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-12T10:03:47.635Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "atencao-em-modelos-visao-linguagem-confianca-nao-vem-da-concentracao-visual",
+      "headline": "Atenção em Modelos Visão Linguagem: Confiança Não Vem da Concentração Visual",
+      "subtitle": "Novo estudo desafia a intuição de que mapas de atenção mais focados em imagens garantem respostas mais confiáveis em sistemas de IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.08200",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "visão computacional",
+        "confiabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 12 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-12T10:03:35.993Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "aws-e-hugging-face-detalham-infraestrutura-para-modelos-fundacionais",
+      "headline": "AWS e Hugging Face Detalham Infraestrutura para Modelos Fundacionais",
+      "subtitle": "Parceria foca em otimização de treinamento e inferência para IA generativa no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "category": "opensource",
+      "tags": [
+        "aws",
+        "hugging face",
+        "modelos fundacionais"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 11 May 2026 23:18:26 GMT",
+      "written_at": "2026-05-12T10:03:17.964Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-no-combate-a-cibercriminosos-google-detem-ataque-zero-day",
       "headline": "IA no Combate a Cibercriminosos: Google Detém Ataque Zero-Day",
