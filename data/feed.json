@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-12T22:38:30.264Z",
+  "generated_at": "2026-05-13T10:02:36.132Z",
   "articles": [
+    {
+      "slug": "ia-aprende-a-otimizar-decisoes-com-dados-offline-e-online-nova-abordagem-melhora",
+      "headline": "IA Aprende a Otimizar Decisões com Dados Offline e Online: Nova Abordagem Melhora Eficiência",
+      "subtitle": "Pesquisa em aprendizado por reforço propõe método para lidar com dados limitados e melhorar a tomada de decisão em sistemas de IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.11151",
+      "category": "research",
+      "tags": [
+        "aprendizado por reforço",
+        "inteligência artificial",
+        "aprendizado offline"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 13 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-13T10:02:36.094Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "evochamber-nova-abordagem-evolui-sistemas-multiagente-em-escalas-diversas",
+      "headline": "EVOCHAMBER: Nova Abordagem Evolui Sistemas Multiagente em Escalas Diversas",
+      "subtitle": "Pesquisa do arXiv propõe evolução de IA em múltiplos níveis para colaboração mais eficaz.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.11136",
+      "category": "research",
+      "tags": [
+        "multiagente",
+        "evolucao",
+        "aprendizado"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 13 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-13T10:02:22.634Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-generativa-em-cascata-otimiza-vitrines-de-e-commerce",
+      "headline": "IA Generativa em Cascata Otimiza Vitrines de E-commerce",
+      "subtitle": "Nova abordagem em pesquisa acadêmica propõe aprimorar a personalização e a coesão semântica em plataformas de varejo online.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.11118",
+      "category": "research",
+      "tags": [
+        "ia generativa",
+        "e-commerce",
+        "recomendacao de produtos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 13 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-13T10:02:09.897Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "anthropic-alerta-investidores-sobre-plataformas-de-acoes-secundarias",
       "headline": "Anthropic alerta investidores sobre plataformas de ações secundárias",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 12 May 2026 22:43:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 10:08:33 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Aprende a Otimizar Decisões com Dados Offline e Online: Nova Abordagem Melhora Eficiência</title>
+      <link>https://pulsodaia.com.br/feed/ia-aprende-a-otimizar-decisoes-com-dados-offline-e-online-nova-abordagem-melhora/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-a-otimizar-decisoes-com-dados-offline-e-online-nova-abordagem-melhora/</guid>
+      <pubDate>Wed, 13 May 2026 10:02:36 GMT</pubDate>
+      <description>Pesquisa em aprendizado por reforço propõe método para lidar com dados limitados e melhorar a tomada de decisão em sistemas de IA.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.11151">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>EVOCHAMBER: Nova Abordagem Evolui Sistemas Multiagente em Escalas Diversas</title>
+      <link>https://pulsodaia.com.br/feed/evochamber-nova-abordagem-evolui-sistemas-multiagente-em-escalas-diversas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/evochamber-nova-abordagem-evolui-sistemas-multiagente-em-escalas-diversas/</guid>
+      <pubDate>Wed, 13 May 2026 10:02:22 GMT</pubDate>
+      <description>Pesquisa do arXiv propõe evolução de IA em múltiplos níveis para colaboração mais eficaz.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.11136">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Generativa em Cascata Otimiza Vitrines de E-commerce</title>
+      <link>https://pulsodaia.com.br/feed/ia-generativa-em-cascata-otimiza-vitrines-de-e-commerce/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-generativa-em-cascata-otimiza-vitrines-de-e-commerce/</guid>
+      <pubDate>Wed, 13 May 2026 10:02:09 GMT</pubDate>
+      <description>Nova abordagem em pesquisa acadêmica propõe aprimorar a personalização e a coesão semântica em plataformas de varejo online.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.11118">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Anthropic alerta investidores sobre plataformas de ações secundárias</title>
       <link>https://pulsodaia.com.br/feed/anthropic-alerta-investidores-sobre-plataformas-de-acoes-secundarias/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa acadêmica no arXiv sugere avanço para algoritmos de IA mais confiáveis.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2605.04100">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>LCM: Nova arquitetura de memória para LLMs supera Claude Code em tarefas de contexto longo</title>
-      <link>https://pulsodaia.com.br/feed/lcm-nova-arquitetura-de-memoria-para-llms-supera-claude-code-em-tarefas-de-conte/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/lcm-nova-arquitetura-de-memoria-para-llms-supera-claude-code-em-tarefas-de-conte/</guid>
-      <pubDate>Thu, 07 May 2026 08:03:13 GMT</pubDate>
-      <description>Estudo publicado no arXiv introduz método que promete ganhos significativos em eficiência e performance para modelos de linguagem.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2605.04050">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Greg Brockman Detalha Saída de Elon Musk da OpenAI</title>
-      <link>https://pulsodaia.com.br/feed/greg-brockman-detalha-saida-de-elon-musk-da-openai/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/greg-brockman-detalha-saida-de-elon-musk-da-openai/</guid>
-      <pubDate>Wed, 06 May 2026 20:54:23 GMT</pubDate>
-      <description>A revelação pública de negociações tensas entre fundadores de startups de IA lança luz sobre as dinâmicas iniciais da OpenAI.</description>
-      <category>FOUNDERS</category>
-      <source url="https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>vLLM: Nova Abordagem Prioriza Correção Antes de Ajustes com Reforço</title>
-      <link>https://pulsodaia.com.br/feed/vllm-nova-abordagem-prioriza-correcao-antes-de-ajustes-com-reforco/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vllm-nova-abordagem-prioriza-correcao-antes-de-ajustes-com-reforco/</guid>
-      <pubDate>Wed, 06 May 2026 20:54:12 GMT</pubDate>
-      <description>A ServiceNow AI apresenta uma metodologia que busca a precisão fundamental em modelos de linguagem, antes de refinar com aprendizado por reforço.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">Hugging Face</source>
     </item>
   </channel>
 </rss>
