@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 01 - Material Completo | Triadeflow</title>
+<meta name="description" content="Baixe o pacote completo da Aula 01: agentes @high, @revops, @convo + skill triade-ghl-mastery pra Claude Code.">
+<meta property="og:title" content="Aula 01 - Conectar GHL com Claude | Triadeflow">
+<meta property="og:description" content="Material completo da aula: 3 agentes + 1 skill + auto-instalador. Baixe e instale no seu Claude Code em 2 minutos.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --canvas: #ffffff;
+    --canvas-soft: #f7f7f5;
+    --hairline: #e6e6e6;
+    --ink: #0a0a0a;
+    --body: #3c3c3c;
+    --muted: #6b6b6b;
+    --bmw-blue: #1c69d4;
+    --m-blue: #0066b1;
+    --m-red: #e22718;
+    --f5-cyan: #00bcd4;
+    --f5-cyan-deep: #00838f;
+    --surface-dark: #1a2129;
+    --surface-deepest: #0f141a;
+    --success: #00875a;
+    --gold: #f0a500;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, system-ui, sans-serif;
+    background: var(--canvas);
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+
+  .m-stripe {
+    height: 4px;
+    background: linear-gradient(to right,
+      var(--m-blue) 0%, var(--m-blue) 33.33%,
+      var(--bmw-blue) 33.33%, var(--bmw-blue) 66.66%,
+      var(--m-red) 66.66%, var(--m-red) 100%);
+  }
+
+  header.top {
+    background: var(--surface-dark);
+    color: white;
+    padding: 18px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brand-row { display: flex; align-items: center; gap: 14px; }
+  .tf-logo {
+    width: 40px; height: 40px;
+    background: var(--f5-cyan);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--surface-dark); font-weight: 800; font-size: 16px;
+  }
+  .brand-meta .name { font-weight: 700; font-size: 15px; }
+  .brand-meta .sub {
+    font-size: 11px; color: rgba(255,255,255,0.6);
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+
+  .hero {
+    background: var(--surface-dark);
+    color: white;
+    padding: 70px 32px 90px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -100px; right: -100px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(0,188,212,0.15), transparent 70%);
+  }
+  .hero-inner { max-width: 920px; margin: 0 auto; position: relative; z-index: 1; }
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--f5-cyan);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+  .hero h1 {
+    font-size: clamp(34px, 5.5vw, 54px);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.05;
+    margin-bottom: 22px;
+  }
+  .hero h1 .mono-c { color: var(--f5-cyan); font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 0.85em; }
+  .hero p.lead {
+    font-size: 17px;
+    color: rgba(255,255,255,0.8);
+    max-width: 680px;
+    line-height: 1.55;
+    margin-bottom: 36px;
+  }
+
+  .download-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--f5-cyan);
+    color: var(--surface-dark);
+    padding: 18px 28px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.15s;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .btn-download:hover { background: #1de2ff; transform: translateY(-1px); }
+  .btn-download .arrow { font-family: 'JetBrains Mono', monospace; font-size: 20px; }
+  .btn-secondary {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 14px;
+    border: 1px solid rgba(255,255,255,0.15);
+    transition: all 0.15s;
+  }
+  .btn-secondary:hover { border-color: var(--f5-cyan); color: var(--f5-cyan); }
+
+  .file-meta {
+    margin-top: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  /* SECOES */
+  main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 60px 32px;
+  }
+  .section-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px;
+    color: var(--ink);
+    line-height: 1.15;
+  }
+  p.section-lead { font-size: 15px; color: var(--body); margin-bottom: 30px; max-width: 700px; }
+
+  .what-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-bottom: 50px;
+  }
+  .what-card {
+    background: var(--canvas-soft);
+    border: 1px solid var(--hairline);
+    padding: 22px 24px;
+    border-left: 3px solid var(--f5-cyan);
+  }
+  .what-card.rev { border-left-color: var(--m-red); }
+  .what-card.convo { border-left-color: var(--gold); }
+  .what-card.skill { border-left-color: var(--bmw-blue); }
+  .what-card .handle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--f5-cyan-deep);
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .what-card.rev .handle { color: var(--m-red); }
+  .what-card.convo .handle { color: #b07a00; }
+  .what-card.skill .handle { color: var(--bmw-blue); }
+  .what-card .name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .what-card .role {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  .steps {
+    background: var(--surface-deepest);
+    color: white;
+    padding: 36px 38px;
+    margin: 0 0 50px;
+    border-radius: 0;
+  }
+  .steps h3 {
+    font-size: 20px;
+    margin-bottom: 22px;
+    color: var(--f5-cyan);
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .step {
+    display: flex;
+    gap: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .step:last-child { border-bottom: 0; }
+  .step-num {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--f5-cyan);
+    font-weight: 700;
+    font-size: 14px;
+    width: 30px;
+    flex-shrink: 0;
+  }
+  .step-body { flex: 1; }
+  .step-title { font-weight: 600; color: white; margin-bottom: 6px; font-size: 15px; }
+  .step-desc { color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.55; }
+  .step-desc code {
+    background: rgba(0,188,212,0.15);
+    color: var(--f5-cyan);
+    padding: 2px 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+  }
+
+  pre.cmd {
+    background: rgba(0,0,0,0.4);
+    color: var(--f5-cyan);
+    padding: 12px 16px;
+    margin: 8px 0 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    line-height: 1.6;
+    border-left: 2px solid var(--f5-cyan);
+    white-space: pre-wrap;
+    overflow-x: auto;
+  }
+
+  .support {
+    background: var(--surface-dark);
+    color: white;
+    padding: 36px 32px;
+    text-align: center;
+  }
+  .support h3 { font-size: 22px; font-weight: 600; margin-bottom: 12px; }
+  .support p { color: rgba(255,255,255,0.78); font-size: 15px; line-height: 1.7; }
+  .support strong { color: var(--f5-cyan); }
+  .support a {
+    color: var(--f5-cyan);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,188,212,0.3);
+  }
+
+  footer.bottom {
+    background: var(--surface-deepest);
+    color: rgba(255,255,255,0.55);
+    padding: 24px 32px;
+    text-align: center;
+    font-size: 12px;
+  }
+  footer.bottom .mono { color: var(--f5-cyan); }
+
+  @media (max-width: 720px) {
+    .hero { padding: 50px 22px 60px; }
+    main { padding: 40px 22px; }
+    header.top { padding: 14px 18px; }
+    .what-grid { grid-template-columns: 1fr; }
+    .download-row { flex-direction: column; align-items: stretch; }
+    .btn-download { justify-content: center; }
+    .btn-secondary { text-align: center; }
+    .steps { padding: 24px 22px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="m-stripe"></div>
+
+<header class="top">
+  <div class="brand-row">
+    <div class="tf-logo">T</div>
+    <div class="brand-meta">
+      <div class="name">Triadeflow</div>
+      <div class="sub">Aulas Terca 19h / Aula 01</div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Material da Aula 01 - 12 de maio de 2026</div>
+    <h1>Conecte o GHL no Claude Code <br>com <span class="mono-c">3 agentes</span> e <span class="mono-c">1 skill</span>.</h1>
+    <p class="lead">Baixa o pacote, joga pro teu Claude, ele instala tudo sozinho. Em 2 minutos voce ja esta operando o GHL com IA do mesmo jeito que rodamos em mais de 30 clientes Triadeflow.</p>
+    <div class="download-row">
+      <a href="pacote-aluno-aula-01.zip" class="btn-download" download>
+        <span>Baixar pacote completo</span>
+        <span class="arrow">&darr;</span>
+      </a>
+      <a href="00-material-agentes-ghl.html" class="btn-secondary" target="_blank">Ver apresentacao</a>
+      <a href="01-skill-triade-ghl-mastery.pdf" class="btn-secondary" target="_blank">Ver PDF da skill</a>
+    </div>
+    <div class="file-meta">pacote-aluno-aula-01.zip - 210 KB - atualizado 12.05.2026</div>
+  </div>
+</section>
+
+<main>
+
+  <div class="section-eyebrow">O que tem no pacote</div>
+  <h2>4 ativos prontos pra colocar no seu Claude</h2>
+  <p class="section-lead">Os mesmos agentes e a mesma skill que eu uso nos clientes Triadeflow. Identidades aprovadas, prompts testados, gotchas embutidos.</p>
+
+  <div class="what-grid">
+    <div class="what-card rev">
+      <div class="handle">@revops</div>
+      <div class="name">Rev</div>
+      <div class="role">Head RevOps. Desenha o processo comercial antes de qualquer ferramenta.</div>
+    </div>
+    <div class="what-card">
+      <div class="handle">@high</div>
+      <div class="name">High</div>
+      <div class="role">GHL Specialist. Implementa pipelines, workflows, fields, tags. Quem executa.</div>
+    </div>
+    <div class="what-card convo">
+      <div class="handle">@convo</div>
+      <div class="name">Convo</div>
+      <div class="role">Conversation AI Architect. Bots, Flow Builder V3, Voice AI.</div>
+    </div>
+    <div class="what-card skill">
+      <div class="handle">skill</div>
+      <div class="name">triade-ghl-mastery</div>
+      <div class="role">Conhecimento operacional GHL. Carrega sozinha quando o assunto eh HUB.</div>
+    </div>
+  </div>
+
+  <div class="section-eyebrow">Instalacao</div>
+  <h2>Tudo em 4 passos</h2>
+  <p class="section-lead">Caminho recomendado: deixa o proprio Claude fazer a instalacao. Voce baixa, abre, cola um pedido.</p>
+
+  <div class="steps">
+    <h3>Passo a passo</h3>
+
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-body">
+        <div class="step-title">Baixe e descompacte o pacote</div>
+        <div class="step-desc">Clica no botao laranja acima, descompacta o ZIP. Voce vai ter uma pasta <code>pacote-aluno</code> com tudo dentro.</div>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-body">
+        <div class="step-title">Instale o Claude Code (se ainda nao tem)</div>
+        <div class="step-desc">No terminal:</div>
+        <pre class="cmd"># Mac / Linux / WSL
+curl -fsSL https://claude.ai/install.sh | bash
+
+# Windows (PowerShell)
+irm https://claude.ai/install.ps1 | iex</pre>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-body">
+        <div class="step-title">Abra o Claude Code dentro da pasta</div>
+        <pre class="cmd">cd pacote-aluno
+claude</pre>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">04</div>
+      <div class="step-body">
+        <div class="step-title">Cole esse pedido</div>
+        <pre class="cmd">leia INSTALAR-STACK-GHL.md e execute a instalacao
+exatamente como descrito</pre>
+        <div class="step-desc" style="margin-top: 10px;">Claude detecta seu sistema, cria as pastas, copia os 3 agentes, copia a skill, cria o template de credenciais, e te pede o token PIT do GHL pra preencher.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-eyebrow">Validar</div>
+  <h2>Como saber que ficou no ar</h2>
+  <p class="section-lead">Abre um Claude Code novo em qualquer pasta e pergunta:</p>
+  <pre class="cmd" style="background: var(--surface-deepest); color: var(--f5-cyan); padding: 16px 20px; margin: 0 0 14px;">liste os agentes disponiveis e as skills com "ghl" no nome</pre>
+  <p style="color: var(--body); font-size: 14.5px;">Tem que aparecer <strong>@high</strong>, <strong>@revops</strong>, <strong>@convo</strong> e a skill <strong>triade-ghl-mastery</strong>. Se aparecer, esta tudo no ar.</p>
+
+</main>
+
+<div class="support">
+  <h3>Travou em alguma coisa?</h3>
+  <p>
+    WhatsApp Alex Campos: <strong>+55 19 98380-5908</strong><br>
+    Email: <a href="mailto:contato@triadeflow.com.br">contato@triadeflow.com.br</a><br>
+    Manda print, manda audio, manda pergunta. A gente quer voce rodando.
+  </p>
+</div>
+
+<footer class="bottom">
+  <div>Aula 01 &middot; Conectar GHL com Claude &middot; Triadeflow</div>
+  <div class="mono">terca 12.05.2026 - 19h BRT</div>
+</footer>
+
+</body>
+</html>
