@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-13T22:46:26.332Z",
+  "generated_at": "2026-05-14T21:56:41.730Z",
   "articles": [
+    {
+      "slug": "ia-robusta-nova-abordagem-para-agentes-autonomos-em-ambientes-complexos",
+      "headline": "IA Robusta: Nova Abordagem para Agentes Autônomos em Ambientes Complexos",
+      "subtitle": "Pesquisadores propõem método para tornar agentes de IA mais confiáveis em tarefas do mundo real.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.12620",
+      "category": "research",
+      "tags": [
+        "ia",
+        "agentes autônomos",
+        "robustez"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 14 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-14T21:56:41.697Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-otimiza-processamento-de-modelos-de-linguagem-com-batching-assincro",
+      "headline": "Hugging Face Otimiza Processamento de Modelos de Linguagem com Batching Assíncrono Contínuo",
+      "subtitle": "Novas técnicas prometem acelerar a inferência em aplicações de IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/continuous_async",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "inferencia",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 14 May 2026 00:00:00 GMT",
+      "written_at": "2026-05-14T21:56:30.197Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ibm-lanca-modelo-de-embedding-multilingue-com-contexto-ampliado",
+      "headline": "IBM Lança Modelo de Embedding Multilíngue com Contexto Ampliado",
+      "subtitle": "A nova geração de embeddings promete melhorias significativas para buscas e aplicações em diferentes idiomas no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "category": "opensource",
+      "tags": [
+        "embedding",
+        "inteligencia artificial",
+        "ibm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 14 May 2026 18:55:01 GMT",
+      "written_at": "2026-05-14T21:56:18.492Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-proativa-anthropic-preve-sistemas-que-antecipam-necessidades-humanas",
       "headline": "IA Proativa: Anthropic Prevê Sistemas que Antecipam Necessidades Humanas",
