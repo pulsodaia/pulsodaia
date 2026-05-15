@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 14 May 2026 22:03:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 16:35:00 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Vulnerabilidade em Decodificação Especulativa de LLMs Abre Porta para Ataques Sutis</title>
+      <link>https://pulsodaia.com.br/feed/vulnerabilidade-em-decodificacao-especulativa-de-llms-abre-porta-para-ataques-su/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vulnerabilidade-em-decodificacao-especulativa-de-llms-abre-porta-para-ataques-su/</guid>
+      <pubDate>Fri, 15 May 2026 16:30:08 GMT</pubDate>
+      <description>Pesquisa aponta falha em modelos que aceleram a geração de texto, com implicações para a segurança e eficiência no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.14005">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>VectraYX-Nano: Modelo de Linguagem Espanhol para Cibersegurança Focado na América Latina</title>
+      <link>https://pulsodaia.com.br/feed/vectrayx-nano-modelo-de-linguagem-espanhol-para-ciberseguranca-focado-na-america/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vectrayx-nano-modelo-de-linguagem-espanhol-para-ciberseguranca-focado-na-america/</guid>
+      <pubDate>Fri, 15 May 2026 16:29:56 GMT</pubDate>
+      <description>Um novo modelo de IA com foco em segurança, treinado em espanhol, busca atender necessidades específicas da região.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.13989">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Edição de Conhecimento Multilíngue em LLMs: Métodos Híbridos Alcançam Estabilidade</title>
+      <link>https://pulsodaia.com.br/feed/edicao-de-conhecimento-multilingue-em-llms-metodos-hibridos-alcancam-estabilidad/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/edicao-de-conhecimento-multilingue-em-llms-metodos-hibridos-alcancam-estabilidad/</guid>
+      <pubDate>Fri, 15 May 2026 16:29:43 GMT</pubDate>
+      <description>Pesquisa avança na capacidade de modelos de linguagem processarem e atualizarem informações em diversos idiomas simultaneamente.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.13919">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>IA Robusta: Nova Abordagem para Agentes Autônomos em Ambientes Complexos</title>
       <link>https://pulsodaia.com.br/feed/ia-robusta-nova-abordagem-para-agentes-autonomos-em-ambientes-complexos/</link>
@@ -430,33 +457,6 @@
       <description>Ferramenta de IA da Anthropic identificou 271 vulnerabilidades não reportadas, algumas com até duas décadas.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/mozillas-agentic-ai-pipeline-turns-claude-mythos-preview-loose-and-finds-271-unknown-firefox-vulnerabilities/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA Clínica Médica Avança em Plataformas AMD, Sem Dependência de CUDA</title>
-      <link>https://pulsodaia.com.br/feed/ia-clinica-medica-avanca-em-plataformas-amd-sem-dependencia-de-cuda/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-clinica-medica-avanca-em-plataformas-amd-sem-dependencia-de-cuda/</guid>
-      <pubDate>Fri, 08 May 2026 10:54:54 GMT</pubDate>
-      <description>A democratização do treinamento de modelos de saúde ganha novo fôlego com a adaptação de ferramentas de ponta para hardware alternativo.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa">Hugging Face</source>
-    </item>
-    <item>
-      <title>IA Gera Dados de Sumarização com Foco em Consultas a Partir de Conjuntos Existentes</title>
-      <link>https://pulsodaia.com.br/feed/ia-gera-dados-de-sumarizacao-com-foco-em-consultas-a-partir-de-conjuntos-existen/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-gera-dados-de-sumarizacao-com-foco-em-consultas-a-partir-de-conjuntos-existen/</guid>
-      <pubDate>Fri, 08 May 2026 05:48:25 GMT</pubDate>
-      <description>Pesquisadores propõem método para adaptar datasets de IA, abrindo caminho para sumarização mais precisa.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.05392">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>IA em Sala de Aula: Contragarantias Contra o Desvio Cognitivo</title>
-      <link>https://pulsodaia.com.br/feed/ia-em-sala-de-aula-contragarantias-contra-o-desvio-cognitivo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-sala-de-aula-contragarantias-contra-o-desvio-cognitivo/</guid>
-      <pubDate>Fri, 08 May 2026 05:48:14 GMT</pubDate>
-      <description>Estudo aponta o uso de contra-argumentos como ferramenta para manter o pensamento crítico em meio ao avanço da IA generativa no ambiente acadêmico.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.05353">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

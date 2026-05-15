@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-14T21:56:41.730Z",
+  "generated_at": "2026-05-15T16:30:09.092Z",
   "articles": [
+    {
+      "slug": "vulnerabilidade-em-decodificacao-especulativa-de-llms-abre-porta-para-ataques-su",
+      "headline": "Vulnerabilidade em Decodificação Especulativa de LLMs Abre Porta para Ataques Sutis",
+      "subtitle": "Pesquisa aponta falha em modelos que aceleram a geração de texto, com implicações para a segurança e eficiência no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.14005",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "segurança"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 15 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-15T16:30:08.825Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "vectrayx-nano-modelo-de-linguagem-espanhol-para-ciberseguranca-focado-na-america",
+      "headline": "VectraYX-Nano: Modelo de Linguagem Espanhol para Cibersegurança Focado na América Latina",
+      "subtitle": "Um novo modelo de IA com foco em segurança, treinado em espanhol, busca atender necessidades específicas da região.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.13989",
+      "category": "research",
+      "tags": [
+        "ia",
+        "cibersegurança",
+        "espanhol"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 15 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-15T16:29:56.173Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "edicao-de-conhecimento-multilingue-em-llms-metodos-hibridos-alcancam-estabilidad",
+      "headline": "Edição de Conhecimento Multilíngue em LLMs: Métodos Híbridos Alcançam Estabilidade",
+      "subtitle": "Pesquisa avança na capacidade de modelos de linguagem processarem e atualizarem informações em diversos idiomas simultaneamente.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.13919",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "edição de conhecimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 15 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-15T16:29:43.373Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-robusta-nova-abordagem-para-agentes-autonomos-em-ambientes-complexos",
       "headline": "IA Robusta: Nova Abordagem para Agentes Autônomos em Ambientes Complexos",
