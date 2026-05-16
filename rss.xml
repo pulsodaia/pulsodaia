@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 16 May 2026 15:44:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 19:55:05 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>ArXiv impõe banimento de um ano para autores que delegam integralmente trabalhos à IA</title>
+      <link>https://pulsodaia.com.br/feed/arxiv-impoe-banimento-de-um-ano-para-autores-que-delegam-integralmente-trabalhos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/arxiv-impoe-banimento-de-um-ano-para-autores-que-delegam-integralmente-trabalhos/</guid>
+      <pubDate>Sat, 16 May 2026 19:50:08 GMT</pubDate>
+      <description>O repositório de pesquisas busca coibir o uso irresponsável de modelos de linguagem em publicações científicas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA desenvolve exploits de navegador de forma autônoma, aponta benchmark</title>
       <link>https://pulsodaia.com.br/feed/ia-desenvolve-exploits-de-navegador-de-forma-autonoma-aponta-benchmark/</link>
@@ -448,15 +457,6 @@
       <description>Um guia prático para entender a terminologia da inteligência artificial que permeia o noticiário brasileiro.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OncoAgent: IA para Suporte à Decisão Oncológica com Foco em Privacidade</title>
-      <link>https://pulsodaia.com.br/feed/oncoagent-ia-para-suporte-a-decisao-oncologica-com-foco-em-privacidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/oncoagent-ia-para-suporte-a-decisao-oncologica-com-foco-em-privacidade/</guid>
-      <pubDate>Sat, 09 May 2026 19:45:43 GMT</pubDate>
-      <description>Nova estrutura de agentes múltiplos promete avanços na aplicação de IA em diagnósticos médicos sensíveis no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper">Hugging Face</source>
     </item>
   </channel>
 </rss>
