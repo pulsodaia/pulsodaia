@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-15T16:30:09.092Z",
+  "generated_at": "2026-05-16T06:39:19.743Z",
   "articles": [
+    {
+      "slug": "nova-lente-para-agentes-de-ia-cognicao-e-execucao-em-duas-dimensoes",
+      "headline": "Nova Lente para Agentes de IA: Cognição e Execução em Duas Dimensões",
+      "subtitle": "Pesquisa acadêmica propõe modelo para entender arquiteturas de IA além do fluxo de dados.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.13850",
+      "category": "research",
+      "tags": [
+        "agentes de ia",
+        "arquitetura de ia",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 16 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-16T06:39:19.702Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-otimiza-dietas-fim-das-porcoes-fracionadas-e-metas-nutricionais-impossiveis",
+      "headline": "IA Otimiza Dietas: Fim das Porções Fracionadas e Metas Nutricionais Impossíveis",
+      "subtitle": "Pesquisa propõe método de programação matemática para refeições personalizadas, resolvendo limitações antigas da área.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.13849",
+      "category": "research",
+      "tags": [
+        "ia",
+        "nutricao",
+        "otimizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 16 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-16T06:39:07.814Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "graphbit-nova-arquitetura-para-orquestracao-de-agentes-de-ia-promete-seguranca-e",
+      "headline": "GraphBit: Nova Arquitetura para Orquestração de Agentes de IA Promete Segurança e Reprodutibilidade",
+      "subtitle": "Pesquisa em IA propõe framework que abandona a orquestração por prompts em favor de grafos dirigidos acíclicos para maior controle.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.13848",
+      "category": "research",
+      "tags": [
+        "agentes de ia",
+        "orquestracao",
+        "graphbit"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 16 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-16T06:38:44.666Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "vulnerabilidade-em-decodificacao-especulativa-de-llms-abre-porta-para-ataques-su",
       "headline": "Vulnerabilidade em Decodificação Especulativa de LLMs Abre Porta para Ataques Sutis",

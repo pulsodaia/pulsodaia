@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 15 May 2026 16:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 06:44:08 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nova Lente para Agentes de IA: Cognição e Execução em Duas Dimensões</title>
+      <link>https://pulsodaia.com.br/feed/nova-lente-para-agentes-de-ia-cognicao-e-execucao-em-duas-dimensoes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-lente-para-agentes-de-ia-cognicao-e-execucao-em-duas-dimensoes/</guid>
+      <pubDate>Sat, 16 May 2026 06:39:19 GMT</pubDate>
+      <description>Pesquisa acadêmica propõe modelo para entender arquiteturas de IA além do fluxo de dados.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.13850">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Otimiza Dietas: Fim das Porções Fracionadas e Metas Nutricionais Impossíveis</title>
+      <link>https://pulsodaia.com.br/feed/ia-otimiza-dietas-fim-das-porcoes-fracionadas-e-metas-nutricionais-impossiveis/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-otimiza-dietas-fim-das-porcoes-fracionadas-e-metas-nutricionais-impossiveis/</guid>
+      <pubDate>Sat, 16 May 2026 06:39:07 GMT</pubDate>
+      <description>Pesquisa propõe método de programação matemática para refeições personalizadas, resolvendo limitações antigas da área.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.13849">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>GraphBit: Nova Arquitetura para Orquestração de Agentes de IA Promete Segurança e Reprodutibilidade</title>
+      <link>https://pulsodaia.com.br/feed/graphbit-nova-arquitetura-para-orquestracao-de-agentes-de-ia-promete-seguranca-e/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/graphbit-nova-arquitetura-para-orquestracao-de-agentes-de-ia-promete-seguranca-e/</guid>
+      <pubDate>Sat, 16 May 2026 06:38:44 GMT</pubDate>
+      <description>Pesquisa em IA propõe framework que abandona a orquestração por prompts em favor de grafos dirigidos acíclicos para maior controle.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.13848">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Vulnerabilidade em Decodificação Especulativa de LLMs Abre Porta para Ataques Sutis</title>
       <link>https://pulsodaia.com.br/feed/vulnerabilidade-em-decodificacao-especulativa-de-llms-abre-porta-para-ataques-su/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa em aprendizado de máquina introduz técnica para otimizar modelos complexos.</description>
       <category>RESEARCH</category>
       <source url="https://huggingface.co/blog/allenai/emo">Hugging Face</source>
-    </item>
-    <item>
-      <title>CyberSecQwen-4B: Modelos de IA pequenos e locais para cibersegurança ganham força</title>
-      <link>https://pulsodaia.com.br/feed/cybersecqwen-4b-modelos-de-ia-pequenos-e-locais-para-ciberseguranca-ganham-forca/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cybersecqwen-4b-modelos-de-ia-pequenos-e-locais-para-ciberseguranca-ganham-forca/</guid>
-      <pubDate>Fri, 08 May 2026 21:36:59 GMT</pubDate>
-      <description>A necessidade de ferramentas de IA especializadas e acessíveis para a defesa cibernética impulsiona o desenvolvimento de modelos compactos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Une Lendas da Publicidade e IA para Criar Anúncios para Pequenos Negócios</title>
-      <link>https://pulsodaia.com.br/feed/google-une-lendas-da-publicidade-e-ia-para-criar-anuncios-para-pequenos-negocios/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-une-lendas-da-publicidade-e-ia-para-criar-anuncios-para-pequenos-negocios/</guid>
-      <pubDate>Fri, 08 May 2026 21:36:48 GMT</pubDate>
-      <description>Iniciativa "The Small Brief" busca democratizar o acesso a campanhas criativas no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/company-news/inside-google/company-announcements/the-small-brief/">Google AI</source>
-    </item>
-    <item>
-      <title>IA Autônoma da Mozilla Descobre Centenas de Falhas Antigas no Firefox</title>
-      <link>https://pulsodaia.com.br/feed/ia-autonoma-da-mozilla-descobre-centenas-de-falhas-antigas-no-firefox/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-da-mozilla-descobre-centenas-de-falhas-antigas-no-firefox/</guid>
-      <pubDate>Fri, 08 May 2026 10:55:06 GMT</pubDate>
-      <description>Ferramenta de IA da Anthropic identificou 271 vulnerabilidades não reportadas, algumas com até duas décadas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/mozillas-agentic-ai-pipeline-turns-claude-mythos-preview-loose-and-finds-271-unknown-firefox-vulnerabilities/">The Decoder</source>
     </item>
   </channel>
 </rss>

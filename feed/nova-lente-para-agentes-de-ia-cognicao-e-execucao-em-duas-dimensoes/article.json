@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2605.13850v1",
+  "title": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
+  "url": "https://arxiv.org/abs/2605.13850",
+  "summary": "arXiv:2605.13850v1 Announce Type: new Abstract: Existing frameworks for LLM-based agent architectures describe systems from a single perspective: industry guides (Anthropic, Google, LangChain) focus on execution topology -- how data flows -- while cognitive science surveys focus on cognitive function -- what the agent does. Neither axis alone disambiguates architecturally distinct systems: the same Orchestrator-Workers topology can implement Plan-and-Execute, Hierarchical Delegation, or Adversarial Verification -- three patterns with fundamentally different failure modes and design trade-offs. We propose a two-dimensional classification that combines (1) a Cognitive Function axis with seven categories (Context Engineering, Memory, Reasoning, Action, Reflection, Collaboration, Governance) and (2) an Execution Topology axis with six structural archetypes (Chain, Route, Parallel, Orchestrate, Loop, Hierarchy). The resulting 7x6 matrix identifies 27 named patterns, 13 with original names. ",
+  "published_at": "Sat, 16 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Nova Lente para Agentes de IA: Cognição e Execução em Duas Dimensões",
+  "subtitle": "Pesquisa acadêmica propõe modelo para entender arquiteturas de IA além do fluxo de dados.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo artigo publicado no arXiv sugere uma estrutura bidimensional para classificar agentes de IA. A abordagem busca unificar a análise de suas funções cognitivas e topologias de execução, superando limitações de modelos atuais.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores propuseram um framework de duas dimensões para o design de agentes de Inteligência Artificial, focando na diferenciação de arquiteturas que antes eram agrupadas de forma imprecisa. A pesquisa, disponível no [arXiv cs.AI](https://arxiv.org/abs/2605.13850), argumenta que os modelos existentes se concentram em um único eixo: a topologia de execução, como os fluxos de dados descritos por guias da indústria (Anthropic, Google, LangChain), ou a função cognitiva, como a análise da ciência cognitiva. O novo modelo combina ambos os eixos para oferecer uma classificação mais granular.\n\n## Por que importa\n\nA distinção entre a função cognitiva e a topologia de execução é crucial para o desenvolvimento e a compreensão de agentes de IA. Por exemplo, uma mesma topologia de \"Orquestrador-Trabalhadores\" pode implementar padrões como \"Planejar-e-Executar\", \"Delegação Hierárquica\" ou \"Verificação Adversarial\". Esses padrões, embora compartilhem a mesma estrutura de fluxo de dados, possuem modos de falha e compromissos de design fundamentalmente diferentes. Uma classificação mais precisa permite que desenvolvedores e pesquisadores no Brasil avaliem riscos, otimizem performance e escolham a arquitetura mais adequada para aplicações específicas, desde assistentes virtuais até sistemas de automação complexos. A falta de clareza arquitetônica pode levar a implementações ineficientes e falhas inesperadas.\n\n## O que esperar\n\nA proposta de duas dimensões inclui um eixo de Função Cognitiva com sete categorias: Engenharia de Contexto, Memória, Raciocínio, Ação, Reflexão, Colaboração e Governança. O outro eixo, a Topologia de Execução, abrange padrões como Sequencial, Paralelo, Hierárquico e Distribuído. Essa estrutura visa desambiguar sistemas arquitetonicamente distintos e auxiliar na identificação de trade-offs de design. Espera-se que este framework promova uma comunicação mais clara na comunidade de IA e inspire novas abordagens na criação de agentes mais robustos e eficientes. O [documento original](https://arxiv.org/abs/2605.13850) detalha como essa classificação pode guiar a inovação em áreas como o aprendizado de máquina e a engenharia de software.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores propuseram um framework de duas dimensões para o design de agentes de Inteligência Artificial, focando na diferenciação de arquiteturas que antes eram agrupadas de forma imprecisa. A pesquisa, disponível no <a href=\"https://arxiv.org/abs/2605.13850\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>, argumenta que os modelos existentes se concentram em um único eixo: a topologia de execução, como os fluxos de dados descritos por guias da indústria (Anthropic, Google, LangChain), ou a função cognitiva, como a análise da ciência cognitiva. O novo modelo combina ambos os eixos para oferecer uma classificação mais granular.</p>\n\n<h2>Por que importa</h2>\n\n<p>A distinção entre a função cognitiva e a topologia de execução é crucial para o desenvolvimento e a compreensão de agentes de IA. Por exemplo, uma mesma topologia de \"Orquestrador-Trabalhadores\" pode implementar padrões como \"Planejar-e-Executar\", \"Delegação Hierárquica\" ou \"Verificação Adversarial\". Esses padrões, embora compartilhem a mesma estrutura de fluxo de dados, possuem modos de falha e compromissos de design fundamentalmente diferentes. Uma classificação mais precisa permite que desenvolvedores e pesquisadores no Brasil avaliem riscos, otimizem performance e escolham a arquitetura mais adequada para aplicações específicas, desde assistentes virtuais até sistemas de automação complexos. A falta de clareza arquitetônica pode levar a implementações ineficientes e falhas inesperadas.</p>\n\n<h2>O que esperar</h2>\n\n<p>A proposta de duas dimensões inclui um eixo de Função Cognitiva com sete categorias: Engenharia de Contexto, Memória, Raciocínio, Ação, Reflexão, Colaboração e Governança. O outro eixo, a Topologia de Execução, abrange padrões como Sequencial, Paralelo, Hierárquico e Distribuído. Essa estrutura visa desambiguar sistemas arquitetonicamente distintos e auxiliar na identificação de trade-offs de design. Espera-se que este framework promova uma comunicação mais clara na comunidade de IA e inspire novas abordagens na criação de agentes mais robustos e eficientes. O <a href=\"https://arxiv.org/abs/2605.13850\" target=\"_blank\" rel=\"external noopener\">documento original</a> detalha como essa classificação pode guiar a inovação em áreas como o aprendizado de máquina e a engenharia de software.</p>",
+  "tags": [
+    "agentes de ia",
+    "arquitetura de ia",
+    "pesquisa"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "agentes de IA",
+    "arquitetura de IA",
+    "classificação",
+    "função cognitiva",
+    "topologia de execução",
+    "arXiv"
+  ],
+  "meta_description_seo": "Pesquisa propõe framework bidimensional para classificar agentes de IA, combinando função cognitiva e topologia de execução para maior clareza arquitetônica.",
+  "faq": [
+    {
+      "q": "Qual a principal contribuição deste artigo para o campo de IA?",
+      "a": "O artigo introduz um modelo de duas dimensões que combina função cognitiva e topologia de execução para classificar agentes de IA. Isso permite uma análise mais profunda e precisa das arquiteturas de IA, superando as limitações de frameworks que focam em apenas um desses aspectos."
+    },
+    {
+      "q": "Por que a distinção entre função cognitiva e topologia de execução é importante?",
+      "a": "Essa distinção é vital porque sistemas com a mesma estrutura de execução podem implementar comportamentos e ter modos de falha radicalmente diferentes, dependendo de suas funções cognitivas. Uma classificação mais detalhada ajuda a entender os trade-offs de design e a escolher a arquitetura mais adequada para cada aplicação."
+    },
+    {
+      "q": "Quais são as categorias propostas para a função cognitiva?",
+      "a": "As sete categorias propostas para a função cognitiva são: Engenharia de Contexto, Memória, Raciocínio, Ação, Reflexão, Colaboração e Governança."
+    }
+  ],
+  "written_at": "2026-05-16T06:39:19.702Z",
+  "slug": "nova-lente-para-agentes-de-ia-cognicao-e-execucao-em-duas-dimensoes",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
