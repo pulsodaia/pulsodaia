@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-16T17:55:00.688Z",
-  "total": 3023,
+  "generated_at": "2026-05-16T22:50:26.385Z",
+  "total": 3024,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1457
+      "count": 1458
     },
     {
       "key": "ai-ml",
@@ -16910,6 +16910,12 @@
       "description": "Auditoria de bots conversacionais - framework 10 cenarios, scoring, correcoes, relatorio",
       "category": "outros",
       "origin": "flowhub"
+    },
+    {
+      "name": "triade-bot-builder",
+      "description": "Skill operacional pra construir bots Conversation AI no GoHighLevel com fluencia Triadeflow. Carrega templates RTG (Role-Task-Guidelines), Knowledge Base estruturada, Flow Builder patterns recorrentes (cancelamento, VIP bypass, horario fechado, 3-tries fallback), referencias da Conversation AI Public API, playbook de graduacao OFF/Suggestive/Auto-Pilot e checklists de Bot Trial. Carregue automaticamente quando o assunto envolver: criar bot Conversation AI no GHL, construir Voice AI agent, escrev",
+      "category": "outros",
+      "origin": "claude"
     },
     {
       "name": "triade-client-onboard",
