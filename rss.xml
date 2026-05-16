@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 16 May 2026 06:44:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 11:39:19 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Custo de R$ 6,5 milhões/mês: Fundador da OpenClaw explora limites da IA para desenvolvimento de software</title>
+      <link>https://pulsodaia.com.br/feed/custo-de-r-6-5-milhoes-mes-fundador-da-openclaw-explora-limites-da-ia-para-desen/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/custo-de-r-6-5-milhoes-mes-fundador-da-openclaw-explora-limites-da-ia-para-desen/</guid>
+      <pubDate>Sat, 16 May 2026 11:33:59 GMT</pubDate>
+      <description>A aposta de Peter Steinberger em 100 agentes de IA levanta questões sobre o futuro da codificação e os custos associados.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/">The Decoder</source>
+    </item>
+    <item>
+      <title>OpenAI adquire startup de clonagem de voz com foco em imitações de celebridades</title>
+      <link>https://pulsodaia.com.br/feed/openai-adquire-startup-de-clonagem-de-voz-com-foco-em-imitacoes-de-celebridades/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-adquire-startup-de-clonagem-de-voz-com-foco-em-imitacoes-de-celebridades/</guid>
+      <pubDate>Sat, 16 May 2026 11:33:44 GMT</pubDate>
+      <description>A aquisição levanta questões sobre o uso ético da tecnologia de síntese vocal no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/openai-bought-a-voice-cloning-startup-famous-for-celebrity-imitations/">The Decoder</source>
+    </item>
+    <item>
+      <title>Geradores de Vídeo IA: Visualmente Impressionantes, Falham na Compreensão do Mundo</title>
+      <link>https://pulsodaia.com.br/feed/geradores-de-video-ia-visualmente-impressionantes-falham-na-compreensao-do-mundo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/geradores-de-video-ia-visualmente-impressionantes-falham-na-compreensao-do-mundo/</guid>
+      <pubDate>Sat, 16 May 2026 11:33:23 GMT</pubDate>
+      <description>Novo benchmark revela que, apesar da estética apurada, modelos ainda tropeçam em lógica e física básica.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/new-benchmark-confirms-ai-video-generators-look-stunning-but-still-cant-reason-about-the-world/">The Decoder</source>
+    </item>
     <item>
       <title>Nova Lente para Agentes de IA: Cognição e Execução em Duas Dimensões</title>
       <link>https://pulsodaia.com.br/feed/nova-lente-para-agentes-de-ia-cognicao-e-execucao-em-duas-dimensoes/</link>
@@ -430,33 +457,6 @@
       <description>A precisão de agentes de IA corporativos sob restrições de dados é testada por nova métrica.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2605.05379">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>ZAYA1-8B: Modelo MoE com Foco em Raciocínio Supera Gigantes com Menos Parâmetros Ativos</title>
-      <link>https://pulsodaia.com.br/feed/zaya1-8b-modelo-moe-com-foco-em-raciocinio-supera-gigantes-com-menos-parametros-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/zaya1-8b-modelo-moe-com-foco-em-raciocinio-supera-gigantes-com-menos-parametros-/</guid>
-      <pubDate>Sat, 09 May 2026 11:14:57 GMT</pubDate>
-      <description>Nova arquitetura de IA da Zyphra demonstra eficiência em matemática e código, desafiando modelos maiores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2605.05365">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Desvendando Discrepâncias na Anotação de IA: A Busca por Clareza em Políticas de Segurança</title>
-      <link>https://pulsodaia.com.br/feed/desvendando-discrepancias-na-anotacao-de-ia-a-busca-por-clareza-em-politicas-de-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/desvendando-discrepancias-na-anotacao-de-ia-a-busca-por-clareza-em-politicas-de-/</guid>
-      <pubDate>Sat, 09 May 2026 11:14:45 GMT</pubDate>
-      <description>Um estudo em arXiv aponta para a dificuldade em entender as razões por trás da divergência entre anotadores de dados de IA.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.05329">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>EMO: Nova Arquitetura de IA Busca Modularidade Emergente em Treinamento</title>
-      <link>https://pulsodaia.com.br/feed/emo-nova-arquitetura-de-ia-busca-modularidade-emergente-em-treinamento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/emo-nova-arquitetura-de-ia-busca-modularidade-emergente-em-treinamento/</guid>
-      <pubDate>Fri, 08 May 2026 21:37:11 GMT</pubDate>
-      <description>Pesquisa em aprendizado de máquina introduz técnica para otimizar modelos complexos.</description>
-      <category>RESEARCH</category>
-      <source url="https://huggingface.co/blog/allenai/emo">Hugging Face</source>
     </item>
   </channel>
 </rss>
