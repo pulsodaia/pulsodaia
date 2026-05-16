@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-01T01:23:29.082Z",
-  "total": 3022,
+  "generated_at": "2026-05-16T17:48:11.195Z",
+  "total": 3023,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1456
+      "count": 1457
     },
     {
       "key": "ai-ml",
@@ -7057,6 +7057,12 @@
       "name": "find-bugs",
       "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
       "category": "testing-qa",
+      "origin": "claude"
+    },
+    {
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "category": "outros",
       "origin": "claude"
     },
     {
