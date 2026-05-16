@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-16T11:34:01.207Z",
+  "generated_at": "2026-05-16T15:39:34.620Z",
   "articles": [
+    {
+      "slug": "ia-desenvolve-exploits-de-navegador-de-forma-autonoma-aponta-benchmark",
+      "headline": "IA desenvolve exploits de navegador de forma autônoma, aponta benchmark",
+      "subtitle": "Modelos avançados como Claude Mythos e GPT-5.5 demonstram capacidade inédita em encontrar e explorar vulnerabilidades.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/new-benchmark-shows-claude-mythos-and-gpt-5-5-can-develop-real-browser-exploits-autonomously/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "cibersegurança",
+        "vulnerabilidades"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 16 May 2026 13:08:05 +0000",
+      "written_at": "2026-05-16T15:39:32.038Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "sony-esclarece-funcionalidade-de-ia-em-cameras-apos-controversia",
+      "headline": "Sony Esclarece Funcionalidade de IA em Câmeras Após Controvérsia",
+      "subtitle": "A gigante japonesa busca explicar o papel da inteligência artificial em seus dispositivos móveis.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+      "category": "mercado",
+      "tags": [
+        "sony",
+        "inteligência artificial",
+        "fotografia mobile"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-16T11:37:05-04:00",
+      "written_at": "2026-05-16T15:39:18.800Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "greg-brockman-assume-estrategia-de-produto-na-openai",
+      "headline": "Greg Brockman assume estratégia de produto na OpenAI",
+      "subtitle": "Mudança interna na gigante da IA reflete foco na integração de suas ferramentas.",
+      "eyebrow_category": "FOUNDERS",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "greg brockman",
+        "chatgpt",
+        "codex"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 16 May 2026 15:33:33 +0000",
+      "written_at": "2026-05-16T15:39:05.646Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "custo-de-r-6-5-milhoes-mes-fundador-da-openclaw-explora-limites-da-ia-para-desen",
       "headline": "Custo de R$ 6,5 milhões/mês: Fundador da OpenClaw explora limites da IA para desenvolvimento de software",
