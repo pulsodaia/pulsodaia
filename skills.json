@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T06:09:21.347Z",
-  "total": 3055,
+  "generated_at": "2026-05-17T06:15:06.535Z",
+  "total": 3056,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1487
+      "count": 1488
     },
     {
       "key": "ai-ml",
@@ -6792,6 +6792,12 @@
     {
       "name": "executing-scripts",
       "description": "````md",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "exemplos",
+      "description": "Workflows replicaveis que cobrem 80% das necessidades de clinica de estetica. Adaptados do snapshot Clara Estetica + extrapolacoes.",
       "category": "outros",
       "origin": "claude"
     },
