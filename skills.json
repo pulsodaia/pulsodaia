@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T05:25:10.201Z",
-  "total": 3052,
+  "generated_at": "2026-05-17T06:09:21.347Z",
+  "total": 3055,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1484
+      "count": 1487
     },
     {
       "key": "ai-ml",
@@ -289,6 +289,12 @@
       "name": "ACKNOWLEDGEMENTS",
       "description": "Loki Mode stands on the shoulders of giants. This project incorporates research, patterns, and insights from the leading AI labs, academic institutions, and practitioners in the field.",
       "category": "personal-dev",
+      "origin": "claude"
+    },
+    {
+      "name": "acoes",
+      "description": "Acoes sao os PASSOS executados quando um workflow eh disparado. Categorizado por dominio.",
+      "category": "outros",
       "origin": "claude"
     },
     {
@@ -7657,6 +7663,12 @@
       "name": "gate-reviews",
       "description": "Before reporting ANY bug as a vulnerability, all six gate reviews must pass. Evaluate these during the GATE REVIEW task after all phases are complete:",
       "category": "testing-qa",
+      "origin": "claude"
+    },
+    {
+      "name": "gatilhos",
+      "description": "Cada gatilho dispara um workflow quando o evento acontece. Categorizado por dominio.",
+      "category": "outros",
       "origin": "claude"
     },
     {
@@ -17084,6 +17096,12 @@
       "description": "Dashboard patterns - Supabase + React + Tailwind, componentes, graficos, filtros, real-time",
       "category": "outros",
       "origin": "flowhub"
+    },
+    {
+      "name": "triade-ghl-gatilhos-mastery",
+      "description": "Catalogo completo de gatilhos (triggers) e acoes do GoHighLevel para construcao de workflows e automacoes. Carrega quando o assunto envolve: criar workflow no GHL, configurar trigger, escolher action, montar automacao, workflows arroz-com-feijao, integrar evento externo via webhook, automatizar follow-up, fluxo de pagamento/cobranca, evento de calendario, mudanca de stage no pipeline, formulario preenchido, mensagem recebida, tag aplicada, e qualquer assunto que envolva regra de \"quando X aconte",
+      "category": "outros",
+      "origin": "claude"
     },
     {
       "name": "triade-ghl-mastery",
