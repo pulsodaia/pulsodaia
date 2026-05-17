@@ -9,6 +9,7 @@
 
 const SUBDOMAIN_MAP = {
   "aula-01.triadeflow.com.br": "/aula-01",
+  "aula-02.triadeflow.com.br": "/aula-02",
 };
 
 export const onRequest = async (context) => {
