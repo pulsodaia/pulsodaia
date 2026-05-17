@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T05:18:10.705Z",
-  "total": 3050,
+  "generated_at": "2026-05-17T05:25:10.201Z",
+  "total": 3052,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1482
+      "count": 1484
     },
     {
       "key": "ai-ml",
@@ -15400,6 +15400,12 @@
       "origin": "claude"
     },
     {
+      "name": "snapshot-speedshot",
+      "description": "Replicar estrutura completa de cliente novo de estetica em **15 minutos** usando o snapshot oficial Triadeflow.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "soap_note_template",
       "description": "**Patient Name:** [Last, First] or [Patient ID for teaching/research contexts]",
       "category": "outros",
@@ -15972,6 +15978,12 @@
     {
       "name": "supervised_learning",
       "description": "Supervised learning algorithms learn from labeled training data to make predictions on new data. Scikit-learn provides comprehensive implementations for both classification and regression tasks.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "suporte-ig-fb",
+      "description": "Bot complementar ao Atendimento principal. Cobre redes sociais (Instagram + Facebook Messenger). Funcao unica: **encaminhar pra atendente humano**. NAO qualifica, NAO agenda.",
       "category": "outros",
       "origin": "claude"
     },
