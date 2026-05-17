@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-16T19:50:08.370Z",
+  "generated_at": "2026-05-17T11:15:40.836Z",
   "articles": [
+    {
+      "slug": "ceo-da-mistral-alerta-franca-contra-uso-de-ia-americana-em-bases-de-codigo-milit",
+      "headline": "CEO da Mistral alerta França contra uso de IA americana em bases de código militar",
+      "subtitle": "A segurança nacional europeia pode estar em risco pela dependência de modelos de inteligência artificial estrangeiros.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/mistral-ceo-arthur-mensch-warns-france-against-letting-anthropics-mythos-scan-military-code-bases/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança cibernética",
+        "soberania tecnológica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 17 May 2026 09:15:30 +0000",
+      "written_at": "2026-05-17T11:15:38.591Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-consolida-equipes-de-produto-sob-comando-de-greg-brockman-para-impulsiona",
+      "headline": "OpenAI consolida equipes de produto sob comando de Greg Brockman para impulsionar o futuro \"agentic\"",
+      "subtitle": "A reestruturação visa criar um \"super aplicativo\" de IA, integrando ferramentas como ChatGPT e Codex.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "greg brockman",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 17 May 2026 09:51:41 +0000",
+      "written_at": "2026-05-17T11:15:24.461Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "a-corrida-do-ouro-da-ia-quem-ganha-e-quem-fica-para-tras",
+      "headline": "A Corrida do Ouro da IA: Quem Ganha e Quem Fica Para Trás",
+      "subtitle": "O otimismo em torno da inteligência artificial arrefece, expondo um fosso crescente entre os beneficiados e os excluídos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "mercado",
+        "desigualdade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 16 May 2026 20:17:16 +0000",
+      "written_at": "2026-05-17T11:15:12.459Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "arxiv-impoe-banimento-de-um-ano-para-autores-que-delegam-integralmente-trabalhos",
       "headline": "ArXiv impõe banimento de um ano para autores que delegam integralmente trabalhos à IA",
