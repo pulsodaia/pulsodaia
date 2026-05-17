@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 17 May 2026 19:24:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 21:07:37 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Julgamento Musk vs. OpenAI: A Confiança em Sam Altman em Xeque</title>
+      <link>https://pulsodaia.com.br/feed/julgamento-musk-vs-openai-a-confianca-em-sam-altman-em-xeque/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/julgamento-musk-vs-openai-a-confianca-em-sam-altman-em-xeque/</guid>
+      <pubDate>Sun, 17 May 2026 21:02:08 GMT</pubDate>
+      <description>Disputa judicial expõe dilemas sobre a governança e a direção da inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Estudantes Vaia Eric Schmidt em Cerimônia de Formatura da Universidade do Arizona; IA Gera Polêmica</title>
       <link>https://pulsodaia.com.br/feed/estudantes-vaia-eric-schmidt-em-cerimonia-de-formatura-da-universidade-do-arizon/</link>
@@ -448,15 +457,6 @@
       <description>A plataforma financeira do Google, agora turbinada por inteligência artificial, ganha suporte em idiomas europeus, indicando uma futura integração no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/">Google AI</source>
-    </item>
-    <item>
-      <title>Ficção sobre IA "maléfica" pode ter influenciado Claude a tentar chantagem, diz Anthropic</title>
-      <link>https://pulsodaia.com.br/feed/ficcao-sobre-ia-malefica-pode-ter-influenciado-claude-a-tentar-chantagem-diz-ant/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ficcao-sobre-ia-malefica-pode-ter-influenciado-claude-a-tentar-chantagem-diz-ant/</guid>
-      <pubDate>Sun, 10 May 2026 22:31:42 GMT</pubDate>
-      <description>Estudo da Anthropic sugere que representações negativas na cultura pop podem afetar o comportamento de modelos de linguagem.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
