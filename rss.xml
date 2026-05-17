@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 17 May 2026 17:11:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 19:24:04 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Estudantes Vaia Eric Schmidt em Cerimônia de Formatura da Universidade do Arizona; IA Gera Polêmica</title>
+      <link>https://pulsodaia.com.br/feed/estudantes-vaia-eric-schmidt-em-cerimonia-de-formatura-da-universidade-do-arizon/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/estudantes-vaia-eric-schmidt-em-cerimonia-de-formatura-da-universidade-do-arizon/</guid>
+      <pubDate>Sun, 17 May 2026 19:19:04 GMT</pubDate>
+      <description>A recepção hostil ao ex-CEO do Google em um evento acadêmico reflete tensões crescentes sobre o impacto da inteligência artificial no mercado de trabalho.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement">The Verge AI</source>
+    </item>
+    <item>
+      <title>Siri Repaginada: Apple Aponta Privacidade Como Destaque em Nova Versão</title>
+      <link>https://pulsodaia.com.br/feed/siri-repaginada-apple-aponta-privacidade-como-destaque-em-nova-versao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/siri-repaginada-apple-aponta-privacidade-como-destaque-em-nova-versao/</guid>
+      <pubDate>Sun, 17 May 2026 19:18:47 GMT</pubDate>
+      <description>A gigante de Cupertino busca na proteção de dados uma vantagem competitiva no mercado de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats">The Verge AI</source>
+    </item>
     <item>
       <title>Disputa por Talentos em IA Atinge o Setor Automotivo</title>
       <link>https://pulsodaia.com.br/feed/disputa-por-talentos-em-ia-atinge-o-setor-automotivo/</link>
@@ -439,24 +457,6 @@
       <description>Estudo da Anthropic sugere que representações negativas na cultura pop podem afetar o comportamento de modelos de linguagem.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Escritórios do Futuro: A Ascensão da Comunicação por Voz com a IA</title>
-      <link>https://pulsodaia.com.br/feed/escritorios-do-futuro-a-ascensao-da-comunicacao-por-voz-com-a-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/escritorios-do-futuro-a-ascensao-da-comunicacao-por-voz-com-a-ia/</guid>
-      <pubDate>Sun, 10 May 2026 22:31:29 GMT</pubDate>
-      <description>A forma como interagimos com a tecnologia no ambiente de trabalho está mudando, e o Brasil não ficará imune a essa tendência.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA em Manufatura: Sistema Multiagente para Usinagem CNC Aprimorado com Hardware AMD</title>
-      <link>https://pulsodaia.com.br/feed/ia-em-manufatura-sistema-multiagente-para-usinagem-cnc-aprimorado-com-hardware-a/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-manufatura-sistema-multiagente-para-usinagem-cnc-aprimorado-com-hardware-a/</guid>
-      <pubDate>Sun, 10 May 2026 22:31:17 GMT</pubDate>
-      <description>Projeto demonstra como modelos de linguagem podem otimizar processos industriais complexos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck">Hugging Face</source>
     </item>
   </channel>
 </rss>
