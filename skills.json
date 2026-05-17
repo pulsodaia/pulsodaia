@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T06:15:06.535Z",
+  "generated_at": "2026-05-17T07:57:09.716Z",
   "total": 3056,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1488
+      "count": 1487
     },
     {
       "key": "ai-ml",
@@ -38,14 +38,14 @@
       "count": 108
     },
     {
-      "key": "database",
-      "label": "Database & Data",
+      "key": "testing-qa",
+      "label": "Testes & QA",
       "count": 103
     },
     {
-      "key": "testing-qa",
-      "label": "Testes & QA",
-      "count": 102
+      "key": "database",
+      "label": "Database & Data",
+      "count": 103
     },
     {
       "key": "marketing-seo",
@@ -7165,12 +7165,6 @@
       "name": "find-bugs",
       "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
       "category": "testing-qa",
-      "origin": "claude"
-    },
-    {
-      "name": "find-skills",
-      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
-      "category": "outros",
       "origin": "claude"
     },
     {
@@ -17114,6 +17108,12 @@
       "description": "GoHighLevel CRM mastery - pipelines, workflows, custom fields, Conversation AI bots, webhooks, and RevOps automation",
       "category": "outros",
       "origin": "flowhub"
+    },
+    {
+      "name": "triade-ghl-playwright",
+      "description": "Scripts Playwright pra automatizar acoes UI-only do GoHighLevel (Knowledge Base, customizar mensagens de workflow, renomear pipeline). Use quando API V2 nao expoe o endpoint necessario e voce precisa simular cliques na UI. Pre-requisito: rodar ghl_login.py uma vez pra salvar sessao. Carrega quando o assunto envolve automatizar UI GHL, knowledge base, customizar workflow mensagens, renomear pipeline, browser automation GHL, ou squad onboard-bot-ghl precisa executar passo UI.",
+      "category": "testing-qa",
+      "origin": "claude"
     },
     {
       "name": "triade-n8n-patterns",
