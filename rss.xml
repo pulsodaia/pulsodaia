@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 17 May 2026 23:05:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 04:24:08 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA com "Teoria da Mente" interage melhor? Estudo questiona métodos de avaliação atuais</title>
+      <link>https://pulsodaia.com.br/feed/ia-com-teoria-da-mente-interage-melhor-estudo-questiona-metodos-de-avaliacao-atu/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-com-teoria-da-mente-interage-melhor-estudo-questiona-metodos-de-avaliacao-atu/</guid>
+      <pubDate>Mon, 18 May 2026 04:16:47 GMT</pubDate>
+      <description>Pesquisa acadêmica aponta para a necessidade de avaliações mais dinâmicas para medir a capacidade de compreensão de intenções em modelos de linguagem.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.15205">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>SDOF: Nova Estratégia para Orquestração de IA em Processos de Negócios</title>
+      <link>https://pulsodaia.com.br/feed/sdof-nova-estrategia-para-orquestracao-de-ia-em-processos-de-negocios/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/sdof-nova-estrategia-para-orquestracao-de-ia-em-processos-de-negocios/</guid>
+      <pubDate>Mon, 18 May 2026 04:16:36 GMT</pubDate>
+      <description>Framework promete maior controle e auditabilidade em sistemas multiagente.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.15204">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>DeepSlide: IA para Além da Criação de Slides, Foco na Entrega</title>
+      <link>https://pulsodaia.com.br/feed/deepslide-ia-para-alem-da-criacao-de-slides-foco-na-entrega/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepslide-ia-para-alem-da-criacao-de-slides-foco-na-entrega/</guid>
+      <pubDate>Mon, 18 May 2026 04:16:23 GMT</pubDate>
+      <description>Um novo sistema de IA promete otimizar a apresentação de trabalhos acadêmicos, integrando planejamento, roteirização e ensaio.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.15202">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Apple prepara nova Siri com foco em privacidade e exclusão automática de chats</title>
       <link>https://pulsodaia.com.br/feed/apple-prepara-nova-siri-com-foco-em-privacidade-e-exclusao-automatica-de-chats/</link>
@@ -430,33 +457,6 @@
       <description>A demanda crescente por poder computacional para IA impulsiona a busca por infraestrutura fora da Terra.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Digg Revive com Foco em Agregação de Notícias de IA</title>
-      <link>https://pulsodaia.com.br/feed/digg-revive-com-foco-em-agregacao-de-noticias-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/digg-revive-com-foco-em-agregacao-de-noticias-de-ia/</guid>
-      <pubDate>Mon, 11 May 2026 18:25:36 GMT</pubDate>
-      <description>Plataforma busca nova vida curando conteúdo sobre inteligência artificial para um público cada vez mais ávido por informação.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA que "pensa mais" pode ter viés mais forte, sugere estudo</title>
-      <link>https://pulsodaia.com.br/feed/ia-que-pensa-mais-pode-ter-vies-mais-forte-sugere-estudo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-que-pensa-mais-pode-ter-vies-mais-forte-sugere-estudo/</guid>
-      <pubDate>Mon, 11 May 2026 11:50:00 GMT</pubDate>
-      <description>Modelos de raciocínio em IA exibem correlação positiva entre complexidade do pensamento e viés de posição.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.06672">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>GraphDC: Nova Arquitetura de IA para Análise de Grafos Complexos</title>
-      <link>https://pulsodaia.com.br/feed/graphdc-nova-arquitetura-de-ia-para-analise-de-grafos-complexos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/graphdc-nova-arquitetura-de-ia-para-analise-de-grafos-complexos/</guid>
-      <pubDate>Mon, 11 May 2026 11:49:47 GMT</pubDate>
-      <description>Pesquisadores propõem sistema multiagente para superar limitações de LLMs em tarefas com grafos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.06671">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

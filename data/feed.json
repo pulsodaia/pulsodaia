@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-17T22:58:21.933Z",
+  "generated_at": "2026-05-18T04:16:47.553Z",
   "articles": [
+    {
+      "slug": "ia-com-teoria-da-mente-interage-melhor-estudo-questiona-metodos-de-avaliacao-atu",
+      "headline": "IA com \"Teoria da Mente\" interage melhor? Estudo questiona métodos de avaliação atuais",
+      "subtitle": "Pesquisa acadêmica aponta para a necessidade de avaliações mais dinâmicas para medir a capacidade de compreensão de intenções em modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.15205",
+      "category": "research",
+      "tags": [
+        "teoria da mente",
+        "interacao humano-ia",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 18 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-18T04:16:47.525Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "sdof-nova-estrategia-para-orquestracao-de-ia-em-processos-de-negocios",
+      "headline": "SDOF: Nova Estratégia para Orquestração de IA em Processos de Negócios",
+      "subtitle": "Framework promete maior controle e auditabilidade em sistemas multiagente.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.15204",
+      "category": "research",
+      "tags": [
+        "ia",
+        "orquestracao",
+        "multiagente"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 18 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-18T04:16:36.048Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "deepslide-ia-para-alem-da-criacao-de-slides-foco-na-entrega",
+      "headline": "DeepSlide: IA para Além da Criação de Slides, Foco na Entrega",
+      "subtitle": "Um novo sistema de IA promete otimizar a apresentação de trabalhos acadêmicos, integrando planejamento, roteirização e ensaio.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.15202",
+      "category": "research",
+      "tags": [
+        "ia",
+        "apresentacoes",
+        "comunicacao academica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 18 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-18T04:16:23.676Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "apple-prepara-nova-siri-com-foco-em-privacidade-e-exclusao-automatica-de-chats",
       "headline": "Apple prepara nova Siri com foco em privacidade e exclusão automática de chats",
