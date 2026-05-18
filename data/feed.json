@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-18T10:19:34.225Z",
+  "generated_at": "2026-05-18T15:49:16.693Z",
   "articles": [
+    {
+      "slug": "alexa-gera-podcasts-amazon-amplia-assistente-para-plataforma-de-conteudo-persona",
+      "headline": "Alexa Gera Podcasts: Amazon Amplia Assistente para Plataforma de Conteúdo Personalizado",
+      "subtitle": "A Amazon expande as capacidades da Alexa, transformando o assistente em um gerador de conteúdo sob demanda.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+      "category": "mercado",
+      "tags": [
+        "alexa",
+        "inteligencia artificial",
+        "podcasts",
+        "amazon"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 18 May 2026 14:56:47 +0000",
+      "written_at": "2026-05-18T15:49:16.524Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-lanca-ranking-de-agentes-de-ia-abertos",
+      "headline": "Hugging Face Lanca Ranking de Agentes de IA Abertos",
+      "subtitle": "Plataforma de Machine Learning busca padronizar e comparar o desempenho de sistemas autônomos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "category": "opensource",
+      "tags": [
+        "agentes de ia",
+        "benchmarking",
+        "open source"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 18 May 2026 14:12:58 GMT",
+      "written_at": "2026-05-18T15:49:03.984Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "paddleocr-integra-transformers-para-analise-de-documentos-com-ia",
+      "headline": "PaddleOCR Integra Transformers para Análise de Documentos com IA",
+      "subtitle": "Nova versão do sistema de OCR da PaddlePaddle promete maior precisão e flexibilidade para processar textos em imagens e documentos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "category": "opensource",
+      "tags": [
+        "ocr",
+        "inteligência artificial",
+        "paddleocr"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 18 May 2026 15:12:46 GMT",
+      "written_at": "2026-05-18T15:48:50.155Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "receita-de-startups-de-ia-atinge-us-80-bilhoes-mas-openai-e-anthropic-dominam-qu",
       "headline": "Receita de Startups de IA Atinge US$ 80 Bilhões, Mas OpenAI e Anthropic Dominam Quase Tudo",
