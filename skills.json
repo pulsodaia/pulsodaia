@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T08:02:59.942Z",
-  "total": 3056,
+  "generated_at": "2026-05-18T06:25:02.106Z",
+  "total": 3064,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1487
+      "count": 1494
     },
     {
       "key": "ai-ml",
@@ -50,7 +50,7 @@
     {
       "key": "marketing-seo",
       "label": "Marketing, SEO & Copy",
-      "count": 85
+      "count": 86
     },
     {
       "key": "backend",
@@ -7450,6 +7450,12 @@
       "origin": "claude"
     },
     {
+      "name": "frameworks-mapeamento-processos",
+      "description": "Notacoes e frameworks pra mapear processos (BPMN, SIPOC, VSM, RACI, IDEF0, APQC, Service Blueprint)",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "fred-economic-data",
       "description": "Query FRED (Federal Reserve Economic Data) API for 800,000+ economic time series from 100+ sources. Access GDP, unemployment, inflation, interest rates, exchange rates, housing, and regional data. Use for macroeconomic analysis, financial research, policy studies, economic forecasting, and academic research requiring U.S. and international economic indicators.",
       "category": "science",
@@ -10480,6 +10486,12 @@
       "origin": "claude"
     },
     {
+      "name": "metodologias-melhoria-processos",
+      "description": "Diagnostico, melhoria, criacao e governanca de processos (Lean, Six Sigma, ToC, BPR, Design Thinking, Kaizen)",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "micro-saas-launcher",
       "description": "Expert in launching small, focused SaaS products fast - the indie hacker approach to building profitable software. Covers idea validation, MVP development, pricing, launch strategies, and growing t...",
       "category": "marketing-seo",
@@ -12523,6 +12535,18 @@
       "name": "process-interaction",
       "description": "This guide covers the mechanisms for processes to interact and synchronize in SimPy simulations.",
       "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "process-mining-ia-bpm",
+      "description": "Process mining classico + IA generativa em BPM (LLMs, agentes, MCP, Celonis, GenAI hybrids)",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "processo-comercial-b2b-revops",
+      "description": "Frameworks de processo comercial B2B + RevOps + customer journey + referencias Brasil",
+      "category": "marketing-seo",
       "origin": "claude"
     },
     {
@@ -17120,6 +17144,30 @@
       "description": "Production n8n workflow patterns - error handling, webhooks, credentials, self-healing, Railway deploy",
       "category": "integrations",
       "origin": "flowhub"
+    },
+    {
+      "name": "triade-process-commercial-b2b",
+      "description": "Skill de referencia pra desenhar/mapear/melhorar processo comercial B2B mid-market BR (5-50 funcionarios). Posicionamento Alex Triadeflow consultor de PROCESSO COMERCIAL, HUB (GoHighLevel) eh ferramenta nao produto, modela Laquila e Marcos Tito (NAO High Ticket Clube). Cobre frameworks Predictable Revenue Aaron Ross com triangulo SDR/BDR/AE, Inbound HubSpot flywheel, ABM 1:1/1:Few/1:Many, MEDDIC/MEDDPICC com champion como mais preditivo de win, BANT vs CHAMP vs SPIN com receita pratica BR, Sandl",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "triade-process-frameworks",
+      "description": "Skill de referencia pra escolher e aplicar frameworks/notacoes de mapeamento de processo. Cobre BPMN 2.0 (Bruce Silver 3 niveis Descritivo/Analitico/Executavel), SIPOC, Value Stream Mapping (VSM com takt/cycle/lead/PCE), RACI/RASCI/DARCI, Swim Lanes, IDEF0 (ICOM), APQC PCF (13 categorias cross-industry), Customer Journey Map e Service Blueprint. Cada framework com quando usar, quando NAO usar, granularidade ideal, pegadinhas comuns e exemplos B2B aplicados em vendas/onboarding/CS. Inclui regra d",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "triade-process-methods",
+      "description": "Skill de referencia pra diagnosticar, melhorar, criar e governar processos. Cobre 4 blocos. DIAGNOSTICO Theory of Constraints (5 focusing steps + Drum-Buffer-Rope), Root Cause Analysis (5 Whys + Fishbone/Ishikawa + Pareto + A3), Gemba Walk, Process Discovery Interview. MELHORIA Lean/TPS (7 wastes traduzidos pra vendas/ops B2B, JIT, Jidoka), Six Sigma DMAIC com ferramentas por fase, PDCA Deming/Falconi e relacao com OODA, Kaizen Event com agenda 5 dias, BPR Hammer-Champy quando demolir vs increme",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "triade-process-mining-ia",
+      "description": "Skill de referencia pra descobrir/mapear/monitorar processos AUTOMATICAMENTE via process mining classico + LLMs + agentes + MCP. Cobre algoritmos (Alpha/Heuristic/Inductive/Fuzzy/Split miner), event log XES/CSV com extracao de Salesforce/HubSpot/GHL/SAP, 3 tipos (Discovery/Conformance/Enhancement), Task Mining vs Process Mining, ferramentas (Celonis lider Gartner MQ 2025, UiPath, SAP Signavio, Microsoft, Apromore open source, PM4Py Python). Cobre IA generativa em BPM 2024-2026 (Camunda 8.8 agent",
+      "category": "outros",
+      "origin": "claude"
     },
     {
       "name": "triade-proposal",
