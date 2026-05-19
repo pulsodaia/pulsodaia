@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-18T23:11:53.451Z",
+  "generated_at": "2026-05-19T04:11:33.957Z",
   "articles": [
+    {
+      "slug": "arxiv-avanca-acessibilidade-de-conteudo-matematico-com-html-e-mathml-4",
+      "headline": "arXiv Avança Acessibilidade de Conteúdo Matemático com HTML e MathML 4",
+      "subtitle": "Projeto experimental do repositório de pré-publicações busca tornar a matemática mais acessível a todos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.16562",
+      "category": "research",
+      "tags": [
+        "acessibilidade",
+        "matematica",
+        "arxiv"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 19 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-19T04:11:33.927Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "pqr-framework-desenvolvido-para-desafiar-agentes-de-ia-com-consultas-realistas",
+      "headline": "PQR: Framework Desenvolvido para Desafiar Agentes de IA com Consultas Realistas",
+      "subtitle": "Pesquisa acadêmica propõe método para identificar falhas em sistemas de QA que simulam intenções humanas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.16551",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "testes"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 19 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-19T04:11:15.181Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "leis-de-escalabilidade-de-habilidades-em-sistemas-de-agentes-llm-revelam-padroes",
+      "headline": "Leis de Escalabilidade de Habilidades em Sistemas de Agentes LLM Revelam Padrões de Desempenho",
+      "subtitle": "Novas descobertas do arXiv detalham como a complexidade e a precisão dos agentes de IA se comportam à medida que suas bibliotecas de habilidades crescem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.16508",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "escalabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 19 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-19T04:11:02.716Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "disputa-musk-vs-altman-expoe-lideranca-questionavel-na-ia",
       "headline": "Disputa Musk vs. Altman Expõe Liderança Questionável na IA",

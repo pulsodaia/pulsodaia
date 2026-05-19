@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 18 May 2026 23:17:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 04:16:26 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>arXiv Avança Acessibilidade de Conteúdo Matemático com HTML e MathML 4</title>
+      <link>https://pulsodaia.com.br/feed/arxiv-avanca-acessibilidade-de-conteudo-matematico-com-html-e-mathml-4/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/arxiv-avanca-acessibilidade-de-conteudo-matematico-com-html-e-mathml-4/</guid>
+      <pubDate>Tue, 19 May 2026 04:11:33 GMT</pubDate>
+      <description>Projeto experimental do repositório de pré-publicações busca tornar a matemática mais acessível a todos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.16562">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>PQR: Framework Desenvolvido para Desafiar Agentes de IA com Consultas Realistas</title>
+      <link>https://pulsodaia.com.br/feed/pqr-framework-desenvolvido-para-desafiar-agentes-de-ia-com-consultas-realistas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pqr-framework-desenvolvido-para-desafiar-agentes-de-ia-com-consultas-realistas/</guid>
+      <pubDate>Tue, 19 May 2026 04:11:15 GMT</pubDate>
+      <description>Pesquisa acadêmica propõe método para identificar falhas em sistemas de QA que simulam intenções humanas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.16551">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Leis de Escalabilidade de Habilidades em Sistemas de Agentes LLM Revelam Padrões de Desempenho</title>
+      <link>https://pulsodaia.com.br/feed/leis-de-escalabilidade-de-habilidades-em-sistemas-de-agentes-llm-revelam-padroes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/leis-de-escalabilidade-de-habilidades-em-sistemas-de-agentes-llm-revelam-padroes/</guid>
+      <pubDate>Tue, 19 May 2026 04:11:02 GMT</pubDate>
+      <description>Novas descobertas do arXiv detalham como a complexidade e a precisão dos agentes de IA se comportam à medida que suas bibliotecas de habilidades crescem.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.16508">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>Disputa Musk vs. Altman Expõe Liderança Questionável na IA</title>
       <link>https://pulsodaia.com.br/feed/disputa-musk-vs-altman-expoe-lideranca-questionavel-na-ia/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa em aprendizado por reforço propõe método para lidar com dados limitados e melhorar a tomada de decisão em sistemas de IA.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2605.11151">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>EVOCHAMBER: Nova Abordagem Evolui Sistemas Multiagente em Escalas Diversas</title>
-      <link>https://pulsodaia.com.br/feed/evochamber-nova-abordagem-evolui-sistemas-multiagente-em-escalas-diversas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/evochamber-nova-abordagem-evolui-sistemas-multiagente-em-escalas-diversas/</guid>
-      <pubDate>Wed, 13 May 2026 10:02:22 GMT</pubDate>
-      <description>Pesquisa do arXiv propõe evolução de IA em múltiplos níveis para colaboração mais eficaz.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2605.11136">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Generativa em Cascata Otimiza Vitrines de E-commerce</title>
-      <link>https://pulsodaia.com.br/feed/ia-generativa-em-cascata-otimiza-vitrines-de-e-commerce/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-generativa-em-cascata-otimiza-vitrines-de-e-commerce/</guid>
-      <pubDate>Wed, 13 May 2026 10:02:09 GMT</pubDate>
-      <description>Nova abordagem em pesquisa acadêmica propõe aprimorar a personalização e a coesão semântica em plataformas de varejo online.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.11118">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Anthropic alerta investidores sobre plataformas de ações secundárias</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-alerta-investidores-sobre-plataformas-de-acoes-secundarias/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-alerta-investidores-sobre-plataformas-de-acoes-secundarias/</guid>
-      <pubDate>Tue, 12 May 2026 22:38:30 GMT</pubDate>
-      <description>Empresa de IA reforça controle sobre participação acionária e alerta para transações inválidas.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

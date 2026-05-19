@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2605.16551v1",
+  "title": "PQR: A Framework to Generate Diverse and Realistic User Queries that Elicit QA Agent Failures",
+  "url": "https://arxiv.org/abs/2605.16551",
+  "summary": "arXiv:2605.16551v1 Announce Type: new Abstract: Evaluating LLM-based agents remains challenging because identifying meaningful failure cases often requires substantial human effort to design realistic test scenarios. Prior works primarily focus on automatically discovering agent failures induced by adversarial users, while overlooking queries with real user intents that also trigger agent failures. We introduce PQR, a framework that not only surfaces agent failures with respect to specific objectives (e.g., helpfulness, safety, etc.) but also resembles real users' intents. PQR operates through an iterative interaction between two complementary modules. The query refinement module performs rewrites to explore diverse query variations, while the prompt refinement module uses prior feedback to derive new objective-violating strategies and realism policies for refining prompts, which in turn generate failure-triggering yet realistic queries. We evaluate PQR on detecting an e-commerce QA ag",
+  "published_at": "Tue, 19 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "PQR: Framework Desenvolvido para Desafiar Agentes de IA com Consultas Realistas",
+  "subtitle": "Pesquisa acadêmica propõe método para identificar falhas em sistemas de QA que simulam intenções humanas.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "A avaliação de agentes baseados em grandes modelos de linguagem (LLMs) enfrenta um obstáculo persistente: a dificuldade em identificar falhas significativas sem um esforço humano considerável para criar cenários de teste realistas. Uma nova proposta, o framework PQR, visa automatizar esse processo.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores apresentaram o PQR, uma metodologia projetada para gerar consultas diversificadas e realistas que efetivamente expõem as falhas de agentes de QA (Question Answering). O trabalho, publicado no arXiv, aborda uma limitação de pesquisas anteriores que se concentravam predominantemente em descobrir falhas induzidas por usuários com intenções adversariais, negligenciando cenários onde usuários reais, com intenções genuínas, também podem levar os agentes de IA a cometer erros. O PQR opera através de um ciclo iterativo, combinando um módulo de refinamento de consulta, responsável por explorar variações de perguntas, e um módulo de refinamento de prompt, que utiliza feedback anterior para guiar o processo. Esta abordagem visa não apenas identificar falhas em relação a objetivos específicos, como utilidade ou segurança, mas também garantir que as consultas geradas reflitam a maneira como usuários humanos interagem com esses sistemas. Mais detalhes sobre a metodologia podem ser encontrados em [PQR: A Framework to Generate Diverse and Realistic User Queries that Elicit QA Agent Failures](https://arxiv.org/abs/2605.16551).\n\n## Por que importa\n\nA capacidade de identificar falhas em agentes de IA é crucial para o desenvolvimento e a adoção segura dessas tecnologias no Brasil. Com a crescente integração de sistemas de QA em diversas aplicações, desde assistentes virtuais até ferramentas de suporte ao cliente, a garantia de sua confiabilidade e precisão é fundamental. Um framework como o PQR pode acelerar o processo de teste e validação, permitindo que desenvolvedores e empresas brasileiras identifiquem e corrijam vulnerabilidades de forma mais eficiente. Isso se traduz em produtos de IA mais robustos, seguros e alinhados com as expectativas dos usuários locais. A capacidade de simular intenções humanas reais em testes automatizados pode reduzir o tempo e o custo associados à depuração e ao aprimoramento contínuo desses sistemas, um benefício direto para o mercado de tecnologia no país.\n\n## O que esperar\n\nA introdução do PQR sugere um avanço na forma como avaliamos a performance de agentes de IA. A expectativa é que este framework possa ser integrado a pipelines de desenvolvimento e teste, permitindo uma detecção mais proativa de falhas antes que os sistemas cheguem ao público. A pesquisa abre caminho para a criação de conjuntos de dados de teste mais abrangentes e representativos, que vão além de cenários puramente adversariais. A comunidade de pesquisa em IA pode se beneficiar de uma ferramenta que facilita a identificação de áreas onde os modelos ainda precisam de melhorias, promovendo um desenvolvimento mais direcionado e eficaz. Para uma compreensão mais aprofundada das técnicas utilizadas, consulte o artigo original em [arXiv cs.CL](https://arxiv.org/abs/2605.16551). A evolução dessa metodologia poderá impactar diretamente a confiabilidade e a usabilidade de futuras gerações de agentes de IA.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores apresentaram o PQR, uma metodologia projetada para gerar consultas diversificadas e realistas que efetivamente expõem as falhas de agentes de QA (Question Answering). O trabalho, publicado no arXiv, aborda uma limitação de pesquisas anteriores que se concentravam predominantemente em descobrir falhas induzidas por usuários com intenções adversariais, negligenciando cenários onde usuários reais, com intenções genuínas, também podem levar os agentes de IA a cometer erros. O PQR opera através de um ciclo iterativo, combinando um módulo de refinamento de consulta, responsável por explorar variações de perguntas, e um módulo de refinamento de prompt, que utiliza feedback anterior para guiar o processo. Esta abordagem visa não apenas identificar falhas em relação a objetivos específicos, como utilidade ou segurança, mas também garantir que as consultas geradas reflitam a maneira como usuários humanos interagem com esses sistemas. Mais detalhes sobre a metodologia podem ser encontrados em <a href=\"https://arxiv.org/abs/2605.16551\" target=\"_blank\" rel=\"external noopener\">PQR: A Framework to Generate Diverse and Realistic User Queries that Elicit QA Agent Failures</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de identificar falhas em agentes de IA é crucial para o desenvolvimento e a adoção segura dessas tecnologias no Brasil. Com a crescente integração de sistemas de QA em diversas aplicações, desde assistentes virtuais até ferramentas de suporte ao cliente, a garantia de sua confiabilidade e precisão é fundamental. Um framework como o PQR pode acelerar o processo de teste e validação, permitindo que desenvolvedores e empresas brasileiras identifiquem e corrijam vulnerabilidades de forma mais eficiente. Isso se traduz em produtos de IA mais robustos, seguros e alinhados com as expectativas dos usuários locais. A capacidade de simular intenções humanas reais em testes automatizados pode reduzir o tempo e o custo associados à depuração e ao aprimoramento contínuo desses sistemas, um benefício direto para o mercado de tecnologia no país.</p>\n\n<h2>O que esperar</h2>\n\n<p>A introdução do PQR sugere um avanço na forma como avaliamos a performance de agentes de IA. A expectativa é que este framework possa ser integrado a pipelines de desenvolvimento e teste, permitindo uma detecção mais proativa de falhas antes que os sistemas cheguem ao público. A pesquisa abre caminho para a criação de conjuntos de dados de teste mais abrangentes e representativos, que vão além de cenários puramente adversariais. A comunidade de pesquisa em IA pode se beneficiar de uma ferramenta que facilita a identificação de áreas onde os modelos ainda precisam de melhorias, promovendo um desenvolvimento mais direcionado e eficaz. Para uma compreensão mais aprofundada das técnicas utilizadas, consulte o artigo original em <a href=\"https://arxiv.org/abs/2605.16551\" target=\"_blank\" rel=\"external noopener\">arXiv cs.CL</a>. A evolução dessa metodologia poderá impactar diretamente a confiabilidade e a usabilidade de futuras gerações de agentes de IA.</p>",
+  "tags": [
+    "ia",
+    "llm",
+    "testes"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "agentes de IA",
+    "QA",
+    "LLM",
+    "testes de falha",
+    "PQR",
+    "consultas realistas"
+  ],
+  "meta_description_seo": "Framework PQR propõe geração de consultas realistas para identificar falhas em agentes de IA, superando testes adversariais.",
+  "faq": [
+    {
+      "q": "O que é o framework PQR?",
+      "a": "PQR é uma metodologia para gerar consultas de usuários diversas e realistas, com o objetivo de identificar falhas em agentes de Question Answering (QA) baseados em LLMs."
+    },
+    {
+      "q": "Qual o problema que o PQR tenta resolver?",
+      "a": "Ele busca resolver a dificuldade em avaliar agentes de IA de forma eficaz, pois a identificação de falhas significativas geralmente requer esforço humano para criar cenários de teste realistas."
+    },
+    {
+      "q": "Como o PQR funciona?",
+      "a": "O PQR opera por meio de um processo iterativo entre um módulo de refinamento de consulta e um módulo de refinamento de prompt, utilizando feedback para explorar variações de perguntas e simular intenções humanas."
+    }
+  ],
+  "written_at": "2026-05-19T04:11:15.181Z",
+  "slug": "pqr-framework-desenvolvido-para-desafiar-agentes-de-ia-com-consultas-realistas",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

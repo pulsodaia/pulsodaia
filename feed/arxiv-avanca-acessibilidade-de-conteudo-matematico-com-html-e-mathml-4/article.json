@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2605.16562v1",
+  "title": "Scaling Accessible Mathematics on arXiv: HTML Conversion and MathML 4",
+  "url": "https://arxiv.org/abs/2605.16562",
+  "summary": "arXiv:2605.16562v1 Announce Type: new Abstract: We report on the ongoing development of arXiv's HTML Papers offering, available on every new TeX/LaTeX submission since its initial release in 2023. The main highlights from 2025 and early 2026 are: (i) community-driven improvements to HTML fidelity and service health, with roughly half of 6,000 user reports resolved; (ii) corpus-scale conversion work aimed at 90% error-free HTML (currently 75%); (iii) initial MathML 4 Intent annotations for accessible speech output; (iv) an in-progress Rust port of LaTeXML, reducing compute costs and enabling faster previews on submission. The arXiv HTML Papers project remains experimental, but is gradually maturing as we better understand the needs of arXiv's readers and the technical opportunities presented by new standards and by advances in programming languages and AI.",
+  "published_at": "Tue, 19 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "arXiv Avança Acessibilidade de Conteúdo Matemático com HTML e MathML 4",
+  "subtitle": "Projeto experimental do repositório de pré-publicações busca tornar a matemática mais acessível a todos.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "O arXiv, um dos principais repositórios de pesquisas científicas, está aprimorando a acessibilidade de seus artigos matemáticos. O projeto, que desde 2023 oferece versões em HTML para novas submissões em TeX/LaTeX, revelou progressos significativos em 2025 e início de 2026, focando na fidelidade do conteúdo e na conversão em larga escala.",
+  "body_markdown": "## O que aconteceu\n\nO projeto de desenvolvimento do conteúdo em HTML do arXiv, iniciado em 2023, continua a evoluir. A iniciativa, que disponibiliza versões HTML de todas as novas submissões em TeX/LaTeX, relata avanços importantes. Entre os destaques de 2025 e o início de 2026, estão melhorias impulsionadas pela comunidade, com a resolução de aproximadamente metade dos 6.000 relatórios de usuários. O objetivo é alcançar 90% de fidelidade no HTML convertido, um patamar que atualmente se encontra em 75%. Um ponto crucial é a introdução de anotações MathML 4 para a geração de saídas de voz acessíveis, facilitando a compreensão por pessoas com deficiência visual. Adicionalmente, um port em Rust do LaTeXML está em desenvolvimento, visando reduzir custos computacionais e acelerar a pré-visualização de submissões. O projeto, embora ainda considerado experimental, demonstra maturidade à medida que as necessidades dos leitores do arXiv e as oportunidades técnicas são melhor compreendidas. Mais detalhes sobre os esforços de acessibilidade podem ser encontrados em [arXiv:2605.16562](https://arxiv.org/abs/2605.16562).\n\n## Por que importa\n\nA acessibilidade no meio acadêmico é fundamental para democratizar o acesso ao conhecimento. No Brasil, onde a produção científica busca cada vez mais visibilidade internacional, iniciativas como a do arXiv têm um impacto direto. Tornar artigos matemáticos, frequentemente densos e complexos, acessíveis através de formatos como HTML e MathML 4, não apenas beneficia pesquisadores com deficiência visual ou que utilizam leitores de tela, mas também melhora a experiência de leitura para todos, independentemente do dispositivo ou conexão. A conversão em larga escala e a busca por alta fidelidade indicam um compromisso com a qualidade, essencial para a integridade da pesquisa. A redução de custos computacionais e o aumento da velocidade de pré-visualização também podem agilizar o fluxo de trabalho dos autores brasileiros que submetem seus trabalhos ao repositório.\n\n## O que esperar\n\nA expectativa é que o projeto continue a expandir sua cobertura e aprimorar a precisão da conversão. A meta de 90% de erro-free HTML sugere um futuro onde a vasta maioria dos artigos matemáticos no arXiv será facilmente navegável e compreensível por ferramentas de acessibilidade. A integração do MathML 4 para saídas de voz é um passo significativo para a inclusão. A migração para Rust no LaTeXML promete otimizações de desempenho e custos, o que pode ter efeitos positivos na infraestrutura do próprio arXiv e, indiretamente, na experiência do usuário. O caráter experimental do projeto, contudo, implica que novas iterações e ajustes são esperados. A colaboração contínua com a comunidade de usuários será vital para refinar o serviço. Para acompanhar o progresso e as novidades, recomenda-se consultar atualizações sobre o projeto em [arXiv:2605.16562](https://arxiv.org/abs/2605.16562).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>O projeto de desenvolvimento do conteúdo em HTML do arXiv, iniciado em 2023, continua a evoluir. A iniciativa, que disponibiliza versões HTML de todas as novas submissões em TeX/LaTeX, relata avanços importantes. Entre os destaques de 2025 e o início de 2026, estão melhorias impulsionadas pela comunidade, com a resolução de aproximadamente metade dos 6.000 relatórios de usuários. O objetivo é alcançar 90% de fidelidade no HTML convertido, um patamar que atualmente se encontra em 75%. Um ponto crucial é a introdução de anotações MathML 4 para a geração de saídas de voz acessíveis, facilitando a compreensão por pessoas com deficiência visual. Adicionalmente, um port em Rust do LaTeXML está em desenvolvimento, visando reduzir custos computacionais e acelerar a pré-visualização de submissões. O projeto, embora ainda considerado experimental, demonstra maturidade à medida que as necessidades dos leitores do arXiv e as oportunidades técnicas são melhor compreendidas. Mais detalhes sobre os esforços de acessibilidade podem ser encontrados em <a href=\"https://arxiv.org/abs/2605.16562\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.16562</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A acessibilidade no meio acadêmico é fundamental para democratizar o acesso ao conhecimento. No Brasil, onde a produção científica busca cada vez mais visibilidade internacional, iniciativas como a do arXiv têm um impacto direto. Tornar artigos matemáticos, frequentemente densos e complexos, acessíveis através de formatos como HTML e MathML 4, não apenas beneficia pesquisadores com deficiência visual ou que utilizam leitores de tela, mas também melhora a experiência de leitura para todos, independentemente do dispositivo ou conexão. A conversão em larga escala e a busca por alta fidelidade indicam um compromisso com a qualidade, essencial para a integridade da pesquisa. A redução de custos computacionais e o aumento da velocidade de pré-visualização também podem agilizar o fluxo de trabalho dos autores brasileiros que submetem seus trabalhos ao repositório.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que o projeto continue a expandir sua cobertura e aprimorar a precisão da conversão. A meta de 90% de erro-free HTML sugere um futuro onde a vasta maioria dos artigos matemáticos no arXiv será facilmente navegável e compreensível por ferramentas de acessibilidade. A integração do MathML 4 para saídas de voz é um passo significativo para a inclusão. A migração para Rust no LaTeXML promete otimizações de desempenho e custos, o que pode ter efeitos positivos na infraestrutura do próprio arXiv e, indiretamente, na experiência do usuário. O caráter experimental do projeto, contudo, implica que novas iterações e ajustes são esperados. A colaboração contínua com a comunidade de usuários será vital para refinar o serviço. Para acompanhar o progresso e as novidades, recomenda-se consultar atualizações sobre o projeto em <a href=\"https://arxiv.org/abs/2605.16562\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.16562</a>.</p>",
+  "tags": [
+    "acessibilidade",
+    "matematica",
+    "arxiv"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "acessibilidade matematica",
+    "arXiv",
+    "MathML 4",
+    "HTML",
+    "LaTeXML"
+  ],
+  "meta_description_seo": "arXiv aprimora acessibilidade de artigos matemáticos com HTML e MathML 4, visando democratizar o acesso ao conhecimento.",
+  "faq": [
+    {
+      "q": "Como o arXiv está melhorando o acesso a artigos matemáticos?",
+      "a": "O arXiv está convertendo artigos em formato HTML e implementando MathML 4 para saídas de voz, buscando maior fidelidade e acessibilidade."
+    },
+    {
+      "q": "Qual o objetivo da conversão em larga escala?",
+      "a": "O objetivo é atingir 90% de conversão em HTML sem erros, tornando o conteúdo mais confiável e acessível para um público mais amplo."
+    },
+    {
+      "q": "O que é MathML 4 e por que é importante para o arXiv?",
+      "a": "MathML 4 é uma linguagem para representar equações matemáticas em formato web, permitindo que sejam lidas por softwares de acessibilidade, como leitores de tela, e exibidas corretamente."
+    }
+  ],
+  "written_at": "2026-05-19T04:11:33.927Z",
+  "slug": "arxiv-avanca-acessibilidade-de-conteudo-matematico-com-html-e-mathml-4",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
