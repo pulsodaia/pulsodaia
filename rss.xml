@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 19 May 2026 12:51:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 16:57:59 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Andrej Karpathy, cofundador da OpenAI, reforça equipe de pré-treinamento da Anthropic</title>
+      <link>https://pulsodaia.com.br/feed/andrej-karpathy-cofundador-da-openai-reforca-equipe-de-pre-treinamento-da-anthro/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/andrej-karpathy-cofundador-da-openai-reforca-equipe-de-pre-treinamento-da-anthro/</guid>
+      <pubDate>Tue, 19 May 2026 16:53:08 GMT</pubDate>
+      <description>Movimentação estratégica no cenário de IA generativa indica intensificação da corrida por modelos de ponta.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Hugging Face Lança Família de Modelos Ettin para Otimizar Busca e Recuperação de Informação</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-lanca-familia-de-modelos-ettin-para-otimizar-busca-e-recuperacao-de/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-lanca-familia-de-modelos-ettin-para-otimizar-busca-e-recuperacao-de/</guid>
+      <pubDate>Tue, 19 May 2026 16:52:51 GMT</pubDate>
+      <description>Nova linha de modelos busca melhorar a precisão em tarefas de recuperação e ranqueamento, com potencial impacto em aplicações brasileiras.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ettin-reranker">Hugging Face</source>
+    </item>
     <item>
       <title>IA de segurança da Anthropic detecta falhas que modelos anteriores ignoraram</title>
       <link>https://pulsodaia.com.br/feed/ia-de-seguranca-da-anthropic-detecta-falhas-que-modelos-anteriores-ignoraram/</link>
@@ -439,24 +457,6 @@
       <description>A expansão da infraestrutura de IA de Elon Musk levanta questões sobre o controle e o impacto ambiental de suas operações.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Notion Integra Agentes de IA Diretamente no Espaço de Trabalho</title>
-      <link>https://pulsodaia.com.br/feed/notion-integra-agentes-de-ia-diretamente-no-espaco-de-trabalho/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/notion-integra-agentes-de-ia-diretamente-no-espaco-de-trabalho/</guid>
-      <pubDate>Wed, 13 May 2026 22:46:01 GMT</pubDate>
-      <description>Plataforma expande funcionalidades com conexão direta a dados externos e código customizado.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Mira Pequenos Negócios: A Guerra pela IA se Expande para o Mercado de Base</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-mira-pequenos-negocios-a-guerra-pela-ia-se-expande-para-o-mercado-de-b/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-mira-pequenos-negocios-a-guerra-pela-ia-se-expande-para-o-mercado-de-b/</guid>
-      <pubDate>Wed, 13 May 2026 17:38:21 GMT</pubDate>
-      <description>A estratégia da Anthropic de focar em PMEs sinaliza uma mudança no foco das grandes empresas de tecnologia.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
