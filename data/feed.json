@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-19T04:11:33.957Z",
+  "generated_at": "2026-05-19T12:47:00.921Z",
   "articles": [
+    {
+      "slug": "ia-de-seguranca-da-anthropic-detecta-falhas-que-modelos-anteriores-ignoraram",
+      "headline": "IA de segurança da Anthropic detecta falhas que modelos anteriores ignoraram",
+      "subtitle": "Testes da Cloudflare com o modelo Mythos Preview revelam novas cadeias de exploração em repositórios de código.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/cloudflare-says-anthropics-mythos-preview-finds-exploit-chains-that-earlier-frontier-models-missed/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança",
+        "vulnerabilidades"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 19 May 2026 11:13:48 +0000",
+      "written_at": "2026-05-19T12:46:58.828Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "mistral-ai-expande-atuacao-industrial-com-aquisicao-da-emmi-ai",
+      "headline": "Mistral AI expande atuação industrial com aquisição da Emmi AI",
+      "subtitle": "Movimento da francesa visa fortalecer presença na Europa com foco em IA física.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/mistral-ai-acquires-viennese-physical-ai-startup-emmi-ai/",
+      "category": "mercado",
+      "tags": [
+        "mistral ai",
+        "emmi ai",
+        "ia industrial"
+      ],
+      "read_time_min": 2,
+      "published_at": "Tue, 19 May 2026 11:27:09 +0000",
+      "written_at": "2026-05-19T12:46:46.023Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "gemini-se-aproxima-do-modelo-copilot-gerando-preocupacoes-de-invasao",
+      "headline": "Gemini se aproxima do modelo Copilot, gerando preocupações de invasão",
+      "subtitle": "A integração agressiva da IA do Google em suas ferramentas de produtividade levanta debates sobre a experiência do usuário.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
+      "category": "mercado",
+      "tags": [
+        "gemini",
+        "google",
+        "copilot"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-19T06:30:00-04:00",
+      "written_at": "2026-05-19T12:46:35.870Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "arxiv-avanca-acessibilidade-de-conteudo-matematico-com-html-e-mathml-4",
       "headline": "arXiv Avança Acessibilidade de Conteúdo Matemático com HTML e MathML 4",
