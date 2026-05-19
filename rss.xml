@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 19 May 2026 21:32:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 23:16:38 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Hassabis e a "cordilheira da singularidade": Google DeepMind sinaliza avanço na IA</title>
+      <link>https://pulsodaia.com.br/feed/hassabis-e-a-cordilheira-da-singularidade-google-deepmind-sinaliza-avanco-na-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hassabis-e-a-cordilheira-da-singularidade-google-deepmind-sinaliza-avanco-na-ia/</guid>
+      <pubDate>Tue, 19 May 2026 23:11:51 GMT</pubDate>
+      <description>CEO da Google DeepMind compara o momento atual da inteligência artificial a um estágio inicial de algo muito maior.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis">The Verge AI</source>
+    </item>
+    <item>
+      <title>Google entra na disputa por ferramentas de design com IA</title>
+      <link>https://pulsodaia.com.br/feed/google-entra-na-disputa-por-ferramentas-de-design-com-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-entra-na-disputa-por-ferramentas-de-design-com-ia/</guid>
+      <pubDate>Tue, 19 May 2026 23:11:38 GMT</pubDate>
+      <description>A gigante de Mountain View anuncia sua aposta em soluções de criação visual acessíveis a todos, mirando um mercado em expansão.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code aprimora interacao com agentes de IA via JSON e visibilidade de plugins</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-interacao-com-agentes-de-ia-via-json-e-visibilidade-de-plug/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-interacao-com-agentes-de-ia-via-json-e-visibilidade-de-plug/</guid>
+      <pubDate>Tue, 19 May 2026 23:11:25 GMT</pubDate>
+      <description>Novas funcionalidades visam facilitar a integracao de assistentes de IA em fluxos de trabalho e o entendimento de suas capacidades antes da adocao.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.145">Claude Code</source>
+    </item>
     <item>
       <title>Google Workspace Ganha Novas Funções de Voz e Ferramenta de Design com IA</title>
       <link>https://pulsodaia.com.br/feed/google-workspace-ganha-novas-funcoes-de-voz-e-ferramenta-de-design-com-ia/</link>
@@ -430,33 +457,6 @@
       <description>Um novo modelo de IA com foco em segurança, treinado em espanhol, busca atender necessidades específicas da região.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2605.13989">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Edição de Conhecimento Multilíngue em LLMs: Métodos Híbridos Alcançam Estabilidade</title>
-      <link>https://pulsodaia.com.br/feed/edicao-de-conhecimento-multilingue-em-llms-metodos-hibridos-alcancam-estabilidad/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/edicao-de-conhecimento-multilingue-em-llms-metodos-hibridos-alcancam-estabilidad/</guid>
-      <pubDate>Fri, 15 May 2026 16:29:43 GMT</pubDate>
-      <description>Pesquisa avança na capacidade de modelos de linguagem processarem e atualizarem informações em diversos idiomas simultaneamente.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.13919">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>IA Robusta: Nova Abordagem para Agentes Autônomos em Ambientes Complexos</title>
-      <link>https://pulsodaia.com.br/feed/ia-robusta-nova-abordagem-para-agentes-autonomos-em-ambientes-complexos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-robusta-nova-abordagem-para-agentes-autonomos-em-ambientes-complexos/</guid>
-      <pubDate>Thu, 14 May 2026 21:56:41 GMT</pubDate>
-      <description>Pesquisadores propõem método para tornar agentes de IA mais confiáveis em tarefas do mundo real.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.12620">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Hugging Face Otimiza Processamento de Modelos de Linguagem com Batching Assíncrono Contínuo</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-otimiza-processamento-de-modelos-de-linguagem-com-batching-assincro/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-otimiza-processamento-de-modelos-de-linguagem-com-batching-assincro/</guid>
-      <pubDate>Thu, 14 May 2026 21:56:30 GMT</pubDate>
-      <description>Novas técnicas prometem acelerar a inferência em aplicações de IA no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/continuous_async">Hugging Face</source>
     </item>
   </channel>
 </rss>
