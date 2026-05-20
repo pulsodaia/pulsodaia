@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 19 May 2026 23:16:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 04:19:56 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>LLMs e Prontuários: A IA Pode Simplificar Sua Saúde?</title>
+      <link>https://pulsodaia.com.br/feed/llms-e-prontuarios-a-ia-pode-simplificar-sua-saude/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/llms-e-prontuarios-a-ia-pode-simplificar-sua-saude/</guid>
+      <pubDate>Wed, 20 May 2026 04:12:30 GMT</pubDate>
+      <description>Estudo avalia se modelos de linguagem avançados podem extrair informações úteis de registros de saúde pessoais para responder a dúvidas de pacientes no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.18937">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Arquitetura de Microserviços Otimiza Processamento de Documentos com IA</title>
+      <link>https://pulsodaia.com.br/feed/arquitetura-de-microservicos-otimiza-processamento-de-documentos-com-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/arquitetura-de-microservicos-otimiza-processamento-de-documentos-com-ia/</guid>
+      <pubDate>Wed, 20 May 2026 04:12:18 GMT</pubDate>
+      <description>Pesquisa acadêmica propõe solução para escalar o entendimento de documentos em larga escala no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.18818">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Pesquisadores Propõem Abordagem Sistemática para Entender a Relação Dados-Desempenho em LLMs</title>
+      <link>https://pulsodaia.com.br/feed/pesquisadores-propoem-abordagem-sistematica-para-entender-a-relacao-dados-desemp/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pesquisadores-propoem-abordagem-sistematica-para-entender-a-relacao-dados-desemp/</guid>
+      <pubDate>Wed, 20 May 2026 04:12:04 GMT</pubDate>
+      <description>Nova perspectiva busca superar a dependência de experimentação massiva em modelos de linguagem.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.18801">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Hassabis e a "cordilheira da singularidade": Google DeepMind sinaliza avanço na IA</title>
       <link>https://pulsodaia.com.br/feed/hassabis-e-a-cordilheira-da-singularidade-google-deepmind-sinaliza-avanco-na-ia/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa propõe método de programação matemática para refeições personalizadas, resolvendo limitações antigas da área.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2605.13849">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>GraphBit: Nova Arquitetura para Orquestração de Agentes de IA Promete Segurança e Reprodutibilidade</title>
-      <link>https://pulsodaia.com.br/feed/graphbit-nova-arquitetura-para-orquestracao-de-agentes-de-ia-promete-seguranca-e/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/graphbit-nova-arquitetura-para-orquestracao-de-agentes-de-ia-promete-seguranca-e/</guid>
-      <pubDate>Sat, 16 May 2026 06:38:44 GMT</pubDate>
-      <description>Pesquisa em IA propõe framework que abandona a orquestração por prompts em favor de grafos dirigidos acíclicos para maior controle.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.13848">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Vulnerabilidade em Decodificação Especulativa de LLMs Abre Porta para Ataques Sutis</title>
-      <link>https://pulsodaia.com.br/feed/vulnerabilidade-em-decodificacao-especulativa-de-llms-abre-porta-para-ataques-su/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vulnerabilidade-em-decodificacao-especulativa-de-llms-abre-porta-para-ataques-su/</guid>
-      <pubDate>Fri, 15 May 2026 16:30:08 GMT</pubDate>
-      <description>Pesquisa aponta falha em modelos que aceleram a geração de texto, com implicações para a segurança e eficiência no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.14005">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>VectraYX-Nano: Modelo de Linguagem Espanhol para Cibersegurança Focado na América Latina</title>
-      <link>https://pulsodaia.com.br/feed/vectrayx-nano-modelo-de-linguagem-espanhol-para-ciberseguranca-focado-na-america/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vectrayx-nano-modelo-de-linguagem-espanhol-para-ciberseguranca-focado-na-america/</guid>
-      <pubDate>Fri, 15 May 2026 16:29:56 GMT</pubDate>
-      <description>Um novo modelo de IA com foco em segurança, treinado em espanhol, busca atender necessidades específicas da região.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2605.13989">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

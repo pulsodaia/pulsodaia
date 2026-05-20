@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-19T23:11:51.817Z",
+  "generated_at": "2026-05-20T04:12:30.259Z",
   "articles": [
+    {
+      "slug": "llms-e-prontuarios-a-ia-pode-simplificar-sua-saude",
+      "headline": "LLMs e Prontuários: A IA Pode Simplificar Sua Saúde?",
+      "subtitle": "Estudo avalia se modelos de linguagem avançados podem extrair informações úteis de registros de saúde pessoais para responder a dúvidas de pacientes no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.18937",
+      "category": "research",
+      "tags": [
+        "ia",
+        "saude",
+        "prontuario eletronico"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 20 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-20T04:12:30.141Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "arquitetura-de-microservicos-otimiza-processamento-de-documentos-com-ia",
+      "headline": "Arquitetura de Microserviços Otimiza Processamento de Documentos com IA",
+      "subtitle": "Pesquisa acadêmica propõe solução para escalar o entendimento de documentos em larga escala no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.18818",
+      "category": "research",
+      "tags": [
+        "ia",
+        "processamento de documentos",
+        "microserviços"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 20 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-20T04:12:18.283Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "pesquisadores-propoem-abordagem-sistematica-para-entender-a-relacao-dados-desemp",
+      "headline": "Pesquisadores Propõem Abordagem Sistemática para Entender a Relação Dados-Desempenho em LLMs",
+      "subtitle": "Nova perspectiva busca superar a dependência de experimentação massiva em modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.18801",
+      "category": "research",
+      "tags": [
+        "llm",
+        "dados",
+        "pesquisa em ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 20 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-20T04:12:04.926Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "hassabis-e-a-cordilheira-da-singularidade-google-deepmind-sinaliza-avanco-na-ia",
       "headline": "Hassabis e a \"cordilheira da singularidade\": Google DeepMind sinaliza avanço na IA",
