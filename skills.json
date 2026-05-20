@@ -1,16 +1,21 @@
 {
-  "generated_at": "2026-05-19T21:39:18.864Z",
-  "total": 3064,
+  "generated_at": "2026-05-20T01:43:29.409Z",
+  "total": 3081,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1494
+      "count": 1504
     },
     {
       "key": "ai-ml",
       "label": "AI & Machine Learning",
-      "count": 167
+      "count": 168
+    },
+    {
+      "key": "frontend",
+      "label": "Frontend & UI",
+      "count": 143
     },
     {
       "key": "cloud-devops",
@@ -21,11 +26,6 @@
       "key": "science",
       "label": "Ciencia & Bioinformatica",
       "count": 140
-    },
-    {
-      "key": "frontend",
-      "label": "Frontend & UI",
-      "count": 137
     },
     {
       "key": "integrations",
@@ -1462,6 +1462,12 @@
       "origin": "claude"
     },
     {
+      "name": "atualizacoes-skill-triade-bot-builder",
+      "description": "Descobertas durante onboarding Bella Triade (Aula 02). Aplicar nos arquivos da skill (`C:\\Users\\Alex Campos\\.claude\\skills\\triade-bot-builder\\`) antes do proximo onboarding pra evitar retrabalho.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "audience-targeting",
       "description": "Detailed targeting strategies for each major ad platform.",
       "category": "outros",
@@ -2560,6 +2566,12 @@
       "origin": "claude"
     },
     {
+      "name": "bella-triade-aula02-inventario",
+      "description": "**Subconta:** Clinica Bella Triade - Estetica (Aula 02)",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "benchling-integration",
       "description": "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation.",
       "category": "science",
@@ -2695,6 +2707,12 @@
       "name": "blockrun",
       "description": "Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\\\\\\\"blockrun\\\\\\\", \\\\\\\"use grok\\\\\\\", \\\\\\\"use gpt\\\\\\\", \\\\\\\"da...",
       "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "bot-trial-cenarios",
+      "description": "**Bot:** Bia / Clinica Bella Triade",
+      "category": "frontend",
       "origin": "claude"
     },
     {
@@ -2850,6 +2868,12 @@
     {
       "name": "build-new-app",
       "description": "<required_reading>",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "builder-fase4-bella-triade",
+      "description": "Fase 4 (Geracao) executada com sucesso via API GHL V2. 14 operacoes via API em ~12min. Pronto pra entrega ao @validator-ghl.",
       "category": "outros",
       "origin": "claude"
     },
@@ -4068,6 +4092,12 @@
     {
       "name": "COMMUNITY_GUIDELINES",
       "description": "In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "COMO-FOI-FEITO",
+      "description": "**Data:** 2026-05-19",
       "category": "outros",
       "origin": "claude"
     },
@@ -5662,6 +5692,12 @@
       "origin": "claude"
     },
     {
+      "name": "demo-script",
+      "description": "Este é o **cheat-sheet pra demonstrar a skill** numa aula ou call. Use junto com SKILL.md (que explica o que a skill faz). Aqui foco em **como mostrar funcionando**.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
       "name": "demo-scripts",
       "description": "Scene-by-scene templates for different call types, with timing, talk tracks, and interaction guidance.",
       "category": "outros",
@@ -6966,6 +7002,12 @@
     {
       "name": "FAQ.vi",
       "description": "**Bạn có thắc mắc?** Bạn không hề cô đơn! Dưới đây là câu trả lời cho những câu hỏi thường gặp nhất về Antigravity Awesome Skills.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "fase-0-preflight",
+      "description": "**Bifurcacao antes de QUALQUER acao.** Sem Fase 0, voce vai cair nos mesmos 3 tropecos da aula 02:",
       "category": "outros",
       "origin": "claude"
     },
@@ -9442,6 +9484,24 @@
       "origin": "claude"
     },
     {
+      "name": "kb-consultar-politicas",
+      "description": "**Bot:** Bia / Clinica Bella Triade",
+      "category": "frontend",
+      "origin": "claude"
+    },
+    {
+      "name": "kb-consultar-servicos",
+      "description": "**Bot:** Bia / Clinica Bella Triade",
+      "category": "frontend",
+      "origin": "claude"
+    },
+    {
+      "name": "kb-consultar-triagem",
+      "description": "**Bot:** Bia / Clinica Bella Triade",
+      "category": "frontend",
+      "origin": "claude"
+    },
+    {
       "name": "kb-format-generico",
       "description": "Estrutura padrao pra qualquer bot Conversation AI no GHL, independente de nicho. Use quando construir bot pra cliente novo.",
       "category": "outros",
@@ -10134,6 +10194,12 @@
     {
       "name": "manipulation",
       "description": "Operations for transforming, subsetting, and manipulating AnnData objects.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "mapa-papeis",
+      "description": "Use **antes** do DEMO-SCRIPT.md. Em 3 minutos o aluno entende os 5 atores e nunca mais confunde.",
       "category": "outros",
       "origin": "claude"
     },
@@ -11638,6 +11704,12 @@
       "origin": "claude"
     },
     {
+      "name": "PARA-OUTRO-AGENTE",
+      "description": "**Origem:** sessao demo Aula 02 (2026-05-19), criacao ponta a ponta de bot Conversation AI ficticio na subconta \"Clinica Bella Triade\".",
+      "category": "ai-ml",
+      "origin": "claude"
+    },
+    {
       "name": "parallel-agents",
       "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
       "category": "ai-ml",
@@ -12121,6 +12193,12 @@
       "name": "planning-with-files",
       "description": "Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requirin...",
       "category": "documentation",
+      "origin": "claude"
+    },
+    {
+      "name": "PLANO",
+      "description": "Entrada: snapshot Triadeflow \"Clara IA - Estetica\" (`WffqguAOXJ8oFlkGg2eo`) ja aplicado na subconta `7Fcp6JLctrgeJAiAGjaa`. Briefing Fase 2 disponivel.",
+      "category": "outros",
       "origin": "claude"
     },
     {
@@ -13548,6 +13626,12 @@
     {
       "name": "regulatory_compliance",
       "description": "HIPAA Privacy Rule protects individually identifiable health information (Protected Health Information, PHI). All clinical reports must comply with HIPAA requirements for privacy and security.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "relatorio-final-bella-triade-aula02",
+      "description": "**Data:** 2026-05-19",
       "category": "outros",
       "origin": "claude"
     },
@@ -17320,6 +17404,12 @@
       "origin": "flowhub"
     },
     {
+      "name": "UI-CHECKLIST",
+      "description": "**Subconta:** `7Fcp6JLctrgeJAiAGjaa`",
+      "category": "frontend",
+      "origin": "claude"
+    },
+    {
       "name": "ui-skills",
       "description": "Opinionated, evolving constraints to guide agents when building interfaces",
       "category": "frontend",
@@ -17574,6 +17664,12 @@
     {
       "name": "validation-strategy",
       "description": "Using tests, lints, and builds as backpressure to steer Ralph.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "validator-fase5-bella-triade",
+      "description": "- **Status:** APPROVED WITH WARNINGS",
       "category": "outros",
       "origin": "claude"
     },
@@ -18289,6 +18385,12 @@
       "name": "workflows-and-validation",
       "description": "<overview>",
       "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "workflows-mensagens",
+      "description": "**Subconta:** `7Fcp6JLctrgeJAiAGjaa`",
+      "category": "frontend",
       "origin": "claude"
     },
     {
