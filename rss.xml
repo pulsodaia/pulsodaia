@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 20 May 2026 09:53:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 12:36:38 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Gemini 3.5 Flash Eleva Custos de IA Generativa, Seguindo Tendência de Mercado</title>
+      <link>https://pulsodaia.com.br/feed/gemini-3-5-flash-eleva-custos-de-ia-generativa-seguindo-tendencia-de-mercado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-3-5-flash-eleva-custos-de-ia-generativa-seguindo-tendencia-de-mercado/</guid>
+      <pubDate>Wed, 20 May 2026 12:30:40 GMT</pubDate>
+      <description>Novos modelos de IA, como o Gemini 3.5 Flash do Google, apresentam um custo operacional significativamente maior, refletindo a estratégia de monetização de grandes empresas.</description>
+      <category>MERCADO</category>
+      <source url="https://the-decoder.com/googles-gemini-3-5-flash-follows-anthropic-and-openai-in-making-newer-ai-models-significantly-pricier/">The Decoder</source>
+    </item>
+    <item>
+      <title>Google Une Modelo de IA Genie com Street View para Criar Mundos Virtuais de Lugares Reais</title>
+      <link>https://pulsodaia.com.br/feed/google-une-modelo-de-ia-genie-com-street-view-para-criar-mundos-virtuais-de-luga/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-une-modelo-de-ia-genie-com-street-view-para-criar-mundos-virtuais-de-luga/</guid>
+      <pubDate>Wed, 20 May 2026 12:30:24 GMT</pubDate>
+      <description>A combinação permite que usuários naveguem por representações digitais de locais físicos, abrindo novas aplicações para robótica e simulação.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/google-pairs-its-genie-world-model-with-street-view-to-create-explorable-ai-worlds-based-on-real-places/">The Decoder</source>
+    </item>
     <item>
       <title>LLMs e Prontuários: A IA Pode Simplificar Sua Saúde?</title>
       <link>https://pulsodaia.com.br/feed/llms-e-prontuarios-a-ia-pode-simplificar-sua-saude/</link>
@@ -439,24 +457,6 @@
       <description>Novo benchmark revela que, apesar da estética apurada, modelos ainda tropeçam em lógica e física básica.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/new-benchmark-confirms-ai-video-generators-look-stunning-but-still-cant-reason-about-the-world/">The Decoder</source>
-    </item>
-    <item>
-      <title>Nova Lente para Agentes de IA: Cognição e Execução em Duas Dimensões</title>
-      <link>https://pulsodaia.com.br/feed/nova-lente-para-agentes-de-ia-cognicao-e-execucao-em-duas-dimensoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-lente-para-agentes-de-ia-cognicao-e-execucao-em-duas-dimensoes/</guid>
-      <pubDate>Sat, 16 May 2026 06:39:19 GMT</pubDate>
-      <description>Pesquisa acadêmica propõe modelo para entender arquiteturas de IA além do fluxo de dados.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.13850">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Otimiza Dietas: Fim das Porções Fracionadas e Metas Nutricionais Impossíveis</title>
-      <link>https://pulsodaia.com.br/feed/ia-otimiza-dietas-fim-das-porcoes-fracionadas-e-metas-nutricionais-impossiveis/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-otimiza-dietas-fim-das-porcoes-fracionadas-e-metas-nutricionais-impossiveis/</guid>
-      <pubDate>Sat, 16 May 2026 06:39:07 GMT</pubDate>
-      <description>Pesquisa propõe método de programação matemática para refeições personalizadas, resolvendo limitações antigas da área.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.13849">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
