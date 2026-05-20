@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-20T01:43:29.409Z",
-  "total": 3081,
+  "generated_at": "2026-05-20T01:59:35.424Z",
+  "total": 3084,
   "categories": [
     {
       "key": "outros",
       "label": "Outros",
-      "count": 1504
+      "count": 1507
     },
     {
       "key": "ai-ml",
@@ -108,6 +108,12 @@
     {
       "name": "_DEPRECATED_sequences-pulsodaia-vende-hub-errado",
       "description": "6 sequencias completas, todas aplicando: voice profile Alex, sem travessao, Pulso da IA com \"da\", minuscula no inicio, P.S. em todos, CTA soft inline.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "_DEPRECATED-fase-4-geracao",
+      "description": "Apos plano aprovado na Fase 3, skill EXECUTA. Cria via API o que da, lista pra UI o que nao da.",
       "category": "outros",
       "origin": "claude"
     },
@@ -1451,7 +1457,7 @@
     },
     {
       "name": "attach-action",
-      "description": "Actions sao as ferramentas que o bot dispara durante a conversa (transferir pra humano, atualizar campo de contato, agendar, parar, fazer follow-up). Mariah real tem **7 actions ativas**.",
+      "description": "Schemas REAIS das 5 actions principais, descobertos empirico em sessao de 17 minutos com 8+ retries 422.",
       "category": "backend",
       "origin": "claude"
     },
@@ -7030,8 +7036,14 @@
       "origin": "claude"
     },
     {
-      "name": "fase-4-geracao",
-      "description": "Apos plano aprovado na Fase 3, skill EXECUTA. Cria via API o que da, lista pra UI o que nao da.",
+      "name": "fase-4a-api",
+      "description": "Apos plano aprovado na Fase 3, skill EXECUTA via API o que da pra automatizar. **Esta fase eh APENAS a parte API.** Tudo que API V2 nao cobre vai pra `fase-4b-ui-manual.md`.",
+      "category": "outros",
+      "origin": "claude"
+    },
+    {
+      "name": "fase-4b-ui-manual",
+      "description": "API V2 do GHL **NAO cobre** tudo. Tudo que sobrou da Fase 4a vive aqui — eh trabalho **obrigatorio** pra bot funcionar em producao.",
       "category": "outros",
       "origin": "claude"
     },
@@ -8209,6 +8221,12 @@
       "name": "googlesheets-automation",
       "description": "Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically.",
       "category": "integrations",
+      "origin": "claude"
+    },
+    {
+      "name": "gotchas",
+      "description": "14 gotchas vazaram pra runtime na aula 02 e na sessao demo autonoma. Cada um documentado com endpoint, status code, sintoma, causa raiz e workaround. Le ANTES de comecar qualquer demo ao vivo.",
+      "category": "outros",
       "origin": "claude"
     },
     {
@@ -15521,7 +15539,7 @@
     },
     {
       "name": "snapshot-speedshot",
-      "description": "Replicar estrutura completa de cliente novo de estetica em **15 minutos** usando o snapshot oficial Triadeflow.",
+      "description": "> WARNING: Existem DOIS IDs distintos pro mesmo snapshot. NAO confundir.",
       "category": "outros",
       "origin": "claude"
     },
