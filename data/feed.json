@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-05-21T20:03:06.170Z",
+  "generated_at": "2026-05-21T21:44:24.646Z",
   "articles": [
+    {
+      "slug": "claude-code-aprimora-orquestracao-de-agentes-e-revisao-de-codigo",
+      "headline": "Claude Code Aprimora Orquestração de Agentes e Revisão de Código",
+      "subtitle": "Atualização foca em controle de fluxo e detecção de bugs com maior precisão.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-21T20:39:22Z",
+      "written_at": "2026-05-21T21:44:23.705Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "deepmind-lanca-programa-de-acelerador-na-asia-pacifico-para-riscos-ambientais",
+      "headline": "DeepMind Lança Programa de Acelerador na Ásia-Pacífico para Riscos Ambientais",
+      "subtitle": "Iniciativa da Google DeepMind busca aplicar IA para desafios climáticos na região.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "meio ambiente",
+        "deepmind",
+        "asia pacifico"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 21 May 2026 19:46:42 +0000",
+      "written_at": "2026-05-21T21:44:11.700Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "trump-adia-ordem-sobre-seguranca-em-ia-citando-necessidade-de-avanco",
       "headline": "Trump adia ordem sobre segurança em IA, citando necessidade de avanço",

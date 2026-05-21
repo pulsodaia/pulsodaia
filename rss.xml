@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 21 May 2026 20:08:23 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 21:49:49 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code Aprimora Orquestração de Agentes e Revisão de Código</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-orquestracao-de-agentes-e-revisao-de-codigo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-orquestracao-de-agentes-e-revisao-de-codigo/</guid>
+      <pubDate>Thu, 21 May 2026 21:44:23 GMT</pubDate>
+      <description>Atualização foca em controle de fluxo e detecção de bugs com maior precisão.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.147">Claude Code</source>
+    </item>
+    <item>
+      <title>DeepMind Lança Programa de Acelerador na Ásia-Pacífico para Riscos Ambientais</title>
+      <link>https://pulsodaia.com.br/feed/deepmind-lanca-programa-de-acelerador-na-asia-pacifico-para-riscos-ambientais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-lanca-programa-de-acelerador-na-asia-pacifico-para-riscos-ambientais/</guid>
+      <pubDate>Thu, 21 May 2026 21:44:11 GMT</pubDate>
+      <description>Iniciativa da Google DeepMind busca aplicar IA para desafios climáticos na região.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/">Google DeepMind</source>
+    </item>
     <item>
       <title>Trump adia ordem sobre segurança em IA, citando necessidade de avanço</title>
       <link>https://pulsodaia.com.br/feed/trump-adia-ordem-sobre-seguranca-em-ia-citando-necessidade-de-avanco/</link>
@@ -439,24 +457,6 @@
       <description>Um novo sistema de IA promete otimizar a apresentação de trabalhos acadêmicos, integrando planejamento, roteirização e ensaio.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2605.15202">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Apple prepara nova Siri com foco em privacidade e exclusão automática de chats</title>
-      <link>https://pulsodaia.com.br/feed/apple-prepara-nova-siri-com-foco-em-privacidade-e-exclusao-automatica-de-chats/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-prepara-nova-siri-com-foco-em-privacidade-e-exclusao-automatica-de-chats/</guid>
-      <pubDate>Sun, 17 May 2026 22:58:21 GMT</pubDate>
-      <description>A gigante de Cupertino busca reforçar a segurança de dados em seu assistente virtual.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Julgamento Musk vs. OpenAI: A Confiança em Sam Altman em Xeque</title>
-      <link>https://pulsodaia.com.br/feed/julgamento-musk-vs-openai-a-confianca-em-sam-altman-em-xeque/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/julgamento-musk-vs-openai-a-confianca-em-sam-altman-em-xeque/</guid>
-      <pubDate>Sun, 17 May 2026 21:02:08 GMT</pubDate>
-      <description>Disputa judicial expõe dilemas sobre a governança e a direção da inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
