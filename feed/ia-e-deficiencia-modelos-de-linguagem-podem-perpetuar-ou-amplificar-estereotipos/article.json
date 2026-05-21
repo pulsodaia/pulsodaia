@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2605.20191v1",
+  "title": "Shiny Stories, Hidden Struggles: Investigating the Representation of Disability Through the Lens of LLMs",
+  "url": "https://arxiv.org/abs/2605.20191",
+  "summary": "arXiv:2605.20191v1 Announce Type: new Abstract: Modern Large Language Models (LLMs) have recently attracted much attention for their ability to simulate human behavior and generate text that reflects personas and demographic groups. While these capabilities can open up a multitude of diverse applications across fields, it is crucial to examine how such models represent various target groups since LLMs can perpetuate and amplify biases or discrimination against historically marginalized communities or, alternatively, as a result of debiasing efforts, overcorrect by portraying overly positive stereotypes. This overcompensation can idealize these groups, erasing the complexities and challenges they face in favor of unrealistic depictions. In this paper, we investigate how LLMs represent disability by simulating the perspectives of individuals with disabilities in generating social media posts. These posts are then compared with those written by real people with disabilities, focusing on e",
+  "published_at": "Thu, 21 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA e Deficiencia: Modelos de Linguagem Podem Perpetuar ou Amplificar Estereotipos?",
+  "subtitle": "Pesquisa em modelos de linguagem grande (LLMs) levanta questoes sobre como representam minorias.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Grandes modelos de linguagem (LLMs) demonstram notavel capacidade de simular comportamentos humanos e gerar textos que refletem diversas personas. No entanto, uma nova investigacao aponta para riscos na representacao de grupos minoritarios, incluindo pessoas com deficiencia.",
+  "body_markdown": "## O que aconteceu\n\nUma pesquisa recente publicada no arXiv, intitulada \"Shiny Stories, Hidden Struggles: Investigating the Representation of Disability Through the Lens of LLMs\", analisa a forma como os modelos de linguagem grande (LLMs) retratam pessoas com deficiencia. Esses modelos, cada vez mais sofisticados em sua capacidade de gerar texto e simular personas, podem involuntariamente perpetuar ou amplificar vieses existentes na sociedade. Por outro lado, esforcos de debiasing podem levar a uma supercorrecao, resultando em representacoes excessivamente positivas que idealizam esses grupos. Essa idealizacao, segundo o estudo, pode apagar as complexidades e os desafios reais enfrentados pelas pessoas com deficiencia, apresentando visoes irrealistas. A investigacao busca entender precisamente essa dinâmica, examinando as narrativas geradas pelos LLMs sobre a deficiencia. Saiba mais sobre a pesquisa em [arXiv cs.CL](https://arxiv.org/abs/2605.20191).\n\n## Por que importa\n\nA representacao de grupos minoritarios na inteligencia artificial tem implicacoes diretas na forma como a sociedade percebe e interage com essas comunidades. No Brasil, onde a discussao sobre inclusao e acessibilidade ganha forca, a maneira como os LLMs retratam pessoas com deficiencia pode influenciar a producao de conteudo, o desenvolvimento de assistentes virtuais e ate mesmo a formacao de opiniao publica. Se os modelos perpetuam estereotipos negativos ou criam idealizacoes irreais, o risco e de aprofundar o preconceito ou de criar uma barreira de compreensao. Para empresas brasileiras que utilizam ou planejam integrar LLMs em seus produtos e servicos, entender essas nuances e crucial para garantir que a tecnologia promova, de fato, a inclusao e o respeito, evitando a criacao de mais barreiras.\n\n## O que esperar\n\nA investigacao sugere que a aplicacao de LLMs em contextos que envolvem a representacao de grupos minoritarios exige cautela e revisao constante. As empresas e desenvolvedores que atuam no Brasil devem estar atentos aos resultados desses estudos para implementar estrategias de mitigacao de vieses. Isso pode envolver o treinamento de modelos com datasets mais representativos e diversificados, alem da implementacao de mecanismos de avaliacao critica das narrativas geradas. A pesquisa em questao, disponivel em [arXiv](https://arxiv.org/abs/2605.20191), abre caminho para futuras investigacoes sobre como otimizar a representacao de grupos historicamente marginalizados em sistemas de IA, visando uma representacao mais justa e precisa, que reconheca tanto as conquistas quanto os desafios enfrentados por essas comunidades. A expectativa e que avancos futuros priorizem a criacao de modelos que reflitam a complexidade humana sem cair em estereotipos.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Uma pesquisa recente publicada no arXiv, intitulada \"Shiny Stories, Hidden Struggles: Investigating the Representation of Disability Through the Lens of LLMs\", analisa a forma como os modelos de linguagem grande (LLMs) retratam pessoas com deficiencia. Esses modelos, cada vez mais sofisticados em sua capacidade de gerar texto e simular personas, podem involuntariamente perpetuar ou amplificar vieses existentes na sociedade. Por outro lado, esforcos de debiasing podem levar a uma supercorrecao, resultando em representacoes excessivamente positivas que idealizam esses grupos. Essa idealizacao, segundo o estudo, pode apagar as complexidades e os desafios reais enfrentados pelas pessoas com deficiencia, apresentando visoes irrealistas. A investigacao busca entender precisamente essa dinâmica, examinando as narrativas geradas pelos LLMs sobre a deficiencia. Saiba mais sobre a pesquisa em <a href=\"https://arxiv.org/abs/2605.20191\" target=\"_blank\" rel=\"external noopener\">arXiv cs.CL</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A representacao de grupos minoritarios na inteligencia artificial tem implicacoes diretas na forma como a sociedade percebe e interage com essas comunidades. No Brasil, onde a discussao sobre inclusao e acessibilidade ganha forca, a maneira como os LLMs retratam pessoas com deficiencia pode influenciar a producao de conteudo, o desenvolvimento de assistentes virtuais e ate mesmo a formacao de opiniao publica. Se os modelos perpetuam estereotipos negativos ou criam idealizacoes irreais, o risco e de aprofundar o preconceito ou de criar uma barreira de compreensao. Para empresas brasileiras que utilizam ou planejam integrar LLMs em seus produtos e servicos, entender essas nuances e crucial para garantir que a tecnologia promova, de fato, a inclusao e o respeito, evitando a criacao de mais barreiras.</p>\n\n<h2>O que esperar</h2>\n\n<p>A investigacao sugere que a aplicacao de LLMs em contextos que envolvem a representacao de grupos minoritarios exige cautela e revisao constante. As empresas e desenvolvedores que atuam no Brasil devem estar atentos aos resultados desses estudos para implementar estrategias de mitigacao de vieses. Isso pode envolver o treinamento de modelos com datasets mais representativos e diversificados, alem da implementacao de mecanismos de avaliacao critica das narrativas geradas. A pesquisa em questao, disponivel em <a href=\"https://arxiv.org/abs/2605.20191\" target=\"_blank\" rel=\"external noopener\">arXiv</a>, abre caminho para futuras investigacoes sobre como otimizar a representacao de grupos historicamente marginalizados em sistemas de IA, visando uma representacao mais justa e precisa, que reconheca tanto as conquistas quanto os desafios enfrentados por essas comunidades. A expectativa e que avancos futuros priorizem a criacao de modelos que reflitam a complexidade humana sem cair em estereotipos.</p>",
+  "tags": [
+    "ia",
+    "acessibilidade",
+    "modelos de linguagem"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "LLMs",
+    "representacao social",
+    "deficiencia",
+    "vieses",
+    "estereotipos"
+  ],
+  "meta_description_seo": "Pesquisa em LLMs investiga representacao de pessoas com deficiencia, alertando para vieses e estereotipos. Entenda o impacto no Brasil.",
+  "faq": [
+    {
+      "q": "Como os LLMs podem impactar a representacao de pessoas com deficiencia?",
+      "a": "LLMs podem perpetuar vieses existentes ou amplificar estereotipos negativos. Alternativamente, podem criar representacoes excessivamente positivas que apagam as complexidades e desafios reais."
+    },
+    {
+      "q": "Qual o risco de uma representacao excessivamente positiva?",
+      "a": "Uma representacao idealizada pode apagar as dificuldades e nuances da experiencia de pessoas com deficiencia, criando uma imagem irrealista e descolada da realidade."
+    },
+    {
+      "q": "O que e necessario para garantir uma representacao justa em LLMs?",
+      "a": "E necessario treinamento com dados diversificados, avaliacao critica das narrativas geradas e estrategias de mitigacao de vieses para criar modelos que reflitam a complexidade humana com precisao."
+    }
+  ],
+  "written_at": "2026-05-21T04:20:20.945Z",
+  "slug": "ia-e-deficiencia-modelos-de-linguagem-podem-perpetuar-ou-amplificar-estereotipos",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

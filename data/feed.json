@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-05-20T23:19:31.283Z",
+  "generated_at": "2026-05-21T04:20:44.053Z",
   "articles": [
+    {
+      "slug": "otimizacao-de-ia-para-analise-qualitativa-menos-bits-mais-precisao",
+      "headline": "Otimização de IA para Análise Qualitativa: Menos Bits, Mais Precisão",
+      "subtitle": "Pesquisa em modelos de linguagem de baixa precisão aponta para métodos para mitigar falhas em análises complexas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.20193",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llms",
+        "quantizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 21 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-21T04:20:43.970Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-analisa-sentimento-em-comunidades-virtuais-para-prever-valor-de-tokens",
+      "headline": "IA Analisa Sentimento em Comunidades Virtuais para Prever Valor de Tokens",
+      "subtitle": "Pesquisadores usam LLMs para conectar o buzz do Discord com dados financeiros de criptomoedas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.20192",
+      "category": "research",
+      "tags": [
+        "ia",
+        "criptomoedas",
+        "metaverso",
+        "decentraland",
+        "sentiment analysis"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 21 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-21T04:20:31.535Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-e-deficiencia-modelos-de-linguagem-podem-perpetuar-ou-amplificar-estereotipos",
+      "headline": "IA e Deficiencia: Modelos de Linguagem Podem Perpetuar ou Amplificar Estereotipos?",
+      "subtitle": "Pesquisa em modelos de linguagem grande (LLMs) levanta questoes sobre como representam minorias.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2605.20191",
+      "category": "research",
+      "tags": [
+        "ia",
+        "acessibilidade",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 21 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-21T04:20:20.945Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "xai-consumiu-us-6-4-bilhoes-em-2025-plano-de-expansao-do-grok-dita-gastos-futuro",
       "headline": "xAI consumiu US$ 6,4 bilhões em 2025; plano de expansão do Grok dita gastos futuros",

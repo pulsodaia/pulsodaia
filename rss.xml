@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 20 May 2026 23:26:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 04:25:59 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Otimização de IA para Análise Qualitativa: Menos Bits, Mais Precisão</title>
+      <link>https://pulsodaia.com.br/feed/otimizacao-de-ia-para-analise-qualitativa-menos-bits-mais-precisao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-de-ia-para-analise-qualitativa-menos-bits-mais-precisao/</guid>
+      <pubDate>Thu, 21 May 2026 04:20:43 GMT</pubDate>
+      <description>Pesquisa em modelos de linguagem de baixa precisão aponta para métodos para mitigar falhas em análises complexas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.20193">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IA Analisa Sentimento em Comunidades Virtuais para Prever Valor de Tokens</title>
+      <link>https://pulsodaia.com.br/feed/ia-analisa-sentimento-em-comunidades-virtuais-para-prever-valor-de-tokens/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-analisa-sentimento-em-comunidades-virtuais-para-prever-valor-de-tokens/</guid>
+      <pubDate>Thu, 21 May 2026 04:20:31 GMT</pubDate>
+      <description>Pesquisadores usam LLMs para conectar o buzz do Discord com dados financeiros de criptomoedas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.20192">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IA e Deficiencia: Modelos de Linguagem Podem Perpetuar ou Amplificar Estereotipos?</title>
+      <link>https://pulsodaia.com.br/feed/ia-e-deficiencia-modelos-de-linguagem-podem-perpetuar-ou-amplificar-estereotipos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-e-deficiencia-modelos-de-linguagem-podem-perpetuar-ou-amplificar-estereotipos/</guid>
+      <pubDate>Thu, 21 May 2026 04:20:20 GMT</pubDate>
+      <description>Pesquisa em modelos de linguagem grande (LLMs) levanta questoes sobre como representam minorias.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.20191">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>xAI consumiu US$ 6,4 bilhões em 2025; plano de expansão do Grok dita gastos futuros</title>
       <link>https://pulsodaia.com.br/feed/xai-consumiu-us-6-4-bilhoes-em-2025-plano-de-expansao-do-grok-dita-gastos-futuro/</link>
@@ -430,33 +457,6 @@
       <description>A recepção morna da inteligência artificial entre formandos sugere uma mudança na narrativa tecnológica.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Modelos de Ação Mundial: Robôs Simulando o Mundo Antes de Agir</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-acao-mundial-robos-simulando-o-mundo-antes-de-agir/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-acao-mundial-robos-simulando-o-mundo-antes-de-agir/</guid>
-      <pubDate>Sun, 17 May 2026 13:46:32 GMT</pubDate>
-      <description>Uma nova abordagem na inteligência artificial robótica promete avanços significativos para a automação industrial e logística no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/world-action-models-give-robots-the-ability-to-simulate-consequences-before-they-move/">The Decoder</source>
-    </item>
-    <item>
-      <title>Chatbots no Drive-Thru: O Que Vem Depois do Pedido Automático</title>
-      <link>https://pulsodaia.com.br/feed/chatbots-no-drive-thru-o-que-vem-depois-do-pedido-automatico/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/chatbots-no-drive-thru-o-que-vem-depois-do-pedido-automatico/</guid>
-      <pubDate>Sun, 17 May 2026 13:46:21 GMT</pubDate>
-      <description>A automação de voz em estabelecimentos de fast-food é apenas o ponto de partida para a integração da IA no dia a dia.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys">The Verge AI</source>
-    </item>
-    <item>
-      <title>CEO da Mistral alerta França contra uso de IA americana em bases de código militar</title>
-      <link>https://pulsodaia.com.br/feed/ceo-da-mistral-alerta-franca-contra-uso-de-ia-americana-em-bases-de-codigo-milit/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ceo-da-mistral-alerta-franca-contra-uso-de-ia-americana-em-bases-de-codigo-milit/</guid>
-      <pubDate>Sun, 17 May 2026 11:15:38 GMT</pubDate>
-      <description>A segurança nacional europeia pode estar em risco pela dependência de modelos de inteligência artificial estrangeiros.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/mistral-ceo-arthur-mensch-warns-france-against-letting-anthropics-mythos-scan-military-code-bases/">The Decoder</source>
     </item>
   </channel>
 </rss>
