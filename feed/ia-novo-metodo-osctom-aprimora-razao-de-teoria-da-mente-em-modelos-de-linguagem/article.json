@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2605.20423v1",
+  "title": "OSCToM: RL-Guided Adversarial Generation for High-Order Theory of Mind",
+  "url": "https://arxiv.org/abs/2605.20423",
+  "summary": "arXiv:2605.20423v1 Announce Type: new Abstract: Large Language Models (LLMs) perform well on many language tasks, but their Theory of Mind (ToM) reasoning is still uneven in complex social settings. Existing benchmarks, including ExploreToM, do not always test the recursive beliefs and information asymmetries that make these settings difficult. This paper presents OSCToM (Observer-Self Conflict Theory of Mind), an approach for modeling nested belief conflicts in LLM-based ToM tasks. The key case is one in which an observer's view of another agent conflicts with the observer's own belief state. Such cases go beyond simple perspective-taking and require recursive, multi-layered reasoning. OSCToM combines reinforcement learning (RL), an extended domain-specific language, and compositional surrogate models to generate observer-self conflicts. In our experiments, OSCToM-8B gives the best overall result among the systems tested. It improves on the reported ExploreToM results on FANToM and re",
+  "published_at": "Fri, 22 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA: Novo Método OSCToM Aprimora Razão de \"Teoria da Mente\" em Modelos de Linguagem",
+  "subtitle": "Pesquisa avança na capacidade de LLMs entenderem conflitos de crenças complexas, um desafio para interações sociais sofisticadas.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo artigo publicado no arXiv apresenta o OSCToM (Observer-Self Conflict Theory of Mind), uma abordagem que visa melhorar a \"Teoria da Mente\" em Modelos de Linguagem Grandes (LLMs). A pesquisa foca em cenários de raciocínio social complexos, onde as crenças de um observador sobre outro agente entram em conflito com suas próprias percepções.",
+  "body_markdown": "## O que aconteceu\n\nA \"Teoria da Mente\" (ToM), a capacidade de atribuir estados mentais a si mesmo e aos outros, é um pilar da inteligência humana, crucial para a interação social. Embora LLMs demonstrem proficiência em diversas tarefas linguísticas, sua performance em cenários de ToM complexos, especialmente aqueles que envolvem crenças recursivas e assimetrias de informação, ainda é considerada inconsistente. O trabalho \"OSCToM: RL-Guided Adversarial Generation for High-Order Theory of Mind\", disponível em [arXiv:2605.20423](https://arxiv.org/abs/2605.20423), introduz uma nova metodologia para modelar esses conflitos de crenças aninhados. A abordagem OSCToM se concentra em casos onde a visão de um observador sobre outro indivíduo diverge de sua própria representação mental, exigindo um raciocínio em múltiplos níveis. Para alcançar isso, a pesquisa combina aprendizado por reforço (RL) com uma linguagem de domínio específica estendida e uma arquitetura composicional. Essa combinação busca criar tarefas que desafiem os LLMs a irem além da simples tomada de perspectiva.\n\n## Por que importa\n\nA capacidade de um LLM para raciocinar sobre crenças, intenções e desejos de outros agentes é fundamental para o desenvolvimento de aplicações de IA mais sofisticadas. No contexto brasileiro, isso se traduz em um potencial avanço para chatbots de atendimento ao cliente mais empáticos, assistentes virtuais capazes de compreender nuances em pedidos complexos, e até mesmo em sistemas de recomendação que antecipam as necessidades do usuário com base em um entendimento mais profundo de seu estado mental. A superação das limitações atuais em ToM pode significar a diferença entre uma interação artificial frustrante e uma experiência fluida e intuitiva. A pesquisa aborda diretamente a dificuldade em modelar conflitos de crenças de alta ordem, que são comuns em situações sociais do dia a dia e essenciais para a confiança e eficácia de sistemas de IA em interações humanas.\n\n## O que esperar\n\nA metodologia OSCToM representa um passo significativo na criação de benchmarks mais robustos para avaliar a Teoria da Mente em LLMs. Ao focar em cenários de conflito de crenças observador-eu, a pesquisa abre caminho para o desenvolvimento de modelos mais capazes de navegar em ambientes sociais complexos. Espera-se que essa abordagem permita a identificação mais precisa das lacunas de raciocínio em LLMs existentes e guie o treinamento de futuras gerações de modelos. A integração de aprendizado por reforço sugere um caminho para o ajuste fino de LLMs, incentivando-os a desenvolver estratégias de raciocínio mais eficazes em situações de incerteza e conflito de informações. A comunidade de pesquisa em IA poderá utilizar o OSCToM para testar e comparar novas arquiteturas e técnicas de treinamento, visando aprimorar a inteligência social artificial. Mais detalhes sobre a implementação e os resultados podem ser encontrados no artigo original em [https://arxiv.org/abs/2605.20423](https://arxiv.org/abs/2605.20423).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A \"Teoria da Mente\" (ToM), a capacidade de atribuir estados mentais a si mesmo e aos outros, é um pilar da inteligência humana, crucial para a interação social. Embora LLMs demonstrem proficiência em diversas tarefas linguísticas, sua performance em cenários de ToM complexos, especialmente aqueles que envolvem crenças recursivas e assimetrias de informação, ainda é considerada inconsistente. O trabalho \"OSCToM: RL-Guided Adversarial Generation for High-Order Theory of Mind\", disponível em <a href=\"https://arxiv.org/abs/2605.20423\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.20423</a>, introduz uma nova metodologia para modelar esses conflitos de crenças aninhados. A abordagem OSCToM se concentra em casos onde a visão de um observador sobre outro indivíduo diverge de sua própria representação mental, exigindo um raciocínio em múltiplos níveis. Para alcançar isso, a pesquisa combina aprendizado por reforço (RL) com uma linguagem de domínio específica estendida e uma arquitetura composicional. Essa combinação busca criar tarefas que desafiem os LLMs a irem além da simples tomada de perspectiva.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de um LLM para raciocinar sobre crenças, intenções e desejos de outros agentes é fundamental para o desenvolvimento de aplicações de IA mais sofisticadas. No contexto brasileiro, isso se traduz em um potencial avanço para chatbots de atendimento ao cliente mais empáticos, assistentes virtuais capazes de compreender nuances em pedidos complexos, e até mesmo em sistemas de recomendação que antecipam as necessidades do usuário com base em um entendimento mais profundo de seu estado mental. A superação das limitações atuais em ToM pode significar a diferença entre uma interação artificial frustrante e uma experiência fluida e intuitiva. A pesquisa aborda diretamente a dificuldade em modelar conflitos de crenças de alta ordem, que são comuns em situações sociais do dia a dia e essenciais para a confiança e eficácia de sistemas de IA em interações humanas.</p>\n\n<h2>O que esperar</h2>\n\n<p>A metodologia OSCToM representa um passo significativo na criação de benchmarks mais robustos para avaliar a Teoria da Mente em LLMs. Ao focar em cenários de conflito de crenças observador-eu, a pesquisa abre caminho para o desenvolvimento de modelos mais capazes de navegar em ambientes sociais complexos. Espera-se que essa abordagem permita a identificação mais precisa das lacunas de raciocínio em LLMs existentes e guie o treinamento de futuras gerações de modelos. A integração de aprendizado por reforço sugere um caminho para o ajuste fino de LLMs, incentivando-os a desenvolver estratégias de raciocínio mais eficazes em situações de incerteza e conflito de informações. A comunidade de pesquisa em IA poderá utilizar o OSCToM para testar e comparar novas arquiteturas e técnicas de treinamento, visando aprimorar a inteligência social artificial. Mais detalhes sobre a implementação e os resultados podem ser encontrados no artigo original em <a href=\"https://arxiv.org/abs/2605.20423\" target=\"_blank\" rel=\"external noopener\">https://arxiv.org/abs/2605.20423</a>.</p>",
+  "tags": [
+    "ia",
+    "llm",
+    "teoria da mente"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Inteligência Artificial",
+    "Modelos de Linguagem Grandes",
+    "Teoria da Mente",
+    "OSCToM",
+    "Aprendizado por Reforço",
+    "Raciocínio Social"
+  ],
+  "meta_description_seo": "Pesquisa em IA apresenta OSCToM para aprimorar a Teoria da Mente em LLMs, focando em conflitos de crenças complexos.",
+  "faq": [
+    {
+      "q": "O que é a \"Teoria da Mente\" no contexto da IA?",
+      "a": "A \"Teoria da Mente\" (ToM) em IA refere-se à capacidade de um modelo de linguagem ou sistema de inteligência artificial de inferir e raciocinar sobre os estados mentais de outros agentes, como crenças, intenções e desejos. Isso é fundamental para a compreensão e interação social."
+    },
+    {
+      "q": "Qual o principal desafio que o OSCToM busca resolver?",
+      "a": "O OSCToM visa resolver o desafio da capacidade limitada dos Modelos de Linguagem Grandes (LLMs) em lidar com cenários de \"Teoria da Mente\" complexos, especialmente aqueles que envolvem crenças recursivas e conflitos entre a percepção de um observador e sua própria representação mental."
+    },
+    {
+      "q": "Como o OSCToM aprimora a Teoria da Mente em LLMs?",
+      "a": "O OSCToM aprimora a Teoria da Mente em LLMs através da combinação de aprendizado por reforço (RL) e uma linguagem de domínio específica estendida, criando tarefas que desafiam os modelos a raciocinar sobre conflitos de crenças aninhados e de alta ordem, indo além da simples tomada de perspectiva."
+    }
+  ],
+  "written_at": "2026-05-22T12:27:53.303Z",
+  "slug": "ia-novo-metodo-osctom-aprimora-razao-de-teoria-da-mente-em-modelos-de-linguagem",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
