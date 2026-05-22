@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 22 May 2026 21:23:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 23:14:57 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Vozes de pilotos mortos recriadas por IA forçam bloqueio de dados públicos</title>
+      <link>https://pulsodaia.com.br/feed/vozes-de-pilotos-mortos-recriadas-por-ia-forcam-bloqueio-de-dados-publicos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vozes-de-pilotos-mortos-recriadas-por-ia-forcam-bloqueio-de-dados-publicos/</guid>
+      <pubDate>Fri, 22 May 2026 23:09:50 GMT</pubDate>
+      <description>Técnicas avançadas de inteligência artificial permitiram a reconstrução de áudios de acidentes, levantando preocupações sobre privacidade e acesso a informações.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Atualiza Controle de Uso e Detalhes de Código</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-controle-de-uso-e-detalhes-de-codigo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-controle-de-uso-e-detalhes-de-codigo/</guid>
+      <pubDate>Fri, 22 May 2026 23:09:38 GMT</pubDate>
+      <description>A Anthropic aprimora a transparência e a usabilidade de suas ferramentas para desenvolvedores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.149">Claude Code</source>
+    </item>
     <item>
       <title>ARR Inflado: A Nova Métrica para Elevar Startups de IA</title>
       <link>https://pulsodaia.com.br/feed/arr-inflado-a-nova-metrica-para-elevar-startups-de-ia/</link>
@@ -439,24 +457,6 @@
       <description>O embate judicial entre Elon Musk e Sam Altman, fundadores da OpenAI, revela tensões internas e levanta dúvidas sobre a governança de um setor em rápida expansão.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people">The Verge AI</source>
-    </item>
-    <item>
-      <title>Anthropic Compra Ferramenta Essencial para Desenvolvedores de IA, Incluindo OpenAI e Google</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-compra-ferramenta-essencial-para-desenvolvedores-de-ia-incluindo-opena/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-compra-ferramenta-essencial-para-desenvolvedores-de-ia-incluindo-opena/</guid>
-      <pubDate>Mon, 18 May 2026 23:11:42 GMT</pubDate>
-      <description>A aquisição da Stainless pela Anthropic sinaliza uma consolidação no mercado de ferramentas para desenvolvimento de IA no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>SandboxAQ Democratiza Descoberta de Medicamentos com Acesso Simplificado</title>
-      <link>https://pulsodaia.com.br/feed/sandboxaq-democratiza-descoberta-de-medicamentos-com-acesso-simplificado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/sandboxaq-democratiza-descoberta-de-medicamentos-com-acesso-simplificado/</guid>
-      <pubDate>Mon, 18 May 2026 23:11:31 GMT</pubDate>
-      <description>A tecnologia que antes exigia expertise profunda agora está ao alcance de mais pesquisadores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

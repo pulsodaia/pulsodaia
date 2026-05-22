@@ -1,0 +1,52 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.149",
+  "title": "v2.1.149",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+  "summary": "<h2>What's changed</h2> <ul> <li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost</li> <li><code>/diff</code> detail view can now be scrolled with the keyboard (arrows, <code>j</code>/<code>k</code>, <code>PgUp</code>/<code>PgDn</code>, <code>Space</code>, <code>Home</code>/<code>End</code>)</li> <li>Markdown output now renders GFM task list checkboxes (<code>- [ ] todo</code> / <code>- [x] done</code>) instead of plain bullets</li> <li>Enterprise: added the <code>allowAllClaudeAiMcps</code> managed setting to load claude.ai cloud MCP connectors alongside <code>managed-mcp.json</code></li> <li>Fixed a PowerShell permission bypass: built-in <code>cd</code> functions (<code>cd..</code>, <code>cd\\</code>, <code>cd~</code>, <code>X:</code>) changed the working directory undetected, letting a later command read outside the workspace</li> <li>Fixed the sandbox write allowlist in git worktrees cove",
+  "published_at": "2026-05-22T22:09:29Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Atualiza Controle de Uso e Detalhes de Código",
+  "subtitle": "A Anthropic aprimora a transparência e a usabilidade de suas ferramentas para desenvolvedores.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão v2.1.149 do Claude Code, trazendo melhorias significativas no monitoramento de uso e na navegação de código. As atualizações visam oferecer maior clareza sobre o consumo de recursos e otimizar a experiência do desenvolvedor.",
+  "body_markdown": "## O que aconteceu\n\nA versão v2.1.149 do Claude Code introduz um detalhamento aprimorado na visualização de uso. O comando `/usage` agora exibe uma discriminação por categoria, permitindo que usuários identifiquem o que mais contribui para seus limites de consumo. Isso inclui o uso de habilidades (skills), subagentes, plugins e custos específicos por servidor MCP. Outra novidade relevante é a capacidade de navegar na visualização de detalhes do comando `/diff` utilizando o teclado. Teclas como setas direcionais, `j`, `k`, `PgUp`, `PgDn`, `Space`, `Home` e `End` agora controlam o scroll, facilitando a análise de diferenças em código. A renderização de saídas em Markdown também foi atualizada para suportar caixas de seleção de tarefas no formato GFM (GitHub Flavored Markdown), distinguindo itens pendentes (`- [ ] todo`) de itens concluídos (`- [x] done`), em vez de meros marcadores. Para clientes corporativos, foi adicionada a configuração gerenciada `allowAllClaudeAiMcps`, que permite carregar conectores de nuvem claude.ai MCP junto com o arquivo `managed-mcp.json`. Por fim, foi corrigida uma falha de permissão no PowerShell relacionada a funções internas de mudança de diretório (`cd..`, `cd\\<`). Todas essas atualizações estão detalhadas na página de releases do projeto em [GitHub](https://github.com/anthropics/claude-code/releases/tag/v2.1.149).\n\n## Por que importa\n\nEssas melhorias refletem um movimento da Anthropic em direção a uma maior transparência e controle para seus usuários, especialmente aqueles que integram as ferramentas Claude em fluxos de trabalho complexos. A capacidade de monitorar o uso por categoria é crucial para empresas que gerenciam custos de APIs e para desenvolvedores que buscam otimizar a performance de seus agentes de IA. No Brasil, onde a adoção de IA generativa em ambientes corporativos e de desenvolvimento tem crescido, ferramentas que oferecem maior previsibilidade de custos e usabilidade aprimorada são bem-vindas. A navegação por teclado no `/diff`, por exemplo, pode acelerar significativamente o processo de revisão de código, um aspecto fundamental no desenvolvimento de software. A correção de falhas de segurança, como a mencionada no PowerShell, também reforça a confiabilidade da plataforma.\n\n## O que esperar\n\nCom estas atualizações, a Anthropic demonstra um compromisso contínuo em refinar a experiência do usuário em suas ferramentas de IA para código. Espera-se que futuras iterações continuem a expandir as capacidades de monitoramento e controle, talvez introduzindo dashboards mais visuais ou alertas customizáveis para limites de uso. A melhoria na renderização de Markdown sugere um foco em tornar as saídas da IA mais acionáveis e integráveis em sistemas de gerenciamento de tarefas. A inclusão de configurações empresariais mais robustas, como a `allowAllClaudeAiMcps`, indica uma estratégia de segmentação para o mercado corporativo, buscando facilitar a adoção em larga escala. A comunidade de desenvolvedores pode antecipar um ambiente de trabalho mais eficiente e seguro. Para mais detalhes sobre as funcionalidades e correções, consulte o [repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.149).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A versão v2.1.149 do Claude Code introduz um detalhamento aprimorado na visualização de uso. O comando <code>/usage</code> agora exibe uma discriminação por categoria, permitindo que usuários identifiquem o que mais contribui para seus limites de consumo. Isso inclui o uso de habilidades (skills), subagentes, plugins e custos específicos por servidor MCP. Outra novidade relevante é a capacidade de navegar na visualização de detalhes do comando <code>/diff</code> utilizando o teclado. Teclas como setas direcionais, <code>j</code>, <code>k</code>, <code>PgUp</code>, <code>PgDn</code>, <code>Space</code>, <code>Home</code> e <code>End</code> agora controlam o scroll, facilitando a análise de diferenças em código. A renderização de saídas em Markdown também foi atualizada para suportar caixas de seleção de tarefas no formato GFM (GitHub Flavored Markdown), distinguindo itens pendentes (<code>- [ ] todo</code>) de itens concluídos (<code>- [x] done</code>), em vez de meros marcadores. Para clientes corporativos, foi adicionada a configuração gerenciada <code>allowAllClaudeAiMcps</code>, que permite carregar conectores de nuvem claude.ai MCP junto com o arquivo <code>managed-mcp.json</code>. Por fim, foi corrigida uma falha de permissão no PowerShell relacionada a funções internas de mudança de diretório (<code>cd..</code>, <code>cd\\<</code>). Todas essas atualizações estão detalhadas na página de releases do projeto em <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.149\" target=\"_blank\" rel=\"external noopener\">GitHub</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Essas melhorias refletem um movimento da Anthropic em direção a uma maior transparência e controle para seus usuários, especialmente aqueles que integram as ferramentas Claude em fluxos de trabalho complexos. A capacidade de monitorar o uso por categoria é crucial para empresas que gerenciam custos de APIs e para desenvolvedores que buscam otimizar a performance de seus agentes de IA. No Brasil, onde a adoção de IA generativa em ambientes corporativos e de desenvolvimento tem crescido, ferramentas que oferecem maior previsibilidade de custos e usabilidade aprimorada são bem-vindas. A navegação por teclado no <code>/diff</code>, por exemplo, pode acelerar significativamente o processo de revisão de código, um aspecto fundamental no desenvolvimento de software. A correção de falhas de segurança, como a mencionada no PowerShell, também reforça a confiabilidade da plataforma.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com estas atualizações, a Anthropic demonstra um compromisso contínuo em refinar a experiência do usuário em suas ferramentas de IA para código. Espera-se que futuras iterações continuem a expandir as capacidades de monitoramento e controle, talvez introduzindo dashboards mais visuais ou alertas customizáveis para limites de uso. A melhoria na renderização de Markdown sugere um foco em tornar as saídas da IA mais acionáveis e integráveis em sistemas de gerenciamento de tarefas. A inclusão de configurações empresariais mais robustas, como a <code>allowAllClaudeAiMcps</code>, indica uma estratégia de segmentação para o mercado corporativo, buscando facilitar a adoção em larga escala. A comunidade de desenvolvedores pode antecipar um ambiente de trabalho mais eficiente e seguro. Para mais detalhes sobre as funcionalidades e correções, consulte o <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.149\" target=\"_blank\" rel=\"external noopener\">repositório oficial</a>.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "desenvolvimento de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "IA para código",
+    "monitoramento de uso",
+    "desenvolvimento de software",
+    "GFM",
+    "PowerShell"
+  ],
+  "meta_description_seo": "Atualização v2.1.149 do Claude Code melhora controle de uso, navegação de código e segurança. Nova versão detalha custos por categoria.",
+  "faq": [
+    {
+      "q": "Como o Claude Code v2.1.149 melhora o controle de uso?",
+      "a": "O comando `/usage` agora detalha o consumo por categoria, como skills, subagentes e plugins, oferecendo mais clareza sobre os limites."
+    },
+    {
+      "q": "Quais novidades facilitam a análise de código?",
+      "a": "A visualização de detalhes do comando `/diff` agora permite navegação por teclado e o Markdown renderiza caixas de seleção de tarefas GFM."
+    },
+    {
+      "q": "Houve correções de segurança?",
+      "a": "Sim, foi corrigida uma falha de permissão no PowerShell relacionada a funções internas de mudança de diretório."
+    }
+  ],
+  "written_at": "2026-05-22T23:09:38.757Z",
+  "slug": "claude-code-atualiza-controle-de-uso-e-detalhes-de-codigo",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/88204ebfab0976a1004bb6e42d32a6d24e1c608ead3378a0e760be3d6ac16223/anthropics/claude-code/releases/tag/v2.1.149"
+}

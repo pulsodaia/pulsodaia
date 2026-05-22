@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-05-22T21:18:03.261Z",
+  "generated_at": "2026-05-22T23:09:50.550Z",
   "articles": [
+    {
+      "slug": "vozes-de-pilotos-mortos-recriadas-por-ia-forcam-bloqueio-de-dados-publicos",
+      "headline": "Vozes de pilotos mortos recriadas por IA forçam bloqueio de dados públicos",
+      "subtitle": "Técnicas avançadas de inteligência artificial permitiram a reconstrução de áudios de acidentes, levantando preocupações sobre privacidade e acesso a informações.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "privacidade",
+        "dados publicos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 22 May 2026 23:03:33 +0000",
+      "written_at": "2026-05-22T23:09:50.295Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-atualiza-controle-de-uso-e-detalhes-de-codigo",
+      "headline": "Claude Code Atualiza Controle de Uso e Detalhes de Código",
+      "subtitle": "A Anthropic aprimora a transparência e a usabilidade de suas ferramentas para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-22T22:09:29Z",
+      "written_at": "2026-05-22T23:09:38.757Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "arr-inflado-a-nova-metrica-para-elevar-startups-de-ia",
       "headline": "ARR Inflado: A Nova Métrica para Elevar Startups de IA",
