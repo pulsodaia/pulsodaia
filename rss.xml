@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 23 May 2026 03:59:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 06:45:29 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Analisa Depoimentos Históricos: Estrutura e Livre Fluxo em Arquivos da Memória</title>
+      <link>https://pulsodaia.com.br/feed/ia-analisa-depoimentos-historicos-estrutura-e-livre-fluxo-em-arquivos-da-memoria/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-analisa-depoimentos-historicos-estrutura-e-livre-fluxo-em-arquivos-da-memoria/</guid>
+      <pubDate>Sat, 23 May 2026 06:39:56 GMT</pubDate>
+      <description>Novas ferramentas de IA quantificam a diferença entre estilos de entrevistas em arquivos de testemunhos do Holocausto, abrindo caminho para análise em larga escala.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.21623">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Multiativa Otimiza Design com Intenção Humana</title>
+      <link>https://pulsodaia.com.br/feed/ia-multiativa-otimiza-design-com-intencao-humana/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-multiativa-otimiza-design-com-intencao-humana/</guid>
+      <pubDate>Sat, 23 May 2026 06:39:46 GMT</pubDate>
+      <description>Nova abordagem conecta linguagem natural a processos complexos de otimização de topologia.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2605.21622">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Monitores de IA falham em detectar falhas de alinhamento fora da distribuição, aponta estudo</title>
+      <link>https://pulsodaia.com.br/feed/monitores-de-ia-falham-em-detectar-falhas-de-alinhamento-fora-da-distribuicao-ap/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/monitores-de-ia-falham-em-detectar-falhas-de-alinhamento-fora-da-distribuicao-ap/</guid>
+      <pubDate>Sat, 23 May 2026 06:39:34 GMT</pubDate>
+      <description>Novo benchmark revela desafios na segurança de modelos de linguagem</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2605.21602">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Modelos de Linguagem por Difusão da Nemotron Labs Prometem Geração de Texto Ultrarrápida</title>
       <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-por-difusao-da-nemotron-labs-prometem-geracao-de-texto-ultr/</link>
@@ -430,33 +457,6 @@
       <description>A integração agressiva da IA do Google em suas ferramentas de produtividade levanta debates sobre a experiência do usuário.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace">The Verge AI</source>
-    </item>
-    <item>
-      <title>arXiv Avança Acessibilidade de Conteúdo Matemático com HTML e MathML 4</title>
-      <link>https://pulsodaia.com.br/feed/arxiv-avanca-acessibilidade-de-conteudo-matematico-com-html-e-mathml-4/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/arxiv-avanca-acessibilidade-de-conteudo-matematico-com-html-e-mathml-4/</guid>
-      <pubDate>Tue, 19 May 2026 04:11:33 GMT</pubDate>
-      <description>Projeto experimental do repositório de pré-publicações busca tornar a matemática mais acessível a todos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2605.16562">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>PQR: Framework Desenvolvido para Desafiar Agentes de IA com Consultas Realistas</title>
-      <link>https://pulsodaia.com.br/feed/pqr-framework-desenvolvido-para-desafiar-agentes-de-ia-com-consultas-realistas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pqr-framework-desenvolvido-para-desafiar-agentes-de-ia-com-consultas-realistas/</guid>
-      <pubDate>Tue, 19 May 2026 04:11:15 GMT</pubDate>
-      <description>Pesquisa acadêmica propõe método para identificar falhas em sistemas de QA que simulam intenções humanas.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.16551">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Leis de Escalabilidade de Habilidades em Sistemas de Agentes LLM Revelam Padrões de Desempenho</title>
-      <link>https://pulsodaia.com.br/feed/leis-de-escalabilidade-de-habilidades-em-sistemas-de-agentes-llm-revelam-padroes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/leis-de-escalabilidade-de-habilidades-em-sistemas-de-agentes-llm-revelam-padroes/</guid>
-      <pubDate>Tue, 19 May 2026 04:11:02 GMT</pubDate>
-      <description>Novas descobertas do arXiv detalham como a complexidade e a precisão dos agentes de IA se comportam à medida que suas bibliotecas de habilidades crescem.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.16508">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

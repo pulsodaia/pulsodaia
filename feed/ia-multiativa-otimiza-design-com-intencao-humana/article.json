@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2605.21622v1",
+  "title": "TO-Agents: A Multi-Agent AI Pipeline for Preference-Guided Topology Optimization",
+  "url": "https://arxiv.org/abs/2605.21622",
+  "summary": "arXiv:2605.21622v1 Announce Type: new Abstract: Topology optimization can generate efficient structures, but designers often must manually translate qualitative intent, such as desired visual style, product experience, or manufacturability into solver settings that are not directly tied to those preferences. We present TO-Agents, a multi-agent AI framework that connects natural-language design intent with iterative topology optimization. The framework converts a human-provided problem description into validated solver inputs, runs a topology optimization solver, renders the resulting 3D topology, and uses multi-view vision-language reasoning with an independent judge agent to critique each result and revise solver parameters. We evaluate the framework on two long-horizon design tasks: a cantilever beam benchmark and a phone-stand product design. In both tasks, the designer specifies an aesthetic preference for hierarchically branched structures inspired by natural tree morphologies, an",
+  "published_at": "Sat, 23 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Multiativa Otimiza Design com Intenção Humana",
+  "subtitle": "Nova abordagem conecta linguagem natural a processos complexos de otimização de topologia.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores apresentaram o TO-Agents, um framework de IA com múltiplos agentes que promete traduzir a intenção qualitativa de designers em parâmetros concretos para otimização de topologia. A novidade busca superar a dificuldade de expressar preferências estéticas ou de fabricação em linguagens compreendidas por solvers.",
+  "body_markdown": "## O que aconteceu\n\nUm novo artigo científico publicado no arXiv, intitulado \"TO-Agents: A Multi-Agent AI Pipeline for Preference-Guided Topology Optimization\", descreve um sistema inovador para otimização de topologia. O TO-Agents utiliza uma arquitetura multiagente para preencher a lacuna entre a linguagem natural e os complexos ajustes necessários para solvers de otimização de topologia. Tradicionalmente, designers precisam converter intenções como \"visual atraente\" ou \"fácil de fabricar\" em configurações numéricas específicas, um processo propenso a erros e ineficiências. O framework apresentado opera convertendo a descrição do problema fornecida pelo usuário em entradas validadas para o solver, executando a otimização, renderizando o resultado 3D e empregando agentes de visão e linguagem para criticar e refinar os parâmetros. Esta abordagem iterativa e guiada por feedback visa tornar o processo de design mais intuitivo e alinhado às preferências humanas. Saiba mais sobre o framework em [arXiv:2605.21622](https://arxiv.org/abs/2605.21622).\n\n## Por que importa\n\nA otimização de topologia é fundamental para a criação de estruturas eficientes em diversas indústrias, desde aeroespacial até automotiva e médica. No entanto, a complexidade de seus parâmetros técnicos limita sua adoção por designers que não possuem profundo conhecimento em engenharia de solvers. A capacidade de expressar diretamente desejos de design em linguagem natural, com a IA interpretando e ajustando os parâmetros de otimização, pode democratizar o acesso a essa poderosa ferramenta. Para o mercado brasileiro, isso significa um potencial para acelerar a inovação em manufatura aditiva, desenvolvimento de produtos mais leves e resistentes, e a criação de componentes com geometrias complexas que antes eram inviáveis. A redução da barreira técnica pode impulsionar a competitividade de empresas locais em setores que exigem alta performance e customização.\n\n## O que esperar\n\nO TO-Agents demonstra um caminho promissor para a integração da inteligência artificial generativa e otimização computacional. A pesquisa foi validada em tarefas de design de longo prazo, sugerindo robustez para aplicações práticas. Espera-se que desenvolvimentos futuros explorem a escalabilidade do framework para problemas de design ainda maiores e mais complexos. A capacidade de aprendizado contínuo dos agentes, baseada no feedback de avaliação, também pode levar a otimizações cada vez mais refinadas e personalizadas. Essa linha de pesquisa abre portas para a criação de ferramentas de design que não apenas geram soluções eficientes, mas que também compreendem e se adaptam ao contexto e às preferências específicas do usuário. Detalhes adicionais sobre a metodologia podem ser encontrados em [arXiv:2605.21622](https://arxiv.org/abs/2605.21622).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo artigo científico publicado no arXiv, intitulado \"TO-Agents: A Multi-Agent AI Pipeline for Preference-Guided Topology Optimization\", descreve um sistema inovador para otimização de topologia. O TO-Agents utiliza uma arquitetura multiagente para preencher a lacuna entre a linguagem natural e os complexos ajustes necessários para solvers de otimização de topologia. Tradicionalmente, designers precisam converter intenções como \"visual atraente\" ou \"fácil de fabricar\" em configurações numéricas específicas, um processo propenso a erros e ineficiências. O framework apresentado opera convertendo a descrição do problema fornecida pelo usuário em entradas validadas para o solver, executando a otimização, renderizando o resultado 3D e empregando agentes de visão e linguagem para criticar e refinar os parâmetros. Esta abordagem iterativa e guiada por feedback visa tornar o processo de design mais intuitivo e alinhado às preferências humanas. Saiba mais sobre o framework em <a href=\"https://arxiv.org/abs/2605.21622\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.21622</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A otimização de topologia é fundamental para a criação de estruturas eficientes em diversas indústrias, desde aeroespacial até automotiva e médica. No entanto, a complexidade de seus parâmetros técnicos limita sua adoção por designers que não possuem profundo conhecimento em engenharia de solvers. A capacidade de expressar diretamente desejos de design em linguagem natural, com a IA interpretando e ajustando os parâmetros de otimização, pode democratizar o acesso a essa poderosa ferramenta. Para o mercado brasileiro, isso significa um potencial para acelerar a inovação em manufatura aditiva, desenvolvimento de produtos mais leves e resistentes, e a criação de componentes com geometrias complexas que antes eram inviáveis. A redução da barreira técnica pode impulsionar a competitividade de empresas locais em setores que exigem alta performance e customização.</p>\n\n<h2>O que esperar</h2>\n\n<p>O TO-Agents demonstra um caminho promissor para a integração da inteligência artificial generativa e otimização computacional. A pesquisa foi validada em tarefas de design de longo prazo, sugerindo robustez para aplicações práticas. Espera-se que desenvolvimentos futuros explorem a escalabilidade do framework para problemas de design ainda maiores e mais complexos. A capacidade de aprendizado contínuo dos agentes, baseada no feedback de avaliação, também pode levar a otimizações cada vez mais refinadas e personalizadas. Essa linha de pesquisa abre portas para a criação de ferramentas de design que não apenas geram soluções eficientes, mas que também compreendem e se adaptam ao contexto e às preferências específicas do usuário. Detalhes adicionais sobre a metodologia podem ser encontrados em <a href=\"https://arxiv.org/abs/2605.21622\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.21622</a>.</p>",
+  "tags": [
+    "otimizacao de topologia",
+    "ia multiagente",
+    "design computacional"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "otimização de topologia",
+    "inteligência artificial",
+    "design",
+    "manufatura aditiva",
+    "IA multiagente"
+  ],
+  "meta_description_seo": "Framework TO-Agents usa IA multiagente para traduzir intenção humana em otimização de topologia, facilitando design complexo.",
+  "faq": [
+    {
+      "q": "O que é o TO-Agents?",
+      "a": "TO-Agents é um framework de IA com múltiplos agentes que conecta a intenção de design em linguagem natural com a otimização iterativa de topologia. Ele converte descrições humanas em entradas para solvers, avalia os resultados e refina os parâmetros."
+    },
+    {
+      "q": "Como o TO-Agents ajuda designers?",
+      "a": "Ele permite que designers expressem suas preferências qualitativas, como estilo visual ou fabricabilidade, diretamente em linguagem natural. A IA, então, traduz essas intenções em configurações técnicas, simplificando o processo de otimização de topologia."
+    },
+    {
+      "q": "Quais as aplicações práticas do TO-Agents?",
+      "a": "A tecnologia é aplicável em indústrias que usam otimização de topologia, como aeroespacial, automotiva e médica. Ela pode acelerar o desenvolvimento de produtos mais eficientes, leves e com geometrias complexas, especialmente com o avanço da manufatura aditiva."
+    }
+  ],
+  "written_at": "2026-05-23T06:39:46.395Z",
+  "slug": "ia-multiativa-otimiza-design-com-intencao-humana",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

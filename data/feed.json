@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-23T03:54:07.666Z",
+  "generated_at": "2026-05-23T06:39:56.554Z",
   "articles": [
+    {
+      "slug": "ia-analisa-depoimentos-historicos-estrutura-e-livre-fluxo-em-arquivos-da-memoria",
+      "headline": "IA Analisa Depoimentos Históricos: Estrutura e Livre Fluxo em Arquivos da Memória",
+      "subtitle": "Novas ferramentas de IA quantificam a diferença entre estilos de entrevistas em arquivos de testemunhos do Holocausto, abrindo caminho para análise em larga escala.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.21623",
+      "category": "research",
+      "tags": [
+        "história oral",
+        "inteligência artificial",
+        "análise de texto",
+        "memória"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 23 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-23T06:39:56.461Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-multiativa-otimiza-design-com-intencao-humana",
+      "headline": "IA Multiativa Otimiza Design com Intenção Humana",
+      "subtitle": "Nova abordagem conecta linguagem natural a processos complexos de otimização de topologia.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.21622",
+      "category": "research",
+      "tags": [
+        "otimizacao de topologia",
+        "ia multiagente",
+        "design computacional"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 23 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-23T06:39:46.395Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "monitores-de-ia-falham-em-detectar-falhas-de-alinhamento-fora-da-distribuicao-ap",
+      "headline": "Monitores de IA falham em detectar falhas de alinhamento fora da distribuição, aponta estudo",
+      "subtitle": "Novo benchmark revela desafios na segurança de modelos de linguagem",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.21602",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "segurança"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 23 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-23T06:39:34.613Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelos-de-linguagem-por-difusao-da-nemotron-labs-prometem-geracao-de-texto-ultr",
       "headline": "Modelos de Linguagem por Difusão da Nemotron Labs Prometem Geração de Texto Ultrarrápida",
