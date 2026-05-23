@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 22 May 2026 23:14:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 03:59:08 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos de Linguagem por Difusão da Nemotron Labs Prometem Geração de Texto Ultrarrápida</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-por-difusao-da-nemotron-labs-prometem-geracao-de-texto-ultr/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-por-difusao-da-nemotron-labs-prometem-geracao-de-texto-ultr/</guid>
+      <pubDate>Sat, 23 May 2026 03:54:07 GMT</pubDate>
+      <description>Pesquisa avança em direção a novas arquiteturas para acelerar a produção de conteúdo por IA.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/nvidia/nemotron-labs-diffusion">Hugging Face</source>
+    </item>
     <item>
       <title>Vozes de pilotos mortos recriadas por IA forçam bloqueio de dados públicos</title>
       <link>https://pulsodaia.com.br/feed/vozes-de-pilotos-mortos-recriadas-por-ia-forcam-bloqueio-de-dados-publicos/</link>
@@ -448,15 +457,6 @@
       <description>Novas descobertas do arXiv detalham como a complexidade e a precisão dos agentes de IA se comportam à medida que suas bibliotecas de habilidades crescem.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2605.16508">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Disputa Musk vs. Altman Expõe Liderança Questionável na IA</title>
-      <link>https://pulsodaia.com.br/feed/disputa-musk-vs-altman-expoe-lideranca-questionavel-na-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/disputa-musk-vs-altman-expoe-lideranca-questionavel-na-ia/</guid>
-      <pubDate>Mon, 18 May 2026 23:11:53 GMT</pubDate>
-      <description>O embate judicial entre Elon Musk e Sam Altman, fundadores da OpenAI, revela tensões internas e levanta dúvidas sobre a governança de um setor em rápida expansão.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people">The Verge AI</source>
     </item>
   </channel>
 </rss>
