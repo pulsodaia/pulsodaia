@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-05-23T06:39:56.554Z",
+  "generated_at": "2026-05-23T10:00:36.637Z",
   "articles": [
+    {
+      "slug": "ia-encontra-falhas-em-sistemas-mais-rapido-que-desenvolvedores-corrigem",
+      "headline": "IA encontra falhas em sistemas mais rápido que desenvolvedores corrigem",
+      "subtitle": "Avanço de modelos como Claude Mythos expõe a fragilidade da segurança digital em larga escala.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "cibersegurança",
+        "vulnerabilidades"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 23 May 2026 07:42:10 +0000",
+      "written_at": "2026-05-23T10:00:33.570Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-redefine-buscas-links-sao-parte-da-pesquisa-nao-o-todo",
+      "headline": "Google Redefine Buscas: Links São \"Parte\" da Pesquisa, Não o Todo",
+      "subtitle": "A mudança de discurso do CEO do Google sinaliza uma nova era onde a própria plataforma de busca se posiciona como fonte primária de informação.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/google-ceo-pichai-now-calls-links-a-part-of-search-redefining-the-webs-role-in-its-own-product/",
+      "category": "mercado",
+      "tags": [
+        "google",
+        "ia",
+        "busca",
+        "pichai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 23 May 2026 09:16:10 +0000",
+      "written_at": "2026-05-23T10:00:10.753Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-analisa-depoimentos-historicos-estrutura-e-livre-fluxo-em-arquivos-da-memoria",
       "headline": "IA Analisa Depoimentos Históricos: Estrutura e Livre Fluxo em Arquivos da Memória",
