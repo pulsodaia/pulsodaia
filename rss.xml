@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 24 May 2026 08:46:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 13:55:24 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Singularidade: Hassabis vê humanidade nos "foothills", LeCun contesta inteligência atual</title>
+      <link>https://pulsodaia.com.br/feed/singularidade-hassabis-ve-humanidade-nos-foothills-lecun-contesta-inteligencia-a/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/singularidade-hassabis-ve-humanidade-nos-foothills-lecun-contesta-inteligencia-a/</guid>
+      <pubDate>Sun, 24 May 2026 13:50:14 GMT</pubDate>
+      <description>Debate entre líderes da IA sobre o estágio atual e o futuro da inteligência artificial divide opiniões no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/deepminds-hassabis-sees-humanity-in-the-foothills-of-the-singularity-while-lecun-says-current-ai-isnt-intelligent/">The Decoder</source>
+    </item>
+    <item>
+      <title>Estudo da ByteDance aponta para aprendizado mais eficiente de modelos de linguagem via perguntas</title>
+      <link>https://pulsodaia.com.br/feed/estudo-da-bytedance-aponta-para-aprendizado-mais-eficiente-de-modelos-de-linguag/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/estudo-da-bytedance-aponta-para-aprendizado-mais-eficiente-de-modelos-de-linguag/</guid>
+      <pubDate>Sun, 24 May 2026 13:49:58 GMT</pubDate>
+      <description>Nova abordagem sugere que interrogar modelos sobre documentos extensos supera a simples transcrição, mesmo para modelos menores.</description>
+      <category>RESEARCH</category>
+      <source url="https://the-decoder.com/bytedance-study-finds-that-asking-lmms-questions-beats-making-it-transcribe-text-for-long-document-training/">The Decoder</source>
+    </item>
     <item>
       <title>IA Descobre Algoritmos de Escalabilidade de Computação Inéditos</title>
       <link>https://pulsodaia.com.br/feed/ia-descobre-algoritmos-de-escalabilidade-de-computacao-ineditos/</link>
@@ -439,24 +457,6 @@
       <description>CEO da Google DeepMind compara o momento atual da inteligência artificial a um estágio inicial de algo muito maior.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis">The Verge AI</source>
-    </item>
-    <item>
-      <title>Google entra na disputa por ferramentas de design com IA</title>
-      <link>https://pulsodaia.com.br/feed/google-entra-na-disputa-por-ferramentas-de-design-com-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-entra-na-disputa-por-ferramentas-de-design-com-ia/</guid>
-      <pubDate>Tue, 19 May 2026 23:11:38 GMT</pubDate>
-      <description>A gigante de Mountain View anuncia sua aposta em soluções de criação visual acessíveis a todos, mirando um mercado em expansão.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code aprimora interacao com agentes de IA via JSON e visibilidade de plugins</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-interacao-com-agentes-de-ia-via-json-e-visibilidade-de-plug/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-interacao-com-agentes-de-ia-via-json-e-visibilidade-de-plug/</guid>
-      <pubDate>Tue, 19 May 2026 23:11:25 GMT</pubDate>
-      <description>Novas funcionalidades visam facilitar a integracao de assistentes de IA em fluxos de trabalho e o entendimento de suas capacidades antes da adocao.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.145">Claude Code</source>
     </item>
   </channel>
 </rss>
