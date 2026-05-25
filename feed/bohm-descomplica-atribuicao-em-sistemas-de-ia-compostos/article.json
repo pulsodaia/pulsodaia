@@ -1,0 +1,53 @@
+{
+  "id": "oai:arXiv.org:2605.22866v1",
+  "title": "BOHM: Zero-Cost Hierarchical Attribution for Compound AI Systems",
+  "url": "https://arxiv.org/abs/2605.22866",
+  "summary": "arXiv:2605.22866v1 Announce Type: new Abstract: Compound AI systems route tasks through hierarchies of specialised components. Attribution is dominated by Shapley-based methods (SHAP), which decompose a coalition value function into per-component marginal contributions and require evaluation of the system on arbitrary component subsets. That requirement fails for third-party APIs, opaque endpoints, and agentic orchestrators that concentrate routing on a few tools, leaving most coalitions un-evaluable from the deployed orchestrator. We introduce BOHM, which extracts a hierarchical attribution tree directly from the routing weights such systems already maintain: leaf attribution is the path product of root-to-leaf routing weights; level-k attribution is the induced distribution over depth-k nodes. The method has zero marginal cost, requires no access to component internals, and provides multi-resolution attribution at every level simultaneously, which flat methods cannot offer at any eva",
+  "published_at": "Mon, 25 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "BOHM Descomplica Atribuição em Sistemas de IA Compostos",
+  "subtitle": "Nova abordagem promete transparência em arquiteturas modulares de IA no Brasil.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo método de atribuição, batizado de BOHM, surge para decifrar a contribuição de cada componente em sistemas de Inteligência Artificial complexos. A técnica busca superar as limitações de métodos atuais, especialmente em arquiteturas modulares que dependem de APIs de terceiros ou orquestradores dinâmicos.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores apresentaram o BOHM, um método inovador para atribuição hierárquica em sistemas de IA compostos. Esses sistemas, cada vez mais comuns em aplicações empresariais e de desenvolvimento no Brasil, funcionam roteando tarefas através de uma série de componentes especializados. A atribuição, que busca entender qual parte do sistema contribuiu para um determinado resultado, tradicionalmente se baseia em métodos derivados de Shapley (SHAP). No entanto, SHAP exige a avaliação do sistema em todas as combinações possíveis de componentes, um requisito impraticável para sistemas que utilizam APIs de terceiros, endpoints opacos ou orquestradores que concentram o roteamento em poucas ferramentas. O BOHM, descrito no artigo \"Zero-Cost Hierarchical Attribution for Compound AI Systems\" disponível no [arXiv](https://arxiv.org/abs/2605.22866), contorna essa limitação ao extrair a atribuição diretamente dos pesos de roteamento já mantidos por esses sistemas. A atribuição em folhas é calculada como o produto das probabilidades de roteamento da raiz até a folha, enquanto a atribuição em níveis superiores é derivada da distribuição induzida.\n\n## Por que importa\n\nA capacidade de atribuir responsabilidades dentro de sistemas de IA é crucial para a depuração, a otimização de desempenho e a garantia de conformidade, aspectos de alta relevância para empresas brasileiras que investem em IA. Métodos como SHAP, embora poderosos, frequentemente se mostram inviáveis em cenários práticos onde a estrutura do sistema impede a avaliação completa de subconjuntos de componentes. Isso é particularmente verdadeiro para soluções que integram serviços externos, onde o código ou a lógica interna não são acessíveis. O BOHM oferece uma alternativa de custo zero, aproveitando a infraestrutura existente para fornecer insights sobre o funcionamento interno de sistemas de IA compostos. Isso pode agilizar o desenvolvimento e a manutenção de soluções de IA em diversas indústrias no Brasil, desde finanças e saúde até manufatura e serviços. A transparência aumentada facilitada pelo BOHM pode ser um diferencial competitivo importante.\n\n## O que esperar\n\nA introdução do BOHM abre portas para uma análise mais profunda e acessível de sistemas de IA complexos. Espera-se que a comunidade de pesquisa e desenvolvimento adote essa abordagem, especialmente em projetos que envolvem arquiteturas modulares e orquestração de agentes. A simplicidade e a eficiência do BOHM em comparação com métodos tradicionais podem acelerar a adoção de IA em empresas que antes enfrentavam barreiras técnicas para a interpretabilidade de seus sistemas. A implementação prática do BOHM pode levar ao desenvolvimento de novas ferramentas e plataformas que facilitam essa análise, tornando a IA composta mais confiável e compreensível. Futuras pesquisas podem explorar a aplicação do BOHM em diferentes tipos de orquestradores e a sua integração com outras técnicas de explicabilidade de IA, como detalhado em discussões sobre [atribuição em IA](https://arxiv.org/abs/2605.22866).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores apresentaram o BOHM, um método inovador para atribuição hierárquica em sistemas de IA compostos. Esses sistemas, cada vez mais comuns em aplicações empresariais e de desenvolvimento no Brasil, funcionam roteando tarefas através de uma série de componentes especializados. A atribuição, que busca entender qual parte do sistema contribuiu para um determinado resultado, tradicionalmente se baseia em métodos derivados de Shapley (SHAP). No entanto, SHAP exige a avaliação do sistema em todas as combinações possíveis de componentes, um requisito impraticável para sistemas que utilizam APIs de terceiros, endpoints opacos ou orquestradores que concentram o roteamento em poucas ferramentas. O BOHM, descrito no artigo \"Zero-Cost Hierarchical Attribution for Compound AI Systems\" disponível no <a href=\"https://arxiv.org/abs/2605.22866\" target=\"_blank\" rel=\"external noopener\">arXiv</a>, contorna essa limitação ao extrair a atribuição diretamente dos pesos de roteamento já mantidos por esses sistemas. A atribuição em folhas é calculada como o produto das probabilidades de roteamento da raiz até a folha, enquanto a atribuição em níveis superiores é derivada da distribuição induzida.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de atribuir responsabilidades dentro de sistemas de IA é crucial para a depuração, a otimização de desempenho e a garantia de conformidade, aspectos de alta relevância para empresas brasileiras que investem em IA. Métodos como SHAP, embora poderosos, frequentemente se mostram inviáveis em cenários práticos onde a estrutura do sistema impede a avaliação completa de subconjuntos de componentes. Isso é particularmente verdadeiro para soluções que integram serviços externos, onde o código ou a lógica interna não são acessíveis. O BOHM oferece uma alternativa de custo zero, aproveitando a infraestrutura existente para fornecer insights sobre o funcionamento interno de sistemas de IA compostos. Isso pode agilizar o desenvolvimento e a manutenção de soluções de IA em diversas indústrias no Brasil, desde finanças e saúde até manufatura e serviços. A transparência aumentada facilitada pelo BOHM pode ser um diferencial competitivo importante.</p>\n\n<h2>O que esperar</h2>\n\n<p>A introdução do BOHM abre portas para uma análise mais profunda e acessível de sistemas de IA complexos. Espera-se que a comunidade de pesquisa e desenvolvimento adote essa abordagem, especialmente em projetos que envolvem arquiteturas modulares e orquestração de agentes. A simplicidade e a eficiência do BOHM em comparação com métodos tradicionais podem acelerar a adoção de IA em empresas que antes enfrentavam barreiras técnicas para a interpretabilidade de seus sistemas. A implementação prática do BOHM pode levar ao desenvolvimento de novas ferramentas e plataformas que facilitam essa análise, tornando a IA composta mais confiável e compreensível. Futuras pesquisas podem explorar a aplicação do BOHM em diferentes tipos de orquestradores e a sua integração com outras técnicas de explicabilidade de IA, como detalhado em discussões sobre <a href=\"https://arxiv.org/abs/2605.22866\" target=\"_blank\" rel=\"external noopener\">atribuição em IA</a>.</p>",
+  "tags": [
+    "atribuicao de ia",
+    "sistemas compostos",
+    "interpretabilidade"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "BOHM",
+    "atribuição hierárquica",
+    "sistemas de IA compostos",
+    "interpretabilidade de IA",
+    "Shapley",
+    "arXiv",
+    "componentes de IA",
+    "orquestradores de IA"
+  ],
+  "meta_description_seo": "BOHM, um novo método de atribuição, simplifica a análise de sistemas de IA compostos, superando limitações de métodos SHAP em arquiteturas modulares.",
+  "faq": [
+    {
+      "q": "O que é o BOHM e qual problema ele resolve?",
+      "a": "O BOHM é um novo método para calcular a contribuição de cada componente em sistemas de IA compostos. Ele resolve o problema de métodos anteriores que exigiam avaliações impraticáveis de subconjuntos de componentes, especialmente em sistemas que usam APIs externas ou orquestradores complexos."
+    },
+    {
+      "q": "Como o BOHM funciona sem avaliar todas as combinações de componentes?",
+      "a": "O BOHM extrai a atribuição diretamente dos pesos de roteamento que o próprio sistema de IA composto já utiliza. A contribuição de cada parte é calculada com base nesses pesos preexistentes, eliminando a necessidade de executar o sistema em cenários hipotéticos."
+    },
+    {
+      "q": "Qual a vantagem do BOHM em relação aos métodos baseados em Shapley (SHAP)?",
+      "a": "A principal vantagem do BOHM é o seu \"custo zero\" em termos de avaliações adicionais. Enquanto SHAP exige muitas execuções do sistema, o BOHM utiliza informações já disponíveis, tornando-o mais eficiente e aplicável a sistemas onde a avaliação completa é impossível."
+    }
+  ],
+  "written_at": "2026-05-25T10:22:50.146Z",
+  "slug": "bohm-descomplica-atribuicao-em-sistemas-de-ia-compostos",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

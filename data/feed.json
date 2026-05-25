@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-24T15:11:15.637Z",
+  "generated_at": "2026-05-25T10:23:14.170Z",
   "articles": [
+    {
+      "slug": "ia-avanca-em-resolucao-de-problemas-matematicos-complexos-com-novo-framework",
+      "headline": "IA avança em resolução de problemas matemáticos complexos com novo framework",
+      "subtitle": "Pesquisadores apresentam sistema que foca em desafios de nível de pesquisa, indo além de competições.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.22875",
+      "category": "research",
+      "tags": [
+        "ia",
+        "matematica",
+        "raciocinio automatizado"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 25 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-25T10:23:14.007Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "neuronl2ltl-nova-arquitetura-unifica-linguagem-natural-e-logica-formal-para-veri",
+      "headline": "NeuroNL2LTL: Nova Arquitetura Unifica Linguagem Natural e Lógica Formal para Verificação de Sistemas",
+      "subtitle": "Pesquisadores propõem um framework neurosimbólico para tradução automática de especificações, prometendo maior confiabilidade em sistemas críticos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.22874",
+      "category": "research",
+      "tags": [
+        "ia",
+        "verificacao formal",
+        "logica temporal linear"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 25 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-25T10:23:02.523Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "bohm-descomplica-atribuicao-em-sistemas-de-ia-compostos",
+      "headline": "BOHM Descomplica Atribuição em Sistemas de IA Compostos",
+      "subtitle": "Nova abordagem promete transparência em arquiteturas modulares de IA no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.22866",
+      "category": "research",
+      "tags": [
+        "atribuicao de ia",
+        "sistemas compostos",
+        "interpretabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 25 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-25T10:22:50.146Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "amazon-bee-wearable-de-ia-gera-fascinio-e-receio-com-promessa-de-conveniencia",
       "headline": "Amazon Bee: wearable de IA gera fascínio e receio com promessa de conveniência",
