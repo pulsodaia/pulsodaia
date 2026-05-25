@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 25 May 2026 10:28:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 19:55:50 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Encíclica Papal sobre IA: Uma Análise Crítica da Concentração de Poder</title>
+      <link>https://pulsodaia.com.br/feed/enciclica-papal-sobre-ia-uma-analise-critica-da-concentracao-de-poder/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/enciclica-papal-sobre-ia-uma-analise-critica-da-concentracao-de-poder/</guid>
+      <pubDate>Mon, 25 May 2026 19:50:53 GMT</pubDate>
+      <description>O Vaticano usa a inteligência artificial como um espelho para examinar questões sociais e tecnológicas antigas, com implicações para o Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>ClickUp Troca Centenas de Funcionários por Milhares de Agentes de IA</title>
+      <link>https://pulsodaia.com.br/feed/clickup-troca-centenas-de-funcionarios-por-milhares-de-agentes-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/clickup-troca-centenas-de-funcionarios-por-milhares-de-agentes-de-ia/</guid>
+      <pubDate>Mon, 25 May 2026 19:50:43 GMT</pubDate>
+      <description>Demissão em massa na startup de gestão de projetos sinaliza uma mudança profunda na força de trabalho.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Glossário Essencial: Hugging Face Define Termos-Chave para Agentes de IA</title>
+      <link>https://pulsodaia.com.br/feed/glossario-essencial-hugging-face-define-termos-chave-para-agentes-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/glossario-essencial-hugging-face-define-termos-chave-para-agentes-de-ia/</guid>
+      <pubDate>Mon, 25 May 2026 19:50:32 GMT</pubDate>
+      <description>A clareza terminológica é crucial para o avanço e adoção de agentes de IA no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/agent-glossary">Hugging Face</source>
+    </item>
     <item>
       <title>IA avança em resolução de problemas matemáticos complexos com novo framework</title>
       <link>https://pulsodaia.com.br/feed/ia-avanca-em-resolucao-de-problemas-matematicos-complexos-com-novo-framework/</link>
@@ -430,33 +457,6 @@
       <description>O setor de busca com inteligência artificial se consolida como um dos focos de investimento mais quentes no cenário de IA para consumidores.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Google Beam Aprimora Reuniões Híbridas com Realismo Visual e Sonoro</title>
-      <link>https://pulsodaia.com.br/feed/google-beam-aprimora-reunioes-hibridas-com-realismo-visual-e-sonoro/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-beam-aprimora-reunioes-hibridas-com-realismo-visual-e-sonoro/</guid>
-      <pubDate>Wed, 20 May 2026 16:57:50 GMT</pubDate>
-      <description>Tecnologia busca reduzir a distância entre participantes remotos e presenciais em ambientes corporativos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/">Google AI</source>
-    </item>
-    <item>
-      <title>Gemini 3.5 Flash Eleva Custos de IA Generativa, Seguindo Tendência de Mercado</title>
-      <link>https://pulsodaia.com.br/feed/gemini-3-5-flash-eleva-custos-de-ia-generativa-seguindo-tendencia-de-mercado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-3-5-flash-eleva-custos-de-ia-generativa-seguindo-tendencia-de-mercado/</guid>
-      <pubDate>Wed, 20 May 2026 12:30:40 GMT</pubDate>
-      <description>Novos modelos de IA, como o Gemini 3.5 Flash do Google, apresentam um custo operacional significativamente maior, refletindo a estratégia de monetização de grandes empresas.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/googles-gemini-3-5-flash-follows-anthropic-and-openai-in-making-newer-ai-models-significantly-pricier/">The Decoder</source>
-    </item>
-    <item>
-      <title>Google Une Modelo de IA Genie com Street View para Criar Mundos Virtuais de Lugares Reais</title>
-      <link>https://pulsodaia.com.br/feed/google-une-modelo-de-ia-genie-com-street-view-para-criar-mundos-virtuais-de-luga/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-une-modelo-de-ia-genie-com-street-view-para-criar-mundos-virtuais-de-luga/</guid>
-      <pubDate>Wed, 20 May 2026 12:30:24 GMT</pubDate>
-      <description>A combinação permite que usuários naveguem por representações digitais de locais físicos, abrindo novas aplicações para robótica e simulação.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/google-pairs-its-genie-world-model-with-street-view-to-create-explorable-ai-worlds-based-on-real-places/">The Decoder</source>
     </item>
   </channel>
 </rss>
