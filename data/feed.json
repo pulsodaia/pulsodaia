@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-25T19:50:53.143Z",
+  "generated_at": "2026-05-26T04:11:23.038Z",
   "articles": [
+    {
+      "slug": "ia-o-custo-da-reflexao-excessiva-em-modelos-de-linguagem",
+      "headline": "IA: O Custo da Reflexão Excessiva em Modelos de Linguagem",
+      "subtitle": "Pesquisa do arXiv questiona a eficiência do raciocínio prolongado em LLMs, um debate crucial para o desenvolvimento e aplicação no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.23926",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "raciocínio"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 26 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-26T04:11:22.944Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-linguagem-gigantes-falham-em-autoavaliacao-aponta-estudo",
+      "headline": "Modelos de Linguagem Gigantes Falham em Autoavaliação, Aponta Estudo",
+      "subtitle": "A confiança excessiva em suas respostas é um problema recorrente, especialmente em tarefas difíceis.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.23909",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "calibração"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 26 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-26T04:11:11.707Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-generativa-um-teste-de-criatividade-aberta-em-modelos-de-visao-e-linguagem",
+      "headline": "IA Generativa: Um Teste de Criatividade Aberta em Modelos de Visão e Linguagem",
+      "subtitle": "Pesquisadores buscam replicar a exploração criativa humana em sistemas de IA para produção de imagens.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.23908",
+      "category": "research",
+      "tags": [
+        "ia generativa",
+        "criatividade artificial",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 26 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-26T04:11:01.053Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "enciclica-papal-sobre-ia-uma-analise-critica-da-concentracao-de-poder",
       "headline": "Encíclica Papal sobre IA: Uma Análise Crítica da Concentração de Poder",

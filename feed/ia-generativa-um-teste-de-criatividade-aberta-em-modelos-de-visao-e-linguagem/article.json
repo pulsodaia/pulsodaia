@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2605.23908v1",
+  "title": "In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models",
+  "url": "https://arxiv.org/abs/2605.23908",
+  "summary": "arXiv:2605.23908v1 Announce Type: new Abstract: We are in the midst of large-scale industrial and academic efforts to automate the processes of scientific, technological and creative production through AI-driven assistants. Historically, a fundamental property of these processes in their human form has been their open-endedness: their capacity for generating a seemingly endless supply of novel and meaningful new forms. Do artificial agents have any capacity for such fruitful unguided discovery? To answer this question, we turn to Picbreeder, the canonical exemplar of human-driven open-ended search, in which users collaboratively generated a diverse library of images through interactive evolution of small neural networks. We replicate Picbreeder, replacing human users with frontier Vision Language Models (VLMs). We observe clear qualitative differences between the output of our system and the historical human baseline, and attempt to characterize them using metrics of phylogenetic compl",
+  "published_at": "Tue, 26 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Generativa: Um Teste de Criatividade Aberta em Modelos de Visão e Linguagem",
+  "subtitle": "Pesquisadores buscam replicar a exploração criativa humana em sistemas de IA para produção de imagens.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um estudo publicado no arXiv investiga a capacidade de modelos de visão e linguagem de grande escala em gerar conteúdo criativo de forma autônoma, replicando o processo de exploração aberta visto em plataformas colaborativas de criação de imagens.",
+  "body_markdown": "## O que aconteceu\n\nO avanço da inteligência artificial em automação de processos científicos, tecnológicos e criativos levanta uma questão central: esses sistemas possuem a capacidade de descoberta não guiada, uma propriedade intrínseca da criatividade humana aberta? Para responder a essa pergunta, pesquisadores voltaram-se para o Picbreeder, um exemplo canônico de busca aberta conduzida por humanos, onde usuários colaboravam na geração de uma vasta biblioteca de imagens através da evolução interativa de pequenas redes neurais. O novo estudo, disponível em [arXiv:2605.23908](https://arxiv.org/abs/2605.23908), propõe replicar o Picbreeder, substituindo os usuários humanos por modelos de visão e linguagem de ponta (Vision-Language Models VLM). O objetivo é avaliar se esses VLMs podem emular a exploração e a geração de formas novas e significativas, características da \"open-endedness\" ou abertura infinita. A pesquisa se debruça sobre os componentes necessários para que um sistema de IA demonstre essa capacidade, buscando entender os mecanismos que permitem a geração contínua de novidades.\n\n## Por que importa\n\nA capacidade de gerar um suprimento aparentemente inesgotável de novas formas, tanto no campo científico quanto no artístico, é um pilar da inovação humana. Se a IA puder replicar ou mesmo superar essa \"open-endedness\", o potencial para descobertas e criações em áreas como design, desenvolvimento de materiais, medicina e arte se expande exponencialmente. No contexto brasileiro, isso pode significar um impulso para indústrias criativas, startups de tecnologia e centros de pesquisa, democratizando o acesso a ferramentas de geração de ideias e prototipagem. A capacidade de explorar um espaço de soluções de forma autônoma e sem um objetivo pré-definido pode acelerar a resolução de problemas complexos e abrir caminhos para inovações que sequer imaginamos. Compreender os \"ingredientes\" da criatividade aberta em IA é fundamental para direcionar o desenvolvimento futuro desses sistemas de forma a maximizar seu benefício social e econômico.\n\n## O que esperar\n\nO estudo representa um passo inicial na tentativa de quantificar e replicar a criatividade aberta em sistemas de IA. A substituição de humanos por VLMs no ambiente do Picbreeder permitirá uma análise controlada dos resultados e a identificação dos fatores que mais contribuem para a geração de novidades. Espera-se que os resultados forneçam insights sobre a arquitetura de modelos, os métodos de treinamento e as estratégias de exploração que melhor promovem a \"open-endedness\". Isso pode levar ao desenvolvimento de novas gerações de assistentes de IA mais capazes de inovar e surpreender. A pesquisa em [arXiv:2605.23908](https://arxiv.org/abs/2605.23908) abre portas para um debate mais profundo sobre a natureza da criatividade artificial e seus limites. Futuramente, podemos ver sistemas de IA não apenas executando tarefas, mas atuando como parceiros criativos verdadeiramente autônomos, capazes de propor caminhos inesperados e frutíferos em qualquer campo de atuação.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>O avanço da inteligência artificial em automação de processos científicos, tecnológicos e criativos levanta uma questão central: esses sistemas possuem a capacidade de descoberta não guiada, uma propriedade intrínseca da criatividade humana aberta? Para responder a essa pergunta, pesquisadores voltaram-se para o Picbreeder, um exemplo canônico de busca aberta conduzida por humanos, onde usuários colaboravam na geração de uma vasta biblioteca de imagens através da evolução interativa de pequenas redes neurais. O novo estudo, disponível em <a href=\"https://arxiv.org/abs/2605.23908\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.23908</a>, propõe replicar o Picbreeder, substituindo os usuários humanos por modelos de visão e linguagem de ponta (Vision-Language Models VLM). O objetivo é avaliar se esses VLMs podem emular a exploração e a geração de formas novas e significativas, características da \"open-endedness\" ou abertura infinita. A pesquisa se debruça sobre os componentes necessários para que um sistema de IA demonstre essa capacidade, buscando entender os mecanismos que permitem a geração contínua de novidades.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de gerar um suprimento aparentemente inesgotável de novas formas, tanto no campo científico quanto no artístico, é um pilar da inovação humana. Se a IA puder replicar ou mesmo superar essa \"open-endedness\", o potencial para descobertas e criações em áreas como design, desenvolvimento de materiais, medicina e arte se expande exponencialmente. No contexto brasileiro, isso pode significar um impulso para indústrias criativas, startups de tecnologia e centros de pesquisa, democratizando o acesso a ferramentas de geração de ideias e prototipagem. A capacidade de explorar um espaço de soluções de forma autônoma e sem um objetivo pré-definido pode acelerar a resolução de problemas complexos e abrir caminhos para inovações que sequer imaginamos. Compreender os \"ingredientes\" da criatividade aberta em IA é fundamental para direcionar o desenvolvimento futuro desses sistemas de forma a maximizar seu benefício social e econômico.</p>\n\n<h2>O que esperar</h2>\n\n<p>O estudo representa um passo inicial na tentativa de quantificar e replicar a criatividade aberta em sistemas de IA. A substituição de humanos por VLMs no ambiente do Picbreeder permitirá uma análise controlada dos resultados e a identificação dos fatores que mais contribuem para a geração de novidades. Espera-se que os resultados forneçam insights sobre a arquitetura de modelos, os métodos de treinamento e as estratégias de exploração que melhor promovem a \"open-endedness\". Isso pode levar ao desenvolvimento de novas gerações de assistentes de IA mais capazes de inovar e surpreender. A pesquisa em <a href=\"https://arxiv.org/abs/2605.23908\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.23908</a> abre portas para um debate mais profundo sobre a natureza da criatividade artificial e seus limites. Futuramente, podemos ver sistemas de IA não apenas executando tarefas, mas atuando como parceiros criativos verdadeiramente autônomos, capazes de propor caminhos inesperados e frutíferos em qualquer campo de atuação.</p>",
+  "tags": [
+    "ia generativa",
+    "criatividade artificial",
+    "modelos de linguagem"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligência artificial",
+    "criatividade",
+    "modelos de visão e linguagem",
+    "exploração aberta",
+    "Picbreeder"
+  ],
+  "meta_description_seo": "Estudo investiga se IA generativa pode replicar criatividade humana aberta, substituindo usuários em plataforma de criação de imagens.",
+  "faq": [
+    {
+      "q": "O que significa \"open-endedness\" no contexto da IA?",
+      "a": "Refere-se à capacidade de um sistema de IA de gerar um suprimento contínuo e aparentemente infinito de novas formas, ideias ou soluções, sem um limite predefinido. É uma característica da criatividade humana que os pesquisadores buscam replicar."
+    },
+    {
+      "q": "Como o estudo tenta replicar a criatividade humana?",
+      "a": "O estudo replica a plataforma Picbreeder, onde humanos colaboravam na criação de imagens. No lugar dos humanos, utilizam modelos de visão e linguagem de ponta para ver se eles conseguem gerar conteúdo criativo de forma autônoma e exploratória."
+    },
+    {
+      "q": "Qual o potencial impacto dessa pesquisa para o Brasil?",
+      "a": "A pesquisa pode impulsionar indústrias criativas brasileiras, startups e centros de pesquisa ao desenvolver assistentes de IA mais capazes de inovação e geração de ideias, acelerando a resolução de problemas e abrindo caminhos para novas descobertas."
+    }
+  ],
+  "written_at": "2026-05-26T04:11:01.053Z",
+  "slug": "ia-generativa-um-teste-de-criatividade-aberta-em-modelos-de-visao-e-linguagem",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
