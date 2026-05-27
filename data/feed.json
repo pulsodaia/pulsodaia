@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-27T16:01:26.162Z",
+  "generated_at": "2026-05-27T22:02:55.038Z",
   "articles": [
+    {
+      "slug": "remote-aumenta-receita-por-funcionario-em-50-com-ia-sem-contratar",
+      "headline": "Remote Aumenta Receita por Funcionário em 50% com IA, Sem Contratar",
+      "subtitle": "A plataforma de gestão de folha de pagamento demonstra o poder da otimização de processos impulsionada por inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "produtividade",
+        "negocios"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 27 May 2026 19:39:45 +0000",
+      "written_at": "2026-05-27T22:02:55.017Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "snowflake-garante-suprimento-de-chips-para-ia-em-acordo-bilionario-com-aws",
+      "headline": "Snowflake Garante Suprimento de Chips para IA em Acordo Bilionário com AWS",
+      "subtitle": "A gigante de dados investe pesado em infraestrutura de computação para impulsionar suas iniciativas de inteligência artificial.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
+      "category": "mercado",
+      "tags": [
+        "snowflake",
+        "aws",
+        "chips de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 27 May 2026 20:10:00 +0000",
+      "written_at": "2026-05-27T22:02:42.774Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-ia-de-ponta-falham-em-tarefas-de-ti-corporativa-em-novo-benchmark",
+      "headline": "Modelos de IA de ponta falham em tarefas de TI corporativa em novo benchmark",
+      "subtitle": "Avaliação inicial revela desempenho abaixo de 50% em um conjunto de testes cruciais para o ambiente empresarial brasileiro.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "category": "opensource",
+      "tags": [
+        "ia corporativa",
+        "itbench-aa",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 27 May 2026 17:20:29 GMT",
+      "written_at": "2026-05-27T22:02:31.521Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "cognition-capta-us-1-bilhao-e-alcanca-valor-de-us-25-bilhoes-para-ia-de-codigo",
       "headline": "Cognition Capta US$ 1 Bilhão e Alcança Valor de US$ 25 Bilhões para IA de Código",
