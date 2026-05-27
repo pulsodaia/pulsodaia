@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-27T04:24:59.220Z",
+  "generated_at": "2026-05-27T16:01:26.162Z",
   "articles": [
+    {
+      "slug": "cognition-capta-us-1-bilhao-e-alcanca-valor-de-us-25-bilhoes-para-ia-de-codigo",
+      "headline": "Cognition Capta US$ 1 Bilhão e Alcança Valor de US$ 25 Bilhões para IA de Código",
+      "subtitle": "A startup de IA para desenvolvimento de software dobra sua avaliação em oito meses, impulsionada por receita anualizada de US$ 492 milhões.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "desenvolvimento de software",
+        "financiamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 27 May 2026 16:00:00 +0000",
+      "written_at": "2026-05-27T16:01:26.140Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-simplifica-treinamento-de-modelos-gigantes-com-delta-weight-sync",
+      "headline": "Hugging Face Simplifica Treinamento de Modelos Gigantes com Delta Weight Sync",
+      "subtitle": "Nova técnica promete reduzir custos e tempo para treinar IA de trilhões de parâmetros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/delta-weight-sync",
+      "category": "opensource",
+      "tags": [
+        "delta weight sync",
+        "hugging face",
+        "treinamento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+      "written_at": "2026-05-27T16:01:15.952Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "reachy-mini-agora-opera-integralmente-localmente-sem-nuvem",
+      "headline": "Reachy Mini Agora Opera Integralmente Localmente, Sem Nuvem",
+      "subtitle": "A Hugging Face avança na descentralização do processamento de IA para o hardware local.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "category": "opensource",
+      "tags": [
+        "ia local",
+        "edge ai",
+        "robótica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+      "written_at": "2026-05-27T16:01:05.242Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "memoria-de-ia-um-novo-paradigma-de-gerenciamento-de-dados-em-discussao",
       "headline": "Memória de IA: Um Novo Paradigma de Gerenciamento de Dados em Discussão",
