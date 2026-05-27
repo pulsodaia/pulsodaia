@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-26T23:15:24.685Z",
+  "generated_at": "2026-05-27T04:24:59.220Z",
   "articles": [
+    {
+      "slug": "memoria-de-ia-um-novo-paradigma-de-gerenciamento-de-dados-em-discussao",
+      "headline": "Memória de IA: Um Novo Paradigma de Gerenciamento de Dados em Discussão",
+      "subtitle": "Estudo aponta falhas em sistemas atuais e propõe abordagem focada na trajetória do estado.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.26252",
+      "category": "research",
+      "tags": [
+        "memoria de ia",
+        "gerenciamento de dados",
+        "agentes de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 27 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-27T04:24:59.002Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-linguagem-grande-o-mito-da-autoconsciencia-artificial",
+      "headline": "Modelos de Linguagem Grande: O Mito da Autoconsciência Artificial",
+      "subtitle": "Novas pesquisas questionam a capacidade de LLMs de \"pensar sobre si mesmos\", com implicações diretas para a avaliação e confiança em sistemas de IA no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.26242",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "introspecção"
+      ],
+      "read_time_min": 4,
+      "published_at": "Wed, 27 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-27T04:24:48.171Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-gera-estruturas-montaveis-de-blocos-a-partir-de-modelos-3d",
+      "headline": "IA Gera Estruturas Montáveis de Blocos a Partir de Modelos 3D",
+      "subtitle": "Pesquisa em IA avança na criação de designs complexos que podem ser fisicamente construídos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.26182",
+      "category": "research",
+      "tags": [
+        "ia",
+        "geracao 3d",
+        "construcao",
+        "robótica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 27 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-27T04:24:37.034Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-da-anthropic-resolve-problema-matematico-historico-seguindo-openai",
       "headline": "IA da Anthropic Resolve Problema Matemático Histórico, Seguindo OpenAI",
