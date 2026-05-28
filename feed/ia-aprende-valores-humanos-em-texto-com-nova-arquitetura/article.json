@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2605.27373v1",
+  "title": "Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture",
+  "url": "https://arxiv.org/abs/2605.27373",
+  "summary": "arXiv:2605.27373v1 Announce Type: new Abstract: As intelligent systems become more autonomous, the scientific community focuses on creating decision-making mechanisms that include ethical and moral considerations, unlike traditional utility-maximisation models. To achieve this, a key aspect is assessing how well these decisions align with human values. To this end, a promising line of research is centred on developing approaches based on Large Language Models (LLMs) to identify human values from text, whether explicit or implicit, enabling their recognition throughout. This paper introduces a LLM-based architecture to detect and quantify the intensity of human values in text, avoiding the limitations of previous approaches tied to specific value theory or complex prompt engineering. The architecture comprises three coordinated modules: one that generates structured value specifications from the foundational texts of any theoretical framework; one that labels texts using these specifica",
+  "published_at": "Thu, 28 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA aprende valores humanos em texto com nova arquitetura",
+  "subtitle": "Pesquisa no arXiv propõe modelo para alinhar decisões de sistemas autônomos com ética humana.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo estudo publicado no arXiv detalha uma arquitetura baseada em modelos de linguagem grandes (LLMs) capaz de identificar e quantificar valores humanos em textos. A pesquisa visa preencher uma lacuna crucial na criação de sistemas de IA mais éticos e alinhados com a tomada de decisão humana.",
+  "body_markdown": "## O que aconteceu\n\nA comunidade científica avança na busca por sistemas de inteligência artificial que incorporem considerações éticas e morais, distanciando-se de modelos tradicionais focados apenas na maximização de utilidade. Um passo fundamental nesse sentido é a capacidade de avaliar o alinhamento das decisões da IA com os valores humanos. Uma linha promissora de pesquisa, detalhada no artigo \"Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture\" (disponível em [https://arxiv.org/abs/2605.27373](https://arxiv.org/abs/2605.27373)), apresenta uma arquitetura de LLM projetada para detectar e mensurar a intensidade de valores humanos presentes em textos, sejam eles explícitos ou implícitos. Essa abordagem busca superar as limitações de métodos anteriores, que frequentemente dependiam de teorias de valores específicas ou exigiam engenharia de prompts complexa e demorada. O objetivo é permitir que os sistemas de IA reconheçam e considerem esses valores de maneira mais fluida e adaptável.\n\n## Por que importa\n\nNo Brasil, a crescente adoção de sistemas autônomos em diversas áreas, desde atendimento ao cliente até análise de crédito e sistemas de recomendação, torna imperativo o desenvolvimento de mecanismos que garantam a conformidade com as normas sociais e éticas. A capacidade de uma IA compreender e refletir valores como justiça, honestidade ou respeito pode ser decisiva para evitar vieses discriminatórios, garantir a equidade em decisões automatizadas e construir a confiança do público. A arquitetura proposta, ao oferecer uma maneira mais flexível de capturar valores humanos, abre portas para a personalização da IA em diferentes contextos culturais e regulatórios brasileiros. Isso pode significar menos necessidade de adaptações manuais e mais agilidade na implementação de soluções de IA que sejam não apenas eficientes, mas também socialmente responsáveis.\n\n## O que esperar\n\nA pesquisa sugere que essa nova arquitetura LLM-based pode ser uma ferramenta valiosa para desenvolver IA mais alinhada com a sociedade. Ao evitar a dependência de teorias de valores predefinidas e a complexidade da engenharia de prompts, a abordagem promete ser mais acessível e escalável. Isso pode levar a um desenvolvimento mais rápido de sistemas de IA que compreendam nuances éticas, permitindo que eles tomem decisões mais informadas e alinhadas com o que a sociedade considera correto. Futuramente, espera-se que essa tecnologia possa ser integrada em plataformas de desenvolvimento de IA, facilitando a criação de aplicações mais seguras e éticas. A capacidade de quantificar a intensidade dos valores em texto também abre caminhos para a análise de sentimento ético em larga escala, auxiliando empresas e governos a entenderem melhor as percepções públicas sobre determinados temas. Mais detalhes sobre a metodologia podem ser encontrados no artigo original em [https://arxiv.org/abs/2605.27373](https://arxiv.org/abs/2605.27373).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A comunidade científica avança na busca por sistemas de inteligência artificial que incorporem considerações éticas e morais, distanciando-se de modelos tradicionais focados apenas na maximização de utilidade. Um passo fundamental nesse sentido é a capacidade de avaliar o alinhamento das decisões da IA com os valores humanos. Uma linha promissora de pesquisa, detalhada no artigo \"Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture\" (disponível em <a href=\"https://arxiv.org/abs/2605.27373\" target=\"_blank\" rel=\"external noopener\">https://arxiv.org/abs/2605.27373</a>), apresenta uma arquitetura de LLM projetada para detectar e mensurar a intensidade de valores humanos presentes em textos, sejam eles explícitos ou implícitos. Essa abordagem busca superar as limitações de métodos anteriores, que frequentemente dependiam de teorias de valores específicas ou exigiam engenharia de prompts complexa e demorada. O objetivo é permitir que os sistemas de IA reconheçam e considerem esses valores de maneira mais fluida e adaptável.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, a crescente adoção de sistemas autônomos em diversas áreas, desde atendimento ao cliente até análise de crédito e sistemas de recomendação, torna imperativo o desenvolvimento de mecanismos que garantam a conformidade com as normas sociais e éticas. A capacidade de uma IA compreender e refletir valores como justiça, honestidade ou respeito pode ser decisiva para evitar vieses discriminatórios, garantir a equidade em decisões automatizadas e construir a confiança do público. A arquitetura proposta, ao oferecer uma maneira mais flexível de capturar valores humanos, abre portas para a personalização da IA em diferentes contextos culturais e regulatórios brasileiros. Isso pode significar menos necessidade de adaptações manuais e mais agilidade na implementação de soluções de IA que sejam não apenas eficientes, mas também socialmente responsáveis.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa sugere que essa nova arquitetura LLM-based pode ser uma ferramenta valiosa para desenvolver IA mais alinhada com a sociedade. Ao evitar a dependência de teorias de valores predefinidas e a complexidade da engenharia de prompts, a abordagem promete ser mais acessível e escalável. Isso pode levar a um desenvolvimento mais rápido de sistemas de IA que compreendam nuances éticas, permitindo que eles tomem decisões mais informadas e alinhadas com o que a sociedade considera correto. Futuramente, espera-se que essa tecnologia possa ser integrada em plataformas de desenvolvimento de IA, facilitando a criação de aplicações mais seguras e éticas. A capacidade de quantificar a intensidade dos valores em texto também abre caminhos para a análise de sentimento ético em larga escala, auxiliando empresas e governos a entenderem melhor as percepções públicas sobre determinados temas. Mais detalhes sobre a metodologia podem ser encontrados no artigo original em <a href=\"https://arxiv.org/abs/2605.27373\" target=\"_blank\" rel=\"external noopener\">https://arxiv.org/abs/2605.27373</a>.</p>",
+  "tags": [
+    "ia",
+    "etica",
+    "llm"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "valores humanos",
+    "modelos de linguagem",
+    "etica em IA",
+    "pesquisa arXiv"
+  ],
+  "meta_description_seo": "Nova arquitetura LLM detecta e quantifica valores humanos em texto. Pesquisa visa IA mais ética e alinhada com decisões humanas.",
+  "faq": [
+    {
+      "q": "Como essa IA identifica valores humanos?",
+      "a": "A pesquisa propõe uma arquitetura baseada em Modelos de Linguagem Grandes (LLMs) que analisa textos para detectar e quantificar a presença de valores humanos, sejam eles explícitos ou implícitos."
+    },
+    {
+      "q": "Qual a vantagem dessa abordagem em relação a métodos antigos?",
+      "a": "A nova arquitetura evita a necessidade de se prender a teorias de valores específicas e a complexa engenharia de prompts, tornando o processo mais flexível e direto."
+    },
+    {
+      "q": "Essa tecnologia pode ser aplicada no Brasil?",
+      "a": "Sim, a flexibilidade da abordagem a torna adequada para adaptações em diferentes contextos culturais e regulatórios brasileiros, auxiliando na criação de IA socialmente responsável."
+    }
+  ],
+  "written_at": "2026-05-28T10:16:30.550Z",
+  "slug": "ia-aprende-valores-humanos-em-texto-com-nova-arquitetura",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

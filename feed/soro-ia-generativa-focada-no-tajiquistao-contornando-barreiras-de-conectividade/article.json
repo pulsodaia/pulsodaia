@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2605.27379v1",
+  "title": "Soro: A Lightweight Foundation Model and Chatbot for Tajik",
+  "url": "https://arxiv.org/abs/2605.27379",
+  "summary": "arXiv:2605.27379v1 Announce Type: new Abstract: We present Soro, a family of Tajik-specialized conversational large language models (LLMs) designed for real-world deployment under tight compute and connectivity constraints in Tajikistan. Starting from open-weight Gemma 3 checkpoints, we perform Tajik-only continual pretraining on a curated 1.9-billion-token corpus spanning filtered web text, PDF documents, and curriculum-aligned educational materials, followed by supervised instruction tuning on 40K Tajik teacher-style examples. To enable rigorous evaluation despite the limited coverage of Tajik in standard benchmarks, we introduce a suite of Tajik benchmarks covering general knowledge, linguistic competence, and school- and university entrance-exam domains, and we open-source them on Hugging Face. Across these Tajik benchmarks, Soro substantially outperforms same-size Gemma 3 baselines while retaining strong English performance on standard datasets. We further show that FP8 and INT4 q",
+  "published_at": "Thu, 28 May 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Soro: IA Generativa Focada no Tajiquistão, Contornando Barreiras de Conectividade",
+  "subtitle": "Um modelo de linguagem leve surge para democratizar o acesso à IA em mercados emergentes.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores apresentaram o Soro, uma família de modelos de linguagem conversacionais projetados especificamente para o Tajiquistão. O projeto visa superar limitações de computação e conectividade, adaptando tecnologias de IA a realidades locais.",
+  "body_markdown": "## O que aconteceu\n\nUma nova pesquisa acadêmica publicada no arXiv detalha o desenvolvimento do Soro, uma linha de modelos de linguagem grandes (LLMs) focados no idioma tajique. A iniciativa parte de checkpoints abertos do Gemma 3 e passa por um extenso treinamento contínuo utilizando um corpus de 1.9 bilhão de tokens. Este conjunto de dados inclui textos da web filtrados, documentos em PDF e materiais educacionais alinhados ao currículo escolar. Posteriormente, o modelo foi submetido a um ajuste fino supervisionado com 40 mil exemplos de instruções no estilo de professores. Um ponto crucial do trabalho é a criação de um conjunto de benchmarks em tajique, abrangendo conhecimento geral, competência linguística e domínios de exames de admissão escolar e universitária. Essa iniciativa visa preencher lacunas de avaliação em benchmarks globais para línguas menos representadas. Mais detalhes sobre o projeto podem ser encontrados em [arXiv:2605.27379](https://arxiv.org/abs/2605.27379).\n\n## Por que importa\n\nO lançamento do Soro tem implicações significativas para a democratização da IA em regiões com infraestrutura limitada. Em um cenário onde o acesso a modelos de ponta é restrito por custos computacionais e conectividade instável, o desenvolvimento de LLMs leves e especializados abre portas para aplicações práticas em países como o Tajiquistão. No Brasil, a lição é clara: a adaptabilidade e a especialização de modelos para contextos linguísticos e culturais específicos são caminhos promissores para expandir o alcance e a utilidade da inteligência artificial. A criação de benchmarks locais, como os desenvolvidos para o tajique, também ressalta a necessidade de avaliações mais precisas e relevantes para a realidade brasileira, evitando que modelos genéricos não atendam às necessidades específicas do mercado nacional.\n\n## O que esperar\n\nO futuro do Soro envolve a implantação em cenários de uso real, onde a eficiência e a capacidade de operar com recursos escassos serão testadas. A família de modelos promete oferecer ferramentas de conversação acessíveis, capazes de auxiliar em tarefas educacionais e informacionais. A pesquisa sugere que a abordagem de treinamento contínuo em dados localizados, seguida por ajuste fino com exemplos específicos, é um modelo replicável para outras línguas e regiões com desafios semelhantes. A disponibilização dos benchmarks em tajique em plataformas como o Hugging Face é um passo importante para a comunidade de pesquisa, incentivando o desenvolvimento e a colaboração em modelos de IA para línguas minoritárias. A expectativa é que iniciativas como esta inspirem projetos similares no Brasil, focados em dialetos regionais ou em áreas com menor penetração tecnológica, aproveitando as bases de modelos abertos para criar soluções adaptadas. Saiba mais sobre as especificações técnicas em [arXiv:2605.27379](https://arxiv.org/abs/2605.27379).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Uma nova pesquisa acadêmica publicada no arXiv detalha o desenvolvimento do Soro, uma linha de modelos de linguagem grandes (LLMs) focados no idioma tajique. A iniciativa parte de checkpoints abertos do Gemma 3 e passa por um extenso treinamento contínuo utilizando um corpus de 1.9 bilhão de tokens. Este conjunto de dados inclui textos da web filtrados, documentos em PDF e materiais educacionais alinhados ao currículo escolar. Posteriormente, o modelo foi submetido a um ajuste fino supervisionado com 40 mil exemplos de instruções no estilo de professores. Um ponto crucial do trabalho é a criação de um conjunto de benchmarks em tajique, abrangendo conhecimento geral, competência linguística e domínios de exames de admissão escolar e universitária. Essa iniciativa visa preencher lacunas de avaliação em benchmarks globais para línguas menos representadas. Mais detalhes sobre o projeto podem ser encontrados em <a href=\"https://arxiv.org/abs/2605.27379\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.27379</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>O lançamento do Soro tem implicações significativas para a democratização da IA em regiões com infraestrutura limitada. Em um cenário onde o acesso a modelos de ponta é restrito por custos computacionais e conectividade instável, o desenvolvimento de LLMs leves e especializados abre portas para aplicações práticas em países como o Tajiquistão. No Brasil, a lição é clara: a adaptabilidade e a especialização de modelos para contextos linguísticos e culturais específicos são caminhos promissores para expandir o alcance e a utilidade da inteligência artificial. A criação de benchmarks locais, como os desenvolvidos para o tajique, também ressalta a necessidade de avaliações mais precisas e relevantes para a realidade brasileira, evitando que modelos genéricos não atendam às necessidades específicas do mercado nacional.</p>\n\n<h2>O que esperar</h2>\n\n<p>O futuro do Soro envolve a implantação em cenários de uso real, onde a eficiência e a capacidade de operar com recursos escassos serão testadas. A família de modelos promete oferecer ferramentas de conversação acessíveis, capazes de auxiliar em tarefas educacionais e informacionais. A pesquisa sugere que a abordagem de treinamento contínuo em dados localizados, seguida por ajuste fino com exemplos específicos, é um modelo replicável para outras línguas e regiões com desafios semelhantes. A disponibilização dos benchmarks em tajique em plataformas como o Hugging Face é um passo importante para a comunidade de pesquisa, incentivando o desenvolvimento e a colaboração em modelos de IA para línguas minoritárias. A expectativa é que iniciativas como esta inspirem projetos similares no Brasil, focados em dialetos regionais ou em áreas com menor penetração tecnológica, aproveitando as bases de modelos abertos para criar soluções adaptadas. Saiba mais sobre as especificações técnicas em <a href=\"https://arxiv.org/abs/2605.27379\" target=\"_blank\" rel=\"external noopener\">arXiv:2605.27379</a>.</p>",
+  "tags": [
+    "ia generativa",
+    "modelos de linguagem",
+    "tajiquistão"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "Soro",
+    "LLM",
+    "Tajiquistão",
+    "IA leve",
+    "modelos de linguagem",
+    "treinamento contínuo"
+  ],
+  "meta_description_seo": "Pesquisadores lançam Soro, LLM leve focado no Tajiquistão, superando barreiras de conectividade e computação com dados localizados.",
+  "faq": [
+    {
+      "q": "O que é o Soro?",
+      "a": "Soro é uma família de modelos de linguagem grandes conversacionais desenvolvidos especificamente para o idioma tajique, projetados para funcionar em ambientes com recursos computacionais e de conectividade limitados."
+    },
+    {
+      "q": "Como o Soro foi criado?",
+      "a": "O Soro foi desenvolvido a partir de checkpoints abertos do Gemma 3, passando por treinamento contínuo em um corpus de 1.9 bilhão de tokens em tajique e ajuste fino supervisionado com 40 mil exemplos."
+    },
+    {
+      "q": "Qual a importância dos benchmarks criados para o Soro?",
+      "a": "Os benchmarks em tajique foram criados para permitir uma avaliação rigorosa do modelo em domínios como conhecimento geral, competência linguística e exames educacionais, preenchendo lacunas de avaliação em benchmarks globais para línguas menos representadas."
+    }
+  ],
+  "written_at": "2026-05-28T10:16:42.451Z",
+  "slug": "soro-ia-generativa-focada-no-tajiquistao-contornando-barreiras-de-conectividade",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

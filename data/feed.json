@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-27T22:02:55.038Z",
+  "generated_at": "2026-05-28T10:16:56.306Z",
   "articles": [
+    {
+      "slug": "a-origem-da-informacao-sintetica-um-novo-misterio-para-a-ciencia-da-informacao",
+      "headline": "A Origem da Informação Sintética: Um Novo Mistério para a Ciência da Informação",
+      "subtitle": "Pesquisa no arXiv propõe analogia entre evolução biológica e a linhagem da informação gerada por IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.27551",
+      "category": "research",
+      "tags": [
+        "ia",
+        "ciencia da informacao",
+        "etica da ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 28 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-28T10:16:56.164Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "soro-ia-generativa-focada-no-tajiquistao-contornando-barreiras-de-conectividade",
+      "headline": "Soro: IA Generativa Focada no Tajiquistão, Contornando Barreiras de Conectividade",
+      "subtitle": "Um modelo de linguagem leve surge para democratizar o acesso à IA em mercados emergentes.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.27379",
+      "category": "research",
+      "tags": [
+        "ia generativa",
+        "modelos de linguagem",
+        "tajiquistão"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 28 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-28T10:16:42.451Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-aprende-valores-humanos-em-texto-com-nova-arquitetura",
+      "headline": "IA aprende valores humanos em texto com nova arquitetura",
+      "subtitle": "Pesquisa no arXiv propõe modelo para alinhar decisões de sistemas autônomos com ética humana.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.27373",
+      "category": "research",
+      "tags": [
+        "ia",
+        "etica",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 28 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-28T10:16:30.550Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "remote-aumenta-receita-por-funcionario-em-50-com-ia-sem-contratar",
       "headline": "Remote Aumenta Receita por Funcionário em 50% com IA, Sem Contratar",
