@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-28T16:16:22.821Z",
+  "generated_at": "2026-05-28T20:32:47.666Z",
   "articles": [
+    {
+      "slug": "anthropic-capta-us-65-bilhoes-e-se-aproxima-de-valor-de-us-1-trilhao-antes-de-ip",
+      "headline": "Anthropic Capta US$ 65 Bilhões e Se Aproxima de Valor de US$ 1 Trilhão Antes de IPO",
+      "subtitle": "A rodada de investimento consolida a posição da startup como uma das líderes em inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "inteligência artificial",
+        "investimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 28 May 2026 18:52:51 +0000",
+      "written_at": "2026-05-28T20:32:47.566Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "asana-compra-stack-ai-para-ampliar-oferta-de-ferramentas-de-automacao-com-ia",
+      "headline": "Asana Compra Stack AI Para Ampliar Oferta de Ferramentas de Automação com IA",
+      "subtitle": "Movimento estratégico visa integrar construtor de agentes no-code à plataforma de gestão de trabalho, com potencial impacto na produtividade brasileira.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "category": "mercado",
+      "tags": [
+        "asana",
+        "stack ai",
+        "automacao com ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 28 May 2026 20:06:07 +0000",
+      "written_at": "2026-05-28T20:32:34.680Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-evolui-opus-4-8-traz-trabalho-em-larga-escala-e-fluxos-dinamicos",
+      "headline": "Claude Evolui: Opus 4.8 Traz Trabalho em Larga Escala e Fluxos Dinâmicos",
+      "subtitle": "Anthropic anuncia atualizações significativas em seu modelo de linguagem, focando em complexidade e eficiência para usuários brasileiros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "lancamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-28T18:00:55Z",
+      "written_at": "2026-05-28T20:32:21.314Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "sesame-lanca-app-ios-buscando-conversas-de-ia-mais-humanas",
       "headline": "Sesame Lança App iOS Buscando Conversas de IA Mais Humanas",
