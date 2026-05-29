@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-05-28T20:32:47.666Z",
+  "generated_at": "2026-05-29T10:06:57.918Z",
   "articles": [
+    {
+      "slug": "nova-arquitetura-de-ia-supera-gpt-2-em-compreensao-linguistica-com-bases-da-teor",
+      "headline": "Nova Arquitetura de IA Supera GPT-2 em Compreensão Linguística com Bases da Teoria das Categorias",
+      "subtitle": "Pesquisa em modelos de linguagem avança com inspiração em ciência cognitiva e matemática abstrata.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.28864",
+      "category": "research",
+      "tags": [
+        "modelos de linguagem",
+        "teoria das categorias",
+        "ciência cognitiva",
+        "perplexidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 29 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-29T10:06:57.903Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "correcoes-comportamentais-melhoram-estabilidade-em-aprendizado-por-reforco-off-p",
+      "headline": "Correções Comportamentais Melhoram Estabilidade em Aprendizado por Reforço Off-Policy",
+      "subtitle": "Novas técnicas buscam otimizar a previsão em ambientes de aprendizado de máquina com dados limitados.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.28855",
+      "category": "research",
+      "tags": [
+        "aprendizado por reforço",
+        "inteligência artificial",
+        "aprendizado de máquina"
+      ],
+      "read_time_min": 4,
+      "published_at": "Fri, 29 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-29T10:06:46.644Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nova-abordagem-em-aprendizado-por-reforco-otimiza-previsoes-off-policy",
+      "headline": "Nova Abordagem em Aprendizado por Reforço Otimiza Previsões Off-Policy",
+      "subtitle": "Pesquisa acadêmica propõe método para tornar algoritmos de IA mais eficientes em cenários complexos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.28849",
+      "category": "research",
+      "tags": [
+        "aprendizado por reforço",
+        "inteligencia artificial",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 29 May 2026 00:00:00 -0400",
+      "written_at": "2026-05-29T10:06:31.926Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "anthropic-capta-us-65-bilhoes-e-se-aproxima-de-valor-de-us-1-trilhao-antes-de-ip",
       "headline": "Anthropic Capta US$ 65 Bilhões e Se Aproxima de Valor de US$ 1 Trilhão Antes de IPO",
