@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-29T10:06:57.918Z",
+  "generated_at": "2026-05-29T15:58:53.382Z",
   "articles": [
+    {
+      "slug": "techcrunch-disrupt-2026-prazo-para-palestrantes-termina-hoje",
+      "headline": "TechCrunch Disrupt 2026: Prazo para palestrantes termina hoje",
+      "subtitle": "Profissionais brasileiros de tecnologia têm a última chance de apresentar propostas para um dos eventos mais aguardados do setor.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
+      "category": "mercado",
+      "tags": [
+        "techcrunch disrupt",
+        "inteligencia artificial",
+        "palestras"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 29 May 2026 14:15:00 +0000",
+      "written_at": "2026-05-29T15:58:53.185Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "pytorch-ganha-ferramenta-nativa-para-otimizacao-de-performance",
+      "headline": "PyTorch Ganha Ferramenta Nativa para Otimização de Performance",
+      "subtitle": "Novidade da Hugging Face simplifica a identificação de gargalos em modelos de deep learning.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/torch-profiler",
+      "category": "opensource",
+      "tags": [
+        "pytorch",
+        "otimizacao",
+        "deep learning"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 29 May 2026 00:00:00 GMT",
+      "written_at": "2026-05-29T15:58:43.005Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "estudantes-criam-prototipos-de-ia-para-educacao-e-trabalho",
+      "headline": "Estudantes Criam Protótipos de IA Para Educação e Trabalho",
+      "subtitle": "Projetos da Universidade de Waterloo demonstram aplicações práticas de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "educacao",
+        "acessibilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 29 May 2026 12:00:00 +0000",
+      "written_at": "2026-05-29T15:58:31.338Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nova-arquitetura-de-ia-supera-gpt-2-em-compreensao-linguistica-com-bases-da-teor",
       "headline": "Nova Arquitetura de IA Supera GPT-2 em Compreensão Linguística com Bases da Teoria das Categorias",
