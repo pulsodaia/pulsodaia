@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-05-29T21:57:34.399Z",
+  "generated_at": "2026-05-30T04:01:59.391Z",
   "articles": [
+    {
+      "slug": "dependencia-de-ia-no-desenvolvimento-de-codigo-um-risco-emergente-para-profissio",
+      "headline": "Dependência de IA no Desenvolvimento de Código: Um Risco Emergente para Profissionais",
+      "subtitle": "A velocidade ganha com a IA pode comprometer a qualidade e a sustentabilidade da carreira de programadores.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "category": "mercado",
+      "tags": [
+        "ia no desenvolvimento",
+        "carreira de programador",
+        "qualidade de código"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 29 May 2026 22:14:22 +0000",
+      "written_at": "2026-05-30T04:01:59.372Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-habilita-modo-automatico-para-modelos-opus-em-plataformas-de-nuvem",
+      "headline": "Claude Code Habilita Modo Automático para Modelos Opus em Plataformas de Nuvem",
+      "subtitle": "A Anthropic expande o acesso a funcionalidades avançadas de IA generativa para desenvolvedores brasileiros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "ia generativa"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-05-30T02:42:16Z",
+      "written_at": "2026-05-30T04:01:47.774Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "claude-code-automatiza-plugins-e-aprimora-fluxos-de-trabalho-de-desenvolvedores",
       "headline": "Claude Code Automatiza Plugins e Aprimora Fluxos de Trabalho de Desenvolvedores",

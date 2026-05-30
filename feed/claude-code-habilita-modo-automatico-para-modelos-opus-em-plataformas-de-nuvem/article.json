@@ -1,0 +1,52 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.158",
+  "title": "v2.1.158",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
+  "summary": "<h2>What's changed</h2> <ul> <li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li> </ul>",
+  "published_at": "2026-05-30T02:42:16Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Habilita Modo Automático para Modelos Opus em Plataformas de Nuvem",
+  "subtitle": "A Anthropic expande o acesso a funcionalidades avançadas de IA generativa para desenvolvedores brasileiros.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A versão v2.1.158 do Claude Code, ferramenta de desenvolvimento da Anthropic, agora oferece o modo automático para os modelos Opus 4.7 e Opus 4.8. A funcionalidade está disponível em plataformas como Amazon Bedrock, Google Vertex AI e a própria Foundry da Anthropic.",
+  "body_markdown": "## O que aconteceu\n\nA Anthropic atualizou sua ferramenta Claude Code para a versão v2.1.158, introduzindo o modo automático para seus modelos de linguagem mais avançados, Opus 4.7 e Opus 4.8. Essa nova capacidade permite que os desenvolvedores ativem o modo automático definindo a variável de ambiente `CLAUDE_CODE_ENABLE_AUTO_MODE` como `1`. Anteriormente, o acesso a funcionalidades específicas do Claude Code podia ser restrito a ambientes de desenvolvimento ou APIs diretas. A extensão para plataformas de nuvem consolida a estratégia da empresa em democratizar o acesso a suas tecnologias de IA. A atualização foi detalhada no [repositório oficial do Claude Code](https://github.com/anthropics/claude-code/releases/tag/v2.1.158).\n\n## Por que importa\n\nA disponibilidade do modo automático em plataformas como Bedrock e Vertex AI é um passo significativo para a adoção de IA generativa no mercado brasileiro. Desenvolvedores e empresas de tecnologia no Brasil poderão integrar de forma mais fluida os modelos Opus em seus fluxos de trabalho, seja para geração de código, análise de documentos complexos ou outras tarefas que se beneficiam de processamento de linguagem natural avançado. A facilidade de ativação via variável de ambiente simplifica a experimentação e a implementação, reduzindo barreiras técnicas. Isso pode acelerar o desenvolvimento de novas aplicações e a otimização de processos existentes, impactando diretamente a produtividade e a inovação em setores que utilizam IA.\n\n## O que esperar\n\nCom o modo automático ativado, espera-se que os usuários explorem novas eficiências na criação de software e na automação de tarefas. A Anthropic continua a refinar suas ofertas, e esta atualização sugere um foco em tornar seus modelos mais acessíveis e fáceis de usar em ambientes de produção. A expansão para múltiplas plataformas de nuvem indica uma estratégia de interoperabilidade, permitindo que empresas escolham a infraestrutura que melhor se adapta às suas necessidades. A comunidade de desenvolvedores brasileiros tem agora mais ferramentas à disposição para experimentar e criar com modelos de IA de ponta. Para mais detalhes sobre futuras atualizações e a evolução das capacidades, recomenda-se acompanhar os [anúncios e releases da Anthropic](https://github.com/anthropics/claude-code/releases/tag/v2.1.158).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Anthropic atualizou sua ferramenta Claude Code para a versão v2.1.158, introduzindo o modo automático para seus modelos de linguagem mais avançados, Opus 4.7 e Opus 4.8. Essa nova capacidade permite que os desenvolvedores ativem o modo automático definindo a variável de ambiente <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> como <code>1</code>. Anteriormente, o acesso a funcionalidades específicas do Claude Code podia ser restrito a ambientes de desenvolvimento ou APIs diretas. A extensão para plataformas de nuvem consolida a estratégia da empresa em democratizar o acesso a suas tecnologias de IA. A atualização foi detalhada no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.158\" target=\"_blank\" rel=\"external noopener\">repositório oficial do Claude Code</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A disponibilidade do modo automático em plataformas como Bedrock e Vertex AI é um passo significativo para a adoção de IA generativa no mercado brasileiro. Desenvolvedores e empresas de tecnologia no Brasil poderão integrar de forma mais fluida os modelos Opus em seus fluxos de trabalho, seja para geração de código, análise de documentos complexos ou outras tarefas que se beneficiam de processamento de linguagem natural avançado. A facilidade de ativação via variável de ambiente simplifica a experimentação e a implementação, reduzindo barreiras técnicas. Isso pode acelerar o desenvolvimento de novas aplicações e a otimização de processos existentes, impactando diretamente a produtividade e a inovação em setores que utilizam IA.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com o modo automático ativado, espera-se que os usuários explorem novas eficiências na criação de software e na automação de tarefas. A Anthropic continua a refinar suas ofertas, e esta atualização sugere um foco em tornar seus modelos mais acessíveis e fáceis de usar em ambientes de produção. A expansão para múltiplas plataformas de nuvem indica uma estratégia de interoperabilidade, permitindo que empresas escolham a infraestrutura que melhor se adapta às suas necessidades. A comunidade de desenvolvedores brasileiros tem agora mais ferramentas à disposição para experimentar e criar com modelos de IA de ponta. Para mais detalhes sobre futuras atualizações e a evolução das capacidades, recomenda-se acompanhar os <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.158\" target=\"_blank\" rel=\"external noopener\">anúncios e releases da Anthropic</a>.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "ia generativa"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.8,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "IA generativa",
+    "Opus",
+    "Bedrock",
+    "Vertex AI",
+    "modo automático"
+  ],
+  "meta_description_seo": "Claude Code v2.1.158 habilita modo automático para modelos Opus em Bedrock, Vertex AI e Foundry. Simplifica desenvolvimento de IA no Brasil.",
+  "faq": [
+    {
+      "q": "O que é o Claude Code e para que serve?",
+      "a": "Claude Code é uma ferramenta da Anthropic para desenvolvedores, facilitando a integração de modelos de linguagem avançados, como o Opus, em fluxos de trabalho de programação e análise."
+    },
+    {
+      "q": "Como posso ativar o modo automático do Claude Code?",
+      "a": "Você pode ativar o modo automático definindo a variável de ambiente `CLAUDE_CODE_ENABLE_AUTO_MODE` para `1`."
+    },
+    {
+      "q": "Onde o modo automático do Claude Code está disponível?",
+      "a": "O modo automático está disponível em plataformas como Amazon Bedrock, Google Vertex AI e a Foundry da Anthropic, para os modelos Opus 4.7 e Opus 4.8."
+    }
+  ],
+  "written_at": "2026-05-30T04:01:47.774Z",
+  "slug": "claude-code-habilita-modo-automatico-para-modelos-opus-em-plataformas-de-nuvem",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/600642ec0cf8f6d98ced3663eb6b8df32fbed6ee8257050ccba95c1bb2fde129/anthropics/claude-code/releases/tag/v2.1.158"
+}

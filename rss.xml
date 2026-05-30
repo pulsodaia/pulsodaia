@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 29 May 2026 22:02:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 04:07:20 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Dependência de IA no Desenvolvimento de Código: Um Risco Emergente para Profissionais</title>
+      <link>https://pulsodaia.com.br/feed/dependencia-de-ia-no-desenvolvimento-de-codigo-um-risco-emergente-para-profissio/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/dependencia-de-ia-no-desenvolvimento-de-codigo-um-risco-emergente-para-profissio/</guid>
+      <pubDate>Sat, 30 May 2026 04:01:59 GMT</pubDate>
+      <description>A velocidade ganha com a IA pode comprometer a qualidade e a sustentabilidade da carreira de programadores.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Habilita Modo Automático para Modelos Opus em Plataformas de Nuvem</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-habilita-modo-automatico-para-modelos-opus-em-plataformas-de-nuvem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-habilita-modo-automatico-para-modelos-opus-em-plataformas-de-nuvem/</guid>
+      <pubDate>Sat, 30 May 2026 04:01:47 GMT</pubDate>
+      <description>A Anthropic expande o acesso a funcionalidades avançadas de IA generativa para desenvolvedores brasileiros.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.158">Claude Code</source>
+    </item>
     <item>
       <title>Claude Code Automatiza Plugins e Aprimora Fluxos de Trabalho de Desenvolvedores</title>
       <link>https://pulsodaia.com.br/feed/claude-code-automatiza-plugins-e-aprimora-fluxos-de-trabalho-de-desenvolvedores/</link>
@@ -439,24 +457,6 @@
       <description>Nova abordagem sugere que interrogar modelos sobre documentos extensos supera a simples transcrição, mesmo para modelos menores.</description>
       <category>RESEARCH</category>
       <source url="https://the-decoder.com/bytedance-study-finds-that-asking-lmms-questions-beats-making-it-transcribe-text-for-long-document-training/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA Descobre Algoritmos de Escalabilidade de Computação Inéditos</title>
-      <link>https://pulsodaia.com.br/feed/ia-descobre-algoritmos-de-escalabilidade-de-computacao-ineditos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-descobre-algoritmos-de-escalabilidade-de-computacao-ineditos/</guid>
-      <pubDate>Sun, 24 May 2026 08:39:27 GMT</pubDate>
-      <description>Agente de código Claude encontra método que reduz custos em até 70% em pesquisa de baixo custo.</description>
-      <category>RESEARCH</category>
-      <source url="https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/">The Decoder</source>
-    </item>
-    <item>
-      <title>Deepseek Torna Desconto Permanente e Reduz Preço de Tokens em Mais de 34x Abaixo do GPT-5.5</title>
-      <link>https://pulsodaia.com.br/feed/deepseek-torna-desconto-permanente-e-reduz-preco-de-tokens-em-mais-de-34x-abaixo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepseek-torna-desconto-permanente-e-reduz-preco-de-tokens-em-mais-de-34x-abaixo/</guid>
-      <pubDate>Sat, 23 May 2026 19:21:00 GMT</pubDate>
-      <description>A estratégia de precificação da empresa chinesa pode pressionar concorrentes ocidentais no mercado de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/">The Decoder</source>
     </item>
   </channel>
 </rss>
