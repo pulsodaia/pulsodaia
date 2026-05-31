@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 30 May 2026 23:10:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 09:01:14 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Agentes de Busca em IA: Confirmação de Conhecimento vs. Pesquisa Genuína na Web</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-busca-em-ia-confirmacao-de-conhecimento-vs-pesquisa-genuina-na-web/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-busca-em-ia-confirmacao-de-conhecimento-vs-pesquisa-genuina-na-web/</guid>
+      <pubDate>Sun, 31 May 2026 08:55:59 GMT</pubDate>
+      <description>Novos estudos revelam limitações em ferramentas de IA que prometem acesso à informação atualizada.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/ai-search-agents-often-confirm-what-they-already-know-instead-of-actually-researching-the-web/">The Decoder</source>
+    </item>
+    <item>
+      <title>SoftBank anuncia investimento de 75 bilhões de euros em data centers de IA na França</title>
+      <link>https://pulsodaia.com.br/feed/softbank-anuncia-investimento-de-75-bilhoes-de-euros-em-data-centers-de-ia-na-fr/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/softbank-anuncia-investimento-de-75-bilhoes-de-euros-em-data-centers-de-ia-na-fr/</guid>
+      <pubDate>Sun, 31 May 2026 08:55:46 GMT</pubDate>
+      <description>O gigante japonês aposta pesado na infraestrutura europeia para inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/">The Decoder</source>
+    </item>
     <item>
       <title>SoftBank Aposta Forte em Data Centers na França com Investimento de €75 Bilhões</title>
       <link>https://pulsodaia.com.br/feed/softbank-aposta-forte-em-data-centers-na-franca-com-investimento-de-75-bilhoes/</link>
@@ -439,24 +457,6 @@
       <description>Pesquisa do arXiv questiona a eficiência do raciocínio prolongado em LLMs, um debate crucial para o desenvolvimento e aplicação no Brasil.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2605.23926">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Modelos de Linguagem Gigantes Falham em Autoavaliação, Aponta Estudo</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-falham-em-autoavaliacao-aponta-estudo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-falham-em-autoavaliacao-aponta-estudo/</guid>
-      <pubDate>Tue, 26 May 2026 04:11:11 GMT</pubDate>
-      <description>A confiança excessiva em suas respostas é um problema recorrente, especialmente em tarefas difíceis.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.23909">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Generativa: Um Teste de Criatividade Aberta em Modelos de Visão e Linguagem</title>
-      <link>https://pulsodaia.com.br/feed/ia-generativa-um-teste-de-criatividade-aberta-em-modelos-de-visao-e-linguagem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-generativa-um-teste-de-criatividade-aberta-em-modelos-de-visao-e-linguagem/</guid>
-      <pubDate>Tue, 26 May 2026 04:11:01 GMT</pubDate>
-      <description>Pesquisadores buscam replicar a exploração criativa humana em sistemas de IA para produção de imagens.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.23908">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
