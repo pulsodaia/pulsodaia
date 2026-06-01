@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 18:01:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 21:45:48 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>SpaceX lista acesso à água como risco em seu IPO</title>
+      <link>https://pulsodaia.com.br/feed/spacex-lista-acesso-a-agua-como-risco-em-seu-ipo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/spacex-lista-acesso-a-agua-como-risco-em-seu-ipo/</guid>
+      <pubDate>Mon, 01 Jun 2026 21:40:50 GMT</pubDate>
+      <description>A corrida por infraestrutura básica afeta até gigantes da tecnologia espacial.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Florida Processa OpenAI e Sam Altman por Incidentes Violentos</title>
+      <link>https://pulsodaia.com.br/feed/florida-processa-openai-e-sam-altman-por-incidentes-violentos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/florida-processa-openai-e-sam-altman-por-incidentes-violentos/</guid>
+      <pubDate>Mon, 01 Jun 2026 21:40:39 GMT</pubDate>
+      <description>Ação judicial inédita nos EUA levanta questões sobre responsabilidade de desenvolvedores de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Nvidia Mira Mercado de CPUs com PCs Agentes de IA via Microsoft, Dell e HP</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-mira-mercado-de-cpus-com-pcs-agentes-de-ia-via-microsoft-dell-e-hp/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-mira-mercado-de-cpus-com-pcs-agentes-de-ia-via-microsoft-dell-e-hp/</guid>
+      <pubDate>Mon, 01 Jun 2026 21:40:29 GMT</pubDate>
+      <description>A gigante de chips aposta em inteligência artificial integrada para competir no segmento de processadores para computadores pessoais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Adocao Empresarial de IA: A Logica dos Agentes Supera os LLMs Para Escalabilidade</title>
       <link>https://pulsodaia.com.br/feed/adocao-empresarial-de-ia-a-logica-dos-agentes-supera-os-llms-para-escalabilidade/</link>
@@ -430,33 +457,6 @@
       <description>Avaliação inicial revela desempenho abaixo de 50% em um conjunto de testes cruciais para o ambiente empresarial brasileiro.</description>
       <category>ANALISE</category>
       <source url="https://huggingface.co/blog/ibm-research/itbench-aa">Hugging Face</source>
-    </item>
-    <item>
-      <title>Cognition Capta US$ 1 Bilhão e Alcança Valor de US$ 25 Bilhões para IA de Código</title>
-      <link>https://pulsodaia.com.br/feed/cognition-capta-us-1-bilhao-e-alcanca-valor-de-us-25-bilhoes-para-ia-de-codigo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cognition-capta-us-1-bilhao-e-alcanca-valor-de-us-25-bilhoes-para-ia-de-codigo/</guid>
-      <pubDate>Wed, 27 May 2026 16:01:26 GMT</pubDate>
-      <description>A startup de IA para desenvolvimento de software dobra sua avaliação em oito meses, impulsionada por receita anualizada de US$ 492 milhões.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Hugging Face Simplifica Treinamento de Modelos Gigantes com Delta Weight Sync</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-simplifica-treinamento-de-modelos-gigantes-com-delta-weight-sync/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-simplifica-treinamento-de-modelos-gigantes-com-delta-weight-sync/</guid>
-      <pubDate>Wed, 27 May 2026 16:01:15 GMT</pubDate>
-      <description>Nova técnica promete reduzir custos e tempo para treinar IA de trilhões de parâmetros.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/delta-weight-sync">Hugging Face</source>
-    </item>
-    <item>
-      <title>Reachy Mini Agora Opera Integralmente Localmente, Sem Nuvem</title>
-      <link>https://pulsodaia.com.br/feed/reachy-mini-agora-opera-integralmente-localmente-sem-nuvem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/reachy-mini-agora-opera-integralmente-localmente-sem-nuvem/</guid>
-      <pubDate>Wed, 27 May 2026 16:01:05 GMT</pubDate>
-      <description>A Hugging Face avança na descentralização do processamento de IA para o hardware local.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/local-reachy-mini-conversation">Hugging Face</source>
     </item>
   </channel>
 </rss>
