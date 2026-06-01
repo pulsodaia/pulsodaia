@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 21:45:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 23:45:14 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Alphabet busca US$ 80 bilhões para impulsionar expansão em IA</title>
+      <link>https://pulsodaia.com.br/feed/alphabet-busca-us-80-bilhoes-para-impulsionar-expansao-em-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/alphabet-busca-us-80-bilhoes-para-impulsionar-expansao-em-ia/</guid>
+      <pubDate>Mon, 01 Jun 2026 23:39:49 GMT</pubDate>
+      <description>Gigante de tecnologia anuncia captação massiva para atender demanda crescente por soluções de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/">TechCrunch AI</source>
+    </item>
     <item>
       <title>SpaceX lista acesso à água como risco em seu IPO</title>
       <link>https://pulsodaia.com.br/feed/spacex-lista-acesso-a-agua-como-risco-em-seu-ipo/</link>
@@ -448,15 +457,6 @@
       <description>A gigante de dados investe pesado em infraestrutura de computação para impulsionar suas iniciativas de inteligência artificial.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Modelos de IA de ponta falham em tarefas de TI corporativa em novo benchmark</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-ia-de-ponta-falham-em-tarefas-de-ti-corporativa-em-novo-benchmark/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-de-ponta-falham-em-tarefas-de-ti-corporativa-em-novo-benchmark/</guid>
-      <pubDate>Wed, 27 May 2026 22:02:31 GMT</pubDate>
-      <description>Avaliação inicial revela desempenho abaixo de 50% em um conjunto de testes cruciais para o ambiente empresarial brasileiro.</description>
-      <category>ANALISE</category>
-      <source url="https://huggingface.co/blog/ibm-research/itbench-aa">Hugging Face</source>
     </item>
   </channel>
 </rss>
