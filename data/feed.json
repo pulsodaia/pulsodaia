@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-05-31T21:09:32.979Z",
+  "generated_at": "2026-06-01T04:58:53.766Z",
   "articles": [
+    {
+      "slug": "modelos-de-ia-para-robos-precisam-entender-fisica-nao-apenas-prever-imagens",
+      "headline": "Modelos de IA para Robôs Precisam Entender Física, Não Apenas Prever Imagens",
+      "subtitle": "Um estudo aponta falhas em sistemas de IA que não consideram as leis físicas para ações em robôs.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.30542",
+      "category": "research",
+      "tags": [
+        "ia",
+        "robotica",
+        "fisica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-01T04:58:53.604Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-aprende-a-desenhar-diagramas-de-fisica-com-rigor-cientifico",
+      "headline": "IA Aprende a Desenhar Diagramas de Física com Rigor Científico",
+      "subtitle": "Pesquisadores criam sistema que evita erros comuns em ilustrações geradas por modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2605.30512",
+      "category": "research",
+      "tags": [
+        "ia",
+        "fisica",
+        "diagramas"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-01T04:58:42.001Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-lanca-cosmos-3-modelo-aberto-para-ia-fisico",
+      "headline": "NVIDIA Lança Cosmos 3: Modelo Aberto Para IA Físico",
+      "subtitle": "A Hugging Face destaca o novo sistema de raciocínio e ação para o mundo real.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "category": "opensource",
+      "tags": [
+        "nvidia",
+        "cosmos 3",
+        "ia fisica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 01 Jun 2026 04:44:55 GMT",
+      "written_at": "2026-06-01T04:58:29.979Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "erin-brockovich-foca-em-centros-de-dados-e-sigilo-corporativo",
       "headline": "Erin Brockovich foca em centros de dados e sigilo corporativo",
