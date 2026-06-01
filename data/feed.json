@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-01T04:58:53.766Z",
+  "generated_at": "2026-06-01T17:55:47.528Z",
   "articles": [
+    {
+      "slug": "adocao-empresarial-de-ia-a-logica-dos-agentes-supera-os-llms-para-escalabilidade",
+      "headline": "Adocao Empresarial de IA: A Logica dos Agentes Supera os LLMs Para Escalabilidade",
+      "subtitle": "Estudo da Hugging Face, em colaboracao com a IBM Research, aponta para a necessidade de raciocinio complexo para aplicacoes de IA em larga escala.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "category": "opensource",
+      "tags": [
+        "ia empresarial",
+        "llms",
+        "logica de agentes"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 01 Jun 2026 13:51:18 GMT",
+      "written_at": "2026-06-01T17:55:47.256Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "jetbrains-lanca-mellum2-modelo-de-linguagem-com-12-bilhoes-de-parametros-e-arqui",
+      "headline": "JetBrains Lança Mellum2: Modelo de Linguagem com 12 Bilhões de Parâmetros e Arquitetura Mixture-of-Experts",
+      "subtitle": "Empresa de software de desenvolvimento apresenta nova geração de IA focada em eficiência e performance para tarefas de codificação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "category": "opensource",
+      "tags": [
+        "mellum2",
+        "jetbrains",
+        "mixture-of-experts"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 01 Jun 2026 15:45:17 GMT",
+      "written_at": "2026-06-01T17:55:35.339Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-i-o-2026-gemini-produziu-o-evento-da-empresa",
+      "headline": "Google I/O 2026: Gemini Produziu o Evento da Empresa",
+      "subtitle": "A gigante de tecnologia revela como seus modelos de IA foram cruciais para a organização do seu principal evento anual.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "category": "google",
+      "tags": [
+        "google io",
+        "gemini",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 01 Jun 2026 16:00:00 +0000",
+      "written_at": "2026-06-01T17:55:23.026Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelos-de-ia-para-robos-precisam-entender-fisica-nao-apenas-prever-imagens",
       "headline": "Modelos de IA para Robôs Precisam Entender Física, Não Apenas Prever Imagens",

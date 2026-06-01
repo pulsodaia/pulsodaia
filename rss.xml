@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 05:04:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 18:01:04 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Adocao Empresarial de IA: A Logica dos Agentes Supera os LLMs Para Escalabilidade</title>
+      <link>https://pulsodaia.com.br/feed/adocao-empresarial-de-ia-a-logica-dos-agentes-supera-os-llms-para-escalabilidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/adocao-empresarial-de-ia-a-logica-dos-agentes-supera-os-llms-para-escalabilidade/</guid>
+      <pubDate>Mon, 01 Jun 2026 17:55:47 GMT</pubDate>
+      <description>Estudo da Hugging Face, em colaboracao com a IBM Research, aponta para a necessidade de raciocinio complexo para aplicacoes de IA em larga escala.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption">Hugging Face</source>
+    </item>
+    <item>
+      <title>JetBrains Lança Mellum2: Modelo de Linguagem com 12 Bilhões de Parâmetros e Arquitetura Mixture-of-Experts</title>
+      <link>https://pulsodaia.com.br/feed/jetbrains-lanca-mellum2-modelo-de-linguagem-com-12-bilhoes-de-parametros-e-arqui/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/jetbrains-lanca-mellum2-modelo-de-linguagem-com-12-bilhoes-de-parametros-e-arqui/</guid>
+      <pubDate>Mon, 01 Jun 2026 17:55:35 GMT</pubDate>
+      <description>Empresa de software de desenvolvimento apresenta nova geração de IA focada em eficiência e performance para tarefas de codificação.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/JetBrains/mellum2-launch">Hugging Face</source>
+    </item>
+    <item>
+      <title>Google I/O 2026: Gemini Produziu o Evento da Empresa</title>
+      <link>https://pulsodaia.com.br/feed/google-i-o-2026-gemini-produziu-o-evento-da-empresa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-i-o-2026-gemini-produziu-o-evento-da-empresa/</guid>
+      <pubDate>Mon, 01 Jun 2026 17:55:23 GMT</pubDate>
+      <description>A gigante de tecnologia revela como seus modelos de IA foram cruciais para a organização do seu principal evento anual.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/">Google AI</source>
+    </item>
     <item>
       <title>Modelos de IA para Robôs Precisam Entender Física, Não Apenas Prever Imagens</title>
       <link>https://pulsodaia.com.br/feed/modelos-de-ia-para-robos-precisam-entender-fisica-nao-apenas-prever-imagens/</link>
@@ -430,33 +457,6 @@
       <description>A Hugging Face avança na descentralização do processamento de IA para o hardware local.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/local-reachy-mini-conversation">Hugging Face</source>
-    </item>
-    <item>
-      <title>Memória de IA: Um Novo Paradigma de Gerenciamento de Dados em Discussão</title>
-      <link>https://pulsodaia.com.br/feed/memoria-de-ia-um-novo-paradigma-de-gerenciamento-de-dados-em-discussao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/memoria-de-ia-um-novo-paradigma-de-gerenciamento-de-dados-em-discussao/</guid>
-      <pubDate>Wed, 27 May 2026 04:24:59 GMT</pubDate>
-      <description>Estudo aponta falhas em sistemas atuais e propõe abordagem focada na trajetória do estado.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.26252">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Modelos de Linguagem Grande: O Mito da Autoconsciência Artificial</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-grande-o-mito-da-autoconsciencia-artificial/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-grande-o-mito-da-autoconsciencia-artificial/</guid>
-      <pubDate>Wed, 27 May 2026 04:24:48 GMT</pubDate>
-      <description>Novas pesquisas questionam a capacidade de LLMs de "pensar sobre si mesmos", com implicações diretas para a avaliação e confiança em sistemas de IA no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://arxiv.org/abs/2605.26242">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Gera Estruturas Montáveis de Blocos a Partir de Modelos 3D</title>
-      <link>https://pulsodaia.com.br/feed/ia-gera-estruturas-montaveis-de-blocos-a-partir-de-modelos-3d/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-gera-estruturas-montaveis-de-blocos-a-partir-de-modelos-3d/</guid>
-      <pubDate>Wed, 27 May 2026 04:24:37 GMT</pubDate>
-      <description>Pesquisa em IA avança na criação de designs complexos que podem ser fisicamente construídos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.26182">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
