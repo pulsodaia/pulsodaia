@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-02T04:45:46.723Z",
+  "generated_at": "2026-06-02T10:48:01.896Z",
   "articles": [
+    {
+      "slug": "openai-expande-acesso-aos-seus-modelos-via-amazon-bedrock",
+      "headline": "OpenAI Expande Acesso aos Seus Modelos via Amazon Bedrock",
+      "subtitle": "A integração promete democratizar o uso de IA avançada para empresas brasileiras.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-models-now-available-on-amazon-web-services/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "aws",
+        "amazon bedrock"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 02 Jun 2026 08:00:26 +0000",
+      "written_at": "2026-06-02T10:48:00.161Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "berkshire-hathaway-de-warren-buffett-investe-us-10-bilhoes-em-infraestrutura-de-",
+      "headline": "Berkshire Hathaway de Warren Buffett Investe US$ 10 Bilhões em Infraestrutura de IA da Alphabet",
+      "subtitle": "O aporte bilionário sinaliza confiança de um dos maiores investidores do mundo na expansão da capacidade computacional para inteligência artificial.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/warren-buffetts-berkshire-hathaway-bets-10-billion-on-alphabets-ai-infrastructure-buildout/",
+      "category": "mercado",
+      "tags": [
+        "warren buffett",
+        "alphabet",
+        "inteligência artificial",
+        "investimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 02 Jun 2026 10:15:30 +0000",
+      "written_at": "2026-06-02T10:47:48.251Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "chatgpt-vira-plataforma-de-carreiras-com-busca-de-empregos-e-editor-de-curriculo",
+      "headline": "ChatGPT vira plataforma de carreiras com busca de empregos e editor de currículos",
+      "subtitle": "Ferramenta da OpenAI agora auxilia usuários na busca e candidatura a vagas, inicialmente focada nos EUA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-turns-chatgpt-into-a-career-platform-with-job-search-and-cv-editor/",
+      "category": "mercado",
+      "tags": [
+        "chatgpt",
+        "openai",
+        "carreira"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 02 Jun 2026 10:40:22 +0000",
+      "written_at": "2026-06-02T10:47:36.736Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "agentes-de-ia-em-colaboracao-novo-protocolo-para-gestao-de-conhecimento-coletivo",
       "headline": "Agentes de IA em Colaboração: Novo Protocolo para Gestão de Conhecimento Coletivo",
