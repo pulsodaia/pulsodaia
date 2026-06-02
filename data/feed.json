@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-02T10:48:01.896Z",
+  "generated_at": "2026-06-02T16:46:56.472Z",
   "articles": [
+    {
+      "slug": "openai-amplia-codex-para-tarefas-de-escritorio",
+      "headline": "OpenAI Amplia Codex para Tarefas de Escritório",
+      "subtitle": "Novas funcionalidades visam automatizar e otimizar o trabalho de conhecimento em empresas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "codex",
+        "automacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 02 Jun 2026 16:00:00 +0000",
+      "written_at": "2026-06-02T16:46:56.396Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "eua-nova-ordem-executiva-de-ia-foca-em-revisoes-voluntarias-apos-pressao-do-seto",
+      "headline": "EUA: Nova Ordem Executiva de IA Foca em Revisões Voluntárias Após Pressão do Setor",
+      "subtitle": "Decisão sinaliza flexibilidade regulatória em meio a debates globais sobre o avanço da inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "regulamentacao",
+        "eua"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 02 Jun 2026 16:23:08 +0000",
+      "written_at": "2026-06-02T16:46:45.063Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "holo3-1-agentes-de-ia-locais-e-rapidos-para-uso-no-computador",
+      "headline": "Holo3.1: Agentes de IA Locais e Rápidos para Uso no Computador",
+      "subtitle": "Nova versão promete agilidade e independência de nuvem para tarefas de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/Hcompany/holo31",
+      "category": "opensource",
+      "tags": [
+        "ia local",
+        "hugging face",
+        "holo3.1"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 02 Jun 2026 14:13:23 GMT",
+      "written_at": "2026-06-02T16:46:32.878Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-expande-acesso-aos-seus-modelos-via-amazon-bedrock",
       "headline": "OpenAI Expande Acesso aos Seus Modelos via Amazon Bedrock",
