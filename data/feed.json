@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-01T23:39:49.191Z",
+  "generated_at": "2026-06-02T04:45:46.723Z",
   "articles": [
+    {
+      "slug": "agentes-de-ia-em-colaboracao-novo-protocolo-para-gestao-de-conhecimento-coletivo",
+      "headline": "Agentes de IA em Colaboração: Novo Protocolo para Gestão de Conhecimento Coletivo",
+      "subtitle": "Pesquisa no arXiv propõe um sistema de governança para bases de conhecimento multiagente, abordando desafios de colaboração.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.00007",
+      "category": "research",
+      "tags": [
+        "ia",
+        "governança",
+        "conhecimento coletivo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-02T04:45:46.657Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "protocolo-consilium-reorganiza-deliberacao-de-multiplos-modelos-de-ia",
+      "headline": "Protocolo Consilium Reorganiza Deliberação de Múltiplos Modelos de IA",
+      "subtitle": "Pesquisa propõe método para tratar divergências entre IAs como sinal cognitivo, não erro.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.00005",
+      "category": "research",
+      "tags": [
+        "ia",
+        "pesquisa",
+        "protocolo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-02T04:45:35.739Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "robustez-pos-solucao-nova-camada-para-motores-de-decisao-em-sistemas-industriais",
+      "headline": "Robustez Pós-Solução: Nova Camada Para Motores de Decisão em Sistemas Industriais",
+      "subtitle": "Pesquisa aponta fragilidades em planejamentos de IA que podem comprometer operações críticas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.00002",
+      "category": "research",
+      "tags": [
+        "otimização",
+        "ia industrial",
+        "robustez"
+      ],
+      "read_time_min": 4,
+      "published_at": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-02T04:45:24.084Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "alphabet-busca-us-80-bilhoes-para-impulsionar-expansao-em-ia",
       "headline": "Alphabet busca US$ 80 bilhões para impulsionar expansão em IA",
