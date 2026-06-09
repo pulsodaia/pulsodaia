@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 09 Jun 2026 04:14:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 12:51:17 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Funcionários da Amazon pedem pausa em novos data centers em Seattle</title>
+      <link>https://pulsodaia.com.br/feed/funcionarios-da-amazon-pedem-pausa-em-novos-data-centers-em-seattle/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/funcionarios-da-amazon-pedem-pausa-em-novos-data-centers-em-seattle/</guid>
+      <pubDate>Tue, 09 Jun 2026 12:43:53 GMT</pubDate>
+      <description>A demanda levanta questões sobre o impacto ambiental e de infraestrutura da expansão da IA.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/945809/amazon-employees-seattle-data-center-moratorium">The Verge AI</source>
+    </item>
+    <item>
+      <title>Ex-líder de e-scooters levanta US$ 5 milhões para data centers espaciais</title>
+      <link>https://pulsodaia.com.br/feed/ex-lider-de-e-scooters-levanta-us-5-milhoes-para-data-centers-espaciais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ex-lider-de-e-scooters-levanta-us-5-milhoes-para-data-centers-espaciais/</guid>
+      <pubDate>Tue, 09 Jun 2026 12:43:42 GMT</pubDate>
+      <description>A transição de Euwyn Poon, que construiu a Spin, para infraestrutura de dados em órbita marca um novo capítulo na computação espacial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Agentes de IA Criam Galeria 3D em Paris Combinando Dois Ambientes Hugging Face</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-criam-galeria-3d-em-paris-combinando-dois-ambientes-hugging-face/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-criam-galeria-3d-em-paris-combinando-dois-ambientes-hugging-face/</guid>
+      <pubDate>Tue, 09 Jun 2026 12:43:31 GMT</pubDate>
+      <description>A orquestração de modelos de IA demonstra um avanço na criação automatizada de conteúdo complexo.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/mishig/spaces-agents-md">Hugging Face</source>
+    </item>
     <item>
       <title>Syll: Automação Pessoal de IA de Código Aberto para Múltiplas Interfaces</title>
       <link>https://pulsodaia.com.br/feed/syll-automacao-pessoal-de-ia-de-codigo-aberto-para-multiplas-interfaces/</link>
@@ -430,33 +457,6 @@
       <description>O entusiasmo cego pela automação com inteligência artificial pode levar a decisões equivocadas e cortes de pessoal desnecessários.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Google Demonstra Gemini Omni e 3.5: Capacidades Ampliadas em 9 Vídeos</title>
-      <link>https://pulsodaia.com.br/feed/google-demonstra-gemini-omni-e-3-5-capacidades-ampliadas-em-9-videos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-demonstra-gemini-omni-e-3-5-capacidades-ampliadas-em-9-videos/</guid>
-      <pubDate>Fri, 29 May 2026 18:43:21 GMT</pubDate>
-      <description>A gigante de tecnologia revela avanços em seus modelos de IA, com potenciais aplicações para o mercado brasileiro.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/">Google AI</source>
-    </item>
-    <item>
-      <title>TechCrunch Disrupt 2026: Prazo para palestrantes termina hoje</title>
-      <link>https://pulsodaia.com.br/feed/techcrunch-disrupt-2026-prazo-para-palestrantes-termina-hoje/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/techcrunch-disrupt-2026-prazo-para-palestrantes-termina-hoje/</guid>
-      <pubDate>Fri, 29 May 2026 15:58:53 GMT</pubDate>
-      <description>Profissionais brasileiros de tecnologia têm a última chance de apresentar propostas para um dos eventos mais aguardados do setor.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>PyTorch Ganha Ferramenta Nativa para Otimização de Performance</title>
-      <link>https://pulsodaia.com.br/feed/pytorch-ganha-ferramenta-nativa-para-otimizacao-de-performance/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pytorch-ganha-ferramenta-nativa-para-otimizacao-de-performance/</guid>
-      <pubDate>Fri, 29 May 2026 15:58:43 GMT</pubDate>
-      <description>Novidade da Hugging Face simplifica a identificação de gargalos em modelos de deep learning.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/torch-profiler">Hugging Face</source>
     </item>
   </channel>
 </rss>

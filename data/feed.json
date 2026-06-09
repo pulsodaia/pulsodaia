@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-09T04:09:29.770Z",
+  "generated_at": "2026-06-09T12:43:54.065Z",
   "articles": [
+    {
+      "slug": "funcionarios-da-amazon-pedem-pausa-em-novos-data-centers-em-seattle",
+      "headline": "Funcionários da Amazon pedem pausa em novos data centers em Seattle",
+      "subtitle": "A demanda levanta questões sobre o impacto ambiental e de infraestrutura da expansão da IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/945809/amazon-employees-seattle-data-center-moratorium",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "data center",
+        "seattle"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-09T06:00:00-04:00",
+      "written_at": "2026-06-09T12:43:53.866Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ex-lider-de-e-scooters-levanta-us-5-milhoes-para-data-centers-espaciais",
+      "headline": "Ex-líder de e-scooters levanta US$ 5 milhões para data centers espaciais",
+      "subtitle": "A transição de Euwyn Poon, que construiu a Spin, para infraestrutura de dados em órbita marca um novo capítulo na computação espacial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
+      "category": "mercado",
+      "tags": [
+        "orbital",
+        "data centers",
+        "espaço"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 12:00:00 +0000",
+      "written_at": "2026-06-09T12:43:42.665Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-criam-galeria-3d-em-paris-combinando-dois-ambientes-hugging-face",
+      "headline": "Agentes de IA Criam Galeria 3D em Paris Combinando Dois Ambientes Hugging Face",
+      "subtitle": "A orquestração de modelos de IA demonstra um avanço na criação automatizada de conteúdo complexo.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "3d",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 10:46:19 GMT",
+      "written_at": "2026-06-09T12:43:31.565Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "syll-automacao-pessoal-de-ia-de-codigo-aberto-para-multiplas-interfaces",
       "headline": "Syll: Automação Pessoal de IA de Código Aberto para Múltiplas Interfaces",
