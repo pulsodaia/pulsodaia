@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2606.07549v1",
+  "title": "PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic Workflow",
+  "url": "https://arxiv.org/abs/2606.07549",
+  "summary": "arXiv:2606.07549v1 Announce Type: new Abstract: Recent advances in Multimodal Large Language Models (MLLMs) and agent workflows have shown strong promise for computational pathology, yet reliable patch-level reasoning remains challenging. End-to-end pathology MLLMs often hallucinate morphological features, while recent agentic systems usually merge tool outputs and retrieved knowledge into a shared context, making decisions vulnerable to conflicting evidence and context contamination. We propose PathoSage, a three-stage framework that explicitly separates knowledge retrieval, evidence collection, and evidence adjudication for patch-level pathology multimodal reasoning. Its core component, Structured Evidence Deliberation, independently evaluates heterogeneous evidence from tools, performs conflict analysis, and generates the final judgment in a fresh context to reduce anchoring bias. We further introduce a training-free Beta-Bernoulli experience system with continuous credit assignment",
+  "published_at": "Tue, 09 Jun 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "PathoSage: IA Busca Precisão em Diagnósticos Patológicos com Novo Framework",
+  "subtitle": "Pesquisadores propõem método para aumentar confiabilidade de modelos de IA em análise de lâminas médicas.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo framework de IA, batizado de PathoSage, foi apresentado em artigo no arXiv com o objetivo de aprimorar a precisão em diagnósticos patológicos. A abordagem visa superar limitações atuais em modelos multimodais e fluxos de trabalho baseados em agentes, que por vezes geram informações imprecisas sobre características morfológicas.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores apresentaram o PathoSage, um sistema de IA projetado para aprimorar a adjudicação de evidências em patologia. O trabalho, publicado no arXiv ([https://arxiv.org/abs/2606.07549](https://arxiv.org/abs/2606.07549)), aborda um desafio persistente: a confiabilidade do raciocínio em nível de patch (pequenas seções da imagem) em análises patológicas computacionais. Modelos multimodais de linguagem grande (MLLMs) aplicados diretamente a imagens patológicas podem apresentar \"alucinações\" de características morfológicas. Sistemas agentes mais recentes, embora promissores, tendem a fundir saídas de ferramentas e conhecimento recuperado em um contexto compartilhado. Essa fusão torna as decisões vulneráveis a evidências conflitantes e à contaminação do contexto, comprometendo a acurácia final. O PathoSage se distingue por um framework de três estágios que separa explicitamente a recuperação de conhecimento, a coleta de evidências e a adjudicação de evidências. O componente central, denominado \"Structured Evidence Deliberation\", avalia de forma independente evidências heterogêneas provenientes de diferentes ferramentas, permitindo uma análise mais robusta e confiável.\n\n## Por que importa\n\nA precisão em diagnósticos patológicos é crucial para a tomada de decisões clínicas e o tratamento de pacientes. No Brasil, onde a infraestrutura de saúde enfrenta desafios de acesso e recursos, a adoção de ferramentas de IA confiáveis pode otimizar fluxos de trabalho, reduzir a carga sobre patologistas e potencialmente democratizar o acesso a diagnósticos de alta qualidade. A capacidade do PathoSage de gerenciar e adjudicar evidências conflitantes de forma estruturada é um passo significativo para tornar a IA uma aliada segura e eficaz na prática médica. Superar a tendência de \"alucinação\" em modelos de IA é um requisito fundamental para sua aplicação em cenários clínicos onde a margem de erro é mínima. A proposta de um framework que distingue entre os processos de coleta e avaliação de dados pode levar a sistemas de diagnóstico mais transparentes e auditáveis, essenciais para a confiança dos profissionais de saúde.\n\n## O que esperar\n\nO desenvolvimento do PathoSage aponta para um futuro onde a IA em patologia será capaz de realizar raciocínios mais complexos e confiáveis em nível de patch. A separação explícita das etapas de processamento de informação sugere que futuras iterações deste framework poderão ser mais adaptáveis a diferentes tipos de dados patológicos e a um número crescente de ferramentas de análise. A capacidade de adjudicar evidências de forma independente e estruturada promete mitigar problemas de viés e inconsistência que afetam os sistemas atuais. Espera-se que esta abordagem abra caminho para MLLMs mais robustos e sistemas agentes mais confiáveis em aplicações médicas, com potenciais benefícios em termos de velocidade e precisão diagnóstica. Para mais detalhes sobre a metodologia e os resultados preliminares, o artigo completo está disponível em [https://arxiv.org/abs/2606.07549](https://arxiv.org/abs/2606.07549).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores apresentaram o PathoSage, um sistema de IA projetado para aprimorar a adjudicação de evidências em patologia. O trabalho, publicado no arXiv (<a href=\"https://arxiv.org/abs/2606.07549\" target=\"_blank\" rel=\"external noopener\">https://arxiv.org/abs/2606.07549</a>), aborda um desafio persistente: a confiabilidade do raciocínio em nível de patch (pequenas seções da imagem) em análises patológicas computacionais. Modelos multimodais de linguagem grande (MLLMs) aplicados diretamente a imagens patológicas podem apresentar \"alucinações\" de características morfológicas. Sistemas agentes mais recentes, embora promissores, tendem a fundir saídas de ferramentas e conhecimento recuperado em um contexto compartilhado. Essa fusão torna as decisões vulneráveis a evidências conflitantes e à contaminação do contexto, comprometendo a acurácia final. O PathoSage se distingue por um framework de três estágios que separa explicitamente a recuperação de conhecimento, a coleta de evidências e a adjudicação de evidências. O componente central, denominado \"Structured Evidence Deliberation\", avalia de forma independente evidências heterogêneas provenientes de diferentes ferramentas, permitindo uma análise mais robusta e confiável.</p>\n\n<h2>Por que importa</h2>\n\n<p>A precisão em diagnósticos patológicos é crucial para a tomada de decisões clínicas e o tratamento de pacientes. No Brasil, onde a infraestrutura de saúde enfrenta desafios de acesso e recursos, a adoção de ferramentas de IA confiáveis pode otimizar fluxos de trabalho, reduzir a carga sobre patologistas e potencialmente democratizar o acesso a diagnósticos de alta qualidade. A capacidade do PathoSage de gerenciar e adjudicar evidências conflitantes de forma estruturada é um passo significativo para tornar a IA uma aliada segura e eficaz na prática médica. Superar a tendência de \"alucinação\" em modelos de IA é um requisito fundamental para sua aplicação em cenários clínicos onde a margem de erro é mínima. A proposta de um framework que distingue entre os processos de coleta e avaliação de dados pode levar a sistemas de diagnóstico mais transparentes e auditáveis, essenciais para a confiança dos profissionais de saúde.</p>\n\n<h2>O que esperar</h2>\n\n<p>O desenvolvimento do PathoSage aponta para um futuro onde a IA em patologia será capaz de realizar raciocínios mais complexos e confiáveis em nível de patch. A separação explícita das etapas de processamento de informação sugere que futuras iterações deste framework poderão ser mais adaptáveis a diferentes tipos de dados patológicos e a um número crescente de ferramentas de análise. A capacidade de adjudicar evidências de forma independente e estruturada promete mitigar problemas de viés e inconsistência que afetam os sistemas atuais. Espera-se que esta abordagem abra caminho para MLLMs mais robustos e sistemas agentes mais confiáveis em aplicações médicas, com potenciais benefícios em termos de velocidade e precisão diagnóstica. Para mais detalhes sobre a metodologia e os resultados preliminares, o artigo completo está disponível em <a href=\"https://arxiv.org/abs/2606.07549\" target=\"_blank\" rel=\"external noopener\">https://arxiv.org/abs/2606.07549</a>.</p>",
+  "tags": [
+    "ia",
+    "patologia",
+    "diagnostico",
+    "pesquisa"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "inteligência artificial",
+    "patologia computacional",
+    "diagnóstico médico",
+    "modelos multimodais",
+    "fluxos de trabalho agentes"
+  ],
+  "meta_description_seo": "Novo framework PathoSage busca aumentar precisão em diagnósticos patológicos com IA, separando coleta e adjudicação de evidências.",
+  "faq": [
+    {
+      "q": "O que o PathoSage faz de diferente dos outros sistemas de IA para patologia?",
+      "a": "O PathoSage separa explicitamente a recuperação de conhecimento, a coleta de evidências e a adjudicação dessas evidências, em vez de fundir tudo em um contexto único. Isso visa reduzir a vulnerabilidade a informações conflitantes e a \"alucinações\" de características morfológicas."
+    },
+    {
+      "q": "Qual o principal problema que o PathoSage tenta resolver?",
+      "a": "O principal problema é a confiabilidade do raciocínio em nível de patch em análises patológicas computacionais, onde modelos atuais podem gerar informações imprecisas ou serem suscetíveis a dados contraditórios."
+    },
+    {
+      "q": "Que tipo de IA está sendo utilizada no PathoSage?",
+      "a": "O framework utiliza Modelos Multimodais de Linguagem Grande (MLLMs) e sistemas agentes, focando em como gerenciar e avaliar de forma mais robusta as informações que essas IAs coletam."
+    }
+  ],
+  "written_at": "2026-06-09T04:09:06.002Z",
+  "slug": "pathosage-ia-busca-precisao-em-diagnosticos-patologicos-com-novo-framework",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

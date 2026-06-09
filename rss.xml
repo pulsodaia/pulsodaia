@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 08 Jun 2026 20:31:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 04:14:41 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Syll: Automação Pessoal de IA de Código Aberto para Múltiplas Interfaces</title>
+      <link>https://pulsodaia.com.br/feed/syll-automacao-pessoal-de-ia-de-codigo-aberto-para-multiplas-interfaces/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/syll-automacao-pessoal-de-ia-de-codigo-aberto-para-multiplas-interfaces/</guid>
+      <pubDate>Tue, 09 Jun 2026 04:09:29 GMT</pubDate>
+      <description>Nova ferramenta busca unificar a interação de agentes de IA com sistemas diversos, da linha de comando a interfaces gráficas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2606.07594">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>OmniMem: Nova Arquitetura de Memória Otimiza LLMs de Áudio e Vídeo para Longas Duração</title>
+      <link>https://pulsodaia.com.br/feed/omnimem-nova-arquitetura-de-memoria-otimiza-llms-de-audio-e-video-para-longas-du/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/omnimem-nova-arquitetura-de-memoria-otimiza-llms-de-audio-e-video-para-longas-du/</guid>
+      <pubDate>Tue, 09 Jun 2026 04:09:17 GMT</pubDate>
+      <description>Pesquisa acadêmica apresenta solução para gargalo de processamento em modelos de IA que analisam vídeos extensos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.07577">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>PathoSage: IA Busca Precisão em Diagnósticos Patológicos com Novo Framework</title>
+      <link>https://pulsodaia.com.br/feed/pathosage-ia-busca-precisao-em-diagnosticos-patologicos-com-novo-framework/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pathosage-ia-busca-precisao-em-diagnosticos-patologicos-com-novo-framework/</guid>
+      <pubDate>Tue, 09 Jun 2026 04:09:06 GMT</pubDate>
+      <description>Pesquisadores propõem método para aumentar confiabilidade de modelos de IA em análise de lâminas médicas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.07549">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Scorsese adota IA para storyboarding, sinalizando nova fronteira criativa em Hollywood</title>
       <link>https://pulsodaia.com.br/feed/scorsese-adota-ia-para-storyboarding-sinalizando-nova-fronteira-criativa-em-holl/</link>
@@ -430,33 +457,6 @@
       <description>Novidade da Hugging Face simplifica a identificação de gargalos em modelos de deep learning.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/torch-profiler">Hugging Face</source>
-    </item>
-    <item>
-      <title>Estudantes Criam Protótipos de IA Para Educação e Trabalho</title>
-      <link>https://pulsodaia.com.br/feed/estudantes-criam-prototipos-de-ia-para-educacao-e-trabalho/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/estudantes-criam-prototipos-de-ia-para-educacao-e-trabalho/</guid>
-      <pubDate>Fri, 29 May 2026 15:58:31 GMT</pubDate>
-      <description>Projetos da Universidade de Waterloo demonstram aplicações práticas de inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/">Google AI</source>
-    </item>
-    <item>
-      <title>Nova Arquitetura de IA Supera GPT-2 em Compreensão Linguística com Bases da Teoria das Categorias</title>
-      <link>https://pulsodaia.com.br/feed/nova-arquitetura-de-ia-supera-gpt-2-em-compreensao-linguistica-com-bases-da-teor/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-arquitetura-de-ia-supera-gpt-2-em-compreensao-linguistica-com-bases-da-teor/</guid>
-      <pubDate>Fri, 29 May 2026 10:06:57 GMT</pubDate>
-      <description>Pesquisa em modelos de linguagem avança com inspiração em ciência cognitiva e matemática abstrata.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.28864">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Correções Comportamentais Melhoram Estabilidade em Aprendizado por Reforço Off-Policy</title>
-      <link>https://pulsodaia.com.br/feed/correcoes-comportamentais-melhoram-estabilidade-em-aprendizado-por-reforco-off-p/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/correcoes-comportamentais-melhoram-estabilidade-em-aprendizado-por-reforco-off-p/</guid>
-      <pubDate>Fri, 29 May 2026 10:06:46 GMT</pubDate>
-      <description>Novas técnicas buscam otimizar a previsão em ambientes de aprendizado de máquina com dados limitados.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2605.28855">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

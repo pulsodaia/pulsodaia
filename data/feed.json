@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-02T21:17:45.991Z",
+  "generated_at": "2026-06-09T04:09:29.770Z",
   "articles": [
+    {
+      "slug": "syll-automacao-pessoal-de-ia-de-codigo-aberto-para-multiplas-interfaces",
+      "headline": "Syll: Automação Pessoal de IA de Código Aberto para Múltiplas Interfaces",
+      "subtitle": "Nova ferramenta busca unificar a interação de agentes de IA com sistemas diversos, da linha de comando a interfaces gráficas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.07594",
+      "category": "research",
+      "tags": [
+        "ia",
+        "automacao",
+        "codigo aberto"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-09T04:09:29.595Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "omnimem-nova-arquitetura-de-memoria-otimiza-llms-de-audio-e-video-para-longas-du",
+      "headline": "OmniMem: Nova Arquitetura de Memória Otimiza LLMs de Áudio e Vídeo para Longas Duração",
+      "subtitle": "Pesquisa acadêmica apresenta solução para gargalo de processamento em modelos de IA que analisam vídeos extensos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.07577",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "processamento audiovisual"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-09T04:09:17.811Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "pathosage-ia-busca-precisao-em-diagnosticos-patologicos-com-novo-framework",
+      "headline": "PathoSage: IA Busca Precisão em Diagnósticos Patológicos com Novo Framework",
+      "subtitle": "Pesquisadores propõem método para aumentar confiabilidade de modelos de IA em análise de lâminas médicas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.07549",
+      "category": "research",
+      "tags": [
+        "ia",
+        "patologia",
+        "diagnostico",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-09T04:09:06.002Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "scorsese-adota-ia-para-storyboarding-sinalizando-nova-fronteira-criativa-em-holl",
       "headline": "Scorsese adota IA para storyboarding, sinalizando nova fronteira criativa em Hollywood",
