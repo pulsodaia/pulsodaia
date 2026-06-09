@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 09 Jun 2026 16:39:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 20:20:09 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Gigantes da Tecnologia em Busca de Modelos de IA Mais Econômicos</title>
+      <link>https://pulsodaia.com.br/feed/gigantes-da-tecnologia-em-busca-de-modelos-de-ia-mais-economicos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gigantes-da-tecnologia-em-busca-de-modelos-de-ia-mais-economicos/</guid>
+      <pubDate>Tue, 09 Jun 2026 20:14:59 GMT</pubDate>
+      <description>A eficiência de custos em inteligência artificial pode redefinir o mercado brasileiro de tecnologia.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Anthropic Lança Claude Fable 5: Modelo "Mythos-Class" para Uso Geral</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-lanca-claude-fable-5-modelo-mythos-class-para-uso-geral/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-lanca-claude-fable-5-modelo-mythos-class-para-uso-geral/</guid>
+      <pubDate>Tue, 09 Jun 2026 20:14:48 GMT</pubDate>
+      <description>A nova versão do modelo de linguagem da Anthropic promete capacidades inéditas, com foco em segurança para aplicações amplas no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.170">Claude Code</source>
+    </item>
+    <item>
+      <title>IA de Voz Lida com Sotaques Misturados? Desafio do Bilinguismo em Testes</title>
+      <link>https://pulsodaia.com.br/feed/ia-de-voz-lida-com-sotaques-misturados-desafio-do-bilinguismo-em-testes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-voz-lida-com-sotaques-misturados-desafio-do-bilinguismo-em-testes/</guid>
+      <pubDate>Tue, 09 Jun 2026 20:14:37 GMT</pubDate>
+      <description>Pesquisa avalia como agentes de voz lidam com a fala de clientes que misturam português e inglês, uma realidade comum no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/ServiceNow-AI/code-switching">Hugging Face</source>
+    </item>
     <item>
       <title>DeepMind e Robótica Europeia: Um Olhar Para o Avanço Industrial</title>
       <link>https://pulsodaia.com.br/feed/deepmind-e-robotica-europeia-um-olhar-para-o-avanco-industrial/</link>
@@ -430,33 +457,6 @@
       <description>Relato da gigante de CRM aponta ganhos expressivos em desenvolvimento, mas levanta debates sobre a adoção de novas tecnologias.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/salesforce-claims-ai-agents-cut-a-231-day-migration-to-13-days-with-fewer-incidents/">The Decoder</source>
-    </item>
-    <item>
-      <title>Dependência de IA no Desenvolvimento de Código: Um Risco Emergente para Profissionais</title>
-      <link>https://pulsodaia.com.br/feed/dependencia-de-ia-no-desenvolvimento-de-codigo-um-risco-emergente-para-profissio/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/dependencia-de-ia-no-desenvolvimento-de-codigo-um-risco-emergente-para-profissio/</guid>
-      <pubDate>Sat, 30 May 2026 04:01:59 GMT</pubDate>
-      <description>A velocidade ganha com a IA pode comprometer a qualidade e a sustentabilidade da carreira de programadores.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Habilita Modo Automático para Modelos Opus em Plataformas de Nuvem</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-habilita-modo-automatico-para-modelos-opus-em-plataformas-de-nuvem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-habilita-modo-automatico-para-modelos-opus-em-plataformas-de-nuvem/</guid>
-      <pubDate>Sat, 30 May 2026 04:01:47 GMT</pubDate>
-      <description>A Anthropic expande o acesso a funcionalidades avançadas de IA generativa para desenvolvedores brasileiros.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.158">Claude Code</source>
-    </item>
-    <item>
-      <title>Claude Code Automatiza Plugins e Aprimora Fluxos de Trabalho de Desenvolvedores</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-automatiza-plugins-e-aprimora-fluxos-de-trabalho-de-desenvolvedores/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-automatiza-plugins-e-aprimora-fluxos-de-trabalho-de-desenvolvedores/</guid>
-      <pubDate>Fri, 29 May 2026 21:57:33 GMT</pubDate>
-      <description>Atualização do Claude Code simplifica a integração de ferramentas e a gestão de projetos para a comunidade brasileira de desenvolvedores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.157">Claude Code</source>
     </item>
   </channel>
 </rss>

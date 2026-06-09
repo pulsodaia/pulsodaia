@@ -1,0 +1,50 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.170",
+  "title": "v2.1.170",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+  "summary": "<h2>What's changed</h2> <ul> <li>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally available. Update to version 2.1.170 for access. <a href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\" rel=\"nofollow\">https://www.anthropic.com/news/claude-fable-5-mythos-5</a></li> <li>Fixed sessions not saving transcripts (and not appearing in --resume) when launched from the VS Code integrated terminal or any shell that inherited Claude Code environment variables.</li> </ul>",
+  "published_at": "2026-06-09T17:23:09Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Anthropic Lança Claude Fable 5: Modelo \"Mythos-Class\" para Uso Geral",
+  "subtitle": "A nova versão do modelo de linguagem da Anthropic promete capacidades inéditas, com foco em segurança para aplicações amplas no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic anunciou a versão 2.1.170 do Claude Code, que introduz o Claude Fable 5. Este modelo, classificado como \"Mythos-class\", representa um avanço significativo em termos de performance e segurança, tornando-se disponível para utilização geral.",
+  "body_markdown": "## O que aconteceu\n\nA atualização v2.1.170 do Claude Code, lançada em 09 de junho de 2026, traz como principal novidade o Claude Fable 5. Este modelo é descrito como \"Mythos-class\", um patamar que a Anthropic indica superar todas as versões anteriores disponibilizadas ao público. A empresa enfatiza que o Fable 5 foi desenvolvido com foco em segurança, permitindo seu uso em aplicações gerais. Detalhes adicionais sobre as capacidades e o desenvolvimento do Claude Fable 5 podem ser encontrados no anúncio oficial da Anthropic. Paralelamente, a atualização corrige um problema que impedia o salvamento de transcrições de sessões e seu posterior acesso através do comando `--resume`, especialmente quando o Claude Code era iniciado a partir do terminal integrado do VS Code ou de shells que herdavam variáveis de ambiente do Claude Code. Esta correção visa aprimorar a experiência do usuário e a robustez da ferramenta. A informação completa sobre a versão está disponível no repositório oficial: [Claude Code Releases v2.1.170](https://github.com/anthropics/claude-code/releases/tag/v2.1.170).\n\n## Por que importa\n\nA introdução de um modelo \"Mythos-class\" como o Claude Fable 5, com capacidades aprimoradas e segurança garantida para uso geral, tem implicações diretas para o mercado brasileiro de inteligência artificial. Empresas e desenvolvedores no Brasil ganham acesso a uma ferramenta mais potente para tarefas complexas, desde a geração de código até a análise de dados e a criação de conteúdo. A capacidade de processamento superior pode acelerar projetos de IA em setores como finanças, saúde e tecnologia, impulsionando a inovação local. A correção no salvamento de sessões também é crucial, garantindo que fluxos de trabalho mais longos e complexos não sejam interrompidos por falhas técnicas, aumentando a produtividade e a confiabilidade no uso da ferramenta no dia a dia. A adoção de modelos avançados como este pode elevar o nível de competitividade das soluções brasileiras no cenário global.\n\n## O que esperar\n\nCom o Claude Fable 5 disponível, espera-se um aumento na complexidade e sofisticação das aplicações de IA desenvolvidas no Brasil. A nova capacidade do modelo pode permitir a criação de assistentes virtuais mais conversacionais, sistemas de análise preditiva mais precisos e ferramentas de desenvolvimento de software mais eficientes. A comunidade de desenvolvedores terá um novo patamar para explorar, potencialmente gerando novas pesquisas e aplicações. A Anthropic continua a evoluir seus modelos, e o Fable 5 é um indicativo do caminho futuro da companhia. Para mais informações sobre o desenvolvimento e as características deste novo modelo, consulte o [anúncio oficial da Anthropic sobre Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5). A expectativa é que a integração do Fable 5 em plataformas e ferramentas existentes ocorra de forma gradual, permitindo que os usuários se familiarizem com suas novas funcionalidades e alcancem seu pleno potencial.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A atualização v2.1.170 do Claude Code, lançada em 09 de junho de 2026, traz como principal novidade o Claude Fable 5. Este modelo é descrito como \"Mythos-class\", um patamar que a Anthropic indica superar todas as versões anteriores disponibilizadas ao público. A empresa enfatiza que o Fable 5 foi desenvolvido com foco em segurança, permitindo seu uso em aplicações gerais. Detalhes adicionais sobre as capacidades e o desenvolvimento do Claude Fable 5 podem ser encontrados no anúncio oficial da Anthropic. Paralelamente, a atualização corrige um problema que impedia o salvamento de transcrições de sessões e seu posterior acesso através do comando <code>--resume</code>, especialmente quando o Claude Code era iniciado a partir do terminal integrado do VS Code ou de shells que herdavam variáveis de ambiente do Claude Code. Esta correção visa aprimorar a experiência do usuário e a robustez da ferramenta. A informação completa sobre a versão está disponível no repositório oficial: <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.170\" target=\"_blank\" rel=\"external noopener\">Claude Code Releases v2.1.170</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A introdução de um modelo \"Mythos-class\" como o Claude Fable 5, com capacidades aprimoradas e segurança garantida para uso geral, tem implicações diretas para o mercado brasileiro de inteligência artificial. Empresas e desenvolvedores no Brasil ganham acesso a uma ferramenta mais potente para tarefas complexas, desde a geração de código até a análise de dados e a criação de conteúdo. A capacidade de processamento superior pode acelerar projetos de IA em setores como finanças, saúde e tecnologia, impulsionando a inovação local. A correção no salvamento de sessões também é crucial, garantindo que fluxos de trabalho mais longos e complexos não sejam interrompidos por falhas técnicas, aumentando a produtividade e a confiabilidade no uso da ferramenta no dia a dia. A adoção de modelos avançados como este pode elevar o nível de competitividade das soluções brasileiras no cenário global.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com o Claude Fable 5 disponível, espera-se um aumento na complexidade e sofisticação das aplicações de IA desenvolvidas no Brasil. A nova capacidade do modelo pode permitir a criação de assistentes virtuais mais conversacionais, sistemas de análise preditiva mais precisos e ferramentas de desenvolvimento de software mais eficientes. A comunidade de desenvolvedores terá um novo patamar para explorar, potencialmente gerando novas pesquisas e aplicações. A Anthropic continua a evoluir seus modelos, e o Fable 5 é um indicativo do caminho futuro da companhia. Para mais informações sobre o desenvolvimento e as características deste novo modelo, consulte o <a href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\" target=\"_blank\" rel=\"external noopener\">anúncio oficial da Anthropic sobre Claude Fable 5</a>. A expectativa é que a integração do Fable 5 em plataformas e ferramentas existentes ocorra de forma gradual, permitindo que os usuários se familiarizem com suas novas funcionalidades e alcancem seu pleno potencial.</p>",
+  "tags": [
+    "claude",
+    "anthropic",
+    "ia generativa"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Fable 5",
+    "Mythos-class",
+    "Anthropic",
+    "Claude Code",
+    "lançamento IA"
+  ],
+  "meta_description_seo": "Anthropic lança Claude Fable 5, modelo \"Mythos-class\" com capacidades avançadas e segurança para uso geral. Atualização do Claude Code.",
+  "faq": [
+    {
+      "q": "O que é o Claude Fable 5?",
+      "a": "O Claude Fable 5 é um novo modelo de linguagem da Anthropic, classificado como \"Mythos-class\", que oferece capacidades superiores aos modelos anteriores e é seguro para uso geral."
+    },
+    {
+      "q": "Quais problemas foram corrigidos na versão 2.1.170 do Claude Code?",
+      "a": "Foi corrigido um bug que impedia o salvamento de transcrições de sessões, especialmente quando o Claude Code era iniciado em certos ambientes de terminal."
+    },
+    {
+      "q": "O Claude Fable 5 já está disponível para todos no Brasil?",
+      "a": "A versão 2.1.170 do Claude Code, que inclui o Claude Fable 5, foi disponibilizada para acesso geral, indicando que desenvolvedores e empresas no Brasil podem utilizá-lo."
+    }
+  ],
+  "written_at": "2026-06-09T20:14:48.331Z",
+  "slug": "anthropic-lanca-claude-fable-5-modelo-mythos-class-para-uso-geral",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/d6640ec15581f6984c0b50170e0de01c43e4c0abb710d84a18e88bb1b1edb142/anthropics/claude-code/releases/tag/v2.1.170"
+}

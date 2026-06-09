@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-09T16:34:21.277Z",
+  "generated_at": "2026-06-09T20:14:59.689Z",
   "articles": [
+    {
+      "slug": "gigantes-da-tecnologia-em-busca-de-modelos-de-ia-mais-economicos",
+      "headline": "Gigantes da Tecnologia em Busca de Modelos de IA Mais Econômicos",
+      "subtitle": "A eficiência de custos em inteligência artificial pode redefinir o mercado brasileiro de tecnologia.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "tecnologia",
+        "economia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 18:56:09 +0000",
+      "written_at": "2026-06-09T20:14:59.667Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-lanca-claude-fable-5-modelo-mythos-class-para-uso-geral",
+      "headline": "Anthropic Lança Claude Fable 5: Modelo \"Mythos-Class\" para Uso Geral",
+      "subtitle": "A nova versão do modelo de linguagem da Anthropic promete capacidades inéditas, com foco em segurança para aplicações amplas no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "ia generativa"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-09T17:23:09Z",
+      "written_at": "2026-06-09T20:14:48.331Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-de-voz-lida-com-sotaques-misturados-desafio-do-bilinguismo-em-testes",
+      "headline": "IA de Voz Lida com Sotaques Misturados? Desafio do Bilinguismo em Testes",
+      "subtitle": "Pesquisa avalia como agentes de voz lidam com a fala de clientes que misturam português e inglês, uma realidade comum no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "category": "opensource",
+      "tags": [
+        "inteligencia artificial",
+        "reconhecimento de fala",
+        "bilinguismo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 19:38:28 GMT",
+      "written_at": "2026-06-09T20:14:37.884Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "deepmind-e-robotica-europeia-um-olhar-para-o-avanco-industrial",
       "headline": "DeepMind e Robótica Europeia: Um Olhar Para o Avanço Industrial",
