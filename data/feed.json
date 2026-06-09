@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-06-09T12:43:54.065Z",
+  "generated_at": "2026-06-09T16:34:21.277Z",
   "articles": [
+    {
+      "slug": "deepmind-e-robotica-europeia-um-olhar-para-o-avanco-industrial",
+      "headline": "DeepMind e Robótica Europeia: Um Olhar Para o Avanço Industrial",
+      "subtitle": "Avanços em robótica impulsionados por IA prometem redefinir a manufatura e logística no continente, com reflexos para o Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "category": "google",
+      "tags": [
+        "robótica",
+        "inteligência artificial",
+        "deepmind",
+        "automação",
+        "indústria 4.0"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 14:02:33 +0000",
+      "written_at": "2026-06-09T16:34:20.857Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "google-deepmind-apresenta-gemma-4-12b-modelo-multimodal-unificado-sem-codificado",
+      "headline": "Google DeepMind Apresenta Gemma 4 12B: Modelo Multimodal Unificado Sem Codificador",
+      "subtitle": "A novidade promete simplificar a criação de aplicações de IA que processam texto e imagem simultaneamente.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "multimodal",
+        "google deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 14:10:19 +0000",
+      "written_at": "2026-06-09T16:34:09.021Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-anuncia-traducao-de-voz-fluida-com-gemini-3-5-live-translate",
+      "headline": "Google Anuncia Tradução de Voz Fluida com Gemini 3.5 Live Translate",
+      "subtitle": "A nova funcionalidade promete conversas multilingues mais naturais em plataformas do Google.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "google",
+        "tradução",
+        "voz"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 09 Jun 2026 15:16:25 +0000",
+      "written_at": "2026-06-09T16:33:58.166Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "funcionarios-da-amazon-pedem-pausa-em-novos-data-centers-em-seattle",
       "headline": "Funcionários da Amazon pedem pausa em novos data centers em Seattle",

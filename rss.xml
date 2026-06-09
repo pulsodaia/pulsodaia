@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 09 Jun 2026 12:51:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 16:39:35 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>DeepMind e Robótica Europeia: Um Olhar Para o Avanço Industrial</title>
+      <link>https://pulsodaia.com.br/feed/deepmind-e-robotica-europeia-um-olhar-para-o-avanco-industrial/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-e-robotica-europeia-um-olhar-para-o-avanco-industrial/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:34:20 GMT</pubDate>
+      <description>Avanços em robótica impulsionados por IA prometem redefinir a manufatura e logística no continente, com reflexos para o Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/">Google DeepMind</source>
+    </item>
+    <item>
+      <title>Google DeepMind Apresenta Gemma 4 12B: Modelo Multimodal Unificado Sem Codificador</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-apresenta-gemma-4-12b-modelo-multimodal-unificado-sem-codificado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-apresenta-gemma-4-12b-modelo-multimodal-unificado-sem-codificado/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:34:09 GMT</pubDate>
+      <description>A novidade promete simplificar a criação de aplicações de IA que processam texto e imagem simultaneamente.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/">Google DeepMind</source>
+    </item>
+    <item>
+      <title>Google Anuncia Tradução de Voz Fluida com Gemini 3.5 Live Translate</title>
+      <link>https://pulsodaia.com.br/feed/google-anuncia-traducao-de-voz-fluida-com-gemini-3-5-live-translate/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-anuncia-traducao-de-voz-fluida-com-gemini-3-5-live-translate/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:33:58 GMT</pubDate>
+      <description>A nova funcionalidade promete conversas multilingues mais naturais em plataformas do Google.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/">Google DeepMind</source>
+    </item>
     <item>
       <title>Funcionários da Amazon pedem pausa em novos data centers em Seattle</title>
       <link>https://pulsodaia.com.br/feed/funcionarios-da-amazon-pedem-pausa-em-novos-data-centers-em-seattle/</link>
@@ -430,33 +457,6 @@
       <description>Atualização do Claude Code simplifica a integração de ferramentas e a gestão de projetos para a comunidade brasileira de desenvolvedores.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.157">Claude Code</source>
-    </item>
-    <item>
-      <title>Google Lança Quiz Interativo Sobre I/O 2026 Codificado com IA</title>
-      <link>https://pulsodaia.com.br/feed/google-lanca-quiz-interativo-sobre-i-o-2026-codificado-com-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-lanca-quiz-interativo-sobre-i-o-2026-codificado-com-ia/</guid>
-      <pubDate>Fri, 29 May 2026 21:57:22 GMT</pubDate>
-      <description>Iniciativa demonstra o uso prático do Google AI Studio para engajar o público com novidades tecnológicas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/">Google AI</source>
-    </item>
-    <item>
-      <title>Groq Busca US$ 650 Milhões Pós-Aquisição da Nvidia</title>
-      <link>https://pulsodaia.com.br/feed/groq-busca-us-650-milhoes-pos-aquisicao-da-nvidia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/groq-busca-us-650-milhoes-pos-aquisicao-da-nvidia/</guid>
-      <pubDate>Fri, 29 May 2026 18:43:46 GMT</pubDate>
-      <description>A startup de chips de IA Groq está em negociações avançadas para levantar US$ 650 milhões, indicando um movimento estratégico em direção à otimização da inferência de IA.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/05/29/after-nvidias-20b-not-aqui-hire-ai-chip-startup-groq-reportedly-raising-650m/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA nas Empresas: O Risco da "Psicose" e Demissões em Massa</title>
-      <link>https://pulsodaia.com.br/feed/ia-nas-empresas-o-risco-da-psicose-e-demissoes-em-massa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-nas-empresas-o-risco-da-psicose-e-demissoes-em-massa/</guid>
-      <pubDate>Fri, 29 May 2026 18:43:34 GMT</pubDate>
-      <description>O entusiasmo cego pela automação com inteligência artificial pode levar a decisões equivocadas e cortes de pessoal desnecessários.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
