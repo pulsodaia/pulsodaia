@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-09T23:22:14.595Z",
+  "generated_at": "2026-06-10T04:20:32.322Z",
   "articles": [
+    {
+      "slug": "ia-e-adaptacao-um-novo-modelo-teorico-para-a-otimizacao-preditiva",
+      "headline": "IA e adaptacao: um novo modelo teorico para a otimizacao preditiva",
+      "subtitle": "Pesquisadores propõem framework para entender como sistemas de IA influenciam a capacidade de adaptação a longo prazo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.10086",
+      "category": "research",
+      "tags": [
+        "ia",
+        "adaptacao",
+        "otimizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-10T04:20:32.074Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-aprendem-a-lembrar-em-tempo-de-uso-abrindo-debate-sobre-personaliz",
+      "headline": "Agentes de IA aprendem a \"lembrar\" em tempo de uso, abrindo debate sobre personalização e privacidade",
+      "subtitle": "Pesquisa aponta que a capacidade de memória dos sistemas de IA vai além do treinamento inicial, levantando novas questões para o mercado brasileiro.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.10062",
+      "category": "research",
+      "tags": [
+        "ia",
+        "privacidade",
+        "memoria"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-10T04:20:22.760Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelo-de-mundo-empresarial-ia-para-planejamento-estrategico-autonomo",
+      "headline": "Modelo de Mundo Empresarial: IA para Planejamento Estratégico Autônomo",
+      "subtitle": "Pesquisa propõe arquitetura para sistemas de IA que compreendem e agem em ambientes corporativos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.10044",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de mundo",
+        "planejamento estratégico",
+        "automação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-10T04:20:10.050Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "o-desejo-por-assistentes-de-ia-funcionalidade-vs-dependencia",
       "headline": "O Desejo por Assistentes de IA: Funcionalidade vs. Dependência",
