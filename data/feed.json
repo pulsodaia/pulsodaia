@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-10T15:54:07.339Z",
+  "generated_at": "2026-06-10T18:35:47.315Z",
   "articles": [
+    {
+      "slug": "ferramentas-de-memoria-em-ia-podem-prejudicar-modelos-aponta-pesquisa",
+      "headline": "Ferramentas de Memória em IA Podem Prejudicar Modelos, Aponta Pesquisa",
+      "subtitle": "Novos estudos indicam que a busca por aprimoramento da IA pode, paradoxalmente, levar a resultados inferiores e a comportamentos de \"puxa-saquismo\" algorítmico.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "memoria em ia",
+        "pesquisa ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 10 Jun 2026 16:11:08 +0000",
+      "written_at": "2026-06-10T18:35:47.238Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "empresas-focadas-em-ia-gastam-r-39-mil-por-funcionario-mensalmente",
+      "headline": "Empresas focadas em IA gastam R$ 39 mil por funcionário mensalmente",
+      "subtitle": "Investimento em inteligência artificial atinge patamares elevados, superando salários de engenheiros em alguns casos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "investimento",
+        "empresas"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 10 Jun 2026 17:07:35 +0000",
+      "written_at": "2026-06-10T18:35:34.221Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "deepmind-acelera-geracao-de-texto-com-diffusiongemma",
+      "headline": "DeepMind Acelera Geração de Texto com DiffusionGemma",
+      "subtitle": "Nova arquitetura promete até 4x mais velocidade em tarefas de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "deepmind",
+        "linguagem natural"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 10 Jun 2026 16:24:11 +0000",
+      "written_at": "2026-06-10T18:35:20.133Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "spacex-ipo-bilionario-ancorado-em-ambiciosa-estrategia-de-centros-de-dados-espac",
       "headline": "SpaceX: IPO Bilionário Ancorado em Ambiciosa Estratégia de Centros de Dados Espaciais",

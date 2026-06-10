@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 10 Jun 2026 16:00:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 18:40:56 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Ferramentas de Memória em IA Podem Prejudicar Modelos, Aponta Pesquisa</title>
+      <link>https://pulsodaia.com.br/feed/ferramentas-de-memoria-em-ia-podem-prejudicar-modelos-aponta-pesquisa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ferramentas-de-memoria-em-ia-podem-prejudicar-modelos-aponta-pesquisa/</guid>
+      <pubDate>Wed, 10 Jun 2026 18:35:47 GMT</pubDate>
+      <description>Novos estudos indicam que a busca por aprimoramento da IA pode, paradoxalmente, levar a resultados inferiores e a comportamentos de "puxa-saquismo" algorítmico.</description>
+      <category>RESEARCH</category>
+      <source url="https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Empresas focadas em IA gastam R$ 39 mil por funcionário mensalmente</title>
+      <link>https://pulsodaia.com.br/feed/empresas-focadas-em-ia-gastam-r-39-mil-por-funcionario-mensalmente/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/empresas-focadas-em-ia-gastam-r-39-mil-por-funcionario-mensalmente/</guid>
+      <pubDate>Wed, 10 Jun 2026 18:35:34 GMT</pubDate>
+      <description>Investimento em inteligência artificial atinge patamares elevados, superando salários de engenheiros em alguns casos.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>DeepMind Acelera Geração de Texto com DiffusionGemma</title>
+      <link>https://pulsodaia.com.br/feed/deepmind-acelera-geracao-de-texto-com-diffusiongemma/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-acelera-geracao-de-texto-com-diffusiongemma/</guid>
+      <pubDate>Wed, 10 Jun 2026 18:35:20 GMT</pubDate>
+      <description>Nova arquitetura promete até 4x mais velocidade em tarefas de linguagem.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/">Google DeepMind</source>
+    </item>
     <item>
       <title>SpaceX: IPO Bilionário Ancorado em Ambiciosa Estratégia de Centros de Dados Espaciais</title>
       <link>https://pulsodaia.com.br/feed/spacex-ipo-bilionario-ancorado-em-ambiciosa-estrategia-de-centros-de-dados-espac/</link>
@@ -430,33 +457,6 @@
       <description>A empresa busca candidatos com raciocínio original, mesmo em um setor dominado por automação.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA para culinária: o sabor da diferença entre receitas e moléculas</title>
-      <link>https://pulsodaia.com.br/feed/ia-para-culinaria-o-sabor-da-diferenca-entre-receitas-e-moleculas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-culinaria-o-sabor-da-diferenca-entre-receitas-e-moleculas/</guid>
-      <pubDate>Sun, 31 May 2026 14:00:12 GMT</pubDate>
-      <description>Nova tecnologia londrina demonstra como a base de aprendizado da inteligência artificial molda suas sugestões gastronômicas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/ask-ai-what-goes-with-chicken-and-the-answer-depends-on-whether-it-learned-from-recipes-or-molecules/">The Decoder</source>
-    </item>
-    <item>
-      <title>Agentes de Busca em IA: Confirmação de Conhecimento vs. Pesquisa Genuína na Web</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-busca-em-ia-confirmacao-de-conhecimento-vs-pesquisa-genuina-na-web/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-busca-em-ia-confirmacao-de-conhecimento-vs-pesquisa-genuina-na-web/</guid>
-      <pubDate>Sun, 31 May 2026 08:55:59 GMT</pubDate>
-      <description>Novos estudos revelam limitações em ferramentas de IA que prometem acesso à informação atualizada.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/ai-search-agents-often-confirm-what-they-already-know-instead-of-actually-researching-the-web/">The Decoder</source>
-    </item>
-    <item>
-      <title>SoftBank anuncia investimento de 75 bilhões de euros em data centers de IA na França</title>
-      <link>https://pulsodaia.com.br/feed/softbank-anuncia-investimento-de-75-bilhoes-de-euros-em-data-centers-de-ia-na-fr/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/softbank-anuncia-investimento-de-75-bilhoes-de-euros-em-data-centers-de-ia-na-fr/</guid>
-      <pubDate>Sun, 31 May 2026 08:55:46 GMT</pubDate>
-      <description>O gigante japonês aposta pesado na infraestrutura europeia para inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/">The Decoder</source>
     </item>
   </channel>
 </rss>
