@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2606.11207v1",
+  "title": "From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference",
+  "url": "https://arxiv.org/abs/2606.11207",
+  "summary": "arXiv:2606.11207v1 Announce Type: new Abstract: We present SemantiClean, a modular framework for extracting structured semantic signals from e-commerce session data and driving pluggable inference targets including purchase intent, customer segmentation, and product affinity through a shared element library. Unlike conventional end-to-end predictors that optimise solely for accuracy, SemantiClean prioritises auditability, structural governance, and sigma=0 reproducibility, explicitly trading marginal predictive gains for element-level transparency and defensible decision trails. Built upon the Online Shoppers Purchasing Intention (OSPI) dataset, the framework organises twenty-four behavioural elements into a four-layer architecture (Functional, Interaction, Systemic, Contextual) and enforces signal quality through three anti-inflation mechanisms: RedundancyGroup contribution caps, TieredPenaltyCalculator bias penalties, and AdaptiveConstraintMode cold-start protection.This report intro",
+  "published_at": "Thu, 11 Jun 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "SemantiClean: IA para E-commerce com Foco em Transparência e Auditabilidade",
+  "subtitle": "Nova abordagem em IA busca garantir confiabilidade em inferências de comportamento de compra para o mercado brasileiro.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores apresentaram o SemantiClean, um framework modular que extrai sinais semânticos de sessões de e-commerce. O sistema foca em auditabilidade e reprodutibilidade, priorizando a compreensão granular das decisões de IA sobre a pura precisão.",
+  "body_markdown": "## O que aconteceu\n\nUm novo artigo publicado no arXiv, \"From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference\", introduz o SemantiClean. Este framework é projetado para analisar dados de sessões de compras online e derivar inferências sobre intenção de compra, segmentação de clientes e afinidade por produtos. Diferente de modelos tradicionais que otimizam unicamente para acurácia, o SemantiClean prioriza a auditabilidade e a reprodutibilidade com sigma=0. Isso significa que cada passo da inferência pode ser rastreado e verificado, sacrificando um ganho preditivo marginal em troca de transparência e trilhas de decisão defensáveis. O sistema organiza vinte e quatro elementos comportamentais em uma arquitetura de quatro camadas: Funcional, Interação, Sistêmico e Contextual. A pesquisa foi construída sobre o conjunto de dados OSPI (Online Shoppers Purchasing Intention). Acesse o artigo completo em [arXiv:2606.11207](https://arxiv.org/abs/2606.11207).\n\n## Por que importa\n\nNo Brasil, o e-commerce continua sua expansão acelerada, mas a confiança do consumidor e a clareza nas decisões de negócios baseadas em IA são cruciais. Ferramentas como o SemantiClean podem ajudar empresas brasileiras a entenderem melhor seus clientes, mas de uma maneira que seja transparente para reguladores e para a própria gestão. A capacidade de auditar as inferências de IA é vital para evitar vieses e garantir conformidade com futuras regulações de proteção de dados e inteligência artificial. Empresas podem usar essa abordagem para construir modelos de recomendação mais éticos e justos, além de otimizar campanhas de marketing com base em uma compreensão mais profunda e verificável do comportamento do usuário. A demanda por sistemas de IA que expliquem suas decisões está crescendo, e o SemantiClean parece endereçar essa necessidade diretamente.\n\n## O que esperar\n\nA arquitetura modular do SemantiClean sugere que ele pode ser adaptado a diferentes plataformas de e-commerce e conjuntos de dados. A ênfase na \"biblioteca de elementos pré-definidos\" indica um caminho para a padronização de como o comportamento do usuário é interpretado por sistemas de IA. Isso pode levar ao desenvolvimento de padrões da indústria para análise de dados de sessão. Para o mercado brasileiro, a adoção de tais frameworks pode significar um salto na maturidade da aplicação de IA no varejo online, permitindo que empresas menores também se beneficiem de sistemas de IA confiáveis e compreensíveis. A pesquisa aponta para um futuro onde a IA no e-commerce não é apenas uma caixa preta que entrega resultados, mas um parceiro analítico com raciocínio transparente. Mais detalhes sobre a estrutura e os elementos utilizados podem ser encontrados em [arXiv:2606.11207](https://arxiv.org/abs/2606.11207).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo artigo publicado no arXiv, \"From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference\", introduz o SemantiClean. Este framework é projetado para analisar dados de sessões de compras online e derivar inferências sobre intenção de compra, segmentação de clientes e afinidade por produtos. Diferente de modelos tradicionais que otimizam unicamente para acurácia, o SemantiClean prioriza a auditabilidade e a reprodutibilidade com sigma=0. Isso significa que cada passo da inferência pode ser rastreado e verificado, sacrificando um ganho preditivo marginal em troca de transparência e trilhas de decisão defensáveis. O sistema organiza vinte e quatro elementos comportamentais em uma arquitetura de quatro camadas: Funcional, Interação, Sistêmico e Contextual. A pesquisa foi construída sobre o conjunto de dados OSPI (Online Shoppers Purchasing Intention). Acesse o artigo completo em <a href=\"https://arxiv.org/abs/2606.11207\" target=\"_blank\" rel=\"external noopener\">arXiv:2606.11207</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, o e-commerce continua sua expansão acelerada, mas a confiança do consumidor e a clareza nas decisões de negócios baseadas em IA são cruciais. Ferramentas como o SemantiClean podem ajudar empresas brasileiras a entenderem melhor seus clientes, mas de uma maneira que seja transparente para reguladores e para a própria gestão. A capacidade de auditar as inferências de IA é vital para evitar vieses e garantir conformidade com futuras regulações de proteção de dados e inteligência artificial. Empresas podem usar essa abordagem para construir modelos de recomendação mais éticos e justos, além de otimizar campanhas de marketing com base em uma compreensão mais profunda e verificável do comportamento do usuário. A demanda por sistemas de IA que expliquem suas decisões está crescendo, e o SemantiClean parece endereçar essa necessidade diretamente.</p>\n\n<h2>O que esperar</h2>\n\n<p>A arquitetura modular do SemantiClean sugere que ele pode ser adaptado a diferentes plataformas de e-commerce e conjuntos de dados. A ênfase na \"biblioteca de elementos pré-definidos\" indica um caminho para a padronização de como o comportamento do usuário é interpretado por sistemas de IA. Isso pode levar ao desenvolvimento de padrões da indústria para análise de dados de sessão. Para o mercado brasileiro, a adoção de tais frameworks pode significar um salto na maturidade da aplicação de IA no varejo online, permitindo que empresas menores também se beneficiem de sistemas de IA confiáveis e compreensíveis. A pesquisa aponta para um futuro onde a IA no e-commerce não é apenas uma caixa preta que entrega resultados, mas um parceiro analítico com raciocínio transparente. Mais detalhes sobre a estrutura e os elementos utilizados podem ser encontrados em <a href=\"https://arxiv.org/abs/2606.11207\" target=\"_blank\" rel=\"external noopener\">arXiv:2606.11207</a>.</p>",
+  "tags": [
+    "ia",
+    "ecommerce",
+    "auditabilidade"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligência artificial",
+    "e-commerce",
+    "auditabilidade",
+    "inferência comportamental",
+    "transparência em IA"
+  ],
+  "meta_description_seo": "SemantiClean: IA para e-commerce com foco em transparência e auditabilidade, priorizando a compreensão granular das decisões sobre precisão.",
+  "faq": [
+    {
+      "q": "O que é o SemantiClean e qual seu principal diferencial?",
+      "a": "SemantiClean é um framework para extrair sinais semânticos de dados de e-commerce, focando em auditabilidade e reprodutibilidade. Seu diferencial é priorizar a transparência e a rastreabilidade das inferências de IA, em vez de apenas a acurácia."
+    },
+    {
+      "q": "Como o SemantiClean ajuda a entender o comportamento do consumidor online?",
+      "a": "Ele organiza vinte e quatro elementos comportamentais em uma arquitetura de quatro camadas (Funcional, Interação, Sistêmico, Contextual) para extrair sinais semânticos e derivar inferências sobre intenção de compra, segmentação e afinidade por produtos."
+    },
+    {
+      "q": "Qual o impacto esperado dessa abordagem para o mercado de e-commerce?",
+      "a": "Espera-se que o SemantiClean promova maior confiança e clareza nas decisões de negócios baseadas em IA, permitindo auditoria e evitando vieses, o que é crucial para a expansão e regulamentação do e-commerce."
+    }
+  ],
+  "written_at": "2026-06-11T04:42:44.439Z",
+  "slug": "semanticlean-ia-para-e-commerce-com-foco-em-transparencia-e-auditabilidade",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

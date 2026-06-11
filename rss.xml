@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 10 Jun 2026 18:40:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 04:48:05 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA em Ciência: Novos Testes Avaliam Capacidade de Síntese de Conclusões Científicas</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-ciencia-novos-testes-avaliam-capacidade-de-sintese-de-conclusoes-cientific/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-ciencia-novos-testes-avaliam-capacidade-de-sintese-de-conclusoes-cientific/</guid>
+      <pubDate>Thu, 11 Jun 2026 04:43:07 GMT</pubDate>
+      <description>Uma nova ferramenta de avaliação busca validar se agentes de IA podem, de fato, gerar descobertas científicas confiáveis.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.11337">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Memória Explícita: O Elo Perdido para a Inteligência Artificial Geral</title>
+      <link>https://pulsodaia.com.br/feed/memoria-explicita-o-elo-perdido-para-a-inteligencia-artificial-geral/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/memoria-explicita-o-elo-perdido-para-a-inteligencia-artificial-geral/</guid>
+      <pubDate>Thu, 11 Jun 2026 04:42:56 GMT</pubDate>
+      <description>Pesquisa sugere que a chave para IAs mais avançadas pode estar na forma como o cérebro humano armazena e recupera informações.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.11245">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>SemantiClean: IA para E-commerce com Foco em Transparência e Auditabilidade</title>
+      <link>https://pulsodaia.com.br/feed/semanticlean-ia-para-e-commerce-com-foco-em-transparencia-e-auditabilidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/semanticlean-ia-para-e-commerce-com-foco-em-transparencia-e-auditabilidade/</guid>
+      <pubDate>Thu, 11 Jun 2026 04:42:44 GMT</pubDate>
+      <description>Nova abordagem em IA busca garantir confiabilidade em inferências de comportamento de compra para o mercado brasileiro.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2606.11207">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Ferramentas de Memória em IA Podem Prejudicar Modelos, Aponta Pesquisa</title>
       <link>https://pulsodaia.com.br/feed/ferramentas-de-memoria-em-ia-podem-prejudicar-modelos-aponta-pesquisa/</link>
@@ -430,33 +457,6 @@
       <description>Ativista ambiental aponta para falta de transparência em operações de IA.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Atualiza Infraestrutura sem Mudanças Visíveis ao Usuário</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-infraestrutura-sem-mudancas-visiveis-ao-usuario/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-infraestrutura-sem-mudancas-visiveis-ao-usuario/</guid>
-      <pubDate>Sun, 31 May 2026 21:09:22 GMT</pubDate>
-      <description>Desenvolvedores da Anthropic focam em melhorias internas para otimizar o desempenho do seu modelo de código.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.159">Claude Code</source>
-    </item>
-    <item>
-      <title>Cegos pela IA? O debate sobre "psicose" em líderes de tecnologia</title>
-      <link>https://pulsodaia.com.br/feed/cegos-pela-ia-o-debate-sobre-psicose-em-lideres-de-tecnologia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cegos-pela-ia-o-debate-sobre-psicose-em-lideres-de-tecnologia/</guid>
-      <pubDate>Sun, 31 May 2026 17:16:36 GMT</pubDate>
-      <description>Uma discussão sobre a percepção de excesso de otimismo ou delírio em CEOs de tecnologia, com implicações para o mercado brasileiro.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Proíbe Ferramentas de IA em Entrevistas para Avaliar o Pensamento Humano</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-proibe-ferramentas-de-ia-em-entrevistas-para-avaliar-o-pensamento-huma/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-proibe-ferramentas-de-ia-em-entrevistas-para-avaliar-o-pensamento-huma/</guid>
-      <pubDate>Sun, 31 May 2026 14:00:26 GMT</pubDate>
-      <description>A empresa busca candidatos com raciocínio original, mesmo em um setor dominado por automação.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/">The Decoder</source>
     </item>
   </channel>
 </rss>

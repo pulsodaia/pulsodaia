@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-10T18:35:47.315Z",
+  "generated_at": "2026-06-11T04:43:07.876Z",
   "articles": [
+    {
+      "slug": "ia-em-ciencia-novos-testes-avaliam-capacidade-de-sintese-de-conclusoes-cientific",
+      "headline": "IA em Ciência: Novos Testes Avaliam Capacidade de Síntese de Conclusões Científicas",
+      "subtitle": "Uma nova ferramenta de avaliação busca validar se agentes de IA podem, de fato, gerar descobertas científicas confiáveis.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.11337",
+      "category": "research",
+      "tags": [
+        "ia",
+        "ciencia",
+        "pesquisa",
+        "avaliacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-11T04:43:07.784Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "memoria-explicita-o-elo-perdido-para-a-inteligencia-artificial-geral",
+      "headline": "Memória Explícita: O Elo Perdido para a Inteligência Artificial Geral",
+      "subtitle": "Pesquisa sugere que a chave para IAs mais avançadas pode estar na forma como o cérebro humano armazena e recupera informações.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.11245",
+      "category": "research",
+      "tags": [
+        "agi",
+        "memoria explicita",
+        "llms"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-11T04:42:56.022Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "semanticlean-ia-para-e-commerce-com-foco-em-transparencia-e-auditabilidade",
+      "headline": "SemantiClean: IA para E-commerce com Foco em Transparência e Auditabilidade",
+      "subtitle": "Nova abordagem em IA busca garantir confiabilidade em inferências de comportamento de compra para o mercado brasileiro.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.11207",
+      "category": "research",
+      "tags": [
+        "ia",
+        "ecommerce",
+        "auditabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-11T04:42:44.439Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ferramentas-de-memoria-em-ia-podem-prejudicar-modelos-aponta-pesquisa",
       "headline": "Ferramentas de Memória em IA Podem Prejudicar Modelos, Aponta Pesquisa",
