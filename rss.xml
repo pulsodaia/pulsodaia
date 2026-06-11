@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 11 Jun 2026 20:35:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 23:48:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic pede desculpas por restrições ocultas no Claude Fable</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-pede-desculpas-por-restricoes-ocultas-no-claude-fable/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-pede-desculpas-por-restricoes-ocultas-no-claude-fable/</guid>
+      <pubDate>Thu, 11 Jun 2026 23:43:07 GMT</pubDate>
+      <description>A empresa de IA promete mais transparência após críticas de pesquisadores e concorrentes.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail">The Verge AI</source>
+    </item>
+    <item>
+      <title>Amazon Revela Consumo de Água em Data Centers: 9,5 Bilhões de Litros em um Ano</title>
+      <link>https://pulsodaia.com.br/feed/amazon-revela-consumo-de-agua-em-data-centers-9-5-bilhoes-de-litros-em-um-ano/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-revela-consumo-de-agua-em-data-centers-9-5-bilhoes-de-litros-em-um-ano/</guid>
+      <pubDate>Thu, 11 Jun 2026 23:42:56 GMT</pubDate>
+      <description>Ainda que a notícia seja global, o debate sobre infraestrutura e sustentabilidade de IA ganha força no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/tech/948534/amazon-data-centers-water-use">The Verge AI</source>
+    </item>
+    <item>
+      <title>SpaceX Define Valor de Ações em IPO Histórico</title>
+      <link>https://pulsodaia.com.br/feed/spacex-define-valor-de-acoes-em-ipo-historico/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/spacex-define-valor-de-acoes-em-ipo-historico/</guid>
+      <pubDate>Thu, 11 Jun 2026 23:42:46 GMT</pubDate>
+      <description>A empresa de Elon Musk inicia sua jornada no mercado público, estabelecendo um novo marco financeiro global.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Otimização de ML no PyTorch: A Fusão de Camadas Lineares para Desempenho</title>
       <link>https://pulsodaia.com.br/feed/otimizacao-de-ml-no-pytorch-a-fusao-de-camadas-lineares-para-desempenho/</link>
@@ -430,33 +457,6 @@
       <description>A corrida por infraestrutura básica afeta até gigantes da tecnologia espacial.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Florida Processa OpenAI e Sam Altman por Incidentes Violentos</title>
-      <link>https://pulsodaia.com.br/feed/florida-processa-openai-e-sam-altman-por-incidentes-violentos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/florida-processa-openai-e-sam-altman-por-incidentes-violentos/</guid>
-      <pubDate>Mon, 01 Jun 2026 21:40:39 GMT</pubDate>
-      <description>Ação judicial inédita nos EUA levanta questões sobre responsabilidade de desenvolvedores de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Nvidia Mira Mercado de CPUs com PCs Agentes de IA via Microsoft, Dell e HP</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-mira-mercado-de-cpus-com-pcs-agentes-de-ia-via-microsoft-dell-e-hp/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-mira-mercado-de-cpus-com-pcs-agentes-de-ia-via-microsoft-dell-e-hp/</guid>
-      <pubDate>Mon, 01 Jun 2026 21:40:29 GMT</pubDate>
-      <description>A gigante de chips aposta em inteligência artificial integrada para competir no segmento de processadores para computadores pessoais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Adocao Empresarial de IA: A Logica dos Agentes Supera os LLMs Para Escalabilidade</title>
-      <link>https://pulsodaia.com.br/feed/adocao-empresarial-de-ia-a-logica-dos-agentes-supera-os-llms-para-escalabilidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/adocao-empresarial-de-ia-a-logica-dos-agentes-supera-os-llms-para-escalabilidade/</guid>
-      <pubDate>Mon, 01 Jun 2026 17:55:47 GMT</pubDate>
-      <description>Estudo da Hugging Face, em colaboracao com a IBM Research, aponta para a necessidade de raciocinio complexo para aplicacoes de IA em larga escala.</description>
-      <category>ANALISE</category>
-      <source url="https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption">Hugging Face</source>
     </item>
   </channel>
 </rss>
