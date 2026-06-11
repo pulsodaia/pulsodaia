@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-11T10:49:42.153Z",
+  "generated_at": "2026-06-11T20:29:42.348Z",
   "articles": [
+    {
+      "slug": "otimizacao-de-ml-no-pytorch-a-fusao-de-camadas-lineares-para-desempenho",
+      "headline": "Otimização de ML no PyTorch: A Fusão de Camadas Lineares para Desempenho",
+      "subtitle": "Novas técnicas de otimização no PyTorch prometem acelerar modelos de aprendizado de máquina no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "category": "opensource",
+      "tags": [
+        "pytorch",
+        "otimizacao",
+        "mlp"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "written_at": "2026-06-11T20:29:42.229Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "deepmind-destina-us-10-milhoes-para-pesquisa-em-seguranca-de-sistemas-multi-agen",
+      "headline": "DeepMind Destina US$ 10 Milhões para Pesquisa em Segurança de Sistemas Multi-Agente",
+      "subtitle": "Investimento visa mitigar riscos em IAs que interagem entre si e com humanos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "category": "google",
+      "tags": [
+        "ia multi-agente",
+        "segurança de ia",
+        "google deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 10 Jun 2026 10:21:19 +0000",
+      "written_at": "2026-06-11T20:29:30.184Z",
+      "quality_score": 0.88,
+      "hero_image": null
+    },
+    {
+      "slug": "google-investe-em-qualificacao-e-energia-acessivel-na-virginia",
+      "headline": "Google Investe em Qualificação e Energia Acessível na Virgínia",
+      "subtitle": "Ações da gigante tecnológica focam em desenvolvimento de força de trabalho e programas de energia.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "category": "google",
+      "tags": [
+        "inteligencia artificial",
+        "google",
+        "investimento social"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 11 Jun 2026 20:00:00 +0000",
+      "written_at": "2026-06-11T20:29:20.344Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "anthropic-reavalia-politica-de-acesso-a-pesquisadores-de-ia",
       "headline": "Anthropic Reavalia Política de Acesso a Pesquisadores de IA",
