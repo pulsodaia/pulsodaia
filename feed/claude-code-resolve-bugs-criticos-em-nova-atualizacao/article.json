@@ -1,0 +1,51 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.173",
+  "title": "v2.1.173",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
+  "summary": "<h2>What's changed</h2> <ul> <li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically</li> <li>Fixed a spurious \"sandbox dependencies missing\" startup warning on Windows when sandbox was enabled in settings</li> </ul>",
+  "published_at": "2026-06-11T05:41:54Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Resolve Bugs Críticos em Nova Atualização",
+  "subtitle": "A Anthropic aprimora a estabilidade e a experiência do usuário em seu ambiente de desenvolvimento de IA.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão v2.1.173 do Claude Code, trazendo correções pontuais que visam aprimorar a usabilidade e a confiabilidade da ferramenta. As atualizações focam na normalização de nomes de modelos e na eliminação de avisos de sistema desnecessários.",
+  "body_markdown": "## O que aconteceu\n\nA atualização v2.1.173 do Claude Code, divulgada pelo time da Anthropic, aborda duas questões específicas que impactavam a experiência de desenvolvedores que utilizam a plataforma. Primeiramente, foi corrigido um problema onde nomes de modelos Fable 5 com o sufixo `[1m]` não estavam sendo normalizados corretamente. Como o Fable 5 já opera com um contexto de 1 milhão de tokens por padrão, este sufixo se tornava redundante. A correção agora garante que esse marcador seja removido automaticamente, simplificando a identificação e o uso dos modelos.\n\nEm segundo lugar, a atualização resolve um alerta de sistema \"sandbox dependencies missing\" que aparecia indevidamente no Windows, mesmo quando o sandbox estava habilitado nas configurações. Esse aviso, embora não impedisse o funcionamento, podia gerar confusão e preocupação para os usuários. A remoção desse alerta spurious melhora a clareza da interface e a sensação de estabilidade do ambiente. Mais detalhes sobre as mudanças podem ser encontrados no [repositório oficial do Claude Code](https://github.com/anthropics/claude-code/releases/tag/v2.1.173).\n\n## Por que importa\n\nPara o mercado brasileiro de desenvolvimento de IA, a estabilidade e a previsibilidade das ferramentas são cruciais. A correção de bugs, mesmo que aparentemente menores, reflete um compromisso da Anthropic em refinar sua oferta e garantir que os desenvolvedores possam focar na criação de soluções inovadoras, sem se preocuparem com falhas de software ou avisos de sistema enganosos. A normalização dos nomes de modelos, por exemplo, contribui para um fluxo de trabalho mais limpo e menos propenso a erros de configuração, um benefício direto para equipes que buscam otimizar seus processos de treinamento e inferência.\n\nA experiência do usuário é cada vez mais um diferencial competitivo. Um ambiente de desenvolvimento que minimiza ruídos e inconsistências permite que os profissionais brasileiros de IA se dediquem a tarefas de maior valor agregado, acelerando o ciclo de desenvolvimento e a entrega de produtos e serviços baseados em inteligência artificial. A atenção a detalhes como a eliminação de avisos de sistema desnecessários demonstra uma maturidade no desenvolvimento do Claude Code.\n\n## O que esperar\n\nCom essas correções, espera-se que os desenvolvedores que utilizam o Claude Code no Brasil e globalmente experimentem um ambiente mais robusto e direto. A expectativa é que a Anthropic continue seu ciclo de aprimoramentos, focando em otimizações de performance e na adição de novas funcionalidades que atendam às demandas crescentes do setor de IA. A estabilidade é um pilar fundamental para a adoção em larga escala de qualquer ferramenta de desenvolvimento, e estas atualizações reforçam essa base.\n\nÉ provável que futuras versões do Claude Code continuem a refinar a gestão de modelos e a experiência do usuário, possivelmente introduzindo melhorias na integração com outras ferramentas e frameworks. A comunidade de desenvolvedores pode aguardar por atualizações que consolidem o Claude Code como uma plataforma confiável para o desenvolvimento de aplicações de IA avançadas. Para acompanhar o roadmap e as próximas novidades, recomenda-se a consulta regular às [notas de lançamento](https://github.com/anthropics/claude-code/releases/tag/v2.1.173).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A atualização v2.1.173 do Claude Code, divulgada pelo time da Anthropic, aborda duas questões específicas que impactavam a experiência de desenvolvedores que utilizam a plataforma. Primeiramente, foi corrigido um problema onde nomes de modelos Fable 5 com o sufixo <code>[1m]</code> não estavam sendo normalizados corretamente. Como o Fable 5 já opera com um contexto de 1 milhão de tokens por padrão, este sufixo se tornava redundante. A correção agora garante que esse marcador seja removido automaticamente, simplificando a identificação e o uso dos modelos.</p>\n\n<p>Em segundo lugar, a atualização resolve um alerta de sistema \"sandbox dependencies missing\" que aparecia indevidamente no Windows, mesmo quando o sandbox estava habilitado nas configurações. Esse aviso, embora não impedisse o funcionamento, podia gerar confusão e preocupação para os usuários. A remoção desse alerta spurious melhora a clareza da interface e a sensação de estabilidade do ambiente. Mais detalhes sobre as mudanças podem ser encontrados no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.173\" target=\"_blank\" rel=\"external noopener\">repositório oficial do Claude Code</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de desenvolvimento de IA, a estabilidade e a previsibilidade das ferramentas são cruciais. A correção de bugs, mesmo que aparentemente menores, reflete um compromisso da Anthropic em refinar sua oferta e garantir que os desenvolvedores possam focar na criação de soluções inovadoras, sem se preocuparem com falhas de software ou avisos de sistema enganosos. A normalização dos nomes de modelos, por exemplo, contribui para um fluxo de trabalho mais limpo e menos propenso a erros de configuração, um benefício direto para equipes que buscam otimizar seus processos de treinamento e inferência.</p>\n\n<p>A experiência do usuário é cada vez mais um diferencial competitivo. Um ambiente de desenvolvimento que minimiza ruídos e inconsistências permite que os profissionais brasileiros de IA se dediquem a tarefas de maior valor agregado, acelerando o ciclo de desenvolvimento e a entrega de produtos e serviços baseados em inteligência artificial. A atenção a detalhes como a eliminação de avisos de sistema desnecessários demonstra uma maturidade no desenvolvimento do Claude Code.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com essas correções, espera-se que os desenvolvedores que utilizam o Claude Code no Brasil e globalmente experimentem um ambiente mais robusto e direto. A expectativa é que a Anthropic continue seu ciclo de aprimoramentos, focando em otimizações de performance e na adição de novas funcionalidades que atendam às demandas crescentes do setor de IA. A estabilidade é um pilar fundamental para a adoção em larga escala de qualquer ferramenta de desenvolvimento, e estas atualizações reforçam essa base.</p>\n\n<p>É provável que futuras versões do Claude Code continuem a refinar a gestão de modelos e a experiência do usuário, possivelmente introduzindo melhorias na integração com outras ferramentas e frameworks. A comunidade de desenvolvedores pode aguardar por atualizações que consolidem o Claude Code como uma plataforma confiável para o desenvolvimento de aplicações de IA avançadas. Para acompanhar o roadmap e as próximas novidades, recomenda-se a consulta regular às <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.173\" target=\"_blank\" rel=\"external noopener\">notas de lançamento</a>.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "atualizacao de software"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "claude code",
+    "anthropic",
+    "atualizacao",
+    "correcao de bugs",
+    "IA",
+    "desenvolvimento de software"
+  ],
+  "meta_description_seo": "Claude Code v2.1.173: Anthropic corrige bugs de normalização de modelos e avisos de sandbox no Windows.",
+  "faq": [
+    {
+      "q": "Quais foram as principais correções na atualização v2.1.173 do Claude Code?",
+      "a": "A atualização corrigiu a normalização de nomes de modelos Fable 5 com sufixo `[1m]` e removeu um aviso de sistema \"sandbox dependencies missing\" no Windows."
+    },
+    {
+      "q": "Por que a normalização de nomes de modelos é importante?",
+      "a": "A normalização garante que os nomes dos modelos sejam consistentes e fáceis de identificar, especialmente quando um modelo já possui características padrão, como o contexto de 1 milhão de tokens do Fable 5."
+    },
+    {
+      "q": "O que o aviso \"sandbox dependencies missing\" indicava?",
+      "a": "Este aviso, que foi corrigido, aparecia indevidamente no Windows mesmo com o sandbox habilitado, podendo gerar confusão sobre a configuração do ambiente de desenvolvimento."
+    }
+  ],
+  "written_at": "2026-06-11T10:49:17.424Z",
+  "slug": "claude-code-resolve-bugs-criticos-em-nova-atualizacao",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/953bdc2429119a0f6912fa49e29e2f93fb9e11d6475aef782bd619e88e74fcba/anthropics/claude-code/releases/tag/v2.1.173"
+}

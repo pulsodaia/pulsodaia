@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-06-11T04:43:07.876Z",
+  "generated_at": "2026-06-11T10:49:42.153Z",
   "articles": [
+    {
+      "slug": "anthropic-reavalia-politica-de-acesso-a-pesquisadores-de-ia",
+      "headline": "Anthropic Reavalia Política de Acesso a Pesquisadores de IA",
+      "subtitle": "Empresa admite erro em prática que limitava acesso a modelos, mas controvérsias persistem.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "claude",
+        "politica de acesso",
+        "pesquisa em ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 11 Jun 2026 08:20:54 +0000",
+      "written_at": "2026-06-11T10:49:39.825Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "deezer-oferece-tecnologia-para-identificar-musica-gerada-por-ia-a-concorrentes",
+      "headline": "Deezer Oferece Tecnologia para Identificar Música Gerada por IA a Concorrentes",
+      "subtitle": "A plataforma busca padronizar a rotulagem de conteúdo musical sintético no streaming.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+      "category": "mercado",
+      "tags": [
+        "deezer",
+        "inteligência artificial",
+        "música",
+        "streaming"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-11T04:00:00-04:00",
+      "written_at": "2026-06-11T10:49:28.905Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "claude-code-resolve-bugs-criticos-em-nova-atualizacao",
+      "headline": "Claude Code Resolve Bugs Críticos em Nova Atualização",
+      "subtitle": "A Anthropic aprimora a estabilidade e a experiência do usuário em seu ambiente de desenvolvimento de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "atualizacao de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-11T05:41:54Z",
+      "written_at": "2026-06-11T10:49:17.424Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-em-ciencia-novos-testes-avaliam-capacidade-de-sintese-de-conclusoes-cientific",
       "headline": "IA em Ciência: Novos Testes Avaliam Capacidade de Síntese de Conclusões Científicas",
