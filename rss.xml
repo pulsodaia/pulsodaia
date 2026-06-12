@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 12 Jun 2026 22:01:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 23:29:53 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Unidade de IA da Meta enfrenta crise interna: engenheiros descrevem ambiente de trabalho como "gulag"</title>
+      <link>https://pulsodaia.com.br/feed/unidade-de-ia-da-meta-enfrenta-crise-interna-engenheiros-descrevem-ambiente-de-t/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/unidade-de-ia-da-meta-enfrenta-crise-interna-engenheiros-descrevem-ambiente-de-t/</guid>
+      <pubDate>Fri, 12 Jun 2026 23:24:45 GMT</pubDate>
+      <description>Relatório aponta descontentamento generalizado em divisão com 6.500 funcionários, levantando questões sobre gestão e moral.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Metade dos Americanos Temem Perda de Emprego e Autonomia Intelectual para a IA</title>
       <link>https://pulsodaia.com.br/feed/metade-dos-americanos-temem-perda-de-emprego-e-autonomia-intelectual-para-a-ia/</link>
@@ -448,15 +457,6 @@
       <description>Pesquisa acadêmica apresenta solução para gargalo de processamento em modelos de IA que analisam vídeos extensos.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2606.07577">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>PathoSage: IA Busca Precisão em Diagnósticos Patológicos com Novo Framework</title>
-      <link>https://pulsodaia.com.br/feed/pathosage-ia-busca-precisao-em-diagnosticos-patologicos-com-novo-framework/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pathosage-ia-busca-precisao-em-diagnosticos-patologicos-com-novo-framework/</guid>
-      <pubDate>Tue, 09 Jun 2026 04:09:06 GMT</pubDate>
-      <description>Pesquisadores propõem método para aumentar confiabilidade de modelos de IA em análise de lâminas médicas.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.07549">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
