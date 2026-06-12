@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-12T18:13:05.821Z",
+  "generated_at": "2026-06-12T21:56:29.091Z",
   "articles": [
+    {
+      "slug": "metade-dos-americanos-temem-perda-de-emprego-e-autonomia-intelectual-para-a-ia",
+      "headline": "Metade dos Americanos Temem Perda de Emprego e Autonomia Intelectual para a IA",
+      "subtitle": "Pesquisa da Anthropic revela ansiedade generalizada sobre o impacto da inteligência artificial, mas usuários frequentes mostram menos receio.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/over-half-of-americans-fear-losing-both-their-jobs-and-their-independent-thinking-to-ai-survey-finds/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "mercado de trabalho",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 12 Jun 2026 18:40:26 +0000",
+      "written_at": "2026-06-12T21:56:26.953Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-move-judicial-contra-grupo-ciberdelinquente-chines-que-usou-ia-em-milhoes",
+      "headline": "Google Move Judicial Contra Grupo Ciberdelinquente Chinês Que Usou IA em Milhões de Golpes",
+      "subtitle": "Ações judiciais marcam a escalada do uso de inteligência artificial em fraudes em larga escala.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "ciberseguranca",
+        "fraude"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 12 Jun 2026 20:38:09 +0000",
+      "written_at": "2026-06-12T21:56:17.067Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-176-melhora-experiencia-do-usuario-e-seguranca",
+      "headline": "Claude Code 2.1.176 Melhora Experiência do Usuário e Segurança",
+      "subtitle": "Atualização foca em personalização de idioma, gerenciamento de credenciais e controle de acesso a modelos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "atualizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-12T21:53:27Z",
+      "written_at": "2026-06-12T21:56:05.859Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "mercado-de-ipos-renasce-com-gigantes-de-tecnologia-e-ia",
       "headline": "Mercado de IPOs Renasce com Gigantes de Tecnologia e IA",
