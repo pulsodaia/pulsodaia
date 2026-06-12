@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-11T23:43:08.271Z",
+  "generated_at": "2026-06-12T04:45:29.874Z",
   "articles": [
+    {
+      "slug": "ia-agora-decide-novo-framework-reorienta-suporte-a-decisao-humana-para-agentes-a",
+      "headline": "IA Agora Decide: Novo Framework Reorienta Suporte à Decisão Humana para Agentes Autônomos",
+      "subtitle": "A pesquisa acadêmica aponta uma mudança de paradigma na forma como as máquinas auxiliam, com a inteligência artificial assumindo o protagonismo na tomada de decisões complexas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.12587",
+      "category": "research",
+      "tags": [
+        "inteligencia artificial",
+        "suporte a decisao",
+        "agentes autonomos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-12T04:45:29.835Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "arbor-nova-arquitetura-para-agentes-autonomos-otimiza-ia-com-busca-em-arvore",
+      "headline": "Arbor: Nova Arquitetura para Agentes Autônomos Otimiza IA com Busca em Árvore",
+      "subtitle": "Pesquisa acadêmica introduz método para que sistemas de IA aprendam e explorem de forma mais eficiente em ambientes complexos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.12563",
+      "category": "research",
+      "tags": [
+        "ia",
+        "agentes autonomos",
+        "otimizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-12T04:45:18.658Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "toolsense-nova-abordagem-para-avaliar-a-compreensao-de-ferramentas-por-modelos-d",
+      "headline": "ToolSense: Nova Abordagem para Avaliar a Compreensão de Ferramentas por Modelos de Linguagem",
+      "subtitle": "Pesquisa aponta para falhas na forma como LLMs lidam com catálogos de ferramentas, um gargalo crítico para sua aplicação prática.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.12451",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llms",
+        "ferramentas",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-12T04:45:09.275Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "anthropic-pede-desculpas-por-restricoes-ocultas-no-claude-fable",
       "headline": "Anthropic pede desculpas por restrições ocultas no Claude Fable",
