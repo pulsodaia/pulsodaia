@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-12T15:30:46.544Z",
+  "generated_at": "2026-06-12T18:13:05.821Z",
   "articles": [
+    {
+      "slug": "mercado-de-ipos-renasce-com-gigantes-de-tecnologia-e-ia",
+      "headline": "Mercado de IPOs Renasce com Gigantes de Tecnologia e IA",
+      "subtitle": "Novos nomes como Anthropic e OpenAI se preparam para o mercado, desafiando a hegemonia das antigas FAANG.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+      "category": "mercado",
+      "tags": [
+        "ipos",
+        "inteligência artificial",
+        "tecnologia",
+        "mercado financeiro"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 12 Jun 2026 16:23:25 +0000",
+      "written_at": "2026-06-12T18:13:05.655Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "mistral-ai-busca-3-bilhoes-em-rodada-que-pode-avalia-la-em-20-bilhoes",
+      "headline": "Mistral AI Busca €3 Bilhões em Rodada que Pode Avaliá-la em €20 Bilhões",
+      "subtitle": "Gigante europeia de IA se consolida como um player global em meio a investimentos massivos.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "category": "mercado",
+      "tags": [
+        "mistral ai",
+        "inteligência artificial",
+        "financiamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 12 Jun 2026 17:38:11 +0000",
+      "written_at": "2026-06-12T18:12:54.147Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-lanca-olmo-eval-plataforma-para-otimizar-o-ciclo-de-desenvolvimento",
+      "headline": "Hugging Face lança olmo-eval, plataforma para otimizar o ciclo de desenvolvimento de modelos de IA",
+      "subtitle": "Ferramenta busca agilizar a avaliação e aprimoramento de modelos, um passo crucial para a adoção em larga escala no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "category": "opensource",
+      "tags": [
+        "olmo-eval",
+        "hugging face",
+        "desenvolvimento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 12 Jun 2026 15:56:10 GMT",
+      "written_at": "2026-06-12T18:12:42.878Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "startup-de-jeff-bezos-busca-engenheiro-geral-artificial",
       "headline": "Startup de Jeff Bezos Busca Engenheiro Geral Artificial",
