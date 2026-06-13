@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-13T11:58:02.606Z",
+  "generated_at": "2026-06-13T17:38:58.257Z",
   "articles": [
+    {
+      "slug": "anthropic-restringe-acesso-a-modelos-de-ia-apos-ordem-governamental-por-seguranc",
+      "headline": "Anthropic Restringe Acesso a Modelos de IA Após Ordem Governamental por Segurança Nacional",
+      "subtitle": "A medida afeta modelos Fable 5 e Mythos 5, com implicações para usuários globais.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança nacional",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-13T08:55:49-04:00",
+      "written_at": "2026-06-13T17:38:58.219Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-cria-aplicativo-de-jardinagem-em-minutos-mas-bugs-persistem",
+      "headline": "IA Cria Aplicativo de Jardinagem em Minutos, Mas Bugs Persistem",
+      "subtitle": "Ferramentas de IA generativa prometem agilizar o desenvolvimento de software, mas a estabilidade continua sendo um desafio.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
+      "category": "mercado",
+      "tags": [
+        "ia generativa",
+        "desenvolvimento de software",
+        "aplicativos",
+        "jardinagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-13T09:00:00-04:00",
+      "written_at": "2026-06-13T17:38:46.983Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-sob-investigacao-de-procuradores-gerais-estaduais",
+      "headline": "OpenAI Sob Investigação de Procuradores Gerais Estaduais",
+      "subtitle": "A empresa de IA enfrenta escrutínio regulatório em nível estadual nos EUA, levantando questões sobre suas práticas de dados e publicidade.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "regulamentacao",
+        "investigacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 13 Jun 2026 16:47:18 +0000",
+      "written_at": "2026-06-13T17:38:35.684Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "meta-ajusta-estrategia-de-ia-do-tokenmaxxing-a-gestao-de-custos",
       "headline": "Meta ajusta estratégia de IA: do \"tokenmaxxing\" à gestão de custos",

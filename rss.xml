@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 13 Jun 2026 12:05:17 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 17:43:58 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic Restringe Acesso a Modelos de IA Após Ordem Governamental por Segurança Nacional</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-restringe-acesso-a-modelos-de-ia-apos-ordem-governamental-por-seguranc/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-restringe-acesso-a-modelos-de-ia-apos-ordem-governamental-por-seguranc/</guid>
+      <pubDate>Sat, 13 Jun 2026 17:38:58 GMT</pubDate>
+      <description>A medida afeta modelos Fable 5 e Mythos 5, com implicações para usuários globais.</description>
+      <category>MERCADO</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security">The Verge AI</source>
+    </item>
+    <item>
+      <title>IA Cria Aplicativo de Jardinagem em Minutos, Mas Bugs Persistem</title>
+      <link>https://pulsodaia.com.br/feed/ia-cria-aplicativo-de-jardinagem-em-minutos-mas-bugs-persistem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-cria-aplicativo-de-jardinagem-em-minutos-mas-bugs-persistem/</guid>
+      <pubDate>Sat, 13 Jun 2026 17:38:46 GMT</pubDate>
+      <description>Ferramentas de IA generativa prometem agilizar o desenvolvimento de software, mas a estabilidade continua sendo um desafio.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing">The Verge AI</source>
+    </item>
+    <item>
+      <title>OpenAI Sob Investigação de Procuradores Gerais Estaduais</title>
+      <link>https://pulsodaia.com.br/feed/openai-sob-investigacao-de-procuradores-gerais-estaduais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-sob-investigacao-de-procuradores-gerais-estaduais/</guid>
+      <pubDate>Sat, 13 Jun 2026 17:38:35 GMT</pubDate>
+      <description>A empresa de IA enfrenta escrutínio regulatório em nível estadual nos EUA, levantando questões sobre suas práticas de dados e publicidade.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Meta ajusta estratégia de IA: do "tokenmaxxing" à gestão de custos</title>
       <link>https://pulsodaia.com.br/feed/meta-ajusta-estrategia-de-ia-do-tokenmaxxing-a-gestao-de-custos/</link>
@@ -430,33 +457,6 @@
       <description>A nova oferta da Cohere visa agilizar a criação de código para programadores brasileiros.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/CohereLabs/introducing-north-mini-code">Hugging Face</source>
-    </item>
-    <item>
-      <title>Gigantes da Tecnologia em Busca de Modelos de IA Mais Econômicos</title>
-      <link>https://pulsodaia.com.br/feed/gigantes-da-tecnologia-em-busca-de-modelos-de-ia-mais-economicos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gigantes-da-tecnologia-em-busca-de-modelos-de-ia-mais-economicos/</guid>
-      <pubDate>Tue, 09 Jun 2026 20:14:59 GMT</pubDate>
-      <description>A eficiência de custos em inteligência artificial pode redefinir o mercado brasileiro de tecnologia.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Lança Claude Fable 5: Modelo "Mythos-Class" para Uso Geral</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-lanca-claude-fable-5-modelo-mythos-class-para-uso-geral/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-lanca-claude-fable-5-modelo-mythos-class-para-uso-geral/</guid>
-      <pubDate>Tue, 09 Jun 2026 20:14:48 GMT</pubDate>
-      <description>A nova versão do modelo de linguagem da Anthropic promete capacidades inéditas, com foco em segurança para aplicações amplas no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.170">Claude Code</source>
-    </item>
-    <item>
-      <title>IA de Voz Lida com Sotaques Misturados? Desafio do Bilinguismo em Testes</title>
-      <link>https://pulsodaia.com.br/feed/ia-de-voz-lida-com-sotaques-misturados-desafio-do-bilinguismo-em-testes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-voz-lida-com-sotaques-misturados-desafio-do-bilinguismo-em-testes/</guid>
-      <pubDate>Tue, 09 Jun 2026 20:14:37 GMT</pubDate>
-      <description>Pesquisa avalia como agentes de voz lidam com a fala de clientes que misturam português e inglês, uma realidade comum no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://huggingface.co/blog/ServiceNow-AI/code-switching">Hugging Face</source>
     </item>
   </channel>
 </rss>
