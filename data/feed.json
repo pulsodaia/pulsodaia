@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-06-13T09:26:38.312Z",
+  "generated_at": "2026-06-13T11:58:02.606Z",
   "articles": [
+    {
+      "slug": "meta-ajusta-estrategia-de-ia-do-tokenmaxxing-a-gestao-de-custos",
+      "headline": "Meta ajusta estratégia de IA: do \"tokenmaxxing\" à gestão de custos",
+      "subtitle": "A gigante de tecnologia sinaliza um novo foco em eficiência financeira na adoção de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/",
+      "category": "mercado",
+      "tags": [
+        "meta",
+        "inteligencia artificial",
+        "custos de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 13 Jun 2026 09:49:28 +0000",
+      "written_at": "2026-06-13T11:57:59.864Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "claude-fable-5-supera-gpt-5-5-em-desempenho-matematico-avancado",
+      "headline": "Claude Fable 5 Supera GPT-5.5 em Desempenho Matemático Avançado",
+      "subtitle": "Novos benchmarks indicam avanço significativo da Anthropic em raciocínio complexo, com impacto direto no desenvolvimento de IAs no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/claude-fable-5-outpaces-gpt-5-5-by-13-points-on-frontiermaths-toughest-problems/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "anthropic",
+        "openai",
+        "matemática"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 13 Jun 2026 10:16:26 +0000",
+      "written_at": "2026-06-13T11:57:45.689Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "hollywood-e-ia-alem-dos-modelos-genericos",
+      "headline": "Hollywood e IA: além dos modelos genéricos",
+      "subtitle": "O debate sobre o uso de IA no cinema vai além da simples geração de conteúdo.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "cinema",
+        "hollywood"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-13T07:00:00-04:00",
+      "written_at": "2026-06-13T11:57:34.507Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "governo-dos-eua-forca-anthropic-a-desativar-modelos-claude-fable-5-e-mythos-5-gl",
       "headline": "Governo dos EUA força Anthropic a desativar modelos Claude Fable 5 e Mythos 5 globalmente",

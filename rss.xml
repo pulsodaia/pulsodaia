@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 13 Jun 2026 09:31:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 12:05:17 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Meta ajusta estratégia de IA: do "tokenmaxxing" à gestão de custos</title>
+      <link>https://pulsodaia.com.br/feed/meta-ajusta-estrategia-de-ia-do-tokenmaxxing-a-gestao-de-custos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-ajusta-estrategia-de-ia-do-tokenmaxxing-a-gestao-de-custos/</guid>
+      <pubDate>Sat, 13 Jun 2026 11:57:59 GMT</pubDate>
+      <description>A gigante de tecnologia sinaliza um novo foco em eficiência financeira na adoção de inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/">The Decoder</source>
+    </item>
+    <item>
+      <title>Claude Fable 5 Supera GPT-5.5 em Desempenho Matemático Avançado</title>
+      <link>https://pulsodaia.com.br/feed/claude-fable-5-supera-gpt-5-5-em-desempenho-matematico-avancado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-fable-5-supera-gpt-5-5-em-desempenho-matematico-avancado/</guid>
+      <pubDate>Sat, 13 Jun 2026 11:57:45 GMT</pubDate>
+      <description>Novos benchmarks indicam avanço significativo da Anthropic em raciocínio complexo, com impacto direto no desenvolvimento de IAs no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/claude-fable-5-outpaces-gpt-5-5-by-13-points-on-frontiermaths-toughest-problems/">The Decoder</source>
+    </item>
+    <item>
+      <title>Hollywood e IA: além dos modelos genéricos</title>
+      <link>https://pulsodaia.com.br/feed/hollywood-e-ia-alem-dos-modelos-genericos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hollywood-e-ia-alem-dos-modelos-genericos/</guid>
+      <pubDate>Sat, 13 Jun 2026 11:57:34 GMT</pubDate>
+      <description>O debate sobre o uso de IA no cinema vai além da simples geração de conteúdo.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai">The Verge AI</source>
+    </item>
     <item>
       <title>Governo dos EUA força Anthropic a desativar modelos Claude Fable 5 e Mythos 5 globalmente</title>
       <link>https://pulsodaia.com.br/feed/governo-dos-eua-forca-anthropic-a-desativar-modelos-claude-fable-5-e-mythos-5-gl/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa avalia como agentes de voz lidam com a fala de clientes que misturam português e inglês, uma realidade comum no Brasil.</description>
       <category>RESEARCH</category>
       <source url="https://huggingface.co/blog/ServiceNow-AI/code-switching">Hugging Face</source>
-    </item>
-    <item>
-      <title>DeepMind e Robótica Europeia: Um Olhar Para o Avanço Industrial</title>
-      <link>https://pulsodaia.com.br/feed/deepmind-e-robotica-europeia-um-olhar-para-o-avanco-industrial/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-e-robotica-europeia-um-olhar-para-o-avanco-industrial/</guid>
-      <pubDate>Tue, 09 Jun 2026 16:34:20 GMT</pubDate>
-      <description>Avanços em robótica impulsionados por IA prometem redefinir a manufatura e logística no continente, com reflexos para o Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Google DeepMind Apresenta Gemma 4 12B: Modelo Multimodal Unificado Sem Codificador</title>
-      <link>https://pulsodaia.com.br/feed/google-deepmind-apresenta-gemma-4-12b-modelo-multimodal-unificado-sem-codificado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-apresenta-gemma-4-12b-modelo-multimodal-unificado-sem-codificado/</guid>
-      <pubDate>Tue, 09 Jun 2026 16:34:09 GMT</pubDate>
-      <description>A novidade promete simplificar a criação de aplicações de IA que processam texto e imagem simultaneamente.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Google Anuncia Tradução de Voz Fluida com Gemini 3.5 Live Translate</title>
-      <link>https://pulsodaia.com.br/feed/google-anuncia-traducao-de-voz-fluida-com-gemini-3-5-live-translate/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-anuncia-traducao-de-voz-fluida-com-gemini-3-5-live-translate/</guid>
-      <pubDate>Tue, 09 Jun 2026 16:33:58 GMT</pubDate>
-      <description>A nova funcionalidade promete conversas multilingues mais naturais em plataformas do Google.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/">Google DeepMind</source>
     </item>
   </channel>
 </rss>
