@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 13 Jun 2026 04:30:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 09:31:36 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Governo dos EUA força Anthropic a desativar modelos Claude Fable 5 e Mythos 5 globalmente</title>
+      <link>https://pulsodaia.com.br/feed/governo-dos-eua-forca-anthropic-a-desativar-modelos-claude-fable-5-e-mythos-5-gl/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governo-dos-eua-forca-anthropic-a-desativar-modelos-claude-fable-5-e-mythos-5-gl/</guid>
+      <pubDate>Sat, 13 Jun 2026 09:26:36 GMT</pubDate>
+      <description>Decisão levanta debates sobre segurança, riscos de jailbreak e o futuro de implementações de ponta em IA.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/us-government-forces-anthropic-to-disable-claude-fable-5-and-mythos-5-for-all-customers-worldwide/">The Decoder</source>
+    </item>
+    <item>
+      <title>Moonshot AI Lança Kimi K2.7 Code: Modelo Aberto Desafia Gigantes de IA em Custo por Token</title>
+      <link>https://pulsodaia.com.br/feed/moonshot-ai-lanca-kimi-k2-7-code-modelo-aberto-desafia-gigantes-de-ia-em-custo-p/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/moonshot-ai-lanca-kimi-k2-7-code-modelo-aberto-desafia-gigantes-de-ia-em-custo-p/</guid>
+      <pubDate>Sat, 13 Jun 2026 09:26:21 GMT</pubDate>
+      <description>A nova oferta da Moonshot AI promete democratizar o acesso a modelos de programação de ponta, questionando o equilíbrio entre performance e preço.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/">The Decoder</source>
+    </item>
     <item>
       <title>Anthropic: Alertas de Segurança Levam Governo a Suspender Modelo de IA</title>
       <link>https://pulsodaia.com.br/feed/anthropic-alertas-de-seguranca-levam-governo-a-suspender-modelo-de-ia/</link>
@@ -439,24 +457,6 @@
       <description>A nova funcionalidade promete conversas multilingues mais naturais em plataformas do Google.</description>
       <category>LANCAMENTO</category>
       <source url="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Funcionários da Amazon pedem pausa em novos data centers em Seattle</title>
-      <link>https://pulsodaia.com.br/feed/funcionarios-da-amazon-pedem-pausa-em-novos-data-centers-em-seattle/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/funcionarios-da-amazon-pedem-pausa-em-novos-data-centers-em-seattle/</guid>
-      <pubDate>Tue, 09 Jun 2026 12:43:53 GMT</pubDate>
-      <description>A demanda levanta questões sobre o impacto ambiental e de infraestrutura da expansão da IA.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/945809/amazon-employees-seattle-data-center-moratorium">The Verge AI</source>
-    </item>
-    <item>
-      <title>Ex-líder de e-scooters levanta US$ 5 milhões para data centers espaciais</title>
-      <link>https://pulsodaia.com.br/feed/ex-lider-de-e-scooters-levanta-us-5-milhoes-para-data-centers-espaciais/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ex-lider-de-e-scooters-levanta-us-5-milhoes-para-data-centers-espaciais/</guid>
-      <pubDate>Tue, 09 Jun 2026 12:43:42 GMT</pubDate>
-      <description>A transição de Euwyn Poon, que construiu a Spin, para infraestrutura de dados em órbita marca um novo capítulo na computação espacial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

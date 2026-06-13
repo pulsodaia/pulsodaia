@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-06-13T04:24:27.849Z",
+  "generated_at": "2026-06-13T09:26:38.312Z",
   "articles": [
+    {
+      "slug": "governo-dos-eua-forca-anthropic-a-desativar-modelos-claude-fable-5-e-mythos-5-gl",
+      "headline": "Governo dos EUA força Anthropic a desativar modelos Claude Fable 5 e Mythos 5 globalmente",
+      "subtitle": "Decisão levanta debates sobre segurança, riscos de jailbreak e o futuro de implementações de ponta em IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/us-government-forces-anthropic-to-disable-claude-fable-5-and-mythos-5-for-all-customers-worldwide/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "anthropic",
+        "claude",
+        "segurança",
+        "regulamentação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 13 Jun 2026 07:40:44 +0000",
+      "written_at": "2026-06-13T09:26:36.002Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "moonshot-ai-lanca-kimi-k2-7-code-modelo-aberto-desafia-gigantes-de-ia-em-custo-p",
+      "headline": "Moonshot AI Lança Kimi K2.7 Code: Modelo Aberto Desafia Gigantes de IA em Custo por Token",
+      "subtitle": "A nova oferta da Moonshot AI promete democratizar o acesso a modelos de programação de ponta, questionando o equilíbrio entre performance e preço.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "moonshot ai",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 13 Jun 2026 08:38:41 +0000",
+      "written_at": "2026-06-13T09:26:21.662Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "anthropic-alertas-de-seguranca-levam-governo-a-suspender-modelo-de-ia",
       "headline": "Anthropic: Alertas de Segurança Levam Governo a Suspender Modelo de IA",
