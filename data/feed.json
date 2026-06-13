@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-12T23:24:46.148Z",
+  "generated_at": "2026-06-13T04:24:27.849Z",
   "articles": [
+    {
+      "slug": "anthropic-alertas-de-seguranca-levam-governo-a-suspender-modelo-de-ia",
+      "headline": "Anthropic: Alertas de Segurança Levam Governo a Suspender Modelo de IA",
+      "subtitle": "A empresa de IA expressa discordância com a decisão governamental de retirar de circulação seu modelo mais avançado.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "regulamentação",
+        "segurança de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 13 Jun 2026 02:26:30 +0000",
+      "written_at": "2026-06-13T04:24:27.771Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "andrew-yang-aponta-novas-oportunidades-de-startups-na-reducao-do-custo-de-vida",
+      "headline": "Andrew Yang aponta novas oportunidades de startups na redução do custo de vida",
+      "subtitle": "Ex-candidato presidencial americano identifica áreas de alto gasto como foco para inovação",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+      "category": "mercado",
+      "tags": [
+        "custo de vida",
+        "startups",
+        "inovação",
+        "andrew yang"
+      ],
+      "read_time_min": 4,
+      "published_at": "Sat, 13 Jun 2026 04:14:19 +0000",
+      "written_at": "2026-06-13T04:24:17.758Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-lanca-atualizacao-do-claude-code-v2-1-177",
+      "headline": "Anthropic Lança Atualização do Claude Code v2.1.177",
+      "subtitle": "Novidades no desenvolvimento de modelos de linguagem abertos para o mercado brasileiro.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-13T01:25:15Z",
+      "written_at": "2026-06-13T04:24:05.961Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "unidade-de-ia-da-meta-enfrenta-crise-interna-engenheiros-descrevem-ambiente-de-t",
       "headline": "Unidade de IA da Meta enfrenta crise interna: engenheiros descrevem ambiente de trabalho como \"gulag\"",

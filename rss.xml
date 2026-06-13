@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 12 Jun 2026 23:29:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 04:30:01 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic: Alertas de Segurança Levam Governo a Suspender Modelo de IA</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-alertas-de-seguranca-levam-governo-a-suspender-modelo-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-alertas-de-seguranca-levam-governo-a-suspender-modelo-de-ia/</guid>
+      <pubDate>Sat, 13 Jun 2026 04:24:27 GMT</pubDate>
+      <description>A empresa de IA expressa discordância com a decisão governamental de retirar de circulação seu modelo mais avançado.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Andrew Yang aponta novas oportunidades de startups na redução do custo de vida</title>
+      <link>https://pulsodaia.com.br/feed/andrew-yang-aponta-novas-oportunidades-de-startups-na-reducao-do-custo-de-vida/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/andrew-yang-aponta-novas-oportunidades-de-startups-na-reducao-do-custo-de-vida/</guid>
+      <pubDate>Sat, 13 Jun 2026 04:24:17 GMT</pubDate>
+      <description>Ex-candidato presidencial americano identifica áreas de alto gasto como foco para inovação</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Anthropic Lança Atualização do Claude Code v2.1.177</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-lanca-atualizacao-do-claude-code-v2-1-177/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-lanca-atualizacao-do-claude-code-v2-1-177/</guid>
+      <pubDate>Sat, 13 Jun 2026 04:24:05 GMT</pubDate>
+      <description>Novidades no desenvolvimento de modelos de linguagem abertos para o mercado brasileiro.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.177">Claude Code</source>
+    </item>
     <item>
       <title>Unidade de IA da Meta enfrenta crise interna: engenheiros descrevem ambiente de trabalho como "gulag"</title>
       <link>https://pulsodaia.com.br/feed/unidade-de-ia-da-meta-enfrenta-crise-interna-engenheiros-descrevem-ambiente-de-t/</link>
@@ -430,33 +457,6 @@
       <description>A transição de Euwyn Poon, que construiu a Spin, para infraestrutura de dados em órbita marca um novo capítulo na computação espacial.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Agentes de IA Criam Galeria 3D em Paris Combinando Dois Ambientes Hugging Face</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-criam-galeria-3d-em-paris-combinando-dois-ambientes-hugging-face/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-criam-galeria-3d-em-paris-combinando-dois-ambientes-hugging-face/</guid>
-      <pubDate>Tue, 09 Jun 2026 12:43:31 GMT</pubDate>
-      <description>A orquestração de modelos de IA demonstra um avanço na criação automatizada de conteúdo complexo.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/mishig/spaces-agents-md">Hugging Face</source>
-    </item>
-    <item>
-      <title>Syll: Automação Pessoal de IA de Código Aberto para Múltiplas Interfaces</title>
-      <link>https://pulsodaia.com.br/feed/syll-automacao-pessoal-de-ia-de-codigo-aberto-para-multiplas-interfaces/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/syll-automacao-pessoal-de-ia-de-codigo-aberto-para-multiplas-interfaces/</guid>
-      <pubDate>Tue, 09 Jun 2026 04:09:29 GMT</pubDate>
-      <description>Nova ferramenta busca unificar a interação de agentes de IA com sistemas diversos, da linha de comando a interfaces gráficas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2606.07594">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>OmniMem: Nova Arquitetura de Memória Otimiza LLMs de Áudio e Vídeo para Longas Duração</title>
-      <link>https://pulsodaia.com.br/feed/omnimem-nova-arquitetura-de-memoria-otimiza-llms-de-audio-e-video-para-longas-du/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/omnimem-nova-arquitetura-de-memoria-otimiza-llms-de-audio-e-video-para-longas-du/</guid>
-      <pubDate>Tue, 09 Jun 2026 04:09:17 GMT</pubDate>
-      <description>Pesquisa acadêmica apresenta solução para gargalo de processamento em modelos de IA que analisam vídeos extensos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.07577">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
