@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 14 Jun 2026 12:08:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 14:29:00 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google Cloud Padroniza Conhecimento Corporativo para Agentes de IA com Formato Aberto</title>
+      <link>https://pulsodaia.com.br/feed/google-cloud-padroniza-conhecimento-corporativo-para-agentes-de-ia-com-formato-a/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-cloud-padroniza-conhecimento-corporativo-para-agentes-de-ia-com-formato-a/</guid>
+      <pubDate>Sun, 14 Jun 2026 14:23:11 GMT</pubDate>
+      <description>Nova especificação busca organizar dados dispersos, facilitando a integração com modelos de linguagem.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/google-clouds-open-knowledge-format-turns-scattered-docs-into-markdown-files-for-ai-agents/">The Decoder</source>
+    </item>
+    <item>
+      <title>Mirage: IA da Microsoft para geração de vídeo ganha memória espacial persistente</title>
+      <link>https://pulsodaia.com.br/feed/mirage-ia-da-microsoft-para-geracao-de-video-ganha-memoria-espacial-persistente/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/mirage-ia-da-microsoft-para-geracao-de-video-ganha-memoria-espacial-persistente/</guid>
+      <pubDate>Sun, 14 Jun 2026 14:22:57 GMT</pubDate>
+      <description>Nova abordagem promete cenas mais consistentes em movimentos longos de câmera, mas ainda enfrenta desafios com objetos em movimento.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/microsoft-researchs-mirage-gives-video-generation-a-persistent-spatial-memory-that-doesnt-forget-whats-around-the-corner/">The Decoder</source>
+    </item>
     <item>
       <title>Agentes de IA para Código: Precisão no Arquivo, Falha nas Linhas Cruciais</title>
       <link>https://pulsodaia.com.br/feed/agentes-de-ia-para-codigo-precisao-no-arquivo-falha-nas-linhas-cruciais/</link>
@@ -439,24 +457,6 @@
       <description>Nova arquitetura promete até 4x mais velocidade em tarefas de linguagem.</description>
       <category>LANCAMENTO</category>
       <source url="https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>SpaceX: IPO Bilionário Ancorado em Ambiciosa Estratégia de Centros de Dados Espaciais</title>
-      <link>https://pulsodaia.com.br/feed/spacex-ipo-bilionario-ancorado-em-ambiciosa-estrategia-de-centros-de-dados-espac/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/spacex-ipo-bilionario-ancorado-em-ambiciosa-estrategia-de-centros-de-dados-espac/</guid>
-      <pubDate>Wed, 10 Jun 2026 15:54:07 GMT</pubDate>
-      <description>A avaliação da empresa de Elon Musk para a bolsa se apoia em apostas tecnológicas de longo prazo, com impacto direto no futuro da infraestrutura digital.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Niteshift surge apostando em controle de IA para codificação contra o domínio de grandes players</title>
-      <link>https://pulsodaia.com.br/feed/niteshift-surge-apostando-em-controle-de-ia-para-codificacao-contra-o-dominio-de/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/niteshift-surge-apostando-em-controle-de-ia-para-codificacao-contra-o-dominio-de/</guid>
-      <pubDate>Wed, 10 Jun 2026 15:53:57 GMT</pubDate>
-      <description>Ex-executivos da Datadog arrecadam fundos para oferecer autonomia a empresas no uso de agentes de IA para programação.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

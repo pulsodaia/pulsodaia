@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-06-14T12:03:53.512Z",
+  "generated_at": "2026-06-14T14:23:13.963Z",
   "articles": [
+    {
+      "slug": "google-cloud-padroniza-conhecimento-corporativo-para-agentes-de-ia-com-formato-a",
+      "headline": "Google Cloud Padroniza Conhecimento Corporativo para Agentes de IA com Formato Aberto",
+      "subtitle": "Nova especificação busca organizar dados dispersos, facilitando a integração com modelos de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/google-clouds-open-knowledge-format-turns-scattered-docs-into-markdown-files-for-ai-agents/",
+      "category": "mercado",
+      "tags": [
+        "google cloud",
+        "ia",
+        "conhecimento corporativo",
+        "markdown"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 14 Jun 2026 13:29:52 +0000",
+      "written_at": "2026-06-14T14:23:11.380Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "mirage-ia-da-microsoft-para-geracao-de-video-ganha-memoria-espacial-persistente",
+      "headline": "Mirage: IA da Microsoft para geração de vídeo ganha memória espacial persistente",
+      "subtitle": "Nova abordagem promete cenas mais consistentes em movimentos longos de câmera, mas ainda enfrenta desafios com objetos em movimento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/microsoft-researchs-mirage-gives-video-generation-a-persistent-spatial-memory-that-doesnt-forget-whats-around-the-corner/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "geracao de video",
+        "microsoft research"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 14 Jun 2026 13:58:17 +0000",
+      "written_at": "2026-06-14T14:22:57.445Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "agentes-de-ia-para-codigo-precisao-no-arquivo-falha-nas-linhas-cruciais",
       "headline": "Agentes de IA para Código: Precisão no Arquivo, Falha nas Linhas Cruciais",
