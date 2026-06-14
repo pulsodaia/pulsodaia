@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 14 Jun 2026 14:29:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 17:33:09 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>A Corrida das IAs para a Bolsa: Quem Navega na Onda de IPOs?</title>
+      <link>https://pulsodaia.com.br/feed/a-corrida-das-ias-para-a-bolsa-quem-navega-na-onda-de-ipos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/a-corrida-das-ias-para-a-bolsa-quem-navega-na-onda-de-ipos/</guid>
+      <pubDate>Sun, 14 Jun 2026 17:26:02 GMT</pubDate>
+      <description>O mercado de tecnologia acompanha de perto o movimento de empresas de inteligência artificial em busca de capital.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Google Cloud Padroniza Conhecimento Corporativo para Agentes de IA com Formato Aberto</title>
       <link>https://pulsodaia.com.br/feed/google-cloud-padroniza-conhecimento-corporativo-para-agentes-de-ia-com-formato-a/</link>
@@ -448,15 +457,6 @@
       <description>Investimento em inteligência artificial atinge patamares elevados, superando salários de engenheiros em alguns casos.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>DeepMind Acelera Geração de Texto com DiffusionGemma</title>
-      <link>https://pulsodaia.com.br/feed/deepmind-acelera-geracao-de-texto-com-diffusiongemma/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-acelera-geracao-de-texto-com-diffusiongemma/</guid>
-      <pubDate>Wed, 10 Jun 2026 18:35:20 GMT</pubDate>
-      <description>Nova arquitetura promete até 4x mais velocidade em tarefas de linguagem.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/">Google DeepMind</source>
     </item>
   </channel>
 </rss>
