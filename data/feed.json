@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-14T19:46:30.563Z",
+  "generated_at": "2026-06-15T05:08:01.777Z",
   "articles": [
+    {
+      "slug": "enigma-da-logica-a-origem-do-quebra-cabeca-das-criancas-sujas-e-seu-legado-para-",
+      "headline": "Enigma da Lógica: A Origem do Quebra-Cabeça das Crianças Sujas e Seu Legado para a IA",
+      "subtitle": "Um estudo no arXiv desvenda a história e a influência de um problema de conhecimento e ignorância que moldou a lógica epistêmica.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.13703",
+      "category": "research",
+      "tags": [
+        "logica epistêmica",
+        "inteligência artificial",
+        "enigmas"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-15T05:08:01.762Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-em-dialogos-adaptacao-dinamica-de-estrategias-com-retratos-de-usuario",
+      "headline": "IA em Diálogos: Adaptação Dinâmica de Estratégias com Retratos de Usuário",
+      "subtitle": "Pesquisadores propõem nova abordagem para personalização de assistentes virtuais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.13683",
+      "category": "research",
+      "tags": [
+        "ia",
+        "dialogos",
+        "personalizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-15T05:07:50.886Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-com-transformer-otimiza-processos-industriais-complexos",
+      "headline": "IA com Transformer Otimiza Processos Industriais Complexos",
+      "subtitle": "Nova abordagem de aprendizado por reforço profundo promete agilizar a gestão de produção em larga escala.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.13682",
+      "category": "research",
+      "tags": [
+        "ia",
+        "otimizacao",
+        "aprendizado por reforço"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-15T05:07:40.563Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "eua-restringem-acesso-a-modelo-de-ia-da-anthropic-por-temores-de-espionagem-chin",
       "headline": "EUA Restringem Acesso a Modelo de IA da Anthropic por Temores de Espionagem Chinesa",
