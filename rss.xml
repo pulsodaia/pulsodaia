@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 15 Jun 2026 05:14:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 18:49:41 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Especialistas em Segurança Cibernética Criticam Restrições dos EUA a Modelos de IA da Anthropic</title>
+      <link>https://pulsodaia.com.br/feed/especialistas-em-seguranca-cibernetica-criticam-restricoes-dos-eua-a-modelos-de-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/especialistas-em-seguranca-cibernetica-criticam-restricoes-dos-eua-a-modelos-de-/</guid>
+      <pubDate>Mon, 15 Jun 2026 18:43:44 GMT</pubDate>
+      <description>A proibição de exportação de ferramentas avançadas de IA pode prejudicar a defesa digital global.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Meta Integra IA ao Facebook: Busca por Engajamento em Nova Corrida Tecnológica</title>
+      <link>https://pulsodaia.com.br/feed/meta-integra-ia-ao-facebook-busca-por-engajamento-em-nova-corrida-tecnologica/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-integra-ia-ao-facebook-busca-por-engajamento-em-nova-corrida-tecnologica/</guid>
+      <pubDate>Mon, 15 Jun 2026 18:43:32 GMT</pubDate>
+      <description>A gigante das redes sociais aposta em novas funcionalidades de inteligência artificial para reter usuários.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Google Aumenta Investimento em Infraestrutura de IA nos EUA com Foco em Alabama</title>
+      <link>https://pulsodaia.com.br/feed/google-aumenta-investimento-em-infraestrutura-de-ia-nos-eua-com-foco-em-alabama/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-aumenta-investimento-em-infraestrutura-de-ia-nos-eua-com-foco-em-alabama/</guid>
+      <pubDate>Mon, 15 Jun 2026 18:43:21 GMT</pubDate>
+      <description>A expansão de data centers nos Estados Unidos reflete a demanda crescente por capacidade computacional para IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/">Google AI</source>
+    </item>
     <item>
       <title>Enigma da Lógica: A Origem do Quebra-Cabeça das Crianças Sujas e Seu Legado para a IA</title>
       <link>https://pulsodaia.com.br/feed/enigma-da-logica-a-origem-do-quebra-cabeca-das-criancas-sujas-e-seu-legado-para-/</link>
@@ -430,33 +457,6 @@
       <description>Empresa admite erro em prática que limitava acesso a modelos, mas controvérsias persistem.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/">The Decoder</source>
-    </item>
-    <item>
-      <title>Deezer Oferece Tecnologia para Identificar Música Gerada por IA a Concorrentes</title>
-      <link>https://pulsodaia.com.br/feed/deezer-oferece-tecnologia-para-identificar-musica-gerada-por-ia-a-concorrentes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deezer-oferece-tecnologia-para-identificar-musica-gerada-por-ia-a-concorrentes/</guid>
-      <pubDate>Thu, 11 Jun 2026 10:49:28 GMT</pubDate>
-      <description>A plataforma busca padronizar a rotulagem de conteúdo musical sintético no streaming.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple">The Verge AI</source>
-    </item>
-    <item>
-      <title>Claude Code Resolve Bugs Críticos em Nova Atualização</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-resolve-bugs-criticos-em-nova-atualizacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-resolve-bugs-criticos-em-nova-atualizacao/</guid>
-      <pubDate>Thu, 11 Jun 2026 10:49:17 GMT</pubDate>
-      <description>A Anthropic aprimora a estabilidade e a experiência do usuário em seu ambiente de desenvolvimento de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.173">Claude Code</source>
-    </item>
-    <item>
-      <title>IA em Ciência: Novos Testes Avaliam Capacidade de Síntese de Conclusões Científicas</title>
-      <link>https://pulsodaia.com.br/feed/ia-em-ciencia-novos-testes-avaliam-capacidade-de-sintese-de-conclusoes-cientific/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-ciencia-novos-testes-avaliam-capacidade-de-sintese-de-conclusoes-cientific/</guid>
-      <pubDate>Thu, 11 Jun 2026 04:43:07 GMT</pubDate>
-      <description>Uma nova ferramenta de avaliação busca validar se agentes de IA podem, de fato, gerar descobertas científicas confiáveis.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.11337">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
