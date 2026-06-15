@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 15 Jun 2026 18:49:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 22:31:56 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic Enfrenta Bloqueio Governamental para Modelos de IA Avançados</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-enfrenta-bloqueio-governamental-para-modelos-de-ia-avancados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-enfrenta-bloqueio-governamental-para-modelos-de-ia-avancados/</guid>
+      <pubDate>Mon, 15 Jun 2026 22:24:06 GMT</pubDate>
+      <description>A empresa de IA se vê em um novo embate com o governo dos EUA, impactando o acesso a suas tecnologias mais recentes.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown">The Verge AI</source>
+    </item>
+    <item>
+      <title>Governo Americano Restringe Modelos da Anthropic: Interferência ou Retaliação?</title>
+      <link>https://pulsodaia.com.br/feed/governo-americano-restringe-modelos-da-anthropic-interferencia-ou-retaliacao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governo-americano-restringe-modelos-da-anthropic-interferencia-ou-retaliacao/</guid>
+      <pubDate>Mon, 15 Jun 2026 22:23:56 GMT</pubDate>
+      <description>Decisão sobre modelos de cibersegurança levanta questões sobre a autonomia da indústria de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code v2.1.178 Refina Controle e Organização de Skills</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-178-refina-controle-e-organizacao-de-skills/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-178-refina-controle-e-organizacao-de-skills/</guid>
+      <pubDate>Mon, 15 Jun 2026 22:23:45 GMT</pubDate>
+      <description>Nova versão do ambiente de desenvolvimento para Claude introduz sintaxe para regras de permissão e melhora o carregamento de skills aninhadas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.178">Claude Code</source>
+    </item>
     <item>
       <title>Especialistas em Segurança Cibernética Criticam Restrições dos EUA a Modelos de IA da Anthropic</title>
       <link>https://pulsodaia.com.br/feed/especialistas-em-seguranca-cibernetica-criticam-restricoes-dos-eua-a-modelos-de-/</link>
@@ -430,33 +457,6 @@
       <description>Novas técnicas de otimização no PyTorch prometem acelerar modelos de aprendizado de máquina no Brasil.</description>
       <category>ANALISE</category>
       <source url="https://huggingface.co/blog/torch-mlp-fusion">Hugging Face</source>
-    </item>
-    <item>
-      <title>DeepMind Destina US$ 10 Milhões para Pesquisa em Segurança de Sistemas Multi-Agente</title>
-      <link>https://pulsodaia.com.br/feed/deepmind-destina-us-10-milhoes-para-pesquisa-em-seguranca-de-sistemas-multi-agen/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-destina-us-10-milhoes-para-pesquisa-em-seguranca-de-sistemas-multi-agen/</guid>
-      <pubDate>Thu, 11 Jun 2026 20:29:30 GMT</pubDate>
-      <description>Investimento visa mitigar riscos em IAs que interagem entre si e com humanos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Google Investe em Qualificação e Energia Acessível na Virgínia</title>
-      <link>https://pulsodaia.com.br/feed/google-investe-em-qualificacao-e-energia-acessivel-na-virginia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-investe-em-qualificacao-e-energia-acessivel-na-virginia/</guid>
-      <pubDate>Thu, 11 Jun 2026 20:29:20 GMT</pubDate>
-      <description>Ações da gigante tecnológica focam em desenvolvimento de força de trabalho e programas de energia.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/">Google AI</source>
-    </item>
-    <item>
-      <title>Anthropic Reavalia Política de Acesso a Pesquisadores de IA</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-reavalia-politica-de-acesso-a-pesquisadores-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-reavalia-politica-de-acesso-a-pesquisadores-de-ia/</guid>
-      <pubDate>Thu, 11 Jun 2026 10:49:39 GMT</pubDate>
-      <description>Empresa admite erro em prática que limitava acesso a modelos, mas controvérsias persistem.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/">The Decoder</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-15T18:43:44.098Z",
+  "generated_at": "2026-06-15T22:24:07.039Z",
   "articles": [
+    {
+      "slug": "anthropic-enfrenta-bloqueio-governamental-para-modelos-de-ia-avancados",
+      "headline": "Anthropic Enfrenta Bloqueio Governamental para Modelos de IA Avançados",
+      "subtitle": "A empresa de IA se vê em um novo embate com o governo dos EUA, impactando o acesso a suas tecnologias mais recentes.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "ia",
+        "regulamentacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-15T15:04:53-04:00",
+      "written_at": "2026-06-15T22:24:06.743Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.webp"
+    },
+    {
+      "slug": "governo-americano-restringe-modelos-da-anthropic-interferencia-ou-retaliacao",
+      "headline": "Governo Americano Restringe Modelos da Anthropic: Interferência ou Retaliação?",
+      "subtitle": "Decisão sobre modelos de cibersegurança levanta questões sobre a autonomia da indústria de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "regulamentacao",
+        "estados unidos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 15 Jun 2026 21:50:21 +0000",
+      "written_at": "2026-06-15T22:23:56.714Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-v2-1-178-refina-controle-e-organizacao-de-skills",
+      "headline": "Claude Code v2.1.178 Refina Controle e Organização de Skills",
+      "subtitle": "Nova versão do ambiente de desenvolvimento para Claude introduz sintaxe para regras de permissão e melhora o carregamento de skills aninhadas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "ia",
+        "desenvolvimento",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-15T21:35:55Z",
+      "written_at": "2026-06-15T22:23:45.843Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "especialistas-em-seguranca-cibernetica-criticam-restricoes-dos-eua-a-modelos-de-",
       "headline": "Especialistas em Segurança Cibernética Criticam Restrições dos EUA a Modelos de IA da Anthropic",
