@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-16T17:09:41.766Z",
+  "generated_at": "2026-06-16T23:40:40.083Z",
   "articles": [
+    {
+      "slug": "conflito-com-governo-trump-impulsiona-vendas-da-anthropic-sugerem-dados",
+      "headline": "Conflito com Governo Trump Impulsiona Vendas da Anthropic, Sugerem Dados",
+      "subtitle": "A empresa de IA vê um aumento na demanda corporativa, possivelmente beneficiada pela atenção midiática gerada por disputas.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "anthropic",
+        "mercado corporativo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 16 Jun 2026 22:34:17 +0000",
+      "written_at": "2026-06-16T23:40:40.002Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-179-corrige-falhas-cruciais-de-conexao-e-usabilidade",
+      "headline": "Claude Code 2.1.179 Corrige Falhas Cruciais de Conexão e Usabilidade",
+      "subtitle": "Atualização do modelo de linguagem da Anthropic foca em estabilidade e experiência do desenvolvedor.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "atualizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-16T20:22:14Z",
+      "written_at": "2026-06-16T23:40:27.775Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-do-deepmind-acelera-planejamento-de-construcao-no-reino-unido",
+      "headline": "IA do DeepMind Acelera Planejamento de Construção no Reino Unido",
+      "subtitle": "O Brasil também pode se beneficiar de tecnologia similar para agilizar aprovações de projetos urbanos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "category": "google",
+      "tags": [
+        "inteligencia artificial",
+        "construcao civil",
+        "planejamento urbano"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 16 Jun 2026 21:29:50 +0000",
+      "written_at": "2026-06-16T23:40:13.710Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
     {
       "slug": "justica-dos-eua-intervem-em-turbinas-da-xai-por-seguranca-nacional",
       "headline": "Justiça dos EUA intervém em turbinas da xAI por segurança nacional",
