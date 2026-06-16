@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 15 Jun 2026 22:31:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 05:15:32 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos Causais Estruturais Relacionais: A Base para IA com Raciocínio e Generalização</title>
+      <link>https://pulsodaia.com.br/feed/modelos-causais-estruturais-relacionais-a-base-para-ia-com-raciocinio-e-generali/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-causais-estruturais-relacionais-a-base-para-ia-com-raciocinio-e-generali/</guid>
+      <pubDate>Tue, 16 Jun 2026 05:10:34 GMT</pubDate>
+      <description>Pesquisa acadêmica avança na capacidade de sistemas de IA compreenderem relações complexas e agirem de forma mais robusta.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.14892">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Agente: Dr-DCI Otimiza Busca em Grandes Corpos de Dados</title>
+      <link>https://pulsodaia.com.br/feed/ia-agente-dr-dci-otimiza-busca-em-grandes-corpos-de-dados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-agente-dr-dci-otimiza-busca-em-grandes-corpos-de-dados/</guid>
+      <pubDate>Tue, 16 Jun 2026 05:10:24 GMT</pubDate>
+      <description>Nova abordagem busca aprimorar a interação de agentes de IA com vastas coleções de documentos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.14885">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA: A Busca por Explicações Claras e os Desafios dos LLMs</title>
+      <link>https://pulsodaia.com.br/feed/ia-a-busca-por-explicacoes-claras-e-os-desafios-dos-llms/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-a-busca-por-explicacoes-claras-e-os-desafios-dos-llms/</guid>
+      <pubDate>Tue, 16 Jun 2026 05:10:12 GMT</pubDate>
+      <description>Um novo estudo no arXiv busca definir o que constitui uma boa explicação para saídas de IA, especialmente em modelos de linguagem.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.14838">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Anthropic Enfrenta Bloqueio Governamental para Modelos de IA Avançados</title>
       <link>https://pulsodaia.com.br/feed/anthropic-enfrenta-bloqueio-governamental-para-modelos-de-ia-avancados/</link>
@@ -430,33 +457,6 @@
       <description>A empresa de IA promete mais transparência após críticas de pesquisadores e concorrentes.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail">The Verge AI</source>
-    </item>
-    <item>
-      <title>Amazon Revela Consumo de Água em Data Centers: 9,5 Bilhões de Litros em um Ano</title>
-      <link>https://pulsodaia.com.br/feed/amazon-revela-consumo-de-agua-em-data-centers-9-5-bilhoes-de-litros-em-um-ano/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-revela-consumo-de-agua-em-data-centers-9-5-bilhoes-de-litros-em-um-ano/</guid>
-      <pubDate>Thu, 11 Jun 2026 23:42:56 GMT</pubDate>
-      <description>Ainda que a notícia seja global, o debate sobre infraestrutura e sustentabilidade de IA ganha força no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/tech/948534/amazon-data-centers-water-use">The Verge AI</source>
-    </item>
-    <item>
-      <title>SpaceX Define Valor de Ações em IPO Histórico</title>
-      <link>https://pulsodaia.com.br/feed/spacex-define-valor-de-acoes-em-ipo-historico/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/spacex-define-valor-de-acoes-em-ipo-historico/</guid>
-      <pubDate>Thu, 11 Jun 2026 23:42:46 GMT</pubDate>
-      <description>A empresa de Elon Musk inicia sua jornada no mercado público, estabelecendo um novo marco financeiro global.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Otimização de ML no PyTorch: A Fusão de Camadas Lineares para Desempenho</title>
-      <link>https://pulsodaia.com.br/feed/otimizacao-de-ml-no-pytorch-a-fusao-de-camadas-lineares-para-desempenho/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-de-ml-no-pytorch-a-fusao-de-camadas-lineares-para-desempenho/</guid>
-      <pubDate>Thu, 11 Jun 2026 20:29:42 GMT</pubDate>
-      <description>Novas técnicas de otimização no PyTorch prometem acelerar modelos de aprendizado de máquina no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://huggingface.co/blog/torch-mlp-fusion">Hugging Face</source>
     </item>
   </channel>
 </rss>

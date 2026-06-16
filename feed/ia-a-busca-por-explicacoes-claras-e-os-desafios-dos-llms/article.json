@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2606.14838v1",
+  "title": "A Definition of Good Explanations and the Challenges Explaining LLM Outputs",
+  "url": "https://arxiv.org/abs/2606.14838",
+  "summary": "arXiv:2606.14838v1 Announce Type: new Abstract: How to define a good explanation is a long-standing philosophical debate which has found recent renewed interest in the context of AI outputs. Explainability is crucial for AI adoption in many contexts, but in order to produce good explanations of AI systems, we must first have an understanding of what good explanations are. In this paper we propose a definition inspired by the notion of counterfactual explanations, however we argue that one must also take into account the interlocutor's prior beliefs in each fact that could be offered in an explanation. We explore the ramifications of this definition for AI explainability and, in particular, why LLM outputs are difficult to produce good explanations for.",
+  "published_at": "Tue, 16 Jun 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA: A Busca por Explicações Claras e os Desafios dos LLMs",
+  "subtitle": "Um novo estudo no arXiv busca definir o que constitui uma boa explicação para saídas de IA, especialmente em modelos de linguagem.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "A explicabilidade da inteligência artificial é um gargalo para sua adoção generalizada. Um artigo recente no arXiv propõe uma definição de \"boas explicações\", focando nas crenças prévias do interlocutor, e aponta os modelos de linguagem como um desafio particular.",
+  "body_markdown": "## O que aconteceu\n\nA capacidade de entender por que um sistema de IA tomou uma determinada decisão é fundamental para a confiança e a adoção em diversos setores. No entanto, a definição de \"boa explicação\" tem sido um tema de debate filosófico há muito tempo, e agora ganha urgência com o avanço da inteligência artificial. Um novo trabalho acadêmico publicado no arXiv, intitulado \"A Definition of Good Explanations and the Challenges Explaining LLM Outputs\" (https://arxiv.org/abs/2606.14838), aborda diretamente essa questão. Os autores sugerem que uma explicação eficaz não se limita a apresentar fatos ou contrafatuais, mas deve considerar o conhecimento prévio e as crenças de quem a recebe. Essa nuance é crucial para que a informação seja realmente compreendida e aceita.\n\n## Por que importa\n\nNo Brasil, onde a adoção de IA em empresas e órgãos públicos avança, a falta de explicabilidade pode gerar resistência. Se usuários e gestores não conseguem compreender o raciocínio por trás das recomendações ou decisões de um sistema de IA, a implementação se torna arriscada. Isso afeta desde a conformidade regulatória até a aceitação por parte dos profissionais que utilizam essas ferramentas. Para os modelos de linguagem grandes (LLMs), como aqueles que geram textos ou respondem a perguntas, o desafio é ainda maior. Suas operações internas são complexas, tornando a tarefa de extrair uma explicação clara e concisa uma tarefa árdua. A proposta do estudo de considerar o interlocutor é vital para adaptar a linguagem e o nível de detalhe das explicações, aumentando a probabilidade de serem úteis e confiáveis no contexto brasileiro.\n\n## O que esperar\n\nA pesquisa aponta para a necessidade de modelos de IA que não apenas gerem resultados, mas que também consigam \"traduzir\" seu processo de decisão de forma acessível. Para os LLMs, isso pode significar o desenvolvimento de técnicas de explicabilidade mais sofisticadas, que vão além da simples listagem de dados de treinamento. A consideração das crenças prévias do usuário sugere que as futuras ferramentas de explicabilidade poderão ser personalizadas, ajustando a explicação ao perfil de conhecimento de cada indivíduo. Isso abre caminho para interfaces mais intuitivas e para a construção de um relacionamento de maior confiança entre humanos e máquinas. O estudo (https://arxiv.org/abs/2606.14838) serve como um chamado para que pesquisadores e desenvolvedores priorizem a engenharia de explicações que sejam verdadeiramente informativas e adaptadas ao contexto do usuário.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A capacidade de entender por que um sistema de IA tomou uma determinada decisão é fundamental para a confiança e a adoção em diversos setores. No entanto, a definição de \"boa explicação\" tem sido um tema de debate filosófico há muito tempo, e agora ganha urgência com o avanço da inteligência artificial. Um novo trabalho acadêmico publicado no arXiv, intitulado \"A Definition of Good Explanations and the Challenges Explaining LLM Outputs\" (https://arxiv.org/abs/2606.14838), aborda diretamente essa questão. Os autores sugerem que uma explicação eficaz não se limita a apresentar fatos ou contrafatuais, mas deve considerar o conhecimento prévio e as crenças de quem a recebe. Essa nuance é crucial para que a informação seja realmente compreendida e aceita.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, onde a adoção de IA em empresas e órgãos públicos avança, a falta de explicabilidade pode gerar resistência. Se usuários e gestores não conseguem compreender o raciocínio por trás das recomendações ou decisões de um sistema de IA, a implementação se torna arriscada. Isso afeta desde a conformidade regulatória até a aceitação por parte dos profissionais que utilizam essas ferramentas. Para os modelos de linguagem grandes (LLMs), como aqueles que geram textos ou respondem a perguntas, o desafio é ainda maior. Suas operações internas são complexas, tornando a tarefa de extrair uma explicação clara e concisa uma tarefa árdua. A proposta do estudo de considerar o interlocutor é vital para adaptar a linguagem e o nível de detalhe das explicações, aumentando a probabilidade de serem úteis e confiáveis no contexto brasileiro.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa aponta para a necessidade de modelos de IA que não apenas gerem resultados, mas que também consigam \"traduzir\" seu processo de decisão de forma acessível. Para os LLMs, isso pode significar o desenvolvimento de técnicas de explicabilidade mais sofisticadas, que vão além da simples listagem de dados de treinamento. A consideração das crenças prévias do usuário sugere que as futuras ferramentas de explicabilidade poderão ser personalizadas, ajustando a explicação ao perfil de conhecimento de cada indivíduo. Isso abre caminho para interfaces mais intuitivas e para a construção de um relacionamento de maior confiança entre humanos e máquinas. O estudo (https://arxiv.org/abs/2606.14838) serve como um chamado para que pesquisadores e desenvolvedores priorizem a engenharia de explicações que sejam verdadeiramente informativas e adaptadas ao contexto do usuário.</p>",
+  "tags": [
+    "explicabilidade ia",
+    "modelos de linguagem",
+    "llm"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "explicabilidade de IA",
+    "modelos de linguagem grande",
+    "LLM",
+    "compreensao de IA",
+    "confiança em IA"
+  ],
+  "meta_description_seo": "Estudo no arXiv define boas explicações para IA, destacando desafios na explicabilidade de LLMs e a importância do interlocutor.",
+  "faq": [
+    {
+      "q": "O que é uma boa explicação em IA segundo o estudo?",
+      "a": "Uma boa explicação considera as crenças prévias do interlocutor sobre os fatos apresentados, indo além de simples contrafatuais."
+    },
+    {
+      "q": "Por que LLMs são difíceis de explicar?",
+      "a": "A complexidade interna dos modelos de linguagem grandes torna desafiador extrair e apresentar de forma clara o raciocínio por trás de suas saídas."
+    },
+    {
+      "q": "Qual a importância da explicabilidade para a IA?",
+      "a": "A explicabilidade é crucial para a adoção da IA em diversos contextos, pois aumenta a confiança dos usuários e facilita a conformidade regulatória."
+    }
+  ],
+  "written_at": "2026-06-16T05:10:12.927Z",
+  "slug": "ia-a-busca-por-explicacoes-claras-e-os-desafios-dos-llms",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-15T22:24:07.039Z",
+  "generated_at": "2026-06-16T05:10:34.830Z",
   "articles": [
+    {
+      "slug": "modelos-causais-estruturais-relacionais-a-base-para-ia-com-raciocinio-e-generali",
+      "headline": "Modelos Causais Estruturais Relacionais: A Base para IA com Raciocínio e Generalização",
+      "subtitle": "Pesquisa acadêmica avança na capacidade de sistemas de IA compreenderem relações complexas e agirem de forma mais robusta.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.14892",
+      "category": "research",
+      "tags": [
+        "ia causal",
+        "aprendizado de maquina",
+        "raciocínio"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-16T05:10:34.799Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-agente-dr-dci-otimiza-busca-em-grandes-corpos-de-dados",
+      "headline": "IA Agente: Dr-DCI Otimiza Busca em Grandes Corpos de Dados",
+      "subtitle": "Nova abordagem busca aprimorar a interação de agentes de IA com vastas coleções de documentos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.14885",
+      "category": "research",
+      "tags": [
+        "ia agente",
+        "busca de dados",
+        "processamento de linguagem natural"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-16T05:10:24.383Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-a-busca-por-explicacoes-claras-e-os-desafios-dos-llms",
+      "headline": "IA: A Busca por Explicações Claras e os Desafios dos LLMs",
+      "subtitle": "Um novo estudo no arXiv busca definir o que constitui uma boa explicação para saídas de IA, especialmente em modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.14838",
+      "category": "research",
+      "tags": [
+        "explicabilidade ia",
+        "modelos de linguagem",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-16T05:10:12.927Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "anthropic-enfrenta-bloqueio-governamental-para-modelos-de-ia-avancados",
       "headline": "Anthropic Enfrenta Bloqueio Governamental para Modelos de IA Avançados",
