@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-17T04:52:56.816Z",
+  "generated_at": "2026-06-17T11:09:38.595Z",
   "articles": [
+    {
+      "slug": "robos-humanoides-podem-dispensar-cabecas-e-pernas-redefine-a-genesis-ai",
+      "headline": "Robôs humanoides podem dispensar cabeças e pernas, redefine a Genesis AI",
+      "subtitle": "A busca por eficiência na robótica avança além da antropomorfização tradicional.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
+      "category": "mercado",
+      "tags": [
+        "robótica",
+        "inteligência artificial",
+        "automação"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-06-17T05:46:56-04:00",
+      "written_at": "2026-06-17T11:09:38.360Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "glm-5-2-chega-para-tarefas-de-longo-alcance",
+      "headline": "GLM-5.2 Chega para Tarefas de Longo Alcance",
+      "subtitle": "Novo modelo da Zhai.AI busca superar limitações em processamento de sequências extensas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "category": "opensource",
+      "tags": [
+        "glm-5.2",
+        "zhai.ai",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 17 Jun 2026 09:01:25 GMT",
+      "written_at": "2026-06-17T11:09:24.609Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-hub-conecta-modelos-de-ia-a-robos-fisicos",
+      "headline": "Hugging Face Hub Conecta Modelos de IA a Robôs Físicos",
+      "subtitle": "Plataforma de código aberto busca democratizar o acesso a hardware robótico para desenvolvedores brasileiros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "robótica",
+        "hugging face",
+        "open source"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 17 Jun 2026 10:18:05 GMT",
+      "written_at": "2026-06-17T11:09:11.710Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "novos-benchmarks-para-gestao-de-producao-ia-avalia-competencias-de-mao-de-obra",
       "headline": "Novos benchmarks para gestão de produção: IA avalia competências de mão de obra",
