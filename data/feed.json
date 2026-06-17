@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-06-16T23:40:40.083Z",
+  "generated_at": "2026-06-17T04:52:56.816Z",
   "articles": [
+    {
+      "slug": "novos-benchmarks-para-gestao-de-producao-ia-avalia-competencias-de-mao-de-obra",
+      "headline": "Novos benchmarks para gestão de produção: IA avalia competências de mão de obra",
+      "subtitle": "Pesquisa acadêmica propõe ferramenta para simular impacto do treinamento na cadeia produtiva.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.17266",
+      "category": "research",
+      "tags": [
+        "ia",
+        "gestão de produção",
+        "reskilling"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-17T04:52:56.678Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-aprende-regras-juridicas-para-melhorar-busca-de-casos",
+      "headline": "IA Aprende Regras Jurídicas para Melhorar Busca de Casos",
+      "subtitle": "Um agente de IA autônomo promete refinar a precisão na recuperação de jurisprudência sem a necessidade de treinamento de parâmetros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.17220",
+      "category": "research",
+      "tags": [
+        "ia",
+        "direito",
+        "recuperacao de informacao",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-17T04:52:44.486Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-em-busca-diversidade-na-inicializacao-de-consultas-melhora-eficiencia",
+      "headline": "IA em Busca: Diversidade na Inicialização de Consultas Melhora Eficiência",
+      "subtitle": "Pesquisa no arXiv propõe método para evitar redundância em agentes autônomos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2606.17209",
+      "category": "research",
+      "tags": [
+        "agentes de ia",
+        "busca autônoma",
+        "diversidade de consulta"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-17T04:52:33.555Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "conflito-com-governo-trump-impulsiona-vendas-da-anthropic-sugerem-dados",
       "headline": "Conflito com Governo Trump Impulsiona Vendas da Anthropic, Sugerem Dados",

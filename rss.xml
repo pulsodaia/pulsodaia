@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 16 Jun 2026 23:46:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 04:58:39 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Novos benchmarks para gestão de produção: IA avalia competências de mão de obra</title>
+      <link>https://pulsodaia.com.br/feed/novos-benchmarks-para-gestao-de-producao-ia-avalia-competencias-de-mao-de-obra/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/novos-benchmarks-para-gestao-de-producao-ia-avalia-competencias-de-mao-de-obra/</guid>
+      <pubDate>Wed, 17 Jun 2026 04:52:56 GMT</pubDate>
+      <description>Pesquisa acadêmica propõe ferramenta para simular impacto do treinamento na cadeia produtiva.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2606.17266">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Aprende Regras Jurídicas para Melhorar Busca de Casos</title>
+      <link>https://pulsodaia.com.br/feed/ia-aprende-regras-juridicas-para-melhorar-busca-de-casos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-regras-juridicas-para-melhorar-busca-de-casos/</guid>
+      <pubDate>Wed, 17 Jun 2026 04:52:44 GMT</pubDate>
+      <description>Um agente de IA autônomo promete refinar a precisão na recuperação de jurisprudência sem a necessidade de treinamento de parâmetros.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2606.17220">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA em Busca: Diversidade na Inicialização de Consultas Melhora Eficiência</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-busca-diversidade-na-inicializacao-de-consultas-melhora-eficiencia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-busca-diversidade-na-inicializacao-de-consultas-melhora-eficiencia/</guid>
+      <pubDate>Wed, 17 Jun 2026 04:52:33 GMT</pubDate>
+      <description>Pesquisa no arXiv propõe método para evitar redundância em agentes autônomos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.17209">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Conflito com Governo Trump Impulsiona Vendas da Anthropic, Sugerem Dados</title>
       <link>https://pulsodaia.com.br/feed/conflito-com-governo-trump-impulsiona-vendas-da-anthropic-sugerem-dados/</link>
@@ -430,33 +457,6 @@
       <description>Atualização foca em personalização de idioma, gerenciamento de credenciais e controle de acesso a modelos.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.176">Claude Code</source>
-    </item>
-    <item>
-      <title>Mercado de IPOs Renasce com Gigantes de Tecnologia e IA</title>
-      <link>https://pulsodaia.com.br/feed/mercado-de-ipos-renasce-com-gigantes-de-tecnologia-e-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/mercado-de-ipos-renasce-com-gigantes-de-tecnologia-e-ia/</guid>
-      <pubDate>Fri, 12 Jun 2026 18:13:05 GMT</pubDate>
-      <description>Novos nomes como Anthropic e OpenAI se preparam para o mercado, desafiando a hegemonia das antigas FAANG.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Mistral AI Busca €3 Bilhões em Rodada que Pode Avaliá-la em €20 Bilhões</title>
-      <link>https://pulsodaia.com.br/feed/mistral-ai-busca-3-bilhoes-em-rodada-que-pode-avalia-la-em-20-bilhoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/mistral-ai-busca-3-bilhoes-em-rodada-que-pode-avalia-la-em-20-bilhoes/</guid>
-      <pubDate>Fri, 12 Jun 2026 18:12:54 GMT</pubDate>
-      <description>Gigante europeia de IA se consolida como um player global em meio a investimentos massivos.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Hugging Face lança olmo-eval, plataforma para otimizar o ciclo de desenvolvimento de modelos de IA</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-lanca-olmo-eval-plataforma-para-otimizar-o-ciclo-de-desenvolvimento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-lanca-olmo-eval-plataforma-para-otimizar-o-ciclo-de-desenvolvimento/</guid>
-      <pubDate>Fri, 12 Jun 2026 18:12:42 GMT</pubDate>
-      <description>Ferramenta busca agilizar a avaliação e aprimoramento de modelos, um passo crucial para a adoção em larga escala no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/allenai/olmo-eval">Hugging Face</source>
     </item>
   </channel>
 </rss>
