@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-17T11:09:38.595Z",
+  "generated_at": "2026-06-17T18:27:19.637Z",
   "articles": [
+    {
+      "slug": "algoritmos-de-redes-sociais-agora-sob-controle-do-usuario",
+      "headline": "Algoritmos de Redes Sociais Agora Sob Controle do Usuário",
+      "subtitle": "Plataformas liberam ferramentas para personalização de feeds, moldando a experiência digital.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/",
+      "category": "mercado",
+      "tags": [
+        "redes sociais",
+        "algoritmos",
+        "personalização"
+      ],
+      "read_time_min": 2,
+      "published_at": "Wed, 17 Jun 2026 18:19:48 +0000",
+      "written_at": "2026-06-17T18:27:19.465Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "molmomotion-gera-movimento-3d-a-partir-de-instrucoes-em-linguagem-natural",
+      "headline": "MolmoMotion Gera Movimento 3D a Partir de Instruções em Linguagem Natural",
+      "subtitle": "Nova abordagem promete facilitar a criação de animações e simulações complexas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/molmomotion",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "3d",
+        "animacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 17 Jun 2026 15:26:44 GMT",
+      "written_at": "2026-06-17T18:27:03.389Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-conversacional-do-google-igual-ao-medico-em-diagnostico-de-doencas-complexas",
+      "headline": "IA Conversacional do Google Igual ao Médico em Diagnóstico de Doenças Complexas",
+      "subtitle": "Pesquisa em revista científica de renome aponta que AMIE, sistema de IA do Google, demonstra capacidade comparável a médicos de atenção primária no manejo de condições de saúde.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "category": "google",
+      "tags": [
+        "inteligencia artificial",
+        "saude",
+        "google ai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 17 Jun 2026 15:00:00 +0000",
+      "written_at": "2026-06-17T18:26:51.570Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "robos-humanoides-podem-dispensar-cabecas-e-pernas-redefine-a-genesis-ai",
       "headline": "Robôs humanoides podem dispensar cabeças e pernas, redefine a Genesis AI",
