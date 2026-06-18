@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 17 Jun 2026 22:13:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 10:45:40 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>SproutRAG: Nova Abordagem Hierárquica para Geração Aumentada por Recuperação em Documentos Longos</title>
+      <link>https://pulsodaia.com.br/feed/sproutrag-nova-abordagem-hierarquica-para-geracao-aumentada-por-recuperacao-em-d/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/sproutrag-nova-abordagem-hierarquica-para-geracao-aumentada-por-recuperacao-em-d/</guid>
+      <pubDate>Thu, 18 Jun 2026 10:40:43 GMT</pubDate>
+      <description>Pesquisadores apresentam um método que organiza informações de maneira mais eficiente, prometendo aprimorar a capacidade de LLMs lidarem com textos extensos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2606.18381">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IA Local Protege Dados de Alunos em Diálogos Educacionais</title>
+      <link>https://pulsodaia.com.br/feed/ia-local-protege-dados-de-alunos-em-dialogos-educacionais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-local-protege-dados-de-alunos-em-dialogos-educacionais/</guid>
+      <pubDate>Thu, 18 Jun 2026 10:40:29 GMT</pubDate>
+      <description>Pesquisa propõe nova abordagem para anonimizar informações sensíveis sem expor dados a terceiros.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.18372">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IA de audio aprende a "pensar" acusticamente antes de responder</title>
+      <link>https://pulsodaia.com.br/feed/ia-de-audio-aprende-a-pensar-acusticamente-antes-de-responder/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-audio-aprende-a-pensar-acusticamente-antes-de-responder/</guid>
+      <pubDate>Thu, 18 Jun 2026 10:40:16 GMT</pubDate>
+      <description>Pesquisadores propõem nova arquitetura para modelos de linguagem de audio que preserva detalhes sonoros.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2606.18273">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>O Custo Real da IA: Empresas Buscam ROI em Meio a Gastos Excessivos</title>
       <link>https://pulsodaia.com.br/feed/o-custo-real-da-ia-empresas-buscam-roi-em-meio-a-gastos-excessivos/</link>
@@ -430,33 +457,6 @@
       <description>A gigante de tecnologia sinaliza um novo foco em eficiência financeira na adoção de inteligência artificial.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/">The Decoder</source>
-    </item>
-    <item>
-      <title>Claude Fable 5 Supera GPT-5.5 em Desempenho Matemático Avançado</title>
-      <link>https://pulsodaia.com.br/feed/claude-fable-5-supera-gpt-5-5-em-desempenho-matematico-avancado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-fable-5-supera-gpt-5-5-em-desempenho-matematico-avancado/</guid>
-      <pubDate>Sat, 13 Jun 2026 11:57:45 GMT</pubDate>
-      <description>Novos benchmarks indicam avanço significativo da Anthropic em raciocínio complexo, com impacto direto no desenvolvimento de IAs no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/claude-fable-5-outpaces-gpt-5-5-by-13-points-on-frontiermaths-toughest-problems/">The Decoder</source>
-    </item>
-    <item>
-      <title>Hollywood e IA: além dos modelos genéricos</title>
-      <link>https://pulsodaia.com.br/feed/hollywood-e-ia-alem-dos-modelos-genericos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hollywood-e-ia-alem-dos-modelos-genericos/</guid>
-      <pubDate>Sat, 13 Jun 2026 11:57:34 GMT</pubDate>
-      <description>O debate sobre o uso de IA no cinema vai além da simples geração de conteúdo.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai">The Verge AI</source>
-    </item>
-    <item>
-      <title>Governo dos EUA força Anthropic a desativar modelos Claude Fable 5 e Mythos 5 globalmente</title>
-      <link>https://pulsodaia.com.br/feed/governo-dos-eua-forca-anthropic-a-desativar-modelos-claude-fable-5-e-mythos-5-gl/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governo-dos-eua-forca-anthropic-a-desativar-modelos-claude-fable-5-e-mythos-5-gl/</guid>
-      <pubDate>Sat, 13 Jun 2026 09:26:36 GMT</pubDate>
-      <description>Decisão levanta debates sobre segurança, riscos de jailbreak e o futuro de implementações de ponta em IA.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/us-government-forces-anthropic-to-disable-claude-fable-5-and-mythos-5-for-all-customers-worldwide/">The Decoder</source>
     </item>
   </channel>
 </rss>

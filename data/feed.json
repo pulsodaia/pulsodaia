@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-06-17T22:07:42.696Z",
+  "generated_at": "2026-06-18T10:40:43.781Z",
   "articles": [
+    {
+      "slug": "sproutrag-nova-abordagem-hierarquica-para-geracao-aumentada-por-recuperacao-em-d",
+      "headline": "SproutRAG: Nova Abordagem Hierárquica para Geração Aumentada por Recuperação em Documentos Longos",
+      "subtitle": "Pesquisadores apresentam um método que organiza informações de maneira mais eficiente, prometendo aprimorar a capacidade de LLMs lidarem com textos extensos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2606.18381",
+      "category": "research",
+      "tags": [
+        "rag",
+        "llm",
+        "processamento de linguagem natural"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-18T10:40:43.764Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-local-protege-dados-de-alunos-em-dialogos-educacionais",
+      "headline": "IA Local Protege Dados de Alunos em Diálogos Educacionais",
+      "subtitle": "Pesquisa propõe nova abordagem para anonimizar informações sensíveis sem expor dados a terceiros.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2606.18372",
+      "category": "research",
+      "tags": [
+        "ia local",
+        "privacidade de dados",
+        "educação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-18T10:40:29.985Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-de-audio-aprende-a-pensar-acusticamente-antes-de-responder",
+      "headline": "IA de audio aprende a \"pensar\" acusticamente antes de responder",
+      "subtitle": "Pesquisadores propõem nova arquitetura para modelos de linguagem de audio que preserva detalhes sonoros.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2606.18273",
+      "category": "research",
+      "tags": [
+        "audio",
+        "modelos de linguagem",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "written_at": "2026-06-18T10:40:16.538Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "o-custo-real-da-ia-empresas-buscam-roi-em-meio-a-gastos-excessivos",
       "headline": "O Custo Real da IA: Empresas Buscam ROI em Meio a Gastos Excessivos",
