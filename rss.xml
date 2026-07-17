@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 17 Jul 2026 21:07:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 22:59:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Meta de Zuckerberg em negociação com Anthropic para alugar capacidade de computação de IA</title>
+      <link>https://pulsodaia.com.br/feed/meta-de-zuckerberg-em-negociacao-com-anthropic-para-alugar-capacidade-de-computa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-de-zuckerberg-em-negociacao-com-anthropic-para-alugar-capacidade-de-computa/</guid>
+      <pubDate>Fri, 17 Jul 2026 22:56:01 GMT</pubDate>
+      <description>Movimento indica estratégia da Meta em monetizar infraestrutura de IA e fortalecer o mercado de modelos de linguagem.</description>
+      <category>MERCADO</category>
+      <source url="https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/">The Decoder</source>
+    </item>
     <item>
       <title>SproutRAG: Nova Abordagem Hierárquica para Geração Aumentada por Recuperação em Documentos Longos</title>
       <link>https://pulsodaia.com.br/feed/sproutrag-nova-abordagem-hierarquica-para-geracao-aumentada-por-recuperacao-em-d/</link>
@@ -448,15 +457,6 @@
       <description>A empresa de IA enfrenta escrutínio regulatório em nível estadual nos EUA, levantando questões sobre suas práticas de dados e publicidade.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Meta ajusta estratégia de IA: do "tokenmaxxing" à gestão de custos</title>
-      <link>https://pulsodaia.com.br/feed/meta-ajusta-estrategia-de-ia-do-tokenmaxxing-a-gestao-de-custos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-ajusta-estrategia-de-ia-do-tokenmaxxing-a-gestao-de-custos/</guid>
-      <pubDate>Sat, 13 Jun 2026 11:57:59 GMT</pubDate>
-      <description>A gigante de tecnologia sinaliza um novo foco em eficiência financeira na adoção de inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/">The Decoder</source>
     </item>
   </channel>
 </rss>
