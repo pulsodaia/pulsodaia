@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-07-17T22:56:04.461Z",
+  "generated_at": "2026-08-05T10:42:58.137Z",
   "articles": [
+    {
+      "slug": "memarena-novo-benchmark-avalia-assistentes-de-memoria-pessoal-em-dispositivos",
+      "headline": "MemArena: Novo Benchmark Avalia Assistentes de Memória Pessoal em Dispositivos",
+      "subtitle": "Pesquisa inédita foca na capacidade de modelos com pesos abertos lidarem com conversas privadas em escala, um desafio para o mercado brasileiro de IA embarcada.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2608.02613",
+      "category": "research",
+      "tags": [
+        "ia embarcada",
+        "assistente pessoal",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 05 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-05T10:42:58.001Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-para-otimizacao-novo-benchmark-avalia-llms-em-problemas-de-caixa-preta",
+      "headline": "IA para Otimização: Novo Benchmark Avalia LLMs em Problemas de Caixa-Preta",
+      "subtitle": "Pesquisa aborda a dificuldade de formular problemas de otimização complexos para sistemas de IA no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2608.02612",
+      "category": "research",
+      "tags": [
+        "otimizacao",
+        "llm",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 05 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-05T10:42:46.056Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-reconecta-humanos-a-4-000-anos-de-historia-tabletcraft-traduz-e-cria-em-sumer",
+      "headline": "IA Reconecta Humanos a 4.000 Anos de História: TabletCraft Traduz e Cria em Sumério",
+      "subtitle": "Ferramenta de código aberto permite leitura e escrita em escrita cuneiforme, quebrando barreiras culturais milenares.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2608.02609",
+      "category": "research",
+      "tags": [
+        "ia",
+        "escrita antiga",
+        "cuneiforme",
+        "história",
+        "pln"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 05 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-05T10:42:34.127Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "meta-de-zuckerberg-em-negociacao-com-anthropic-para-alugar-capacidade-de-computa",
       "headline": "Meta de Zuckerberg em negociação com Anthropic para alugar capacidade de computação de IA",

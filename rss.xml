@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 05 Aug 2026 03:19:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 10:48:07 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>MemArena: Novo Benchmark Avalia Assistentes de Memória Pessoal em Dispositivos</title>
+      <link>https://pulsodaia.com.br/feed/memarena-novo-benchmark-avalia-assistentes-de-memoria-pessoal-em-dispositivos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/memarena-novo-benchmark-avalia-assistentes-de-memoria-pessoal-em-dispositivos/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:42:58 GMT</pubDate>
+      <description>Pesquisa inédita foca na capacidade de modelos com pesos abertos lidarem com conversas privadas em escala, um desafio para o mercado brasileiro de IA embarcada.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2608.02613">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IA para Otimização: Novo Benchmark Avalia LLMs em Problemas de Caixa-Preta</title>
+      <link>https://pulsodaia.com.br/feed/ia-para-otimizacao-novo-benchmark-avalia-llms-em-problemas-de-caixa-preta/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-otimizacao-novo-benchmark-avalia-llms-em-problemas-de-caixa-preta/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:42:46 GMT</pubDate>
+      <description>Pesquisa aborda a dificuldade de formular problemas de otimização complexos para sistemas de IA no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.02612">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IA Reconecta Humanos a 4.000 Anos de História: TabletCraft Traduz e Cria em Sumério</title>
+      <link>https://pulsodaia.com.br/feed/ia-reconecta-humanos-a-4-000-anos-de-historia-tabletcraft-traduz-e-cria-em-sumer/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-reconecta-humanos-a-4-000-anos-de-historia-tabletcraft-traduz-e-cria-em-sumer/</guid>
+      <pubDate>Wed, 05 Aug 2026 10:42:34 GMT</pubDate>
+      <description>Ferramenta de código aberto permite leitura e escrita em escrita cuneiforme, quebrando barreiras culturais milenares.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2608.02609">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>Meta de Zuckerberg em negociação com Anthropic para alugar capacidade de computação de IA</title>
       <link>https://pulsodaia.com.br/feed/meta-de-zuckerberg-em-negociacao-com-anthropic-para-alugar-capacidade-de-computa/</link>
@@ -430,33 +457,6 @@
       <description>Ações de Andy Jassy podem ter influenciado o corte de acesso a ferramentas de IA, gerando incerteza no setor.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Restringe Acesso a Modelos de IA Após Ordem Governamental por Segurança Nacional</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-restringe-acesso-a-modelos-de-ia-apos-ordem-governamental-por-seguranc/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-restringe-acesso-a-modelos-de-ia-apos-ordem-governamental-por-seguranc/</guid>
-      <pubDate>Sat, 13 Jun 2026 17:38:58 GMT</pubDate>
-      <description>A medida afeta modelos Fable 5 e Mythos 5, com implicações para usuários globais.</description>
-      <category>MERCADO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security">The Verge AI</source>
-    </item>
-    <item>
-      <title>IA Cria Aplicativo de Jardinagem em Minutos, Mas Bugs Persistem</title>
-      <link>https://pulsodaia.com.br/feed/ia-cria-aplicativo-de-jardinagem-em-minutos-mas-bugs-persistem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-cria-aplicativo-de-jardinagem-em-minutos-mas-bugs-persistem/</guid>
-      <pubDate>Sat, 13 Jun 2026 17:38:46 GMT</pubDate>
-      <description>Ferramentas de IA generativa prometem agilizar o desenvolvimento de software, mas a estabilidade continua sendo um desafio.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing">The Verge AI</source>
-    </item>
-    <item>
-      <title>OpenAI Sob Investigação de Procuradores Gerais Estaduais</title>
-      <link>https://pulsodaia.com.br/feed/openai-sob-investigacao-de-procuradores-gerais-estaduais/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-sob-investigacao-de-procuradores-gerais-estaduais/</guid>
-      <pubDate>Sat, 13 Jun 2026 17:38:35 GMT</pubDate>
-      <description>A empresa de IA enfrenta escrutínio regulatório em nível estadual nos EUA, levantando questões sobre suas práticas de dados e publicidade.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
