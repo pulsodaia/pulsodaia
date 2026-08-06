@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-08-06T06:37:27.992Z",
+  "generated_at": "2026-08-06T10:46:17.539Z",
   "articles": [
+    {
+      "slug": "ia-em-massa-ameaca-vazamento-de-credenciais-e-criptoativos",
+      "headline": "IA em Massa Ameaça Vazamento de Credenciais e Criptoativos",
+      "subtitle": "Um alerta de desenvolvedor da OpenAI sugere que modelos de IA podem se tornar escaneadores automatizados de informações sensíveis.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-developer-warns-the-tireless-eagle-eyes-of-a-million-models-are-coming-for-your-exposed-api-keys-and-crypto-wallets/",
+      "category": "mercado",
+      "tags": [
+        "segurança digital",
+        "inteligência artificial",
+        "criptomoedas"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 06 Aug 2026 10:11:02 +0000",
+      "written_at": "2026-08-06T10:46:15.204Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "openai-rebate-apple-processo-por-segredos-comerciais-e-podre-em-sua-essencia",
+      "headline": "OpenAI rebate Apple: processo por segredos comerciais é \"podre em sua essência\"",
+      "subtitle": "A disputa legal entre a gigante de tecnologia e a startup de IA pode definir precedentes para o uso de dados e propriedade intelectual.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "apple",
+        "openai",
+        "propriedade intelectual"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-06T05:33:11-04:00",
+      "written_at": "2026-08-06T10:46:01.792Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-gera-relatorios-multimodais-a-partir-de-dados-tabulares-com-busca-em-arvore",
       "headline": "IA Gera Relatórios Multimodais a Partir de Dados Tabulares com Busca em Árvore",

@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 06 Aug 2026 06:43:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 10:51:11 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA em Massa Ameaça Vazamento de Credenciais e Criptoativos</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-massa-ameaca-vazamento-de-credenciais-e-criptoativos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-massa-ameaca-vazamento-de-credenciais-e-criptoativos/</guid>
+      <pubDate>Thu, 06 Aug 2026 10:46:15 GMT</pubDate>
+      <description>Um alerta de desenvolvedor da OpenAI sugere que modelos de IA podem se tornar escaneadores automatizados de informações sensíveis.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/openai-developer-warns-the-tireless-eagle-eyes-of-a-million-models-are-coming-for-your-exposed-api-keys-and-crypto-wallets/">The Decoder</source>
+    </item>
+    <item>
+      <title>OpenAI rebate Apple: processo por segredos comerciais é "podre em sua essência"</title>
+      <link>https://pulsodaia.com.br/feed/openai-rebate-apple-processo-por-segredos-comerciais-e-podre-em-sua-essencia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-rebate-apple-processo-por-segredos-comerciais-e-podre-em-sua-essencia/</guid>
+      <pubDate>Thu, 06 Aug 2026 10:46:01 GMT</pubDate>
+      <description>A disputa legal entre a gigante de tecnologia e a startup de IA pode definir precedentes para o uso de dados e propriedade intelectual.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request">The Verge AI</source>
+    </item>
     <item>
       <title>IA Gera Relatórios Multimodais a Partir de Dados Tabulares com Busca em Árvore</title>
       <link>https://pulsodaia.com.br/feed/ia-gera-relatorios-multimodais-a-partir-de-dados-tabulares-com-busca-em-arvore/</link>
@@ -439,24 +457,6 @@
       <description>Um estudo no arXiv desvenda a história e a influência de um problema de conhecimento e ignorância que moldou a lógica epistêmica.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2606.13703">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA em Diálogos: Adaptação Dinâmica de Estratégias com Retratos de Usuário</title>
-      <link>https://pulsodaia.com.br/feed/ia-em-dialogos-adaptacao-dinamica-de-estrategias-com-retratos-de-usuario/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-dialogos-adaptacao-dinamica-de-estrategias-com-retratos-de-usuario/</guid>
-      <pubDate>Mon, 15 Jun 2026 05:07:50 GMT</pubDate>
-      <description>Pesquisadores propõem nova abordagem para personalização de assistentes virtuais.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.13683">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA com Transformer Otimiza Processos Industriais Complexos</title>
-      <link>https://pulsodaia.com.br/feed/ia-com-transformer-otimiza-processos-industriais-complexos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-com-transformer-otimiza-processos-industriais-complexos/</guid>
-      <pubDate>Mon, 15 Jun 2026 05:07:40 GMT</pubDate>
-      <description>Nova abordagem de aprendizado por reforço profundo promete agilizar a gestão de produção em larga escala.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.13682">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
