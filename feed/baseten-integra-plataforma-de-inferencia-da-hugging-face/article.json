@@ -1,0 +1,51 @@
+{
+  "id": "https://huggingface.co/blog/baseten",
+  "title": "Baseten on Hugging Face Inference Providers 🔥",
+  "url": "https://huggingface.co/blog/baseten",
+  "summary": "",
+  "published_at": "Thu, 06 Aug 2026 00:00:00 GMT",
+  "source_id": "huggingface-blog",
+  "source_name": "Hugging Face",
+  "category": "opensource",
+  "source_type": "blog-oficial",
+  "headline": "Baseten Integra Plataforma de Inferência da Hugging Face",
+  "subtitle": "A colaboração visa simplificar a implantação de modelos de IA para desenvolvedores no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Baseten anunciou uma nova integração com a Hugging Face, expandindo as opções de provedores de inferência para modelos de Machine Learning. A iniciativa promete agilizar o processo de colocar modelos em produção, um passo crucial para a adoção em larga escala.",
+  "body_markdown": "## O que aconteceu\n\nA Baseten, conhecida por sua plataforma de orquestração de inferência de IA, anunciou a integração com a Hugging Face Inference Providers. Esta parceria permite que os usuários da Baseten acessem e utilizem a infraestrutura da Hugging Face para executar seus modelos de IA. A Hugging Face, um hub central para modelos e datasets de Machine Learning, oferece uma vasta gama de ferramentas e uma comunidade ativa, o que torna essa integração um passo lógico para ambas as empresas. A notícia foi divulgada em um post no blog oficial da Hugging Face, detalhando os benefícios dessa colaboração.\n\n## Por que importa\n\nPara o mercado brasileiro de tecnologia e IA, essa integração representa uma oportunidade de democratizar o acesso a infraestrutura de ponta. Desenvolvedores e empresas no Brasil que trabalham com inteligência artificial frequentemente enfrentam desafios relacionados à complexidade e custo da implantação de modelos. Ao oferecer mais opções de provedores de inferência, a Baseten, em conjunto com a Hugging Face, reduz barreiras de entrada. Isso significa que startups e empresas estabelecidas podem lançar aplicações baseadas em IA mais rapidamente e com maior eficiência de custos, aproveitando a infraestrutura robusta e escalável que a Hugging Face disponibiliza. A possibilidade de escolher entre diferentes provedores também permite otimizar o desempenho e o custo para casos de uso específicos.\n\n## O que esperar\n\nA expectativa é que essa integração acelere a inovação no setor de IA no Brasil. Com uma plataforma de inferência mais flexível e acessível, mais projetos de Machine Learning sairão do papel e chegarão ao mercado. A Baseten continua focada em simplificar o fluxo de trabalho de inferência, e a adição da Hugging Face como um provedor chave fortalece essa missão. A plataforma da Hugging Face, com seu extenso catálogo de modelos pré-treinados e ferramentas de desenvolvimento, complementa a oferta da Baseten, permitindo que os usuários se concentrem na criação de valor a partir de seus dados e modelos. Para acompanhar os próximos desenvolvimentos e entender como essa integração pode ser utilizada, é recomendável consultar o [anúncio oficial](https://huggingface.co/blog/baseten) e explorar os recursos oferecidos por ambas as plataformas. A tendência é que mais colaborações como essa surjam, visando tornar a IA mais acessível e prática para um público mais amplo.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Baseten, conhecida por sua plataforma de orquestração de inferência de IA, anunciou a integração com a Hugging Face Inference Providers. Esta parceria permite que os usuários da Baseten acessem e utilizem a infraestrutura da Hugging Face para executar seus modelos de IA. A Hugging Face, um hub central para modelos e datasets de Machine Learning, oferece uma vasta gama de ferramentas e uma comunidade ativa, o que torna essa integração um passo lógico para ambas as empresas. A notícia foi divulgada em um post no blog oficial da Hugging Face, detalhando os benefícios dessa colaboração.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de tecnologia e IA, essa integração representa uma oportunidade de democratizar o acesso a infraestrutura de ponta. Desenvolvedores e empresas no Brasil que trabalham com inteligência artificial frequentemente enfrentam desafios relacionados à complexidade e custo da implantação de modelos. Ao oferecer mais opções de provedores de inferência, a Baseten, em conjunto com a Hugging Face, reduz barreiras de entrada. Isso significa que startups e empresas estabelecidas podem lançar aplicações baseadas em IA mais rapidamente e com maior eficiência de custos, aproveitando a infraestrutura robusta e escalável que a Hugging Face disponibiliza. A possibilidade de escolher entre diferentes provedores também permite otimizar o desempenho e o custo para casos de uso específicos.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que essa integração acelere a inovação no setor de IA no Brasil. Com uma plataforma de inferência mais flexível e acessível, mais projetos de Machine Learning sairão do papel e chegarão ao mercado. A Baseten continua focada em simplificar o fluxo de trabalho de inferência, e a adição da Hugging Face como um provedor chave fortalece essa missão. A plataforma da Hugging Face, com seu extenso catálogo de modelos pré-treinados e ferramentas de desenvolvimento, complementa a oferta da Baseten, permitindo que os usuários se concentrem na criação de valor a partir de seus dados e modelos. Para acompanhar os próximos desenvolvimentos e entender como essa integração pode ser utilizada, é recomendável consultar o <a href=\"https://huggingface.co/blog/baseten\" target=\"_blank\" rel=\"external noopener\">anúncio oficial</a> e explorar os recursos oferecidos por ambas as plataformas. A tendência é que mais colaborações como essa surjam, visando tornar a IA mais acessível e prática para um público mais amplo.</p>",
+  "tags": [
+    "baseten",
+    "hugging face",
+    "inferencia de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "Baseten",
+    "Hugging Face",
+    "inferência de IA",
+    "modelos de ML",
+    "plataforma de IA",
+    "orquestração de inferência"
+  ],
+  "meta_description_seo": "Baseten integra Hugging Face Inference Providers, simplificando implantação de modelos de IA para o mercado brasileiro.",
+  "faq": [
+    {
+      "q": "O que é a Baseten e qual sua relação com a Hugging Face?",
+      "a": "Baseten é uma plataforma de orquestração de inferência de IA que agora se integra com a Hugging Face, um hub de modelos de Machine Learning. Essa integração permite usar a infraestrutura da Hugging Face para executar modelos."
+    },
+    {
+      "q": "Como essa integração beneficia desenvolvedores brasileiros?",
+      "a": "Reduz barreiras de entrada, simplifica a implantação de modelos de IA e otimiza custos e desempenho para projetos no Brasil."
+    },
+    {
+      "q": "Quais são os próximos passos esperados com essa colaboração?",
+      "a": "Espera-se uma aceleração na inovação em IA, com mais projetos saindo do papel e chegando ao mercado, graças à infraestrutura mais acessível e flexível."
+    }
+  ],
+  "written_at": "2026-08-06T14:26:42.862Z",
+  "slug": "baseten-integra-plataforma-de-inferencia-da-hugging-face",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://huggingface.co/blog/assets/inference-providers/welcome-baseten.png"
+}

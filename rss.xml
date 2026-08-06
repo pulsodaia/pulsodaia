@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 06 Aug 2026 10:51:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 14:32:12 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Baseten Integra Plataforma de Inferência da Hugging Face</title>
+      <link>https://pulsodaia.com.br/feed/baseten-integra-plataforma-de-inferencia-da-hugging-face/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/baseten-integra-plataforma-de-inferencia-da-hugging-face/</guid>
+      <pubDate>Thu, 06 Aug 2026 14:26:42 GMT</pubDate>
+      <description>A colaboração visa simplificar a implantação de modelos de IA para desenvolvedores no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/baseten">Hugging Face</source>
+    </item>
     <item>
       <title>IA em Massa Ameaça Vazamento de Credenciais e Criptoativos</title>
       <link>https://pulsodaia.com.br/feed/ia-em-massa-ameaca-vazamento-de-credenciais-e-criptoativos/</link>
@@ -448,15 +457,6 @@
       <description>A expansão de data centers nos Estados Unidos reflete a demanda crescente por capacidade computacional para IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/">Google AI</source>
-    </item>
-    <item>
-      <title>Enigma da Lógica: A Origem do Quebra-Cabeça das Crianças Sujas e Seu Legado para a IA</title>
-      <link>https://pulsodaia.com.br/feed/enigma-da-logica-a-origem-do-quebra-cabeca-das-criancas-sujas-e-seu-legado-para-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/enigma-da-logica-a-origem-do-quebra-cabeca-das-criancas-sujas-e-seu-legado-para-/</guid>
-      <pubDate>Mon, 15 Jun 2026 05:08:01 GMT</pubDate>
-      <description>Um estudo no arXiv desvenda a história e a influência de um problema de conhecimento e ignorância que moldou a lógica epistêmica.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.13703">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
