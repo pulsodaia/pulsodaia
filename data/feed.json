@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-06T14:26:43.089Z",
+  "generated_at": "2026-08-07T00:08:17.650Z",
   "articles": [
+    {
+      "slug": "chatgpt-libera-chats-ilimitados-e-botao-de-pensamento-para-usuarios-gratuitos",
+      "headline": "ChatGPT Libera Chats Ilimitados e Botão de Pensamento para Usuários Gratuitos",
+      "subtitle": "A OpenAI amplia o acesso a suas funcionalidades avançadas, impactando diretamente o uso da IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "category": "mercado",
+      "tags": [
+        "chatgpt",
+        "openai",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 06 Aug 2026 17:34:42 +0000",
+      "written_at": "2026-08-07T00:08:17.567Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-aponta-para-mercado-premium-com-novo-dispositivo-de-ia",
+      "headline": "OpenAI Aponta Para Mercado Premium com Novo Dispositivo de IA",
+      "subtitle": "A empresa de Sam Altman explora um novo formato de hardware, mirando consumidores dispostos a investir em tecnologia de ponta.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "smart speaker",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 06 Aug 2026 22:43:53 +0000",
+      "written_at": "2026-08-07T00:08:07.639Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-do-google-deepmind-preve-ciclones-com-precisao-inedita",
+      "headline": "IA do Google DeepMind Preve Ciclones com Precisão Inédita",
+      "subtitle": "Novo modelo promete antecipar tempestades tropicais com maior antecedência, um avanço vital para a segurança e planejamento no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "category": "google",
+      "tags": [
+        "inteligencia artificial",
+        "meteorologia",
+        "previsao do tempo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 06 Aug 2026 15:06:15 +0000",
+      "written_at": "2026-08-07T00:07:57.564Z",
+      "quality_score": 0.85,
+      "hero_image": null
+    },
     {
       "slug": "baseten-integra-plataforma-de-inferencia-da-hugging-face",
       "headline": "Baseten Integra Plataforma de Inferência da Hugging Face",
