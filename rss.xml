@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 07 Aug 2026 00:13:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 04:35:41 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos Menores Corrigem Falhas de Raciocínio em Grandes Redes Neurais</title>
+      <link>https://pulsodaia.com.br/feed/modelos-menores-corrigem-falhas-de-raciocinio-em-grandes-redes-neurais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-menores-corrigem-falhas-de-raciocinio-em-grandes-redes-neurais/</guid>
+      <pubDate>Fri, 07 Aug 2026 04:30:14 GMT</pubDate>
+      <description>Uma nova técnica explora a capacidade de modelos "fracos" para aprimorar a lógica de sistemas de IA mais robustos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.05168">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Nova métrica, Ignition Index, mede "consciência" em modelos de linguagem</title>
+      <link>https://pulsodaia.com.br/feed/nova-metrica-ignition-index-mede-consciencia-em-modelos-de-linguagem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-metrica-ignition-index-mede-consciencia-em-modelos-de-linguagem/</guid>
+      <pubDate>Fri, 07 Aug 2026 04:30:01 GMT</pubDate>
+      <description>Pesquisa acadêmica propõe uma forma de quantificar a dinâmica interna de modelos de IA, com implicações para o desenvolvimento de sistemas mais robustos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.05160">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Nova Metodologia com Agentes Inteligentes Promete Simplificar Integração de Sistemas Corporativos</title>
+      <link>https://pulsodaia.com.br/feed/nova-metodologia-com-agentes-inteligentes-promete-simplificar-integracao-de-sist/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-metodologia-com-agentes-inteligentes-promete-simplificar-integracao-de-sist/</guid>
+      <pubDate>Fri, 07 Aug 2026 04:29:50 GMT</pubDate>
+      <description>Pesquisa no arXiv propõe "Agentic Nesting" para superar gargalos na conexão de aplicações legadas, um desafio persistente para o setor empresarial no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.05159">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>ChatGPT Libera Chats Ilimitados e Botão de Pensamento para Usuários Gratuitos</title>
       <link>https://pulsodaia.com.br/feed/chatgpt-libera-chats-ilimitados-e-botao-de-pensamento-para-usuarios-gratuitos/</link>
@@ -430,33 +457,6 @@
       <description>Um novo estudo no arXiv busca definir o que constitui uma boa explicação para saídas de IA, especialmente em modelos de linguagem.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2606.14838">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Anthropic Enfrenta Bloqueio Governamental para Modelos de IA Avançados</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-enfrenta-bloqueio-governamental-para-modelos-de-ia-avancados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-enfrenta-bloqueio-governamental-para-modelos-de-ia-avancados/</guid>
-      <pubDate>Mon, 15 Jun 2026 22:24:06 GMT</pubDate>
-      <description>A empresa de IA se vê em um novo embate com o governo dos EUA, impactando o acesso a suas tecnologias mais recentes.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown">The Verge AI</source>
-    </item>
-    <item>
-      <title>Governo Americano Restringe Modelos da Anthropic: Interferência ou Retaliação?</title>
-      <link>https://pulsodaia.com.br/feed/governo-americano-restringe-modelos-da-anthropic-interferencia-ou-retaliacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governo-americano-restringe-modelos-da-anthropic-interferencia-ou-retaliacao/</guid>
-      <pubDate>Mon, 15 Jun 2026 22:23:56 GMT</pubDate>
-      <description>Decisão sobre modelos de cibersegurança levanta questões sobre a autonomia da indústria de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code v2.1.178 Refina Controle e Organização de Skills</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-178-refina-controle-e-organizacao-de-skills/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-178-refina-controle-e-organizacao-de-skills/</guid>
-      <pubDate>Mon, 15 Jun 2026 22:23:45 GMT</pubDate>
-      <description>Nova versão do ambiente de desenvolvimento para Claude introduz sintaxe para regras de permissão e melhora o carregamento de skills aninhadas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.178">Claude Code</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-08-07T00:08:17.650Z",
+  "generated_at": "2026-08-07T04:30:14.694Z",
   "articles": [
+    {
+      "slug": "modelos-menores-corrigem-falhas-de-raciocinio-em-grandes-redes-neurais",
+      "headline": "Modelos Menores Corrigem Falhas de Raciocínio em Grandes Redes Neurais",
+      "subtitle": "Uma nova técnica explora a capacidade de modelos \"fracos\" para aprimorar a lógica de sistemas de IA mais robustos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.05168",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "raciocínio",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-07T04:30:14.576Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nova-metrica-ignition-index-mede-consciencia-em-modelos-de-linguagem",
+      "headline": "Nova métrica, Ignition Index, mede \"consciência\" em modelos de linguagem",
+      "subtitle": "Pesquisa acadêmica propõe uma forma de quantificar a dinâmica interna de modelos de IA, com implicações para o desenvolvimento de sistemas mais robustos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.05160",
+      "category": "research",
+      "tags": [
+        "modelos de linguagem",
+        "inteligência artificial",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-07T04:30:01.964Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nova-metodologia-com-agentes-inteligentes-promete-simplificar-integracao-de-sist",
+      "headline": "Nova Metodologia com Agentes Inteligentes Promete Simplificar Integração de Sistemas Corporativos",
+      "subtitle": "Pesquisa no arXiv propõe \"Agentic Nesting\" para superar gargalos na conexão de aplicações legadas, um desafio persistente para o setor empresarial no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.05159",
+      "category": "research",
+      "tags": [
+        "ia",
+        "integracao de sistemas",
+        "agentes inteligentes"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-07T04:29:50.179Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "chatgpt-libera-chats-ilimitados-e-botao-de-pensamento-para-usuarios-gratuitos",
       "headline": "ChatGPT Libera Chats Ilimitados e Botão de Pensamento para Usuários Gratuitos",
