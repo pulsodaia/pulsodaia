@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-07T22:43:56.369Z",
+  "generated_at": "2026-08-08T08:50:44.111Z",
   "articles": [
+    {
+      "slug": "openai-freia-desenvolvimento-de-modelo-astra-por-riscos-de-ciberseguranca",
+      "headline": "OpenAI Freia Desenvolvimento de Modelo Astra por Riscos de Cibersegurança",
+      "subtitle": "A empresa admite ter pausado um de seus projetos de IA devido à capacidade do modelo de realizar ataques cibernéticos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "cibersegurança",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 07 Aug 2026 22:48:24 +0000",
+      "written_at": "2026-08-08T08:50:44.032Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-aprimora-controle-de-gastos-e-seguranca-para-desenvolvedores",
+      "headline": "Claude Code Aprimora Controle de Gastos e Segurança para Desenvolvedores",
+      "subtitle": "Atualizações buscam maior transparência e robustez no uso de ferramentas de IA para codificação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-08T01:09:26Z",
+      "written_at": "2026-08-08T08:50:33.524Z",
+      "quality_score": 0.87,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-atualiza-claude-code-correcoes-e-estabilidade-em-destaque",
+      "headline": "Anthropic Atualiza Claude Code: Correções e Estabilidade em Destaque",
+      "subtitle": "A nova versão foca em aprimoramentos técnicos, essenciais para o avanço de ferramentas de desenvolvimento com IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-08T02:48:05Z",
+      "written_at": "2026-08-08T08:50:22.650Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "roku-testa-canais-de-conteudo-gerado-por-ia-uma-nova-fronteira-ou-um-abismo-de-c",
       "headline": "Roku Testa Canais de Conteúdo Gerado por IA: Uma Nova Fronteira ou um Abismo de Conteúdo?",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 07 Aug 2026 22:49:07 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 08:55:46 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI Freia Desenvolvimento de Modelo Astra por Riscos de Cibersegurança</title>
+      <link>https://pulsodaia.com.br/feed/openai-freia-desenvolvimento-de-modelo-astra-por-riscos-de-ciberseguranca/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-freia-desenvolvimento-de-modelo-astra-por-riscos-de-ciberseguranca/</guid>
+      <pubDate>Sat, 08 Aug 2026 08:50:44 GMT</pubDate>
+      <description>A empresa admite ter pausado um de seus projetos de IA devido à capacidade do modelo de realizar ataques cibernéticos.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Aprimora Controle de Gastos e Segurança para Desenvolvedores</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-gastos-e-seguranca-para-desenvolvedores/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-gastos-e-seguranca-para-desenvolvedores/</guid>
+      <pubDate>Sat, 08 Aug 2026 08:50:33 GMT</pubDate>
+      <description>Atualizações buscam maior transparência e robustez no uso de ferramentas de IA para codificação.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.225">Claude Code</source>
+    </item>
+    <item>
+      <title>Anthropic Atualiza Claude Code: Correções e Estabilidade em Destaque</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-atualiza-claude-code-correcoes-e-estabilidade-em-destaque/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-atualiza-claude-code-correcoes-e-estabilidade-em-destaque/</guid>
+      <pubDate>Sat, 08 Aug 2026 08:50:22 GMT</pubDate>
+      <description>A nova versão foca em aprimoramentos técnicos, essenciais para o avanço de ferramentas de desenvolvimento com IA no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.226">Claude Code</source>
+    </item>
     <item>
       <title>Roku Testa Canais de Conteúdo Gerado por IA: Uma Nova Fronteira ou um Abismo de Conteúdo?</title>
       <link>https://pulsodaia.com.br/feed/roku-testa-canais-de-conteudo-gerado-por-ia-uma-nova-fronteira-ou-um-abismo-de-c/</link>
@@ -430,33 +457,6 @@
       <description>Um agente de IA autônomo promete refinar a precisão na recuperação de jurisprudência sem a necessidade de treinamento de parâmetros.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2606.17220">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA em Busca: Diversidade na Inicialização de Consultas Melhora Eficiência</title>
-      <link>https://pulsodaia.com.br/feed/ia-em-busca-diversidade-na-inicializacao-de-consultas-melhora-eficiencia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-busca-diversidade-na-inicializacao-de-consultas-melhora-eficiencia/</guid>
-      <pubDate>Wed, 17 Jun 2026 04:52:33 GMT</pubDate>
-      <description>Pesquisa no arXiv propõe método para evitar redundância em agentes autônomos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.17209">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Conflito com Governo Trump Impulsiona Vendas da Anthropic, Sugerem Dados</title>
-      <link>https://pulsodaia.com.br/feed/conflito-com-governo-trump-impulsiona-vendas-da-anthropic-sugerem-dados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/conflito-com-governo-trump-impulsiona-vendas-da-anthropic-sugerem-dados/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:40:40 GMT</pubDate>
-      <description>A empresa de IA vê um aumento na demanda corporativa, possivelmente beneficiada pela atenção midiática gerada por disputas.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code 2.1.179 Corrige Falhas Cruciais de Conexão e Usabilidade</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-2-1-179-corrige-falhas-cruciais-de-conexao-e-usabilidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-2-1-179-corrige-falhas-cruciais-de-conexao-e-usabilidade/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:40:27 GMT</pubDate>
-      <description>Atualização do modelo de linguagem da Anthropic foca em estabilidade e experiência do desenvolvedor.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.179">Claude Code</source>
     </item>
   </channel>
 </rss>
