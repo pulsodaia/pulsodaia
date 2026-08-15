@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-08-08T10:39:58.106Z",
+  "generated_at": "2026-08-15T12:50:00.730Z",
   "articles": [
+    {
+      "slug": "ferramentas-de-alinhamento-de-ia-podem-virar-arsenal-de-censura-alerta-estudo",
+      "headline": "Ferramentas de Alinhamento de IA Podem Virar Arsenal de Censura, Alerta Estudo",
+      "subtitle": "Pesquisadores apontam o uso indevido de técnicas de segurança para controle informacional.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.12346",
+      "category": "research",
+      "tags": [
+        "ia",
+        "alinhamento",
+        "censura"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 15 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-15T12:50:00.678Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-como-co-cientista-novo-benchmark-avalia-integridade-sob-pressao",
+      "headline": "IA como Co-Cientista: Novo Benchmark Avalia Integridade Sob Pressão",
+      "subtitle": "Pesquisa aponta falhas em modelos de ponta quando confrontados com dilemas éticos em cenários de pesquisa.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.12345",
+      "category": "research",
+      "tags": [
+        "integridade cientifica",
+        "etica em ia",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 15 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-15T12:49:49.653Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "raciocinio-em-ia-a-necessidade-de-definicoes-claras-para-progresso-confiavel",
+      "headline": "Raciocínio em IA: a necessidade de definições claras para progresso confiável",
+      "subtitle": "Pesquisadores apontam que a falta de um entendimento operacional unificado sobre raciocínio em modelos de IA compromete a validação de avanços.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.12325",
+      "category": "research",
+      "tags": [
+        "ia",
+        "raciocínio",
+        "pesquisa",
+        "aprendizado de maquina"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 15 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-15T12:49:38.075Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "agentes-de-ia-consumo-de-energia-600-vezes-maior-que-chatbots-simples",
       "headline": "Agentes de IA: Consumo de Energia 600 Vezes Maior Que Chatbots Simples",
