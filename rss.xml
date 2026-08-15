@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 15 Aug 2026 16:37:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 20:35:08 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>SpaceX Adquire Cursor: IA Para Código Agora Sob o Guarda-Chuva de Elon Musk</title>
+      <link>https://pulsodaia.com.br/feed/spacex-adquire-cursor-ia-para-codigo-agora-sob-o-guarda-chuva-de-elon-musk/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/spacex-adquire-cursor-ia-para-codigo-agora-sob-o-guarda-chuva-de-elon-musk/</guid>
+      <pubDate>Sat, 15 Aug 2026 20:29:43 GMT</pubDate>
+      <description>A compra da startup de desenvolvimento com IA pela SpaceX sinaliza uma nova frente de atuação para a empresa de Elon Musk no setor de tecnologia.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Anthropic Detalha Marca d'Água em Claude: Rastreabilidade de Conteúdo Gerado por IA</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-detalha-marca-d-agua-em-claude-rastreabilidade-de-conteudo-gerado-por-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-detalha-marca-d-agua-em-claude-rastreabilidade-de-conteudo-gerado-por-/</guid>
+      <pubDate>Sat, 15 Aug 2026 20:29:23 GMT</pubDate>
+      <description>A empresa busca aumentar a transparência e combater a desinformação com novas funcionalidades em seu modelo de linguagem.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Nvidia Reduz Investimento em OpenAI Sob Pressão de Investidores; Anthropic Desafia Narrativa de Bolha</title>
       <link>https://pulsodaia.com.br/feed/nvidia-reduz-investimento-em-openai-sob-pressao-de-investidores-anthropic-desafi/</link>
@@ -439,24 +457,6 @@
       <description>Plataformas liberam ferramentas para personalização de feeds, moldando a experiência digital.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>MolmoMotion Gera Movimento 3D a Partir de Instruções em Linguagem Natural</title>
-      <link>https://pulsodaia.com.br/feed/molmomotion-gera-movimento-3d-a-partir-de-instrucoes-em-linguagem-natural/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/molmomotion-gera-movimento-3d-a-partir-de-instrucoes-em-linguagem-natural/</guid>
-      <pubDate>Wed, 17 Jun 2026 18:27:03 GMT</pubDate>
-      <description>Nova abordagem promete facilitar a criação de animações e simulações complexas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/allenai/molmomotion">Hugging Face</source>
-    </item>
-    <item>
-      <title>IA Conversacional do Google Igual ao Médico em Diagnóstico de Doenças Complexas</title>
-      <link>https://pulsodaia.com.br/feed/ia-conversacional-do-google-igual-ao-medico-em-diagnostico-de-doencas-complexas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-conversacional-do-google-igual-ao-medico-em-diagnostico-de-doencas-complexas/</guid>
-      <pubDate>Wed, 17 Jun 2026 18:26:51 GMT</pubDate>
-      <description>Pesquisa em revista científica de renome aponta que AMIE, sistema de IA do Google, demonstra capacidade comparável a médicos de atenção primária no manejo de condições de saúde.</description>
-      <category>RESEARCH</category>
-      <source url="https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/">Google AI</source>
     </item>
   </channel>
 </rss>
