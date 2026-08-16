@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 16 Aug 2026 20:35:17 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 22:33:49 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI Desmonta Equipe de Preparo para Riscos de IA</title>
+      <link>https://pulsodaia.com.br/feed/openai-desmonta-equipe-de-preparo-para-riscos-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-desmonta-equipe-de-preparo-para-riscos-de-ia/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:28:28 GMT</pubDate>
+      <description>Decisão levanta questões sobre a prioridade dada à segurança em meio ao avanço acelerado da tecnologia.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team">The Verge AI</source>
+    </item>
+    <item>
+      <title>Visão de IA de Zuckerberg Enfrenta Ceticismo no Mercado</title>
+      <link>https://pulsodaia.com.br/feed/visao-de-ia-de-zuckerberg-enfrenta-ceticismo-no-mercado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/visao-de-ia-de-zuckerberg-enfrenta-ceticismo-no-mercado/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:28:09 GMT</pubDate>
+      <description>O otimismo do metaverso e da inteligência artificial de Mark Zuckerberg não convence a todos, levantando questões sobre a aceitação pública e corporativa.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Stripe avalia aquisição de R$ 35 bilhões em startup de IA</title>
+      <link>https://pulsodaia.com.br/feed/stripe-avalia-aquisicao-de-r-35-bilhoes-em-startup-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/stripe-avalia-aquisicao-de-r-35-bilhoes-em-startup-de-ia/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:28:00 GMT</pubDate>
+      <description>Movimento sinaliza consolidação no mercado de infraestrutura para inteligência artificial.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Matemáticos renomados: LLMs são calculadoras eficientes, mas falham na criatividade genuína</title>
       <link>https://pulsodaia.com.br/feed/matematicos-renomados-llms-sao-calculadoras-eficientes-mas-falham-na-criatividad/</link>
@@ -430,33 +457,6 @@
       <description>Gigantes da tecnologia veem êxodo de talentos em busca de novas fronteiras para a inteligência artificial.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA no Mundo Físico: Robôs e Fábricas Automatizadas no TechCrunch Disrupt 2026</title>
-      <link>https://pulsodaia.com.br/feed/ia-no-mundo-fisico-robos-e-fabricas-automatizadas-no-techcrunch-disrupt-2026/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-no-mundo-fisico-robos-e-fabricas-automatizadas-no-techcrunch-disrupt-2026/</guid>
-      <pubDate>Wed, 05 Aug 2026 17:49:04 GMT</pubDate>
-      <description>Evento destaca a convergência entre o digital e o tangível, com aplicações práticas de inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Hark lança agente de navegador para automatizar tarefas online</title>
-      <link>https://pulsodaia.com.br/feed/hark-lanca-agente-de-navegador-para-automatizar-tarefas-online/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hark-lanca-agente-de-navegador-para-automatizar-tarefas-online/</guid>
-      <pubDate>Wed, 05 Aug 2026 17:48:53 GMT</pubDate>
-      <description>Nova ferramenta promete agilidade e economia em comparação com soluções existentes.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Shopify: Busca por IA triplica tráfego e vendas, sem canibalizar Google</title>
-      <link>https://pulsodaia.com.br/feed/shopify-busca-por-ia-triplica-trafego-e-vendas-sem-canibalizar-google/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/shopify-busca-por-ia-triplica-trafego-e-vendas-sem-canibalizar-google/</guid>
-      <pubDate>Wed, 05 Aug 2026 17:48:43 GMT</pubDate>
-      <description>Plataforma de e-commerce revela que inteligência artificial impulsiona o comércio eletrônico, divergindo de tendências em publishers.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

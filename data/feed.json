@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-16T18:37:22.452Z",
+  "generated_at": "2026-08-16T22:28:28.876Z",
   "articles": [
+    {
+      "slug": "openai-desmonta-equipe-de-preparo-para-riscos-de-ia",
+      "headline": "OpenAI Desmonta Equipe de Preparo para Riscos de IA",
+      "subtitle": "Decisão levanta questões sobre a prioridade dada à segurança em meio ao avanço acelerado da tecnologia.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "riscos de ia",
+        "segurança de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-16T17:32:56-04:00",
+      "written_at": "2026-08-16T22:28:28.752Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "visao-de-ia-de-zuckerberg-enfrenta-ceticismo-no-mercado",
+      "headline": "Visão de IA de Zuckerberg Enfrenta Ceticismo no Mercado",
+      "subtitle": "O otimismo do metaverso e da inteligência artificial de Mark Zuckerberg não convence a todos, levantando questões sobre a aceitação pública e corporativa.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "meta",
+        "mark zuckerberg"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 16 Aug 2026 20:32:01 +0000",
+      "written_at": "2026-08-16T22:28:09.988Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "stripe-avalia-aquisicao-de-r-35-bilhoes-em-startup-de-ia",
+      "headline": "Stripe avalia aquisição de R$ 35 bilhões em startup de IA",
+      "subtitle": "Movimento sinaliza consolidação no mercado de infraestrutura para inteligência artificial.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "category": "mercado",
+      "tags": [
+        "stripe",
+        "openrouter",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 16 Aug 2026 20:57:04 +0000",
+      "written_at": "2026-08-16T22:28:00.279Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.webp"
+    },
     {
       "slug": "matematicos-renomados-llms-sao-calculadoras-eficientes-mas-falham-na-criatividad",
       "headline": "Matemáticos renomados: LLMs são calculadoras eficientes, mas falham na criatividade genuína",
