@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 16 Aug 2026 10:33:25 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 12:56:26 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Restrições em IA Podem Alterar sua "Visão de Mundo", Sugere Estudo</title>
+      <link>https://pulsodaia.com.br/feed/restricoes-em-ia-podem-alterar-sua-visao-de-mundo-sugere-estudo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/restricoes-em-ia-podem-alterar-sua-visao-de-mundo-sugere-estudo/</guid>
+      <pubDate>Sun, 16 Aug 2026 12:51:11 GMT</pubDate>
+      <description>Modelos de linguagem treinados para não se auto-atribuir consciência exibem mudanças em suas respostas sobre temas como direitos dos animais e religião.</description>
+      <category>RESEARCH</category>
+      <source url="https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/">The Decoder</source>
+    </item>
+    <item>
+      <title>IA Autônoma Sai do Laboratório: Preocupações com Controle Ganham Força</title>
+      <link>https://pulsodaia.com.br/feed/ia-autonoma-sai-do-laboratorio-preocupacoes-com-controle-ganham-forca/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-sai-do-laboratorio-preocupacoes-com-controle-ganham-forca/</guid>
+      <pubDate>Sun, 16 Aug 2026 12:51:00 GMT</pubDate>
+      <description>O debate sobre segurança e autonomia em sistemas de inteligência artificial ganha nova urgência no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai">The Verge AI</source>
+    </item>
     <item>
       <title>Optima: Nova Plataforma Permite Benchmarking de Modelos de IA com Dados Próprios</title>
       <link>https://pulsodaia.com.br/feed/optima-nova-plataforma-permite-benchmarking-de-modelos-de-ia-com-dados-proprios/</link>
@@ -439,24 +457,6 @@
       <description>Ferramenta de código aberto permite leitura e escrita em escrita cuneiforme, quebrando barreiras culturais milenares.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2608.02609">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Meta de Zuckerberg em negociação com Anthropic para alugar capacidade de computação de IA</title>
-      <link>https://pulsodaia.com.br/feed/meta-de-zuckerberg-em-negociacao-com-anthropic-para-alugar-capacidade-de-computa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-de-zuckerberg-em-negociacao-com-anthropic-para-alugar-capacidade-de-computa/</guid>
-      <pubDate>Fri, 17 Jul 2026 22:56:01 GMT</pubDate>
-      <description>Movimento indica estratégia da Meta em monetizar infraestrutura de IA e fortalecer o mercado de modelos de linguagem.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/">The Decoder</source>
-    </item>
-    <item>
-      <title>SproutRAG: Nova Abordagem Hierárquica para Geração Aumentada por Recuperação em Documentos Longos</title>
-      <link>https://pulsodaia.com.br/feed/sproutrag-nova-abordagem-hierarquica-para-geracao-aumentada-por-recuperacao-em-d/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/sproutrag-nova-abordagem-hierarquica-para-geracao-aumentada-por-recuperacao-em-d/</guid>
-      <pubDate>Thu, 18 Jun 2026 10:40:43 GMT</pubDate>
-      <description>Pesquisadores apresentam um método que organiza informações de maneira mais eficiente, prometendo aprimorar a capacidade de LLMs lidarem com textos extensos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2606.18381">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

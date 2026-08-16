@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-08-16T08:36:58.058Z",
+  "generated_at": "2026-08-16T12:51:13.720Z",
   "articles": [
+    {
+      "slug": "restricoes-em-ia-podem-alterar-sua-visao-de-mundo-sugere-estudo",
+      "headline": "Restrições em IA Podem Alterar sua \"Visão de Mundo\", Sugere Estudo",
+      "subtitle": "Modelos de linguagem treinados para não se auto-atribuir consciência exibem mudanças em suas respostas sobre temas como direitos dos animais e religião.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "treinamento de ia",
+        "ética em ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 16 Aug 2026 11:23:30 +0000",
+      "written_at": "2026-08-16T12:51:11.294Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-autonoma-sai-do-laboratorio-preocupacoes-com-controle-ganham-forca",
+      "headline": "IA Autônoma Sai do Laboratório: Preocupações com Controle Ganham Força",
+      "subtitle": "O debate sobre segurança e autonomia em sistemas de inteligência artificial ganha nova urgência no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "category": "mercado",
+      "tags": [
+        "ia autônoma",
+        "segurança de ia",
+        "controle de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-16T08:00:00-04:00",
+      "written_at": "2026-08-16T12:51:00.056Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "optima-nova-plataforma-permite-benchmarking-de-modelos-de-ia-com-dados-proprios",
       "headline": "Optima: Nova Plataforma Permite Benchmarking de Modelos de IA com Dados Próprios",
