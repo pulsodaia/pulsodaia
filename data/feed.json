@@ -1,6 +1,67 @@
 {
-  "generated_at": "2026-08-16T01:45:07.889Z",
+  "generated_at": "2026-08-16T08:36:58.058Z",
   "articles": [
+    {
+      "slug": "optima-nova-plataforma-permite-benchmarking-de-modelos-de-ia-com-dados-proprios",
+      "headline": "Optima: Nova Plataforma Permite Benchmarking de Modelos de IA com Dados Próprios",
+      "subtitle": "A avaliação de modelos de inteligência artificial ganha um novo patamar de personalização no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "benchmarking",
+        "modelos de ia",
+        "inteligência artificial",
+        "artificial analysis"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 16 Aug 2026 05:50:50 +0000",
+      "written_at": "2026-08-16T08:36:55.749Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "falha-em-filtro-de-seguranca-da-anthropic-expos-133-milhoes-de-interacoes",
+      "headline": "Falha em filtro de segurança da Anthropic expôs 133 milhões de interações",
+      "subtitle": "Sistema que deveria barrar riscos de armas biológicas e químicas ficou inativo por quase um ano.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança",
+        "anthropic",
+        "armas biologicas",
+        "falha"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 16 Aug 2026 07:20:06 +0000",
+      "written_at": "2026-08-16T08:36:43.459Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "openai-desmonta-equipe-de-seguranca-para-riscos-catastroficos-de-ia",
+      "headline": "OpenAI Desmonta Equipe de Segurança para Riscos Catastróficos de IA",
+      "subtitle": "Decisão gera apreensão interna e redistribui responsabilidades críticas em meio a debates sobre o desenvolvimento seguro da tecnologia.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "segurança ia",
+        "riscos ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 16 Aug 2026 08:12:52 +0000",
+      "written_at": "2026-08-16T08:36:31.200Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-em-jogo-ferramenta-permite-experienciar-o-papel-de-um-chatbot",
       "headline": "IA em Jogo: Ferramenta Permite Experienciar o Papel de um Chatbot",

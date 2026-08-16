@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 16 Aug 2026 04:48:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 08:41:54 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Optima: Nova Plataforma Permite Benchmarking de Modelos de IA com Dados Próprios</title>
+      <link>https://pulsodaia.com.br/feed/optima-nova-plataforma-permite-benchmarking-de-modelos-de-ia-com-dados-proprios/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/optima-nova-plataforma-permite-benchmarking-de-modelos-de-ia-com-dados-proprios/</guid>
+      <pubDate>Sun, 16 Aug 2026 08:36:55 GMT</pubDate>
+      <description>A avaliação de modelos de inteligência artificial ganha um novo patamar de personalização no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/">The Decoder</source>
+    </item>
+    <item>
+      <title>Falha em filtro de segurança da Anthropic expôs 133 milhões de interações</title>
+      <link>https://pulsodaia.com.br/feed/falha-em-filtro-de-seguranca-da-anthropic-expos-133-milhoes-de-interacoes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/falha-em-filtro-de-seguranca-da-anthropic-expos-133-milhoes-de-interacoes/</guid>
+      <pubDate>Sun, 16 Aug 2026 08:36:43 GMT</pubDate>
+      <description>Sistema que deveria barrar riscos de armas biológicas e químicas ficou inativo por quase um ano.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/">The Decoder</source>
+    </item>
+    <item>
+      <title>OpenAI Desmonta Equipe de Segurança para Riscos Catastróficos de IA</title>
+      <link>https://pulsodaia.com.br/feed/openai-desmonta-equipe-de-seguranca-para-riscos-catastroficos-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-desmonta-equipe-de-seguranca-para-riscos-catastroficos-de-ia/</guid>
+      <pubDate>Sun, 16 Aug 2026 08:36:31 GMT</pubDate>
+      <description>Decisão gera apreensão interna e redistribui responsabilidades críticas em meio a debates sobre o desenvolvimento seguro da tecnologia.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/">The Decoder</source>
+    </item>
     <item>
       <title>IA em Jogo: Ferramenta Permite Experienciar o Papel de um Chatbot</title>
       <link>https://pulsodaia.com.br/feed/ia-em-jogo-ferramenta-permite-experienciar-o-papel-de-um-chatbot/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisadores apresentam um método que organiza informações de maneira mais eficiente, prometendo aprimorar a capacidade de LLMs lidarem com textos extensos.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2606.18381">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>IA Local Protege Dados de Alunos em Diálogos Educacionais</title>
-      <link>https://pulsodaia.com.br/feed/ia-local-protege-dados-de-alunos-em-dialogos-educacionais/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-local-protege-dados-de-alunos-em-dialogos-educacionais/</guid>
-      <pubDate>Thu, 18 Jun 2026 10:40:29 GMT</pubDate>
-      <description>Pesquisa propõe nova abordagem para anonimizar informações sensíveis sem expor dados a terceiros.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.18372">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>IA de audio aprende a "pensar" acusticamente antes de responder</title>
-      <link>https://pulsodaia.com.br/feed/ia-de-audio-aprende-a-pensar-acusticamente-antes-de-responder/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-audio-aprende-a-pensar-acusticamente-antes-de-responder/</guid>
-      <pubDate>Thu, 18 Jun 2026 10:40:16 GMT</pubDate>
-      <description>Pesquisadores propõem nova arquitetura para modelos de linguagem de audio que preserva detalhes sonoros.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2606.18273">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>O Custo Real da IA: Empresas Buscam ROI em Meio a Gastos Excessivos</title>
-      <link>https://pulsodaia.com.br/feed/o-custo-real-da-ia-empresas-buscam-roi-em-meio-a-gastos-excessivos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/o-custo-real-da-ia-empresas-buscam-roi-em-meio-a-gastos-excessivos/</guid>
-      <pubDate>Wed, 17 Jun 2026 22:07:42 GMT</pubDate>
-      <description>A euforia inicial com o uso irrestrito de IA nas corporações dá lugar a uma análise rigorosa sobre o retorno financeiro.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
