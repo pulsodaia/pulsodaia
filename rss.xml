@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 17 Aug 2026 03:11:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 04:55:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos de Linguagem Estendem Modularidade Cerebral para IA</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-estendem-modularidade-cerebral-para-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-estendem-modularidade-cerebral-para-ia/</guid>
+      <pubDate>Mon, 17 Aug 2026 04:51:15 GMT</pubDate>
+      <description>Pesquisa no arXiv sugere que grandes modelos de linguagem podem replicar a organização especializada do cérebro humano.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.13567">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Arquitetura de IA: Especialistas em Camadas Revelam Importância Profunda em Modelos de Linguagem</title>
+      <link>https://pulsodaia.com.br/feed/arquitetura-de-ia-especialistas-em-camadas-revelam-importancia-profunda-em-model/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/arquitetura-de-ia-especialistas-em-camadas-revelam-importancia-profunda-em-model/</guid>
+      <pubDate>Mon, 17 Aug 2026 04:50:55 GMT</pubDate>
+      <description>Pesquisa aponta que a contribuição de cada "especialista" em modelos de IA complexos varia significativamente com a profundidade da rede.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.13565">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>RubricForge: Nova Abordagem para Avaliar Agentes de IA sem Recompensa Externa</title>
+      <link>https://pulsodaia.com.br/feed/rubricforge-nova-abordagem-para-avaliar-agentes-de-ia-sem-recompensa-externa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/rubricforge-nova-abordagem-para-avaliar-agentes-de-ia-sem-recompensa-externa/</guid>
+      <pubDate>Mon, 17 Aug 2026 04:50:44 GMT</pubDate>
+      <description>Pesquisadores desenvolvem método para julgar a performance de modelos de linguagem, focando em precisão e evitando superestimação.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2608.13564">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>OpenAI Desmonta Equipe de Preparo para Riscos de IA</title>
       <link>https://pulsodaia.com.br/feed/openai-desmonta-equipe-de-preparo-para-riscos-de-ia/</link>
@@ -430,33 +457,6 @@
       <description>Nova ferramenta de IA da Meta promete otimizar o desenvolvimento em projetos de software de grande escala.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Google Descontinua Assistente em 2026; Gemini Assumirá em Android e Wear OS</title>
-      <link>https://pulsodaia.com.br/feed/google-descontinua-assistente-em-2026-gemini-assumira-em-android-e-wear-os/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-descontinua-assistente-em-2026-gemini-assumira-em-android-e-wear-os/</guid>
-      <pubDate>Wed, 05 Aug 2026 19:45:18 GMT</pubDate>
-      <description>A gigante de Mountain View consolida sua estratégia de IA, migrando usuários para uma plataforma mais unificada.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/google-will-shut-down-google-assistant-starting-september-2026-as-gemini-takes-over-on-android-and-wear-os/">The Decoder</source>
-    </item>
-    <item>
-      <title>Reddit Incorpora IA para Moderação de Comunidades</title>
-      <link>https://pulsodaia.com.br/feed/reddit-incorpora-ia-para-moderacao-de-comunidades/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/reddit-incorpora-ia-para-moderacao-de-comunidades/</guid>
-      <pubDate>Wed, 05 Aug 2026 19:45:07 GMT</pubDate>
-      <description>A plataforma busca otimizar o gerenciamento de conteúdo com novas ferramentas automatizadas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform">The Verge AI</source>
-    </item>
-    <item>
-      <title>Jeff Dean Lidera Saída de Pesquisadores de IA do Google para Nova Startup</title>
-      <link>https://pulsodaia.com.br/feed/jeff-dean-lidera-saida-de-pesquisadores-de-ia-do-google-para-nova-startup/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/jeff-dean-lidera-saida-de-pesquisadores-de-ia-do-google-para-nova-startup/</guid>
-      <pubDate>Wed, 05 Aug 2026 19:44:56 GMT</pubDate>
-      <description>Gigantes da tecnologia veem êxodo de talentos em busca de novas fronteiras para a inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

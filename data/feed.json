@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-16T22:28:28.876Z",
+  "generated_at": "2026-08-17T04:51:16.068Z",
   "articles": [
+    {
+      "slug": "modelos-de-linguagem-estendem-modularidade-cerebral-para-ia",
+      "headline": "Modelos de Linguagem Estendem Modularidade Cerebral para IA",
+      "subtitle": "Pesquisa no arXiv sugere que grandes modelos de linguagem podem replicar a organização especializada do cérebro humano.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.13567",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "neurociência"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 17 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-17T04:51:15.957Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "arquitetura-de-ia-especialistas-em-camadas-revelam-importancia-profunda-em-model",
+      "headline": "Arquitetura de IA: Especialistas em Camadas Revelam Importância Profunda em Modelos de Linguagem",
+      "subtitle": "Pesquisa aponta que a contribuição de cada \"especialista\" em modelos de IA complexos varia significativamente com a profundidade da rede.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.13565",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "mixture of experts"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 17 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-17T04:50:55.900Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "rubricforge-nova-abordagem-para-avaliar-agentes-de-ia-sem-recompensa-externa",
+      "headline": "RubricForge: Nova Abordagem para Avaliar Agentes de IA sem Recompensa Externa",
+      "subtitle": "Pesquisadores desenvolvem método para julgar a performance de modelos de linguagem, focando em precisão e evitando superestimação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.13564",
+      "category": "research",
+      "tags": [
+        "avaliacao de ia",
+        "modelos de linguagem",
+        "rubricas de julgamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 17 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-17T04:50:44.193Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-desmonta-equipe-de-preparo-para-riscos-de-ia",
       "headline": "OpenAI Desmonta Equipe de Preparo para Riscos de IA",
