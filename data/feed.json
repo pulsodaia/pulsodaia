@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-08-17T18:49:16.047Z",
+  "generated_at": "2026-08-17T20:33:32.729Z",
   "articles": [
+    {
+      "slug": "claude-code-refina-experiencia-do-desenvolvedor-com-novas-funcionalidades",
+      "headline": "Claude Code Refina Experiência do Desenvolvedor com Novas Funcionalidades",
+      "subtitle": "Atualização do assistente de código da Anthropic visa otimizar fluxos de trabalho e aprimorar a interação do usuário.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-17T20:20:58Z",
+      "written_at": "2026-08-17T20:33:31.965Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "otimizacao-de-gpus-a-ordem-das-tarefas-eleva-o-desempenho-em-33",
+      "headline": "Otimização de GPUs: A Ordem das Tarefas Eleva o Desempenho em 33%",
+      "subtitle": "Um ajuste simples na sequência de processamento pode significar ganhos expressivos em infraestruturas de IA no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "category": "opensource",
+      "tags": [
+        "gpu",
+        "otimizacao",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 17 Aug 2026 19:46:21 GMT",
+      "written_at": "2026-08-17T20:33:20.529Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "nvidia-alimenta-openai-com-us-1-5-bilhao-em-data-centers",
       "headline": "Nvidia Alimenta OpenAI com US$ 1,5 Bilhão em Data Centers",

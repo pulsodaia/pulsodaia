@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 17 Aug 2026 18:53:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 20:38:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code Refina Experiência do Desenvolvedor com Novas Funcionalidades</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-refina-experiencia-do-desenvolvedor-com-novas-funcionalidades/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-refina-experiencia-do-desenvolvedor-com-novas-funcionalidades/</guid>
+      <pubDate>Mon, 17 Aug 2026 20:33:31 GMT</pubDate>
+      <description>Atualização do assistente de código da Anthropic visa otimizar fluxos de trabalho e aprimorar a interação do usuário.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.234">Claude Code</source>
+    </item>
+    <item>
+      <title>Otimização de GPUs: A Ordem das Tarefas Eleva o Desempenho em 33%</title>
+      <link>https://pulsodaia.com.br/feed/otimizacao-de-gpus-a-ordem-das-tarefas-eleva-o-desempenho-em-33/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-de-gpus-a-ordem-das-tarefas-eleva-o-desempenho-em-33/</guid>
+      <pubDate>Mon, 17 Aug 2026 20:33:20 GMT</pubDate>
+      <description>Um ajuste simples na sequência de processamento pode significar ganhos expressivos em infraestruturas de IA no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/Dharma-AI/gpu-management-pt2">Hugging Face</source>
+    </item>
     <item>
       <title>Nvidia Alimenta OpenAI com US$ 1,5 Bilhão em Data Centers</title>
       <link>https://pulsodaia.com.br/feed/nvidia-alimenta-openai-com-us-1-5-bilhao-em-data-centers/</link>
@@ -439,24 +457,6 @@
       <description>Pesquisa no arXiv propõe "Agentic Nesting" para superar gargalos na conexão de aplicações legadas, um desafio persistente para o setor empresarial no Brasil.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2608.05159">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>ChatGPT Libera Chats Ilimitados e Botão de Pensamento para Usuários Gratuitos</title>
-      <link>https://pulsodaia.com.br/feed/chatgpt-libera-chats-ilimitados-e-botao-de-pensamento-para-usuarios-gratuitos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/chatgpt-libera-chats-ilimitados-e-botao-de-pensamento-para-usuarios-gratuitos/</guid>
-      <pubDate>Fri, 07 Aug 2026 00:08:17 GMT</pubDate>
-      <description>A OpenAI amplia o acesso a suas funcionalidades avançadas, impactando diretamente o uso da IA no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OpenAI Aponta Para Mercado Premium com Novo Dispositivo de IA</title>
-      <link>https://pulsodaia.com.br/feed/openai-aponta-para-mercado-premium-com-novo-dispositivo-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-aponta-para-mercado-premium-com-novo-dispositivo-de-ia/</guid>
-      <pubDate>Fri, 07 Aug 2026 00:08:07 GMT</pubDate>
-      <description>A empresa de Sam Altman explora um novo formato de hardware, mirando consumidores dispostos a investir em tecnologia de ponta.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
