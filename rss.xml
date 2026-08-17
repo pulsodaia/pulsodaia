@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 17 Aug 2026 20:38:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 22:35:34 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Relay Encerra Operações e Equipe se Une ao Chrome da Google</title>
+      <link>https://pulsodaia.com.br/feed/relay-encerra-operacoes-e-equipe-se-une-ao-chrome-da-google/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/relay-encerra-operacoes-e-equipe-se-une-ao-chrome-da-google/</guid>
+      <pubDate>Mon, 17 Aug 2026 22:30:15 GMT</pubDate>
+      <description>O fim de uma startup de automação por IA levanta questões sobre o futuro da integração de inteligência artificial em navegadores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Claude Code Refina Experiência do Desenvolvedor com Novas Funcionalidades</title>
       <link>https://pulsodaia.com.br/feed/claude-code-refina-experiencia-do-desenvolvedor-com-novas-funcionalidades/</link>
@@ -448,15 +457,6 @@
       <description>Pesquisa acadêmica propõe uma forma de quantificar a dinâmica interna de modelos de IA, com implicações para o desenvolvimento de sistemas mais robustos.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2608.05160">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Nova Metodologia com Agentes Inteligentes Promete Simplificar Integração de Sistemas Corporativos</title>
-      <link>https://pulsodaia.com.br/feed/nova-metodologia-com-agentes-inteligentes-promete-simplificar-integracao-de-sist/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-metodologia-com-agentes-inteligentes-promete-simplificar-integracao-de-sist/</guid>
-      <pubDate>Fri, 07 Aug 2026 04:29:50 GMT</pubDate>
-      <description>Pesquisa no arXiv propõe "Agentic Nesting" para superar gargalos na conexão de aplicações legadas, um desafio persistente para o setor empresarial no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.05159">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
