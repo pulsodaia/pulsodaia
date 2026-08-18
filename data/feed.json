@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-18T01:38:27.545Z",
+  "generated_at": "2026-08-18T06:54:18.201Z",
   "articles": [
+    {
+      "slug": "ia-desafio-inedito-testa-raciocinio-abstrato-alem-do-obvio",
+      "headline": "IA: Desafio Inédito Testa Raciocínio Abstrato Além do Óbvio",
+      "subtitle": "Modelos atuais falham em inferir informações não visíveis a partir de áudio e vídeo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.14558",
+      "category": "research",
+      "tags": [
+        "ia multimodal",
+        "raciocínio abstrato",
+        "aprendizado de máquina"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-18T06:54:18.091Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-linguagem-em-medicina-confianca-e-incerteza-sob-exame",
+      "headline": "Modelos de Linguagem em Medicina: Confiança e Incerteza Sob Exame",
+      "subtitle": "Pesquisa aponta para a necessidade de avaliar a capacidade dos LLMs de calibrar suas respostas diagnósticas com a qualidade da informação.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.14552",
+      "category": "research",
+      "tags": [
+        "ia na saude",
+        "modelos de linguagem",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-18T06:54:07.140Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "flops-a-medida-de-eficiencia-em-ia-que-precisa-de-validacao",
+      "headline": "FLOPs: A Medida de Eficiência em IA Que Precisa de Validação",
+      "subtitle": "Um estudo recente no arXiv questiona a confiabilidade das métricas tradicionais de custo computacional em hardware moderno.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.14550",
+      "category": "research",
+      "tags": [
+        "ia",
+        "eficiencia",
+        "flops"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-18T06:53:57.071Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "robo-de-lixo-para-gatos-usa-ia-para-detectar-mudancas-comportamentais",
       "headline": "Robô de Lixo para Gatos Usa IA para Detectar Mudanças Comportamentais",
