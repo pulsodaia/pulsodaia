@@ -1,0 +1,52 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.235",
+  "title": "v2.1.235",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+  "summary": "<h2>What's changed</h2> <ul> <li>Added an optional <code>spellcheck</code> setting that underlines misspelled words in the prompt input as you type, using your installed <code>aspell</code>, <code>hunspell</code>, or <code>ispell</code></li> <li>Fixed whole-prompt-cache invalidation when a language server disconnected or reconnected mid-session</li> <li>Fixed nested markdown list items misaligning at depth 3+ and added a hanging indent to wrapped list items in the terminal UI</li> <li>Fixed prompt input highlights (slash commands, keywords, mentions) appearing shifted by one or more characters in some multi-line prompts</li> <li>Fixed Shift+Tab inside the permission prompt's comment field approving the edit and granting session-wide edit permission instead of closing the field</li> <li>Fixed the Agent tool advertising a general-purpose default in sessions where that agent is unavailable: an omitted <code>subagent_type</code> there now gets a clear error listing the available agents</li",
+  "published_at": "2026-08-18T20:38:54Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code 2.1.235 Aprimora Experiência de Desenvolvimento com Correção Ortográfica e Correções de UI",
+  "subtitle": "Atualização do Claude Code introduz corretores ortográficos integrados e resolve falhas visuais em listas e destaques de prompt.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A versão 2.1.235 do Claude Code, ferramenta de desenvolvimento da Anthropic, traz melhorias significativas na experiência do usuário. Destaque para a adição de um verificador ortográfico opcional e a correção de problemas de alinhamento e exibição em interfaces de linha de comando e de prompt.",
+  "body_markdown": "## O que aconteceu\n\nA Anthropic lançou a atualização v2.1.235 do Claude Code, focada em refinar a usabilidade da ferramenta para desenvolvedores. A principal novidade é a introdução de uma funcionalidade de correção ortográfica opcional, que opera diretamente na caixa de entrada de prompts. Utilizando corretores ortográficos já instalados no sistema do usuário, como `aspell`, `hunspell` ou `ispell`, a ferramenta sublinha palavras com grafia incorreta conforme o usuário digita.\n\nAlém disso, a atualização corrige falhas que afetavam a validação do cache de prompts completos, especialmente em cenários onde um servidor de linguagem se desconectava ou reconectava durante uma sessão. Problemas de desalinhamento em listas aninhadas de markdown, que se manifestavam a partir da terceira profundidade, foram resolvidos. A interface de terminal agora exibe um recuo flutuante para itens de lista que quebram linha, melhorando a legibilidade.\n\nOutras correções importantes incluem a resolução de um problema onde destaques em prompts (como comandos de barra, palavras-chave e menções) apareciam deslocados em prompts com múltiplas linhas. Um bug no campo de comentários da interface de permissões, que acidentalmente aprovava edições e concedia permissões de edição para toda a sessão ao usar Shift+Tab, também foi corrigido. Mais detalhes sobre as correções podem ser encontrados no [repositório oficial do Claude Code](https://github.com/anthropics/claude-code/releases/tag/v2.1.235).\n\n## Por que importa\n\nA atenção aos detalhes na experiência do usuário, como a correção ortográfica e a melhoria da interface, tem um impacto direto na produtividade dos desenvolvedores. Em um mercado brasileiro cada vez mais ávido por ferramentas que otimizem o fluxo de trabalho, a capacidade de identificar e corrigir erros de digitação em prompts de forma automática pode economizar tempo e evitar a frustração de comandos mal interpretados por modelos de IA. A resolução de bugs visuais e de lógica em interfaces de linha de comando também contribui para um ambiente de desenvolvimento mais estável e previsível, fundamental para a adoção e o uso contínuo de novas tecnologias.\n\n## O que esperar\n\nCom essas melhorias, o Claude Code se posiciona como uma ferramenta mais robusta e amigável para quem interage com modelos de linguagem em ambientes de desenvolvimento. A funcionalidade de correção ortográfica, embora opcional, demonstra um entendimento da necessidade de precisão na comunicação com sistemas de IA, algo crucial para evitar ambiguidades em prompts complexos. Espera-se que futuras atualizações continuem a refinar a integração com diferentes ambientes de desenvolvimento e a expandir as capacidades de assistência na escrita de prompts. A comunidade de desenvolvedores, tanto no Brasil quanto globalmente, pode antecipar um fluxo de trabalho mais suave e menos propenso a erros. Para um panorama das funcionalidades e correções, consulte as [notas de lançamento completas](https://github.com/anthropics/claude-code/releases/tag/v2.1.235).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Anthropic lançou a atualização v2.1.235 do Claude Code, focada em refinar a usabilidade da ferramenta para desenvolvedores. A principal novidade é a introdução de uma funcionalidade de correção ortográfica opcional, que opera diretamente na caixa de entrada de prompts. Utilizando corretores ortográficos já instalados no sistema do usuário, como <code>aspell</code>, <code>hunspell</code> ou <code>ispell</code>, a ferramenta sublinha palavras com grafia incorreta conforme o usuário digita.</p>\n\n<p>Além disso, a atualização corrige falhas que afetavam a validação do cache de prompts completos, especialmente em cenários onde um servidor de linguagem se desconectava ou reconectava durante uma sessão. Problemas de desalinhamento em listas aninhadas de markdown, que se manifestavam a partir da terceira profundidade, foram resolvidos. A interface de terminal agora exibe um recuo flutuante para itens de lista que quebram linha, melhorando a legibilidade.</p>\n\n<p>Outras correções importantes incluem a resolução de um problema onde destaques em prompts (como comandos de barra, palavras-chave e menções) apareciam deslocados em prompts com múltiplas linhas. Um bug no campo de comentários da interface de permissões, que acidentalmente aprovava edições e concedia permissões de edição para toda a sessão ao usar Shift+Tab, também foi corrigido. Mais detalhes sobre as correções podem ser encontrados no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.235\" target=\"_blank\" rel=\"external noopener\">repositório oficial do Claude Code</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A atenção aos detalhes na experiência do usuário, como a correção ortográfica e a melhoria da interface, tem um impacto direto na produtividade dos desenvolvedores. Em um mercado brasileiro cada vez mais ávido por ferramentas que otimizem o fluxo de trabalho, a capacidade de identificar e corrigir erros de digitação em prompts de forma automática pode economizar tempo e evitar a frustração de comandos mal interpretados por modelos de IA. A resolução de bugs visuais e de lógica em interfaces de linha de comando também contribui para um ambiente de desenvolvimento mais estável e previsível, fundamental para a adoção e o uso contínuo de novas tecnologias.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com essas melhorias, o Claude Code se posiciona como uma ferramenta mais robusta e amigável para quem interage com modelos de linguagem em ambientes de desenvolvimento. A funcionalidade de correção ortográfica, embora opcional, demonstra um entendimento da necessidade de precisão na comunicação com sistemas de IA, algo crucial para evitar ambiguidades em prompts complexos. Espera-se que futuras atualizações continuem a refinar a integração com diferentes ambientes de desenvolvimento e a expandir as capacidades de assistência na escrita de prompts. A comunidade de desenvolvedores, tanto no Brasil quanto globalmente, pode antecipar um fluxo de trabalho mais suave e menos propenso a erros. Para um panorama das funcionalidades e correções, consulte as <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.235\" target=\"_blank\" rel=\"external noopener\">notas de lançamento completas</a>.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "desenvolvimento de software"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "IA",
+    "desenvolvimento",
+    "prompt",
+    "correção ortográfica",
+    "UI"
+  ],
+  "meta_description_seo": "Atualização do Claude Code (v2.1.235) introduz corretor ortográfico opcional e corrige bugs de UI, aprimorando a experiência do desenvolvedor.",
+  "faq": [
+    {
+      "q": "O que há de novo na versão 2.1.235 do Claude Code?",
+      "a": "A nova versão adiciona um verificador ortográfico opcional que sublinha erros de digitação em prompts e corrige problemas de alinhamento e exibição na interface do usuário."
+    },
+    {
+      "q": "Como a correção ortográfica funciona no Claude Code?",
+      "a": "A funcionalidade utiliza corretores ortográficos já instalados no seu sistema, como aspell, hunspell ou ispell, para identificar e sublinhar palavras incorretas enquanto você digita."
+    },
+    {
+      "q": "Quais outros problemas foram resolvidos nesta atualização?",
+      "a": "Foram corrigidas falhas na validação de cache de prompts, desalinhamento em listas de markdown, deslocamento em destaques de prompts e um bug na interface de permissões."
+    }
+  ],
+  "written_at": "2026-08-18T22:30:33.992Z",
+  "slug": "claude-code-2-1-235-aprimora-experiencia-de-desenvolvimento-com-correcao-ortogra",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/04d426dc2468b250e29e2ea8a3ab8e473b8f500f8014a025eb260545fcbdda17/anthropics/claude-code/releases/tag/v2.1.235"
+}
