@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-08-18T08:44:39.248Z",
+  "generated_at": "2026-08-18T16:38:31.141Z",
   "articles": [
+    {
+      "slug": "novos-modelos-de-embedding-buscam-melhorar-compreensao-de-sentencas-por-ia",
+      "headline": "Novos Modelos de Embedding Buscam Melhorar Compreensão de Sentenças por IA",
+      "subtitle": "Pesquisa da Hugging Face explora abordagens para codificar significado de forma mais precisa.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/multi-vector-encoder",
+      "category": "opensource",
+      "tags": [
+        "embedding",
+        "sentence transformers",
+        "processamento de linguagem natural"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 18 Aug 2026 00:00:00 GMT",
+      "written_at": "2026-08-18T16:38:31.054Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "anthropic-atinge-receita-anualizada-de-us-65-bilhoes-com-crescimento-sete-vezes-",
       "headline": "Anthropic Atinge Receita Anualizada de US$ 65 Bilhões com Crescimento Sete Vezes Maior",
