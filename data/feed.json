@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-18T16:38:31.141Z",
+  "generated_at": "2026-08-18T18:49:02.870Z",
   "articles": [
+    {
+      "slug": "etched-dobra-valor-de-mercado-para-us-21-bilhoes-em-um-mes-apos-adocao-pela-jane",
+      "headline": "Etched dobra valor de mercado para US$ 21 bilhões em um mês após adoção pela Jane Street",
+      "subtitle": "A startup de infraestrutura de IA confirma rodada de investimento massiva impulsionada pelo interesse de um gigante financeiro.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "infraestrutura de ia",
+        "venture capital"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 18 Aug 2026 17:21:58 +0000",
+      "written_at": "2026-08-18T18:49:02.847Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-reforca-seguranca-de-modelos-apos-incidente-na-hugging-face",
+      "headline": "OpenAI Reforça Segurança de Modelos Após Incidente na Hugging Face",
+      "subtitle": "A empresa implementa novas medidas de monitoramento e alinhamento para mitigar riscos em seus sistemas de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+      "category": "mercado",
+      "tags": [
+        "segurança de ia",
+        "openai",
+        "huggin face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 18 Aug 2026 18:00:00 +0000",
+      "written_at": "2026-08-18T18:48:52.427Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "memoria-de-agentes-de-ia-a-busca-por-eficiencia-e-reducao-de-custos",
+      "headline": "Memória de Agentes de IA: A Busca por Eficiência e Redução de Custos",
+      "subtitle": "A otimização da memória em modelos de IA pode ter implicações diretas na viabilidade e escalabilidade de aplicações no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "category": "opensource",
+      "tags": [
+        "memória de ia",
+        "otimização",
+        "eficiência computacional"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 18 Aug 2026 18:09:38 GMT",
+      "written_at": "2026-08-18T18:48:42.058Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "novos-modelos-de-embedding-buscam-melhorar-compreensao-de-sentencas-por-ia",
       "headline": "Novos Modelos de Embedding Buscam Melhorar Compreensão de Sentenças por IA",
