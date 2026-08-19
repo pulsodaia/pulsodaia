@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-18T22:30:46.379Z",
+  "generated_at": "2026-08-19T12:58:35.698Z",
   "articles": [
+    {
+      "slug": "o-custo-do-raciocinio-contratos-de-api-de-ia-agora-incluem-esforco-de-processame",
+      "headline": "O Custo do Raciocínio: Contratos de API de IA agora incluem esforço de processamento",
+      "subtitle": "Estudo no arXiv sugere que a precisão pode justificar um custo maior por chamada em modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.16956",
+      "category": "research",
+      "tags": [
+        "ia",
+        "api",
+        "raciocínio"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-19T12:58:35.651Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "aegis-seguranca-para-ia-com-potencial-de-acao",
+      "headline": "Aegis: Segurança para IA com Potencial de Ação",
+      "subtitle": "Nova proposta de governança busca controlar efeitos colaterais de sistemas de IA autônomos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.16891",
+      "category": "research",
+      "tags": [
+        "ia",
+        "segurança",
+        "governança"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-19T12:58:23.797Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "gxp-agent-novo-sistema-de-ia-promete-agilizar-programacao-clinica-com-agentes-es",
+      "headline": "GxP-Agent: Novo Sistema de IA Promete Agilizar Programação Clínica com Agentes Especializados",
+      "subtitle": "Pesquisa em IA propõe solução para gargalo regulatório em ensaios clínicos, com potencial impacto na aprovação de medicamentos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.16890",
+      "category": "research",
+      "tags": [
+        "ia",
+        "ensaios clinicos",
+        "regulatorio"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-19T12:58:11.700Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "cursor-lanca-plataforma-de-hospedagem-de-codigo-para-competir-com-github",
       "headline": "Cursor Lança Plataforma de Hospedagem de Código para Competir com GitHub",

@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2608.16891v1",
+  "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+  "url": "https://arxiv.org/abs/2608.16891",
+  "summary": "arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it does not create an execution boundary. We introduce Aegis, a runtime governance system that treats model outputs as action proposals and mediates them through a trusted decision layer before tool execution. The model proposes; the trusted runtime decides. Aegis evaluates proposals against active policy state, resolves provenance server-side, fails closed under uncertainty, and routes selected cases through Senate-style settlement, a quorum- based non-unilateral authorization path. We evaluate Aegis on a repeated sandbox corpus spanning five run families, 42 tasks, three conditions, and ten repeats per family. Across 6,300 rows, prompt-policy conditioning produced 79 risky ",
+  "published_at": "Wed, 19 Aug 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Aegis: Segurança para IA com Potencial de Ação",
+  "subtitle": "Nova proposta de governança busca controlar efeitos colaterais de sistemas de IA autônomos.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores propõem o Aegis, um sistema de governança em tempo de execução que trata as saídas de modelos de IA como propostas de ação. A ideia é criar uma camada de decisão confiável para mediar essas ações antes de sua execução, prevenindo efeitos operacionais indesejados.",
+  "body_markdown": "## O que aconteceu\n\nUm novo trabalho acadêmico, publicado no arXiv, introduz o Aegis, um sistema de governança projetado para gerenciar a segurança de sistemas de Inteligência Artificial com capacidade de ação. Diferente de abordagens focadas apenas na geração de texto, o Aegis aborda o risco de efeitos colaterais operacionais, como modificação de arquivos, envio de mensagens ou alteração de fluxos de trabalho. O sistema opera tratando as saídas dos modelos de IA como propostas de ação, que são então avaliadas por uma camada de decisão confiável antes de serem executadas. O modelo propõe, e o runtime confiável decide. Essa arquitetura visa estabelecer um limite de execução claro, algo que a governança baseada em prompt, por si só, não consegue garantir. A proposta detalha como o Aegis avalia essas propostas contra o estado da política ativa, resolve a proveniência dos dados no lado do servidor e adota uma estratégia de \"fail-closed\" em cenários de incerteza. Casos selecionados são encaminhados para um processo de resolução estilo \"Senado\", que envolve autorização baseada em quórum e não unilateral. Mais detalhes podem ser encontrados no artigo original [aqui](https://arxiv.org/abs/2608.16891).\n\n## Por que importa\n\nA crescente autonomia de sistemas de IA, especialmente aqueles que interagem com o mundo real ou sistemas digitais, eleva a preocupação com a segurança para além da geração de conteúdo inadequado. A capacidade de um agente de IA executar ações diretas pode levar a consequências não intencionais e potencialmente prejudiciais. Para empresas brasileiras que já exploram a IA em seus processos, desde automação de tarefas até a gestão de fluxos complexos, a implementação de mecanismos robustos de controle se torna crucial. O Aegis oferece um modelo para mitigar riscos operacionais, garantindo que as ações propostas pela IA estejam alinhadas com as políticas de segurança e conformidade estabelecidas. A abordagem de \"fail-closed\" em situações de dúvida, combinada com um processo de autorização distribuída, pode aumentar a confiança na implantação de IA em ambientes corporativos sensíveis, protegendo dados e operações.\n\n## O que esperar\n\nA proposta do Aegis representa um passo importante na engenharia de segurança para IA autônoma. A expectativa é que sistemas como este se tornem componentes essenciais na arquitetura de futuras aplicações de IA que necessitem de permissão para executar ações. A validação prática e a escalabilidade do Aegis em diferentes tipos de ferramentas e fluxos de trabalho serão os próximos pontos de atenção. É provável que a pesquisa continue a explorar a otimização do processo de decisão e a integração com sistemas de políticas existentes. A abordagem de quórum para autorização pode ser expandida para diferentes níveis de criticidade das ações. Para um aprofundamento sobre a arquitetura e os mecanismos de controle propostos, consulte [o artigo completo](https://arxiv.org/abs/2608.16891).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo trabalho acadêmico, publicado no arXiv, introduz o Aegis, um sistema de governança projetado para gerenciar a segurança de sistemas de Inteligência Artificial com capacidade de ação. Diferente de abordagens focadas apenas na geração de texto, o Aegis aborda o risco de efeitos colaterais operacionais, como modificação de arquivos, envio de mensagens ou alteração de fluxos de trabalho. O sistema opera tratando as saídas dos modelos de IA como propostas de ação, que são então avaliadas por uma camada de decisão confiável antes de serem executadas. O modelo propõe, e o runtime confiável decide. Essa arquitetura visa estabelecer um limite de execução claro, algo que a governança baseada em prompt, por si só, não consegue garantir. A proposta detalha como o Aegis avalia essas propostas contra o estado da política ativa, resolve a proveniência dos dados no lado do servidor e adota uma estratégia de \"fail-closed\" em cenários de incerteza. Casos selecionados são encaminhados para um processo de resolução estilo \"Senado\", que envolve autorização baseada em quórum e não unilateral. Mais detalhes podem ser encontrados no artigo original <a href=\"https://arxiv.org/abs/2608.16891\" target=\"_blank\" rel=\"external noopener\">aqui</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A crescente autonomia de sistemas de IA, especialmente aqueles que interagem com o mundo real ou sistemas digitais, eleva a preocupação com a segurança para além da geração de conteúdo inadequado. A capacidade de um agente de IA executar ações diretas pode levar a consequências não intencionais e potencialmente prejudiciais. Para empresas brasileiras que já exploram a IA em seus processos, desde automação de tarefas até a gestão de fluxos complexos, a implementação de mecanismos robustos de controle se torna crucial. O Aegis oferece um modelo para mitigar riscos operacionais, garantindo que as ações propostas pela IA estejam alinhadas com as políticas de segurança e conformidade estabelecidas. A abordagem de \"fail-closed\" em situações de dúvida, combinada com um processo de autorização distribuída, pode aumentar a confiança na implantação de IA em ambientes corporativos sensíveis, protegendo dados e operações.</p>\n\n<h2>O que esperar</h2>\n\n<p>A proposta do Aegis representa um passo importante na engenharia de segurança para IA autônoma. A expectativa é que sistemas como este se tornem componentes essenciais na arquitetura de futuras aplicações de IA que necessitem de permissão para executar ações. A validação prática e a escalabilidade do Aegis em diferentes tipos de ferramentas e fluxos de trabalho serão os próximos pontos de atenção. É provável que a pesquisa continue a explorar a otimização do processo de decisão e a integração com sistemas de políticas existentes. A abordagem de quórum para autorização pode ser expandida para diferentes níveis de criticidade das ações. Para um aprofundamento sobre a arquitetura e os mecanismos de controle propostos, consulte <a href=\"https://arxiv.org/abs/2608.16891\" target=\"_blank\" rel=\"external noopener\">o artigo completo</a>.</p>",
+  "tags": [
+    "ia",
+    "segurança",
+    "governança"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "ia autônoma",
+    "governança de runtime",
+    "segurança de IA",
+    "Aegis",
+    "controle de ação"
+  ],
+  "meta_description_seo": "Pesquisadores propõem o Aegis, um sistema de governança para controlar ações de IA autônoma, focando em segurança operacional e proveniência confiável.",
+  "faq": [
+    {
+      "q": "O que é o Aegis?",
+      "a": "Aegis é um sistema de governança em tempo de execução que media ações propostas por modelos de IA antes de sua execução, visando controlar efeitos colaterais operacionais e garantir segurança."
+    },
+    {
+      "q": "Qual o principal problema que o Aegis busca resolver?",
+      "a": "O Aegis busca resolver o problema de segurança relacionado a efeitos colaterais operacionais indesejados causados por sistemas de IA autônomos que executam ações, como modificar arquivos ou enviar mensagens."
+    },
+    {
+      "q": "Como o Aegis garante a segurança das ações?",
+      "a": "O Aegis garante a segurança avaliando propostas de ação contra políticas ativas, resolvendo a proveniência dos dados e utilizando um mecanismo de decisão com \"fail-closed\" em caso de incerteza, além de um processo de autorização por quórum."
+    }
+  ],
+  "written_at": "2026-08-19T12:58:23.797Z",
+  "slug": "aegis-seguranca-para-ia-com-potencial-de-acao",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
