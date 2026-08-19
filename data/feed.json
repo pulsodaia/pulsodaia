@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-08-19T12:58:35.698Z",
+  "generated_at": "2026-08-19T20:35:58.324Z",
   "articles": [
+    {
+      "slug": "novos-checkpoints-lfm2-5-chegam-ao-hugging-face-via-destilacao-consciente-de-qua",
+      "headline": "Novos Checkpoints LFM2.5 Chegam ao Hugging Face via Destilação Consciente de Quantização",
+      "subtitle": "Aprimoramentos em modelos de linguagem chegam ao Brasil com foco em eficiência.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/qad",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "quantização",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 19 Aug 2026 13:48:49 GMT",
+      "written_at": "2026-08-19T20:35:58.031Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-search-aprimora-ferramentas-de-estudo-para-alunos",
+      "headline": "Google Search Aprimora Ferramentas de Estudo para Alunos",
+      "subtitle": "Plataforma integra novas funcionalidades para otimizar o aprendizado e a preparação para testes.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "category": "google",
+      "tags": [
+        "google search",
+        "inteligência artificial",
+        "educação",
+        "ferramentas de estudo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 19 Aug 2026 19:00:00 +0000",
+      "written_at": "2026-08-19T20:35:47.923Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "o-custo-do-raciocinio-contratos-de-api-de-ia-agora-incluem-esforco-de-processame",
       "headline": "O Custo do Raciocínio: Contratos de API de IA agora incluem esforço de processamento",
