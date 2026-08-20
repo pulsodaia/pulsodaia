@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-20T01:38:46.707Z",
+  "generated_at": "2026-08-20T04:43:44.954Z",
   "articles": [
+    {
+      "slug": "ia-generativa-avanca-na-saude-mental-aplicacoes-e-desafios-eticos-em-foco",
+      "headline": "IA Generativa Avança na Saúde Mental: Aplicações e Desafios Éticos em Foco",
+      "subtitle": "Um estudo recente detalha como modelos de linguagem estão sendo aplicados no cuidado psicológico, apontando para oportunidades e riscos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.18080",
+      "category": "research",
+      "tags": [
+        "ia",
+        "saude mental",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 20 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-20T04:43:44.913Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "complexidade-de-transicao-nova-metrica-para-avaliar-ambientes-de-ia-em-jogos",
+      "headline": "Complexidade de Transição: Nova Métrica para Avaliar Ambientes de IA em Jogos",
+      "subtitle": "Estudo no ArXiv propõe métrica padronizada para quantificar a dificuldade de prever estados em mundos virtuais, com implicações para o desenvolvimento de agentes de IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.18079",
+      "category": "research",
+      "tags": [
+        "ia",
+        "aprendizado por reforço",
+        "jogos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 20 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-20T04:43:25.839Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-com-raciocinio-avancado-pode-facilitar-conluio-em-mercados",
+      "headline": "IA com raciocínio avançado pode facilitar conluio em mercados",
+      "subtitle": "Estudo aponta riscos de agentes de IA colaborarem para manipular preços.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.18078",
+      "category": "research",
+      "tags": [
+        "ia",
+        "mercado",
+        "regulamentacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 20 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-20T04:43:15.658Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "stripe-adquire-openrouter-um-movimento-estrategico-alem-da-singularidade",
       "headline": "Stripe adquire OpenRouter: um movimento estratégico além da \"singularidade\"",
