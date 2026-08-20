@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 20 Aug 2026 04:48:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 08:55:52 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI Oferece Modelos Avançados Sem Armazenar Dados de Clientes</title>
+      <link>https://pulsodaia.com.br/feed/openai-oferece-modelos-avancados-sem-armazenar-dados-de-clientes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-oferece-modelos-avancados-sem-armazenar-dados-de-clientes/</guid>
+      <pubDate>Thu, 20 Aug 2026 08:47:08 GMT</pubDate>
+      <description>A empresa busca atender demandas corporativas por privacidade e segurança na utilização de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/">The Decoder</source>
+    </item>
     <item>
       <title>IA Generativa Avança na Saúde Mental: Aplicações e Desafios Éticos em Foco</title>
       <link>https://pulsodaia.com.br/feed/ia-generativa-avanca-na-saude-mental-aplicacoes-e-desafios-eticos-em-foco/</link>
@@ -448,15 +457,6 @@
       <description>Sistema que deveria barrar riscos de armas biológicas e químicas ficou inativo por quase um ano.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/">The Decoder</source>
-    </item>
-    <item>
-      <title>OpenAI Desmonta Equipe de Segurança para Riscos Catastróficos de IA</title>
-      <link>https://pulsodaia.com.br/feed/openai-desmonta-equipe-de-seguranca-para-riscos-catastroficos-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-desmonta-equipe-de-seguranca-para-riscos-catastroficos-de-ia/</guid>
-      <pubDate>Sun, 16 Aug 2026 08:36:31 GMT</pubDate>
-      <description>Decisão gera apreensão interna e redistribui responsabilidades críticas em meio a debates sobre o desenvolvimento seguro da tecnologia.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/">The Decoder</source>
     </item>
   </channel>
 </rss>
