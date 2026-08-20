@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-08-20T08:47:11.258Z",
+  "generated_at": "2026-08-20T10:37:23.860Z",
   "articles": [
+    {
+      "slug": "china-cria-esquema-de-financiamento-circular-para-robos-de-ia",
+      "headline": "China cria esquema de financiamento circular para robôs de IA",
+      "subtitle": "Modelo de negócios levanta questões sobre sustentabilidade e demanda real no mercado global de inteligência artificial.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/china-now-has-its-own-ai-circular-financing-scheme/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "robótica",
+        "china",
+        "financiamento circular"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 20 Aug 2026 09:23:37 +0000",
+      "written_at": "2026-08-20T10:37:21.183Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "anthropic-desenvolve-modelo-de-ia-superior-para-uso-interno",
+      "headline": "Anthropic Desenvolve Modelo de IA Superior para Uso Interno",
+      "subtitle": "A empresa de IA mantém sua tecnologia mais avançada longe do público, levantando questões sobre acesso e desenvolvimento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "modelo de ia",
+        "claude"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 20 Aug 2026 10:04:45 +0000",
+      "written_at": "2026-08-20T10:37:07.240Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "binance-libera-agentes-de-ia-para-trading-transferindo-o-controle-para-o-usuario",
+      "headline": "Binance Libera Agentes de IA para Trading, Transferindo o Controle para o Usuário",
+      "subtitle": "Plataforma de criptomoedas adota automação avançada, mas a responsabilidade pela vigilância recai sobre os investidores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "category": "mercado",
+      "tags": [
+        "binance",
+        "criptomoedas",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 20 Aug 2026 09:30:00 +0000",
+      "written_at": "2026-08-20T10:36:56.270Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "openai-oferece-modelos-avancados-sem-armazenar-dados-de-clientes",
       "headline": "OpenAI Oferece Modelos Avançados Sem Armazenar Dados de Clientes",
