@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 19 Aug 2026 20:42:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 01:44:07 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Stripe adquire OpenRouter: um movimento estratégico além da "singularidade"</title>
+      <link>https://pulsodaia.com.br/feed/stripe-adquire-openrouter-um-movimento-estrategico-alem-da-singularidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/stripe-adquire-openrouter-um-movimento-estrategico-alem-da-singularidade/</guid>
+      <pubDate>Thu, 20 Aug 2026 01:38:46 GMT</pubDate>
+      <description>Gigante de pagamentos foca em infraestrutura de IA, não em profecias tecnológicas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Aprimora Cache e Introduz Estilo de Saída Conciso</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-cache-e-introduz-estilo-de-saida-conciso/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-cache-e-introduz-estilo-de-saida-conciso/</guid>
+      <pubDate>Thu, 20 Aug 2026 01:38:36 GMT</pubDate>
+      <description>Atualização do modelo de linguagem foca em eficiência e clareza para desenvolvedores brasileiros.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.237">Claude Code</source>
+    </item>
     <item>
       <title>Novos Checkpoints LFM2.5 Chegam ao Hugging Face via Destilação Consciente de Quantização</title>
       <link>https://pulsodaia.com.br/feed/novos-checkpoints-lfm2-5-chegam-ao-hugging-face-via-destilacao-consciente-de-qua/</link>
@@ -439,24 +457,6 @@
       <description>A compra da startup de desenvolvimento com IA pela SpaceX sinaliza uma nova frente de atuação para a empresa de Elon Musk no setor de tecnologia.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Detalha Marca d'Água em Claude: Rastreabilidade de Conteúdo Gerado por IA</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-detalha-marca-d-agua-em-claude-rastreabilidade-de-conteudo-gerado-por-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-detalha-marca-d-agua-em-claude-rastreabilidade-de-conteudo-gerado-por-/</guid>
-      <pubDate>Sat, 15 Aug 2026 20:29:23 GMT</pubDate>
-      <description>A empresa busca aumentar a transparência e combater a desinformação com novas funcionalidades em seu modelo de linguagem.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Nvidia Reduz Investimento em OpenAI Sob Pressão de Investidores; Anthropic Desafia Narrativa de Bolha</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-reduz-investimento-em-openai-sob-pressao-de-investidores-anthropic-desafi/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-reduz-investimento-em-openai-sob-pressao-de-investidores-anthropic-desafi/</guid>
-      <pubDate>Sat, 15 Aug 2026 16:31:35 GMT</pubDate>
-      <description>Tensões no financiamento de IA e crescimento surpreendente de concorrentes moldam o cenário de investimentos.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/">The Decoder</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-08-19T20:35:58.324Z",
+  "generated_at": "2026-08-20T01:38:46.707Z",
   "articles": [
+    {
+      "slug": "stripe-adquire-openrouter-um-movimento-estrategico-alem-da-singularidade",
+      "headline": "Stripe adquire OpenRouter: um movimento estratégico além da \"singularidade\"",
+      "subtitle": "Gigante de pagamentos foca em infraestrutura de IA, não em profecias tecnológicas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "category": "mercado",
+      "tags": [
+        "stripe",
+        "openrouter",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 19 Aug 2026 23:32:00 +0000",
+      "written_at": "2026-08-20T01:38:46.646Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-aprimora-cache-e-introduz-estilo-de-saida-conciso",
+      "headline": "Claude Code Aprimora Cache e Introduz Estilo de Saída Conciso",
+      "subtitle": "Atualização do modelo de linguagem foca em eficiência e clareza para desenvolvedores brasileiros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-20T00:54:41Z",
+      "written_at": "2026-08-20T01:38:36.180Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "novos-checkpoints-lfm2-5-chegam-ao-hugging-face-via-destilacao-consciente-de-qua",
       "headline": "Novos Checkpoints LFM2.5 Chegam ao Hugging Face via Destilação Consciente de Quantização",

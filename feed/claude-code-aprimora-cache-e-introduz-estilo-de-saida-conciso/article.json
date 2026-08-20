@@ -1,0 +1,51 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.237",
+  "title": "v2.1.237",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+  "summary": "<h2>What's changed</h2> <ul> <li>Fixed prompt caching for sessions using an LLM gateway or custom base URL</li> <li>Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doing the work just as thoroughly. Select it under Output style in /config.</li> </ul>",
+  "published_at": "2026-08-20T00:54:41Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Aprimora Cache e Introduz Estilo de Saída Conciso",
+  "subtitle": "Atualização do modelo de linguagem foca em eficiência e clareza para desenvolvedores brasileiros.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão v2.1.237 do Claude Code, trazendo melhorias significativas na gestão de cache para sessões que utilizam gateways LLM ou URLs base personalizadas. A novidade mais notável é a introdução de um estilo de saída \"Conciso\", projetado para otimizar a entrega de resultados.",
+  "body_markdown": "## O que aconteceu\n\nA atualização v2.1.237 do Claude Code, disponível no GitHub desde 20 de agosto de 2026, endereça problemas de cache em fluxos de trabalho que envolvem arquiteturas mais complexas, como gateways de LLM (Large Language Model) ou configurações de URL base customizadas. Essa correção visa garantir que as interações com o modelo sejam mais estáveis e previsíveis, mesmo em ambientes de desenvolvimento não padrão. Além disso, a Anthropic introduziu um novo modo de saída, denominado \"Conciso\". Nesta modalidade, o Claude prioriza a apresentação direta dos resultados gerados, omitindo introduções e narrações extensivas. O objetivo é manter a profundidade e a qualidade do trabalho de codificação, ao mesmo tempo em que se reduz a verbosidade, tornando a comunicação mais eficiente. Essa opção pode ser selecionada diretamente nas configurações do Claude Code, sob o item \"Output style\". A documentação completa das mudanças está acessível através do [link oficial de releases](https://github.com/anthropics/claude-code/releases/tag/v2.1.237).\n\n## Por que importa\n\nPara o mercado brasileiro de tecnologia, essas melhorias representam um passo importante na otimização do uso de modelos de linguagem avançados em fluxos de desenvolvimento. A correção do cache é crucial para empresas que utilizam infraestruturas de IA customizadas, garantindo maior confiabilidade e reduzindo potenciais gargalos de performance. A introdução do estilo \"Conciso\" tem um impacto direto na produtividade. Desenvolvedores e equipes de engenharia que trabalham com bases de código extensas ou necessitam de respostas rápidas para tarefas específicas de codificação, poderão se beneficiar da entrega direta de soluções. Isso pode agilizar processos de revisão de código, depuração e geração de snippets, liberando tempo para tarefas mais estratégicas. A capacidade de obter resultados claros e diretos, sem a necessidade de filtrar informações secundárias, é um diferencial em ambientes de alta demanda.\n\n## O que esperar\n\nCom aprimoramentos contínuos como este, espera-se que o Claude Code se consolide como uma ferramenta ainda mais integrada e eficiente para o ciclo de desenvolvimento de software no Brasil. A tendência é que modelos de linguagem se tornem cada vez mais adaptáveis a diferentes cenários de uso, desde o desenvolvimento em larga escala até a assistência a programadores individuais. A funcionalidade de estilo de saída conciso pode inspirar outras ferramentas a adotarem abordagens similares, focando na entrega de valor direto ao usuário. A Anthropic continua a demonstrar um compromisso em refinar a usabilidade e a performance de seus modelos, o que sugere futuras atualizações que podem abordar outras necessidades específicas da comunidade de desenvolvedores. Para detalhes sobre futuras iterações e funcionalidades, é recomendável acompanhar as [atualizações no repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.237).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A atualização v2.1.237 do Claude Code, disponível no GitHub desde 20 de agosto de 2026, endereça problemas de cache em fluxos de trabalho que envolvem arquiteturas mais complexas, como gateways de LLM (Large Language Model) ou configurações de URL base customizadas. Essa correção visa garantir que as interações com o modelo sejam mais estáveis e previsíveis, mesmo em ambientes de desenvolvimento não padrão. Além disso, a Anthropic introduziu um novo modo de saída, denominado \"Conciso\". Nesta modalidade, o Claude prioriza a apresentação direta dos resultados gerados, omitindo introduções e narrações extensivas. O objetivo é manter a profundidade e a qualidade do trabalho de codificação, ao mesmo tempo em que se reduz a verbosidade, tornando a comunicação mais eficiente. Essa opção pode ser selecionada diretamente nas configurações do Claude Code, sob o item \"Output style\". A documentação completa das mudanças está acessível através do <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.237\" target=\"_blank\" rel=\"external noopener\">link oficial de releases</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de tecnologia, essas melhorias representam um passo importante na otimização do uso de modelos de linguagem avançados em fluxos de desenvolvimento. A correção do cache é crucial para empresas que utilizam infraestruturas de IA customizadas, garantindo maior confiabilidade e reduzindo potenciais gargalos de performance. A introdução do estilo \"Conciso\" tem um impacto direto na produtividade. Desenvolvedores e equipes de engenharia que trabalham com bases de código extensas ou necessitam de respostas rápidas para tarefas específicas de codificação, poderão se beneficiar da entrega direta de soluções. Isso pode agilizar processos de revisão de código, depuração e geração de snippets, liberando tempo para tarefas mais estratégicas. A capacidade de obter resultados claros e diretos, sem a necessidade de filtrar informações secundárias, é um diferencial em ambientes de alta demanda.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com aprimoramentos contínuos como este, espera-se que o Claude Code se consolide como uma ferramenta ainda mais integrada e eficiente para o ciclo de desenvolvimento de software no Brasil. A tendência é que modelos de linguagem se tornem cada vez mais adaptáveis a diferentes cenários de uso, desde o desenvolvimento em larga escala até a assistência a programadores individuais. A funcionalidade de estilo de saída conciso pode inspirar outras ferramentas a adotarem abordagens similares, focando na entrega de valor direto ao usuário. A Anthropic continua a demonstrar um compromisso em refinar a usabilidade e a performance de seus modelos, o que sugere futuras atualizações que podem abordar outras necessidades específicas da comunidade de desenvolvedores. Para detalhes sobre futuras iterações e funcionalidades, é recomendável acompanhar as <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.237\" target=\"_blank\" rel=\"external noopener\">atualizações no repositório oficial</a>.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "desenvolvimento de software"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "LLM",
+    "desenvolvimento de software",
+    "cache",
+    "estilo de saída conciso"
+  ],
+  "meta_description_seo": "Claude Code v2.1.237: Correções de cache e novo estilo de saída conciso otimizam o desenvolvimento de IA para profissionais brasileiros.",
+  "faq": [
+    {
+      "q": "Quais foram as principais novidades na atualização v2.1.237 do Claude Code?",
+      "a": "A atualização corrigiu problemas de cache para sessões com gateways LLM ou URLs base customizadas e introduziu um novo estilo de saída chamado \"Conciso\", que prioriza resultados diretos."
+    },
+    {
+      "q": "Como o estilo de saída \"Conciso\" pode beneficiar os desenvolvedores?",
+      "a": "O estilo \"Conciso\" permite que o Claude apresente os resultados de codificação de forma direta, omitindo preâmbulos e narrações, o que pode agilizar o fluxo de trabalho e aumentar a produtividade."
+    },
+    {
+      "q": "Onde posso encontrar mais informações sobre essa atualização?",
+      "a": "Detalhes completos sobre as mudanças estão disponíveis no [link oficial de releases](https://github.com/anthropics/claude-code/releases/tag/v2.1.237) no GitHub."
+    }
+  ],
+  "written_at": "2026-08-20T01:38:36.180Z",
+  "slug": "claude-code-aprimora-cache-e-introduz-estilo-de-saida-conciso",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/d7abb0fb7eb2c14a5033de61693ace8071b1d5d5048443fd9a8cff19c7dbce1a/anthropics/claude-code/releases/tag/v2.1.237"
+}
