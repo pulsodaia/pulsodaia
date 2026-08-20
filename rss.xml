@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 20 Aug 2026 10:42:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 22:38:26 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code Ajusta Interação e Segurança de Plugins</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-ajusta-interacao-e-seguranca-de-plugins/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-ajusta-interacao-e-seguranca-de-plugins/</guid>
+      <pubDate>Thu, 20 Aug 2026 22:33:57 GMT</pubDate>
+      <description>Atualização foca em usabilidade para desenvolvedores e controle de acesso a recursos externos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.238">Claude Code</source>
+    </item>
+    <item>
+      <title>Hugging Face Anuncia Modelo LFM2.5-DSpark com Inferência Até 3.2x Mais Rápida</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-anuncia-modelo-lfm2-5-dspark-com-inferencia-ate-3-2x-mais-rapida/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-anuncia-modelo-lfm2-5-dspark-com-inferencia-ate-3-2x-mais-rapida/</guid>
+      <pubDate>Thu, 20 Aug 2026 22:33:46 GMT</pubDate>
+      <description>Avanços em eficiência prometem acelerar a adoção de modelos de linguagem no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/LiquidAI/lfm25-dspark">Hugging Face</source>
+    </item>
     <item>
       <title>China cria esquema de financiamento circular para robôs de IA</title>
       <link>https://pulsodaia.com.br/feed/china-cria-esquema-de-financiamento-circular-para-robos-de-ia/</link>
@@ -439,24 +457,6 @@
       <description>Nova funcionalidade na versão desktop do ChatGPT para macOS coleta dados de uso para aprimorar a IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes">The Verge AI</source>
-    </item>
-    <item>
-      <title>CEO da Anthropic: Crise de confiança é o cerne da resistência à IA</title>
-      <link>https://pulsodaia.com.br/feed/ceo-da-anthropic-crise-de-confianca-e-o-cerne-da-resistencia-a-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ceo-da-anthropic-crise-de-confianca-e-o-cerne-da-resistencia-a-ia/</guid>
-      <pubDate>Sun, 16 Aug 2026 18:36:56 GMT</pubDate>
-      <description>Dario Amodei defende visão cautelosa sobre o avanço da inteligência artificial, focando na percepção pública.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Restrições em IA Podem Alterar sua "Visão de Mundo", Sugere Estudo</title>
-      <link>https://pulsodaia.com.br/feed/restricoes-em-ia-podem-alterar-sua-visao-de-mundo-sugere-estudo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/restricoes-em-ia-podem-alterar-sua-visao-de-mundo-sugere-estudo/</guid>
-      <pubDate>Sun, 16 Aug 2026 12:51:11 GMT</pubDate>
-      <description>Modelos de linguagem treinados para não se auto-atribuir consciência exibem mudanças em suas respostas sobre temas como direitos dos animais e religião.</description>
-      <category>RESEARCH</category>
-      <source url="https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/">The Decoder</source>
     </item>
   </channel>
 </rss>

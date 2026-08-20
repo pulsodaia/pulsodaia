@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-08-20T10:37:23.860Z",
+  "generated_at": "2026-08-20T22:33:57.996Z",
   "articles": [
+    {
+      "slug": "claude-code-ajusta-interacao-e-seguranca-de-plugins",
+      "headline": "Claude Code Ajusta Interação e Segurança de Plugins",
+      "subtitle": "Atualização foca em usabilidade para desenvolvedores e controle de acesso a recursos externos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "ia",
+        "desenvolvimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-20T20:33:51Z",
+      "written_at": "2026-08-20T22:33:57.617Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-anuncia-modelo-lfm2-5-dspark-com-inferencia-ate-3-2x-mais-rapida",
+      "headline": "Hugging Face Anuncia Modelo LFM2.5-DSpark com Inferência Até 3.2x Mais Rápida",
+      "subtitle": "Avanços em eficiência prometem acelerar a adoção de modelos de linguagem no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "inferencia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 20 Aug 2026 16:52:57 GMT",
+      "written_at": "2026-08-20T22:33:46.759Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.gif"
+    },
     {
       "slug": "china-cria-esquema-de-financiamento-circular-para-robos-de-ia",
       "headline": "China cria esquema de financiamento circular para robôs de IA",
