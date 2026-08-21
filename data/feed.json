@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-21T10:36:12.845Z",
+  "generated_at": "2026-08-21T13:00:00.279Z",
   "articles": [
+    {
+      "slug": "meta-investe-centenas-de-milhoes-em-servicos-de-ia-da-microsoft",
+      "headline": "Meta Investe Centenas de Milhões em Serviços de IA da Microsoft",
+      "subtitle": "A gigante das redes sociais se consolida como cliente chave dos serviços de inteligência artificial da gigante de Redmond.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/",
+      "category": "mercado",
+      "tags": [
+        "meta",
+        "microsoft",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 10:54:41 +0000",
+      "written_at": "2026-08-21T12:59:58.414Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "waymo-desenvolve-chip-proprio-para-robotaxis-reduzindo-dependencia-da-nvidia",
+      "headline": "Waymo Desenvolve Chip Próprio para Robotáxis, Reduzindo Dependência da Nvidia",
+      "subtitle": "A movimentação estratégica da Alphabet visa otimizar o desempenho e a escalabilidade de sua frota autônoma.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/",
+      "category": "mercado",
+      "tags": [
+        "waymo",
+        "robotaxi",
+        "semicondutores"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 11:04:09 +0000",
+      "written_at": "2026-08-21T12:59:46.150Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "deepmind-e-estudios-de-jogos-parceria-para-ia-de-jogabilidade-inovadora",
+      "headline": "DeepMind e Estúdios de Jogos: Parceria para IA de Jogabilidade Inovadora",
+      "subtitle": "Pesquisa de IA em games avança com colaborações para prototipagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "category": "google",
+      "tags": [
+        "ia em games",
+        "deepmind",
+        "desenvolvimento de jogos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 11:59:48 +0000",
+      "written_at": "2026-08-21T12:59:34.598Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
     {
       "slug": "anthropic-flexibiliza-politica-de-dados-apos-pressao-de-grandes-clientes",
       "headline": "Anthropic flexibiliza política de dados após pressão de grandes clientes",
