@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-08-21T13:00:00.279Z",
+  "generated_at": "2026-08-21T16:41:02.411Z",
   "articles": [
+    {
+      "slug": "doj-investiga-andreessen-horowitz-por-conflitos-de-interesse-em-board-de-empresa",
+      "headline": "DoJ Investiga Andreessen Horowitz por Conflitos de Interesse em Board de Empresas",
+      "subtitle": "O Departamento de Justiça dos EUA apura arranjos em conselhos de administração que podem impactar o capital de risco.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+      "category": "mercado",
+      "tags": [
+        "venture capital",
+        "antitruste",
+        "a16z"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 14:00:00 +0000",
+      "written_at": "2026-08-21T16:41:02.386Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "otimizacao-de-benchmarks-em-reconhecimento-de-voz-novas-metricas-da-hugging-face",
+      "headline": "Otimização de Benchmarks em Reconhecimento de Voz: Novas Métricas da Hugging Face",
+      "subtitle": "A Hugging Face lança um guia detalhado para avaliar e aprimorar modelos de ASR, relevante para o mercado brasileiro de áudio.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "category": "opensource",
+      "tags": [
+        "asr",
+        "reconhecimento de voz",
+        "machine learning"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 00:00:00 GMT",
+      "written_at": "2026-08-21T16:40:51.718Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "meta-investe-centenas-de-milhoes-em-servicos-de-ia-da-microsoft",
       "headline": "Meta Investe Centenas de Milhões em Serviços de IA da Microsoft",

@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 21 Aug 2026 13:05:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 16:45:44 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>DoJ Investiga Andreessen Horowitz por Conflitos de Interesse em Board de Empresas</title>
+      <link>https://pulsodaia.com.br/feed/doj-investiga-andreessen-horowitz-por-conflitos-de-interesse-em-board-de-empresa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/doj-investiga-andreessen-horowitz-por-conflitos-de-interesse-em-board-de-empresa/</guid>
+      <pubDate>Fri, 21 Aug 2026 16:41:02 GMT</pubDate>
+      <description>O Departamento de Justiça dos EUA apura arranjos em conselhos de administração que podem impactar o capital de risco.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Otimização de Benchmarks em Reconhecimento de Voz: Novas Métricas da Hugging Face</title>
+      <link>https://pulsodaia.com.br/feed/otimizacao-de-benchmarks-em-reconhecimento-de-voz-novas-metricas-da-hugging-face/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-de-benchmarks-em-reconhecimento-de-voz-novas-metricas-da-hugging-face/</guid>
+      <pubDate>Fri, 21 Aug 2026 16:40:51 GMT</pubDate>
+      <description>A Hugging Face lança um guia detalhado para avaliar e aprimorar modelos de ASR, relevante para o mercado brasileiro de áudio.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/asr-benchmark-optimization">Hugging Face</source>
+    </item>
     <item>
       <title>Meta Investe Centenas de Milhões em Serviços de IA da Microsoft</title>
       <link>https://pulsodaia.com.br/feed/meta-investe-centenas-de-milhoes-em-servicos-de-ia-da-microsoft/</link>
@@ -439,24 +457,6 @@
       <description>Medida visa atender regulamentações europeias e garantir rastreabilidade de conteúdo gerado por IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system">The Verge AI</source>
-    </item>
-    <item>
-      <title>Wispr capta US$ 280 milhões e atinge US$ 2 bilhões em valor de mercado</title>
-      <link>https://pulsodaia.com.br/feed/wispr-capta-us-280-milhoes-e-atinge-us-2-bilhoes-em-valor-de-mercado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/wispr-capta-us-280-milhoes-e-atinge-us-2-bilhoes-em-valor-de-mercado/</guid>
-      <pubDate>Mon, 17 Aug 2026 14:34:28 GMT</pubDate>
-      <description>A empresa de IA busca expandir suas funcionalidades além da transcrição de voz.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Inteligência Artificial e Data Centers Superam Temas Tradicionais em Campanhas Políticas nos EUA</title>
-      <link>https://pulsodaia.com.br/feed/inteligencia-artificial-e-data-centers-superam-temas-tradicionais-em-campanhas-p/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/inteligencia-artificial-e-data-centers-superam-temas-tradicionais-em-campanhas-p/</guid>
-      <pubDate>Mon, 17 Aug 2026 08:51:28 GMT</pubDate>
-      <description>A ascensão da IA e a infraestrutura de dados como pauta eleitoral reflete uma mudança global de prioridades.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/ai-and-data-centers-have-leapfrogged-israel-racism-and-crypto-as-us-campaign-topics/">The Decoder</source>
     </item>
   </channel>
 </rss>
