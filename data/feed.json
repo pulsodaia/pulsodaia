@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-21T16:41:02.411Z",
+  "generated_at": "2026-08-21T20:32:18.604Z",
   "articles": [
+    {
+      "slug": "claude-mythos-5-da-anthropic-direcionado-para-defesa-cibernetica",
+      "headline": "Claude Mythos 5 da Anthropic Direcionado para Defesa Cibernética",
+      "subtitle": "A inteligência artificial mais poderosa da Anthropic agora atua na detecção de falhas de segurança e proteção de infraestruturas críticas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "cibersegurança",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 19:35:37 +0000",
+      "written_at": "2026-08-21T20:32:16.782Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-revela-o-arnes-da-ia-supera-o-modelo-em-desempenho",
+      "headline": "Nvidia Revela: O \"Arnes\" da IA Supera o Modelo em Desempenho",
+      "subtitle": "Pesquisa da Nvidia aponta para a importância do ajuste fino em modelos de IA, mesmo com bases menos robustas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "ajuste fino",
+        "modelos de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 19:43:39 +0000",
+      "written_at": "2026-08-21T20:32:06.690Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-atualiza-custos-e-integracao-em-plataformas-de-nuvem",
+      "headline": "Claude Code Atualiza Custos e Integração em Plataformas de Nuvem",
+      "subtitle": "A Anthropic ajusta precificação e facilita a migração de projetos Python para a versão mais recente de sua ferramenta de desenvolvimento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 4,
+      "published_at": "2026-08-21T19:54:23Z",
+      "written_at": "2026-08-21T20:31:56.512Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "doj-investiga-andreessen-horowitz-por-conflitos-de-interesse-em-board-de-empresa",
       "headline": "DoJ Investiga Andreessen Horowitz por Conflitos de Interesse em Board de Empresas",
