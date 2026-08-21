@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 20 Aug 2026 22:38:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 01:50:53 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI Avança em Adoção Empresarial, Superando Anthropic em Dados Recentes</title>
+      <link>https://pulsodaia.com.br/feed/openai-avanca-em-adocao-empresarial-superando-anthropic-em-dados-recentes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-avanca-em-adocao-empresarial-superando-anthropic-em-dados-recentes/</guid>
+      <pubDate>Fri, 21 Aug 2026 01:44:03 GMT</pubDate>
+      <description>Empresas demonstram flexibilidade na escolha de provedores de IA, um sinal de alerta para o mercado.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Micro1 Atinge US$ 500 Milhões em Receita Anual Projetada com a Demanda por Dados de Treinamento de IA</title>
+      <link>https://pulsodaia.com.br/feed/micro1-atinge-us-500-milhoes-em-receita-anual-projetada-com-a-demanda-por-dados-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/micro1-atinge-us-500-milhoes-em-receita-anual-projetada-com-a-demanda-por-dados-/</guid>
+      <pubDate>Fri, 21 Aug 2026 01:43:43 GMT</pubDate>
+      <description>O crescimento acelerado da startup reflete a alta busca por dados para alimentar modelos de inteligência artificial no Brasil e no mundo.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Claude Code Ajusta Interação e Segurança de Plugins</title>
       <link>https://pulsodaia.com.br/feed/claude-code-ajusta-interacao-e-seguranca-de-plugins/</link>
@@ -439,24 +457,6 @@
       <description>Movimento sinaliza consolidação no mercado de infraestrutura para inteligência artificial.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Matemáticos renomados: LLMs são calculadoras eficientes, mas falham na criatividade genuína</title>
-      <link>https://pulsodaia.com.br/feed/matematicos-renomados-llms-sao-calculadoras-eficientes-mas-falham-na-criatividad/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/matematicos-renomados-llms-sao-calculadoras-eficientes-mas-falham-na-criatividad/</guid>
-      <pubDate>Sun, 16 Aug 2026 18:37:19 GMT</pubDate>
-      <description>A capacidade de modelos de linguagem de gerar novas ideias matemáticas é questionada por especialistas.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/">The Decoder</source>
-    </item>
-    <item>
-      <title>ChatGPT Mac: Histórico de Computador Monitora Ações para Treinamento</title>
-      <link>https://pulsodaia.com.br/feed/chatgpt-mac-historico-de-computador-monitora-acoes-para-treinamento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/chatgpt-mac-historico-de-computador-monitora-acoes-para-treinamento/</guid>
-      <pubDate>Sun, 16 Aug 2026 18:37:08 GMT</pubDate>
-      <description>Nova funcionalidade na versão desktop do ChatGPT para macOS coleta dados de uso para aprimorar a IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes">The Verge AI</source>
     </item>
   </channel>
 </rss>
