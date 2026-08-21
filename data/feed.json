@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-21T04:45:42.611Z",
+  "generated_at": "2026-08-21T08:49:44.404Z",
   "articles": [
+    {
+      "slug": "openai-habilita-geracao-de-imagens-com-fundo-transparente-nativo-via-api",
+      "headline": "OpenAI Habilita Geração de Imagens com Fundo Transparente Nativo via API",
+      "subtitle": "Nova funcionalidade do GPT-Image-2 promete simplificar fluxos de trabalho em design e publicidade no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "geracao de imagem",
+        "openai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 07:53:40 +0000",
+      "written_at": "2026-08-21T08:49:41.454Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "gpt-5-6-sol-impulsiona-receita-da-openai-e-reequilibra-disputa-com-anthropic",
+      "headline": "GPT-5.6 Sol Impulsiona Receita da OpenAI e Reequilibra Disputa com Anthropic",
+      "subtitle": "Nova versão do modelo da OpenAI mostra crescimento expressivo, revertendo tendência de perda de mercado.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "gpt-5.6 sol",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 08:26:05 +0000",
+      "written_at": "2026-08-21T08:49:27.366Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "nvidia-compra-startup-poolside-por-us-6-bilhoes-e-adquire-tecnologia-de-criacao-",
+      "headline": "Nvidia Compra Startup Poolside por US$ 6 Bilhões e Adquire Tecnologia de Criação de Modelos de IA",
+      "subtitle": "Aquisição reforça a estratégia da Nvidia em simplificar o desenvolvimento de inteligência artificial para empresas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "poolside",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 08:27:23 +0000",
+      "written_at": "2026-08-21T08:49:13.285Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "assistente-de-ia-para-engenharia-de-petroleo-avanca-em-produtividade-e-precisao",
       "headline": "Assistente de IA para Engenharia de Petróleo Avança em Produtividade e Precisão",
