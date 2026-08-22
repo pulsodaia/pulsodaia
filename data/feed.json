@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-22T01:38:03.992Z",
+  "generated_at": "2026-08-22T08:38:09.322Z",
   "articles": [
+    {
+      "slug": "testes-de-seguranca-de-ia-falham-em-medir-comportamento-real-revela-estudo",
+      "headline": "Testes de Segurança de IA Falham em Medir Comportamento Real, Revela Estudo",
+      "subtitle": "Novos métodos psicológicos expõem deficiências em benchmarks de segurança para modelos de linguagem, com implicações diretas para o mercado brasileiro.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
+      "category": "mercado",
+      "tags": [
+        "segurança de ia",
+        "modelos de linguagem",
+        "testes de segurança"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 22 Aug 2026 07:00:05 +0000",
+      "written_at": "2026-08-22T08:38:06.405Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "netflix-testa-modelos-de-linguagem-para-substituir-algoritmos-de-recomendacao",
+      "headline": "Netflix testa modelos de linguagem para substituir algoritmos de recomendação",
+      "subtitle": "Gigante do streaming busca otimizar sugestões de conteúdo com IA generativa.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "recomendacao",
+        "netflix"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 22 Aug 2026 07:30:16 +0000",
+      "written_at": "2026-08-22T08:37:53.813Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "oculos-de-ia-da-rayneo-apostam-em-texto-dispensando-cameras",
+      "headline": "Óculos de IA da RayNeo Apostam em Texto, Dispensando Câmeras",
+      "subtitle": "Nova abordagem de hardware de realidade aumentada busca utilidade direta, sem coleta de dados visuais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/rayneos-new-ai-glasses-skip-the-camera-focus-on-text-overlays/",
+      "category": "mercado",
+      "tags": [
+        "realidade aumentada",
+        "óculos inteligentes",
+        "rayneo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 22 Aug 2026 08:00:14 +0000",
+      "written_at": "2026-08-22T08:37:42.811Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "milhoes-clicam-em-botao-de-conteudo-ia-ruim-no-linkedin",
       "headline": "Milhões Clicam em Botão de \"Conteúdo IA Ruim\" no LinkedIn",
