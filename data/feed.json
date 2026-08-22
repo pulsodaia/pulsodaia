@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-22T12:50:50.875Z",
+  "generated_at": "2026-08-22T18:38:48.289Z",
   "articles": [
+    {
+      "slug": "laboratorios-de-ia-de-ponta-ainda-sem-planos-claros-para-conter-modelos-descontr",
+      "headline": "Laboratórios de IA de ponta ainda sem planos claros para conter modelos descontrolados",
+      "subtitle": "Uma nova pesquisa expõe lacunas na segurança de sistemas avançados de inteligência artificial, gerando preocupações no Brasil e no mundo.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "category": "mercado",
+      "tags": [
+        "segurança de ia",
+        "modelos de ia",
+        "riscos tecnológicos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 22 Aug 2026 16:00:00 +0000",
+      "written_at": "2026-08-22T18:38:48.264Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-agora-defende-projeto-de-lei-de-seguranca-de-ia-na-california-que-antes-c",
+      "headline": "OpenAI agora defende projeto de lei de segurança de IA na Califórnia que antes criticava",
+      "subtitle": "A mudança de posição da empresa levanta questões sobre a regulamentação e o futuro da inteligência artificial no Brasil e no mundo.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "regulamentacao ia",
+        "california"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 22 Aug 2026 16:30:34 +0000",
+      "written_at": "2026-08-22T18:38:38.368Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-libera-atualizacao-menor-para-claude-code-foco-em-estabilidade",
+      "headline": "Anthropic Libera Atualização Menor para Claude Code, Foco em Estabilidade",
+      "subtitle": "A empresa de IA reitera o compromisso com a melhoria contínua de suas ferramentas de desenvolvimento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "atualizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-22T14:45:30Z",
+      "written_at": "2026-08-22T18:38:28.429Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-agentes-se-beneficiam-de-habilidades-por-estrutura-nao-conhecimento-extra",
       "headline": "IA: Agentes se beneficiam de \"habilidades\" por estrutura, não conhecimento extra",
