@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 22 Aug 2026 18:44:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 22:33:56 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA da Inherent, fundada por ex-DeepMind, supera modelos de ponta em replicação de pesquisa</title>
+      <link>https://pulsodaia.com.br/feed/ia-da-inherent-fundada-por-ex-deepmind-supera-modelos-de-ponta-em-replicacao-de-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-da-inherent-fundada-por-ex-deepmind-supera-modelos-de-ponta-em-replicacao-de-/</guid>
+      <pubDate>Sat, 22 Aug 2026 22:28:53 GMT</pubDate>
+      <description>Ferramenta da startup britânica promete acelerar a descoberta científica e a inovação.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Harvard Introduz Bootcamps de IA com Avatares de Professores</title>
+      <link>https://pulsodaia.com.br/feed/harvard-introduz-bootcamps-de-ia-com-avatares-de-professores/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/harvard-introduz-bootcamps-de-ia-com-avatares-de-professores/</guid>
+      <pubDate>Sat, 22 Aug 2026 22:28:34 GMT</pubDate>
+      <description>Iniciativa da HBS Foundry utiliza inteligência artificial para feedback em pitches e reuniões.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Laboratórios de IA de ponta ainda sem planos claros para conter modelos descontrolados</title>
       <link>https://pulsodaia.com.br/feed/laboratorios-de-ia-de-ponta-ainda-sem-planos-claros-para-conter-modelos-descontr/</link>
@@ -439,24 +457,6 @@
       <description>A otimização da memória em modelos de IA pode ter implicações diretas na viabilidade e escalabilidade de aplicações no Brasil.</description>
       <category>RESEARCH</category>
       <source url="https://huggingface.co/blog/ibm-research/altk-evolve-hmm">Hugging Face</source>
-    </item>
-    <item>
-      <title>Novos Modelos de Embedding Buscam Melhorar Compreensão de Sentenças por IA</title>
-      <link>https://pulsodaia.com.br/feed/novos-modelos-de-embedding-buscam-melhorar-compreensao-de-sentencas-por-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/novos-modelos-de-embedding-buscam-melhorar-compreensao-de-sentencas-por-ia/</guid>
-      <pubDate>Tue, 18 Aug 2026 16:38:31 GMT</pubDate>
-      <description>Pesquisa da Hugging Face explora abordagens para codificar significado de forma mais precisa.</description>
-      <category>RESEARCH</category>
-      <source url="https://huggingface.co/blog/multi-vector-encoder">Hugging Face</source>
-    </item>
-    <item>
-      <title>Anthropic Atinge Receita Anualizada de US$ 65 Bilhões com Crescimento Sete Vezes Maior</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-atinge-receita-anualizada-de-us-65-bilhoes-com-crescimento-sete-vezes-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-atinge-receita-anualizada-de-us-65-bilhoes-com-crescimento-sete-vezes-/</guid>
-      <pubDate>Tue, 18 Aug 2026 08:44:37 GMT</pubDate>
-      <description>A startup de inteligência artificial avança rapidamente, mirando um IPO bilionário.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/anthropic-increases-revenue-sevenfold-hits-annualized-rate-above-65-billion/">The Decoder</source>
     </item>
   </channel>
 </rss>
