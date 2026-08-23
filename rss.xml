@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 23 Aug 2026 06:58:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 08:43:02 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Mercado Cinza na China Contorna Restrições e Oferece Acesso a Claude por Fração do Preço</title>
+      <link>https://pulsodaia.com.br/feed/mercado-cinza-na-china-contorna-restricoes-e-oferece-acesso-a-claude-por-fracao-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/mercado-cinza-na-china-contorna-restricoes-e-oferece-acesso-a-claude-por-fracao-/</guid>
+      <pubDate>Sun, 23 Aug 2026 08:37:35 GMT</pubDate>
+      <description>Acesso mais barato a modelos de IA avançados levanta questões sobre controle de exportação e segurança.</description>
+      <category>MERCADO</category>
+      <source url="https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/">The Decoder</source>
+    </item>
+    <item>
+      <title>Escassez de Memória Eleva Preços de Servidores Nvidia em 15%</title>
+      <link>https://pulsodaia.com.br/feed/escassez-de-memoria-eleva-precos-de-servidores-nvidia-em-15/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/escassez-de-memoria-eleva-precos-de-servidores-nvidia-em-15/</guid>
+      <pubDate>Sun, 23 Aug 2026 08:37:23 GMT</pubDate>
+      <description>Gigantes de nuvem sofrem com aumento de custo em infraestrutura de IA no Brasil e no mundo.</description>
+      <category>MERCADO</category>
+      <source url="https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/">The Decoder</source>
+    </item>
     <item>
       <title>Claude Code Recebe Atualização Menor Focada em Estabilidade</title>
       <link>https://pulsodaia.com.br/feed/claude-code-recebe-atualizacao-menor-focada-em-estabilidade/</link>
@@ -439,24 +457,6 @@
       <description>A família do comediante busca proteger o legado digital contra deepfakes e representações não autorizadas.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai">The Verge AI</source>
-    </item>
-    <item>
-      <title>Etched dobra valor de mercado para US$ 21 bilhões em um mês após adoção pela Jane Street</title>
-      <link>https://pulsodaia.com.br/feed/etched-dobra-valor-de-mercado-para-us-21-bilhoes-em-um-mes-apos-adocao-pela-jane/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/etched-dobra-valor-de-mercado-para-us-21-bilhoes-em-um-mes-apos-adocao-pela-jane/</guid>
-      <pubDate>Tue, 18 Aug 2026 18:49:02 GMT</pubDate>
-      <description>A startup de infraestrutura de IA confirma rodada de investimento massiva impulsionada pelo interesse de um gigante financeiro.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OpenAI Reforça Segurança de Modelos Após Incidente na Hugging Face</title>
-      <link>https://pulsodaia.com.br/feed/openai-reforca-seguranca-de-modelos-apos-incidente-na-hugging-face/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-reforca-seguranca-de-modelos-apos-incidente-na-hugging-face/</guid>
-      <pubDate>Tue, 18 Aug 2026 18:48:52 GMT</pubDate>
-      <description>A empresa implementa novas medidas de monitoramento e alinhamento para mitigar riscos em seus sistemas de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
