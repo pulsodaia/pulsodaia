@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 23 Aug 2026 12:57:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 16:38:10 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>O Dilema Legal do Treinamento de IA em Livros Protegidos por Direitos Autorais</title>
+      <link>https://pulsodaia.com.br/feed/o-dilema-legal-do-treinamento-de-ia-em-livros-protegidos-por-direitos-autorais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/o-dilema-legal-do-treinamento-de-ia-em-livros-protegidos-por-direitos-autorais/</guid>
+      <pubDate>Sun, 23 Aug 2026 16:33:08 GMT</pubDate>
+      <description>Autores brasileiros se veem em encruzilhada: suas obras alimentam IAs que podem ameaçar suas carreiras.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>CEO da Flock defende "compromisso" em meio a crescentes críticas sobre tecnologia de vigilância</title>
+      <link>https://pulsodaia.com.br/feed/ceo-da-flock-defende-compromisso-em-meio-a-crescentes-criticas-sobre-tecnologia-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ceo-da-flock-defende-compromisso-em-meio-a-crescentes-criticas-sobre-tecnologia-/</guid>
+      <pubDate>Sun, 23 Aug 2026 16:32:59 GMT</pubDate>
+      <description>Empresa de segurança enfrenta pressão pública por preocupações com o uso indevido de seus sistemas.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA pode piorar a qualidade da pesquisa científica, sugere estudo</title>
       <link>https://pulsodaia.com.br/feed/ia-pode-piorar-a-qualidade-da-pesquisa-cientifica-sugere-estudo/</link>
@@ -439,24 +457,6 @@
       <description>Estudo no arXiv sugere que a precisão pode justificar um custo maior por chamada em modelos de linguagem.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2608.16956">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Aegis: Segurança para IA com Potencial de Ação</title>
-      <link>https://pulsodaia.com.br/feed/aegis-seguranca-para-ia-com-potencial-de-acao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/aegis-seguranca-para-ia-com-potencial-de-acao/</guid>
-      <pubDate>Wed, 19 Aug 2026 12:58:23 GMT</pubDate>
-      <description>Nova proposta de governança busca controlar efeitos colaterais de sistemas de IA autônomos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2608.16891">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>GxP-Agent: Novo Sistema de IA Promete Agilizar Programação Clínica com Agentes Especializados</title>
-      <link>https://pulsodaia.com.br/feed/gxp-agent-novo-sistema-de-ia-promete-agilizar-programacao-clinica-com-agentes-es/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gxp-agent-novo-sistema-de-ia-promete-agilizar-programacao-clinica-com-agentes-es/</guid>
-      <pubDate>Wed, 19 Aug 2026 12:58:11 GMT</pubDate>
-      <description>Pesquisa em IA propõe solução para gargalo regulatório em ensaios clínicos, com potencial impacto na aprovação de medicamentos no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2608.16890">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
