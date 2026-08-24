@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 24 Aug 2026 10:48:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 13:06:39 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Thomson Reuters Investe US$ 40 Milhões em Modelo de IA Próprio</title>
+      <link>https://pulsodaia.com.br/feed/thomson-reuters-investe-us-40-milhoes-em-modelo-de-ia-proprio/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/thomson-reuters-investe-us-40-milhoes-em-modelo-de-ia-proprio/</guid>
+      <pubDate>Mon, 24 Aug 2026 13:01:38 GMT</pubDate>
+      <description>A gigante de informações busca autonomia em inteligência artificial, desenvolvendo sua própria tecnologia.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic/">The Decoder</source>
+    </item>
     <item>
       <title>Nvidia avalia aporte bilionário em Perplexity, elevando valor da startup a mais de US$ 30 bilhões</title>
       <link>https://pulsodaia.com.br/feed/nvidia-avalia-aporte-bilionario-em-perplexity-elevando-valor-da-startup-a-mais-d/</link>
@@ -448,15 +457,6 @@
       <description>Plataforma de criptomoedas adota automação avançada, mas a responsabilidade pela vigilância recai sobre os investidores.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OpenAI Oferece Modelos Avançados Sem Armazenar Dados de Clientes</title>
-      <link>https://pulsodaia.com.br/feed/openai-oferece-modelos-avancados-sem-armazenar-dados-de-clientes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-oferece-modelos-avancados-sem-armazenar-dados-de-clientes/</guid>
-      <pubDate>Thu, 20 Aug 2026 08:47:08 GMT</pubDate>
-      <description>A empresa busca atender demandas corporativas por privacidade e segurança na utilização de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/">The Decoder</source>
     </item>
   </channel>
 </rss>
