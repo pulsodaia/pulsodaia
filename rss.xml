@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 24 Aug 2026 03:14:44 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 04:57:28 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA: Camuflagem Semântica Explora Falhas de Segurança em Modelos de Linguagem</title>
+      <link>https://pulsodaia.com.br/feed/ia-camuflagem-semantica-explora-falhas-de-seguranca-em-modelos-de-linguagem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-camuflagem-semantica-explora-falhas-de-seguranca-em-modelos-de-linguagem/</guid>
+      <pubDate>Mon, 24 Aug 2026 04:53:00 GMT</pubDate>
+      <description>Pesquisa aponta vulnerabilidade em LLMs que contornam barreiras de segurança com intenções ocultas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.20378">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Agente de IA Ganha Memória Persistente com Sistema de Orquestração</title>
+      <link>https://pulsodaia.com.br/feed/agente-de-ia-ganha-memoria-persistente-com-sistema-de-orquestracao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agente-de-ia-ganha-memoria-persistente-com-sistema-de-orquestracao/</guid>
+      <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
+      <description>Nova arquitetura para LLMs de codificação promete superar a limitação de contexto vazio em cada sessão.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2608.20342">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Autônoma em Desenvolvimento: Especificações Guiam Código e Verificação</title>
+      <link>https://pulsodaia.com.br/feed/ia-autonoma-em-desenvolvimento-especificacoes-guiam-codigo-e-verificacao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-em-desenvolvimento-especificacoes-guiam-codigo-e-verificacao/</guid>
+      <pubDate>Mon, 24 Aug 2026 04:52:30 GMT</pubDate>
+      <description>Um novo paradigma para o ciclo de vida de software promete acelerar a entrega com agentes de IA capazes de entender e executar requisitos complexos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2608.20341">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Linkdaze Desafia o Mercado com Calendário Inteligente Gratuito e Foco em Gestão Doméstica</title>
       <link>https://pulsodaia.com.br/feed/linkdaze-desafia-o-mercado-com-calendario-inteligente-gratuito-e-foco-em-gestao-/</link>
@@ -430,33 +457,6 @@
       <description>Estudo aponta riscos de agentes de IA colaborarem para manipular preços.</description>
       <category>ANALISE</category>
       <source url="https://arxiv.org/abs/2608.18078">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Stripe adquire OpenRouter: um movimento estratégico além da "singularidade"</title>
-      <link>https://pulsodaia.com.br/feed/stripe-adquire-openrouter-um-movimento-estrategico-alem-da-singularidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/stripe-adquire-openrouter-um-movimento-estrategico-alem-da-singularidade/</guid>
-      <pubDate>Thu, 20 Aug 2026 01:38:46 GMT</pubDate>
-      <description>Gigante de pagamentos foca em infraestrutura de IA, não em profecias tecnológicas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Aprimora Cache e Introduz Estilo de Saída Conciso</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-cache-e-introduz-estilo-de-saida-conciso/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-cache-e-introduz-estilo-de-saida-conciso/</guid>
-      <pubDate>Thu, 20 Aug 2026 01:38:36 GMT</pubDate>
-      <description>Atualização do modelo de linguagem foca em eficiência e clareza para desenvolvedores brasileiros.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.237">Claude Code</source>
-    </item>
-    <item>
-      <title>Novos Checkpoints LFM2.5 Chegam ao Hugging Face via Destilação Consciente de Quantização</title>
-      <link>https://pulsodaia.com.br/feed/novos-checkpoints-lfm2-5-chegam-ao-hugging-face-via-destilacao-consciente-de-qua/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/novos-checkpoints-lfm2-5-chegam-ao-hugging-face-via-destilacao-consciente-de-qua/</guid>
-      <pubDate>Wed, 19 Aug 2026 20:35:58 GMT</pubDate>
-      <description>Aprimoramentos em modelos de linguagem chegam ao Brasil com foco em eficiência.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/LiquidAI/qad">Hugging Face</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-23T22:28:18.560Z",
+  "generated_at": "2026-08-24T04:53:00.096Z",
   "articles": [
+    {
+      "slug": "ia-camuflagem-semantica-explora-falhas-de-seguranca-em-modelos-de-linguagem",
+      "headline": "IA: Camuflagem Semântica Explora Falhas de Segurança em Modelos de Linguagem",
+      "subtitle": "Pesquisa aponta vulnerabilidade em LLMs que contornam barreiras de segurança com intenções ocultas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.20378",
+      "category": "research",
+      "tags": [
+        "ia",
+        "segurança",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-24T04:53:00.049Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agente-de-ia-ganha-memoria-persistente-com-sistema-de-orquestracao",
+      "headline": "Agente de IA Ganha Memória Persistente com Sistema de Orquestração",
+      "subtitle": "Nova arquitetura para LLMs de codificação promete superar a limitação de contexto vazio em cada sessão.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.20342",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "agentes de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-24T04:52:41.093Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-autonoma-em-desenvolvimento-especificacoes-guiam-codigo-e-verificacao",
+      "headline": "IA Autônoma em Desenvolvimento: Especificações Guiam Código e Verificação",
+      "subtitle": "Um novo paradigma para o ciclo de vida de software promete acelerar a entrega com agentes de IA capazes de entender e executar requisitos complexos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.20341",
+      "category": "research",
+      "tags": [
+        "sdad",
+        "desenvolvimento de software",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-24T04:52:30.737Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "linkdaze-desafia-o-mercado-com-calendario-inteligente-gratuito-e-foco-em-gestao-",
       "headline": "Linkdaze Desafia o Mercado com Calendário Inteligente Gratuito e Foco em Gestão Doméstica",
