@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 24 Aug 2026 07:15:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 10:48:16 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nvidia avalia aporte bilionário em Perplexity, elevando valor da startup a mais de US$ 30 bilhões</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-avalia-aporte-bilionario-em-perplexity-elevando-valor-da-startup-a-mais-d/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-avalia-aporte-bilionario-em-perplexity-elevando-valor-da-startup-a-mais-d/</guid>
+      <pubDate>Mon, 24 Aug 2026 10:42:46 GMT</pubDate>
+      <description>O movimento reforça a corrida por modelos de linguagem e a influência da fabricante de chips no setor.</description>
+      <category>MERCADO</category>
+      <source url="https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/">The Decoder</source>
+    </item>
+    <item>
+      <title>Chatbots de IA direcionam usuárias grávidas a sites antiaborto sem aviso</title>
+      <link>https://pulsodaia.com.br/feed/chatbots-de-ia-direcionam-usuarias-gravidas-a-sites-antiaborto-sem-aviso/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/chatbots-de-ia-direcionam-usuarias-gravidas-a-sites-antiaborto-sem-aviso/</guid>
+      <pubDate>Mon, 24 Aug 2026 10:42:35 GMT</pubDate>
+      <description>Investigação revela viés ideológico em respostas de grandes modelos de linguagem, levantando preocupações sobre imparcialidade e acesso à informação.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/">The Decoder</source>
+    </item>
+    <item>
+      <title>Cerebras CS-4: Nova Geração de Aceleradores Promete Dobrar Performance em Hardware Existente</title>
+      <link>https://pulsodaia.com.br/feed/cerebras-cs-4-nova-geracao-de-aceleradores-promete-dobrar-performance-em-hardwar/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cerebras-cs-4-nova-geracao-de-aceleradores-promete-dobrar-performance-em-hardwar/</guid>
+      <pubDate>Mon, 24 Aug 2026 10:42:23 GMT</pubDate>
+      <description>Empresa americana lança nova versão de seu chip de IA, buscando liderança em processamento de modelos complexos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/">The Decoder</source>
+    </item>
     <item>
       <title>IA: Camuflagem Semântica Explora Falhas de Segurança em Modelos de Linguagem</title>
       <link>https://pulsodaia.com.br/feed/ia-camuflagem-semantica-explora-falhas-de-seguranca-em-modelos-de-linguagem/</link>
@@ -430,33 +457,6 @@
       <description>A empresa busca atender demandas corporativas por privacidade e segurança na utilização de IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA Generativa Avança na Saúde Mental: Aplicações e Desafios Éticos em Foco</title>
-      <link>https://pulsodaia.com.br/feed/ia-generativa-avanca-na-saude-mental-aplicacoes-e-desafios-eticos-em-foco/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-generativa-avanca-na-saude-mental-aplicacoes-e-desafios-eticos-em-foco/</guid>
-      <pubDate>Thu, 20 Aug 2026 04:43:44 GMT</pubDate>
-      <description>Um estudo recente detalha como modelos de linguagem estão sendo aplicados no cuidado psicológico, apontando para oportunidades e riscos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.18080">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Complexidade de Transição: Nova Métrica para Avaliar Ambientes de IA em Jogos</title>
-      <link>https://pulsodaia.com.br/feed/complexidade-de-transicao-nova-metrica-para-avaliar-ambientes-de-ia-em-jogos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/complexidade-de-transicao-nova-metrica-para-avaliar-ambientes-de-ia-em-jogos/</guid>
-      <pubDate>Thu, 20 Aug 2026 04:43:25 GMT</pubDate>
-      <description>Estudo no ArXiv propõe métrica padronizada para quantificar a dificuldade de prever estados em mundos virtuais, com implicações para o desenvolvimento de agentes de IA.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.18079">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA com raciocínio avançado pode facilitar conluio em mercados</title>
-      <link>https://pulsodaia.com.br/feed/ia-com-raciocinio-avancado-pode-facilitar-conluio-em-mercados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-com-raciocinio-avancado-pode-facilitar-conluio-em-mercados/</guid>
-      <pubDate>Thu, 20 Aug 2026 04:43:15 GMT</pubDate>
-      <description>Estudo aponta riscos de agentes de IA colaborarem para manipular preços.</description>
-      <category>ANALISE</category>
-      <source url="https://arxiv.org/abs/2608.18078">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

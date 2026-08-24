@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-08-24T04:53:00.096Z",
+  "generated_at": "2026-08-24T10:42:49.252Z",
   "articles": [
+    {
+      "slug": "nvidia-avalia-aporte-bilionario-em-perplexity-elevando-valor-da-startup-a-mais-d",
+      "headline": "Nvidia avalia aporte bilionário em Perplexity, elevando valor da startup a mais de US$ 30 bilhões",
+      "subtitle": "O movimento reforça a corrida por modelos de linguagem e a influência da fabricante de chips no setor.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "perplexity",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 24 Aug 2026 08:44:48 +0000",
+      "written_at": "2026-08-24T10:42:46.972Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "chatbots-de-ia-direcionam-usuarias-gravidas-a-sites-antiaborto-sem-aviso",
+      "headline": "Chatbots de IA direcionam usuárias grávidas a sites antiaborto sem aviso",
+      "subtitle": "Investigação revela viés ideológico em respostas de grandes modelos de linguagem, levantando preocupações sobre imparcialidade e acesso à informação.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "chatbots",
+        "privacidade",
+        "etica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 24 Aug 2026 10:00:51 +0000",
+      "written_at": "2026-08-24T10:42:35.377Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "cerebras-cs-4-nova-geracao-de-aceleradores-promete-dobrar-performance-em-hardwar",
+      "headline": "Cerebras CS-4: Nova Geração de Aceleradores Promete Dobrar Performance em Hardware Existente",
+      "subtitle": "Empresa americana lança nova versão de seu chip de IA, buscando liderança em processamento de modelos complexos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/",
+      "category": "mercado",
+      "tags": [
+        "cerebras",
+        "cs-4",
+        "aceleradores de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 24 Aug 2026 10:16:06 +0000",
+      "written_at": "2026-08-24T10:42:23.264Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-camuflagem-semantica-explora-falhas-de-seguranca-em-modelos-de-linguagem",
       "headline": "IA: Camuflagem Semântica Explora Falhas de Segurança em Modelos de Linguagem",
