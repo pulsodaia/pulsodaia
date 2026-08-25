@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-08-25T18:47:53.667Z",
+  "generated_at": "2026-08-25T22:33:28.517Z",
   "articles": [
+    {
+      "slug": "claude-code-aprimora-controle-de-permissoes-e-performance",
+      "headline": "Claude Code aprimora controle de permissões e performance",
+      "subtitle": "Atualização do modelo de linguagem da Anthropic foca em segurança e usabilidade para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "ia para desenvolvedores"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-25T22:31:52Z",
+      "written_at": "2026-08-25T22:33:28.053Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "chip-de-inferencia-da-openai-supera-nvidia-em-benchmarks",
       "headline": "Chip de Inferência da OpenAI Supera Nvidia em Benchmarks",

@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 25 Aug 2026 18:54:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 22:38:32 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code aprimora controle de permissões e performance</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-permissoes-e-performance/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-permissoes-e-performance/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:33:28 GMT</pubDate>
+      <description>Atualização do modelo de linguagem da Anthropic foca em segurança e usabilidade para desenvolvedores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.246">Claude Code</source>
+    </item>
     <item>
       <title>Chip de Inferência da OpenAI Supera Nvidia em Benchmarks</title>
       <link>https://pulsodaia.com.br/feed/chip-de-inferencia-da-openai-supera-nvidia-em-benchmarks/</link>
@@ -448,15 +457,6 @@
       <description>Novos métodos psicológicos expõem deficiências em benchmarks de segurança para modelos de linguagem, com implicações diretas para o mercado brasileiro.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/">The Decoder</source>
-    </item>
-    <item>
-      <title>Netflix testa modelos de linguagem para substituir algoritmos de recomendação</title>
-      <link>https://pulsodaia.com.br/feed/netflix-testa-modelos-de-linguagem-para-substituir-algoritmos-de-recomendacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/netflix-testa-modelos-de-linguagem-para-substituir-algoritmos-de-recomendacao/</guid>
-      <pubDate>Sat, 22 Aug 2026 08:37:53 GMT</pubDate>
-      <description>Gigante do streaming busca otimizar sugestões de conteúdo com IA generativa.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/">The Decoder</source>
     </item>
   </channel>
 </rss>
