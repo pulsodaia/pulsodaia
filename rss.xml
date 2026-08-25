@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 24 Aug 2026 22:38:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 01:44:33 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Fundo de IA Promissor Recebe Investigação da SEC Após Queda Brusca</title>
+      <link>https://pulsodaia.com.br/feed/fundo-de-ia-promissor-recebe-investigacao-da-sec-apos-queda-brusca/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/fundo-de-ia-promissor-recebe-investigacao-da-sec-apos-queda-brusca/</guid>
+      <pubDate>Tue, 25 Aug 2026 01:39:35 GMT</pubDate>
+      <description>A ascensão meteórica e a subsequente investigação levantam questões sobre a governança em fundos de alta tecnologia.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code aprimora controle de custos e monitoramento de uso de IA</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-custos-e-monitoramento-de-uso-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-custos-e-monitoramento-de-uso-de-ia/</guid>
+      <pubDate>Tue, 25 Aug 2026 01:39:24 GMT</pubDate>
+      <description>Novas funcionalidades no Claude Code prometem maior transparência e gestão para desenvolvedores e empresas no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.243">Claude Code</source>
+    </item>
     <item>
       <title>Trump Compra Ações da SpaceX Pós-IPO; Mercado Reage a Movimentação</title>
       <link>https://pulsodaia.com.br/feed/trump-compra-acoes-da-spacex-pos-ipo-mercado-reage-a-movimentacao/</link>
@@ -439,24 +457,6 @@
       <description>A empresa de IA busca atender demandas corporativas por maior controle sobre informações.</description>
       <category>MERCADO</category>
       <source url="https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/">The Decoder</source>
-    </item>
-    <item>
-      <title>OpenAI Habilita Geração de Imagens com Fundo Transparente Nativo via API</title>
-      <link>https://pulsodaia.com.br/feed/openai-habilita-geracao-de-imagens-com-fundo-transparente-nativo-via-api/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-habilita-geracao-de-imagens-com-fundo-transparente-nativo-via-api/</guid>
-      <pubDate>Fri, 21 Aug 2026 08:49:41 GMT</pubDate>
-      <description>Nova funcionalidade do GPT-Image-2 promete simplificar fluxos de trabalho em design e publicidade no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/">The Decoder</source>
-    </item>
-    <item>
-      <title>GPT-5.6 Sol Impulsiona Receita da OpenAI e Reequilibra Disputa com Anthropic</title>
-      <link>https://pulsodaia.com.br/feed/gpt-5-6-sol-impulsiona-receita-da-openai-e-reequilibra-disputa-com-anthropic/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gpt-5-6-sol-impulsiona-receita-da-openai-e-reequilibra-disputa-com-anthropic/</guid>
-      <pubDate>Fri, 21 Aug 2026 08:49:27 GMT</pubDate>
-      <description>Nova versão do modelo da OpenAI mostra crescimento expressivo, revertendo tendência de perda de mercado.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic/">The Decoder</source>
     </item>
   </channel>
 </rss>
