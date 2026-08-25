@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-08-25T12:58:19.308Z",
+  "generated_at": "2026-08-25T14:52:43.174Z",
   "articles": [
+    {
+      "slug": "openai-sinaliza-prontidao-global-para-agentes-de-ia",
+      "headline": "OpenAI Sinaliza Prontidão Global para Agentes de IA",
+      "subtitle": "Thibault Sottiaux, chefe de produto da OpenAI, discute a evolução e aceitação de agentes autônomos de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+      "category": "mercado",
+      "tags": [
+        "agentes de ia",
+        "openai",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 25 Aug 2026 12:00:00 +0000",
+      "written_at": "2026-08-25T14:52:43.153Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "keenable-emerge-com-us-26-milhoes-para-indexar-a-web-para-agentes-de-ia",
+      "headline": "Keenable emerge com US$ 26 milhões para indexar a web para agentes de IA",
+      "subtitle": "A startup busca organizar a informação online para a próxima geração de assistentes automatizados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+      "category": "mercado",
+      "tags": [
+        "agentes de ia",
+        "indexação web",
+        "infraestrutura de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "written_at": "2026-08-25T14:52:32.973Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-revela-chip-jalapeno-desempenho-superior-em-inferencia-de-ia",
+      "headline": "OpenAI Revela Chip Jalapeño: Desempenho Superior em Inferência de IA",
+      "subtitle": "Novos chips prometem acelerar aplicações de inteligência artificial para empresas no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "inteligência artificial",
+        "hardware",
+        "inferência"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 25 Aug 2026 14:22:04 +0000",
+      "written_at": "2026-08-25T14:52:22.293Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "claude-code-corrige-falha-critica-em-linux",
       "headline": "Claude Code corrige falha crítica em Linux",

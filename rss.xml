@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 25 Aug 2026 13:03:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 14:57:39 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI Sinaliza Prontidão Global para Agentes de IA</title>
+      <link>https://pulsodaia.com.br/feed/openai-sinaliza-prontidao-global-para-agentes-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-sinaliza-prontidao-global-para-agentes-de-ia/</guid>
+      <pubDate>Tue, 25 Aug 2026 14:52:43 GMT</pubDate>
+      <description>Thibault Sottiaux, chefe de produto da OpenAI, discute a evolução e aceitação de agentes autônomos de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Keenable emerge com US$ 26 milhões para indexar a web para agentes de IA</title>
+      <link>https://pulsodaia.com.br/feed/keenable-emerge-com-us-26-milhoes-para-indexar-a-web-para-agentes-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/keenable-emerge-com-us-26-milhoes-para-indexar-a-web-para-agentes-de-ia/</guid>
+      <pubDate>Tue, 25 Aug 2026 14:52:32 GMT</pubDate>
+      <description>A startup busca organizar a informação online para a próxima geração de assistentes automatizados.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>OpenAI Revela Chip Jalapeño: Desempenho Superior em Inferência de IA</title>
+      <link>https://pulsodaia.com.br/feed/openai-revela-chip-jalapeno-desempenho-superior-em-inferencia-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-revela-chip-jalapeno-desempenho-superior-em-inferencia-de-ia/</guid>
+      <pubDate>Tue, 25 Aug 2026 14:52:22 GMT</pubDate>
+      <description>Novos chips prometem acelerar aplicações de inteligência artificial para empresas no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Claude Code corrige falha crítica em Linux</title>
       <link>https://pulsodaia.com.br/feed/claude-code-corrige-falha-critica-em-linux/</link>
@@ -430,33 +457,6 @@
       <description>A inteligência artificial mais poderosa da Anthropic agora atua na detecção de falhas de segurança e proteção de infraestruturas críticas.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/">The Decoder</source>
-    </item>
-    <item>
-      <title>Nvidia Revela: O "Arnes" da IA Supera o Modelo em Desempenho</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-revela-o-arnes-da-ia-supera-o-modelo-em-desempenho/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-revela-o-arnes-da-ia-supera-o-modelo-em-desempenho/</guid>
-      <pubDate>Fri, 21 Aug 2026 20:32:06 GMT</pubDate>
-      <description>Pesquisa da Nvidia aponta para a importância do ajuste fino em modelos de IA, mesmo com bases menos robustas.</description>
-      <category>RESEARCH</category>
-      <source url="https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Atualiza Custos e Integração em Plataformas de Nuvem</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-custos-e-integracao-em-plataformas-de-nuvem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-custos-e-integracao-em-plataformas-de-nuvem/</guid>
-      <pubDate>Fri, 21 Aug 2026 20:31:56 GMT</pubDate>
-      <description>A Anthropic ajusta precificação e facilita a migração de projetos Python para a versão mais recente de sua ferramenta de desenvolvimento.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.239">Claude Code</source>
-    </item>
-    <item>
-      <title>DoJ Investiga Andreessen Horowitz por Conflitos de Interesse em Board de Empresas</title>
-      <link>https://pulsodaia.com.br/feed/doj-investiga-andreessen-horowitz-por-conflitos-de-interesse-em-board-de-empresa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/doj-investiga-andreessen-horowitz-por-conflitos-de-interesse-em-board-de-empresa/</guid>
-      <pubDate>Fri, 21 Aug 2026 16:41:02 GMT</pubDate>
-      <description>O Departamento de Justiça dos EUA apura arranjos em conselhos de administração que podem impactar o capital de risco.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
