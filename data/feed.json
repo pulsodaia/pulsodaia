@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-25T04:45:39.449Z",
+  "generated_at": "2026-08-25T12:58:19.308Z",
   "articles": [
+    {
+      "slug": "claude-code-corrige-falha-critica-em-linux",
+      "headline": "Claude Code corrige falha crítica em Linux",
+      "subtitle": "Atualização visa estabilidade em distribuições específicas, impactando desenvolvedores no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "linux"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-25T05:13:24Z",
+      "written_at": "2026-08-25T12:58:18.653Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-otimiza-busca-em-papers-with-code-com-infraestrutura-de-nuvem",
+      "headline": "Hugging Face Otimiza Busca em Papers with Code com Infraestrutura de Nuvem",
+      "subtitle": "Plataforma aprimora a experiência de pesquisa para a comunidade de machine learning brasileira.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/pwc-search",
+      "category": "opensource",
+      "tags": [
+        "hugging face",
+        "papers with code",
+        "infraestrutura de nuvem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 21 Aug 2026 00:00:00 GMT",
+      "written_at": "2026-08-25T12:58:08.155Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-comprimida-supera-original-nova-tecnica-melhora-modelos-de-4-bits",
+      "headline": "IA Comprimida Supera Original: Nova Técnica Melhora Modelos de 4 Bits",
+      "subtitle": "Pesquisa da Hugging Face demonstra avanço em eficiência e desempenho de modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "category": "opensource",
+      "tags": [
+        "quantização",
+        "inteligência artificial",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 25 Aug 2026 11:39:24 GMT",
+      "written_at": "2026-08-25T12:57:57.459Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "kvboost-otimiza-inferencia-de-llms-com-cache-inteligente",
       "headline": "KVBoost Otimiza Inferência de LLMs com Cache Inteligente",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 25 Aug 2026 04:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 13:03:37 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code corrige falha crítica em Linux</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-corrige-falha-critica-em-linux/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-corrige-falha-critica-em-linux/</guid>
+      <pubDate>Tue, 25 Aug 2026 12:58:18 GMT</pubDate>
+      <description>Atualização visa estabilidade em distribuições específicas, impactando desenvolvedores no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.245">Claude Code</source>
+    </item>
+    <item>
+      <title>Hugging Face Otimiza Busca em Papers with Code com Infraestrutura de Nuvem</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-otimiza-busca-em-papers-with-code-com-infraestrutura-de-nuvem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-otimiza-busca-em-papers-with-code-com-infraestrutura-de-nuvem/</guid>
+      <pubDate>Tue, 25 Aug 2026 12:58:08 GMT</pubDate>
+      <description>Plataforma aprimora a experiência de pesquisa para a comunidade de machine learning brasileira.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/pwc-search">Hugging Face</source>
+    </item>
+    <item>
+      <title>IA Comprimida Supera Original: Nova Técnica Melhora Modelos de 4 Bits</title>
+      <link>https://pulsodaia.com.br/feed/ia-comprimida-supera-original-nova-tecnica-melhora-modelos-de-4-bits/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-comprimida-supera-original-nova-tecnica-melhora-modelos-de-4-bits/</guid>
+      <pubDate>Tue, 25 Aug 2026 12:57:57 GMT</pubDate>
+      <description>Pesquisa da Hugging Face demonstra avanço em eficiência e desempenho de modelos de linguagem.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing">Hugging Face</source>
+    </item>
     <item>
       <title>KVBoost Otimiza Inferência de LLMs com Cache Inteligente</title>
       <link>https://pulsodaia.com.br/feed/kvboost-otimiza-inferencia-de-llms-com-cache-inteligente/</link>
@@ -430,33 +457,6 @@
       <description>O Departamento de Justiça dos EUA apura arranjos em conselhos de administração que podem impactar o capital de risco.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Otimização de Benchmarks em Reconhecimento de Voz: Novas Métricas da Hugging Face</title>
-      <link>https://pulsodaia.com.br/feed/otimizacao-de-benchmarks-em-reconhecimento-de-voz-novas-metricas-da-hugging-face/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-de-benchmarks-em-reconhecimento-de-voz-novas-metricas-da-hugging-face/</guid>
-      <pubDate>Fri, 21 Aug 2026 16:40:51 GMT</pubDate>
-      <description>A Hugging Face lança um guia detalhado para avaliar e aprimorar modelos de ASR, relevante para o mercado brasileiro de áudio.</description>
-      <category>ANALISE</category>
-      <source url="https://huggingface.co/blog/asr-benchmark-optimization">Hugging Face</source>
-    </item>
-    <item>
-      <title>Meta Investe Centenas de Milhões em Serviços de IA da Microsoft</title>
-      <link>https://pulsodaia.com.br/feed/meta-investe-centenas-de-milhoes-em-servicos-de-ia-da-microsoft/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-investe-centenas-de-milhoes-em-servicos-de-ia-da-microsoft/</guid>
-      <pubDate>Fri, 21 Aug 2026 12:59:58 GMT</pubDate>
-      <description>A gigante das redes sociais se consolida como cliente chave dos serviços de inteligência artificial da gigante de Redmond.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/">The Decoder</source>
-    </item>
-    <item>
-      <title>Waymo Desenvolve Chip Próprio para Robotáxis, Reduzindo Dependência da Nvidia</title>
-      <link>https://pulsodaia.com.br/feed/waymo-desenvolve-chip-proprio-para-robotaxis-reduzindo-dependencia-da-nvidia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/waymo-desenvolve-chip-proprio-para-robotaxis-reduzindo-dependencia-da-nvidia/</guid>
-      <pubDate>Fri, 21 Aug 2026 12:59:46 GMT</pubDate>
-      <description>A movimentação estratégica da Alphabet visa otimizar o desempenho e a escalabilidade de sua frota autônoma.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/">The Decoder</source>
     </item>
   </channel>
 </rss>
