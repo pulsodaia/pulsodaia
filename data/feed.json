@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-08-25T01:39:35.785Z",
+  "generated_at": "2026-08-25T04:45:39.449Z",
   "articles": [
+    {
+      "slug": "kvboost-otimiza-inferencia-de-llms-com-cache-inteligente",
+      "headline": "KVBoost Otimiza Inferência de LLMs com Cache Inteligente",
+      "subtitle": "Nova técnica promete reduzir latência em modelos de linguagem, um gargalo para aplicações em português.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.21362",
+      "category": "research",
+      "tags": [
+        "llm",
+        "inferencia",
+        "cache"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-25T04:45:39.352Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "gradio-simplifica-fluxos-de-trabalho-de-ia-para-desenvolvedores-brasileiros",
+      "headline": "Gradio Simplifica Fluxos de Trabalho de IA para Desenvolvedores Brasileiros",
+      "subtitle": "A Hugging Face detalha como a ferramenta agiliza o ciclo de vida de modelos de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "category": "opensource",
+      "tags": [
+        "gradio",
+        "hugging face",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 25 Aug 2026 00:00:00 GMT",
+      "written_at": "2026-08-25T04:45:28.961Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "fundo-de-ia-promissor-recebe-investigacao-da-sec-apos-queda-brusca",
       "headline": "Fundo de IA Promissor Recebe Investigação da SEC Após Queda Brusca",

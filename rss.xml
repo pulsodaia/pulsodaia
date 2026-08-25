@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 25 Aug 2026 03:10:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 04:50:00 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>KVBoost Otimiza Inferência de LLMs com Cache Inteligente</title>
+      <link>https://pulsodaia.com.br/feed/kvboost-otimiza-inferencia-de-llms-com-cache-inteligente/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/kvboost-otimiza-inferencia-de-llms-com-cache-inteligente/</guid>
+      <pubDate>Tue, 25 Aug 2026 04:45:39 GMT</pubDate>
+      <description>Nova técnica promete reduzir latência em modelos de linguagem, um gargalo para aplicações em português.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2608.21362">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Gradio Simplifica Fluxos de Trabalho de IA para Desenvolvedores Brasileiros</title>
+      <link>https://pulsodaia.com.br/feed/gradio-simplifica-fluxos-de-trabalho-de-ia-para-desenvolvedores-brasileiros/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gradio-simplifica-fluxos-de-trabalho-de-ia-para-desenvolvedores-brasileiros/</guid>
+      <pubDate>Tue, 25 Aug 2026 04:45:28 GMT</pubDate>
+      <description>A Hugging Face detalha como a ferramenta agiliza o ciclo de vida de modelos de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/gradio-workflow-guide">Hugging Face</source>
+    </item>
     <item>
       <title>Fundo de IA Promissor Recebe Investigação da SEC Após Queda Brusca</title>
       <link>https://pulsodaia.com.br/feed/fundo-de-ia-promissor-recebe-investigacao-da-sec-apos-queda-brusca/</link>
@@ -439,24 +457,6 @@
       <description>A movimentação estratégica da Alphabet visa otimizar o desempenho e a escalabilidade de sua frota autônoma.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/">The Decoder</source>
-    </item>
-    <item>
-      <title>DeepMind e Estúdios de Jogos: Parceria para IA de Jogabilidade Inovadora</title>
-      <link>https://pulsodaia.com.br/feed/deepmind-e-estudios-de-jogos-parceria-para-ia-de-jogabilidade-inovadora/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-e-estudios-de-jogos-parceria-para-ia-de-jogabilidade-inovadora/</guid>
-      <pubDate>Fri, 21 Aug 2026 12:59:34 GMT</pubDate>
-      <description>Pesquisa de IA em games avança com colaborações para prototipagem.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Anthropic flexibiliza política de dados após pressão de grandes clientes</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-flexibiliza-politica-de-dados-apos-pressao-de-grandes-clientes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-flexibiliza-politica-de-dados-apos-pressao-de-grandes-clientes/</guid>
-      <pubDate>Fri, 21 Aug 2026 10:36:10 GMT</pubDate>
-      <description>A empresa de IA busca atender demandas corporativas por maior controle sobre informações.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/">The Decoder</source>
     </item>
   </channel>
 </rss>
