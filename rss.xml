@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 26 Aug 2026 07:10:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 10:46:20 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic mira mercado de US$ 30 trilhões em busca de investidores para IPO</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-mira-mercado-de-us-30-trilhoes-em-busca-de-investidores-para-ipo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-mira-mercado-de-us-30-trilhoes-em-busca-de-investidores-para-ipo/</guid>
+      <pubDate>Wed, 26 Aug 2026 10:40:53 GMT</pubDate>
+      <description>A startup de IA busca capitalizar a expansão do setor para sua oferta pública inicial.</description>
+      <category>MERCADO</category>
+      <source url="https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo/">The Decoder</source>
+    </item>
+    <item>
+      <title>IBM Libera Modelos Granite 4.2 com Capacidades Agenticas Sob Licença Aberta</title>
+      <link>https://pulsodaia.com.br/feed/ibm-libera-modelos-granite-4-2-com-capacidades-agenticas-sob-licenca-aberta/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-libera-modelos-granite-4-2-com-capacidades-agenticas-sob-licenca-aberta/</guid>
+      <pubDate>Wed, 26 Aug 2026 10:40:40 GMT</pubDate>
+      <description>Gigante de tecnologia disponibiliza família de modelos de linguagem com foco em execução autônoma de tarefas e código.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/ibm-drops-open-weight-granite-4-2-family-with-built-in-agentic-capabilities-under-apache-2-0/">The Decoder</source>
+    </item>
     <item>
       <title>RENDER: Novo benchmark foca em como LLMs apresentam informações da memória</title>
       <link>https://pulsodaia.com.br/feed/render-novo-benchmark-foca-em-como-llms-apresentam-informacoes-da-memoria/</link>
@@ -439,24 +457,6 @@
       <description>Uma nova pesquisa expõe lacunas na segurança de sistemas avançados de inteligência artificial, gerando preocupações no Brasil e no mundo.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OpenAI agora defende projeto de lei de segurança de IA na Califórnia que antes criticava</title>
-      <link>https://pulsodaia.com.br/feed/openai-agora-defende-projeto-de-lei-de-seguranca-de-ia-na-california-que-antes-c/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-agora-defende-projeto-de-lei-de-seguranca-de-ia-na-california-que-antes-c/</guid>
-      <pubDate>Sat, 22 Aug 2026 18:38:38 GMT</pubDate>
-      <description>A mudança de posição da empresa levanta questões sobre a regulamentação e o futuro da inteligência artificial no Brasil e no mundo.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Libera Atualização Menor para Claude Code, Foco em Estabilidade</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-libera-atualizacao-menor-para-claude-code-foco-em-estabilidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-libera-atualizacao-menor-para-claude-code-foco-em-estabilidade/</guid>
-      <pubDate>Sat, 22 Aug 2026 18:38:28 GMT</pubDate>
-      <description>A empresa de IA reitera o compromisso com a melhoria contínua de suas ferramentas de desenvolvimento.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.240">Claude Code</source>
     </item>
   </channel>
 </rss>

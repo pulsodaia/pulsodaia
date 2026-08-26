@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-08-26T06:58:39.513Z",
+  "generated_at": "2026-08-26T10:40:55.451Z",
   "articles": [
+    {
+      "slug": "anthropic-mira-mercado-de-us-30-trilhoes-em-busca-de-investidores-para-ipo",
+      "headline": "Anthropic mira mercado de US$ 30 trilhões em busca de investidores para IPO",
+      "subtitle": "A startup de IA busca capitalizar a expansão do setor para sua oferta pública inicial.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "ia",
+        "ipo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 26 Aug 2026 10:02:39 +0000",
+      "written_at": "2026-08-26T10:40:53.440Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ibm-libera-modelos-granite-4-2-com-capacidades-agenticas-sob-licenca-aberta",
+      "headline": "IBM Libera Modelos Granite 4.2 com Capacidades Agenticas Sob Licença Aberta",
+      "subtitle": "Gigante de tecnologia disponibiliza família de modelos de linguagem com foco em execução autônoma de tarefas e código.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ibm-drops-open-weight-granite-4-2-family-with-built-in-agentic-capabilities-under-apache-2-0/",
+      "category": "mercado",
+      "tags": [
+        "ibm",
+        "granite",
+        "ia aberta"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 26 Aug 2026 10:37:56 +0000",
+      "written_at": "2026-08-26T10:40:40.910Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "render-novo-benchmark-foca-em-como-llms-apresentam-informacoes-da-memoria",
       "headline": "RENDER: Novo benchmark foca em como LLMs apresentam informações da memória",
