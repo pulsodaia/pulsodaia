@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-26T03:11:50.800Z",
+  "generated_at": "2026-08-26T06:58:39.513Z",
   "articles": [
+    {
+      "slug": "render-novo-benchmark-foca-em-como-llms-apresentam-informacoes-da-memoria",
+      "headline": "RENDER: Novo benchmark foca em como LLMs apresentam informações da memória",
+      "subtitle": "Pesquisa do ArXiv propõe método para avaliar a utilidade da \"memória\" de modelos de linguagem, crucial para aplicações no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.23568",
+      "category": "research",
+      "tags": [
+        "llm",
+        "ragg",
+        "avaliacao",
+        "memoria"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 26 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-26T06:58:39.246Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-executivo-de-infraestrutura-de-dados-deixa-a-empresa-em-meio-a-saidas-de-",
       "headline": "OpenAI: Executivo de infraestrutura de dados deixa a empresa em meio a saídas de alto perfil",

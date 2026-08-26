@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 26 Aug 2026 03:19:16 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 07:10:11 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>RENDER: Novo benchmark foca em como LLMs apresentam informações da memória</title>
+      <link>https://pulsodaia.com.br/feed/render-novo-benchmark-foca-em-como-llms-apresentam-informacoes-da-memoria/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/render-novo-benchmark-foca-em-como-llms-apresentam-informacoes-da-memoria/</guid>
+      <pubDate>Wed, 26 Aug 2026 06:58:39 GMT</pubDate>
+      <description>Pesquisa do ArXiv propõe método para avaliar a utilidade da "memória" de modelos de linguagem, crucial para aplicações no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.23568">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>OpenAI: Executivo de infraestrutura de dados deixa a empresa em meio a saídas de alto perfil</title>
       <link>https://pulsodaia.com.br/feed/openai-executivo-de-infraestrutura-de-dados-deixa-a-empresa-em-meio-a-saidas-de-/</link>
@@ -448,15 +457,6 @@
       <description>A empresa de IA reitera o compromisso com a melhoria contínua de suas ferramentas de desenvolvimento.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.240">Claude Code</source>
-    </item>
-    <item>
-      <title>IA: Agentes se beneficiam de "habilidades" por estrutura, não conhecimento extra</title>
-      <link>https://pulsodaia.com.br/feed/ia-agentes-se-beneficiam-de-habilidades-por-estrutura-nao-conhecimento-extra/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-agentes-se-beneficiam-de-habilidades-por-estrutura-nao-conhecimento-extra/</guid>
-      <pubDate>Sat, 22 Aug 2026 12:50:48 GMT</pubDate>
-      <description>Pesquisa de Princeton e UC San Diego detalha a eficácia e as limitações de ferramentas para agentes de IA.</description>
-      <category>RESEARCH</category>
-      <source url="https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/">The Decoder</source>
     </item>
   </channel>
 </rss>
