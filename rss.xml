@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 26 Aug 2026 13:10:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 14:58:47 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Bill Gates propõe "imposto sobre robôs" e empregos "reservados para humanos" para gerenciar impacto da IA</title>
+      <link>https://pulsodaia.com.br/feed/bill-gates-propoe-imposto-sobre-robos-e-empregos-reservados-para-humanos-para-ge/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/bill-gates-propoe-imposto-sobre-robos-e-empregos-reservados-para-humanos-para-ge/</guid>
+      <pubDate>Wed, 26 Aug 2026 14:53:51 GMT</pubDate>
+      <description>O cofundador da Microsoft levanta debates sobre como sociedade e economia devem se adaptar à automação avançada.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Hugging Face Detalha Treinamento de Modelos de Embedding Multi-Vetor</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-detalha-treinamento-de-modelos-de-embedding-multi-vetor/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-detalha-treinamento-de-modelos-de-embedding-multi-vetor/</guid>
+      <pubDate>Wed, 26 Aug 2026 14:53:40 GMT</pubDate>
+      <description>Ferramentas para aprimorar a compreensão semântica de textos em sistemas de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/train-multi-vector-encoder">Hugging Face</source>
+    </item>
     <item>
       <title>Legato Glasses: Óculos com IA para Audição Saem do Anonimato com US$ 12 Milhões</title>
       <link>https://pulsodaia.com.br/feed/legato-glasses-oculos-com-ia-para-audicao-saem-do-anonimato-com-us-12-milhoes/</link>
@@ -439,24 +457,6 @@
       <description>Acesso mais barato a modelos de IA avançados levanta questões sobre controle de exportação e segurança.</description>
       <category>MERCADO</category>
       <source url="https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/">The Decoder</source>
-    </item>
-    <item>
-      <title>Escassez de Memória Eleva Preços de Servidores Nvidia em 15%</title>
-      <link>https://pulsodaia.com.br/feed/escassez-de-memoria-eleva-precos-de-servidores-nvidia-em-15/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/escassez-de-memoria-eleva-precos-de-servidores-nvidia-em-15/</guid>
-      <pubDate>Sun, 23 Aug 2026 08:37:23 GMT</pubDate>
-      <description>Gigantes de nuvem sofrem com aumento de custo em infraestrutura de IA no Brasil e no mundo.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/">The Decoder</source>
-    </item>
-    <item>
-      <title>Claude Code Recebe Atualização Menor Focada em Estabilidade</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-recebe-atualizacao-menor-focada-em-estabilidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-recebe-atualizacao-menor-focada-em-estabilidade/</guid>
-      <pubDate>Sun, 23 Aug 2026 04:43:24 GMT</pubDate>
-      <description>A Anthropic lança a versão v2.1.241 do seu kit de desenvolvimento, com melhorias internas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.241">Claude Code</source>
     </item>
   </channel>
 </rss>
