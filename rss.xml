@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 25 Aug 2026 22:38:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:19:16 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI: Executivo de infraestrutura de dados deixa a empresa em meio a saídas de alto perfil</title>
+      <link>https://pulsodaia.com.br/feed/openai-executivo-de-infraestrutura-de-dados-deixa-a-empresa-em-meio-a-saidas-de-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-executivo-de-infraestrutura-de-dados-deixa-a-empresa-em-meio-a-saidas-de-/</guid>
+      <pubDate>Wed, 26 Aug 2026 03:11:50 GMT</pubDate>
+      <description>Novas movimentações na cúpula da empresa de IA levantam questões sobre estabilidade e liderança.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Generalist atinge US$ 3 bilhões em avaliação com nova rodada de financiamento</title>
+      <link>https://pulsodaia.com.br/feed/generalist-atinge-us-3-bilhoes-em-avaliacao-com-nova-rodada-de-financiamento/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/generalist-atinge-us-3-bilhoes-em-avaliacao-com-nova-rodada-de-financiamento/</guid>
+      <pubDate>Wed, 26 Aug 2026 03:11:40 GMT</pubDate>
+      <description>A startup de robótica com foco em IA consolida sua posição no mercado, atraindo investimento significativo.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Claude Code aprimora controle de permissões e performance</title>
       <link>https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-permissoes-e-performance/</link>
@@ -439,24 +457,6 @@
       <description>Pesquisa de Princeton e UC San Diego detalha a eficácia e as limitações de ferramentas para agentes de IA.</description>
       <category>RESEARCH</category>
       <source url="https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/">The Decoder</source>
-    </item>
-    <item>
-      <title>Modelos de IA falham ao ignorar crenças humanas, aponta estudo</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-ia-falham-ao-ignorar-crencas-humanas-aponta-estudo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-falham-ao-ignorar-crencas-humanas-aponta-estudo/</guid>
-      <pubDate>Sat, 22 Aug 2026 10:29:59 GMT</pubDate>
-      <description>Novas pesquisas indicam que a capacidade de prever ações depende da inclusão de variáveis mentais.</description>
-      <category>RESEARCH</category>
-      <source url="https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows/">The Decoder</source>
-    </item>
-    <item>
-      <title>Testes de Segurança de IA Falham em Medir Comportamento Real, Revela Estudo</title>
-      <link>https://pulsodaia.com.br/feed/testes-de-seguranca-de-ia-falham-em-medir-comportamento-real-revela-estudo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/testes-de-seguranca-de-ia-falham-em-medir-comportamento-real-revela-estudo/</guid>
-      <pubDate>Sat, 22 Aug 2026 08:38:06 GMT</pubDate>
-      <description>Novos métodos psicológicos expõem deficiências em benchmarks de segurança para modelos de linguagem, com implicações diretas para o mercado brasileiro.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/">The Decoder</source>
     </item>
   </channel>
 </rss>
