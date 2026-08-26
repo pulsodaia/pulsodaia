@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 26 Aug 2026 16:57:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 20:01:48 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Gemini do Google: A Marca da IA Precisa de um Reboot</title>
+      <link>https://pulsodaia.com.br/feed/gemini-do-google-a-marca-da-ia-precisa-de-um-reboot/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-do-google-a-marca-da-ia-precisa-de-um-reboot/</guid>
+      <pubDate>Wed, 26 Aug 2026 19:56:02 GMT</pubDate>
+      <description>Grandes nomes da inteligência artificial lutam para simplificar a experiência do usuário, um desafio que se estende por todo o mercado.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Gemini 3.5 Transcribe: Google DeepMind Amplia Capacidades de Transcrição Inteligente</title>
+      <link>https://pulsodaia.com.br/feed/gemini-3-5-transcribe-google-deepmind-amplia-capacidades-de-transcricao-intelige/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-3-5-transcribe-google-deepmind-amplia-capacidades-de-transcricao-intelige/</guid>
+      <pubDate>Wed, 26 Aug 2026 19:55:52 GMT</pubDate>
+      <description>A nova ferramenta promete maior precisão e compreensão contextual para áudio em português.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/">Google DeepMind</source>
+    </item>
     <item>
       <title>Perceptron Leva Inteligência Visual para Linhas de Produção</title>
       <link>https://pulsodaia.com.br/feed/perceptron-leva-inteligencia-visual-para-linhas-de-producao/</link>
@@ -439,24 +457,6 @@
       <description>Empresa de segurança enfrenta pressão pública por preocupações com o uso indevido de seus sistemas.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA pode piorar a qualidade da pesquisa científica, sugere estudo</title>
-      <link>https://pulsodaia.com.br/feed/ia-pode-piorar-a-qualidade-da-pesquisa-cientifica-sugere-estudo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-pode-piorar-a-qualidade-da-pesquisa-cientifica-sugere-estudo/</guid>
-      <pubDate>Sun, 23 Aug 2026 12:52:27 GMT</pubDate>
-      <description>Ferramentas de IA podem incentivar a proliferação de projetos em detrimento do aprofundamento, aponta análise teórica.</description>
-      <category>RESEARCH</category>
-      <source url="https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA se Torna Cliente Principal de Si Mesma: Uso de Tokens por Agentes Salta 14x</title>
-      <link>https://pulsodaia.com.br/feed/ia-se-torna-cliente-principal-de-si-mesma-uso-de-tokens-por-agentes-salta-14x/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-se-torna-cliente-principal-de-si-mesma-uso-de-tokens-por-agentes-salta-14x/</guid>
-      <pubDate>Sun, 23 Aug 2026 12:52:16 GMT</pubDate>
-      <description>Plataformas de IA observam um crescimento expressivo na demanda gerada por sistemas autônomos, superando o consumo humano.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/">The Decoder</source>
     </item>
   </channel>
 </rss>
