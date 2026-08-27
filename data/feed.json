@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-27T08:45:18.236Z",
+  "generated_at": "2026-08-27T20:16:18.654Z",
   "articles": [
+    {
+      "slug": "deepmind-testa-avaliacoes-de-ia-cegas-para-rigor-cientifico",
+      "headline": "DeepMind testa avaliações de IA cegas para rigor científico",
+      "subtitle": "A iniciativa busca eliminar vieses em testes de modelos de linguagem, um passo crucial para a confiabilidade no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "avaliacao",
+        "deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 27 Aug 2026 12:59:16 +0000",
+      "written_at": "2026-08-27T20:16:18.267Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
+    {
+      "slug": "google-deepmind-libera-gemini-omni-1-1-flash-com-foco-em-controle-para-desenvolv",
+      "headline": "Google DeepMind Libera Gemini Omni 1.1 Flash com Foco em Controle para Desenvolvedores",
+      "subtitle": "A nova versão do modelo de linguagem promete maior precisão e flexibilidade na criação de aplicações de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google deepmind",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 27 Aug 2026 16:11:32 +0000",
+      "written_at": "2026-08-27T20:16:07.786Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-search-integra-ia-para-agilizar-planejamento-de-viagens",
+      "headline": "Google Search integra IA para agilizar planejamento de viagens",
+      "subtitle": "Ferramentas de inteligência artificial prometem simplificar a busca por hotéis e voos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "category": "google",
+      "tags": [
+        "google search",
+        "inteligência artificial",
+        "viagens"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 27 Aug 2026 16:00:00 +0000",
+      "written_at": "2026-08-27T20:15:51.700Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-ainda-penaliza-sotaques-imposto-dialetal-afeta-modelos-de-linguagem",
       "headline": "IA ainda penaliza sotaques: \"Imposto Dialetal\" afeta modelos de linguagem",
