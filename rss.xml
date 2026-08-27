@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 26 Aug 2026 23:18:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 08:51:49 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA ainda penaliza sotaques: "Imposto Dialetal" afeta modelos de linguagem</title>
+      <link>https://pulsodaia.com.br/feed/ia-ainda-penaliza-sotaques-imposto-dialetal-afeta-modelos-de-linguagem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-ainda-penaliza-sotaques-imposto-dialetal-afeta-modelos-de-linguagem/</guid>
+      <pubDate>Thu, 27 Aug 2026 08:45:18 GMT</pubDate>
+      <description>Pesquisa aponta que vieses se acumulam em todas as etapas de desenvolvimento de modelos, impactando a igualdade de acesso e uso.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.24952">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Variabilidade Semântica em Respostas de LLMs: Um Desafio para Avaliações Conversacionais</title>
+      <link>https://pulsodaia.com.br/feed/variabilidade-semantica-em-respostas-de-llms-um-desafio-para-avaliacoes-conversa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/variabilidade-semantica-em-respostas-de-llms-um-desafio-para-avaliacoes-conversa/</guid>
+      <pubDate>Thu, 27 Aug 2026 08:45:07 GMT</pubDate>
+      <description>Novas pesquisas no arXiv apontam para a inconsistência de modelos de linguagem, impactando a confiabilidade de sistemas baseados em diálogo.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.24920">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Controle de Empatia em LLMs: Decodificação Não Garante Mudança Real</title>
+      <link>https://pulsodaia.com.br/feed/controle-de-empatia-em-llms-decodificacao-nao-garante-mudanca-real/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/controle-de-empatia-em-llms-decodificacao-nao-garante-mudanca-real/</guid>
+      <pubDate>Thu, 27 Aug 2026 08:44:57 GMT</pubDate>
+      <description>Pesquisa aponta que manipular "direções de empatia" em modelos de linguagem não resulta em controle confiável sobre a percepção humana.</description>
+      <category>ANALISE</category>
+      <source url="https://arxiv.org/abs/2608.24901">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>Nvidia Preve Receita Trimestral de US$ 108 Bilhões, Superando Gigantes da Tecnologia</title>
       <link>https://pulsodaia.com.br/feed/nvidia-preve-receita-trimestral-de-us-108-bilhoes-superando-gigantes-da-tecnolog/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa aponta vulnerabilidade em LLMs que contornam barreiras de segurança com intenções ocultas.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2608.20378">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Agente de IA Ganha Memória Persistente com Sistema de Orquestração</title>
-      <link>https://pulsodaia.com.br/feed/agente-de-ia-ganha-memoria-persistente-com-sistema-de-orquestracao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agente-de-ia-ganha-memoria-persistente-com-sistema-de-orquestracao/</guid>
-      <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
-      <description>Nova arquitetura para LLMs de codificação promete superar a limitação de contexto vazio em cada sessão.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2608.20342">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Autônoma em Desenvolvimento: Especificações Guiam Código e Verificação</title>
-      <link>https://pulsodaia.com.br/feed/ia-autonoma-em-desenvolvimento-especificacoes-guiam-codigo-e-verificacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-em-desenvolvimento-especificacoes-guiam-codigo-e-verificacao/</guid>
-      <pubDate>Mon, 24 Aug 2026 04:52:30 GMT</pubDate>
-      <description>Um novo paradigma para o ciclo de vida de software promete acelerar a entrega com agentes de IA capazes de entender e executar requisitos complexos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2608.20341">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Linkdaze Desafia o Mercado com Calendário Inteligente Gratuito e Foco em Gestão Doméstica</title>
-      <link>https://pulsodaia.com.br/feed/linkdaze-desafia-o-mercado-com-calendario-inteligente-gratuito-e-foco-em-gestao-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/linkdaze-desafia-o-mercado-com-calendario-inteligente-gratuito-e-foco-em-gestao-/</guid>
-      <pubDate>Sun, 23 Aug 2026 22:28:18 GMT</pubDate>
-      <description>Plataforma promete ir além do agendamento, integrando planejamento de refeições com IA sem custos adicionais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

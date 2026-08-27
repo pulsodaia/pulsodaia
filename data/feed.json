@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-08-26T23:13:49.454Z",
+  "generated_at": "2026-08-27T08:45:18.236Z",
   "articles": [
+    {
+      "slug": "ia-ainda-penaliza-sotaques-imposto-dialetal-afeta-modelos-de-linguagem",
+      "headline": "IA ainda penaliza sotaques: \"Imposto Dialetal\" afeta modelos de linguagem",
+      "subtitle": "Pesquisa aponta que vieses se acumulam em todas as etapas de desenvolvimento de modelos, impactando a igualdade de acesso e uso.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2608.24952",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "vieses"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-27T08:45:18.181Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "variabilidade-semantica-em-respostas-de-llms-um-desafio-para-avaliacoes-conversa",
+      "headline": "Variabilidade Semântica em Respostas de LLMs: Um Desafio para Avaliações Conversacionais",
+      "subtitle": "Novas pesquisas no arXiv apontam para a inconsistência de modelos de linguagem, impactando a confiabilidade de sistemas baseados em diálogo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2608.24920",
+      "category": "research",
+      "tags": [
+        "llm",
+        "consistencia semantica",
+        "avaliacao conversacional"
+      ],
+      "read_time_min": 4,
+      "published_at": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-27T08:45:07.858Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "controle-de-empatia-em-llms-decodificacao-nao-garante-mudanca-real",
+      "headline": "Controle de Empatia em LLMs: Decodificação Não Garante Mudança Real",
+      "subtitle": "Pesquisa aponta que manipular \"direções de empatia\" em modelos de linguagem não resulta em controle confiável sobre a percepção humana.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2608.24901",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "empatia",
+        "pesquisa"
+      ],
+      "read_time_min": 4,
+      "published_at": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-27T08:44:57.702Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nvidia-preve-receita-trimestral-de-us-108-bilhoes-superando-gigantes-da-tecnolog",
       "headline": "Nvidia Preve Receita Trimestral de US$ 108 Bilhões, Superando Gigantes da Tecnologia",
