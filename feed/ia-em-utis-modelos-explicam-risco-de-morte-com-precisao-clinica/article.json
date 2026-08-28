@@ -1,0 +1,52 @@
+{
+  "id": "oai:arXiv.org:2608.26109v1",
+  "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+  "url": "https://arxiv.org/abs/2608.26109",
+  "summary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension because they separate data interpretation, guideline checking, and final explanation. This revised feasibility study preserves the original standalone-versus-agentic comparison while making the main clinical findings more explicit. Using the retained local eICU Demo artifact set (2,353 ICU stays; 8.1\\% mortality), XGBoost achieved an AUROC of 0.855 (95\\% CI 0.796--0.906) and an AUPRC of 0.332 (95\\% CI 0.217--0.494). On a stratified 38-case explanation subset, the standalone LLM produced 1 explanation with explicit outcome leakage, whereas the four-step agentic pipeline produced none. Among the 14 cases that overlapped with the SHAP review subset, the standalone LLM showed ",
+  "published_at": "Fri, 28 Aug 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA em UTIs: Modelos Explicam Risco de Morte com Precisão Clínica",
+  "subtitle": "Estudo aponta LLMs como ferramenta para traduzir dados complexos em narrativas compreensíveis para médicos.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um estudo publicado no arXiv explora a viabilidade de usar modelos de linguagem grandes (LLMs) para explicar previsões de mortalidade em Unidades de Terapia Intensiva (UTIs). A pesquisa compara abordagens standalone e pipelines agentic, sugerindo que LLMs podem preencher a lacuna entre a precisão preditiva e a necessidade de contexto clínico.",
+  "body_markdown": "## O que aconteceu\n\nA previsão de mortalidade em UTIs por meio de machine learning alcançou alta acurácia, mas os métodos tradicionais de atribuição de características muitas vezes falham em fornecer a narrativa clínica necessária para a tomada de decisão à beira do leito. Um estudo de viabilidade recente, disponível em [arXiv cs.AI](https://arxiv.org/abs/2608.26109), investiga como Large Language Models (LLMs) podem suprir essa carência. A pesquisa propõe o uso de pipelines agentic multi-etapas, que separam a interpretação de dados, a verificação de diretrizes e a explicação final. Ao comparar um LLM standalone com um pipeline agentic pré-especificado, o estudo buscou demonstrar a eficácia dessa abordagem na tradução de previsões complexas em informações clinicamente úteis. Utilizando o conjunto de dados eICU Demo, o modelo XGBoost atingiu um AUROC de 0.855. Em um subconjunto de 38 casos estratificados para explicação, os resultados indicam que os LLMs têm potencial para melhorar a interpretabilidade dos modelos preditivos em ambientes de cuidados intensivos.\n\n## Por que importa\n\nA capacidade de explicar de forma compreensível por que um paciente tem um risco elevado de mortalidade em uma UTI é crucial para a prática clínica. Médicos precisam de mais do que um número; eles necessitam de contexto, justificativas e insights que possam orientar o tratamento e a comunicação com as famílias. Se os LLMs puderem fornecer essas explicações de maneira confiável e integrada aos fluxos de trabalho existentes, isso poderá otimizar o cuidado, reduzir a incerteza e potencialmente melhorar os desfechos dos pacientes. Para o Brasil, onde a complexidade dos sistemas de saúde e a demanda por eficiência são constantes, a adoção de ferramentas que aprimoram a interpretação de dados de saúde pode ser um diferencial significativo na qualidade do atendimento em UTIs, especialmente em um cenário de recursos limitados. A tradução de dados complexos em linguagem acessível é um passo importante para democratizar o uso de IA na medicina.\n\n## O que esperar\n\nO estudo aponta para a necessidade de mais pesquisas para refinar os pipelines agentic e avaliar seu desempenho em cenários clínicos do mundo real. A integração desses LLMs em sistemas de prontuário eletrônico e a validação com profissionais de saúde serão passos essenciais. Espera-se que futuras iterações do modelo possam não apenas explicar as previsões, mas também sugerir intervenções baseadas em diretrizes clínicas atualizadas. A pesquisa em [explicabilidade de IA em saúde](https://arxiv.org/abs/2608.26109) continua a evoluir, e a combinação de modelos preditivos robustos com LLMs capazes de gerar narrativas clínicas detalhadas representa uma promessa para o futuro da medicina de precisão e da inteligência artificial aplicada ao cuidado crítico. A tendência é que tais ferramentas se tornem cada vez mais sofisticadas, oferecendo um suporte mais inteligente e contextualizado aos médicos.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A previsão de mortalidade em UTIs por meio de machine learning alcançou alta acurácia, mas os métodos tradicionais de atribuição de características muitas vezes falham em fornecer a narrativa clínica necessária para a tomada de decisão à beira do leito. Um estudo de viabilidade recente, disponível em <a href=\"https://arxiv.org/abs/2608.26109\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>, investiga como Large Language Models (LLMs) podem suprir essa carência. A pesquisa propõe o uso de pipelines agentic multi-etapas, que separam a interpretação de dados, a verificação de diretrizes e a explicação final. Ao comparar um LLM standalone com um pipeline agentic pré-especificado, o estudo buscou demonstrar a eficácia dessa abordagem na tradução de previsões complexas em informações clinicamente úteis. Utilizando o conjunto de dados eICU Demo, o modelo XGBoost atingiu um AUROC de 0.855. Em um subconjunto de 38 casos estratificados para explicação, os resultados indicam que os LLMs têm potencial para melhorar a interpretabilidade dos modelos preditivos em ambientes de cuidados intensivos.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de explicar de forma compreensível por que um paciente tem um risco elevado de mortalidade em uma UTI é crucial para a prática clínica. Médicos precisam de mais do que um número; eles necessitam de contexto, justificativas e insights que possam orientar o tratamento e a comunicação com as famílias. Se os LLMs puderem fornecer essas explicações de maneira confiável e integrada aos fluxos de trabalho existentes, isso poderá otimizar o cuidado, reduzir a incerteza e potencialmente melhorar os desfechos dos pacientes. Para o Brasil, onde a complexidade dos sistemas de saúde e a demanda por eficiência são constantes, a adoção de ferramentas que aprimoram a interpretação de dados de saúde pode ser um diferencial significativo na qualidade do atendimento em UTIs, especialmente em um cenário de recursos limitados. A tradução de dados complexos em linguagem acessível é um passo importante para democratizar o uso de IA na medicina.</p>\n\n<h2>O que esperar</h2>\n\n<p>O estudo aponta para a necessidade de mais pesquisas para refinar os pipelines agentic e avaliar seu desempenho em cenários clínicos do mundo real. A integração desses LLMs em sistemas de prontuário eletrônico e a validação com profissionais de saúde serão passos essenciais. Espera-se que futuras iterações do modelo possam não apenas explicar as previsões, mas também sugerir intervenções baseadas em diretrizes clínicas atualizadas. A pesquisa em <a href=\"https://arxiv.org/abs/2608.26109\" target=\"_blank\" rel=\"external noopener\">explicabilidade de IA em saúde</a> continua a evoluir, e a combinação de modelos preditivos robustos com LLMs capazes de gerar narrativas clínicas detalhadas representa uma promessa para o futuro da medicina de precisão e da inteligência artificial aplicada ao cuidado crítico. A tendência é que tais ferramentas se tornem cada vez mais sofisticadas, oferecendo um suporte mais inteligente e contextualizado aos médicos.</p>",
+  "tags": [
+    "ia na medicina",
+    "cuidados intensivos",
+    "explicabilidade de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligência artificial",
+    "UTI",
+    "mortalidade",
+    "LLM",
+    "interpretabilidade",
+    "machine learning",
+    "saúde"
+  ],
+  "meta_description_seo": "Estudo explora LLMs para explicar previsões de mortalidade em UTIs, traduzindo dados complexos em narrativas clínicas úteis para médicos.",
+  "faq": [
+    {
+      "q": "Qual a principal limitação dos métodos atuais de IA para prever mortalidade em UTIs?",
+      "a": "Métodos atuais de machine learning preveem mortalidade com precisão, mas falham em fornecer a narrativa clínica necessária para uso à beira do leito."
+    },
+    {
+      "q": "Como os LLMs podem ajudar na explicação de previsões de mortalidade em UTIs?",
+      "a": "LLMs podem preencher a lacuna entre a precisão preditiva e a necessidade de contexto clínico, traduzindo dados complexos em explicações compreensíveis para profissionais de saúde."
+    },
+    {
+      "q": "O que são pipelines agentic e qual sua relevância neste estudo?",
+      "a": "Pipelines agentic são sequências de etapas que separam a interpretação de dados, verificação de diretrizes e a explicação final, permitindo uma abordagem mais estruturada para gerar explicações clínicas."
+    }
+  ],
+  "written_at": "2026-08-28T06:03:06.331Z",
+  "slug": "ia-em-utis-modelos-explicam-risco-de-morte-com-precisao-clinica",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

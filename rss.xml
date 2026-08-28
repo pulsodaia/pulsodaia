@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 27 Aug 2026 20:22:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 06:08:02 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos de Linguagem Ampliados Prometem Avanços em Gerenciamento de Baterias</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-ampliados-prometem-avancos-em-gerenciamento-de-baterias/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-ampliados-prometem-avancos-em-gerenciamento-de-baterias/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:03:16 GMT</pubDate>
+      <description>Pesquisa aponta para novas abordagens para prever a vida útil e a saúde de baterias em veículos elétricos e armazenamento de energia.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.26111">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA em UTIs: Modelos Explicam Risco de Morte com Precisão Clínica</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-utis-modelos-explicam-risco-de-morte-com-precisao-clinica/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-utis-modelos-explicam-risco-de-morte-com-precisao-clinica/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:03:06 GMT</pubDate>
+      <description>Estudo aponta LLMs como ferramenta para traduzir dados complexos em narrativas compreensíveis para médicos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.26109">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>EduRiskX: IA Neuro-Simbolica para Prever Risco Academico</title>
+      <link>https://pulsodaia.com.br/feed/eduriskx-ia-neuro-simbolica-para-prever-risco-academico/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/eduriskx-ia-neuro-simbolica-para-prever-risco-academico/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:02:56 GMT</pubDate>
+      <description>Nova estrutura busca combater evasão e melhorar aprendizado em ambientes virtuais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2608.26107">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>DeepMind testa avaliações de IA cegas para rigor científico</title>
       <link>https://pulsodaia.com.br/feed/deepmind-testa-avaliacoes-de-ia-cegas-para-rigor-cientifico/</link>
@@ -430,33 +457,6 @@
       <description>Ataque direcionado a código aberto revela táticas sofisticadas de engenharia social em ambientes de desenvolvimento.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project/">The Decoder</source>
-    </item>
-    <item>
-      <title>Hugging Face Avaliada em US$ 13 Bilhões em Meio a Rumores de Aquisição</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-avaliada-em-us-13-bilhoes-em-meio-a-rumores-de-aquisicao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-avaliada-em-us-13-bilhoes-em-meio-a-rumores-de-aquisicao/</guid>
-      <pubDate>Mon, 24 Aug 2026 14:49:04 GMT</pubDate>
-      <description>A plataforma de colaboração em IA enfrenta um dilema entre o valor de mercado e seu compromisso com a comunidade.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Thomson Reuters Investe US$ 40 Milhões em Modelo de IA Próprio</title>
-      <link>https://pulsodaia.com.br/feed/thomson-reuters-investe-us-40-milhoes-em-modelo-de-ia-proprio/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/thomson-reuters-investe-us-40-milhoes-em-modelo-de-ia-proprio/</guid>
-      <pubDate>Mon, 24 Aug 2026 13:01:38 GMT</pubDate>
-      <description>A gigante de informações busca autonomia em inteligência artificial, desenvolvendo sua própria tecnologia.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic/">The Decoder</source>
-    </item>
-    <item>
-      <title>Nvidia avalia aporte bilionário em Perplexity, elevando valor da startup a mais de US$ 30 bilhões</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-avalia-aporte-bilionario-em-perplexity-elevando-valor-da-startup-a-mais-d/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-avalia-aporte-bilionario-em-perplexity-elevando-valor-da-startup-a-mais-d/</guid>
-      <pubDate>Mon, 24 Aug 2026 10:42:46 GMT</pubDate>
-      <description>O movimento reforça a corrida por modelos de linguagem e a influência da fabricante de chips no setor.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/">The Decoder</source>
     </item>
   </channel>
 </rss>

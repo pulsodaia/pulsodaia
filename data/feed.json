@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-27T20:16:18.654Z",
+  "generated_at": "2026-08-28T06:03:16.395Z",
   "articles": [
+    {
+      "slug": "modelos-de-linguagem-ampliados-prometem-avancos-em-gerenciamento-de-baterias",
+      "headline": "Modelos de Linguagem Ampliados Prometem Avanços em Gerenciamento de Baterias",
+      "subtitle": "Pesquisa aponta para novas abordagens para prever a vida útil e a saúde de baterias em veículos elétricos e armazenamento de energia.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.26111",
+      "category": "research",
+      "tags": [
+        "ia",
+        "baterias",
+        "gerenciamento de energia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-28T06:03:16.358Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-em-utis-modelos-explicam-risco-de-morte-com-precisao-clinica",
+      "headline": "IA em UTIs: Modelos Explicam Risco de Morte com Precisão Clínica",
+      "subtitle": "Estudo aponta LLMs como ferramenta para traduzir dados complexos em narrativas compreensíveis para médicos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.26109",
+      "category": "research",
+      "tags": [
+        "ia na medicina",
+        "cuidados intensivos",
+        "explicabilidade de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-28T06:03:06.331Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "eduriskx-ia-neuro-simbolica-para-prever-risco-academico",
+      "headline": "EduRiskX: IA Neuro-Simbolica para Prever Risco Academico",
+      "subtitle": "Nova estrutura busca combater evasão e melhorar aprendizado em ambientes virtuais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.26107",
+      "category": "research",
+      "tags": [
+        "ia",
+        "educacao online",
+        "risco academico"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-28T06:02:56.438Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "deepmind-testa-avaliacoes-de-ia-cegas-para-rigor-cientifico",
       "headline": "DeepMind testa avaliações de IA cegas para rigor científico",
