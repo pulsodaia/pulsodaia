@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-29T02:47:13.961Z",
+  "generated_at": "2026-08-29T10:58:16.554Z",
   "articles": [
+    {
+      "slug": "openai-corta-cursor-musk-e-historico-de-quebra-de-contratos-sao-o-motivo",
+      "headline": "OpenAI corta Cursor; Musk e histórico de quebra de contratos são o motivo",
+      "subtitle": "A decisão da OpenAI impacta ferramentas de desenvolvimento de código, gerando incerteza no mercado de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "cursor",
+        "elon musk"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 29 Aug 2026 08:15:35 +0000",
+      "written_at": "2026-08-29T10:58:14.453Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "anthropic-padroniza-hardware-para-ia-interface-unificada-em-testes-reduz-integra",
+      "headline": "Anthropic Padroniza Hardware para IA: Interface Unificada em Testes Reduz Integração de Semanas para Horas",
+      "subtitle": "A iniciativa busca simplificar a conexão de sistemas de IA com dispositivos físicos, espelhando sucesso anterior em software.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "hardware",
+        "automacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 29 Aug 2026 09:14:30 +0000",
+      "written_at": "2026-08-29T10:58:01.830Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "laion-disponibiliza-dataset-massivo-de-videos-para-pesquisa-em-ia",
+      "headline": "LAION disponibiliza dataset massivo de vídeos para pesquisa em IA",
+      "subtitle": "Nova base de dados com 10 milhões de horas de conteúdo audiovisual visa acelerar o desenvolvimento de modelos de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "video",
+        "dataset"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 29 Aug 2026 09:36:48 +0000",
+      "written_at": "2026-08-29T10:57:49.783Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "neocloud-lambda-capta-us-1-bilhao-em-divida-para-expandir-acesso-a-chips-de-ia",
       "headline": "Neocloud Lambda capta US$ 1 bilhão em dívida para expandir acesso a chips de IA",
