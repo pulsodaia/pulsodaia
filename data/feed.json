@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-28T06:03:16.395Z",
+  "generated_at": "2026-08-29T02:47:13.961Z",
   "articles": [
+    {
+      "slug": "neocloud-lambda-capta-us-1-bilhao-em-divida-para-expandir-acesso-a-chips-de-ia",
+      "headline": "Neocloud Lambda capta US$ 1 bilhão em dívida para expandir acesso a chips de IA",
+      "subtitle": "Financiamento sublinha o custo da corrida por hardware de inteligência artificial no mercado global.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "hardware",
+        "financiamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 28 Aug 2026 20:24:11 +0000",
+      "written_at": "2026-08-29T02:47:13.934Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "claude-code-ganha-ganchos-de-modelo-e-streaming-de-subagente",
+      "headline": "Claude Code Ganha Ganchos de Modelo e Streaming de Subagente",
+      "subtitle": "Novas funcionalidades no Claude Code visam maior controle e visibilidade para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-28T18:19:32Z",
+      "written_at": "2026-08-29T02:47:02.997Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-amplia-lideranca-de-asr-aberto-com-inclusao-de-lingua-do-sul-global",
+      "headline": "Hugging Face Amplia Liderança de ASR Aberto com Inclusão de Língua do Sul Global",
+      "subtitle": "A inteligência artificial de reconhecimento de fala agora considera a diversidade linguística, um passo relevante para o Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "category": "opensource",
+      "tags": [
+        "asr",
+        "huggin face",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 28 Aug 2026 00:00:00 GMT",
+      "written_at": "2026-08-29T02:46:52.797Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelos-de-linguagem-ampliados-prometem-avancos-em-gerenciamento-de-baterias",
       "headline": "Modelos de Linguagem Ampliados Prometem Avanços em Gerenciamento de Baterias",
