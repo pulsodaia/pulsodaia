@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 30 Aug 2026 16:35:07 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 20:57:59 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Turbinas a Gás de Musk: Acelerando a Produção com Risco Ambiental</title>
+      <link>https://pulsodaia.com.br/feed/turbinas-a-gas-de-musk-acelerando-a-producao-com-risco-ambiental/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/turbinas-a-gas-de-musk-acelerando-a-producao-com-risco-ambiental/</guid>
+      <pubDate>Sun, 30 Aug 2026 20:52:42 GMT</pubDate>
+      <description>A busca por energia mais rápida da SpaceX levanta preocupações sobre poluição em locais de instalação.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Caterpillar aplica experiência em mineração autônoma para acelerar implantação de IA</title>
       <link>https://pulsodaia.com.br/feed/caterpillar-aplica-experiencia-em-mineracao-autonoma-para-acelerar-implantacao-d/</link>
@@ -448,15 +457,6 @@
       <description>Nova técnica promete reduzir latência em modelos de linguagem, um gargalo para aplicações em português.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2608.21362">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Gradio Simplifica Fluxos de Trabalho de IA para Desenvolvedores Brasileiros</title>
-      <link>https://pulsodaia.com.br/feed/gradio-simplifica-fluxos-de-trabalho-de-ia-para-desenvolvedores-brasileiros/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gradio-simplifica-fluxos-de-trabalho-de-ia-para-desenvolvedores-brasileiros/</guid>
-      <pubDate>Tue, 25 Aug 2026 04:45:28 GMT</pubDate>
-      <description>A Hugging Face detalha como a ferramenta agiliza o ciclo de vida de modelos de inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/gradio-workflow-guide">Hugging Face</source>
     </item>
   </channel>
 </rss>
