@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 30 Aug 2026 05:15:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 16:35:07 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Caterpillar aplica experiência em mineração autônoma para acelerar implantação de IA</title>
+      <link>https://pulsodaia.com.br/feed/caterpillar-aplica-experiencia-em-mineracao-autonoma-para-acelerar-implantacao-d/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/caterpillar-aplica-experiencia-em-mineracao-autonoma-para-acelerar-implantacao-d/</guid>
+      <pubDate>Sun, 30 Aug 2026 16:29:54 GMT</pubDate>
+      <description>A gigante de equipamentos industriais transfere aprendizados de décadas de automação remota para o desenvolvimento de soluções de inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Nvidia Amplia Vantagem em IA Além das GPUs com Otimização de Sistemas</title>
       <link>https://pulsodaia.com.br/feed/nvidia-amplia-vantagem-em-ia-alem-das-gpus-com-otimizacao-de-sistemas/</link>
@@ -448,15 +457,6 @@
       <description>A Hugging Face detalha como a ferramenta agiliza o ciclo de vida de modelos de inteligência artificial.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/gradio-workflow-guide">Hugging Face</source>
-    </item>
-    <item>
-      <title>Fundo de IA Promissor Recebe Investigação da SEC Após Queda Brusca</title>
-      <link>https://pulsodaia.com.br/feed/fundo-de-ia-promissor-recebe-investigacao-da-sec-apos-queda-brusca/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/fundo-de-ia-promissor-recebe-investigacao-da-sec-apos-queda-brusca/</guid>
-      <pubDate>Tue, 25 Aug 2026 01:39:35 GMT</pubDate>
-      <description>A ascensão meteórica e a subsequente investigação levantam questões sobre a governança em fundos de alta tecnologia.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
