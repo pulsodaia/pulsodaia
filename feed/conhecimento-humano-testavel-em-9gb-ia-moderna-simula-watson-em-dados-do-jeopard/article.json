@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2608.27459v1",
+  "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+  "url": "https://arxiv.org/abs/2608.27459",
+  "summary": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! champions, but the knowledge that let it do so lived in a curated billion-document corpus running on a cluster of POWER7 servers, frozen at build time and impossible to move or copy. We show that the same kind of artifact, a snapshot of what a culture can answer, is now portable and essentially free. We evaluate a single 9 GB open-weight model (Qwen2.5-14B, 4-bit) against the complete open Jeopardy! clue dataset, 529,939 clues across all 41 broadcast seasons from 1984 to 2025. To our knowledge this is the first time a model has been run over the full corpus. The 41 years mark only how long the questions were collected. What they test is far older and broader: the accumulated body of human general knowledge a culture considers worth knowing, from ancient history and dead languages to science, ",
+  "published_at": "Mon, 31 Aug 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Conhecimento Humano Testável em 9GB: IA Moderna Simula Watson em Dados do Jeopardy!",
+  "subtitle": "Um modelo de linguagem de código aberto agora processa 41 anos de perguntas e respostas de um dos maiores desafios de conhecimento.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores demonstraram a viabilidade de encapsular décadas de conhecimento humano testável em um único modelo de linguagem local e acessível. Um modelo de 9GB, rodando em 4 bits, foi capaz de processar o corpus completo de 529.939 pistas do Jeopardy! de 1984 a 2025.",
+  "body_markdown": "## O que aconteceu\n\nA capacidade de processar vastos conjuntos de dados de conhecimento de forma eficiente e acessível representa um avanço significativo. Em 2011, o Watson da IBM, um marco na IA, dependia de um corpus massivo e hardware especializado para vencer campeões do Jeopardy!. Agora, um modelo de linguagem de código aberto, com apenas 9GB e quantizado para 4 bits (Qwen2.5-14B), demonstrou ser capaz de lidar com o desafio completo do Jeopardy! ao longo de 41 temporadas. Esta pesquisa, detalhada em um artigo no ArXiv [cs.AI](https://arxiv.org/abs/2608.27459), marca a primeira vez que um modelo é executado sobre o conjunto completo de dados abertos do programa, avaliando a capacidade de um modelo local de reter e aplicar conhecimento cultural e factual.\n\n## Por que importa\n\nA portabilidade e o baixo custo de modelos como este abrem novas frentes para aplicações de IA no Brasil. Imagine integrar um sistema capaz de responder a perguntas complexas com base em um vasto acervo de informações culturais e científicas, diretamente em plataformas educacionais, ferramentas de pesquisa jurídica ou até mesmo em assistentes virtuais personalizados, sem a necessidade de infraestrutura de nuvem dispendiosa. A democratização do acesso a modelos com essa capacidade de \"memória\" cultural pode acelerar a adoção de IA em diversas áreas, capacitando empresas e instituições de todos os tamanhos a alavancar o conhecimento acumulado pela humanidade. A implicação é um acesso mais equitativo à inteligência artificial, permitindo que mais desenvolvedores e organizações explorem o potencial de modelos de linguagem avançados.\n\n## O que esperar\n\nA tendência é que modelos menores e mais eficientes continuem a surgir, capazes de realizar tarefas que antes exigiam recursos computacionais massivos. A pesquisa sugere que a quantização e arquiteturas otimizadas são caminhos promissores para tornar o conhecimento acessível em dispositivos locais. Espera-se que a comunidade de código aberto continue a expandir esses modelos, possivelmente integrando não apenas conhecimento factual, mas também nuances culturais e contextuais mais profundas. A capacidade de rodar modelos tão robustos localmente, como demonstrado neste estudo [disponível no ArXiv](https://arxiv.org/abs/2608.27459), pode levar ao desenvolvimento de aplicações de IA mais personalizadas e seguras, com menor dependência de serviços externos e maior controle sobre os dados.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A capacidade de processar vastos conjuntos de dados de conhecimento de forma eficiente e acessível representa um avanço significativo. Em 2011, o Watson da IBM, um marco na IA, dependia de um corpus massivo e hardware especializado para vencer campeões do Jeopardy!. Agora, um modelo de linguagem de código aberto, com apenas 9GB e quantizado para 4 bits (Qwen2.5-14B), demonstrou ser capaz de lidar com o desafio completo do Jeopardy! ao longo de 41 temporadas. Esta pesquisa, detalhada em um artigo no ArXiv <a href=\"https://arxiv.org/abs/2608.27459\" target=\"_blank\" rel=\"external noopener\">cs.AI</a>, marca a primeira vez que um modelo é executado sobre o conjunto completo de dados abertos do programa, avaliando a capacidade de um modelo local de reter e aplicar conhecimento cultural e factual.</p>\n\n<h2>Por que importa</h2>\n\n<p>A portabilidade e o baixo custo de modelos como este abrem novas frentes para aplicações de IA no Brasil. Imagine integrar um sistema capaz de responder a perguntas complexas com base em um vasto acervo de informações culturais e científicas, diretamente em plataformas educacionais, ferramentas de pesquisa jurídica ou até mesmo em assistentes virtuais personalizados, sem a necessidade de infraestrutura de nuvem dispendiosa. A democratização do acesso a modelos com essa capacidade de \"memória\" cultural pode acelerar a adoção de IA em diversas áreas, capacitando empresas e instituições de todos os tamanhos a alavancar o conhecimento acumulado pela humanidade. A implicação é um acesso mais equitativo à inteligência artificial, permitindo que mais desenvolvedores e organizações explorem o potencial de modelos de linguagem avançados.</p>\n\n<h2>O que esperar</h2>\n\n<p>A tendência é que modelos menores e mais eficientes continuem a surgir, capazes de realizar tarefas que antes exigiam recursos computacionais massivos. A pesquisa sugere que a quantização e arquiteturas otimizadas são caminhos promissores para tornar o conhecimento acessível em dispositivos locais. Espera-se que a comunidade de código aberto continue a expandir esses modelos, possivelmente integrando não apenas conhecimento factual, mas também nuances culturais e contextuais mais profundas. A capacidade de rodar modelos tão robustos localmente, como demonstrado neste estudo <a href=\"https://arxiv.org/abs/2608.27459\" target=\"_blank\" rel=\"external noopener\">disponível no ArXiv</a>, pode levar ao desenvolvimento de aplicações de IA mais personalizadas e seguras, com menor dependência de serviços externos e maior controle sobre os dados.</p>",
+  "tags": [
+    "ia",
+    "modelos de linguagem",
+    "open source"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "modelos de linguagem",
+    "IA local",
+    "Jeopardy!",
+    "Qwen2.5-14B",
+    "conhecimento humano"
+  ],
+  "meta_description_seo": "IA moderna com 9GB processa 41 anos de conhecimento do Jeopardy!, democratizando acesso à inteligência artificial.",
+  "faq": [
+    {
+      "q": "O que é este novo modelo de IA?",
+      "a": "É um modelo de linguagem de código aberto (Qwen2.5-14B, 4-bit) que processou o conjunto completo de dados do programa Jeopardy! de 1984 a 2025, demonstrando a capacidade de encapsular conhecimento humano testável de forma portátil e acessível."
+    },
+    {
+      "q": "Qual a vantagem de um modelo rodar localmente?",
+      "a": "Modelos que rodam localmente reduzem a dependência de infraestrutura de nuvem, podem ser mais seguros para dados sensíveis e permitem o desenvolvimento de aplicações de IA mais personalizadas e com menor custo operacional."
+    },
+    {
+      "q": "O que significa \"conhecimento humano testável\"?",
+      "a": "Refere-se ao conjunto de fatos, conceitos e informações que podem ser verificados e que são frequentemente testados em formatos como quizzes ou jogos de perguntas e respostas, como o Jeopardy!."
+    }
+  ],
+  "written_at": "2026-08-31T08:30:58.731Z",
+  "slug": "conhecimento-humano-testavel-em-9gb-ia-moderna-simula-watson-em-dados-do-jeopard",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

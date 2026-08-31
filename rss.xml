@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 31 Aug 2026 00:25:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 08:36:15 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Psicologia da Busca por Informação Molda IA Explicável</title>
+      <link>https://pulsodaia.com.br/feed/psicologia-da-busca-por-informacao-molda-ia-explicavel/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/psicologia-da-busca-por-informacao-molda-ia-explicavel/</guid>
+      <pubDate>Mon, 31 Aug 2026 08:31:21 GMT</pubDate>
+      <description>Entender o usuário é crucial para o avanço da IA centrada no ser humano.</description>
+      <category>ANALISE</category>
+      <source url="https://arxiv.org/abs/2608.27464">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Teoria de Medição Rasch: Nova Lente para Avaliar Modelos de Linguagem</title>
+      <link>https://pulsodaia.com.br/feed/teoria-de-medicao-rasch-nova-lente-para-avaliar-modelos-de-linguagem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/teoria-de-medicao-rasch-nova-lente-para-avaliar-modelos-de-linguagem/</guid>
+      <pubDate>Mon, 31 Aug 2026 08:31:10 GMT</pubDate>
+      <description>Pesquisa sugere abordagem matemática para desmistificar a performance de LLMs, crucial para o mercado brasileiro.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.27463">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Conhecimento Humano Testável em 9GB: IA Moderna Simula Watson em Dados do Jeopardy!</title>
+      <link>https://pulsodaia.com.br/feed/conhecimento-humano-testavel-em-9gb-ia-moderna-simula-watson-em-dados-do-jeopard/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/conhecimento-humano-testavel-em-9gb-ia-moderna-simula-watson-em-dados-do-jeopard/</guid>
+      <pubDate>Mon, 31 Aug 2026 08:30:58 GMT</pubDate>
+      <description>Um modelo de linguagem de código aberto agora processa 41 anos de perguntas e respostas de um dos maiores desafios de conhecimento.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.27459">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Turbinas a Gás de Musk: Acelerando a Produção com Risco Ambiental</title>
       <link>https://pulsodaia.com.br/feed/turbinas-a-gas-de-musk-acelerando-a-producao-com-risco-ambiental/</link>
@@ -430,33 +457,6 @@
       <description>Atualização visa estabilidade em distribuições específicas, impactando desenvolvedores no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.245">Claude Code</source>
-    </item>
-    <item>
-      <title>Hugging Face Otimiza Busca em Papers with Code com Infraestrutura de Nuvem</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-otimiza-busca-em-papers-with-code-com-infraestrutura-de-nuvem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-otimiza-busca-em-papers-with-code-com-infraestrutura-de-nuvem/</guid>
-      <pubDate>Tue, 25 Aug 2026 12:58:08 GMT</pubDate>
-      <description>Plataforma aprimora a experiência de pesquisa para a comunidade de machine learning brasileira.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/pwc-search">Hugging Face</source>
-    </item>
-    <item>
-      <title>IA Comprimida Supera Original: Nova Técnica Melhora Modelos de 4 Bits</title>
-      <link>https://pulsodaia.com.br/feed/ia-comprimida-supera-original-nova-tecnica-melhora-modelos-de-4-bits/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-comprimida-supera-original-nova-tecnica-melhora-modelos-de-4-bits/</guid>
-      <pubDate>Tue, 25 Aug 2026 12:57:57 GMT</pubDate>
-      <description>Pesquisa da Hugging Face demonstra avanço em eficiência e desempenho de modelos de linguagem.</description>
-      <category>RESEARCH</category>
-      <source url="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing">Hugging Face</source>
-    </item>
-    <item>
-      <title>KVBoost Otimiza Inferência de LLMs com Cache Inteligente</title>
-      <link>https://pulsodaia.com.br/feed/kvboost-otimiza-inferencia-de-llms-com-cache-inteligente/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/kvboost-otimiza-inferencia-de-llms-com-cache-inteligente/</guid>
-      <pubDate>Tue, 25 Aug 2026 04:45:39 GMT</pubDate>
-      <description>Nova técnica promete reduzir latência em modelos de linguagem, um gargalo para aplicações em português.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2608.21362">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

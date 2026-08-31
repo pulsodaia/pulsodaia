@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-30T20:52:42.551Z",
+  "generated_at": "2026-08-31T08:31:21.807Z",
   "articles": [
+    {
+      "slug": "psicologia-da-busca-por-informacao-molda-ia-explicavel",
+      "headline": "Psicologia da Busca por Informação Molda IA Explicável",
+      "subtitle": "Entender o usuário é crucial para o avanço da IA centrada no ser humano.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.27464",
+      "category": "research",
+      "tags": [
+        "ia explicavel",
+        "psicologia",
+        "vieses cognitivos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 31 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-31T08:31:21.692Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "teoria-de-medicao-rasch-nova-lente-para-avaliar-modelos-de-linguagem",
+      "headline": "Teoria de Medição Rasch: Nova Lente para Avaliar Modelos de Linguagem",
+      "subtitle": "Pesquisa sugere abordagem matemática para desmistificar a performance de LLMs, crucial para o mercado brasileiro.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.27463",
+      "category": "research",
+      "tags": [
+        "llm",
+        "avaliacao",
+        "rasch"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 31 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-31T08:31:10.768Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "conhecimento-humano-testavel-em-9gb-ia-moderna-simula-watson-em-dados-do-jeopard",
+      "headline": "Conhecimento Humano Testável em 9GB: IA Moderna Simula Watson em Dados do Jeopardy!",
+      "subtitle": "Um modelo de linguagem de código aberto agora processa 41 anos de perguntas e respostas de um dos maiores desafios de conhecimento.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2608.27459",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "open source"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 31 Aug 2026 00:00:00 -0400",
+      "written_at": "2026-08-31T08:30:58.731Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "turbinas-a-gas-de-musk-acelerando-a-producao-com-risco-ambiental",
       "headline": "Turbinas a Gás de Musk: Acelerando a Produção com Risco Ambiental",

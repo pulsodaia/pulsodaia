@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2608.27464v1",
+  "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+  "url": "https://arxiv.org/abs/2608.27464",
+  "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking motives, we propose that people evaluate whether to engage with explanations based on three types of expected utility: instrumental (will it help me act better?), hedonic (will it make me feel better?), and cognitive (will it improve my understanding?). Each utility is estimated through a lens shaped by well-documented cognitive biases, including illusion of control, automation bias, unrealistic optimism, impact bias, overconfidence, and confirmation bias. These biases can lead to two failure modes: excessive information-seeking that fragments attention without improving decisions, and insufficient information-seeking that leaves critical risks and misunderstandings unexamined. This challenge is particularly acute for agentic AI syste",
+  "published_at": "Mon, 31 Aug 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Psicologia da Busca por Informação Molda IA Explicável",
+  "subtitle": "Entender o usuário é crucial para o avanço da IA centrada no ser humano.",
+  "eyebrow_category": "ANALISE",
+  "lead": "Um novo artigo no arXiv sugere que a eficácia da IA explicável (XAI) depende menos de sua capacidade técnica e mais da compreensão da psicologia humana. O estudo propõe que a decisão de buscar ou ignorar explicações de IA é guiada por uma avaliação de utilidade instrumental, hedônica e cognitiva.",
+  "body_markdown": "## O que aconteceu\n\nUm artigo de posição publicado no arXiv, intitulado \"Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI\", argumenta que os esforços para criar sistemas de IA explicável (XAI) devem integrar descobertas da psicologia da busca por informação. Os autores, baseados em pesquisas de Sharot e Sunstein, propõem um modelo onde as pessoas avaliam o engajamento com explicações de IA com base em três tipos de utilidade esperada: instrumental (ajuda na ação), hedônica (melhora o bem-estar emocional) e cognitiva (aumenta a compreensão). Essa avaliação é influenciada por vieses cognitivos conhecidos, como ilusão de controle, viés de automação, otimismo irrealista, viés de impacto, excesso de confiança e viés de confirmação. Esses vieses podem levar a falhas, como excesso de busca por informação ou, inversamente, negligência de explicações importantes, prejudicando a adoção e a confiança na IA. O trabalho pode ser consultado integralmente em [arXiv:2608.27464](https://arxiv.org/abs/2608.27464).\n\n## Por que importa\n\nNo cenário brasileiro, onde a adoção de IA em empresas e serviços públicos avança rapidamente, a compreensão desses mecanismos psicológicos é fundamental. Sistemas de XAI que não consideram como os usuários realmente processam informações e tomam decisões podem falhar em seus objetivos. Se uma explicação é tecnicamente precisa, mas não atende às expectativas de utilidade do usuário ou é ignorada devido a vieses, sua implementação pode ser ineficaz. Para o mercado brasileiro, isso significa que o desenvolvimento de XAI precisa ir além da engenharia para incorporar design centrado no ser humano, considerando as nuances comportamentais que influenciam a aceitação e o uso de tecnologias de IA. Ignorar a psicologia da busca por informação pode resultar em sistemas que geram desconfiança ou que são subutilizados, desperdiçando o potencial da IA.\n\n## O que esperar\n\nA pesquisa aponta para uma direção clara: o futuro da XAI deve ser intrinsecamente ligado à psicologia. Espera-se que desenvolvedores e pesquisadores incorporem ativamente modelos de tomada de decisão humana e vieses cognitivos no design de sistemas de IA. Isso pode resultar em interfaces mais intuitivas, explicações personalizadas e mecanismos que incentivem a busca por informação de forma mais eficaz. A aplicação desses insights pode levar a uma maior confiança pública e profissional em sistemas de IA, facilitando sua integração em áreas críticas como saúde, finanças e justiça. A pesquisa sugere a necessidade de ferramentas e metodologias que avaliem a utilidade percebida das explicações, não apenas sua correção técnica. Para mais detalhes sobre a proposta, consulte [o artigo completo no arXiv](https://arxiv.org/abs/2608.27464). O desenvolvimento de XAI mais eficaz e centrado no ser humano é um passo necessário para democratizar o acesso e a compreensão da IA.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um artigo de posição publicado no arXiv, intitulado \"Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI\", argumenta que os esforços para criar sistemas de IA explicável (XAI) devem integrar descobertas da psicologia da busca por informação. Os autores, baseados em pesquisas de Sharot e Sunstein, propõem um modelo onde as pessoas avaliam o engajamento com explicações de IA com base em três tipos de utilidade esperada: instrumental (ajuda na ação), hedônica (melhora o bem-estar emocional) e cognitiva (aumenta a compreensão). Essa avaliação é influenciada por vieses cognitivos conhecidos, como ilusão de controle, viés de automação, otimismo irrealista, viés de impacto, excesso de confiança e viés de confirmação. Esses vieses podem levar a falhas, como excesso de busca por informação ou, inversamente, negligência de explicações importantes, prejudicando a adoção e a confiança na IA. O trabalho pode ser consultado integralmente em <a href=\"https://arxiv.org/abs/2608.27464\" target=\"_blank\" rel=\"external noopener\">arXiv:2608.27464</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No cenário brasileiro, onde a adoção de IA em empresas e serviços públicos avança rapidamente, a compreensão desses mecanismos psicológicos é fundamental. Sistemas de XAI que não consideram como os usuários realmente processam informações e tomam decisões podem falhar em seus objetivos. Se uma explicação é tecnicamente precisa, mas não atende às expectativas de utilidade do usuário ou é ignorada devido a vieses, sua implementação pode ser ineficaz. Para o mercado brasileiro, isso significa que o desenvolvimento de XAI precisa ir além da engenharia para incorporar design centrado no ser humano, considerando as nuances comportamentais que influenciam a aceitação e o uso de tecnologias de IA. Ignorar a psicologia da busca por informação pode resultar em sistemas que geram desconfiança ou que são subutilizados, desperdiçando o potencial da IA.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa aponta para uma direção clara: o futuro da XAI deve ser intrinsecamente ligado à psicologia. Espera-se que desenvolvedores e pesquisadores incorporem ativamente modelos de tomada de decisão humana e vieses cognitivos no design de sistemas de IA. Isso pode resultar em interfaces mais intuitivas, explicações personalizadas e mecanismos que incentivem a busca por informação de forma mais eficaz. A aplicação desses insights pode levar a uma maior confiança pública e profissional em sistemas de IA, facilitando sua integração em áreas críticas como saúde, finanças e justiça. A pesquisa sugere a necessidade de ferramentas e metodologias que avaliem a utilidade percebida das explicações, não apenas sua correção técnica. Para mais detalhes sobre a proposta, consulte <a href=\"https://arxiv.org/abs/2608.27464\" target=\"_blank\" rel=\"external noopener\">o artigo completo no arXiv</a>. O desenvolvimento de XAI mais eficaz e centrado no ser humano é um passo necessário para democratizar o acesso e a compreensão da IA.</p>",
+  "tags": [
+    "ia explicavel",
+    "psicologia",
+    "vieses cognitivos"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "IA explicável",
+    "XAI",
+    "psicologia da informação",
+    "vieses cognitivos",
+    "design centrado no ser humano"
+  ],
+  "meta_description_seo": "Artigo no Pulso da IA discute como psicologia da busca por informação e vieses cognitivos impactam IA explicável (XAI).",
+  "faq": [
+    {
+      "q": "O que é IA explicável (XAI)?",
+      "a": "IA explicável (XAI) refere-se a sistemas de inteligência artificial que podem explicar suas decisões e ações de forma compreensível para os humanos. O objetivo é aumentar a transparência e a confiança nos sistemas de IA."
+    },
+    {
+      "q": "Por que os vieses cognitivos são importantes para a XAI?",
+      "a": "Vieses cognitivos influenciam como as pessoas buscam, interpretam e utilizam informações. Na XAI, eles podem fazer com que usuários ignorem explicações úteis ou busquem informações de forma ineficiente, prejudicando a eficácia do sistema."
+    },
+    {
+      "q": "Como a psicologia da busca por informação se aplica à XAI?",
+      "a": "A psicologia da busca por informação estuda os motivos pelos quais as pessoas procuram e avaliam informações. Aplicada à XAI, ajuda a entender se e como os usuários engajarão com as explicações oferecidas, considerando utilidade, sentimento e compreensão."
+    }
+  ],
+  "written_at": "2026-08-31T08:31:21.692Z",
+  "slug": "psicologia-da-busca-por-informacao-molda-ia-explicavel",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
