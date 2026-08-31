@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 31 Aug 2026 17:36:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 22:48:16 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Valuations de IA infladas e alavancagem crescente: o alerta do Banco da Inglaterra para a próxima crise financeira</title>
+      <link>https://pulsodaia.com.br/feed/valuations-de-ia-infladas-e-alavancagem-crescente-o-alerta-do-banco-da-inglaterr/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/valuations-de-ia-infladas-e-alavancagem-crescente-o-alerta-do-banco-da-inglaterr/</guid>
+      <pubDate>Mon, 31 Aug 2026 22:43:10 GMT</pubDate>
+      <description>O Brasil, atento à expansão global da IA, precisa monitorar riscos sistêmicos.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/">The Decoder</source>
+    </item>
+    <item>
+      <title>ModelContext Protocol Atualiza Servidores com Pacotes Essenciais</title>
+      <link>https://pulsodaia.com.br/feed/modelcontext-protocol-atualiza-servidores-com-pacotes-essenciais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelcontext-protocol-atualiza-servidores-com-pacotes-essenciais/</guid>
+      <pubDate>Mon, 31 Aug 2026 22:42:59 GMT</pubDate>
+      <description>A nova versao 2026.8.31 consolida funcionalidades chave para desenvolvedores de IA no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31">MCP Spec</source>
+    </item>
+    <item>
+      <title>Claude Code 2.1.252 Corrige Bugs e Melhora Estabilidade em Mac e Conexões</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-2-1-252-corrige-bugs-e-melhora-estabilidade-em-mac-e-conexoes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-2-1-252-corrige-bugs-e-melhora-estabilidade-em-mac-e-conexoes/</guid>
+      <pubDate>Mon, 31 Aug 2026 22:42:48 GMT</pubDate>
+      <description>Atualização do modelo de código da Anthropic foca em usabilidade e performance.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.252">Claude Code</source>
+    </item>
     <item>
       <title>Circleback Adota Gratuidade para Ampliar Base de Clientes em Mercado de Anotações de Reunião</title>
       <link>https://pulsodaia.com.br/feed/circleback-adota-gratuidade-para-ampliar-base-de-clientes-em-mercado-de-anotacoe/</link>
@@ -430,33 +457,6 @@
       <description>Aquisição de startup focada em design pode impulsionar ferramentas de criação com IA no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IBM Detalha Arquitetura e Treinamento dos Modelos Granite 4.2</title>
-      <link>https://pulsodaia.com.br/feed/ibm-detalha-arquitetura-e-treinamento-dos-modelos-granite-4-2/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-detalha-arquitetura-e-treinamento-dos-modelos-granite-4-2/</guid>
-      <pubDate>Tue, 25 Aug 2026 16:44:25 GMT</pubDate>
-      <description>A Hugging Face revela os bastidores da criação dos LLMs da IBM, focando em eficiência e controle.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/ibm-granite/granite-4-2">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Search: Ferramentas de Busca para Reformular a Decoração da Casa</title>
-      <link>https://pulsodaia.com.br/feed/google-search-ferramentas-de-busca-para-reformular-a-decoracao-da-casa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-search-ferramentas-de-busca-para-reformular-a-decoracao-da-casa/</guid>
-      <pubDate>Tue, 25 Aug 2026 16:44:15 GMT</pubDate>
-      <description>A gigante de tecnologia detalha como sua plataforma pode auxiliar usuários a encontrar inspiração e a executar projetos de decoração.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/products-and-platforms/products/search/home-decor-tips/">Google AI</source>
-    </item>
-    <item>
-      <title>OpenAI Sinaliza Prontidão Global para Agentes de IA</title>
-      <link>https://pulsodaia.com.br/feed/openai-sinaliza-prontidao-global-para-agentes-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-sinaliza-prontidao-global-para-agentes-de-ia/</guid>
-      <pubDate>Tue, 25 Aug 2026 14:52:43 GMT</pubDate>
-      <description>Thibault Sottiaux, chefe de produto da OpenAI, discute a evolução e aceitação de agentes autônomos de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-08-31T17:30:35.816Z",
+  "generated_at": "2026-08-31T22:43:12.596Z",
   "articles": [
+    {
+      "slug": "valuations-de-ia-infladas-e-alavancagem-crescente-o-alerta-do-banco-da-inglaterr",
+      "headline": "Valuations de IA infladas e alavancagem crescente: o alerta do Banco da Inglaterra para a próxima crise financeira",
+      "subtitle": "O Brasil, atento à expansão global da IA, precisa monitorar riscos sistêmicos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "crise financeira",
+        "regulamentação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 31 Aug 2026 18:01:21 +0000",
+      "written_at": "2026-08-31T22:43:10.505Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "modelcontext-protocol-atualiza-servidores-com-pacotes-essenciais",
+      "headline": "ModelContext Protocol Atualiza Servidores com Pacotes Essenciais",
+      "subtitle": "A nova versao 2026.8.31 consolida funcionalidades chave para desenvolvedores de IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "MCP Spec",
+      "source_url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "category": "claude-code",
+      "tags": [
+        "modelcontext protocol",
+        "atualizacao",
+        "servidores de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-31T20:34:32Z",
+      "written_at": "2026-08-31T22:42:59.672Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-252-corrige-bugs-e-melhora-estabilidade-em-mac-e-conexoes",
+      "headline": "Claude Code 2.1.252 Corrige Bugs e Melhora Estabilidade em Mac e Conexões",
+      "subtitle": "Atualização do modelo de código da Anthropic foca em usabilidade e performance.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-08-31T19:46:55Z",
+      "written_at": "2026-08-31T22:42:48.808Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "circleback-adota-gratuidade-para-ampliar-base-de-clientes-em-mercado-de-anotacoe",
       "headline": "Circleback Adota Gratuidade para Ampliar Base de Clientes em Mercado de Anotações de Reunião",

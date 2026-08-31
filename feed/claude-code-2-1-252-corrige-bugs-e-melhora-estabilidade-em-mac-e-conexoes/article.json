@@ -1,0 +1,53 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.252",
+  "title": "v2.1.252",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+  "summary": "<h2>What's changed</h2> <ul> <li>Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs</li> <li>Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json yet</li> <li>Fixed Remote Control sessions hosted by Claude Desktop or VS Code stalling for minutes after a tool finished when the connection to claude.ai was degraded</li> <li>Fixed background task notifications with very large failure output (for example git errors on a full disk) making the conversation exceed the API request size limit</li> </ul>",
+  "published_at": "2026-08-31T19:46:55Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code 2.1.252 Corrige Bugs e Melhora Estabilidade em Mac e Conexões",
+  "subtitle": "Atualização do modelo de código da Anthropic foca em usabilidade e performance.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão 2.1.252 do Claude Code, focada em corrigir falhas que afetavam a execução de comandos Bash em Macs e a persistência de configurações em projetos específicos. A atualização também aborda instabilidades em sessões remotas e problemas com notificações de tarefas.",
+  "body_markdown": "## O que aconteceu\n\nA mais recente atualização do Claude Code, identificada como versão 2.1.252, traz um conjunto de correções importantes para a experiência do usuário. Entre as principais melhorias, destaca-se a solução para um erro comum que impedia a execução de comandos Bash em algumas máquinas Mac, reportado como \"task output swap refused (tasks dir moved or linked)\". Esse tipo de falha podia interromper fluxos de trabalho e gerar frustração para desenvolvedores que dependem da ferramenta.\n\nAlém disso, o \"always allow\" (sempre permitir), uma funcionalidade crucial para a integração contínua e a permissão de ações específicas em projetos, agora salva corretamente as configurações mesmo em projetos que ainda não possuíam o arquivo `.claude/settings.local.json`. Isso garante maior confiabilidade na personalização do ambiente de desenvolvimento.\n\nOutro ponto abordado foi a estabilidade das sessões de controle remoto (Remote Control). Problemas que causavam longos períodos de inatividade, por vezes minutos, após a conclusão de uma ferramenta, especialmente em conexões degradadas com o claude.ai, foram corrigidos. Essa melhoria é vital para manter a fluidez em fluxos de trabalho colaborativos e em tempo real. Por fim, notificações de tarefas em segundo plano com saídas de falha excessivamente grandes, como erros de Git em discos cheios, que podiam estourar o limite de tamanho da requisição da API, foram otimizadas para evitar interrupções. Mais detalhes técnicos sobre as correções podem ser encontrados no [repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.252).\n\n## Por que importa\n\nEssas correções, embora técnicas, têm um impacto direto na produtividade de desenvolvedores que utilizam o Claude Code em seus fluxos de trabalho. A estabilidade em ambientes Mac, a confiabilidade na persistência de configurações e a robustez das conexões remotas são fatores determinantes para a adoção e o uso contínuo de ferramentas de IA no desenvolvimento de software. Para o mercado brasileiro, onde a adoção de ferramentas de IA generativa em desenvolvimento tem crescido, a confiabilidade e a usabilidade aprimoradas significam menos tempo gasto em depuração de problemas da ferramenta e mais tempo focado na criação de soluções. A capacidade de lidar com grandes volumes de saída de falha também é um indicativo de que a Anthropic está atenta a cenários de uso realistas e complexos, comuns em projetos de grande escala.\n\n## O que esperar\n\nCom a versão 2.1.252, a Anthropic demonstra um compromisso contínuo com a melhoria da experiência do desenvolvedor. A expectativa é que essas correções eliminem pontos de atrito que poderiam desencorajar o uso da ferramenta. A estabilidade aprimorada em diferentes sistemas operacionais e condições de rede sugere um caminho para uma integração mais profunda e confiável do Claude Code em ambientes de desenvolvimento corporativos. A atenção a detalhes como a gestão de erros de tarefas em segundo plano indica uma evolução na maturidade da ferramenta. Desenvolvedores podem esperar um ambiente mais previsível e menos propenso a falhas inesperadas. Para mais informações sobre o desenvolvimento e futuras atualizações, é recomendável acompanhar os [anúncios no GitHub](https://github.com/anthropics/claude-code/releases/tag/v2.1.252).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A mais recente atualização do Claude Code, identificada como versão 2.1.252, traz um conjunto de correções importantes para a experiência do usuário. Entre as principais melhorias, destaca-se a solução para um erro comum que impedia a execução de comandos Bash em algumas máquinas Mac, reportado como \"task output swap refused (tasks dir moved or linked)\". Esse tipo de falha podia interromper fluxos de trabalho e gerar frustração para desenvolvedores que dependem da ferramenta.</p>\n\n<p>Além disso, o \"always allow\" (sempre permitir), uma funcionalidade crucial para a integração contínua e a permissão de ações específicas em projetos, agora salva corretamente as configurações mesmo em projetos que ainda não possuíam o arquivo <code>.claude/settings.local.json</code>. Isso garante maior confiabilidade na personalização do ambiente de desenvolvimento.</p>\n\n<p>Outro ponto abordado foi a estabilidade das sessões de controle remoto (Remote Control). Problemas que causavam longos períodos de inatividade, por vezes minutos, após a conclusão de uma ferramenta, especialmente em conexões degradadas com o claude.ai, foram corrigidos. Essa melhoria é vital para manter a fluidez em fluxos de trabalho colaborativos e em tempo real. Por fim, notificações de tarefas em segundo plano com saídas de falha excessivamente grandes, como erros de Git em discos cheios, que podiam estourar o limite de tamanho da requisição da API, foram otimizadas para evitar interrupções. Mais detalhes técnicos sobre as correções podem ser encontrados no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.252\" target=\"_blank\" rel=\"external noopener\">repositório oficial</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Essas correções, embora técnicas, têm um impacto direto na produtividade de desenvolvedores que utilizam o Claude Code em seus fluxos de trabalho. A estabilidade em ambientes Mac, a confiabilidade na persistência de configurações e a robustez das conexões remotas são fatores determinantes para a adoção e o uso contínuo de ferramentas de IA no desenvolvimento de software. Para o mercado brasileiro, onde a adoção de ferramentas de IA generativa em desenvolvimento tem crescido, a confiabilidade e a usabilidade aprimoradas significam menos tempo gasto em depuração de problemas da ferramenta e mais tempo focado na criação de soluções. A capacidade de lidar com grandes volumes de saída de falha também é um indicativo de que a Anthropic está atenta a cenários de uso realistas e complexos, comuns em projetos de grande escala.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a versão 2.1.252, a Anthropic demonstra um compromisso contínuo com a melhoria da experiência do desenvolvedor. A expectativa é que essas correções eliminem pontos de atrito que poderiam desencorajar o uso da ferramenta. A estabilidade aprimorada em diferentes sistemas operacionais e condições de rede sugere um caminho para uma integração mais profunda e confiável do Claude Code em ambientes de desenvolvimento corporativos. A atenção a detalhes como a gestão de erros de tarefas em segundo plano indica uma evolução na maturidade da ferramenta. Desenvolvedores podem esperar um ambiente mais previsível e menos propenso a falhas inesperadas. Para mais informações sobre o desenvolvimento e futuras atualizações, é recomendável acompanhar os <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.252\" target=\"_blank\" rel=\"external noopener\">anúncios no GitHub</a>.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "desenvolvimento de software"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "atualizacao",
+    "correcao de bugs",
+    "Mac",
+    "Bash",
+    "Remote Control",
+    "IA para desenvolvedores"
+  ],
+  "meta_description_seo": "Claude Code 2.1.252 corrige bugs em Macs, melhora estabilidade de conexoes remotas e persistencia de configuracoes.",
+  "faq": [
+    {
+      "q": "Quais problemas o Claude Code 2.1.252 resolveu?",
+      "a": "A nova versao corrige falhas na execucao de comandos Bash em Macs, garante que as configuracoes de \"always allow\" sejam salvas corretamente e melhora a estabilidade de sessoes remotas em conexoes degradadas."
+    },
+    {
+      "q": "Essa atualizacao afeta a performance geral do Claude Code?",
+      "a": "A atualizacao foca em estabilidade e correcao de bugs, o que pode resultar em uma experiencia mais fluida e previsivel, mas nao introduz alteracoes diretas na performance de geracao de codigo."
+    },
+    {
+      "q": "Onde posso encontrar mais detalhes tecnicos sobre as correcoes?",
+      "a": "Informacoes detalhadas sobre as mudancas e correcoes tecnicas estao disponiveis nas notas de lancamento do Claude Code no repositorio oficial da Anthropic no GitHub."
+    }
+  ],
+  "written_at": "2026-08-31T22:42:48.808Z",
+  "slug": "claude-code-2-1-252-corrige-bugs-e-melhora-estabilidade-em-mac-e-conexoes",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/dcec0eff266d4c51dd4095450962e46367b645d50b04d827b646ebc9af63fcf1/anthropics/claude-code/releases/tag/v2.1.252"
+}
