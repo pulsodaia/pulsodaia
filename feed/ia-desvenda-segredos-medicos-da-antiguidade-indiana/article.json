@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2608.28608v1",
+  "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
+  "url": "https://arxiv.org/abs/2608.28608",
+  "summary": "arXiv:2608.28608v1 Announce Type: new Abstract: Ancient Indian medical texts like Sushruta Samhita have extensive information on diseases, treatments, and surgical techniques. Yet, their ancient format and use of intricate vocabulary pose difficulties in accessibility and systematic ordering. The research here utilizes Natural Language Processing (NLP) methods like Named Entity Recognition (NER), BERTopic modeling, and Knowledge Graph development in Neo4j to extract, categorize, and visualize important concepts based on translated versions. Thematic classification with BERTopic allows for the identification of the underlying medical topics, whereas NER supports the structured entity recognition of diseases, treatments, researchers, and medicinal plants. Graphbased network analysis with Neo4j also allows for the semantic representation of relationship among extracted entities, supporting knowledge retrieval and digital preservation. The findings illustrate how graph databases, topic mod",
+  "published_at": "Tue, 01 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Desvenda Segredos Médicos da Antiguidade Indiana",
+  "subtitle": "Modelos de linguagem processam textos milenares para trazer conhecimento médico ancestral para a era digital.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores aplicam técnicas de Processamento de Linguagem Natural (PLN) para extrair e organizar informações de textos médicos indianos antigos, como a Sushruta Samhita. O objetivo é tornar acessível um vasto conhecimento sobre doenças, tratamentos e cirurgias que antes era dificultado pela linguagem e formato arcaicos.",
+  "body_markdown": "## O que aconteceu\n\nUm novo estudo divulgado no arXiv (cs.CL) demonstra o uso de PLN para analisar textos médicos indianos antigos. A pesquisa foca em obras como a Sushruta Samhita, que contêm informações detalhadas sobre práticas médicas e cirúrgicas milenares. A dificuldade de acesso a este conhecimento se dá pela linguagem complexa e pela formatação antiga. Para superar essas barreiras, a equipe utilizou ferramentas como Reconhecimento de Entidades Nomeadas (NER), modelagem temática com BERTopic e a construção de grafos de conhecimento no Neo4j. A classificação temática permite identificar os principais tópicos médicos abordados, enquanto o NER estrutura informações sobre doenças, tratamentos, nomes de pesquisadores e plantas medicinais. A análise de redes baseada em grafos possibilita a visualização e interconexão desses conceitos. O trabalho detalha como essas tecnologias de IA podem dar nova vida a saberes ancestrais. Mais informações sobre a metodologia e os resultados podem ser encontrados no artigo original [aqui](https://arxiv.org/abs/2608.28608).\n\n## Por que importa\n\nA aplicação de IA para desmistificar textos antigos tem um potencial significativo para diversas áreas, incluindo a medicina. No Brasil, a valorização do conhecimento tradicional e a busca por novas abordagens terapêuticas podem se beneficiar dessa capacidade de extrair e sistematizar informações. Compreender as práticas médicas da antiguidade pode oferecer novas perspectivas sobre tratamentos, composições farmacológicas e abordagens preventivas que foram esquecidas ou subestimadas. A digitalização e análise desses textos, facilitada pela IA, permite que pesquisadores brasileiros e de todo o mundo explorem esse legado de forma mais eficiente, abrindo portas para novas descobertas e possíveis aplicações clínicas. A capacidade de conectar entidades (doenças, plantas, tratamentos) em um grafo de conhecimento é especialmente promissora para a identificação de padrões e relações não óbvias.\n\n## O que esperar\n\nA tendência é que essa abordagem de PLN seja aplicada a um número crescente de textos históricos e científicos de diversas culturas. A capacidade de processar e estruturar grandes volumes de dados textuais, mesmo em formatos antigos ou com vocabulários complexos, é um avanço importante. Espera-se que ferramentas semelhantes sejam desenvolvidas para outras áreas do conhecimento, como história, filosofia e literatura, democratizando o acesso a informações antes restritas a especialistas. No campo médico, a continuidade desta pesquisa pode levar à criação de bases de dados interativas e ferramentas de busca avançada, permitindo que profissionais de saúde e pesquisadores explorem o conhecimento médico ancestral de maneira mais profunda e sistemática. A visualização de redes de conhecimento, como proposto no estudo, pode acelerar a identificação de novas conexões e hipóteses. O avanço na tradução e interpretação automática de textos antigos é uma área em expansão, e este trabalho oferece um exemplo concreto de seu impacto. Detalhes adicionais sobre os próximos passos e a evolução dessas técnicas estão disponíveis [nesta publicação](https://arxiv.org/abs/2608.28608).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo estudo divulgado no arXiv (cs.CL) demonstra o uso de PLN para analisar textos médicos indianos antigos. A pesquisa foca em obras como a Sushruta Samhita, que contêm informações detalhadas sobre práticas médicas e cirúrgicas milenares. A dificuldade de acesso a este conhecimento se dá pela linguagem complexa e pela formatação antiga. Para superar essas barreiras, a equipe utilizou ferramentas como Reconhecimento de Entidades Nomeadas (NER), modelagem temática com BERTopic e a construção de grafos de conhecimento no Neo4j. A classificação temática permite identificar os principais tópicos médicos abordados, enquanto o NER estrutura informações sobre doenças, tratamentos, nomes de pesquisadores e plantas medicinais. A análise de redes baseada em grafos possibilita a visualização e interconexão desses conceitos. O trabalho detalha como essas tecnologias de IA podem dar nova vida a saberes ancestrais. Mais informações sobre a metodologia e os resultados podem ser encontrados no artigo original <a href=\"https://arxiv.org/abs/2608.28608\" target=\"_blank\" rel=\"external noopener\">aqui</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A aplicação de IA para desmistificar textos antigos tem um potencial significativo para diversas áreas, incluindo a medicina. No Brasil, a valorização do conhecimento tradicional e a busca por novas abordagens terapêuticas podem se beneficiar dessa capacidade de extrair e sistematizar informações. Compreender as práticas médicas da antiguidade pode oferecer novas perspectivas sobre tratamentos, composições farmacológicas e abordagens preventivas que foram esquecidas ou subestimadas. A digitalização e análise desses textos, facilitada pela IA, permite que pesquisadores brasileiros e de todo o mundo explorem esse legado de forma mais eficiente, abrindo portas para novas descobertas e possíveis aplicações clínicas. A capacidade de conectar entidades (doenças, plantas, tratamentos) em um grafo de conhecimento é especialmente promissora para a identificação de padrões e relações não óbvias.</p>\n\n<h2>O que esperar</h2>\n\n<p>A tendência é que essa abordagem de PLN seja aplicada a um número crescente de textos históricos e científicos de diversas culturas. A capacidade de processar e estruturar grandes volumes de dados textuais, mesmo em formatos antigos ou com vocabulários complexos, é um avanço importante. Espera-se que ferramentas semelhantes sejam desenvolvidas para outras áreas do conhecimento, como história, filosofia e literatura, democratizando o acesso a informações antes restritas a especialistas. No campo médico, a continuidade desta pesquisa pode levar à criação de bases de dados interativas e ferramentas de busca avançada, permitindo que profissionais de saúde e pesquisadores explorem o conhecimento médico ancestral de maneira mais profunda e sistemática. A visualização de redes de conhecimento, como proposto no estudo, pode acelerar a identificação de novas conexões e hipóteses. O avanço na tradução e interpretação automática de textos antigos é uma área em expansão, e este trabalho oferece um exemplo concreto de seu impacto. Detalhes adicionais sobre os próximos passos e a evolução dessas técnicas estão disponíveis <a href=\"https://arxiv.org/abs/2608.28608\" target=\"_blank\" rel=\"external noopener\">nesta publicação</a>.</p>",
+  "tags": [
+    "ia",
+    "medicina",
+    "textos antigos"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "processamento de linguagem natural",
+    "textos médicos indianos",
+    "conhecimento ancestral",
+    "grafos de conhecimento",
+    "BERTopic",
+    "NER"
+  ],
+  "meta_description_seo": "IA desvenda textos médicos indianos antigos com PLN, NER e grafos de conhecimento. Pesquisa traz saberes ancestrais para a era digital.",
+  "faq": [
+    {
+      "q": "Como a IA está ajudando a entender textos médicos antigos?",
+      "a": "A IA utiliza Processamento de Linguagem Natural (PLN) para extrair informações, classificar temas e identificar entidades como doenças e tratamentos em textos médicos antigos, superando barreiras de linguagem e formato."
+    },
+    {
+      "q": "Qual a importância de analisar textos médicos da antiguidade?",
+      "a": "Analisar esses textos pode revelar conhecimentos sobre tratamentos e práticas médicas esquecidas ou subestimadas, oferecendo novas perspectivas e possíveis aplicações para a medicina moderna."
+    },
+    {
+      "q": "Que tecnologias de IA foram usadas na pesquisa?",
+      "a": "Foram utilizadas técnicas como Reconhecimento de Entidades Nomeadas (NER), modelagem temática com BERTopic e a construção de grafos de conhecimento em Neo4j."
+    }
+  ],
+  "written_at": "2026-09-01T04:39:27.587Z",
+  "slug": "ia-desvenda-segredos-medicos-da-antiguidade-indiana",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

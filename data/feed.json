@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-08-31T22:43:12.596Z",
+  "generated_at": "2026-09-01T04:39:38.709Z",
   "articles": [
+    {
+      "slug": "agentes-de-ia-precisam-lembrar-da-percepcao-nao-apenas-do-que-foi-dito",
+      "headline": "Agentes de IA Precisam Lembrar da Percepção, Não Apenas do Que Foi Dito",
+      "subtitle": "Uma nova pesquisa aponta para a necessidade de modelos de memória multimodais para agentes de IA mais eficazes.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2608.28609",
+      "category": "research",
+      "tags": [
+        "memória de ia",
+        "multimodalidade",
+        "agentes inteligentes"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 01 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-01T04:39:38.641Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-desvenda-segredos-medicos-da-antiguidade-indiana",
+      "headline": "IA Desvenda Segredos Médicos da Antiguidade Indiana",
+      "subtitle": "Modelos de linguagem processam textos milenares para trazer conhecimento médico ancestral para a era digital.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2608.28608",
+      "category": "research",
+      "tags": [
+        "ia",
+        "medicina",
+        "textos antigos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 01 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-01T04:39:27.587Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "valuations-de-ia-infladas-e-alavancagem-crescente-o-alerta-do-banco-da-inglaterr",
       "headline": "Valuations de IA infladas e alavancagem crescente: o alerta do Banco da Inglaterra para a próxima crise financeira",

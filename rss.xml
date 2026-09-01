@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 31 Aug 2026 22:48:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 04:45:06 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Agentes de IA Precisam Lembrar da Percepção, Não Apenas do Que Foi Dito</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-precisam-lembrar-da-percepcao-nao-apenas-do-que-foi-dito/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-precisam-lembrar-da-percepcao-nao-apenas-do-que-foi-dito/</guid>
+      <pubDate>Tue, 01 Sep 2026 04:39:38 GMT</pubDate>
+      <description>Uma nova pesquisa aponta para a necessidade de modelos de memória multimodais para agentes de IA mais eficazes.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.28609">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IA Desvenda Segredos Médicos da Antiguidade Indiana</title>
+      <link>https://pulsodaia.com.br/feed/ia-desvenda-segredos-medicos-da-antiguidade-indiana/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-desvenda-segredos-medicos-da-antiguidade-indiana/</guid>
+      <pubDate>Tue, 01 Sep 2026 04:39:27 GMT</pubDate>
+      <description>Modelos de linguagem processam textos milenares para trazer conhecimento médico ancestral para a era digital.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2608.28608">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>Valuations de IA infladas e alavancagem crescente: o alerta do Banco da Inglaterra para a próxima crise financeira</title>
       <link>https://pulsodaia.com.br/feed/valuations-de-ia-infladas-e-alavancagem-crescente-o-alerta-do-banco-da-inglaterr/</link>
@@ -439,24 +457,6 @@
       <description>A corrida por hardware dedicado à IA ganha um novo competidor, com a OpenAI apresentando resultados promissores.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/">The Decoder</source>
-    </item>
-    <item>
-      <title>Claude Agora Recorda Conversas Anteriores em Diferentes Plataformas</title>
-      <link>https://pulsodaia.com.br/feed/claude-agora-recorda-conversas-anteriores-em-diferentes-plataformas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-agora-recorda-conversas-anteriores-em-diferentes-plataformas/</guid>
-      <pubDate>Tue, 25 Aug 2026 18:47:39 GMT</pubDate>
-      <description>A Anthropic implementa memória persistente para o seu modelo de IA, simplificando a interação do usuário.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Gamma compra Lica e reforça time de pesquisa em design</title>
-      <link>https://pulsodaia.com.br/feed/gamma-compra-lica-e-reforca-time-de-pesquisa-em-design/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gamma-compra-lica-e-reforca-time-de-pesquisa-em-design/</guid>
-      <pubDate>Tue, 25 Aug 2026 16:44:45 GMT</pubDate>
-      <description>Aquisição de startup focada em design pode impulsionar ferramentas de criação com IA no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
