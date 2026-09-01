@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-01T04:39:38.709Z",
+  "generated_at": "2026-09-01T16:26:01.947Z",
   "articles": [
+    {
+      "slug": "alexa-se-torna-central-de-alertas-de-consumo-personalizados-pela-amazon",
+      "headline": "Alexa se torna central de alertas de consumo personalizados pela Amazon",
+      "subtitle": "Nova funcionalidade promete antecipar desejos de compra do usuário.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
+      "category": "mercado",
+      "tags": [
+        "alexa",
+        "amazon",
+        "personalização"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 01 Sep 2026 15:51:55 +0000",
+      "written_at": "2026-09-01T16:26:01.890Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "hugging-face-libera-mais-de-200-kernels-webgpu-para-ia-local",
+      "headline": "Hugging Face libera mais de 200 Kernels WebGPU para IA Local",
+      "subtitle": "Nova biblioteca da Hugging Face promete democratizar o acesso a modelos de IA no navegador.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/webgpu-kernels",
+      "category": "opensource",
+      "tags": [
+        "webgpu",
+        "hugging face",
+        "ia local"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 01 Sep 2026 00:00:00 GMT",
+      "written_at": "2026-09-01T16:25:50.912Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-workspace-ganha-ferramenta-de-criacao-e-edicao-de-imagens-com-ia",
+      "headline": "Google Workspace Ganha Ferramenta de Criação e Edição de Imagens com IA",
+      "subtitle": "A novidade, batizada de Google Pics, promete agilizar a produção visual em documentos e apresentações.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "category": "google",
+      "tags": [
+        "google workspace",
+        "inteligencia artificial",
+        "criacao de imagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 01 Sep 2026 16:00:00 +0000",
+      "written_at": "2026-09-01T16:25:36.934Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "agentes-de-ia-precisam-lembrar-da-percepcao-nao-apenas-do-que-foi-dito",
       "headline": "Agentes de IA Precisam Lembrar da Percepção, Não Apenas do Que Foi Dito",

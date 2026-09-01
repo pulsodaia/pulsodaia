@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 01 Sep 2026 11:34:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 16:31:02 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Alexa se torna central de alertas de consumo personalizados pela Amazon</title>
+      <link>https://pulsodaia.com.br/feed/alexa-se-torna-central-de-alertas-de-consumo-personalizados-pela-amazon/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/alexa-se-torna-central-de-alertas-de-consumo-personalizados-pela-amazon/</guid>
+      <pubDate>Tue, 01 Sep 2026 16:26:01 GMT</pubDate>
+      <description>Nova funcionalidade promete antecipar desejos de compra do usuário.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Hugging Face libera mais de 200 Kernels WebGPU para IA Local</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-libera-mais-de-200-kernels-webgpu-para-ia-local/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-libera-mais-de-200-kernels-webgpu-para-ia-local/</guid>
+      <pubDate>Tue, 01 Sep 2026 16:25:50 GMT</pubDate>
+      <description>Nova biblioteca da Hugging Face promete democratizar o acesso a modelos de IA no navegador.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/webgpu-kernels">Hugging Face</source>
+    </item>
+    <item>
+      <title>Google Workspace Ganha Ferramenta de Criação e Edição de Imagens com IA</title>
+      <link>https://pulsodaia.com.br/feed/google-workspace-ganha-ferramenta-de-criacao-e-edicao-de-imagens-com-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-workspace-ganha-ferramenta-de-criacao-e-edicao-de-imagens-com-ia/</guid>
+      <pubDate>Tue, 01 Sep 2026 16:25:36 GMT</pubDate>
+      <description>A novidade, batizada de Google Pics, promete agilizar a produção visual em documentos e apresentações.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/products-and-platforms/products/workspace/google-pics/">Google AI</source>
+    </item>
     <item>
       <title>Agentes de IA Precisam Lembrar da Percepção, Não Apenas do Que Foi Dito</title>
       <link>https://pulsodaia.com.br/feed/agentes-de-ia-precisam-lembrar-da-percepcao-nao-apenas-do-que-foi-dito/</link>
@@ -430,33 +457,6 @@
       <description>Novas movimentações na cúpula da empresa de IA levantam questões sobre estabilidade e liderança.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Generalist atinge US$ 3 bilhões em avaliação com nova rodada de financiamento</title>
-      <link>https://pulsodaia.com.br/feed/generalist-atinge-us-3-bilhoes-em-avaliacao-com-nova-rodada-de-financiamento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/generalist-atinge-us-3-bilhoes-em-avaliacao-com-nova-rodada-de-financiamento/</guid>
-      <pubDate>Wed, 26 Aug 2026 03:11:40 GMT</pubDate>
-      <description>A startup de robótica com foco em IA consolida sua posição no mercado, atraindo investimento significativo.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code aprimora controle de permissões e performance</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-permissoes-e-performance/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-controle-de-permissoes-e-performance/</guid>
-      <pubDate>Tue, 25 Aug 2026 22:33:28 GMT</pubDate>
-      <description>Atualização do modelo de linguagem da Anthropic foca em segurança e usabilidade para desenvolvedores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.246">Claude Code</source>
-    </item>
-    <item>
-      <title>Chip de Inferência da OpenAI Supera Nvidia em Benchmarks</title>
-      <link>https://pulsodaia.com.br/feed/chip-de-inferencia-da-openai-supera-nvidia-em-benchmarks/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/chip-de-inferencia-da-openai-supera-nvidia-em-benchmarks/</guid>
-      <pubDate>Tue, 25 Aug 2026 18:47:50 GMT</pubDate>
-      <description>A corrida por hardware dedicado à IA ganha um novo competidor, com a OpenAI apresentando resultados promissores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/">The Decoder</source>
     </item>
   </channel>
 </rss>
