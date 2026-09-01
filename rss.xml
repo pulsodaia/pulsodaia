@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 01 Sep 2026 16:31:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 21:00:22 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google Android Avanca em Acessibilidade e Conforto Visual</title>
+      <link>https://pulsodaia.com.br/feed/google-android-avanca-em-acessibilidade-e-conforto-visual/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-android-avanca-em-acessibilidade-e-conforto-visual/</guid>
+      <pubDate>Tue, 01 Sep 2026 20:54:48 GMT</pubDate>
+      <description>Novas funcionalidades buscam mitigar enjoo de movimento e ampliar o uso para deficientes visuais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Atualiza Modelo Fable e Refina Segurança</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-modelo-fable-e-refina-seguranca/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-modelo-fable-e-refina-seguranca/</guid>
+      <pubDate>Tue, 01 Sep 2026 20:54:37 GMT</pubDate>
+      <description>Novidades na plataforma de desenvolvimento de IA visam expandir a capacidade de contexto e aprimorar o controle de acesso.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.257">Claude Code</source>
+    </item>
+    <item>
+      <title>Gemini Ganha Compreensão de Vídeo Ativa com Novos Agentes</title>
+      <link>https://pulsodaia.com.br/feed/gemini-ganha-compreensao-de-video-ativa-com-novos-agentes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-ganha-compreensao-de-video-ativa-com-novos-agentes/</guid>
+      <pubDate>Tue, 01 Sep 2026 20:54:25 GMT</pubDate>
+      <description>Google DeepMind avança na capacidade de modelos de IA interpretarem e interagirem com conteúdo visual dinâmico.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/introducing-agentic-video-in-gemini/">Google DeepMind</source>
+    </item>
     <item>
       <title>Alexa se torna central de alertas de consumo personalizados pela Amazon</title>
       <link>https://pulsodaia.com.br/feed/alexa-se-torna-central-de-alertas-de-consumo-personalizados-pela-amazon/</link>
@@ -430,33 +457,6 @@
       <description>A startup de IA busca capitalizar a expansão do setor para sua oferta pública inicial.</description>
       <category>MERCADO</category>
       <source url="https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo/">The Decoder</source>
-    </item>
-    <item>
-      <title>IBM Libera Modelos Granite 4.2 com Capacidades Agenticas Sob Licença Aberta</title>
-      <link>https://pulsodaia.com.br/feed/ibm-libera-modelos-granite-4-2-com-capacidades-agenticas-sob-licenca-aberta/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-libera-modelos-granite-4-2-com-capacidades-agenticas-sob-licenca-aberta/</guid>
-      <pubDate>Wed, 26 Aug 2026 10:40:40 GMT</pubDate>
-      <description>Gigante de tecnologia disponibiliza família de modelos de linguagem com foco em execução autônoma de tarefas e código.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/ibm-drops-open-weight-granite-4-2-family-with-built-in-agentic-capabilities-under-apache-2-0/">The Decoder</source>
-    </item>
-    <item>
-      <title>RENDER: Novo benchmark foca em como LLMs apresentam informações da memória</title>
-      <link>https://pulsodaia.com.br/feed/render-novo-benchmark-foca-em-como-llms-apresentam-informacoes-da-memoria/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/render-novo-benchmark-foca-em-como-llms-apresentam-informacoes-da-memoria/</guid>
-      <pubDate>Wed, 26 Aug 2026 06:58:39 GMT</pubDate>
-      <description>Pesquisa do ArXiv propõe método para avaliar a utilidade da "memória" de modelos de linguagem, crucial para aplicações no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.23568">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>OpenAI: Executivo de infraestrutura de dados deixa a empresa em meio a saídas de alto perfil</title>
-      <link>https://pulsodaia.com.br/feed/openai-executivo-de-infraestrutura-de-dados-deixa-a-empresa-em-meio-a-saidas-de-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-executivo-de-infraestrutura-de-dados-deixa-a-empresa-em-meio-a-saidas-de-/</guid>
-      <pubDate>Wed, 26 Aug 2026 03:11:50 GMT</pubDate>
-      <description>Novas movimentações na cúpula da empresa de IA levantam questões sobre estabilidade e liderança.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

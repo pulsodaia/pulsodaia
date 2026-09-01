@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-01T16:26:01.947Z",
+  "generated_at": "2026-09-01T20:54:48.524Z",
   "articles": [
+    {
+      "slug": "google-android-avanca-em-acessibilidade-e-conforto-visual",
+      "headline": "Google Android Avanca em Acessibilidade e Conforto Visual",
+      "subtitle": "Novas funcionalidades buscam mitigar enjoo de movimento e ampliar o uso para deficientes visuais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+      "category": "mercado",
+      "tags": [
+        "android",
+        "acessibilidade",
+        "google"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 01 Sep 2026 20:53:05 +0000",
+      "written_at": "2026-09-01T20:54:48.370Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "claude-code-atualiza-modelo-fable-e-refina-seguranca",
+      "headline": "Claude Code Atualiza Modelo Fable e Refina Segurança",
+      "subtitle": "Novidades na plataforma de desenvolvimento de IA visam expandir a capacidade de contexto e aprimorar o controle de acesso.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "ia",
+        "desenvolvimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-01T17:53:52Z",
+      "written_at": "2026-09-01T20:54:37.380Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "gemini-ganha-compreensao-de-video-ativa-com-novos-agentes",
+      "headline": "Gemini Ganha Compreensão de Vídeo Ativa com Novos Agentes",
+      "subtitle": "Google DeepMind avança na capacidade de modelos de IA interpretarem e interagirem com conteúdo visual dinâmico.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "deepmind",
+        "compreensao de video"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 01 Sep 2026 17:08:51 +0000",
+      "written_at": "2026-09-01T20:54:25.086Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "alexa-se-torna-central-de-alertas-de-consumo-personalizados-pela-amazon",
       "headline": "Alexa se torna central de alertas de consumo personalizados pela Amazon",
