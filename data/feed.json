@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-09-01T23:56:23.789Z",
+  "generated_at": "2026-09-02T04:01:50.811Z",
   "articles": [
+    {
+      "slug": "ia-em-texto-nova-abordagem-melhora-modelos-de-mundo-para-agentes",
+      "headline": "IA em texto: nova abordagem melhora modelos de mundo para agentes",
+      "subtitle": "Pesquisadores exploram como a estruturação de dados impacta a capacidade de agentes de IA entenderem e preverem ambientes textuais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.00002",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de mundo",
+        "processamento de linguagem natural"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-02T04:01:50.730Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "claude-code-corrige-falhas-criticas-em-lancamento-recente",
       "headline": "Claude Code Corrige Falhas Críticas em Lançamento Recente",
