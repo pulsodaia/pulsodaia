@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 01 Sep 2026 21:00:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 00:01:03 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code Corrige Falhas Críticas em Lançamento Recente</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-corrige-falhas-criticas-em-lancamento-recente/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-corrige-falhas-criticas-em-lancamento-recente/</guid>
+      <pubDate>Tue, 01 Sep 2026 23:56:23 GMT</pubDate>
+      <description>Atualização aborda problemas de compatibilidade com macOS e erros em sessões remotas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.258">Claude Code</source>
+    </item>
+    <item>
+      <title>Benchmarking de LLMs: O que as métricas realmente medem?</title>
+      <link>https://pulsodaia.com.br/feed/benchmarking-de-llms-o-que-as-metricas-realmente-medem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/benchmarking-de-llms-o-que-as-metricas-realmente-medem/</guid>
+      <pubDate>Tue, 01 Sep 2026 23:56:12 GMT</pubDate>
+      <description>Pesquisa aponta falhas em avaliações padronizadas de modelos de linguagem.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/allenai/benchmirt">Hugging Face</source>
+    </item>
+    <item>
+      <title>Google Divulga Atualizações de IA de Agosto de 2026</title>
+      <link>https://pulsodaia.com.br/feed/google-divulga-atualizacoes-de-ia-de-agosto-de-2026/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-divulga-atualizacoes-de-ia-de-agosto-de-2026/</guid>
+      <pubDate>Tue, 01 Sep 2026 23:56:02 GMT</pubDate>
+      <description>Novidades em modelos e aplicações de inteligência artificial são anunciadas pela gigante da tecnologia.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/">Google AI</source>
+    </item>
     <item>
       <title>Google Android Avanca em Acessibilidade e Conforto Visual</title>
       <link>https://pulsodaia.com.br/feed/google-android-avanca-em-acessibilidade-e-conforto-visual/</link>
@@ -430,33 +457,6 @@
       <description>Uma nova abordagem para auxílio auditivo busca integrar tecnologia discreta ao dia a dia do usuário.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Arga capta US$ 10 milhões para otimizar treinamento de agentes de IA corporativos</title>
-      <link>https://pulsodaia.com.br/feed/arga-capta-us-10-milhoes-para-otimizar-treinamento-de-agentes-de-ia-corporativos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/arga-capta-us-10-milhoes-para-otimizar-treinamento-de-agentes-de-ia-corporativos/</guid>
-      <pubDate>Wed, 26 Aug 2026 13:04:12 GMT</pubDate>
-      <description>Startup busca simplificar e aprimorar o desenvolvimento de inteligências artificiais para empresas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>QueryStory Busca Credibilidade para Respostas de IA com Novo Financiamento</title>
-      <link>https://pulsodaia.com.br/feed/querystory-busca-credibilidade-para-respostas-de-ia-com-novo-financiamento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/querystory-busca-credibilidade-para-respostas-de-ia-com-novo-financiamento/</guid>
-      <pubDate>Wed, 26 Aug 2026 13:03:59 GMT</pubDate>
-      <description>Startup aposta em LLMs e cibersegurança para tornar interações com inteligência artificial mais confiáveis.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic mira mercado de US$ 30 trilhões em busca de investidores para IPO</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-mira-mercado-de-us-30-trilhoes-em-busca-de-investidores-para-ipo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-mira-mercado-de-us-30-trilhoes-em-busca-de-investidores-para-ipo/</guid>
-      <pubDate>Wed, 26 Aug 2026 10:40:53 GMT</pubDate>
-      <description>A startup de IA busca capitalizar a expansão do setor para sua oferta pública inicial.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo/">The Decoder</source>
     </item>
   </channel>
 </rss>
