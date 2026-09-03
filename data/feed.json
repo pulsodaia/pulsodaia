@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-09-02T22:30:33.805Z",
+  "generated_at": "2026-09-03T04:00:46.608Z",
   "articles": [
+    {
+      "slug": "meta-etica-em-debate-ia-forca-repensar-os-fundamentos-da-moralidade",
+      "headline": "Meta-ética em debate: IA força repensar os fundamentos da moralidade",
+      "subtitle": "Um artigo acadêmico levanta questões sobre a ética intrínseca de sistemas de IA avançados, para além das diretrizes humanas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.01685",
+      "category": "research",
+      "tags": [
+        "meta-etica",
+        "inteligencia artificial",
+        "etica da ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-03T04:00:46.565Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-linguagem-gigantes-sabem-que-estao-sendo-testados-nova-ferramenta-ava",
+      "headline": "Modelos de Linguagem Gigantes Sabem Que Estao Sendo Testados? Nova Ferramenta Avalia A Consciencia de Avaliacao",
+      "subtitle": "Um estudo recente introduz um benchmark para medir a capacidade de LLMs de reconhecer avaliações, impactando a confiabilidade de testes de segurança.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.01611",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "segurança de ia",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-03T04:00:36.146Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "google-lanca-gemini-3-8-flash-mais-esforco-com-custo-potencialmente-maior",
       "headline": "Google lança Gemini 3.8 Flash: mais \"esforço\" com custo potencialmente maior",
