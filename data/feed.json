@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-03T08:49:53.866Z",
+  "generated_at": "2026-09-03T14:19:19.495Z",
   "articles": [
+    {
+      "slug": "agentes-de-codigo-ganham-memoria-propria-com-nova-ferramenta-da-hugging-face",
+      "headline": "Agentes de Código Ganham Memória Própria com Nova Ferramenta da Hugging Face",
+      "subtitle": "Desenvolvedores brasileiros podem ter mais controle sobre o histórico de interações de suas IAs.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/funes",
+      "category": "opensource",
+      "tags": [
+        "agentes de código",
+        "memória de ia",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "written_at": "2026-09-03T14:19:19.368Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-refina-modelos-de-linguagem-para-saidas-estruturadas-com-metodo-efi",
+      "headline": "Hugging Face Refina Modelos de Linguagem para Saídas Estruturadas com Método Eficiente",
+      "subtitle": "Nova técnica promete melhorar a consistência de respostas em modelos de IA, com implicações diretas para o desenvolvimento de aplicações no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "written_at": "2026-09-03T14:19:09.429Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "neomme-novo-codificador-multilingue-nativo-para-ia-multimodal",
+      "headline": "NeoMME: Novo Codificador Multilíngue Nativo para IA Multimodal",
+      "subtitle": "Iniciativa da Hugging Face busca otimizar modelos de linguagem para diversas línguas e modalidades de dados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/Hcompany/neomme",
+      "category": "opensource",
+      "tags": [
+        "ia multimodal",
+        "modelos de linguagem",
+        "hugginface",
+        "multilíngue"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 03 Sep 2026 13:13:48 GMT",
+      "written_at": "2026-09-03T14:18:57.399Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.webp"
+    },
     {
       "slug": "ia-aprende-a-pintar-aquarelas-usando-codigo-e-reforco",
       "headline": "IA Aprende a Pintar Aquarelas Usando Código e Reforço",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 03 Sep 2026 08:55:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 14:24:40 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Agentes de Código Ganham Memória Própria com Nova Ferramenta da Hugging Face</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-codigo-ganham-memoria-propria-com-nova-ferramenta-da-hugging-face/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-codigo-ganham-memoria-propria-com-nova-ferramenta-da-hugging-face/</guid>
+      <pubDate>Thu, 03 Sep 2026 14:19:19 GMT</pubDate>
+      <description>Desenvolvedores brasileiros podem ter mais controle sobre o histórico de interações de suas IAs.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/funes">Hugging Face</source>
+    </item>
+    <item>
+      <title>Hugging Face Refina Modelos de Linguagem para Saídas Estruturadas com Método Eficiente</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-refina-modelos-de-linguagem-para-saidas-estruturadas-com-metodo-efi/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-refina-modelos-de-linguagem-para-saidas-estruturadas-com-metodo-efi/</guid>
+      <pubDate>Thu, 03 Sep 2026 14:19:09 GMT</pubDate>
+      <description>Nova técnica promete melhorar a consistência de respostas em modelos de IA, com implicações diretas para o desenvolvimento de aplicações no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/grpo-with-trl-ifstruct">Hugging Face</source>
+    </item>
+    <item>
+      <title>NeoMME: Novo Codificador Multilíngue Nativo para IA Multimodal</title>
+      <link>https://pulsodaia.com.br/feed/neomme-novo-codificador-multilingue-nativo-para-ia-multimodal/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/neomme-novo-codificador-multilingue-nativo-para-ia-multimodal/</guid>
+      <pubDate>Thu, 03 Sep 2026 14:18:57 GMT</pubDate>
+      <description>Iniciativa da Hugging Face busca otimizar modelos de linguagem para diversas línguas e modalidades de dados.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/Hcompany/neomme">Hugging Face</source>
+    </item>
     <item>
       <title>IA Aprende a Pintar Aquarelas Usando Código e Reforço</title>
       <link>https://pulsodaia.com.br/feed/ia-aprende-a-pintar-aquarelas-usando-codigo-e-reforco/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa aponta que vieses se acumulam em todas as etapas de desenvolvimento de modelos, impactando a igualdade de acesso e uso.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2608.24952">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Variabilidade Semântica em Respostas de LLMs: Um Desafio para Avaliações Conversacionais</title>
-      <link>https://pulsodaia.com.br/feed/variabilidade-semantica-em-respostas-de-llms-um-desafio-para-avaliacoes-conversa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/variabilidade-semantica-em-respostas-de-llms-um-desafio-para-avaliacoes-conversa/</guid>
-      <pubDate>Thu, 27 Aug 2026 08:45:07 GMT</pubDate>
-      <description>Novas pesquisas no arXiv apontam para a inconsistência de modelos de linguagem, impactando a confiabilidade de sistemas baseados em diálogo.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.24920">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Controle de Empatia em LLMs: Decodificação Não Garante Mudança Real</title>
-      <link>https://pulsodaia.com.br/feed/controle-de-empatia-em-llms-decodificacao-nao-garante-mudanca-real/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/controle-de-empatia-em-llms-decodificacao-nao-garante-mudanca-real/</guid>
-      <pubDate>Thu, 27 Aug 2026 08:44:57 GMT</pubDate>
-      <description>Pesquisa aponta que manipular "direções de empatia" em modelos de linguagem não resulta em controle confiável sobre a percepção humana.</description>
-      <category>ANALISE</category>
-      <source url="https://arxiv.org/abs/2608.24901">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Nvidia Preve Receita Trimestral de US$ 108 Bilhões, Superando Gigantes da Tecnologia</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-preve-receita-trimestral-de-us-108-bilhoes-superando-gigantes-da-tecnolog/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-preve-receita-trimestral-de-us-108-bilhoes-superando-gigantes-da-tecnolog/</guid>
-      <pubDate>Wed, 26 Aug 2026 23:13:49 GMT</pubDate>
-      <description>A empresa de semicondutores caminha para se tornar a primeira a atingir tal marca em um único trimestre, impulsionada pela demanda por chips de IA.</description>
-      <category>MERCADO</category>
-      <source url="https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue">The Verge AI</source>
     </item>
   </channel>
 </rss>
