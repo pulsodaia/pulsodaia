@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 03 Sep 2026 14:24:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 19:18:56 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google DeepMind Avança Previsão do Tempo com Modelo de IA WeatherNext 3</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-avanca-previsao-do-tempo-com-modelo-de-ia-weathernext-3/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-avanca-previsao-do-tempo-com-modelo-de-ia-weathernext-3/</guid>
+      <pubDate>Thu, 03 Sep 2026 19:13:45 GMT</pubDate>
+      <description>Nova geração de modelo promete maior acurácia e detalhe para previsões globais, com potencial impacto no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/">Google DeepMind</source>
+    </item>
     <item>
       <title>Agentes de Código Ganham Memória Própria com Nova Ferramenta da Hugging Face</title>
       <link>https://pulsodaia.com.br/feed/agentes-de-codigo-ganham-memoria-propria-com-nova-ferramenta-da-hugging-face/</link>
@@ -448,15 +457,6 @@
       <description>Ferramentas de inteligência artificial prometem simplificar a busca por hotéis e voos no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/">Google AI</source>
-    </item>
-    <item>
-      <title>IA ainda penaliza sotaques: "Imposto Dialetal" afeta modelos de linguagem</title>
-      <link>https://pulsodaia.com.br/feed/ia-ainda-penaliza-sotaques-imposto-dialetal-afeta-modelos-de-linguagem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-ainda-penaliza-sotaques-imposto-dialetal-afeta-modelos-de-linguagem/</guid>
-      <pubDate>Thu, 27 Aug 2026 08:45:18 GMT</pubDate>
-      <description>Pesquisa aponta que vieses se acumulam em todas as etapas de desenvolvimento de modelos, impactando a igualdade de acesso e uso.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.24952">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>
