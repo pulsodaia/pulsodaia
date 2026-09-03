@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 03 Sep 2026 04:05:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 08:55:21 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Aprende a Pintar Aquarelas Usando Código e Reforço</title>
+      <link>https://pulsodaia.com.br/feed/ia-aprende-a-pintar-aquarelas-usando-codigo-e-reforco/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-a-pintar-aquarelas-usando-codigo-e-reforco/</guid>
+      <pubDate>Thu, 03 Sep 2026 08:49:53 GMT</pubDate>
+      <description>Pesquisadores demonstram como modelos de linguagem podem gerar arte visual com técnicas de aprendizado por reforço.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/train-to-paint-with-code">Hugging Face</source>
+    </item>
     <item>
       <title>Meta-ética em debate: IA força repensar os fundamentos da moralidade</title>
       <link>https://pulsodaia.com.br/feed/meta-etica-em-debate-ia-forca-repensar-os-fundamentos-da-moralidade/</link>
@@ -448,15 +457,6 @@
       <description>A empresa de semicondutores caminha para se tornar a primeira a atingir tal marca em um único trimestre, impulsionada pela demanda por chips de IA.</description>
       <category>MERCADO</category>
       <source url="https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue">The Verge AI</source>
-    </item>
-    <item>
-      <title>Anthropic fecha acordo bilionário com Nscale para impulsionar demanda por poder computacional</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-fecha-acordo-bilionario-com-nscale-para-impulsionar-demanda-por-poder-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-fecha-acordo-bilionario-com-nscale-para-impulsionar-demanda-por-poder-/</guid>
-      <pubDate>Wed, 26 Aug 2026 23:13:29 GMT</pubDate>
-      <description>A gigante de IA continua sua expansão agressiva em infraestrutura, sinalizando uma corrida por recursos de processamento.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
