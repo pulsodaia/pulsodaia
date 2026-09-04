@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 03 Sep 2026 22:33:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 04:07:55 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA para Análise Corporativa: Controle e Previsibilidade em Foco</title>
+      <link>https://pulsodaia.com.br/feed/ia-para-analise-corporativa-controle-e-previsibilidade-em-foco/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-analise-corporativa-controle-e-previsibilidade-em-foco/</guid>
+      <pubDate>Fri, 04 Sep 2026 04:03:00 GMT</pubDate>
+      <description>Pesquisa explora como modelos de linguagem podem operar dentro de políticas rígidas para resultados confiáveis.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.03209">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Adapta Livros Didáticos de Inglês: Diagnóstico, Tarefas e Feedback Personalizados</title>
+      <link>https://pulsodaia.com.br/feed/ia-adapta-livros-didaticos-de-ingles-diagnostico-tarefas-e-feedback-personalizad/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-adapta-livros-didaticos-de-ingles-diagnostico-tarefas-e-feedback-personalizad/</guid>
+      <pubDate>Fri, 04 Sep 2026 04:02:40 GMT</pubDate>
+      <description>Pesquisa em andamento sugere um novo paradigma para o ensino de idiomas, com potencial impacto no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.02981">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Thinking Machines pode captar US$ 1 bilhão com Accel, avaliada em US$ 40 bilhões</title>
       <link>https://pulsodaia.com.br/feed/thinking-machines-pode-captar-us-1-bilhao-com-accel-avaliada-em-us-40-bilhoes/</link>
@@ -439,24 +457,6 @@
       <description>Nova estrutura busca combater evasão e melhorar aprendizado em ambientes virtuais.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2608.26107">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>DeepMind testa avaliações de IA cegas para rigor científico</title>
-      <link>https://pulsodaia.com.br/feed/deepmind-testa-avaliacoes-de-ia-cegas-para-rigor-cientifico/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-testa-avaliacoes-de-ia-cegas-para-rigor-cientifico/</guid>
-      <pubDate>Thu, 27 Aug 2026 20:16:18 GMT</pubDate>
-      <description>A iniciativa busca eliminar vieses em testes de modelos de linguagem, um passo crucial para a confiabilidade no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Google DeepMind Libera Gemini Omni 1.1 Flash com Foco em Controle para Desenvolvedores</title>
-      <link>https://pulsodaia.com.br/feed/google-deepmind-libera-gemini-omni-1-1-flash-com-foco-em-controle-para-desenvolv/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-libera-gemini-omni-1-1-flash-com-foco-em-controle-para-desenvolv/</guid>
-      <pubDate>Thu, 27 Aug 2026 20:16:07 GMT</pubDate>
-      <description>A nova versão do modelo de linguagem promete maior precisão e flexibilidade na criação de aplicações de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/">Google DeepMind</source>
     </item>
   </channel>
 </rss>
