@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 04 Sep 2026 08:53:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 19:00:56 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Apple: John Ternus assume liderança em transição para nova era</title>
+      <link>https://pulsodaia.com.br/feed/apple-john-ternus-assume-lideranca-em-transicao-para-nova-era/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-john-ternus-assume-lideranca-em-transicao-para-nova-era/</guid>
+      <pubDate>Fri, 04 Sep 2026 18:55:56 GMT</pubDate>
+      <description>Com Tim Cook em novo papel, ex-chefe de hardware assume o leme da gigante de tecnologia, com um grande lançamento já na mira.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Nvidia quer transformar sua rede doméstica em um centro de dados para IA local</title>
       <link>https://pulsodaia.com.br/feed/nvidia-quer-transformar-sua-rede-domestica-em-um-centro-de-dados-para-ia-local/</link>
@@ -448,15 +457,6 @@
       <description>A inteligência artificial de reconhecimento de fala agora considera a diversidade linguística, um passo relevante para o Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/open-asr-leaderboard-global-south">Hugging Face</source>
-    </item>
-    <item>
-      <title>Modelos de Linguagem Ampliados Prometem Avanços em Gerenciamento de Baterias</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-ampliados-prometem-avancos-em-gerenciamento-de-baterias/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-ampliados-prometem-avancos-em-gerenciamento-de-baterias/</guid>
-      <pubDate>Fri, 28 Aug 2026 06:03:16 GMT</pubDate>
-      <description>Pesquisa aponta para novas abordagens para prever a vida útil e a saúde de baterias em veículos elétricos e armazenamento de energia.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.26111">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
