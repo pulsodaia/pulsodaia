@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 04 Sep 2026 04:07:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 08:53:22 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nvidia quer transformar sua rede doméstica em um centro de dados para IA local</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-quer-transformar-sua-rede-domestica-em-um-centro-de-dados-para-ia-local/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-quer-transformar-sua-rede-domestica-em-um-centro-de-dados-para-ia-local/</guid>
+      <pubDate>Fri, 04 Sep 2026 08:47:19 GMT</pubDate>
+      <description>A proposta da gigante de chips visa otimizar o processamento de tarefas de inteligência artificial em casa.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/">The Decoder</source>
+    </item>
+    <item>
+      <title>Cardápios gerados por IA: a uniformidade que afasta clientes</title>
+      <link>https://pulsodaia.com.br/feed/cardapios-gerados-por-ia-a-uniformidade-que-afasta-clientes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cardapios-gerados-por-ia-a-uniformidade-que-afasta-clientes/</guid>
+      <pubDate>Fri, 04 Sep 2026 08:47:09 GMT</pubDate>
+      <description>A promessa de agilidade na criação de menus por inteligência artificial encontra um obstáculo: a falta de originalidade percebida pelo consumidor.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA para Análise Corporativa: Controle e Previsibilidade em Foco</title>
       <link>https://pulsodaia.com.br/feed/ia-para-analise-corporativa-controle-e-previsibilidade-em-foco/</link>
@@ -439,24 +457,6 @@
       <description>Pesquisa aponta para novas abordagens para prever a vida útil e a saúde de baterias em veículos elétricos e armazenamento de energia.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2608.26111">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA em UTIs: Modelos Explicam Risco de Morte com Precisão Clínica</title>
-      <link>https://pulsodaia.com.br/feed/ia-em-utis-modelos-explicam-risco-de-morte-com-precisao-clinica/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-utis-modelos-explicam-risco-de-morte-com-precisao-clinica/</guid>
-      <pubDate>Fri, 28 Aug 2026 06:03:06 GMT</pubDate>
-      <description>Estudo aponta LLMs como ferramenta para traduzir dados complexos em narrativas compreensíveis para médicos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.26109">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>EduRiskX: IA Neuro-Simbolica para Prever Risco Academico</title>
-      <link>https://pulsodaia.com.br/feed/eduriskx-ia-neuro-simbolica-para-prever-risco-academico/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/eduriskx-ia-neuro-simbolica-para-prever-risco-academico/</guid>
-      <pubDate>Fri, 28 Aug 2026 06:02:56 GMT</pubDate>
-      <description>Nova estrutura busca combater evasão e melhorar aprendizado em ambientes virtuais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2608.26107">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
