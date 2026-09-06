@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 06 Sep 2026 15:23:54 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 23:50:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Gigantes da IA OpenAI e Microsoft Enfrentam Novo Processo por Violação de Direitos Autorais</title>
+      <link>https://pulsodaia.com.br/feed/gigantes-da-ia-openai-e-microsoft-enfrentam-novo-processo-por-violacao-de-direit/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gigantes-da-ia-openai-e-microsoft-enfrentam-novo-processo-por-violacao-de-direit/</guid>
+      <pubDate>Sun, 06 Sep 2026 23:45:58 GMT</pubDate>
+      <description>Jornais como Seattle Times e Newsday alegam uso indevido de seu conteúdo jornalístico em modelos de inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft">The Verge AI</source>
+    </item>
+    <item>
+      <title>Travis Kalanick mira robotáxis com a Atoms</title>
+      <link>https://pulsodaia.com.br/feed/travis-kalanick-mira-robotaxis-com-a-atoms/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/travis-kalanick-mira-robotaxis-com-a-atoms/</guid>
+      <pubDate>Sun, 06 Sep 2026 23:45:47 GMT</pubDate>
+      <description>O fundador do Uber pode estar buscando concluir negócios pendentes no setor de mobilidade autônoma.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Autores Contestam Divisão de Acordo da Anthropic</title>
+      <link>https://pulsodaia.com.br/feed/autores-contestam-divisao-de-acordo-da-anthropic/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/autores-contestam-divisao-de-acordo-da-anthropic/</guid>
+      <pubDate>Sun, 06 Sep 2026 23:45:38 GMT</pubDate>
+      <description>Disputa sobre direitos autorais em modelos de IA ganha contornos legais e comerciais.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Psiquiatria Debate Diagnóstico de "Psicose Associada à IA" Diante de Uso de Chatbots</title>
       <link>https://pulsodaia.com.br/feed/psiquiatria-debate-diagnostico-de-psicose-associada-a-ia-diante-de-uso-de-chatbo/</link>
@@ -430,33 +457,6 @@
       <description>A jogada da Nvidia com a MediaTek demonstra como a empresa pretende manter sua relevância em um cenário onde gigantes da tecnologia desenvolvem seus próprios semicondutores para inteligência artificial.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Clipto Atinge US$ 250 Milhões em Valor de Mercado com Busca de Vídeo por IA</title>
-      <link>https://pulsodaia.com.br/feed/clipto-atinge-us-250-milhoes-em-valor-de-mercado-com-busca-de-video-por-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/clipto-atinge-us-250-milhoes-em-valor-de-mercado-com-busca-de-video-por-ia/</guid>
-      <pubDate>Mon, 31 Aug 2026 17:30:14 GMT</pubDate>
-      <description>Empresa de três anos demonstra lucratividade e crescimento acelerado no setor de mídia com inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Psicologia da Busca por Informação Molda IA Explicável</title>
-      <link>https://pulsodaia.com.br/feed/psicologia-da-busca-por-informacao-molda-ia-explicavel/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/psicologia-da-busca-por-informacao-molda-ia-explicavel/</guid>
-      <pubDate>Mon, 31 Aug 2026 08:31:21 GMT</pubDate>
-      <description>Entender o usuário é crucial para o avanço da IA centrada no ser humano.</description>
-      <category>ANALISE</category>
-      <source url="https://arxiv.org/abs/2608.27464">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Teoria de Medição Rasch: Nova Lente para Avaliar Modelos de Linguagem</title>
-      <link>https://pulsodaia.com.br/feed/teoria-de-medicao-rasch-nova-lente-para-avaliar-modelos-de-linguagem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/teoria-de-medicao-rasch-nova-lente-para-avaliar-modelos-de-linguagem/</guid>
-      <pubDate>Mon, 31 Aug 2026 08:31:10 GMT</pubDate>
-      <description>Pesquisa sugere abordagem matemática para desmistificar a performance de LLMs, crucial para o mercado brasileiro.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.27463">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
