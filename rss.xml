@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 06 Sep 2026 04:11:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 10:47:57 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google Integra Geração de Música por IA no Gemini com Modelo Lyria 3.5</title>
+      <link>https://pulsodaia.com.br/feed/google-integra-geracao-de-musica-por-ia-no-gemini-com-modelo-lyria-3-5/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-integra-geracao-de-musica-por-ia-no-gemini-com-modelo-lyria-3-5/</guid>
+      <pubDate>Sun, 06 Sep 2026 10:42:45 GMT</pubDate>
+      <description>A novidade chega ao Brasil prometendo novas ferramentas para criadores e desenvolvedores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/">The Decoder</source>
+    </item>
+    <item>
+      <title>Astra da OpenAI Acelera Cronogramas Internos em Seis Meses</title>
+      <link>https://pulsodaia.com.br/feed/astra-da-openai-acelera-cronogramas-internos-em-seis-meses/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/astra-da-openai-acelera-cronogramas-internos-em-seis-meses/</guid>
+      <pubDate>Sun, 06 Sep 2026 10:42:33 GMT</pubDate>
+      <description>Ferramenta de desenvolvimento interna da OpenAI demonstra impacto significativo na produtividade.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/">The Decoder</source>
+    </item>
+    <item>
+      <title>Google abandona simulações físicas para prever tempo com dados de satélite</title>
+      <link>https://pulsodaia.com.br/feed/google-abandona-simulacoes-fisicas-para-prever-tempo-com-dados-de-satelite/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-abandona-simulacoes-fisicas-para-prever-tempo-com-dados-de-satelite/</guid>
+      <pubDate>Sun, 06 Sep 2026 10:42:22 GMT</pubDate>
+      <description>Nova abordagem do WeatherNext 3 promete maior detalhe e precisão para regiões com histórico de previsões limitadas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/">The Decoder</source>
+    </item>
     <item>
       <title>Claude Code Atualiza Versao com Foco em Estabilidade</title>
       <link>https://pulsodaia.com.br/feed/claude-code-atualiza-versao-com-foco-em-estabilidade/</link>
@@ -430,33 +457,6 @@
       <description>Um modelo de linguagem de código aberto agora processa 41 anos de perguntas e respostas de um dos maiores desafios de conhecimento.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2608.27459">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Turbinas a Gás de Musk: Acelerando a Produção com Risco Ambiental</title>
-      <link>https://pulsodaia.com.br/feed/turbinas-a-gas-de-musk-acelerando-a-producao-com-risco-ambiental/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/turbinas-a-gas-de-musk-acelerando-a-producao-com-risco-ambiental/</guid>
-      <pubDate>Sun, 30 Aug 2026 20:52:42 GMT</pubDate>
-      <description>A busca por energia mais rápida da SpaceX levanta preocupações sobre poluição em locais de instalação.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Caterpillar aplica experiência em mineração autônoma para acelerar implantação de IA</title>
-      <link>https://pulsodaia.com.br/feed/caterpillar-aplica-experiencia-em-mineracao-autonoma-para-acelerar-implantacao-d/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/caterpillar-aplica-experiencia-em-mineracao-autonoma-para-acelerar-implantacao-d/</guid>
-      <pubDate>Sun, 30 Aug 2026 16:29:54 GMT</pubDate>
-      <description>A gigante de equipamentos industriais transfere aprendizados de décadas de automação remota para o desenvolvimento de soluções de inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Nvidia Amplia Vantagem em IA Além das GPUs com Otimização de Sistemas</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-amplia-vantagem-em-ia-alem-das-gpus-com-otimizacao-de-sistemas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-amplia-vantagem-em-ia-alem-das-gpus-com-otimizacao-de-sistemas/</guid>
-      <pubDate>Sun, 30 Aug 2026 00:02:25 GMT</pubDate>
-      <description>A eficiência em data centers de IA avança com controle de tráfego inteligente, não apenas mais poder de processamento.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

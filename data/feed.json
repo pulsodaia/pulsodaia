@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-06T04:06:11.450Z",
+  "generated_at": "2026-09-06T10:42:48.923Z",
   "articles": [
+    {
+      "slug": "google-integra-geracao-de-musica-por-ia-no-gemini-com-modelo-lyria-3-5",
+      "headline": "Google Integra Geração de Música por IA no Gemini com Modelo Lyria 3.5",
+      "subtitle": "A novidade chega ao Brasil prometendo novas ferramentas para criadores e desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "musica",
+        "gemini"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 06 Sep 2026 09:56:24 +0000",
+      "written_at": "2026-09-06T10:42:45.902Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "astra-da-openai-acelera-cronogramas-internos-em-seis-meses",
+      "headline": "Astra da OpenAI Acelera Cronogramas Internos em Seis Meses",
+      "subtitle": "Ferramenta de desenvolvimento interna da OpenAI demonstra impacto significativo na produtividade.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "astra",
+        "produtividade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 06 Sep 2026 10:15:17 +0000",
+      "written_at": "2026-09-06T10:42:33.759Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-abandona-simulacoes-fisicas-para-prever-tempo-com-dados-de-satelite",
+      "headline": "Google abandona simulações físicas para prever tempo com dados de satélite",
+      "subtitle": "Nova abordagem do WeatherNext 3 promete maior detalhe e precisão para regiões com histórico de previsões limitadas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "meteorologia",
+        "google",
+        "previsão do tempo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 06 Sep 2026 10:36:35 +0000",
+      "written_at": "2026-09-06T10:42:22.883Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.webp"
+    },
     {
       "slug": "claude-code-atualiza-versao-com-foco-em-estabilidade",
       "headline": "Claude Code Atualiza Versao com Foco em Estabilidade",
