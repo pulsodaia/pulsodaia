@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 05 Sep 2026 23:48:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 04:11:02 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code Atualiza Versao com Foco em Estabilidade</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-versao-com-foco-em-estabilidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-versao-com-foco-em-estabilidade/</guid>
+      <pubDate>Sun, 06 Sep 2026 04:06:10 GMT</pubDate>
+      <description>A Anthropic lança atualizações pontuais para aprimorar a performance de seu modelo de código.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.263">Claude Code</source>
+    </item>
     <item>
       <title>Mais Veículos de Notícias Processam OpenAI e Microsoft por Uso de Conteúdo em Treinamento de IA</title>
       <link>https://pulsodaia.com.br/feed/mais-veiculos-de-noticias-processam-openai-e-microsoft-por-uso-de-conteudo-em-tr/</link>
@@ -448,15 +457,6 @@
       <description>A eficiência em data centers de IA avança com controle de tráfego inteligente, não apenas mais poder de processamento.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Vijay Pande: Menos apostas, mais precisão em investimentos de IA na biotecnologia</title>
-      <link>https://pulsodaia.com.br/feed/vijay-pande-menos-apostas-mais-precisao-em-investimentos-de-ia-na-biotecnologia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vijay-pande-menos-apostas-mais-precisao-em-investimentos-de-ia-na-biotecnologia/</guid>
-      <pubDate>Sun, 30 Aug 2026 00:02:14 GMT</pubDate>
-      <description>O ex-gestor de US$ 4 bilhões da a16z agora foca em um modelo mais seletivo para impulsionar a IA na medicina.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

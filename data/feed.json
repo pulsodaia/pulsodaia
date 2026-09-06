@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-09-05T23:43:12.899Z",
+  "generated_at": "2026-09-06T04:06:11.450Z",
   "articles": [
+    {
+      "slug": "claude-code-atualiza-versao-com-foco-em-estabilidade",
+      "headline": "Claude Code Atualiza Versao com Foco em Estabilidade",
+      "subtitle": "A Anthropic lança atualizações pontuais para aprimorar a performance de seu modelo de código.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "atualizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-06T02:54:20Z",
+      "written_at": "2026-09-06T04:06:10.661Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "mais-veiculos-de-noticias-processam-openai-e-microsoft-por-uso-de-conteudo-em-tr",
       "headline": "Mais Veículos de Notícias Processam OpenAI e Microsoft por Uso de Conteúdo em Treinamento de IA",
