@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2609.04239v1",
+  "title": "EXAONE Forecast for Finance",
+  "url": "https://arxiv.org/abs/2609.04239",
+  "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-scale pretraining. However, they are primarily developed for general-domain TS and largely rely on self-attention backbones whose computational cost grows quadratically with sequence length and variate count. Moreover, they assume fully observed inputs and are pretrained on corpora that fail to capture the unique dynamics of financial markets. These limitations hinder their applicability to finance, where long, many-channel, intermittently observed panels are common. To address these challenges, EXAONE Finance adopts an attention-free architecture, replacing self-attention with two simple yet effective linear-time operators: 1) a causal 1D convolution for temporal mixing and 2) a group-aware pooling multi-layer pe",
+  "published_at": "Mon, 07 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "EXAONE Finance: Novo Modelo de IA Focado em Previsão Financeira Desafia Limitações Atuais",
+  "subtitle": "Pesquisa aponta para um TSFM com arquitetura adaptada às complexidades dos mercados brasileiros.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo relatório técnico no arXiv, intitulado EXAONE Forecast for Finance (EXAONE Finance), apresenta um modelo de fundação para séries temporais (TSFM) especificamente projetado para a previsão financeira. A pesquisa aborda limitações de modelos atuais, como a dependência de auto-atenção e a dificuldade com dados financeiros esparsos.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores apresentaram o EXAONE Finance, um modelo de fundação para séries temporais (TSFM) voltado para a previsão em finanças. A publicação no arXiv detalha como os TSFMs existentes, embora eficazes em domínios gerais, enfrentam obstáculos quando aplicados a dados financeiros. Estes modelos frequentemente utilizam arquiteturas de auto-atenção, cujo custo computacional aumenta quadraticamente com o comprimento da sequência e o número de variáveis. Além disso, eles pressupõem entradas totalmente observadas e são treinados em corpora que não capturam as dinâmicas únicas dos mercados financeiros. O EXAONE Finance busca superar essas barreiras, propondo uma abordagem adaptada. Saiba mais sobre a pesquisa em [EXAONE Forecast for Finance](https://arxiv.org/abs/2609.04239).\n\n## Por que importa\n\nA aplicabilidade de modelos de IA em finanças é crucial para o mercado brasileiro. A natureza dos dados financeiros, frequentemente caracterizada por longas sequências temporais, múltiplos canais (variáveis) e observações intermitentes, desafia os TSFMs de domínio geral. Modelos que não lidam bem com essas características podem gerar previsões imprecisas ou serem computacionalmente proibitivos. Um modelo como o EXAONE Finance, se bem-sucedido em suas adaptações, poderia significar um avanço na capacidade de instituições financeiras brasileiras de prever tendências de mercado, gerenciar riscos e otimizar estratégias de investimento com maior precisão e eficiência, mesmo diante de dados incompletos ou de alta dimensionalidade.\n\n## O que esperar\n\nO EXAONE Finance adota uma arquitetura que visa solucionar as limitações mencionadas. Embora os detalhes técnicos específicos da arquitetura não estejam totalmente descritos no resumo fornecido, a intenção é criar um modelo mais robusto e eficiente para dados financeiros. A expectativa é que este TSFM ofereça melhor desempenho em cenários financeiros reais, onde a observação completa dos dados é rara e a quantidade de variáveis pode ser substancial. A pesquisa sugere um caminho para modelos de IA mais práticos e aplicáveis em finanças, potencialmente abrindo novas frentes de análise e previsão. Mais informações sobre as abordagens futuras e os resultados esperados podem ser encontradas no [artigo original](https://arxiv.org/abs/2609.04239).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores apresentaram o EXAONE Finance, um modelo de fundação para séries temporais (TSFM) voltado para a previsão em finanças. A publicação no arXiv detalha como os TSFMs existentes, embora eficazes em domínios gerais, enfrentam obstáculos quando aplicados a dados financeiros. Estes modelos frequentemente utilizam arquiteturas de auto-atenção, cujo custo computacional aumenta quadraticamente com o comprimento da sequência e o número de variáveis. Além disso, eles pressupõem entradas totalmente observadas e são treinados em corpora que não capturam as dinâmicas únicas dos mercados financeiros. O EXAONE Finance busca superar essas barreiras, propondo uma abordagem adaptada. Saiba mais sobre a pesquisa em <a href=\"https://arxiv.org/abs/2609.04239\" target=\"_blank\" rel=\"external noopener\">EXAONE Forecast for Finance</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A aplicabilidade de modelos de IA em finanças é crucial para o mercado brasileiro. A natureza dos dados financeiros, frequentemente caracterizada por longas sequências temporais, múltiplos canais (variáveis) e observações intermitentes, desafia os TSFMs de domínio geral. Modelos que não lidam bem com essas características podem gerar previsões imprecisas ou serem computacionalmente proibitivos. Um modelo como o EXAONE Finance, se bem-sucedido em suas adaptações, poderia significar um avanço na capacidade de instituições financeiras brasileiras de prever tendências de mercado, gerenciar riscos e otimizar estratégias de investimento com maior precisão e eficiência, mesmo diante de dados incompletos ou de alta dimensionalidade.</p>\n\n<h2>O que esperar</h2>\n\n<p>O EXAONE Finance adota uma arquitetura que visa solucionar as limitações mencionadas. Embora os detalhes técnicos específicos da arquitetura não estejam totalmente descritos no resumo fornecido, a intenção é criar um modelo mais robusto e eficiente para dados financeiros. A expectativa é que este TSFM ofereça melhor desempenho em cenários financeiros reais, onde a observação completa dos dados é rara e a quantidade de variáveis pode ser substancial. A pesquisa sugere um caminho para modelos de IA mais práticos e aplicáveis em finanças, potencialmente abrindo novas frentes de análise e previsão. Mais informações sobre as abordagens futuras e os resultados esperados podem ser encontradas no <a href=\"https://arxiv.org/abs/2609.04239\" target=\"_blank\" rel=\"external noopener\">artigo original</a>.</p>",
+  "tags": [
+    "ia",
+    "finanças",
+    "previsão"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "ia financeira",
+    "previsão de séries temporais",
+    "modelos de fundação",
+    "exaone finance",
+    "arxiv"
+  ],
+  "meta_description_seo": "EXAONE Finance é um novo modelo de IA para previsão financeira, superando limitações de modelos atuais em dados esparsos e complexos.",
+  "faq": [
+    {
+      "q": "O que é o EXAONE Finance?",
+      "a": "EXAONE Finance é um modelo de fundação para séries temporais (TSFM) desenvolvido especificamente para realizar previsões no setor financeiro. Ele foi projetado para lidar com as complexidades dos dados financeiros, como observações intermitentes e um grande número de variáveis."
+    },
+    {
+      "q": "Quais são as limitações dos modelos de IA atuais para finanças que o EXAONE Finance busca resolver?",
+      "a": "Os modelos de IA atuais para séries temporais geralmente dependem de arquiteturas de auto-atenção com alto custo computacional e assumem que todos os dados estão completos. Eles também são treinados em dados que não refletem as dinâmicas únicas dos mercados financeiros, o que o EXAONE Finance pretende corrigir."
+    },
+    {
+      "q": "Qual o impacto potencial do EXAONE Finance no mercado financeiro brasileiro?",
+      "a": "Um modelo mais eficaz para a previsão financeira pode permitir que instituições financeiras brasileiras melhorem a precisão de suas previsões de mercado, otimizem a gestão de riscos e aprimorem suas estratégias de investimento, mesmo com dados financeiros desafiadores."
+    }
+  ],
+  "written_at": "2026-09-07T04:05:16.690Z",
+  "slug": "exaone-finance-novo-modelo-de-ia-focado-em-previsao-financeira-desafia-limitacoe",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
