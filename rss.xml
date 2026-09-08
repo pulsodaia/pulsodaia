@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 08 Sep 2026 11:06:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 16:31:34 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>AlphaGenome Atlas: Mapa Preditivo de Alterações no DNA Humano</title>
+      <link>https://pulsodaia.com.br/feed/alphagenome-atlas-mapa-preditivo-de-alteracoes-no-dna-humano/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/alphagenome-atlas-mapa-preditivo-de-alteracoes-no-dna-humano/</guid>
+      <pubDate>Tue, 08 Sep 2026 16:26:52 GMT</pubDate>
+      <description>Google DeepMind divulga ferramenta que mapeia bilhões de variações genéticas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/">Google DeepMind</source>
+    </item>
     <item>
       <title>Mistral AI Capta 3 Bilhões de Euros, Recorde Europeu, Apesar de Atraso Competitivo</title>
       <link>https://pulsodaia.com.br/feed/mistral-ai-capta-3-bilhoes-de-euros-recorde-europeu-apesar-de-atraso-competitivo/</link>
@@ -448,15 +457,6 @@
       <description>Uma nova pesquisa aponta para a necessidade de modelos de memória multimodais para agentes de IA mais eficazes.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2608.28609">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>IA Desvenda Segredos Médicos da Antiguidade Indiana</title>
-      <link>https://pulsodaia.com.br/feed/ia-desvenda-segredos-medicos-da-antiguidade-indiana/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-desvenda-segredos-medicos-da-antiguidade-indiana/</guid>
-      <pubDate>Tue, 01 Sep 2026 04:39:27 GMT</pubDate>
-      <description>Modelos de linguagem processam textos milenares para trazer conhecimento médico ancestral para a era digital.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.28608">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>
