@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-08T16:26:52.566Z",
+  "generated_at": "2026-09-09T11:06:19.674Z",
   "articles": [
+    {
+      "slug": "memoria-em-agentes-de-ia-novo-benchmark-avalia-custo-e-utilidade-real",
+      "headline": "Memória em Agentes de IA: Novo Benchmark Avalia Custo e Utilidade Real",
+      "subtitle": "Estudo no arXiv questiona métricas atuais e propõe avaliação focada na execução de tarefas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.05441",
+      "category": "research",
+      "tags": [
+        "inteligencia artificial",
+        "memoria de longo prazo",
+        "agentes de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 09 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-09T11:06:19.620Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "criticgen-nova-abordagem-aponta-falhas-em-ia-com-feedback-direto",
+      "headline": "CriticGen: Nova Abordagem Aponta Falhas em IA com Feedback Direto",
+      "subtitle": "Pesquisa propõe sistema de avaliação que vai além de notas genéricas, focando em melhorias concretas para modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.05439",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "avaliacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 09 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-09T11:06:08.473Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-linguagem-gigantes-precisam-entender-nuances-sociais-nao-apenas-regra",
+      "headline": "Modelos de Linguagem Gigantes Precisam Entender Nuances Sociais, Não Apenas Regras",
+      "subtitle": "Pesquisa aponta para a necessidade de avaliar a capacidade de LLMs em prever consequências e reações a violações de normas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.05437",
+      "category": "research",
+      "tags": [
+        "ia",
+        "linguagem natural",
+        "alinhamento de ia"
+      ],
+      "read_time_min": 4,
+      "published_at": "Wed, 09 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-09T11:05:56.615Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "alphagenome-atlas-mapa-preditivo-de-alteracoes-no-dna-humano",
       "headline": "AlphaGenome Atlas: Mapa Preditivo de Alterações no DNA Humano",

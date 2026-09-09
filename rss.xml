@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 09 Sep 2026 04:19:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 11:11:33 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Memória em Agentes de IA: Novo Benchmark Avalia Custo e Utilidade Real</title>
+      <link>https://pulsodaia.com.br/feed/memoria-em-agentes-de-ia-novo-benchmark-avalia-custo-e-utilidade-real/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/memoria-em-agentes-de-ia-novo-benchmark-avalia-custo-e-utilidade-real/</guid>
+      <pubDate>Wed, 09 Sep 2026 11:06:19 GMT</pubDate>
+      <description>Estudo no arXiv questiona métricas atuais e propõe avaliação focada na execução de tarefas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.05441">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>CriticGen: Nova Abordagem Aponta Falhas em IA com Feedback Direto</title>
+      <link>https://pulsodaia.com.br/feed/criticgen-nova-abordagem-aponta-falhas-em-ia-com-feedback-direto/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/criticgen-nova-abordagem-aponta-falhas-em-ia-com-feedback-direto/</guid>
+      <pubDate>Wed, 09 Sep 2026 11:06:08 GMT</pubDate>
+      <description>Pesquisa propõe sistema de avaliação que vai além de notas genéricas, focando em melhorias concretas para modelos de linguagem.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.05439">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Modelos de Linguagem Gigantes Precisam Entender Nuances Sociais, Não Apenas Regras</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-precisam-entender-nuances-sociais-nao-apenas-regra/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-precisam-entender-nuances-sociais-nao-apenas-regra/</guid>
+      <pubDate>Wed, 09 Sep 2026 11:05:56 GMT</pubDate>
+      <description>Pesquisa aponta para a necessidade de avaliar a capacidade de LLMs em prever consequências e reações a violações de normas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.05437">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>AlphaGenome Atlas: Mapa Preditivo de Alterações no DNA Humano</title>
       <link>https://pulsodaia.com.br/feed/alphagenome-atlas-mapa-preditivo-de-alteracoes-no-dna-humano/</link>
@@ -430,33 +457,6 @@
       <description>Nova funcionalidade promete antecipar desejos de compra do usuário.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Hugging Face libera mais de 200 Kernels WebGPU para IA Local</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-libera-mais-de-200-kernels-webgpu-para-ia-local/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-libera-mais-de-200-kernels-webgpu-para-ia-local/</guid>
-      <pubDate>Tue, 01 Sep 2026 16:25:50 GMT</pubDate>
-      <description>Nova biblioteca da Hugging Face promete democratizar o acesso a modelos de IA no navegador.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/webgpu-kernels">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Workspace Ganha Ferramenta de Criação e Edição de Imagens com IA</title>
-      <link>https://pulsodaia.com.br/feed/google-workspace-ganha-ferramenta-de-criacao-e-edicao-de-imagens-com-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-workspace-ganha-ferramenta-de-criacao-e-edicao-de-imagens-com-ia/</guid>
-      <pubDate>Tue, 01 Sep 2026 16:25:36 GMT</pubDate>
-      <description>A novidade, batizada de Google Pics, promete agilizar a produção visual em documentos e apresentações.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/products-and-platforms/products/workspace/google-pics/">Google AI</source>
-    </item>
-    <item>
-      <title>Agentes de IA Precisam Lembrar da Percepção, Não Apenas do Que Foi Dito</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-precisam-lembrar-da-percepcao-nao-apenas-do-que-foi-dito/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-precisam-lembrar-da-percepcao-nao-apenas-do-que-foi-dito/</guid>
-      <pubDate>Tue, 01 Sep 2026 04:39:38 GMT</pubDate>
-      <description>Uma nova pesquisa aponta para a necessidade de modelos de memória multimodais para agentes de IA mais eficazes.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2608.28609">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

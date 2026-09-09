@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2609.05437v1",
+  "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+  "url": "https://arxiv.org/abs/2609.05437",
+  "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognition, but also on anticipating who will enforce it and how (e.g., public shame or even imprisonment). These second-order expectations, known as metanorms, govern how people respond when social rules are broken. We introduce a novel framework for evaluating metanorm reasoning in Large Language Models (LLMs) along two dimensions: emotional appraisal and behavioral response, and propose new classification tasks, namely, predicting self-regulation in violators, and other-regulation in observers. We release a multi-perspective dataset, NormReact, of 450 norm violation scenarios, hand-annotated for emotions and behavioral responses across norm violators' gender and observers' social closeness. Current LLMs portray a har",
+  "published_at": "Wed, 09 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Modelos de Linguagem Gigantes Precisam Entender Nuances Sociais, Não Apenas Regras",
+  "subtitle": "Pesquisa aponta para a necessidade de avaliar a capacidade de LLMs em prever consequências e reações a violações de normas.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "A inteligência social em modelos de linguagem grandes (LLMs) vai além do simples reconhecimento de regras. Uma nova pesquisa sugere que a capacidade de antecipar quem aplicará uma norma e como, um conceito conhecido como metanormas, é crucial para um comportamento verdadeiramente alinhado.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores introduziram um novo método para avaliar o raciocínio de metanormas em LLMs. O estudo, disponível no arXiv, argumenta que esforços anteriores de alinhamento de IA focaram excessivamente em normas de primeira ordem, como \"não roubar\". No entanto, a inteligência social humana envolve a compreensão de reações secundárias, como a vergonha pública ou consequências legais, que surgem quando regras são quebradas. O novo framework analisa duas dimensões: a avaliação emocional e a resposta comportamental. As tarefas de classificação propostas visam prever a autorregulação de infratores e a regulação de observadores, oferecendo um olhar mais profundo sobre a compreensão social dos modelos. O trabalho detalha essa abordagem em [Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models](https://arxiv.org/abs/2609.05437).\n\n## Por que importa\n\nNo Brasil, onde a adoção de ferramentas de IA em setores como atendimento ao cliente, criação de conteúdo e análise de dados avança rapidamente, a capacidade de um modelo de linguagem prever e reagir adequadamente a situações socialmente complexas é vital. Um LLM que apenas reconhece que roubo é errado, mas não entende as potenciais repercussões sociais e legais que um infrator pode enfrentar, pode falhar em gerar respostas que reflitam a complexidade das interações humanas. Isso pode levar a mal-entendidos, interações inadequadas ou até mesmo à perpetuação de vieses. Avaliar metanormas pode ser um passo importante para garantir que os LLMs operem de maneira mais segura e ética em contextos sociais diversos, evitando consequências não intencionais em aplicações empresariais e governamentais.\n\n## O que esperar\n\nA pesquisa propõe um conjunto de tarefas de classificação para testar essa capacidade. Uma delas envolve prever a probabilidade de um infrator se autocensurar ou se arrepender após violar uma norma. Outra tarefa foca em como observadores reagiriam à violação de uma norma, incluindo suas emoções e ações. A liberação de um conjunto de dados multi-perspectiva é parte integrante deste trabalho, visando facilitar futuras pesquisas na área. Espera-se que este framework e os dados associados impulsionem o desenvolvimento de LLMs com uma compreensão social mais sofisticada. A capacidade de modelar essas expectativas de segunda ordem é um passo adiante na busca por IA verdadeiramente alinhada com valores humanos, como detalhado em [este resumo da pesquisa](https://arxiv.org/abs/2609.05437). Os próximos passos provavelmente envolverão a expansão desses conjuntos de dados e a exploração de modelos mais avançados para capturar essas nuances.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores introduziram um novo método para avaliar o raciocínio de metanormas em LLMs. O estudo, disponível no arXiv, argumenta que esforços anteriores de alinhamento de IA focaram excessivamente em normas de primeira ordem, como \"não roubar\". No entanto, a inteligência social humana envolve a compreensão de reações secundárias, como a vergonha pública ou consequências legais, que surgem quando regras são quebradas. O novo framework analisa duas dimensões: a avaliação emocional e a resposta comportamental. As tarefas de classificação propostas visam prever a autorregulação de infratores e a regulação de observadores, oferecendo um olhar mais profundo sobre a compreensão social dos modelos. O trabalho detalha essa abordagem em <a href=\"https://arxiv.org/abs/2609.05437\" target=\"_blank\" rel=\"external noopener\">Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, onde a adoção de ferramentas de IA em setores como atendimento ao cliente, criação de conteúdo e análise de dados avança rapidamente, a capacidade de um modelo de linguagem prever e reagir adequadamente a situações socialmente complexas é vital. Um LLM que apenas reconhece que roubo é errado, mas não entende as potenciais repercussões sociais e legais que um infrator pode enfrentar, pode falhar em gerar respostas que reflitam a complexidade das interações humanas. Isso pode levar a mal-entendidos, interações inadequadas ou até mesmo à perpetuação de vieses. Avaliar metanormas pode ser um passo importante para garantir que os LLMs operem de maneira mais segura e ética em contextos sociais diversos, evitando consequências não intencionais em aplicações empresariais e governamentais.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa propõe um conjunto de tarefas de classificação para testar essa capacidade. Uma delas envolve prever a probabilidade de um infrator se autocensurar ou se arrepender após violar uma norma. Outra tarefa foca em como observadores reagiriam à violação de uma norma, incluindo suas emoções e ações. A liberação de um conjunto de dados multi-perspectiva é parte integrante deste trabalho, visando facilitar futuras pesquisas na área. Espera-se que este framework e os dados associados impulsionem o desenvolvimento de LLMs com uma compreensão social mais sofisticada. A capacidade de modelar essas expectativas de segunda ordem é um passo adiante na busca por IA verdadeiramente alinhada com valores humanos, como detalhado em <a href=\"https://arxiv.org/abs/2609.05437\" target=\"_blank\" rel=\"external noopener\">este resumo da pesquisa</a>. Os próximos passos provavelmente envolverão a expansão desses conjuntos de dados e a exploração de modelos mais avançados para capturar essas nuances.</p>",
+  "tags": [
+    "ia",
+    "linguagem natural",
+    "alinhamento de ia"
+  ],
+  "read_time_min": 4,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "modelos de linguagem grandes",
+    "metanormas",
+    "alinhamento de IA",
+    "inteligência social",
+    "avaliação de IA"
+  ],
+  "meta_description_seo": "Pesquisa avalia raciocínio de metanormas em LLMs, focando em reações sociais e comportamentais, além de normas básicas.",
+  "faq": [
+    {
+      "q": "O que são metanormas no contexto de IA?",
+      "a": "Metanormas referem-se às expectativas de segunda ordem sobre como as pessoas responderão quando regras sociais são quebradas, como antecipar quem aplicará uma norma e de que forma."
+    },
+    {
+      "q": "Por que as normas de primeira ordem não são suficientes para a IA?",
+      "a": "Normas de primeira ordem ensinam o que é aceitável ou não. Metanormas são necessárias para que a IA compreenda as consequências e reações sociais que ocorrem após uma violação, essencial para a inteligência social."
+    },
+    {
+      "q": "Qual o objetivo da nova pesquisa?",
+      "a": "O objetivo é desenvolver um framework para avaliar o raciocínio de metanormas em LLMs, analisando a avaliação emocional e a resposta comportamental a violações de normas sociais."
+    }
+  ],
+  "written_at": "2026-09-09T11:05:56.615Z",
+  "slug": "modelos-de-linguagem-gigantes-precisam-entender-nuances-sociais-nao-apenas-regra",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
