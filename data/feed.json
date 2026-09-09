@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-09T11:06:19.674Z",
+  "generated_at": "2026-09-09T16:23:15.332Z",
   "articles": [
+    {
+      "slug": "ibm-lanca-modelo-de-series-temporais-granite-com-licenca-comercial",
+      "headline": "IBM lança modelo de séries temporais Granite com licença comercial",
+      "subtitle": "A novidade da IBM promete otimizar a análise de dados sequenciais para empresas brasileiras.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "series temporais",
+        "ibm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 09 Sep 2026 15:36:24 GMT",
+      "written_at": "2026-09-09T16:23:15.105Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-deepmind-usa-ia-para-recriar-historia-de-amor-perdida-em-curta-metragem",
+      "headline": "Google DeepMind usa IA para recriar história de amor perdida em curta-metragem",
+      "subtitle": "Tecnologia de aprendizado de máquina dá vida a memórias não registradas, abrindo novas perspectivas para o storytelling.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "storytelling",
+        "memoria"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 09 Sep 2026 16:00:00 +0000",
+      "written_at": "2026-09-09T16:23:05.065Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "google-busca-aprimora-experiencia-de-futebol-com-novas-ferramentas-de-ia",
+      "headline": "Google Busca Aprimora Experiência de Futebol com Novas Ferramentas de IA",
+      "subtitle": "A gigante da tecnologia integra dados e recomendações personalizadas para fãs de futebol no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "category": "google",
+      "tags": [
+        "google",
+        "inteligência artificial",
+        "futebol"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 09 Sep 2026 16:00:00 +0000",
+      "written_at": "2026-09-09T16:22:51.569Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "memoria-em-agentes-de-ia-novo-benchmark-avalia-custo-e-utilidade-real",
       "headline": "Memória em Agentes de IA: Novo Benchmark Avalia Custo e Utilidade Real",
