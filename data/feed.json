@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-09-09T16:23:15.332Z",
+  "generated_at": "2026-09-09T20:48:43.155Z",
   "articles": [
+    {
+      "slug": "apple-lanca-iphone-duo-dobravel-e-apple-watch-sempre-ativo",
+      "headline": "Apple Lança iPhone Duo Dobrável e Apple Watch Sempre Ativo",
+      "subtitle": "A gigante de Cupertino anuncia suas novidades de outono, com foco em mobilidade e monitoramento contínuo.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+      "category": "mercado",
+      "tags": [
+        "apple",
+        "iphone",
+        "apple watch",
+        "dobrável"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 09 Sep 2026 20:03:43 +0000",
+      "written_at": "2026-09-09T20:48:42.983Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "apple-watch-ia-que-escuta-e-resume-conversas-levanta-debates-sobre-privacidade",
+      "headline": "Apple Watch: IA que escuta e resume conversas levanta debates sobre privacidade",
+      "subtitle": "Novas funcionalidades de IA no smartwatch da Apple levantam questões sobre consentimento e o comportamento humano em ambientes monitorados.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+      "category": "mercado",
+      "tags": [
+        "apple watch",
+        "ia",
+        "privacidade",
+        "consentimento"
+      ],
+      "read_time_min": 4,
+      "published_at": "Wed, 09 Sep 2026 20:24:48 +0000",
+      "written_at": "2026-09-09T20:48:24.185Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-atualiza-ferramentas-para-desenvolvedores-com-controle-de-esforco-e-",
+      "headline": "Claude Code Atualiza Ferramentas para Desenvolvedores com Controle de Esforço e Prompt Dinâmico",
+      "subtitle": "Novidades na plataforma de código da Anthropic visam otimizar a interação e o desenvolvimento com modelos de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-09T19:58:14Z",
+      "written_at": "2026-09-09T20:48:13.019Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ibm-lanca-modelo-de-series-temporais-granite-com-licenca-comercial",
       "headline": "IBM lança modelo de séries temporais Granite com licença comercial",

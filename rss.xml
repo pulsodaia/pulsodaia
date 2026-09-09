@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 09 Sep 2026 16:28:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 20:53:14 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Apple Lança iPhone Duo Dobrável e Apple Watch Sempre Ativo</title>
+      <link>https://pulsodaia.com.br/feed/apple-lanca-iphone-duo-dobravel-e-apple-watch-sempre-ativo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-lanca-iphone-duo-dobravel-e-apple-watch-sempre-ativo/</guid>
+      <pubDate>Wed, 09 Sep 2026 20:48:42 GMT</pubDate>
+      <description>A gigante de Cupertino anuncia suas novidades de outono, com foco em mobilidade e monitoramento contínuo.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Apple Watch: IA que escuta e resume conversas levanta debates sobre privacidade</title>
+      <link>https://pulsodaia.com.br/feed/apple-watch-ia-que-escuta-e-resume-conversas-levanta-debates-sobre-privacidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-watch-ia-que-escuta-e-resume-conversas-levanta-debates-sobre-privacidade/</guid>
+      <pubDate>Wed, 09 Sep 2026 20:48:24 GMT</pubDate>
+      <description>Novas funcionalidades de IA no smartwatch da Apple levantam questões sobre consentimento e o comportamento humano em ambientes monitorados.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Atualiza Ferramentas para Desenvolvedores com Controle de Esforço e Prompt Dinâmico</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-ferramentas-para-desenvolvedores-com-controle-de-esforco-e-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-ferramentas-para-desenvolvedores-com-controle-de-esforco-e-/</guid>
+      <pubDate>Wed, 09 Sep 2026 20:48:13 GMT</pubDate>
+      <description>Novidades na plataforma de código da Anthropic visam otimizar a interação e o desenvolvimento com modelos de linguagem.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.267">Claude Code</source>
+    </item>
     <item>
       <title>IBM lança modelo de séries temporais Granite com licença comercial</title>
       <link>https://pulsodaia.com.br/feed/ibm-lanca-modelo-de-series-temporais-granite-com-licenca-comercial/</link>
@@ -430,33 +457,6 @@
       <description>Atualização aborda problemas de compatibilidade com macOS e erros em sessões remotas.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.258">Claude Code</source>
-    </item>
-    <item>
-      <title>Benchmarking de LLMs: O que as métricas realmente medem?</title>
-      <link>https://pulsodaia.com.br/feed/benchmarking-de-llms-o-que-as-metricas-realmente-medem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/benchmarking-de-llms-o-que-as-metricas-realmente-medem/</guid>
-      <pubDate>Tue, 01 Sep 2026 23:56:12 GMT</pubDate>
-      <description>Pesquisa aponta falhas em avaliações padronizadas de modelos de linguagem.</description>
-      <category>ANALISE</category>
-      <source url="https://huggingface.co/blog/allenai/benchmirt">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Divulga Atualizações de IA de Agosto de 2026</title>
-      <link>https://pulsodaia.com.br/feed/google-divulga-atualizacoes-de-ia-de-agosto-de-2026/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-divulga-atualizacoes-de-ia-de-agosto-de-2026/</guid>
-      <pubDate>Tue, 01 Sep 2026 23:56:02 GMT</pubDate>
-      <description>Novidades em modelos e aplicações de inteligência artificial são anunciadas pela gigante da tecnologia.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/">Google AI</source>
-    </item>
-    <item>
-      <title>Google Android Avanca em Acessibilidade e Conforto Visual</title>
-      <link>https://pulsodaia.com.br/feed/google-android-avanca-em-acessibilidade-e-conforto-visual/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-android-avanca-em-acessibilidade-e-conforto-visual/</guid>
-      <pubDate>Tue, 01 Sep 2026 20:54:48 GMT</pubDate>
-      <description>Novas funcionalidades buscam mitigar enjoo de movimento e ampliar o uso para deficientes visuais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

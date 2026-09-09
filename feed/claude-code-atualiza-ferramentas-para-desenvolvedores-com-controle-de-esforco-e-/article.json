@@ -1,0 +1,53 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.267",
+  "title": "v2.1.267",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+  "summary": "<h2>What's changed</h2> <ul> <li>Added <code>maxEffortLevel</code> setting (top-level or per model under <code>modelSettings</code>): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level</li> <li>Added <code>--system-prompt-snapshot off</code> to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)</li> <li>Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing</li> <li>Fixed <code>/context</code> and other local command output rendering blank on mobile clients</li> <li>Fixed shift+enter and option+backspace not working after reconnecting to a tmux or ssh session inside an agent view</li> <li>Fixed the dim last-prompt header not appearing at the top of the conversation when scrolling up in fullscreen mode</li> <li>Fixed Workflow <code>agent()</code> calls with large output schemas ",
+  "published_at": "2026-09-09T19:58:14Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Atualiza Ferramentas para Desenvolvedores com Controle de Esforço e Prompt Dinâmico",
+  "subtitle": "Novidades na plataforma de código da Anthropic visam otimizar a interação e o desenvolvimento com modelos de linguagem.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão v2.1.267 do Claude Code, introduzindo ajustes significativos para desenvolvedores. As atualizações focam em maior controle sobre o processamento dos modelos de linguagem e na flexibilidade para testar prompts.",
+  "body_markdown": "## O que aconteceu\n\nA Anthropic lançou a atualização v2.1.267 de sua plataforma Claude Code. Entre as novidades, destaca-se a introdução da configuração `maxEffortLevel`. Esta funcionalidade permite aos usuários definir um nível máximo de esforço computacional para todos os provedores de modelos de linguagem suportados, incluindo Bedrock, Vertex e Foundry. O usuário ainda tem a opção de escolher um nível de esforço inferior, se desejar. Outra adição importante é o comando `--system-prompt-snapshot off`. Ao ativá-lo, o sistema renderiza o prompt do sistema de forma independente a cada solicitação, em vez de reutilizar o prompt registrado na conversa. Essa mudança é particularmente útil para iterar e refinar o texto do prompt.\n\nA atualização também corrige falhas. Tarefas agendadas no Cowork que falhavam na inicialização em organizações com configurações de gerenciamento que exigem sandboxing foram resolvidas. Além disso, a renderização de saídas em branco para comandos locais como `/context` em clientes móveis foi corrigida. Finalmente, a funcionalidade de `shift+enter` e `option+backspace` foi restaurada após reconexão em sessões tmux ou ssh dentro de visualizações de agente. Detalhes completos sobre as alterações podem ser encontrados no [repositório oficial do Claude Code](https://github.com/anthropics/claude-code/releases/tag/v2.1.267).\n\n## Por que importa\n\nPara o mercado brasileiro de desenvolvimento de IA, essas atualizações representam um avanço na eficiência e na precisão do trabalho com modelos de linguagem. A capacidade de controlar o `maxEffortLevel` pode ter implicações diretas no custo de processamento para empresas que utilizam a plataforma, permitindo uma gestão mais granular dos recursos. Isso é especialmente relevante em um cenário onde a otimização de custos é uma prioridade constante. A flexibilidade para renderizar prompts dinamicamente com `--system-prompt-snapshot off` agiliza o ciclo de desenvolvimento e experimentação, permitindo que equipes brasileiras testem novas abordagens e refinem a interação com os modelos de forma mais ágil. A correção de bugs em clientes móveis e em ambientes de nuvem também garante uma experiência de usuário mais estável e confiável, impactando positivamente a adoção e o uso contínuo da ferramenta.\n\n## O que esperar\n\nCom essas melhorias, espera-se que o Claude Code se torne uma ferramenta ainda mais robusta para desenvolvedores que buscam otimizar suas interações com modelos de IA. A capacidade de ajustar o esforço computacional pode levar a um uso mais eficiente e econômico dos recursos de IA, um ponto crucial para empresas de todos os portes no Brasil. A funcionalidade de prompt dinâmico abre portas para a criação de aplicações de IA mais adaptáveis e responsivas, onde a personalização da interação com o usuário final é fundamental. A resolução de problemas de conectividade e renderização em diferentes ambientes sugere um compromisso da Anthropic em oferecer uma experiência de usuário consistente. Para mais informações sobre o desenvolvimento e futuras iterações, consulte o [histórico de lançamentos do Claude Code](https://github.com/anthropics/claude-code/releases/tag/v2.1.267).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Anthropic lançou a atualização v2.1.267 de sua plataforma Claude Code. Entre as novidades, destaca-se a introdução da configuração <code>maxEffortLevel</code>. Esta funcionalidade permite aos usuários definir um nível máximo de esforço computacional para todos os provedores de modelos de linguagem suportados, incluindo Bedrock, Vertex e Foundry. O usuário ainda tem a opção de escolher um nível de esforço inferior, se desejar. Outra adição importante é o comando <code>--system-prompt-snapshot off</code>. Ao ativá-lo, o sistema renderiza o prompt do sistema de forma independente a cada solicitação, em vez de reutilizar o prompt registrado na conversa. Essa mudança é particularmente útil para iterar e refinar o texto do prompt.</p>\n\n<p>A atualização também corrige falhas. Tarefas agendadas no Cowork que falhavam na inicialização em organizações com configurações de gerenciamento que exigem sandboxing foram resolvidas. Além disso, a renderização de saídas em branco para comandos locais como <code>/context</code> em clientes móveis foi corrigida. Finalmente, a funcionalidade de <code>shift+enter</code> e <code>option+backspace</code> foi restaurada após reconexão em sessões tmux ou ssh dentro de visualizações de agente. Detalhes completos sobre as alterações podem ser encontrados no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.267\" target=\"_blank\" rel=\"external noopener\">repositório oficial do Claude Code</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de desenvolvimento de IA, essas atualizações representam um avanço na eficiência e na precisão do trabalho com modelos de linguagem. A capacidade de controlar o <code>maxEffortLevel</code> pode ter implicações diretas no custo de processamento para empresas que utilizam a plataforma, permitindo uma gestão mais granular dos recursos. Isso é especialmente relevante em um cenário onde a otimização de custos é uma prioridade constante. A flexibilidade para renderizar prompts dinamicamente com <code>--system-prompt-snapshot off</code> agiliza o ciclo de desenvolvimento e experimentação, permitindo que equipes brasileiras testem novas abordagens e refinem a interação com os modelos de forma mais ágil. A correção de bugs em clientes móveis e em ambientes de nuvem também garante uma experiência de usuário mais estável e confiável, impactando positivamente a adoção e o uso contínuo da ferramenta.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com essas melhorias, espera-se que o Claude Code se torne uma ferramenta ainda mais robusta para desenvolvedores que buscam otimizar suas interações com modelos de IA. A capacidade de ajustar o esforço computacional pode levar a um uso mais eficiente e econômico dos recursos de IA, um ponto crucial para empresas de todos os portes no Brasil. A funcionalidade de prompt dinâmico abre portas para a criação de aplicações de IA mais adaptáveis e responsivas, onde a personalização da interação com o usuário final é fundamental. A resolução de problemas de conectividade e renderização em diferentes ambientes sugere um compromisso da Anthropic em oferecer uma experiência de usuário consistente. Para mais informações sobre o desenvolvimento e futuras iterações, consulte o <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.267\" target=\"_blank\" rel=\"external noopener\">histórico de lançamentos do Claude Code</a>.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "desenvolvimento de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "IA",
+    "modelos de linguagem",
+    "desenvolvimento",
+    "prompt",
+    "controle de esforço",
+    "v2.1.267"
+  ],
+  "meta_description_seo": "Claude Code v2.1.267 traz controle de esforço e prompts dinâmicos, otimizando desenvolvimento de IA para o mercado.",
+  "faq": [
+    {
+      "q": "Quais as principais novidades do Claude Code v2.1.267?",
+      "a": "A versão introduz o controle de `maxEffortLevel` para limitar o esforço computacional e a opção `--system-prompt-snapshot off` para renderizar prompts de forma dinâmica a cada solicitação."
+    },
+    {
+      "q": "Como essas atualizações afetam o desenvolvimento de IA no Brasil?",
+      "a": "Elas permitem maior controle de custos de processamento e agilizam a experimentação com prompts, tornando o desenvolvimento de aplicações de IA mais eficiente e adaptável."
+    },
+    {
+      "q": "Houve correções de bugs importantes nesta versão?",
+      "a": "Sim, foram corrigidas falhas em tarefas agendadas na nuvem, renderização de comandos em clientes móveis e problemas de conectividade em sessões remotas."
+    }
+  ],
+  "written_at": "2026-09-09T20:48:13.019Z",
+  "slug": "claude-code-atualiza-ferramentas-para-desenvolvedores-com-controle-de-esforco-e-",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/67e5d6434083b770293342906e3fcd15a3bd0aefe02d96f58edee10922fdaeec/anthropics/claude-code/releases/tag/v2.1.267"
+}
