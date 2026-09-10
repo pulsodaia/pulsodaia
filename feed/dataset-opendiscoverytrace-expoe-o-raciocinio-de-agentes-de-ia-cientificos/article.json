@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2609.09203v1",
+  "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+  "url": "https://arxiv.org/abs/2609.09203",
+  "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic reasoning from fortunate guessing. We present \\textbf{OpenDiscoveryTrace}, a public dataset of 558 complete AI scientific agent trajectories that captures how models reason, not just what they produce. Each trajectory records a structured 9-field-per-step trace---including thoughts, tool calls, observations, errors, revision triggers, and self-reported confidence---as models execute 124 scientific tasks spanning drug discovery, materials science, genomics, and scientific literature analysis. The dataset covers seven models: three frontier models (GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro; 124 trajectories each, fully balanced across domains a",
+  "published_at": "Thu, 10 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Dataset OpenDiscoveryTrace Expõe o Raciocínio de Agentes de IA Científicos",
+  "subtitle": "Nova ferramenta em código aberto promete mais transparência e auditabilidade no desenvolvimento de pesquisas com inteligência artificial no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores lançaram o OpenDiscoveryTrace, um dataset que detalha o processo de raciocínio de agentes de IA em tarefas científicas. A iniciativa, disponível no arXiv, visa superar a limitação de benchmarks atuais que focam apenas nos resultados finais, negligenciando a metodologia por trás deles.",
+  "body_markdown": "## O que aconteceu\n\nUm novo dataset, intitulado OpenDiscoveryTrace, foi divulgado na plataforma arXiv (cs.AI) com o objetivo de fornecer uma visão mais profunda sobre como os agentes de IA realizam pesquisas científicas. Diferente das avaliações tradicionais que se concentram unicamente no produto final - como código gerado, hipóteses formuladas ou artigos publicados - o OpenDiscoveryTrace documenta a trajetória completa de 558 agentes de IA em 124 tarefas científicas diversas. Estas tarefas abrangem áreas como descoberta de drogas e ciência de materiais, permitindo a análise detalhada do processo de raciocínio. Cada passo registrado no dataset inclui informações estruturadas como pensamentos do agente, chamadas a ferramentas, observações, erros identificados, gatilhos para revisões e níveis de confiança autoavaliados. Essa riqueza de detalhes busca oferecer uma auditoria completa da metodologia científica empregada pelos modelos de IA. O trabalho completo pode ser acessado em [OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows](https://arxiv.org/abs/2609.09203).\n\n## Por que importa\n\nA falta de visibilidade sobre o processo de raciocínio de agentes de IA tem sido um obstáculo significativo para a adoção e confiança em suas aplicações científicas. No contexto brasileiro, onde a pesquisa e o desenvolvimento em IA estão em expansão, a capacidade de auditar a metodologia é crucial. O OpenDiscoveryTrace permite identificar falhas no processo de aprendizado e raciocínio, em vez de apenas atribuir sucesso ou fracasso a um resultado final. Isso é fundamental para distinguir um raciocínio sistemático de um acerto fortuito. Para empresas e instituições de pesquisa no Brasil, o dataset abre portas para a otimização de fluxos de trabalho de IA, a melhoria contínua dos modelos e a garantia de que as descobertas geradas por IA sigam rigor científico. A capacidade de diagnosticar e corrigir modos de falha específicos no processo de raciocínio é um avanço importante para a confiabilidade da IA em domínios críticos.\n\n## O que esperar\n\nCom a disponibilização do OpenDiscoveryTrace, espera-se um avanço na criação de benchmarks mais robustos para a avaliação de agentes de IA científicos. A comunidade de pesquisa, tanto global quanto brasileira, poderá utilizar este dataset para desenvolver novas métricas e métodos de avaliação que considerem a qualidade do processo, não apenas o resultado. Isso pode levar ao desenvolvimento de agentes de IA mais confiáveis e transparentes. A expectativa é que estudos futuros se aprofundem na análise das diferentes estratégias de raciocínio empregadas pelos modelos, permitindo a identificação de padrões de sucesso e áreas de melhoria. A pesquisa detalhada sobre o funcionamento interno desses sistemas é um passo necessário para a sua integração segura e eficaz em diversas frentes científicas. Mais informações sobre a motivação e o escopo do projeto podem ser encontradas no [resumo do artigo](https://arxiv.org/abs/2609.09203). A longo prazo, a transparência no processo de descoberta científica impulsionada por IA pode acelerar o ritmo de inovações em áreas como saúde e sustentabilidade.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo dataset, intitulado OpenDiscoveryTrace, foi divulgado na plataforma arXiv (cs.AI) com o objetivo de fornecer uma visão mais profunda sobre como os agentes de IA realizam pesquisas científicas. Diferente das avaliações tradicionais que se concentram unicamente no produto final - como código gerado, hipóteses formuladas ou artigos publicados - o OpenDiscoveryTrace documenta a trajetória completa de 558 agentes de IA em 124 tarefas científicas diversas. Estas tarefas abrangem áreas como descoberta de drogas e ciência de materiais, permitindo a análise detalhada do processo de raciocínio. Cada passo registrado no dataset inclui informações estruturadas como pensamentos do agente, chamadas a ferramentas, observações, erros identificados, gatilhos para revisões e níveis de confiança autoavaliados. Essa riqueza de detalhes busca oferecer uma auditoria completa da metodologia científica empregada pelos modelos de IA. O trabalho completo pode ser acessado em <a href=\"https://arxiv.org/abs/2609.09203\" target=\"_blank\" rel=\"external noopener\">OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A falta de visibilidade sobre o processo de raciocínio de agentes de IA tem sido um obstáculo significativo para a adoção e confiança em suas aplicações científicas. No contexto brasileiro, onde a pesquisa e o desenvolvimento em IA estão em expansão, a capacidade de auditar a metodologia é crucial. O OpenDiscoveryTrace permite identificar falhas no processo de aprendizado e raciocínio, em vez de apenas atribuir sucesso ou fracasso a um resultado final. Isso é fundamental para distinguir um raciocínio sistemático de um acerto fortuito. Para empresas e instituições de pesquisa no Brasil, o dataset abre portas para a otimização de fluxos de trabalho de IA, a melhoria contínua dos modelos e a garantia de que as descobertas geradas por IA sigam rigor científico. A capacidade de diagnosticar e corrigir modos de falha específicos no processo de raciocínio é um avanço importante para a confiabilidade da IA em domínios críticos.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a disponibilização do OpenDiscoveryTrace, espera-se um avanço na criação de benchmarks mais robustos para a avaliação de agentes de IA científicos. A comunidade de pesquisa, tanto global quanto brasileira, poderá utilizar este dataset para desenvolver novas métricas e métodos de avaliação que considerem a qualidade do processo, não apenas o resultado. Isso pode levar ao desenvolvimento de agentes de IA mais confiáveis e transparentes. A expectativa é que estudos futuros se aprofundem na análise das diferentes estratégias de raciocínio empregadas pelos modelos, permitindo a identificação de padrões de sucesso e áreas de melhoria. A pesquisa detalhada sobre o funcionamento interno desses sistemas é um passo necessário para a sua integração segura e eficaz em diversas frentes científicas. Mais informações sobre a motivação e o escopo do projeto podem ser encontradas no <a href=\"https://arxiv.org/abs/2609.09203\" target=\"_blank\" rel=\"external noopener\">resumo do artigo</a>. A longo prazo, a transparência no processo de descoberta científica impulsionada por IA pode acelerar o ritmo de inovações em áreas como saúde e sustentabilidade.</p>",
+  "tags": [
+    "ia",
+    "pesquisa cientifica",
+    "dataset"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "agentes de IA",
+    "metodologia científica",
+    "transparência",
+    "OpenDiscoveryTrace",
+    "dataset de IA",
+    "raciocínio de IA"
+  ],
+  "meta_description_seo": "Dataset OpenDiscoveryTrace expõe o processo de raciocínio de agentes de IA científicos, prometendo maior transparência e auditabilidade.",
+  "faq": [
+    {
+      "q": "O que é o OpenDiscoveryTrace?",
+      "a": "É um novo dataset que documenta o processo completo de raciocínio de agentes de IA em tarefas científicas, indo além da avaliação de resultados finais."
+    },
+    {
+      "q": "Qual a importância deste dataset para a pesquisa em IA?",
+      "a": "Ele permite auditar a metodologia científica de agentes de IA, diagnosticar falhas no raciocínio e distinguir entre raciocínio sistemático e acertos aleatórios, aumentando a confiabilidade."
+    },
+    {
+      "q": "Que tipos de tarefas científicas foram incluídas no dataset?",
+      "a": "O dataset cobre 124 tarefas científicas, incluindo áreas como descoberta de drogas e ciência de materiais, detalhando o passo a passo do raciocínio dos agentes."
+    }
+  ],
+  "written_at": "2026-09-10T04:11:09.133Z",
+  "slug": "dataset-opendiscoverytrace-expoe-o-raciocinio-de-agentes-de-ia-cientificos",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-09T23:59:54.272Z",
+  "generated_at": "2026-09-10T04:11:29.661Z",
   "articles": [
+    {
+      "slug": "subagentes-nova-abordagem-para-tarefas-de-ia-de-longo-prazo",
+      "headline": "Subagentes: Nova Abordagem para Tarefas de IA de Longo Prazo",
+      "subtitle": "Pesquisa no arXiv propõe arquitetura para melhorar a execução de tarefas complexas por modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.09233",
+      "category": "research",
+      "tags": [
+        "agentes de ia",
+        "modelos de linguagem",
+        "aprendizado de máquina",
+        "pesquisa em ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-10T04:11:29.620Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-adaptativos-em-ia-geram-padroes-de-decisao-inesperados-no-mercado-financ",
+      "headline": "Agentes Adaptativos em IA Geram Padrões de Decisão Inesperados no Mercado Financeiro",
+      "subtitle": "Um novo estudo sugere que a inteligência artificial pode modelar comportamentos coletivos complexos, desafiando modelos econômicos tradicionais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.09226",
+      "category": "research",
+      "tags": [
+        "ia",
+        "mercado financeiro",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-10T04:11:19.368Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "dataset-opendiscoverytrace-expoe-o-raciocinio-de-agentes-de-ia-cientificos",
+      "headline": "Dataset OpenDiscoveryTrace Expõe o Raciocínio de Agentes de IA Científicos",
+      "subtitle": "Nova ferramenta em código aberto promete mais transparência e auditabilidade no desenvolvimento de pesquisas com inteligência artificial no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.09203",
+      "category": "research",
+      "tags": [
+        "ia",
+        "pesquisa cientifica",
+        "dataset"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-10T04:11:09.133Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "suno-lanca-modelo-de-musica-com-apoio-da-industria-fonografica",
       "headline": "Suno Lança Modelo de Música com Apoio da Indústria Fonográfica",
