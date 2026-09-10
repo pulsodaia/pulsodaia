@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-09T20:48:43.155Z",
+  "generated_at": "2026-09-09T23:59:54.272Z",
   "articles": [
+    {
+      "slug": "suno-lanca-modelo-de-musica-com-apoio-da-industria-fonografica",
+      "headline": "Suno Lança Modelo de Música com Apoio da Indústria Fonográfica",
+      "subtitle": "A nova versão do modelo de IA musical da Suno é a primeira treinada com dados licenciados, sinalizando uma nova fase na relação entre tecnologia e direitos autorais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "category": "mercado",
+      "tags": [
+        "ia musical",
+        "suno",
+        "direitos autorais"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-09T17:42:19-04:00",
+      "written_at": "2026-09-09T23:59:53.780Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "massachusetts-impoe-novas-regras-de-energia-limpa-para-data-centers",
+      "headline": "Massachusetts impõe novas regras de energia limpa para data centers",
+      "subtitle": "A medida estadual reflete uma crescente preocupação com o consumo energético da infraestrutura de IA no Brasil e no mundo.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+      "category": "mercado",
+      "tags": [
+        "data centers",
+        "energia limpa",
+        "regulamentação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 09 Sep 2026 21:43:34 +0000",
+      "written_at": "2026-09-09T23:59:42.609Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "openai-inclui-pesquisador-cetico-em-conselho-da-fundacao",
+      "headline": "OpenAI Inclui Pesquisador Cético em Conselho da Fundação",
+      "subtitle": "Nomeação de Paul Christiano para a OpenAI Foundation levanta debates sobre o futuro da inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "inteligencia artificial",
+        "alinhamento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 09 Sep 2026 22:25:22 +0000",
+      "written_at": "2026-09-09T23:59:29.816Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "apple-lanca-iphone-duo-dobravel-e-apple-watch-sempre-ativo",
       "headline": "Apple Lança iPhone Duo Dobrável e Apple Watch Sempre Ativo",
