@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-10T04:11:29.661Z",
+  "generated_at": "2026-09-10T16:12:56.128Z",
   "articles": [
+    {
+      "slug": "agentes-de-ia-sobrecarregam-servicos-publicos-com-novas-solicitacoes",
+      "headline": "Agentes de IA sobrecarregam serviços públicos com novas solicitações",
+      "subtitle": "A automação impulsionada por inteligência artificial começa a gerar um volume inédito de requisições em órgãos governamentais.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "servicos publicos",
+        "automacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 14:53:50 +0000",
+      "written_at": "2026-09-10T16:12:55.972Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "automatic1111-adota-workflow-gradio-para-refinar-geracao-de-imagens",
+      "headline": "AUTOMATIC1111 Adota Workflow Gradio para Refinar Geração de Imagens",
+      "subtitle": "A plataforma popular de interface para Stable Diffusion passa por uma reformulação focada em eficiência e modularidade.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "category": "opensource",
+      "tags": [
+        "automatic1111",
+        "gradio",
+        "stable diffusion"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "written_at": "2026-09-10T16:12:45.110Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-search-otimiza-preparacao-para-corredores-com-novas-ferramentas-de-ia",
+      "headline": "Google Search Otimiza Preparação para Corredores com Novas Ferramentas de IA",
+      "subtitle": "Plataforma de busca integra funcionalidades para auxiliar atletas amadores e profissionais no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "category": "google",
+      "tags": [
+        "google search",
+        "inteligência artificial",
+        "corrida"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 16:00:00 +0000",
+      "written_at": "2026-09-10T16:12:34.331Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "subagentes-nova-abordagem-para-tarefas-de-ia-de-longo-prazo",
       "headline": "Subagentes: Nova Abordagem para Tarefas de IA de Longo Prazo",
