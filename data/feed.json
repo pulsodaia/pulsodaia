@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-10T16:12:56.128Z",
+  "generated_at": "2026-09-10T23:56:07.437Z",
   "articles": [
+    {
+      "slug": "mark-wahlberg-em-evento-de-tecnologia-foca-em-empreendedorismo-nao-em-hollywood",
+      "headline": "Mark Wahlberg em evento de tecnologia foca em empreendedorismo, não em Hollywood",
+      "subtitle": "Atores renomados diversificam investimentos e buscam aprendizado em startups.",
+      "eyebrow_category": "FOUNDERS",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+      "category": "mercado",
+      "tags": [
+        "mark wahlberg",
+        "techcrunch disrupt",
+        "empreendedorismo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 21:35:00 +0000",
+      "written_at": "2026-09-10T23:56:07.351Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-projeta-crescimento-de-70-para-o-proximo-ano-segundo-jensen-huang",
+      "headline": "Nvidia projeta crescimento de 70% para o próximo ano, segundo Jensen Huang",
+      "subtitle": "O CEO da gigante de semicondutores detalha a estratégia por trás da expansão agressiva em um mercado cada vez mais dependente de hardware para IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 21:51:59 +0000",
+      "written_at": "2026-09-10T23:55:57.456Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-v2-1-268-aperfeicoa-controle-e-seguranca-de-gateways-de-ia",
+      "headline": "Claude Code V2.1.268 Aperfeiçoa Controle e Segurança de Gateways de IA",
+      "subtitle": "Atualização foca em governança de custos e acesso para implementações corporativas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "gateways de ia",
+        "controle de acesso"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-10T20:30:54Z",
+      "written_at": "2026-09-10T23:55:46.404Z",
+      "quality_score": 0.87,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "agentes-de-ia-sobrecarregam-servicos-publicos-com-novas-solicitacoes",
       "headline": "Agentes de IA sobrecarregam serviços públicos com novas solicitações",
