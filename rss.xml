@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 11 Sep 2026 00:01:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 04:17:57 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Aprende Conceitos, Nao Apenas Palavras, Com Novo Modelo</title>
+      <link>https://pulsodaia.com.br/feed/ia-aprende-conceitos-nao-apenas-palavras-com-novo-modelo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-conceitos-nao-apenas-palavras-com-novo-modelo/</guid>
+      <pubDate>Fri, 11 Sep 2026 04:10:53 GMT</pubDate>
+      <description>Pesquisa aponta para um avanco na compreensao de modelos de linguagem.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.10715">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>IA aprende com pouquíssimos dados: um caminho para modelos mais eficientes</title>
+      <link>https://pulsodaia.com.br/feed/ia-aprende-com-pouquissimos-dados-um-caminho-para-modelos-mais-eficientes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-com-pouquissimos-dados-um-caminho-para-modelos-mais-eficientes/</guid>
+      <pubDate>Fri, 11 Sep 2026 04:10:41 GMT</pubDate>
+      <description>Pesquisa explora como modelos de linguagem podem alcançar alta performance com corpora reduzidos, um avanço crucial para o mercado brasileiro.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.10702">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>Mark Wahlberg em evento de tecnologia foca em empreendedorismo, não em Hollywood</title>
       <link>https://pulsodaia.com.br/feed/mark-wahlberg-em-evento-de-tecnologia-foca-em-empreendedorismo-nao-em-hollywood/</link>
@@ -439,24 +457,6 @@
       <description>A gigante de venture capital Accel estaria liderando uma rodada de investimento expressiva para a startup de IA Thinking Machines.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Google DeepMind Avança Previsão do Tempo com Modelo de IA WeatherNext 3</title>
-      <link>https://pulsodaia.com.br/feed/google-deepmind-avanca-previsao-do-tempo-com-modelo-de-ia-weathernext-3/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-avanca-previsao-do-tempo-com-modelo-de-ia-weathernext-3/</guid>
-      <pubDate>Thu, 03 Sep 2026 19:13:45 GMT</pubDate>
-      <description>Nova geração de modelo promete maior acurácia e detalhe para previsões globais, com potencial impacto no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Agentes de Código Ganham Memória Própria com Nova Ferramenta da Hugging Face</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-codigo-ganham-memoria-propria-com-nova-ferramenta-da-hugging-face/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-codigo-ganham-memoria-propria-com-nova-ferramenta-da-hugging-face/</guid>
-      <pubDate>Thu, 03 Sep 2026 14:19:19 GMT</pubDate>
-      <description>Desenvolvedores brasileiros podem ter mais controle sobre o histórico de interações de suas IAs.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/funes">Hugging Face</source>
     </item>
   </channel>
 </rss>

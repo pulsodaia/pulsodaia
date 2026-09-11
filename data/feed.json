@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-09-10T23:56:07.437Z",
+  "generated_at": "2026-09-11T04:10:53.567Z",
   "articles": [
+    {
+      "slug": "ia-aprende-conceitos-nao-apenas-palavras-com-novo-modelo",
+      "headline": "IA Aprende Conceitos, Nao Apenas Palavras, Com Novo Modelo",
+      "subtitle": "Pesquisa aponta para um avanco na compreensao de modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2609.10715",
+      "category": "research",
+      "tags": [
+        "modelos de linguagem",
+        "previsao de conceito",
+        "arquitetura de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-11T04:10:53.459Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-aprende-com-pouquissimos-dados-um-caminho-para-modelos-mais-eficientes",
+      "headline": "IA aprende com pouquíssimos dados: um caminho para modelos mais eficientes",
+      "subtitle": "Pesquisa explora como modelos de linguagem podem alcançar alta performance com corpora reduzidos, um avanço crucial para o mercado brasileiro.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2609.10702",
+      "category": "research",
+      "tags": [
+        "eficiencia de dados",
+        "modelos de linguagem",
+        "pesquisa em ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 11 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-11T04:10:41.982Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "mark-wahlberg-em-evento-de-tecnologia-foca-em-empreendedorismo-nao-em-hollywood",
       "headline": "Mark Wahlberg em evento de tecnologia foca em empreendedorismo, não em Hollywood",
