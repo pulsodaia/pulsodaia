@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2609.10584v1",
+  "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+  "url": "https://arxiv.org/abs/2609.10584",
+  "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier nodes eligible under the threshold $w f_{\\min}$, but its deterministic policy may leave $f_{\\min}$ unchanged for many expansions. We introduce Probabilistic Focal Search (PFS), which follows the FS guided choice with probability $p$ and expands a minimum-$f$ OPEN node with probability $1-p$. The latter branch encourages the lower bound to advance, enlarging FOCAL and admitting nodes that may lead to feasible solutions. By balancing guidance and lower-bound advancement, this mechanism can reduce time to a bounded solution when progress is limited by delayed FOCAL admission. As a secondary transfer experiment, we apply the same scheduler to Dynamic Potential Search, yielding Probabilistic Dynamic Potential Search (PDPS). We benchmark PFS against FS on N-Puzzle, Pancake S",
+  "published_at": "Sat, 12 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Busca Probabilística Acelera Soluções em IA com Limites Definidos",
+  "subtitle": "Nova abordagem no arXiv promete otimizar a eficiência em sistemas de busca com restrições.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores apresentaram um método de busca probabilística que visa aprimorar a velocidade na obtenção de soluções aproximadas em problemas de IA. A técnica, detalhada em artigo no arXiv, introduz aleatoriedade controlada para superar gargalos em algoritmos existentes.",
+  "body_markdown": "## O que aconteceu\n\nUma nova metodologia, denominada Probabilistic Focal Search (PFS), foi introduzida em um artigo publicado no repositório arXiv. O objetivo central da PFS é otimizar a busca por soluções em problemas de inteligência artificial que possuem um limite de qualidade definido. Em vez de buscar a solução absolutamente ótima, que pode ser computacionalmente proibitiva, a PFS visa encontrar uma solução dentro de uma margem aceitável (um fator $w$) de forma mais eficiente. A abordagem se diferencia da Focal Search (FS) tradicional por adicionar um componente probabilístico. Enquanto a FS expande nós candidatos dentro de uma fronteira definida por um limiar ($w f_{\\min}$), a PFS, com probabilidade $p$, segue a orientação da FS, mas com probabilidade $1-p$, expande um nó com o menor valor de custo estimado ($f$). Essa variação visa estimular o avanço do limite inferior da busca, o que, por sua vez, pode ampliar a fronteira de nós elegíveis e, consequentemente, admitir caminhos para soluções viáveis mais rapidamente. A publicação original pode ser acessada em [arXiv:2609.10584](https://arxiv.org/abs/2609.10584).\n\n## Por que importa\n\nA eficiência em algoritmos de busca é um pilar para o desenvolvimento de sistemas de IA mais práticos e acessíveis, especialmente no contexto brasileiro. Muitas aplicações, desde otimização de rotas logísticas até a tomada de decisão em sistemas autônomos, dependem de encontrar soluções satisfatórias em tempo hábil. Algoritmos que consomem tempo excessivo para atingir a otimalidade perfeita podem inviabilizar seu uso em cenários dinâmicos. A PFS propõe uma forma de contornar a estagnação que pode ocorrer em métodos determinísticos, onde o progresso é limitado pela lentidão na admissão de novos nós promissores. Ao introduzir a expansão de nós com o menor custo estimado, mesmo que não estejam estritamente dentro da fronteira atual da FS, a PFS busca acelerar a convergência para soluções que satisfaçam as restrições de qualidade, o que pode ser particularmente valioso para empresas brasileiras que buscam otimizar suas operações com ferramentas de IA.\n\n## O que esperar\n\nA introdução da Probabilistic Focal Search abre caminho para novas investigações e otimizações em algoritmos de busca. A pesquisa sugere que o ajuste fino da probabilidade $p$ pode ser crucial para maximizar os ganhos de desempenho em diferentes tipos de problemas. Espera-se que futuras investigações explorem a aplicabilidade da PFS em domínios específicos, como planejamento de robôs, resolução de quebra-cabeças complexos e até mesmo em áreas como design de experimentos e otimização de recursos. A capacidade de equilibrar a exploração guiada pela heurística com a exploração mais ampla para avançar o limite inferior da busca é um ponto forte que pode levar a melhorias significativas em sistemas que exigem respostas rápidas e de qualidade garantida, ainda que não estritamente ótima. Mais detalhes sobre a metodologia podem ser encontrados em [outras publicações sobre busca em IA](https://arxiv.org/abs/2609.10584).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Uma nova metodologia, denominada Probabilistic Focal Search (PFS), foi introduzida em um artigo publicado no repositório arXiv. O objetivo central da PFS é otimizar a busca por soluções em problemas de inteligência artificial que possuem um limite de qualidade definido. Em vez de buscar a solução absolutamente ótima, que pode ser computacionalmente proibitiva, a PFS visa encontrar uma solução dentro de uma margem aceitável (um fator $w$) de forma mais eficiente. A abordagem se diferencia da Focal Search (FS) tradicional por adicionar um componente probabilístico. Enquanto a FS expande nós candidatos dentro de uma fronteira definida por um limiar ($w f_{\\min}$), a PFS, com probabilidade $p$, segue a orientação da FS, mas com probabilidade $1-p$, expande um nó com o menor valor de custo estimado ($f$). Essa variação visa estimular o avanço do limite inferior da busca, o que, por sua vez, pode ampliar a fronteira de nós elegíveis e, consequentemente, admitir caminhos para soluções viáveis mais rapidamente. A publicação original pode ser acessada em <a href=\"https://arxiv.org/abs/2609.10584\" target=\"_blank\" rel=\"external noopener\">arXiv:2609.10584</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A eficiência em algoritmos de busca é um pilar para o desenvolvimento de sistemas de IA mais práticos e acessíveis, especialmente no contexto brasileiro. Muitas aplicações, desde otimização de rotas logísticas até a tomada de decisão em sistemas autônomos, dependem de encontrar soluções satisfatórias em tempo hábil. Algoritmos que consomem tempo excessivo para atingir a otimalidade perfeita podem inviabilizar seu uso em cenários dinâmicos. A PFS propõe uma forma de contornar a estagnação que pode ocorrer em métodos determinísticos, onde o progresso é limitado pela lentidão na admissão de novos nós promissores. Ao introduzir a expansão de nós com o menor custo estimado, mesmo que não estejam estritamente dentro da fronteira atual da FS, a PFS busca acelerar a convergência para soluções que satisfaçam as restrições de qualidade, o que pode ser particularmente valioso para empresas brasileiras que buscam otimizar suas operações com ferramentas de IA.</p>\n\n<h2>O que esperar</h2>\n\n<p>A introdução da Probabilistic Focal Search abre caminho para novas investigações e otimizações em algoritmos de busca. A pesquisa sugere que o ajuste fino da probabilidade $p$ pode ser crucial para maximizar os ganhos de desempenho em diferentes tipos de problemas. Espera-se que futuras investigações explorem a aplicabilidade da PFS em domínios específicos, como planejamento de robôs, resolução de quebra-cabeças complexos e até mesmo em áreas como design de experimentos e otimização de recursos. A capacidade de equilibrar a exploração guiada pela heurística com a exploração mais ampla para avançar o limite inferior da busca é um ponto forte que pode levar a melhorias significativas em sistemas que exigem respostas rápidas e de qualidade garantida, ainda que não estritamente ótima. Mais detalhes sobre a metodologia podem ser encontrados em <a href=\"https://arxiv.org/abs/2609.10584\" target=\"_blank\" rel=\"external noopener\">outras publicações sobre busca em IA</a>.</p>",
+  "tags": [
+    "busca probabilistica",
+    "otimizacao",
+    "inteligencia artificial"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "busca probabilistica",
+    "focal search",
+    "otimizacao em IA",
+    "algoritmos de busca",
+    "inteligencia artificial"
+  ],
+  "meta_description_seo": "Nova busca probabilística (PFS) acelera soluções em IA com limites definidos, superando gargalos em algoritmos tradicionais.",
+  "faq": [
+    {
+      "q": "O que é a Probabilistic Focal Search (PFS)?",
+      "a": "É um novo método de busca em IA que introduz um componente probabilístico para acelerar a obtenção de soluções satisfatórias dentro de um limite de qualidade definido, superando limitações de métodos determinísticos."
+    },
+    {
+      "q": "Qual a principal vantagem da PFS em relação à Focal Search tradicional?",
+      "a": "A PFS expande nós com menor custo estimado com uma certa probabilidade, o que ajuda a avançar o limite inferior da busca mais rapidamente e a admitir novos nós promissores mais cedo."
+    },
+    {
+      "q": "Quais aplicações práticas essa nova técnica pode ter?",
+      "a": "Pode ser aplicada em otimização logística, planejamento de robôs, resolução de quebra-cabeças complexos e otimização de recursos, onde a velocidade e a qualidade aproximada da solução são cruciais."
+    }
+  ],
+  "written_at": "2026-09-12T10:29:11.539Z",
+  "slug": "busca-probabilistica-acelera-solucoes-em-ia-com-limites-definidos",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

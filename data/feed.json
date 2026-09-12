@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-11T20:49:32.693Z",
+  "generated_at": "2026-09-12T10:29:32.922Z",
   "articles": [
+    {
+      "slug": "nova-abordagem-em-raciocinio-compositivo-para-ia-avanca-em-interpretabilidade",
+      "headline": "Nova Abordagem em Raciocínio Compositivo para IA Avança em Interpretabilidade",
+      "subtitle": "Pesquisadores propõem framework para desmistificar a tomada de decisão de sistemas cognitivos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.10654",
+      "category": "research",
+      "tags": [
+        "interpretabilidade",
+        "raciocinio compositivo",
+        "arc"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 12 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-12T10:29:32.895Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-traduz-problemas-complexos-para-computacao-quantica",
+      "headline": "IA Traduz Problemas Complexos para Computação Quântica",
+      "subtitle": "Pesquisa propõe framework para automatizar a formulação de problemas de otimização binária, simplificando o acesso a solvers quânticos e inspirados em quântica.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.10629",
+      "category": "research",
+      "tags": [
+        "ia",
+        "computacao quantica",
+        "otimizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 12 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-12T10:29:22.127Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "busca-probabilistica-acelera-solucoes-em-ia-com-limites-definidos",
+      "headline": "Busca Probabilística Acelera Soluções em IA com Limites Definidos",
+      "subtitle": "Nova abordagem no arXiv promete otimizar a eficiência em sistemas de busca com restrições.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.10584",
+      "category": "research",
+      "tags": [
+        "busca probabilistica",
+        "otimizacao",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 12 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-12T10:29:11.539Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "techcrunch-disrupt-2026-prazo-para-expositores-se-encerra-em-uma-semana",
       "headline": "TechCrunch Disrupt 2026: Prazo para Expositores se Encerra em Uma Semana",

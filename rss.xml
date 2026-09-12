@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 12 Sep 2026 00:07:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 10:36:29 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nova Abordagem em Raciocínio Compositivo para IA Avança em Interpretabilidade</title>
+      <link>https://pulsodaia.com.br/feed/nova-abordagem-em-raciocinio-compositivo-para-ia-avanca-em-interpretabilidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-abordagem-em-raciocinio-compositivo-para-ia-avanca-em-interpretabilidade/</guid>
+      <pubDate>Sat, 12 Sep 2026 10:29:32 GMT</pubDate>
+      <description>Pesquisadores propõem framework para desmistificar a tomada de decisão de sistemas cognitivos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.10654">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Traduz Problemas Complexos para Computação Quântica</title>
+      <link>https://pulsodaia.com.br/feed/ia-traduz-problemas-complexos-para-computacao-quantica/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-traduz-problemas-complexos-para-computacao-quantica/</guid>
+      <pubDate>Sat, 12 Sep 2026 10:29:22 GMT</pubDate>
+      <description>Pesquisa propõe framework para automatizar a formulação de problemas de otimização binária, simplificando o acesso a solvers quânticos e inspirados em quântica.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.10629">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Busca Probabilística Acelera Soluções em IA com Limites Definidos</title>
+      <link>https://pulsodaia.com.br/feed/busca-probabilistica-acelera-solucoes-em-ia-com-limites-definidos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/busca-probabilistica-acelera-solucoes-em-ia-com-limites-definidos/</guid>
+      <pubDate>Sat, 12 Sep 2026 10:29:11 GMT</pubDate>
+      <description>Nova abordagem no arXiv promete otimizar a eficiência em sistemas de busca com restrições.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.10584">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>TechCrunch Disrupt 2026: Prazo para Expositores se Encerra em Uma Semana</title>
       <link>https://pulsodaia.com.br/feed/techcrunch-disrupt-2026-prazo-para-expositores-se-encerra-em-uma-semana/</link>
@@ -430,33 +457,6 @@
       <description>Startup de dados para robótica busca capitalização expressiva em rodada de investimento de fase avançada.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code V2.1.261 Aprimora Gerenciamento de Saída e Habilidades de Agentes</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-261-aprimora-gerenciamento-de-saida-e-habilidades-de-agentes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-261-aprimora-gerenciamento-de-saida-e-habilidades-de-agentes/</guid>
-      <pubDate>Sat, 05 Sep 2026 13:21:02 GMT</pubDate>
-      <description>Atualização foca em controle de dados e otimização de ferramentas para desenvolvedores de IA no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.261">Claude Code</source>
-    </item>
-    <item>
-      <title>Apple: John Ternus assume liderança em transição para nova era</title>
-      <link>https://pulsodaia.com.br/feed/apple-john-ternus-assume-lideranca-em-transicao-para-nova-era/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-john-ternus-assume-lideranca-em-transicao-para-nova-era/</guid>
-      <pubDate>Fri, 04 Sep 2026 18:55:56 GMT</pubDate>
-      <description>Com Tim Cook em novo papel, ex-chefe de hardware assume o leme da gigante de tecnologia, com um grande lançamento já na mira.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Nvidia quer transformar sua rede doméstica em um centro de dados para IA local</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-quer-transformar-sua-rede-domestica-em-um-centro-de-dados-para-ia-local/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-quer-transformar-sua-rede-domestica-em-um-centro-de-dados-para-ia-local/</guid>
-      <pubDate>Fri, 04 Sep 2026 08:47:19 GMT</pubDate>
-      <description>A proposta da gigante de chips visa otimizar o processamento de tarefas de inteligência artificial em casa.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/">The Decoder</source>
     </item>
   </channel>
 </rss>
