@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-13T04:22:10.191Z",
+  "generated_at": "2026-09-13T11:32:42.579Z",
   "articles": [
+    {
+      "slug": "lideres-da-ia-pedem-freio-e-supervisao-independente",
+      "headline": "Lideres da IA Pedem Freio e Supervisão Independente",
+      "subtitle": "Figuras proeminentes como Sam Altman e Elon Musk ecoam o pedido por cautela e auditoria externa no desenvolvimento de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "supervisao",
+        "regulamentacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 13 Sep 2026 08:53:00 +0000",
+      "written_at": "2026-09-13T11:32:40.251Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "estudo-universitario-de-dois-anos-revela-banir-ia-de-salas-de-aula-prejudica-alu",
+      "headline": "Estudo Universitário de Dois Anos Revela: Banir IA de Salas de Aula Prejudica Alunos",
+      "subtitle": "Pesquisa em andamento sugere que a exclusão de ferramentas de IA pode ser contraproducente para o aprendizado.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/",
+      "category": "mercado",
+      "tags": [
+        "educacao",
+        "inteligencia artificial",
+        "ensino superior"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 13 Sep 2026 09:27:01 +0000",
+      "written_at": "2026-09-13T11:32:27.850Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "gpt-6-astra-supera-humanos-em-tarefas-de-vigilancia-e-negocios",
+      "headline": "GPT-6 Astra Supera Humanos em Tarefas de Vigilância e Negócios",
+      "subtitle": "Novos avanços em IA levantam questões sobre autonomia e ética no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "gpt-6",
+        "vigilância"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 13 Sep 2026 10:52:16 +0000",
+      "written_at": "2026-09-13T11:32:14.859Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-adia-ipo-sam-altman-considera-2026-prematuro-para-oferta-publica",
       "headline": "OpenAI adia IPO: Sam Altman considera 2026 prematuro para oferta pública",
