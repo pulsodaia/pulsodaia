@@ -1,0 +1,50 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.270",
+  "title": "v2.1.270",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+  "summary": "<h2>What's changed</h2> <ul> <li>Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)</li> </ul>",
+  "published_at": "2026-09-12T19:45:44Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Corrige Falha em Comandos Git em Sessões Longas",
+  "subtitle": "Atualização da Anthropic resolve problema que exigia permissão inesperada em ferramentas de desenvolvimento.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic lançou a versão v2.1.270 do Claude Code, corrigindo uma regressão que causava solicitações de permissão em comandos Git somente leitura. O problema afetava sessões de desenvolvimento que se estendiam por um período.",
+  "body_markdown": "## O que aconteceu\n\nA Anthropic liberou a atualização v2.1.270 para o Claude Code, uma ferramenta que auxilia no desenvolvimento de código. A principal mudança nesta versão é a correção de um comportamento inesperado em comandos Git utilizados em modo somente leitura. Anteriormente, após uma sessão de uso prolongada, esses comandos passaram a solicitar permissão de forma indevida. Este comportamento indesejado foi identificado como uma regressão introduzida na versão anterior, a v2.1.269. A descrição detalhada da correção está disponível nos registros de lançamento da ferramenta, que pode ser consultada em [https://github.com/anthropics/claude-code/releases/tag/v2.1.270](https://github.com/anthropics/claude-code/releases/tag/v2.1.270).\n\n## Por que importa\n\nPara desenvolvedores que utilizam o Claude Code no Brasil, a correção de falhas como essa é crucial para manter a fluidez e a eficiência no fluxo de trabalho. Comandos Git que exigem interrupções para autorização, mesmo em operações não modificadoras, geram atritos e perda de tempo produtivo. Em um cenário onde a automação e a agilidade são cada vez mais valorizadas, problemas de usabilidade em ferramentas de desenvolvimento podem impactar diretamente a velocidade de entrega de projetos e a satisfação da equipe. A resolução deste bug garante que desenvolvedores brasileiros possam confiar na estabilidade do Claude Code para gerenciar seus repositórios de código sem interrupções desnecessárias, especialmente em projetos de longa duração ou em ambientes de integração contínua.\n\n## O que esperar\n\nCom a correção implementada, espera-se que os desenvolvedores que utilizam o Claude Code experimentem uma experiência mais estável ao interagir com sistemas de controle de versão. A expectativa é que os comandos Git em modo somente leitura funcionem como esperado, sem solicitações de permissão após sessões prolongadas. Isso contribui para um ambiente de desenvolvimento mais previsível e menos propenso a erros. A Anthropic demonstra, com essa atualização, um compromisso com a melhoria contínua de suas ferramentas, respondendo a feedbacks e corrigindo regressões de forma ágil. Para acompanhar o desenvolvimento e futuras atualizações, os interessados podem consultar os registros oficiais em [https://github.com/anthropics/claude-code/releases/tag/v2.1.270](https://github.com/anthropics/claude-code/releases/tag/v2.1.270). É provável que a empresa continue a refinar o Claude Code, focando em estabilidade e na adição de novas funcionalidades que otimizem a interação com o código.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Anthropic liberou a atualização v2.1.270 para o Claude Code, uma ferramenta que auxilia no desenvolvimento de código. A principal mudança nesta versão é a correção de um comportamento inesperado em comandos Git utilizados em modo somente leitura. Anteriormente, após uma sessão de uso prolongada, esses comandos passaram a solicitar permissão de forma indevida. Este comportamento indesejado foi identificado como uma regressão introduzida na versão anterior, a v2.1.269. A descrição detalhada da correção está disponível nos registros de lançamento da ferramenta, que pode ser consultada em <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.270\" target=\"_blank\" rel=\"external noopener\">https://github.com/anthropics/claude-code/releases/tag/v2.1.270</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para desenvolvedores que utilizam o Claude Code no Brasil, a correção de falhas como essa é crucial para manter a fluidez e a eficiência no fluxo de trabalho. Comandos Git que exigem interrupções para autorização, mesmo em operações não modificadoras, geram atritos e perda de tempo produtivo. Em um cenário onde a automação e a agilidade são cada vez mais valorizadas, problemas de usabilidade em ferramentas de desenvolvimento podem impactar diretamente a velocidade de entrega de projetos e a satisfação da equipe. A resolução deste bug garante que desenvolvedores brasileiros possam confiar na estabilidade do Claude Code para gerenciar seus repositórios de código sem interrupções desnecessárias, especialmente em projetos de longa duração ou em ambientes de integração contínua.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a correção implementada, espera-se que os desenvolvedores que utilizam o Claude Code experimentem uma experiência mais estável ao interagir com sistemas de controle de versão. A expectativa é que os comandos Git em modo somente leitura funcionem como esperado, sem solicitações de permissão após sessões prolongadas. Isso contribui para um ambiente de desenvolvimento mais previsível e menos propenso a erros. A Anthropic demonstra, com essa atualização, um compromisso com a melhoria contínua de suas ferramentas, respondendo a feedbacks e corrigindo regressões de forma ágil. Para acompanhar o desenvolvimento e futuras atualizações, os interessados podem consultar os registros oficiais em <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.270\" target=\"_blank\" rel=\"external noopener\">https://github.com/anthropics/claude-code/releases/tag/v2.1.270</a>. É provável que a empresa continue a refinar o Claude Code, focando em estabilidade e na adição de novas funcionalidades que otimizem a interação com o código.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "git"
+  ],
+  "read_time_min": 2,
+  "quality_score": 0.8,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "Git",
+    "desenvolvimento de software",
+    "correção de bugs"
+  ],
+  "meta_description_seo": "Claude Code v2.1.270 corrige falha em comandos Git. Atualização da Anthropic garante estabilidade em sessões de desenvolvimento.",
+  "faq": [
+    {
+      "q": "Qual problema o Claude Code v2.1.270 resolveu?",
+      "a": "A versão v2.1.270 do Claude Code corrigiu um bug onde comandos Git somente leitura inesperadamente solicitavam permissão após sessões de uso prolongadas."
+    },
+    {
+      "q": "Por que essa correção é importante para desenvolvedores?",
+      "a": "A correção garante um fluxo de trabalho mais estável e eficiente, evitando interrupções desnecessárias em operações de controle de versão e otimizando o tempo produtivo."
+    },
+    {
+      "q": "Onde posso encontrar mais detalhes sobre esta atualização?",
+      "a": "Informações detalhadas sobre a atualização v2.1.270 do Claude Code estão disponíveis nos registros de lançamento no GitHub da Anthropic."
+    }
+  ],
+  "written_at": "2026-09-13T04:21:58.057Z",
+  "slug": "claude-code-corrige-falha-em-comandos-git-em-sessoes-longas",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/4f2f04fb72986d4330d98396dd5c101ec121a4b6994ae7d6d74370efccbcf620/anthropics/claude-code/releases/tag/v2.1.270"
+}
