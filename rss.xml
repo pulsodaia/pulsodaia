@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 13 Sep 2026 16:06:53 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 04:34:04 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Multimodal Aprende Coração Humano em Nível de Paciente</title>
+      <link>https://pulsodaia.com.br/feed/ia-multimodal-aprende-coracao-humano-em-nivel-de-paciente/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-multimodal-aprende-coracao-humano-em-nivel-de-paciente/</guid>
+      <pubDate>Mon, 14 Sep 2026 04:28:44 GMT</pubDate>
+      <description>Nova abordagem em autoencoders busca integrar dados médicos para diagnósticos mais precisos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.12035">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Agentes de Código: O "Harness" é Essencial ou Apenas um Adorno?</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-codigo-o-harness-e-essencial-ou-apenas-um-adorno/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-codigo-o-harness-e-essencial-ou-apenas-um-adorno/</guid>
+      <pubDate>Mon, 14 Sep 2026 04:28:34 GMT</pubDate>
+      <description>Pesquisa desafia a crença de que a ferramenta de um modelo de linguagem é o fator decisivo para a performance em codificação.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.11987">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Occamy-1.0: Modelo de Co-trabalho Eficiente Chega ao Mercado</title>
+      <link>https://pulsodaia.com.br/feed/occamy-1-0-modelo-de-co-trabalho-eficiente-chega-ao-mercado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/occamy-1-0-modelo-de-co-trabalho-eficiente-chega-ao-mercado/</guid>
+      <pubDate>Mon, 14 Sep 2026 04:28:23 GMT</pubDate>
+      <description>Nova abordagem em IA busca otimizar fluxos de trabalho complexos com foco em custo e latência.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2609.11977">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Agentes de Busca Abertos Iris-mini e Iris-pro Lideram Benchmarks</title>
       <link>https://pulsodaia.com.br/feed/agentes-de-busca-abertos-iris-mini-e-iris-pro-lideram-benchmarks/</link>
@@ -430,33 +457,6 @@
       <description>Jornais como Seattle Times e Newsday alegam uso indevido de seu conteúdo jornalístico em modelos de inteligência artificial.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft">The Verge AI</source>
-    </item>
-    <item>
-      <title>Travis Kalanick mira robotáxis com a Atoms</title>
-      <link>https://pulsodaia.com.br/feed/travis-kalanick-mira-robotaxis-com-a-atoms/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/travis-kalanick-mira-robotaxis-com-a-atoms/</guid>
-      <pubDate>Sun, 06 Sep 2026 23:45:47 GMT</pubDate>
-      <description>O fundador do Uber pode estar buscando concluir negócios pendentes no setor de mobilidade autônoma.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Autores Contestam Divisão de Acordo da Anthropic</title>
-      <link>https://pulsodaia.com.br/feed/autores-contestam-divisao-de-acordo-da-anthropic/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/autores-contestam-divisao-de-acordo-da-anthropic/</guid>
-      <pubDate>Sun, 06 Sep 2026 23:45:38 GMT</pubDate>
-      <description>Disputa sobre direitos autorais em modelos de IA ganha contornos legais e comerciais.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Psiquiatria Debate Diagnóstico de "Psicose Associada à IA" Diante de Uso de Chatbots</title>
-      <link>https://pulsodaia.com.br/feed/psiquiatria-debate-diagnostico-de-psicose-associada-a-ia-diante-de-uso-de-chatbo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/psiquiatria-debate-diagnostico-de-psicose-associada-a-ia-diante-de-uso-de-chatbo/</guid>
-      <pubDate>Sun, 06 Sep 2026 15:18:26 GMT</pubDate>
-      <description>Pesquisadores avaliam a necessidade de reconhecer distúrbios mentais decorrentes da interação com inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/">The Decoder</source>
     </item>
   </channel>
 </rss>

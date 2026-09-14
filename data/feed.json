@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-13T16:00:54.274Z",
+  "generated_at": "2026-09-14T04:28:44.950Z",
   "articles": [
+    {
+      "slug": "ia-multimodal-aprende-coracao-humano-em-nivel-de-paciente",
+      "headline": "IA Multimodal Aprende Coração Humano em Nível de Paciente",
+      "subtitle": "Nova abordagem em autoencoders busca integrar dados médicos para diagnósticos mais precisos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.12035",
+      "category": "research",
+      "tags": [
+        "ia medica",
+        "cardiologia",
+        "aprendizado multimodal"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-14T04:28:44.808Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-codigo-o-harness-e-essencial-ou-apenas-um-adorno",
+      "headline": "Agentes de Código: O \"Harness\" é Essencial ou Apenas um Adorno?",
+      "subtitle": "Pesquisa desafia a crença de que a ferramenta de um modelo de linguagem é o fator decisivo para a performance em codificação.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.11987",
+      "category": "research",
+      "tags": [
+        "ia",
+        "desenvolvimento de software",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-14T04:28:34.221Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "occamy-1-0-modelo-de-co-trabalho-eficiente-chega-ao-mercado",
+      "headline": "Occamy-1.0: Modelo de Co-trabalho Eficiente Chega ao Mercado",
+      "subtitle": "Nova abordagem em IA busca otimizar fluxos de trabalho complexos com foco em custo e latência.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.11977",
+      "category": "research",
+      "tags": [
+        "ia",
+        "eficiencia",
+        "co-trabalho"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 14 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-14T04:28:23.184Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "agentes-de-busca-abertos-iris-mini-e-iris-pro-lideram-benchmarks",
       "headline": "Agentes de Busca Abertos Iris-mini e Iris-pro Lideram Benchmarks",

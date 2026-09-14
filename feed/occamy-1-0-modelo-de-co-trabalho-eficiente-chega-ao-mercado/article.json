@@ -1,0 +1,52 @@
+{
+  "id": "oai:arXiv.org:2609.11977v1",
+  "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+  "url": "https://arxiv.org/abs/2609.11977",
+  "summary": "arXiv:2609.11977v1 Announce Type: new Abstract: Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full episode, their practical value depends not only on peak capability but also on how efficiently that capability is delivered. Yet many steps in everyday work emphasize state tracking, coordination, recovery, and follow-through rather than frontier-scale reasoning. We present Occamy-1.0, a cost-efficient co-work model obtained by further training the post-trained Qwen3.6-35B-A3B checkpoint. We construct execution-grounded data and environments, capture replayable long-horizon trajectories across multiple harnesses, and use staged post-training to develop and consolidate complementary execution capabilities. Across a broad suite of co-work benchmarks, Occamy-1.0 is consistently among the strongest comparably sized models and remains competitive wi",
+  "published_at": "Mon, 14 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Occamy-1.0: Modelo de Co-trabalho Eficiente Chega ao Mercado",
+  "subtitle": "Nova abordagem em IA busca otimizar fluxos de trabalho complexos com foco em custo e latência.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores anunciam o Occamy-1.0, um modelo de IA focado em tarefas colaborativas. O objetivo é tornar a execução de fluxos de trabalho complexos, que envolvem coleta de informações, uso de ferramentas, codificação e manipulação de arquivos, mais eficiente.",
+  "body_markdown": "## O que aconteceu\n\nUma nova pesquisa publicada no arXiv apresenta o Occamy-1.0, um modelo de inteligência artificial projetado para otimizar o co-trabalho. Diferente de modelos focados unicamente em capacidades de ponta, o Occamy-1.0 prioriza a eficiência em tarefas que demandam acompanhamento de estado, coordenação, recuperação de erros e continuidade, em vez de raciocínio em escala máxima. O modelo é derivado do checkpoint Qwen3.6-35B-A3B, passando por um treinamento adicional focado em dados e ambientes de execução. A abordagem envolve a construção de dados de execução, captura de trajetórias de longo prazo em múltiplos ambientes e um processo de treinamento em estágios para otimizar o desempenho e o custo. A proposta central é que o valor prático de agentes de co-trabalho depende não apenas de sua capacidade máxima, mas também da eficiência com que essa capacidade é entregue, especialmente considerando o acúmulo de custos e latência em episódios de trabalho completos. Saiba mais sobre a proposta no artigo original [aqui](https://arxiv.org/abs/2609.11977).\n\n## Por que importa\n\nNo cenário brasileiro, onde a adoção de ferramentas de IA para otimização de processos corporativos cresce exponencialmente, a eficiência de custos e a redução de latência são fatores cruciais. Modelos como o Occamy-1.0 podem impactar diretamente a viabilidade econômica da implementação de assistentes de IA em empresas de todos os portes. A capacidade de executar fluxos de trabalho complexos de maneira mais acessível abre portas para a automação de tarefas que antes eram proibitivamente caras ou lentas. Isso pode significar desde o auxílio na elaboração de contratos e análise de dados até a coordenação de projetos de desenvolvimento de software, liberando equipes para se concentrarem em atividades de maior valor agregado. A ênfase em recuperação de erros e acompanhamento de estado sugere uma robustez que é essencial para aplicações corporativas onde a confiabilidade é primordial.\n\n## O que esperar\n\nA publicação do Occamy-1.0 sinaliza uma direção importante na pesquisa de IA: a convergência entre alta capacidade e eficiência operacional. Espera-se que essa linha de pesquisa leve ao desenvolvimento de modelos cada vez mais capazes de atuar como verdadeiros colaboradores em ambientes de trabalho, compreendendo e executando tarefas multifacetadas com agilidade. A metodologia de \"execution-grounded data\" e treinamento em estágios pode se tornar um padrão para a criação de modelos de IA mais práticos e aplicáveis. Para o mercado brasileiro, isso pode se traduzir em novas soluções de software e serviços de IA que incorporem essa eficiência, tornando a automação inteligente uma realidade acessível para um espectro mais amplo de negócios. O acompanhamento de futuras iterações deste modelo, ou de abordagens similares, será fundamental para entender o avanço na área. Mais detalhes sobre a metodologia podem ser encontrados no [link da pesquisa](https://arxiv.org/abs/2609.11977).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Uma nova pesquisa publicada no arXiv apresenta o Occamy-1.0, um modelo de inteligência artificial projetado para otimizar o co-trabalho. Diferente de modelos focados unicamente em capacidades de ponta, o Occamy-1.0 prioriza a eficiência em tarefas que demandam acompanhamento de estado, coordenação, recuperação de erros e continuidade, em vez de raciocínio em escala máxima. O modelo é derivado do checkpoint Qwen3.6-35B-A3B, passando por um treinamento adicional focado em dados e ambientes de execução. A abordagem envolve a construção de dados de execução, captura de trajetórias de longo prazo em múltiplos ambientes e um processo de treinamento em estágios para otimizar o desempenho e o custo. A proposta central é que o valor prático de agentes de co-trabalho depende não apenas de sua capacidade máxima, mas também da eficiência com que essa capacidade é entregue, especialmente considerando o acúmulo de custos e latência em episódios de trabalho completos. Saiba mais sobre a proposta no artigo original <a href=\"https://arxiv.org/abs/2609.11977\" target=\"_blank\" rel=\"external noopener\">aqui</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No cenário brasileiro, onde a adoção de ferramentas de IA para otimização de processos corporativos cresce exponencialmente, a eficiência de custos e a redução de latência são fatores cruciais. Modelos como o Occamy-1.0 podem impactar diretamente a viabilidade econômica da implementação de assistentes de IA em empresas de todos os portes. A capacidade de executar fluxos de trabalho complexos de maneira mais acessível abre portas para a automação de tarefas que antes eram proibitivamente caras ou lentas. Isso pode significar desde o auxílio na elaboração de contratos e análise de dados até a coordenação de projetos de desenvolvimento de software, liberando equipes para se concentrarem em atividades de maior valor agregado. A ênfase em recuperação de erros e acompanhamento de estado sugere uma robustez que é essencial para aplicações corporativas onde a confiabilidade é primordial.</p>\n\n<h2>O que esperar</h2>\n\n<p>A publicação do Occamy-1.0 sinaliza uma direção importante na pesquisa de IA: a convergência entre alta capacidade e eficiência operacional. Espera-se que essa linha de pesquisa leve ao desenvolvimento de modelos cada vez mais capazes de atuar como verdadeiros colaboradores em ambientes de trabalho, compreendendo e executando tarefas multifacetadas com agilidade. A metodologia de \"execution-grounded data\" e treinamento em estágios pode se tornar um padrão para a criação de modelos de IA mais práticos e aplicáveis. Para o mercado brasileiro, isso pode se traduzir em novas soluções de software e serviços de IA que incorporem essa eficiência, tornando a automação inteligente uma realidade acessível para um espectro mais amplo de negócios. O acompanhamento de futuras iterações deste modelo, ou de abordagens similares, será fundamental para entender o avanço na área. Mais detalhes sobre a metodologia podem ser encontrados no <a href=\"https://arxiv.org/abs/2609.11977\" target=\"_blank\" rel=\"external noopener\">link da pesquisa</a>.</p>",
+  "tags": [
+    "ia",
+    "eficiencia",
+    "co-trabalho"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "modelo de linguagem",
+    "otimizacao",
+    "fluxo de trabalho",
+    "co-trabalho",
+    "eficiencia",
+    "latencia"
+  ],
+  "meta_description_seo": "Occamy-1.0: novo modelo de IA focado em co-trabalho eficiente, otimizando custos e latência em fluxos complexos. Saiba mais.",
+  "faq": [
+    {
+      "q": "O que é o Occamy-1.0?",
+      "a": "O Occamy-1.0 é um modelo de IA desenvolvido para otimizar o co-trabalho, focando na eficiência de custos e latência na execução de fluxos de trabalho complexos."
+    },
+    {
+      "q": "Qual o principal diferencial do Occamy-1.0 em relação a outros modelos de IA?",
+      "a": "Seu diferencial reside na priorização da eficiência em tarefas como acompanhamento de estado, coordenação e recuperação de erros, em vez de apenas capacidades de raciocínio de ponta."
+    },
+    {
+      "q": "Como o Occamy-1.0 pode beneficiar empresas?",
+      "a": "Ele pode tornar a automação de tarefas complexas mais acessível e confiável, reduzindo custos e tempo de execução, o que é crucial para a adoção de IA no mercado."
+    }
+  ],
+  "written_at": "2026-09-14T04:28:23.184Z",
+  "slug": "occamy-1-0-modelo-de-co-trabalho-eficiente-chega-ao-mercado",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
