@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-09-14T04:28:44.950Z",
+  "generated_at": "2026-09-14T12:26:23.171Z",
   "articles": [
+    {
+      "slug": "sam-altman-defende-moderacao-no-avanco-da-ia-mas-promete-continuidade-no-progres",
+      "headline": "Sam Altman defende moderação no avanço da IA, mas promete continuidade no progresso",
+      "subtitle": "O CEO da OpenAI sinaliza preocupação com a velocidade do desenvolvimento, mas reafirma a busca por avanços.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/",
+      "category": "mercado",
+      "tags": [
+        "sam altman",
+        "openai",
+        "inteligencia artificial",
+        "regulacao de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 14 Sep 2026 09:39:59 +0000",
+      "written_at": "2026-09-14T12:26:20.748Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "china-rejeita-alertas-de-seguranca-em-ia-dos-eua-acusa-de-temorismo-para-manter-",
+      "headline": "China Rejeita Alertas de Segurança em IA dos EUA, Acusa de \"Temorismo\" para Manter Vantagem",
+      "subtitle": "A escalada retórica entre EUA e China sobre os riscos da inteligência artificial adiciona uma nova camada à geopolítica tecnológica.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/",
+      "category": "mercado",
+      "tags": [
+        "china",
+        "eua",
+        "inteligencia artificial",
+        "geopolitica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 14 Sep 2026 12:20:22 +0000",
+      "written_at": "2026-09-14T12:26:07.353Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-otimiza-treinamento-assincrono-de-modelos-com-lora",
+      "headline": "Hugging Face Otimiza Treinamento Assíncrono de Modelos com LoRA",
+      "subtitle": "Inovações na plataforma visam acelerar a adaptação de modelos de linguagem grandes para o mercado brasileiro.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "hugging face",
+        "lora"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "written_at": "2026-09-14T12:25:56.121Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-multimodal-aprende-coracao-humano-em-nivel-de-paciente",
       "headline": "IA Multimodal Aprende Coração Humano em Nível de Paciente",
