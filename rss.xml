@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 15 Sep 2026 04:34:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 11:36:25 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Gigantes da IA propõem freio no desenvolvimento; críticos veem estratégia de mercado</title>
+      <link>https://pulsodaia.com.br/feed/gigantes-da-ia-propoem-freio-no-desenvolvimento-criticos-veem-estrategia-de-merc/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gigantes-da-ia-propoem-freio-no-desenvolvimento-criticos-veem-estrategia-de-merc/</guid>
+      <pubDate>Tue, 15 Sep 2026 11:31:10 GMT</pubDate>
+      <description>A ideia de desacelerar a criação de modelos de IA avançados enfrenta resistência de concorrentes e do cenário político.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/">The Decoder</source>
+    </item>
+    <item>
+      <title>Siri Renovada da Apple Usa Gemini do Google, Mas Europa Fica de Fora</title>
+      <link>https://pulsodaia.com.br/feed/siri-renovada-da-apple-usa-gemini-do-google-mas-europa-fica-de-fora/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/siri-renovada-da-apple-usa-gemini-do-google-mas-europa-fica-de-fora/</guid>
+      <pubDate>Tue, 15 Sep 2026 11:30:58 GMT</pubDate>
+      <description>A assistente virtual da Apple ganha um upgrade significativo, mas restrições regionais levantam questões.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/">The Decoder</source>
+    </item>
     <item>
       <title>ZGCM-1: Novo Modelo de Linguagem Aberto Otimizado para Raciocínio Matemático e Busca com Ferramentas</title>
       <link>https://pulsodaia.com.br/feed/zgcm-1-novo-modelo-de-linguagem-aberto-otimizado-para-raciocinio-matematico-e-bu/</link>
@@ -439,24 +457,6 @@
       <description>Pesquisa propõe sistema de avaliação que vai além de notas genéricas, focando em melhorias concretas para modelos de linguagem.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2609.05439">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Modelos de Linguagem Gigantes Precisam Entender Nuances Sociais, Não Apenas Regras</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-precisam-entender-nuances-sociais-nao-apenas-regra/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-precisam-entender-nuances-sociais-nao-apenas-regra/</guid>
-      <pubDate>Wed, 09 Sep 2026 11:05:56 GMT</pubDate>
-      <description>Pesquisa aponta para a necessidade de avaliar a capacidade de LLMs em prever consequências e reações a violações de normas.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.05437">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>AlphaGenome Atlas: Mapa Preditivo de Alterações no DNA Humano</title>
-      <link>https://pulsodaia.com.br/feed/alphagenome-atlas-mapa-preditivo-de-alteracoes-no-dna-humano/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/alphagenome-atlas-mapa-preditivo-de-alteracoes-no-dna-humano/</guid>
-      <pubDate>Tue, 08 Sep 2026 16:26:52 GMT</pubDate>
-      <description>Google DeepMind divulga ferramenta que mapeia bilhões de variações genéticas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/">Google DeepMind</source>
     </item>
   </channel>
 </rss>
