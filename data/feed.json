@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-14T12:26:23.171Z",
+  "generated_at": "2026-09-15T04:29:05.127Z",
   "articles": [
+    {
+      "slug": "zgcm-1-novo-modelo-de-linguagem-aberto-otimizado-para-raciocinio-matematico-e-bu",
+      "headline": "ZGCM-1: Novo Modelo de Linguagem Aberto Otimizado para Raciocínio Matemático e Busca com Ferramentas",
+      "subtitle": "Pesquisadores lançam modelo de 7 bilhões de parâmetros que integra raciocínio interno e uso de ferramentas externas para superar limitações de capacidade.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.13356",
+      "category": "research",
+      "tags": [
+        "ia aberta",
+        "modelos de linguagem",
+        "raciocínio matemático"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 15 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-15T04:29:04.965Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-devfest-volta-com-foco-em-ia-generativa-e-ferramentas-para-desenvolvedore",
+      "headline": "Google DevFest Volta com Foco em IA Generativa e Ferramentas para Desenvolvedores",
+      "subtitle": "Eventos globais se preparam para auxiliar a comunidade técnica na construção de aplicações com inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "category": "google",
+      "tags": [
+        "devfest",
+        "google",
+        "ia generativa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 14 Sep 2026 16:00:00 +0000",
+      "written_at": "2026-09-15T04:28:53.771Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "christina-koch-e-james-manyika-discutem-ia-exploracao-espacial-e-o-futuro-da-des",
+      "headline": "Christina Koch e James Manyika Discutem IA, Exploração Espacial e o Futuro da Descoberta",
+      "subtitle": "A colaboração entre ciência e tecnologia impulsiona novas fronteiras.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "category": "google",
+      "tags": [
+        "inteligencia artificial",
+        "exploracao espacial",
+        "ciencia",
+        "tecnologia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 14 Sep 2026 19:00:00 +0000",
+      "written_at": "2026-09-15T04:28:44.057Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "sam-altman-defende-moderacao-no-avanco-da-ia-mas-promete-continuidade-no-progres",
       "headline": "Sam Altman defende moderação no avanço da IA, mas promete continuidade no progresso",
