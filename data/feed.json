@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-15T16:44:26.094Z",
+  "generated_at": "2026-09-15T21:09:00.867Z",
   "articles": [
+    {
+      "slug": "meta-automatiza-configuracao-do-whatsapp-business-com-ia",
+      "headline": "Meta automatiza configuração do WhatsApp Business com IA",
+      "subtitle": "Empresas brasileiras ganham agilidade na adoção de ferramentas de comunicação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+      "category": "mercado",
+      "tags": [
+        "whatsapp business",
+        "inteligência artificial",
+        "meta"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 15 Sep 2026 20:12:53 +0000",
+      "written_at": "2026-09-15T21:09:00.812Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-ganha-novas-cabecalhos-e-controle-remoto-aprimorado",
+      "headline": "Claude Code Ganha Novas Cabeçalhos e Controle Remoto Aprimorado",
+      "subtitle": "Atualização do modelo de linguagem foca em melhorias de gateway e usabilidade para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm"
+      ],
+      "read_time_min": 4,
+      "published_at": "2026-09-15T20:23:03Z",
+      "written_at": "2026-09-15T21:08:50.525Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "google-deepmind-apresenta-gemini-3-8-live-com-raciocinio-estendido",
+      "headline": "Google DeepMind apresenta Gemini 3.8 Live com raciocínio estendido",
+      "subtitle": "Novas capacidades do modelo de IA prometem avanços em processamento de dados complexos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google deepmind",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 15 Sep 2026 17:05:57 +0000",
+      "written_at": "2026-09-15T21:07:57.311Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "google-aposta-em-ia-para-entender-nuances-de-todas-as-linguas-globais",
       "headline": "Google aposta em IA para entender nuances de todas as línguas globais",
