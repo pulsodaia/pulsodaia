@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 15 Sep 2026 21:13:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:10:45 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Eleitores Rejeitam IA e Data Centers; Partidos Ignoram Tendência</title>
+      <link>https://pulsodaia.com.br/feed/eleitores-rejeitam-ia-e-data-centers-partidos-ignoram-tendencia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/eleitores-rejeitam-ia-e-data-centers-partidos-ignoram-tendencia/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:05:42 GMT</pubDate>
+      <description>Pesquisa aponta descontentamento popular com infraestrutura de IA, um ponto cego para políticos brasileiros.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september">The Verge AI</source>
+    </item>
+    <item>
+      <title>Expansão de Data Centers de IA Encontra Cidades Marcadas pela Indústria Passada</title>
+      <link>https://pulsodaia.com.br/feed/expansao-de-data-centers-de-ia-encontra-cidades-marcadas-pela-industria-passada/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/expansao-de-data-centers-de-ia-encontra-cidades-marcadas-pela-industria-passada/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:05:21 GMT</pubDate>
+      <description>O boom da infraestrutura para IA gera resistência em locais que já lidam com legados industriais.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Meta automatiza configuração do WhatsApp Business com IA</title>
       <link>https://pulsodaia.com.br/feed/meta-automatiza-configuracao-do-whatsapp-business-com-ia/</link>
@@ -439,24 +457,6 @@
       <description>Nomeação de Paul Christiano para a OpenAI Foundation levanta debates sobre o futuro da inteligência artificial.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Apple Lança iPhone Duo Dobrável e Apple Watch Sempre Ativo</title>
-      <link>https://pulsodaia.com.br/feed/apple-lanca-iphone-duo-dobravel-e-apple-watch-sempre-ativo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-lanca-iphone-duo-dobravel-e-apple-watch-sempre-ativo/</guid>
-      <pubDate>Wed, 09 Sep 2026 20:48:42 GMT</pubDate>
-      <description>A gigante de Cupertino anuncia suas novidades de outono, com foco em mobilidade e monitoramento contínuo.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Apple Watch: IA que escuta e resume conversas levanta debates sobre privacidade</title>
-      <link>https://pulsodaia.com.br/feed/apple-watch-ia-que-escuta-e-resume-conversas-levanta-debates-sobre-privacidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-watch-ia-que-escuta-e-resume-conversas-levanta-debates-sobre-privacidade/</guid>
-      <pubDate>Wed, 09 Sep 2026 20:48:24 GMT</pubDate>
-      <description>Novas funcionalidades de IA no smartwatch da Apple levantam questões sobre consentimento e o comportamento humano em ambientes monitorados.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
