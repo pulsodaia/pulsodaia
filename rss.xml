@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 16 Sep 2026 00:10:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 04:47:32 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Functionalizer: Nova Abordagem para Tokenização de Subpalavras Preserva Informação Linguística</title>
+      <link>https://pulsodaia.com.br/feed/functionalizer-nova-abordagem-para-tokenizacao-de-subpalavras-preserva-informaca/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/functionalizer-nova-abordagem-para-tokenizacao-de-subpalavras-preserva-informaca/</guid>
+      <pubDate>Wed, 16 Sep 2026 04:42:25 GMT</pubDate>
+      <description>Pesquisadores introduzem um método que decompõe variações ortográficas sem perder dados, impactando a compreensão de textos em modelos de IA.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.15991">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Prompting com Poucos Exemplos: Um Problema de Comprimento, Não de Aprendizado</title>
+      <link>https://pulsodaia.com.br/feed/prompting-com-poucos-exemplos-um-problema-de-comprimento-nao-de-aprendizado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/prompting-com-poucos-exemplos-um-problema-de-comprimento-nao-de-aprendizado/</guid>
+      <pubDate>Wed, 16 Sep 2026 04:42:14 GMT</pubDate>
+      <description>Novas pesquisas desafiam a compreensão sobre como prompts com exemplos afetam modelos de linguagem no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.15990">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>Eleitores Rejeitam IA e Data Centers; Partidos Ignoram Tendência</title>
       <link>https://pulsodaia.com.br/feed/eleitores-rejeitam-ia-e-data-centers-partidos-ignoram-tendencia/</link>
@@ -439,24 +457,6 @@
       <description>A nova versão do modelo de IA musical da Suno é a primeira treinada com dados licenciados, sinalizando uma nova fase na relação entre tecnologia e direitos autorais.</description>
       <category>LANCAMENTO</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help">The Verge AI</source>
-    </item>
-    <item>
-      <title>Massachusetts impõe novas regras de energia limpa para data centers</title>
-      <link>https://pulsodaia.com.br/feed/massachusetts-impoe-novas-regras-de-energia-limpa-para-data-centers/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/massachusetts-impoe-novas-regras-de-energia-limpa-para-data-centers/</guid>
-      <pubDate>Wed, 09 Sep 2026 23:59:42 GMT</pubDate>
-      <description>A medida estadual reflete uma crescente preocupação com o consumo energético da infraestrutura de IA no Brasil e no mundo.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OpenAI Inclui Pesquisador Cético em Conselho da Fundação</title>
-      <link>https://pulsodaia.com.br/feed/openai-inclui-pesquisador-cetico-em-conselho-da-fundacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-inclui-pesquisador-cetico-em-conselho-da-fundacao/</guid>
-      <pubDate>Wed, 09 Sep 2026 23:59:29 GMT</pubDate>
-      <description>Nomeação de Paul Christiano para a OpenAI Foundation levanta debates sobre o futuro da inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

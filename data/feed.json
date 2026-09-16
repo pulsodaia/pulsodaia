@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-09-16T00:05:42.688Z",
+  "generated_at": "2026-09-16T04:42:26.029Z",
   "articles": [
+    {
+      "slug": "functionalizer-nova-abordagem-para-tokenizacao-de-subpalavras-preserva-informaca",
+      "headline": "Functionalizer: Nova Abordagem para Tokenização de Subpalavras Preserva Informação Linguística",
+      "subtitle": "Pesquisadores introduzem um método que decompõe variações ortográficas sem perder dados, impactando a compreensão de textos em modelos de IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2609.15991",
+      "category": "research",
+      "tags": [
+        "tokenizacao",
+        "processamento de linguagem natural",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 16 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-16T04:42:25.965Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "prompting-com-poucos-exemplos-um-problema-de-comprimento-nao-de-aprendizado",
+      "headline": "Prompting com Poucos Exemplos: Um Problema de Comprimento, Não de Aprendizado",
+      "subtitle": "Novas pesquisas desafiam a compreensão sobre como prompts com exemplos afetam modelos de linguagem no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2609.15990",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "prompting"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 16 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-16T04:42:14.924Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "eleitores-rejeitam-ia-e-data-centers-partidos-ignoram-tendencia",
       "headline": "Eleitores Rejeitam IA e Data Centers; Partidos Ignoram Tendência",
