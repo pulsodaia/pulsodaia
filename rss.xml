@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 16 Sep 2026 16:43:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 21:14:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Meta Lanca Oculos Inteligentes Sem Camera Para Afastar Criticas</title>
+      <link>https://pulsodaia.com.br/feed/meta-lanca-oculos-inteligentes-sem-camera-para-afastar-criticas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-lanca-oculos-inteligentes-sem-camera-para-afastar-criticas/</guid>
+      <pubDate>Wed, 16 Sep 2026 21:09:45 GMT</pubDate>
+      <description>A gigante de tecnologia busca redefinir sua imagem no mercado de wearables.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>IA: Gigantes de IA buscam avaliadores internos de segurança; independência é o desafio</title>
+      <link>https://pulsodaia.com.br/feed/ia-gigantes-de-ia-buscam-avaliadores-internos-de-seguranca-independencia-e-o-des/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-gigantes-de-ia-buscam-avaliadores-internos-de-seguranca-independencia-e-o-des/</guid>
+      <pubDate>Wed, 16 Sep 2026 21:09:35 GMT</pubDate>
+      <description>Pesquisadores celebram acesso sem precedentes, mas cobram transparência e autonomia para garantir supervisão efetiva.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Threads Amplia Ferramentas para Podcasters em Disputa com X</title>
       <link>https://pulsodaia.com.br/feed/threads-amplia-ferramentas-para-podcasters-em-disputa-com-x/</link>
@@ -439,24 +457,6 @@
       <description>Atualização foca em governança de custos e acesso para implementações corporativas.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.268">Claude Code</source>
-    </item>
-    <item>
-      <title>Agentes de IA sobrecarregam serviços públicos com novas solicitações</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-sobrecarregam-servicos-publicos-com-novas-solicitacoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-sobrecarregam-servicos-publicos-com-novas-solicitacoes/</guid>
-      <pubDate>Thu, 10 Sep 2026 16:12:55 GMT</pubDate>
-      <description>A automação impulsionada por inteligência artificial começa a gerar um volume inédito de requisições em órgãos governamentais.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>AUTOMATIC1111 Adota Workflow Gradio para Refinar Geração de Imagens</title>
-      <link>https://pulsodaia.com.br/feed/automatic1111-adota-workflow-gradio-para-refinar-geracao-de-imagens/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/automatic1111-adota-workflow-gradio-para-refinar-geracao-de-imagens/</guid>
-      <pubDate>Thu, 10 Sep 2026 16:12:45 GMT</pubDate>
-      <description>A plataforma popular de interface para Stable Diffusion passa por uma reformulação focada em eficiência e modularidade.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/gradio-workflow-1111">Hugging Face</source>
     </item>
   </channel>
 </rss>
