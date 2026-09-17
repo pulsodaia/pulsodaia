@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 16 Sep 2026 21:14:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:20:58 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Snap Lança "Specs Intelligence", Agente de IA para Tarefas e Gerenciamento de Informações</title>
+      <link>https://pulsodaia.com.br/feed/snap-lanca-specs-intelligence-agente-de-ia-para-tarefas-e-gerenciamento-de-infor/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/snap-lanca-specs-intelligence-agente-de-ia-para-tarefas-e-gerenciamento-de-infor/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:16:09 GMT</pubDate>
+      <description>A plataforma busca simplificar o dia a dia dos usuários com um assistente proativo, rivalizando com soluções de Meta e Google.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac">The Verge AI</source>
+    </item>
+    <item>
+      <title>Claude Code Aprimora Gerenciamento de Memória e Conectividade</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-gerenciamento-de-memoria-e-conectividade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-gerenciamento-de-memoria-e-conectividade/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:15:58 GMT</pubDate>
+      <description>Atualização do modelo de código da Anthropic foca em estabilidade e performance.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.274">Claude Code</source>
+    </item>
     <item>
       <title>Meta Lanca Oculos Inteligentes Sem Camera Para Afastar Criticas</title>
       <link>https://pulsodaia.com.br/feed/meta-lanca-oculos-inteligentes-sem-camera-para-afastar-criticas/</link>
@@ -439,24 +457,6 @@
       <description>Atores renomados diversificam investimentos e buscam aprendizado em startups.</description>
       <category>FOUNDERS</category>
       <source url="https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Nvidia projeta crescimento de 70% para o próximo ano, segundo Jensen Huang</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-projeta-crescimento-de-70-para-o-proximo-ano-segundo-jensen-huang/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-projeta-crescimento-de-70-para-o-proximo-ano-segundo-jensen-huang/</guid>
-      <pubDate>Thu, 10 Sep 2026 23:55:57 GMT</pubDate>
-      <description>O CEO da gigante de semicondutores detalha a estratégia por trás da expansão agressiva em um mercado cada vez mais dependente de hardware para IA.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code V2.1.268 Aperfeiçoa Controle e Segurança de Gateways de IA</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-268-aperfeicoa-controle-e-seguranca-de-gateways-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-268-aperfeicoa-controle-e-seguranca-de-gateways-de-ia/</guid>
-      <pubDate>Thu, 10 Sep 2026 23:55:46 GMT</pubDate>
-      <description>Atualização foca em governança de custos e acesso para implementações corporativas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.268">Claude Code</source>
     </item>
   </channel>
 </rss>
