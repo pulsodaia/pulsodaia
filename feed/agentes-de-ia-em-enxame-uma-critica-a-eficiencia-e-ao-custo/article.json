@@ -1,0 +1,50 @@
+{
+  "id": "https://the-decoder.com/?p=40313",
+  "title": "AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
+  "url": "https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/",
+  "summary": "OpenAI Codex developer Eric Provencher warns that running more than two parallel sub-agents almost always burns tokens without improving quality because agents don't trust each other and end up double-checking everyone's work. He calls this the \"coordination tax\" and points to a project where 1,393 agents spent $20,000 in tokens on a single Python refactoring that one Astra agent could have handled for a fraction of the cost. The article AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer appeared first on The Decoder .",
+  "published_at": "Thu, 17 Sep 2026 11:03:32 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "Agentes de IA em 'Enxame': Uma Crítica à Eficiência e ao Custo",
+  "subtitle": "Especialista da OpenAI aponta desperdício de recursos em arquiteturas de múltiplos agentes.",
+  "eyebrow_category": "ANALISE",
+  "lead": "A corrida por sistemas de IA mais capazes tem levado à exploração de arquiteturas com múltiplos agentes. No entanto, um desenvolvedor sênior da OpenAI levanta sérias preocupações sobre a real eficácia e o custo dessas abordagens.",
+  "body_markdown": "## O que aconteceu\n\nEric Provencher, um dos desenvolvedores do modelo Codex da OpenAI, expressou ceticismo quanto à utilidade de \"enxames\" de agentes de IA, onde múltiplos agentes operam em paralelo. Segundo ele, executar mais de dois sub-agentes simultaneamente raramente resulta em ganho de qualidade, mas sim em um aumento expressivo no consumo de \"tokens\" - a unidade de custo para processamento em modelos de linguagem. Provencher argumenta que essa ineficiência se deve à falta de confiança mútua entre os agentes, que acabam por verificar o trabalho uns dos outros, gerando um ciclo de retrabalho. Ele cunhou o termo \"coordination tax\" (imposto de coordenação) para descrever esse fenômeno. Um exemplo citado em seu argumento foi um projeto de refatoração de código Python que envolveu 1.393 agentes, custando cerca de US$ 20.000 em tokens. O mesmo trabalho, segundo Provencher, poderia ter sido executado por um único agente da Astra por uma fração desse valor. A crítica detalhada pode ser encontrada em um artigo publicado no [The Decoder](https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/).\n\n## Por que importa\n\nNo contexto brasileiro, onde empresas buscam otimizar investimentos em tecnologia e adotar soluções de IA de forma estratégica, a crítica de Provencher é particularmente relevante. A promessa de sistemas autônomos e altamente capazes pode mascarar ineficiências ocultas. O alto custo de tokens, combinado com a falta de melhoria na qualidade das entregas, pode representar um dreno financeiro significativo para startups e empresas de tecnologia que apostam em arquiteturas complexas de múltiplos agentes. A lição é clara: a complexidade arquitetural nem sempre se traduz em valor. A busca por eficiência e custo-benefício deve ser um pilar fundamental na adoção de novas tecnologias de IA, garantindo que o investimento em ferramentas de ponta gere resultados tangíveis e sustentáveis. A validação da eficácia antes da escalada é crucial.\n\n## O que esperar\n\nA perspectiva de Provencher sugere um reexame das estratégias de desenvolvimento de sistemas de IA. Em vez de simplesmente aumentar o número de agentes, o foco pode se voltar para a melhoria da coordenação entre um número menor de agentes ou para o desenvolvimento de agentes individuais mais competentes. A indústria poderá testemunhar um movimento em direção a modelos mais eficientes em termos de tokens e a ferramentas que facilitem a orquestração inteligente de tarefas. A otimização de custos e a garantia de qualidade se tornarão ainda mais centrais. Para os desenvolvedores e empresas que atuam no setor de IA no Brasil, é fundamental acompanhar esses debates e priorizar soluções que demonstrem um claro retorno sobre o investimento, em vez de se perder em arquiteturas excessivamente complexas. A discussão sobre a eficiência de agentes de IA continua a evoluir, e é provável que surjam novas metodologias para gerenciar e otimizar essas interações. Mais detalhes sobre as implicações podem ser encontrados em análises como a do [The Decoder](https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Eric Provencher, um dos desenvolvedores do modelo Codex da OpenAI, expressou ceticismo quanto à utilidade de \"enxames\" de agentes de IA, onde múltiplos agentes operam em paralelo. Segundo ele, executar mais de dois sub-agentes simultaneamente raramente resulta em ganho de qualidade, mas sim em um aumento expressivo no consumo de \"tokens\" - a unidade de custo para processamento em modelos de linguagem. Provencher argumenta que essa ineficiência se deve à falta de confiança mútua entre os agentes, que acabam por verificar o trabalho uns dos outros, gerando um ciclo de retrabalho. Ele cunhou o termo \"coordination tax\" (imposto de coordenação) para descrever esse fenômeno. Um exemplo citado em seu argumento foi um projeto de refatoração de código Python que envolveu 1.393 agentes, custando cerca de US$ 20.000 em tokens. O mesmo trabalho, segundo Provencher, poderia ter sido executado por um único agente da Astra por uma fração desse valor. A crítica detalhada pode ser encontrada em um artigo publicado no <a href=\"https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No contexto brasileiro, onde empresas buscam otimizar investimentos em tecnologia e adotar soluções de IA de forma estratégica, a crítica de Provencher é particularmente relevante. A promessa de sistemas autônomos e altamente capazes pode mascarar ineficiências ocultas. O alto custo de tokens, combinado com a falta de melhoria na qualidade das entregas, pode representar um dreno financeiro significativo para startups e empresas de tecnologia que apostam em arquiteturas complexas de múltiplos agentes. A lição é clara: a complexidade arquitetural nem sempre se traduz em valor. A busca por eficiência e custo-benefício deve ser um pilar fundamental na adoção de novas tecnologias de IA, garantindo que o investimento em ferramentas de ponta gere resultados tangíveis e sustentáveis. A validação da eficácia antes da escalada é crucial.</p>\n\n<h2>O que esperar</h2>\n\n<p>A perspectiva de Provencher sugere um reexame das estratégias de desenvolvimento de sistemas de IA. Em vez de simplesmente aumentar o número de agentes, o foco pode se voltar para a melhoria da coordenação entre um número menor de agentes ou para o desenvolvimento de agentes individuais mais competentes. A indústria poderá testemunhar um movimento em direção a modelos mais eficientes em termos de tokens e a ferramentas que facilitem a orquestração inteligente de tarefas. A otimização de custos e a garantia de qualidade se tornarão ainda mais centrais. Para os desenvolvedores e empresas que atuam no setor de IA no Brasil, é fundamental acompanhar esses debates e priorizar soluções que demonstrem um claro retorno sobre o investimento, em vez de se perder em arquiteturas excessivamente complexas. A discussão sobre a eficiência de agentes de IA continua a evoluir, e é provável que surjam novas metodologias para gerenciar e otimizar essas interações. Mais detalhes sobre as implicações podem ser encontrados em análises como a do <a href=\"https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>.</p>",
+  "tags": [
+    "agentes de ia",
+    "eficiencia",
+    "custo"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "agentes de IA",
+    "tokens",
+    "OpenAI",
+    "custo de IA",
+    "eficiência de IA"
+  ],
+  "meta_description_seo": "Crítica à escalada de agentes de IA: desenvolvedor da OpenAI alerta sobre desperdício de tokens e custo sem ganho de qualidade.",
+  "faq": [
+    {
+      "q": "Por que usar múltiplos agentes de IA pode ser ineficiente?",
+      "a": "Múltiplos agentes de IA podem ser ineficientes porque eles tendem a desconfiar uns dos outros, levando à verificação duplicada do trabalho e a um aumento no consumo de tokens sem um ganho proporcional na qualidade da tarefa."
+    },
+    {
+      "q": "O que é o \"imposto de coordenação\" mencionado?",
+      "a": "O \"imposto de coordenação\" refere-se ao custo adicional em termos de recursos computacionais e financeiros, medido em tokens, que surge da necessidade de gerenciar e coordenar múltiplos agentes de IA que executam a mesma tarefa."
+    },
+    {
+      "q": "Qual a alternativa proposta para a abordagem de \"enxames\" de agentes?",
+      "a": "A alternativa sugerida é focar em melhorar a competência de agentes individuais ou otimizar a coordenação entre um número menor de agentes, em vez de simplesmente aumentar a quantidade de agentes operando em paralelo."
+    }
+  ],
+  "written_at": "2026-09-17T13:17:21.693Z",
+  "slug": "agentes-de-ia-em-enxame-uma-critica-a-eficiencia-e-ao-custo",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/04/openai_logo_draft.png"
+}

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-17T07:28:31.828Z",
+  "generated_at": "2026-09-17T13:17:37.317Z",
   "articles": [
+    {
+      "slug": "consumo-de-tokens-em-ia-bom-sinal-ou-bolha-inflada",
+      "headline": "Consumo de Tokens em IA: Bom Sinal ou Bolha Inflada?",
+      "subtitle": "Um gráfico revela um salto de 25.000% no uso de tokens, mas o que isso realmente significa para o mercado?",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openrouters-staggering-token-chart-is-the-ai-bubble-debate-in-a-single-image/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "tokens",
+        "mercado"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 17 Sep 2026 10:24:32 +0000",
+      "written_at": "2026-09-17T13:17:34.823Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-em-enxame-uma-critica-a-eficiencia-e-ao-custo",
+      "headline": "Agentes de IA em 'Enxame': Uma Crítica à Eficiência e ao Custo",
+      "subtitle": "Especialista da OpenAI aponta desperdício de recursos em arquiteturas de múltiplos agentes.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/",
+      "category": "mercado",
+      "tags": [
+        "agentes de ia",
+        "eficiencia",
+        "custo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 17 Sep 2026 11:03:32 +0000",
+      "written_at": "2026-09-17T13:17:21.693Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "seguranca-em-ia-incidentes-expoem-urgencia-em-pesquisa",
+      "headline": "Seguranca em IA: Incidentes Expõem Urgência em Pesquisa",
+      "subtitle": "Um incidente com modelo da OpenAI força pesquisadores a se reunirem em um \"war room\", evidenciando a fragilidade de sistemas avançados.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+      "category": "mercado",
+      "tags": [
+        "seguranca de ia",
+        "openai",
+        "pesquisa em ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-17T07:30:00-04:00",
+      "written_at": "2026-09-17T13:17:09.924Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nova-abordagem-melhora-algoritmo-classico-de-coloracao-de-grafos",
       "headline": "Nova Abordagem Melhora Algoritmo Clássico de Coloração de Grafos",

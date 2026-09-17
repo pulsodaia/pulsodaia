@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 17 Sep 2026 07:34:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 13:22:46 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Consumo de Tokens em IA: Bom Sinal ou Bolha Inflada?</title>
+      <link>https://pulsodaia.com.br/feed/consumo-de-tokens-em-ia-bom-sinal-ou-bolha-inflada/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/consumo-de-tokens-em-ia-bom-sinal-ou-bolha-inflada/</guid>
+      <pubDate>Thu, 17 Sep 2026 13:17:34 GMT</pubDate>
+      <description>Um gráfico revela um salto de 25.000% no uso de tokens, mas o que isso realmente significa para o mercado?</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/openrouters-staggering-token-chart-is-the-ai-bubble-debate-in-a-single-image/">The Decoder</source>
+    </item>
+    <item>
+      <title>Agentes de IA em 'Enxame': Uma Crítica à Eficiência e ao Custo</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-em-enxame-uma-critica-a-eficiencia-e-ao-custo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-em-enxame-uma-critica-a-eficiencia-e-ao-custo/</guid>
+      <pubDate>Thu, 17 Sep 2026 13:17:21 GMT</pubDate>
+      <description>Especialista da OpenAI aponta desperdício de recursos em arquiteturas de múltiplos agentes.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/">The Decoder</source>
+    </item>
+    <item>
+      <title>Seguranca em IA: Incidentes Expõem Urgência em Pesquisa</title>
+      <link>https://pulsodaia.com.br/feed/seguranca-em-ia-incidentes-expoem-urgencia-em-pesquisa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/seguranca-em-ia-incidentes-expoem-urgencia-em-pesquisa/</guid>
+      <pubDate>Thu, 17 Sep 2026 13:17:09 GMT</pubDate>
+      <description>Um incidente com modelo da OpenAI força pesquisadores a se reunirem em um "war room", evidenciando a fragilidade de sistemas avançados.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic">The Verge AI</source>
+    </item>
     <item>
       <title>Nova Abordagem Melhora Algoritmo Clássico de Coloração de Grafos</title>
       <link>https://pulsodaia.com.br/feed/nova-abordagem-melhora-algoritmo-classico-de-coloracao-de-grafos/</link>
@@ -430,33 +457,6 @@
       <description>Empresas brasileiras de IA têm prazo apertado para garantir espaço no evento de tecnologia.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Atualiza Ferramentas de Avaliação e Controle de Saída</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-atualiza-ferramentas-de-avaliacao-e-controle-de-saida/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-atualiza-ferramentas-de-avaliacao-e-controle-de-saida/</guid>
-      <pubDate>Fri, 11 Sep 2026 20:49:22 GMT</pubDate>
-      <description>Novas funcionalidades buscam aprimorar a reprodutibilidade e a gestão de interações com modelos de linguagem em ambientes de desenvolvimento.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.269">Claude Code</source>
-    </item>
-    <item>
-      <title>Acordo bilionário da Anthropic com autores vira campo de batalha</title>
-      <link>https://pulsodaia.com.br/feed/acordo-bilionario-da-anthropic-com-autores-vira-campo-de-batalha/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/acordo-bilionario-da-anthropic-com-autores-vira-campo-de-batalha/</guid>
-      <pubDate>Fri, 11 Sep 2026 11:01:22 GMT</pubDate>
-      <description>A maior negociação de direitos autorais da história dos EUA enfrenta disputas internas sobre a divisão dos fundos.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/">The Decoder</source>
-    </item>
-    <item>
-      <title>Anthropic é processada por suposta publicidade enganosa em assinaturas do Claude</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-e-processada-por-suposta-publicidade-enganosa-em-assinaturas-do-claude/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-e-processada-por-suposta-publicidade-enganosa-em-assinaturas-do-claude/</guid>
-      <pubDate>Fri, 11 Sep 2026 11:00:41 GMT</pubDate>
-      <description>Ação coletiva alega que a empresa de IA deturpou o valor real do acesso aos seus modelos.</description>
-      <category>MERCADO</category>
-      <source url="https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/">The Decoder</source>
     </item>
   </channel>
 </rss>
