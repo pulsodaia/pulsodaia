@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2609.17632v1",
+  "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+  "url": "https://arxiv.org/abs/2609.17632",
+  "summary": "arXiv:2609.17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ability to adapt how they gather evidence, invoke tools, verify signals, and manage risk under changing market regimes. We introduce EvolveTrade, a self-evolving framework that treats the system prompt of a tool-using trading agent as a text-parameterized policy. After each update interval, a Policy Agent revises this policy using accumulated decision traces and realized portfolio feedback, while keeping the backbone LLM fixed. The updated policy is then used for the next batch of trading decisions, enabling the agent to refine its information-acquisition and portfolio-construction procedure over time. Experiments across multiple market regimes and two LLM backbones show that EvolveTrade often improves Sharpe Rat",
+  "published_at": "Thu, 17 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "EvolveTrade: Agentes de Trading com LLMs que se Auto-Ajustam em Mercados Voláteis",
+  "subtitle": "Nova abordagem promete maior adaptabilidade para algoritmos de investimento baseados em inteligência artificial.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores propõem o EvolveTrade, um framework que permite a agentes de trading baseados em Large Language Models (LLMs) refinar suas próprias políticas de operação. A novidade reside na capacidade do sistema de aprender e se adaptar a diferentes regimes de mercado sem intervenção manual constante.",
+  "body_markdown": "## O que aconteceu\n\nUma nova publicação no arXiv, intitulada \"EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents\", detalha um método inovador para aprimorar o desempenho de agentes de trading autônomos que utilizam LLMs. Tradicionalmente, esses agentes combinam dados de mercado, notícias e análises para tomar decisões, mas suas políticas de uso de ferramentas são frequentemente fixas e definidas antes da implantação. Essa rigidez limita sua capacidade de ajustar a coleta de evidências, a invocação de ferramentas, a verificação de sinais e a gestão de risco quando as condições do mercado mudam.\n\nO EvolveTrade aborda essa limitação tratando o \"system prompt\" do agente como uma política parametrizada por texto. Após cada intervalo de atualização, um \"Policy Agent\" revisa essa política com base em dados de decisões acumuladas e no feedback do portfólio realizado. O LLM principal permanece inalterado, enquanto a política de interação e decisão é dinamicamente ajustada. Essa abordagem permite que o agente adapte sua estratégia de forma contínua, respondendo de maneira mais eficaz a novas informações e dinâmicas de mercado. A pesquisa, disponível em [arxiv.org/abs/2609.17632](https://arxiv.org/abs/2609.17632), descreve o framework em detalhes.\n\n## Por que importa\n\nPara o mercado financeiro brasileiro, a capacidade de adaptação de algoritmos de trading é crucial. A volatilidade inerente a mercados emergentes, influenciada por fatores econômicos, políticos e globais, exige sistemas que possam responder rapidamente a mudanças. Agentes de trading com políticas estáticas correm o risco de se tornarem obsoletos ou ineficientes em curtos períodos, gerando perdas ou oportunidades perdidas.\n\nO EvolveTrade oferece um caminho para contornar essa desvantagem. Ao permitir que os agentes de IA aprendam com suas próprias experiências e ajustem suas estratégias de forma autônoma, as instituições financeiras e investidores podem contar com ferramentas mais robustas e resilientes. Isso pode levar a uma tomada de decisão mais informada, uma gestão de risco aprimorada e, potencialmente, a melhores retornos em cenários de mercado complexos e em constante evolução. A flexibilidade proporcionada por este framework pode ser um diferencial competitivo significativo.\n\n## O que esperar\n\nA expectativa é que o EvolveTrade pavimente o caminho para uma nova geração de agentes de trading autônomos. A capacidade de auto-aperfeiçoamento contínuo, sem a necessidade de reengenharia manual frequente, pode acelerar a adoção de IA em estratégias de investimento. Próximos passos na pesquisa devem focar em escalar o framework para diferentes tipos de ativos e mercados, além de explorar a robustez contra manipulações ou dados ruidosos. A validação em cenários de trading simulados e, posteriormente, em ambientes de mercado reais será fundamental para comprovar sua eficácia. Mais detalhes sobre a metodologia e resultados preliminares podem ser encontrados em [a publicação original no arXiv](https://arxiv.org/abs/2609.17632). A tendência é que sistemas similares se tornem padrão para otimizar a interação entre LLMs e dados financeiros.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Uma nova publicação no arXiv, intitulada \"EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents\", detalha um método inovador para aprimorar o desempenho de agentes de trading autônomos que utilizam LLMs. Tradicionalmente, esses agentes combinam dados de mercado, notícias e análises para tomar decisões, mas suas políticas de uso de ferramentas são frequentemente fixas e definidas antes da implantação. Essa rigidez limita sua capacidade de ajustar a coleta de evidências, a invocação de ferramentas, a verificação de sinais e a gestão de risco quando as condições do mercado mudam.</p>\n\n<p>O EvolveTrade aborda essa limitação tratando o \"system prompt\" do agente como uma política parametrizada por texto. Após cada intervalo de atualização, um \"Policy Agent\" revisa essa política com base em dados de decisões acumuladas e no feedback do portfólio realizado. O LLM principal permanece inalterado, enquanto a política de interação e decisão é dinamicamente ajustada. Essa abordagem permite que o agente adapte sua estratégia de forma contínua, respondendo de maneira mais eficaz a novas informações e dinâmicas de mercado. A pesquisa, disponível em <a href=\"https://arxiv.org/abs/2609.17632\" target=\"_blank\" rel=\"external noopener\">arxiv.org/abs/2609.17632</a>, descreve o framework em detalhes.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado financeiro brasileiro, a capacidade de adaptação de algoritmos de trading é crucial. A volatilidade inerente a mercados emergentes, influenciada por fatores econômicos, políticos e globais, exige sistemas que possam responder rapidamente a mudanças. Agentes de trading com políticas estáticas correm o risco de se tornarem obsoletos ou ineficientes em curtos períodos, gerando perdas ou oportunidades perdidas.</p>\n\n<p>O EvolveTrade oferece um caminho para contornar essa desvantagem. Ao permitir que os agentes de IA aprendam com suas próprias experiências e ajustem suas estratégias de forma autônoma, as instituições financeiras e investidores podem contar com ferramentas mais robustas e resilientes. Isso pode levar a uma tomada de decisão mais informada, uma gestão de risco aprimorada e, potencialmente, a melhores retornos em cenários de mercado complexos e em constante evolução. A flexibilidade proporcionada por este framework pode ser um diferencial competitivo significativo.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que o EvolveTrade pavimente o caminho para uma nova geração de agentes de trading autônomos. A capacidade de auto-aperfeiçoamento contínuo, sem a necessidade de reengenharia manual frequente, pode acelerar a adoção de IA em estratégias de investimento. Próximos passos na pesquisa devem focar em escalar o framework para diferentes tipos de ativos e mercados, além de explorar a robustez contra manipulações ou dados ruidosos. A validação em cenários de trading simulados e, posteriormente, em ambientes de mercado reais será fundamental para comprovar sua eficácia. Mais detalhes sobre a metodologia e resultados preliminares podem ser encontrados em <a href=\"https://arxiv.org/abs/2609.17632\" target=\"_blank\" rel=\"external noopener\">a publicação original no arXiv</a>. A tendência é que sistemas similares se tornem padrão para otimizar a interação entre LLMs e dados financeiros.</p>",
+  "tags": [
+    "trading",
+    "llm",
+    "inteligência artificial"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "agentes de trading",
+    "LLMs",
+    "EvolveTrade",
+    "IA adaptativa",
+    "políticas de IA"
+  ],
+  "meta_description_seo": "Framework EvolveTrade permite que agentes de trading com LLMs refinem suas políticas de operação, adaptando-se a mercados voláteis.",
+  "faq": [
+    {
+      "q": "O que é o EvolveTrade?",
+      "a": "EvolveTrade é um framework que permite que agentes de trading baseados em LLMs ajustem suas próprias políticas de operação de forma autônoma, aprendendo com dados de mercado e feedback do portfólio."
+    },
+    {
+      "q": "Qual o principal benefício do EvolveTrade?",
+      "a": "O principal benefício é a capacidade do agente de se adaptar a diferentes regimes de mercado sem intervenção manual constante, tornando-o mais resiliente e eficiente."
+    },
+    {
+      "q": "Isso significa que os LLMs de trading não precisarão mais de ajustes humanos?",
+      "a": "O framework foca em refinar as políticas de uso de ferramentas e tomada de decisão do LLM, mantendo o modelo principal fixo. Ajustes humanos ainda podem ser necessários para supervisão e validação."
+    }
+  ],
+  "written_at": "2026-09-17T07:28:21.541Z",
+  "slug": "evolvetrade-agentes-de-trading-com-llms-que-se-auto-ajustam-em-mercados-volateis",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

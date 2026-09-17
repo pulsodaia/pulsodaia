@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 17 Sep 2026 00:20:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 07:34:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nova Abordagem Melhora Algoritmo Clássico de Coloração de Grafos</title>
+      <link>https://pulsodaia.com.br/feed/nova-abordagem-melhora-algoritmo-classico-de-coloracao-de-grafos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-abordagem-melhora-algoritmo-classico-de-coloracao-de-grafos/</guid>
+      <pubDate>Thu, 17 Sep 2026 07:28:31 GMT</pubDate>
+      <description>Pesquisa acadêmica apresenta método para otimizar um dos desafios computacionais mais antigos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.17633">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>EvolveTrade: Agentes de Trading com LLMs que se Auto-Ajustam em Mercados Voláteis</title>
+      <link>https://pulsodaia.com.br/feed/evolvetrade-agentes-de-trading-com-llms-que-se-auto-ajustam-em-mercados-volateis/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/evolvetrade-agentes-de-trading-com-llms-que-se-auto-ajustam-em-mercados-volateis/</guid>
+      <pubDate>Thu, 17 Sep 2026 07:28:21 GMT</pubDate>
+      <description>Nova abordagem promete maior adaptabilidade para algoritmos de investimento baseados em inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2609.17632">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Publicação de IA Exige Rastreabilidade Clara para Evitar Alegações Enganosas</title>
+      <link>https://pulsodaia.com.br/feed/publicacao-de-ia-exige-rastreabilidade-clara-para-evitar-alegacoes-enganosas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/publicacao-de-ia-exige-rastreabilidade-clara-para-evitar-alegacoes-enganosas/</guid>
+      <pubDate>Thu, 17 Sep 2026 07:28:10 GMT</pubDate>
+      <description>Pesquisadores propõem um novo protocolo para garantir a integridade de informações geradas por inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2609.17631">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Snap Lança "Specs Intelligence", Agente de IA para Tarefas e Gerenciamento de Informações</title>
       <link>https://pulsodaia.com.br/feed/snap-lanca-specs-intelligence-agente-de-ia-para-tarefas-e-gerenciamento-de-infor/</link>
@@ -430,33 +457,6 @@
       <description>Ação coletiva alega que a empresa de IA deturpou o valor real do acesso aos seus modelos.</description>
       <category>MERCADO</category>
       <source url="https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA Aprende Conceitos, Nao Apenas Palavras, Com Novo Modelo</title>
-      <link>https://pulsodaia.com.br/feed/ia-aprende-conceitos-nao-apenas-palavras-com-novo-modelo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-conceitos-nao-apenas-palavras-com-novo-modelo/</guid>
-      <pubDate>Fri, 11 Sep 2026 04:10:53 GMT</pubDate>
-      <description>Pesquisa aponta para um avanco na compreensao de modelos de linguagem.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.10715">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>IA aprende com pouquíssimos dados: um caminho para modelos mais eficientes</title>
-      <link>https://pulsodaia.com.br/feed/ia-aprende-com-pouquissimos-dados-um-caminho-para-modelos-mais-eficientes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-com-pouquissimos-dados-um-caminho-para-modelos-mais-eficientes/</guid>
-      <pubDate>Fri, 11 Sep 2026 04:10:41 GMT</pubDate>
-      <description>Pesquisa explora como modelos de linguagem podem alcançar alta performance com corpora reduzidos, um avanço crucial para o mercado brasileiro.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.10702">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Mark Wahlberg em evento de tecnologia foca em empreendedorismo, não em Hollywood</title>
-      <link>https://pulsodaia.com.br/feed/mark-wahlberg-em-evento-de-tecnologia-foca-em-empreendedorismo-nao-em-hollywood/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/mark-wahlberg-em-evento-de-tecnologia-foca-em-empreendedorismo-nao-em-hollywood/</guid>
-      <pubDate>Thu, 10 Sep 2026 23:56:07 GMT</pubDate>
-      <description>Atores renomados diversificam investimentos e buscam aprendizado em startups.</description>
-      <category>FOUNDERS</category>
-      <source url="https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

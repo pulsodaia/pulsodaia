@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-17T00:16:09.245Z",
+  "generated_at": "2026-09-17T07:28:31.828Z",
   "articles": [
+    {
+      "slug": "nova-abordagem-melhora-algoritmo-classico-de-coloracao-de-grafos",
+      "headline": "Nova Abordagem Melhora Algoritmo Clássico de Coloração de Grafos",
+      "subtitle": "Pesquisa acadêmica apresenta método para otimizar um dos desafios computacionais mais antigos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.17633",
+      "category": "research",
+      "tags": [
+        "coloracao de grafos",
+        "inteligencia artificial",
+        "otimizacao",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-17T07:28:31.738Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "evolvetrade-agentes-de-trading-com-llms-que-se-auto-ajustam-em-mercados-volateis",
+      "headline": "EvolveTrade: Agentes de Trading com LLMs que se Auto-Ajustam em Mercados Voláteis",
+      "subtitle": "Nova abordagem promete maior adaptabilidade para algoritmos de investimento baseados em inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.17632",
+      "category": "research",
+      "tags": [
+        "trading",
+        "llm",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-17T07:28:21.541Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "publicacao-de-ia-exige-rastreabilidade-clara-para-evitar-alegacoes-enganosas",
+      "headline": "Publicação de IA Exige Rastreabilidade Clara para Evitar Alegações Enganosas",
+      "subtitle": "Pesquisadores propõem um novo protocolo para garantir a integridade de informações geradas por inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.17631",
+      "category": "research",
+      "tags": [
+        "ia",
+        "publicacao",
+        "rastreabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 17 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-17T07:28:10.880Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "snap-lanca-specs-intelligence-agente-de-ia-para-tarefas-e-gerenciamento-de-infor",
       "headline": "Snap Lança \"Specs Intelligence\", Agente de IA para Tarefas e Gerenciamento de Informações",
