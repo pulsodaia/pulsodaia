@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-18T04:28:27.524Z",
+  "generated_at": "2026-09-18T20:44:58.640Z",
   "articles": [
+    {
+      "slug": "claude-code-ganha-flexibilidade-com-agents-md-e-configuracoes-de-rede-avancadas",
+      "headline": "Claude Code Ganha Flexibilidade com AGENTS.md e Configurações de Rede Avançadas",
+      "subtitle": "Atualização da Anthropic foca em otimização de fluxo de trabalho e controle de infraestrutura para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "desenvolvimento de ia"
+      ],
+      "read_time_min": 4,
+      "published_at": "2026-09-18T18:06:32Z",
+      "written_at": "2026-09-18T20:44:57.464Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "google-e-designers-criam-ferramentas-de-ia-para-semana-de-moda-de-nova-york",
+      "headline": "Google e Designers Criam Ferramentas de IA para Semana de Moda de Nova York",
+      "subtitle": "Colaboração inédita busca otimizar o processo criativo e de produção no setor fashion.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "moda",
+        "google"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 18 Sep 2026 13:00:00 +0000",
+      "written_at": "2026-09-18T20:44:45.852Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-amplia-equipe-de-pesquisa-em-ia-e-economia-com-especialistas-globais",
+      "headline": "Google Amplia Equipe de Pesquisa em IA e Economia com Especialistas Globais",
+      "subtitle": "A gigante da tecnologia reforça seu time acadêmico e interno para analisar o impacto econômico da inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "economia",
+        "google"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 18 Sep 2026 14:00:00 +0000",
+      "written_at": "2026-09-18T20:44:35.452Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "novo-benchmark-desafia-ia-em-raciocinio-cientifico-interdisciplinar",
       "headline": "Novo Benchmark Desafia IA em Raciocínio Científico Interdisciplinar",
