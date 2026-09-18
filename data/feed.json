@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-09-18T00:02:25.411Z",
+  "generated_at": "2026-09-18T04:28:27.524Z",
   "articles": [
+    {
+      "slug": "novo-benchmark-desafia-ia-em-raciocinio-cientifico-interdisciplinar",
+      "headline": "Novo Benchmark Desafia IA em Raciocínio Científico Interdisciplinar",
+      "subtitle": "Pesquisadores lançam ferramenta para avaliar modelos em análise de literatura biofísica.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.19180",
+      "category": "research",
+      "tags": [
+        "ia",
+        "biofisica",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-18T04:28:27.464Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nova-tecnica-de-aprendizado-por-reforco-busca-estabilidade-em-algoritmos-de-ia",
+      "headline": "Nova Técnica de Aprendizado por Reforço Busca Estabilidade em Algoritmos de IA",
+      "subtitle": "Pesquisa acadêmica propõe avanço em métodos de aprendizado com demonstrações para sistemas de IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.19170",
+      "category": "research",
+      "tags": [
+        "aprendizado por reforço",
+        "inteligência artificial",
+        "pesquisa em ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 18 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-18T04:28:16.659Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "crusoe-capta-us-3-9-bilhoes-para-expansao-de-data-centers-e-fabricas-de-ia-modul",
       "headline": "Crusoe Capta US$ 3,9 Bilhões para Expansão de Data Centers e Fábricas de IA Modulares",

@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 18 Sep 2026 00:07:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 04:34:26 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Novo Benchmark Desafia IA em Raciocínio Científico Interdisciplinar</title>
+      <link>https://pulsodaia.com.br/feed/novo-benchmark-desafia-ia-em-raciocinio-cientifico-interdisciplinar/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/novo-benchmark-desafia-ia-em-raciocinio-cientifico-interdisciplinar/</guid>
+      <pubDate>Fri, 18 Sep 2026 04:28:27 GMT</pubDate>
+      <description>Pesquisadores lançam ferramenta para avaliar modelos em análise de literatura biofísica.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2609.19180">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Nova Técnica de Aprendizado por Reforço Busca Estabilidade em Algoritmos de IA</title>
+      <link>https://pulsodaia.com.br/feed/nova-tecnica-de-aprendizado-por-reforco-busca-estabilidade-em-algoritmos-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-tecnica-de-aprendizado-por-reforco-busca-estabilidade-em-algoritmos-de-ia/</guid>
+      <pubDate>Fri, 18 Sep 2026 04:28:16 GMT</pubDate>
+      <description>Pesquisa acadêmica propõe avanço em métodos de aprendizado com demonstrações para sistemas de IA.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.19170">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Crusoe Capta US$ 3,9 Bilhões para Expansão de Data Centers e Fábricas de IA Modulares</title>
       <link>https://pulsodaia.com.br/feed/crusoe-capta-us-3-9-bilhoes-para-expansao-de-data-centers-e-fabricas-de-ia-modul/</link>
@@ -439,24 +457,6 @@
       <description>Decisão da gigante de IA reacende debate sobre o momento ideal para a entrada no mercado de capitais.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Corrige Falha em Comandos Git em Sessões Longas</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-corrige-falha-em-comandos-git-em-sessoes-longas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-corrige-falha-em-comandos-git-em-sessoes-longas/</guid>
-      <pubDate>Sun, 13 Sep 2026 04:21:58 GMT</pubDate>
-      <description>Atualização da Anthropic resolve problema que exigia permissão inesperada em ferramentas de desenvolvimento.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.270">Claude Code</source>
-    </item>
-    <item>
-      <title>CEO da Anthropic pede freios no desenvolvimento de IA antes que a auto-melhoria escape ao controle</title>
-      <link>https://pulsodaia.com.br/feed/ceo-da-anthropic-pede-freios-no-desenvolvimento-de-ia-antes-que-a-auto-melhoria-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ceo-da-anthropic-pede-freios-no-desenvolvimento-de-ia-antes-que-a-auto-melhoria-/</guid>
-      <pubDate>Sat, 12 Sep 2026 18:16:31 GMT</pubDate>
-      <description>Dario Amodei alerta para riscos iminentes de sistemas de IA que se aprimoram recursivamente e propõe medidas de segurança globais.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/anthropic-ceo-amodei-wants-ai-speed-limits-before-self-improvement-outpaces-human-control/">The Decoder</source>
     </item>
   </channel>
 </rss>
