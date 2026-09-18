@@ -1,0 +1,53 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.275",
+  "title": "v2.1.275",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+  "summary": "<h2>What's changed</h2> <ul> <li>Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and <code>/status</code> shows it</li> <li>Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them</li> <li>Added a startup warning when a configured <code>otelHeadersHelper</code> fails, so sessions that silently export no telemetry are noticed</li> <li>Added syncing of the skills and plugins enabled on your claude.ai account to terminal sessions signed in with it; opt out with <code>syncClaudeAiSkills: false</code> or <code>syncClaudeAiPlugins: false</code></li> <li>Added <code>/plugin install <plugin> --marketplace <source></code>, which offers to add the marketplace before installing the plugin</li> <li>Fixed a restored memory file's age note changing between requests after a compacti",
+  "published_at": "2026-09-17T22:33:17Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Aprimora Integração e Usabilidade em Nova Atualização",
+  "subtitle": "A Anthropic avança na experiência do usuário com melhorias de sincronização e funcionalidades de envio.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão v2.1.275 do Claude Code, introduzindo melhorias significativas na gestão de contas, envio de mensagens e sincronização de plugins para usuários de terminais. As atualizações visam otimizar o fluxo de trabalho e a transparência na interação com os modelos de linguagem.",
+  "body_markdown": "## O que aconteceu\n\nA versão v2.1.275 do Claude Code, disponível no repositório oficial da Anthropic, traz uma série de ajustes focados em aprimorar a experiência do desenvolvedor e do usuário final. Uma das novidades é a inclusão da conta logada no gateway de entrada do Claude apps, permitindo confirmação antes do salvamento das credenciais e exibição no comando `/status`. Essa medida visa aumentar a segurança e o controle sobre o acesso.\n\nOutro ponto de destaque é a introdução de uma tecla de atalho para envio imediato de mensagens (Ctrl+Enter ou Ctrl+X Ctrl+S). Essa funcionalidade permite interromper a digitação atual e enviar todas as mensagens enfileiradas de uma vez. Mensagens enviadas e em espera agora são exibidas em cinza até serem processadas pelo modelo, oferecendo um feedback visual claro sobre o estado da comunicação.\n\nA atualização também adiciona um aviso de inicialização caso a configuração `otelHeadersHelper` falhe, alertando sobre possíveis falhas na exportação de telemetria. Para usuários que se conectam via terminal, as skills e plugins habilitados na conta do claude.ai agora são sincronizados, com a opção de desativar essa sincronização através de `syncClaudeAiSkills: false` ou `syncClaudeAiPlugins: false`. Essa funcionalidade busca uniformizar a experiência entre diferentes interfaces de acesso ao Claude.\n\n## Por que importa\n\nEssas atualizações, embora técnicas, têm um impacto direto na produtividade de equipes que utilizam o Claude para desenvolvimento de código, análise de dados ou outras tarefas complexas. A confirmação de credenciais e a visualização do status das mensagens em cinza aumentam a confiança e reduzem erros de comunicação, pontos cruciais em ambientes de desenvolvimento colaborativo.\n\nA sincronização de skills e plugins é particularmente relevante para o mercado brasileiro, onde a adoção de ferramentas de IA em fluxos de trabalho corporativos está crescendo. Garantir que as configurações personalizadas do usuário sejam mantidas entre diferentes sessões de terminal simplifica a transição e evita a necessidade de reconfigurações constantes, otimizando o tempo. A funcionalidade de envio imediato também pode agilizar ciclos de feedback e iteração em projetos de desenvolvimento.\n\n## O que esperar\n\nCom a integração mais profunda entre as interfaces web e de terminal, espera-se que a Anthropic continue a refinar a experiência de uso do Claude, tornando-o uma ferramenta ainda mais acessível e poderosa. A capacidade de sincronizar configurações e aprimorar o controle sobre o envio de mensagens sugere um foco contínuo na usabilidade e na segurança.\n\nA introdução de avisos de falha na telemetria indica um compromisso com a transparência e a confiabilidade. Usuários e desenvolvedores podem esperar futuras iterações que abordem ainda mais a integração de ferramentas e a personalização do ambiente de trabalho com o Claude. A evolução constante das funcionalidades, como evidenciado nesta versão, aponta para um futuro onde modelos de linguagem se tornam componentes cada vez mais integrados e eficientes em diversas aplicações. Para mais detalhes técnicos, consulte as notas de lançamento em [Claude Code v2.1.275](https://github.com/anthropics/claude-code/releases/tag/v2.1.275).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A versão v2.1.275 do Claude Code, disponível no repositório oficial da Anthropic, traz uma série de ajustes focados em aprimorar a experiência do desenvolvedor e do usuário final. Uma das novidades é a inclusão da conta logada no gateway de entrada do Claude apps, permitindo confirmação antes do salvamento das credenciais e exibição no comando <code>/status</code>. Essa medida visa aumentar a segurança e o controle sobre o acesso.</p>\n\n<p>Outro ponto de destaque é a introdução de uma tecla de atalho para envio imediato de mensagens (Ctrl+Enter ou Ctrl+X Ctrl+S). Essa funcionalidade permite interromper a digitação atual e enviar todas as mensagens enfileiradas de uma vez. Mensagens enviadas e em espera agora são exibidas em cinza até serem processadas pelo modelo, oferecendo um feedback visual claro sobre o estado da comunicação.</p>\n\n<p>A atualização também adiciona um aviso de inicialização caso a configuração <code>otelHeadersHelper</code> falhe, alertando sobre possíveis falhas na exportação de telemetria. Para usuários que se conectam via terminal, as skills e plugins habilitados na conta do claude.ai agora são sincronizados, com a opção de desativar essa sincronização através de <code>syncClaudeAiSkills: false</code> ou <code>syncClaudeAiPlugins: false</code>. Essa funcionalidade busca uniformizar a experiência entre diferentes interfaces de acesso ao Claude.</p>\n\n<h2>Por que importa</h2>\n\n<p>Essas atualizações, embora técnicas, têm um impacto direto na produtividade de equipes que utilizam o Claude para desenvolvimento de código, análise de dados ou outras tarefas complexas. A confirmação de credenciais e a visualização do status das mensagens em cinza aumentam a confiança e reduzem erros de comunicação, pontos cruciais em ambientes de desenvolvimento colaborativo.</p>\n\n<p>A sincronização de skills e plugins é particularmente relevante para o mercado brasileiro, onde a adoção de ferramentas de IA em fluxos de trabalho corporativos está crescendo. Garantir que as configurações personalizadas do usuário sejam mantidas entre diferentes sessões de terminal simplifica a transição e evita a necessidade de reconfigurações constantes, otimizando o tempo. A funcionalidade de envio imediato também pode agilizar ciclos de feedback e iteração em projetos de desenvolvimento.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a integração mais profunda entre as interfaces web e de terminal, espera-se que a Anthropic continue a refinar a experiência de uso do Claude, tornando-o uma ferramenta ainda mais acessível e poderosa. A capacidade de sincronizar configurações e aprimorar o controle sobre o envio de mensagens sugere um foco contínuo na usabilidade e na segurança.</p>\n\n<p>A introdução de avisos de falha na telemetria indica um compromisso com a transparência e a confiabilidade. Usuários e desenvolvedores podem esperar futuras iterações que abordem ainda mais a integração de ferramentas e a personalização do ambiente de trabalho com o Claude. A evolução constante das funcionalidades, como evidenciado nesta versão, aponta para um futuro onde modelos de linguagem se tornam componentes cada vez mais integrados e eficientes em diversas aplicações. Para mais detalhes técnicos, consulte as notas de lançamento em <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.275\" target=\"_blank\" rel=\"external noopener\">Claude Code v2.1.275</a>.</p>",
+  "tags": [
+    "claude",
+    "anthropic",
+    "inteligencia artificial"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "atualizacao",
+    "IA",
+    "desenvolvimento",
+    "terminal",
+    "plugins",
+    "skills"
+  ],
+  "meta_description_seo": "Anthropic lança Claude Code v2.1.275 com melhorias em login, envio de mensagens e sincronizacao de plugins.",
+  "faq": [
+    {
+      "q": "Quais as principais novidades da atualizacao v2.1.275 do Claude Code?",
+      "a": "A atualizacao inclui confirmacao de conta logada, um atalho para envio imediato de mensagens e sincronizacao de skills e plugins entre claude.ai e sessoes de terminal."
+    },
+    {
+      "q": "Como posso desativar a sincronizacao de skills e plugins?",
+      "a": "Voce pode desativar a sincronizacao configurando `syncClaudeAiSkills: false` ou `syncClaudeAiPlugins: false` nas suas definicoes."
+    },
+    {
+      "q": "O que acontece se a configuracao de telemetria falhar?",
+      "a": "Um aviso de inicializacao sera exibido para alertar sobre a falha na configuracao `otelHeadersHelper`, indicando que a telemetria pode nao estar sendo exportada."
+    }
+  ],
+  "written_at": "2026-09-18T00:01:48.842Z",
+  "slug": "claude-code-aprimora-integracao-e-usabilidade-em-nova-atualizacao",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/7f3ae7a498e4f5aa8de966b1715043935e4303cde43f7ed8163f600a45599276/anthropics/claude-code/releases/tag/v2.1.275"
+}
