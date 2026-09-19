@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-18T20:44:58.640Z",
+  "generated_at": "2026-09-19T00:05:27.773Z",
   "articles": [
+    {
+      "slug": "ia-militar-quase-aciona-operacao-o-perigo-das-alucinacoes-em-sistemas-de-alto-ri",
+      "headline": "IA militar quase aciona operação: o perigo das \"alucinações\" em sistemas de alto risco",
+      "subtitle": "Um incidente nos EUA expõe a fragilidade de LLMs em cenários críticos, com implicações diretas para a adoção de IA em setores sensíveis no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "category": "mercado",
+      "tags": [
+        "ia militar",
+        "alucinação de ia",
+        "segurança de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 18 Sep 2026 23:12:32 +0000",
+      "written_at": "2026-09-19T00:05:27.698Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-testa-limites-da-ia-em-laboratorio-de-biologia",
+      "headline": "Anthropic Testa Limites da IA em Laboratório de Biologia",
+      "subtitle": "A empresa de IA que alerta sobre riscos existenciais também investe em pesquisa biológica, levantando questões sobre o futuro da ciência.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "biologia",
+        "pesquisa",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 18 Sep 2026 23:13:31 +0000",
+      "written_at": "2026-09-19T00:05:16.292Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "vantora-capta-us-100-milhoes-para-desenvolver-ia-aplicada-a-industria-fisica",
+      "headline": "Vantora Capta US$ 100 Milhões para Desenvolver IA Aplicada à Indústria Física",
+      "subtitle": "A empresa, antes conhecida como UP.Labs, foca na criação de startups para o setor industrial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+      "category": "mercado",
+      "tags": [
+        "ia fisica",
+        "startups industriais",
+        "venture capital"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 18 Sep 2026 23:25:01 +0000",
+      "written_at": "2026-09-19T00:05:05.733Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "claude-code-ganha-flexibilidade-com-agents-md-e-configuracoes-de-rede-avancadas",
       "headline": "Claude Code Ganha Flexibilidade com AGENTS.md e Configurações de Rede Avançadas",

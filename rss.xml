@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 18 Sep 2026 20:51:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 00:10:32 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA militar quase aciona operação: o perigo das "alucinações" em sistemas de alto risco</title>
+      <link>https://pulsodaia.com.br/feed/ia-militar-quase-aciona-operacao-o-perigo-das-alucinacoes-em-sistemas-de-alto-ri/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-militar-quase-aciona-operacao-o-perigo-das-alucinacoes-em-sistemas-de-alto-ri/</guid>
+      <pubDate>Sat, 19 Sep 2026 00:05:27 GMT</pubDate>
+      <description>Um incidente nos EUA expõe a fragilidade de LLMs em cenários críticos, com implicações diretas para a adoção de IA em setores sensíveis no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Anthropic Testa Limites da IA em Laboratório de Biologia</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-testa-limites-da-ia-em-laboratorio-de-biologia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-testa-limites-da-ia-em-laboratorio-de-biologia/</guid>
+      <pubDate>Sat, 19 Sep 2026 00:05:16 GMT</pubDate>
+      <description>A empresa de IA que alerta sobre riscos existenciais também investe em pesquisa biológica, levantando questões sobre o futuro da ciência.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Vantora Capta US$ 100 Milhões para Desenvolver IA Aplicada à Indústria Física</title>
+      <link>https://pulsodaia.com.br/feed/vantora-capta-us-100-milhoes-para-desenvolver-ia-aplicada-a-industria-fisica/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vantora-capta-us-100-milhoes-para-desenvolver-ia-aplicada-a-industria-fisica/</guid>
+      <pubDate>Sat, 19 Sep 2026 00:05:05 GMT</pubDate>
+      <description>A empresa, antes conhecida como UP.Labs, foca na criação de startups para o setor industrial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Claude Code Ganha Flexibilidade com AGENTS.md e Configurações de Rede Avançadas</title>
       <link>https://pulsodaia.com.br/feed/claude-code-ganha-flexibilidade-com-agents-md-e-configuracoes-de-rede-avancadas/</link>
@@ -430,33 +457,6 @@
       <description>Nova abordagem em IA busca otimizar fluxos de trabalho complexos com foco em custo e latência.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2609.11977">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Agentes de Busca Abertos Iris-mini e Iris-pro Lideram Benchmarks</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-busca-abertos-iris-mini-e-iris-pro-lideram-benchmarks/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-busca-abertos-iris-mini-e-iris-pro-lideram-benchmarks/</guid>
-      <pubDate>Sun, 13 Sep 2026 16:00:51 GMT</pubDate>
-      <description>A oferta de modelos de IA de código aberto ganha novos competidores com desempenho notável.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/">The Decoder</source>
-    </item>
-    <item>
-      <title>ElevenLabs Lança Music v2.5 com Melhorias e Acesso Via App e API</title>
-      <link>https://pulsodaia.com.br/feed/elevenlabs-lanca-music-v2-5-com-melhorias-e-acesso-via-app-e-api/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/elevenlabs-lanca-music-v2-5-com-melhorias-e-acesso-via-app-e-api/</guid>
-      <pubDate>Sun, 13 Sep 2026 16:00:40 GMT</pubDate>
-      <description>A nova versão do gerador de música por IA da ElevenLabs promete qualidade superior e flexibilidade para criadores no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/">The Decoder</source>
-    </item>
-    <item>
-      <title>Lideres da IA Pedem Freio e Supervisão Independente</title>
-      <link>https://pulsodaia.com.br/feed/lideres-da-ia-pedem-freio-e-supervisao-independente/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/lideres-da-ia-pedem-freio-e-supervisao-independente/</guid>
-      <pubDate>Sun, 13 Sep 2026 11:32:40 GMT</pubDate>
-      <description>Figuras proeminentes como Sam Altman e Elon Musk ecoam o pedido por cautela e auditoria externa no desenvolvimento de inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight/">The Decoder</source>
     </item>
   </channel>
 </rss>
