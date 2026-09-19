@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 19 Sep 2026 18:37:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 22:22:03 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Muse da Meta: Assistente de IA Gera Estranheza pela Acessibilidade de Dados</title>
+      <link>https://pulsodaia.com.br/feed/muse-da-meta-assistente-de-ia-gera-estranheza-pela-acessibilidade-de-dados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/muse-da-meta-assistente-de-ia-gera-estranheza-pela-acessibilidade-de-dados/</guid>
+      <pubDate>Sat, 19 Sep 2026 22:17:06 GMT</pubDate>
+      <description>A capacidade de um novo app da Meta de acessar informações pessoais levanta questões sobre privacidade e a percepção de "creepy".</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy">The Verge AI</source>
+    </item>
+    <item>
+      <title>Flock Busca Redução de Equipe Via Programas de Desligamento Voluntário</title>
+      <link>https://pulsodaia.com.br/feed/flock-busca-reducao-de-equipe-via-programas-de-desligamento-voluntario/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/flock-busca-reducao-de-equipe-via-programas-de-desligamento-voluntario/</guid>
+      <pubDate>Sat, 19 Sep 2026 22:16:36 GMT</pubDate>
+      <description>A empresa de IA explora alternativas a demissões diretas em um cenário de reestruturação.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Conversas sobre segurança em IA atingem novos patamares de complexidade</title>
       <link>https://pulsodaia.com.br/feed/conversas-sobre-seguranca-em-ia-atingem-novos-patamares-de-complexidade/</link>
@@ -439,24 +457,6 @@
       <description>A ideia de desacelerar a criação de modelos de IA avançados enfrenta resistência de concorrentes e do cenário político.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/">The Decoder</source>
-    </item>
-    <item>
-      <title>Siri Renovada da Apple Usa Gemini do Google, Mas Europa Fica de Fora</title>
-      <link>https://pulsodaia.com.br/feed/siri-renovada-da-apple-usa-gemini-do-google-mas-europa-fica-de-fora/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/siri-renovada-da-apple-usa-gemini-do-google-mas-europa-fica-de-fora/</guid>
-      <pubDate>Tue, 15 Sep 2026 11:30:58 GMT</pubDate>
-      <description>A assistente virtual da Apple ganha um upgrade significativo, mas restrições regionais levantam questões.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/">The Decoder</source>
-    </item>
-    <item>
-      <title>ZGCM-1: Novo Modelo de Linguagem Aberto Otimizado para Raciocínio Matemático e Busca com Ferramentas</title>
-      <link>https://pulsodaia.com.br/feed/zgcm-1-novo-modelo-de-linguagem-aberto-otimizado-para-raciocinio-matematico-e-bu/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/zgcm-1-novo-modelo-de-linguagem-aberto-otimizado-para-raciocinio-matematico-e-bu/</guid>
-      <pubDate>Tue, 15 Sep 2026 04:29:04 GMT</pubDate>
-      <description>Pesquisadores lançam modelo de 7 bilhões de parâmetros que integra raciocínio interno e uso de ferramentas externas para superar limitações de capacidade.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2609.13356">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
