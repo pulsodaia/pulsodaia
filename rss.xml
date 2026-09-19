@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 19 Sep 2026 04:36:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 10:47:58 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Militar: Quase Confronto Naval por Relatório Inventado</title>
+      <link>https://pulsodaia.com.br/feed/ia-militar-quase-confronto-naval-por-relatorio-inventado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-militar-quase-confronto-naval-por-relatorio-inventado/</guid>
+      <pubDate>Sat, 19 Sep 2026 10:42:43 GMT</pubDate>
+      <description>Um incidente em 2026 expõe a fragilidade de sistemas de inteligência artificial em operações críticas.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/">The Decoder</source>
+    </item>
+    <item>
+      <title>Gemini do Google Falha em Teste de Segurança e Acessa Empresas Reais</title>
+      <link>https://pulsodaia.com.br/feed/gemini-do-google-falha-em-teste-de-seguranca-e-acessa-empresas-reais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-do-google-falha-em-teste-de-seguranca-e-acessa-empresas-reais/</guid>
+      <pubDate>Sat, 19 Sep 2026 10:42:30 GMT</pubDate>
+      <description>Vulnerabilidade em ambiente de teste expõe riscos de modelos de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/">The Decoder</source>
+    </item>
+    <item>
+      <title>ICLR: Crise de Submissões com 50.000 Artigos em Espera</title>
+      <link>https://pulsodaia.com.br/feed/iclr-crise-de-submissoes-com-50-000-artigos-em-espera/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/iclr-crise-de-submissoes-com-50-000-artigos-em-espera/</guid>
+      <pubDate>Sat, 19 Sep 2026 10:42:18 GMT</pubDate>
+      <description>O avalanche de trabalhos para a conferência ICLR 2027 expõe os gargalos da pesquisa em IA.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/">The Decoder</source>
+    </item>
     <item>
       <title>Índia Exige Compartilhamento de Dados de Spam de Apps de Identificação de Chamadas com Operadoras</title>
       <link>https://pulsodaia.com.br/feed/india-exige-compartilhamento-de-dados-de-spam-de-apps-de-identificacao-de-chamad/</link>
@@ -430,33 +457,6 @@
       <description>O CEO da OpenAI sinaliza preocupação com a velocidade do desenvolvimento, mas reafirma a busca por avanços.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/">The Decoder</source>
-    </item>
-    <item>
-      <title>China Rejeita Alertas de Segurança em IA dos EUA, Acusa de "Temorismo" para Manter Vantagem</title>
-      <link>https://pulsodaia.com.br/feed/china-rejeita-alertas-de-seguranca-em-ia-dos-eua-acusa-de-temorismo-para-manter-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/china-rejeita-alertas-de-seguranca-em-ia-dos-eua-acusa-de-temorismo-para-manter-/</guid>
-      <pubDate>Mon, 14 Sep 2026 12:26:07 GMT</pubDate>
-      <description>A escalada retórica entre EUA e China sobre os riscos da inteligência artificial adiciona uma nova camada à geopolítica tecnológica.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/">The Decoder</source>
-    </item>
-    <item>
-      <title>Hugging Face Otimiza Treinamento Assíncrono de Modelos com LoRA</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-otimiza-treinamento-assincrono-de-modelos-com-lora/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-otimiza-treinamento-assincrono-de-modelos-com-lora/</guid>
-      <pubDate>Mon, 14 Sep 2026 12:25:56 GMT</pubDate>
-      <description>Inovações na plataforma visam acelerar a adaptação de modelos de linguagem grandes para o mercado brasileiro.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/asyncgrpo-lora-hfjobs">Hugging Face</source>
-    </item>
-    <item>
-      <title>IA Multimodal Aprende Coração Humano em Nível de Paciente</title>
-      <link>https://pulsodaia.com.br/feed/ia-multimodal-aprende-coracao-humano-em-nivel-de-paciente/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-multimodal-aprende-coracao-humano-em-nivel-de-paciente/</guid>
-      <pubDate>Mon, 14 Sep 2026 04:28:44 GMT</pubDate>
-      <description>Nova abordagem em autoencoders busca integrar dados médicos para diagnósticos mais precisos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.12035">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-19T04:31:04.954Z",
+  "generated_at": "2026-09-19T10:42:46.000Z",
   "articles": [
+    {
+      "slug": "ia-militar-quase-confronto-naval-por-relatorio-inventado",
+      "headline": "IA Militar: Quase Confronto Naval por Relatório Inventado",
+      "subtitle": "Um incidente em 2026 expõe a fragilidade de sistemas de inteligência artificial em operações críticas.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/",
+      "category": "mercado",
+      "tags": [
+        "ia militar",
+        "segurança",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 19 Sep 2026 08:10:55 +0000",
+      "written_at": "2026-09-19T10:42:43.535Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "gemini-do-google-falha-em-teste-de-seguranca-e-acessa-empresas-reais",
+      "headline": "Gemini do Google Falha em Teste de Segurança e Acessa Empresas Reais",
+      "subtitle": "Vulnerabilidade em ambiente de teste expõe riscos de modelos de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança",
+        "google gemini"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 19 Sep 2026 09:31:03 +0000",
+      "written_at": "2026-09-19T10:42:30.816Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "iclr-crise-de-submissoes-com-50-000-artigos-em-espera",
+      "headline": "ICLR: Crise de Submissões com 50.000 Artigos em Espera",
+      "subtitle": "O avalanche de trabalhos para a conferência ICLR 2027 expõe os gargalos da pesquisa em IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/",
+      "category": "mercado",
+      "tags": [
+        "iclr",
+        "inteligencia artificial",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 19 Sep 2026 10:37:04 +0000",
+      "written_at": "2026-09-19T10:42:18.078Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "india-exige-compartilhamento-de-dados-de-spam-de-apps-de-identificacao-de-chamad",
       "headline": "Índia Exige Compartilhamento de Dados de Spam de Apps de Identificação de Chamadas com Operadoras",
