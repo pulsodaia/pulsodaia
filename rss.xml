@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 19 Sep 2026 00:10:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 04:36:43 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Índia Exige Compartilhamento de Dados de Spam de Apps de Identificação de Chamadas com Operadoras</title>
+      <link>https://pulsodaia.com.br/feed/india-exige-compartilhamento-de-dados-de-spam-de-apps-de-identificacao-de-chamad/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/india-exige-compartilhamento-de-dados-de-spam-de-apps-de-identificacao-de-chamad/</guid>
+      <pubDate>Sat, 19 Sep 2026 04:31:04 GMT</pubDate>
+      <description>A medida levanta preocupações sobre a privacidade e o valor comercial dos dados de usuários no mercado de telecomunicações.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude API Muda Classificação Automática para Reduzir Custos em Produção</title>
+      <link>https://pulsodaia.com.br/feed/claude-api-muda-classificacao-automatica-para-reduzir-custos-em-producao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-api-muda-classificacao-automatica-para-reduzir-custos-em-producao/</guid>
+      <pubDate>Sat, 19 Sep 2026 04:30:43 GMT</pubDate>
+      <description>A Anthropic ajusta o modo automático da sua IA para empresas, priorizando processamento no servidor e impactando a precificação.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.278">Claude Code</source>
+    </item>
     <item>
       <title>IA militar quase aciona operação: o perigo das "alucinações" em sistemas de alto risco</title>
       <link>https://pulsodaia.com.br/feed/ia-militar-quase-aciona-operacao-o-perigo-das-alucinacoes-em-sistemas-de-alto-ri/</link>
@@ -439,24 +457,6 @@
       <description>Nova abordagem em autoencoders busca integrar dados médicos para diagnósticos mais precisos.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2609.12035">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Agentes de Código: O "Harness" é Essencial ou Apenas um Adorno?</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-codigo-o-harness-e-essencial-ou-apenas-um-adorno/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-codigo-o-harness-e-essencial-ou-apenas-um-adorno/</guid>
-      <pubDate>Mon, 14 Sep 2026 04:28:34 GMT</pubDate>
-      <description>Pesquisa desafia a crença de que a ferramenta de um modelo de linguagem é o fator decisivo para a performance em codificação.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.11987">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Occamy-1.0: Modelo de Co-trabalho Eficiente Chega ao Mercado</title>
-      <link>https://pulsodaia.com.br/feed/occamy-1-0-modelo-de-co-trabalho-eficiente-chega-ao-mercado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/occamy-1-0-modelo-de-co-trabalho-eficiente-chega-ao-mercado/</guid>
-      <pubDate>Mon, 14 Sep 2026 04:28:23 GMT</pubDate>
-      <description>Nova abordagem em IA busca otimizar fluxos de trabalho complexos com foco em custo e latência.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2609.11977">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

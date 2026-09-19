@@ -1,0 +1,53 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.278",
+  "title": "v2.1.278",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+  "summary": "<h2>What's changed</h2> <ul> <li>Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (<code>CLAUDE_CODE_AUTO_MODE_SERVER=0</code> opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See <a href=\"https://code.claude.com/docs/en/auto-mode-classifier-billing\" rel=\"nofollow\">https://code.claude.com/docs/en/auto-mode-classifier-billing</a></li> <li>Added an <code>Auto mode server</code> row to <code>/status</code> showing whether this session's auto mode classifier runs on the server</li> </ul>",
+  "published_at": "2026-09-19T03:10:40Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude API Muda Classificação Automática para Reduzir Custos em Produção",
+  "subtitle": "A Anthropic ajusta o modo automático da sua IA para empresas, priorizando processamento no servidor e impactando a precificação.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic implementou alterações significativas no modo automático da sua API Claude e para usuários empresariais. A mudança visa otimizar a classificação de conteúdo, direcionando-a para processamento no lado do servidor, o que elimina custos associados à infraestrutura de classificação.",
+  "body_markdown": "## O que aconteceu\n\nA atualização v2.1.278 do Claude Code, lançada em 19 de setembro de 2026, introduz uma modificação no comportamento do modo automático da API Claude e em plataformas que integram o modelo, como Bedrock, Vertex e Foundry. Anteriormente, a classificação de conteúdo poderia incorrer em custos adicionais. Agora, por padrão, essa função será executada no servidor, sem cobrança específica por essa etapa. Para usuários que desejam desativar essa configuração no servidor em ambientes como Bedrock, Vertex e Foundry, a opção `CLAUDE_CODE_AUTO_MODE_SERVER=0` está disponível. A documentação detalha essa nova abordagem de precificação em https://code.claude.com/docs/en/auto-mode-classifier-billing. Adicionalmente, um novo item foi adicionado à resposta do endpoint `/status`, indicando se o classificador automático está ativo no servidor para a sessão corrente.\n\n## Por que importa\n\nPara empresas brasileiras que utilizam ou planejam integrar modelos de linguagem avançados como o Claude, essa mudança representa um potencial alívio nos custos operacionais. A eliminação da cobrança pelo processamento do classificador automático, especialmente em cargas de trabalho intensivas, pode tornar a adoção e o uso contínuo da IA mais acessíveis. A transparência sobre onde a classificação ocorre e a possibilidade de desativá-la oferecem maior controle sobre a infraestrutura e o orçamento. Isso é crucial em um mercado onde a otimização de custos é um fator determinante para a escalabilidade de soluções baseadas em IA. A capacidade de monitorar o status dessa funcionalidade via `/status` também contribui para uma gestão mais proativa e informada.\n\n## O que esperar\n\nCom essa alteração, espera-se que mais empresas considerem o Claude para suas aplicações de IA, impulsionadas pela promessa de maior eficiência de custos. A Anthropic sinaliza um movimento em direção a modelos de precificação mais claros e previsíveis para funcionalidades de classificação, um componente essencial para garantir a segurança e a adequação do conteúdo gerado pela IA. A documentação atualizada em https://github.com/anthropics/claude-code/releases/tag/v2.1.278 fornece os detalhes técnicos para desenvolvedores. A observação do comportamento do classificador no `/status` permitirá que as equipes de engenharia monitorem o impacto direto dessa mudança em suas implantações. A expectativa é que outras plataformas de IA sigam tendências semelhantes de otimização de custos e transparência.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A atualização v2.1.278 do Claude Code, lançada em 19 de setembro de 2026, introduz uma modificação no comportamento do modo automático da API Claude e em plataformas que integram o modelo, como Bedrock, Vertex e Foundry. Anteriormente, a classificação de conteúdo poderia incorrer em custos adicionais. Agora, por padrão, essa função será executada no servidor, sem cobrança específica por essa etapa. Para usuários que desejam desativar essa configuração no servidor em ambientes como Bedrock, Vertex e Foundry, a opção <code>CLAUDE_CODE_AUTO_MODE_SERVER=0</code> está disponível. A documentação detalha essa nova abordagem de precificação em https://code.claude.com/docs/en/auto-mode-classifier-billing. Adicionalmente, um novo item foi adicionado à resposta do endpoint <code>/status</code>, indicando se o classificador automático está ativo no servidor para a sessão corrente.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para empresas brasileiras que utilizam ou planejam integrar modelos de linguagem avançados como o Claude, essa mudança representa um potencial alívio nos custos operacionais. A eliminação da cobrança pelo processamento do classificador automático, especialmente em cargas de trabalho intensivas, pode tornar a adoção e o uso contínuo da IA mais acessíveis. A transparência sobre onde a classificação ocorre e a possibilidade de desativá-la oferecem maior controle sobre a infraestrutura e o orçamento. Isso é crucial em um mercado onde a otimização de custos é um fator determinante para a escalabilidade de soluções baseadas em IA. A capacidade de monitorar o status dessa funcionalidade via <code>/status</code> também contribui para uma gestão mais proativa e informada.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com essa alteração, espera-se que mais empresas considerem o Claude para suas aplicações de IA, impulsionadas pela promessa de maior eficiência de custos. A Anthropic sinaliza um movimento em direção a modelos de precificação mais claros e previsíveis para funcionalidades de classificação, um componente essencial para garantir a segurança e a adequação do conteúdo gerado pela IA. A documentação atualizada em https://github.com/anthropics/claude-code/releases/tag/v2.1.278 fornece os detalhes técnicos para desenvolvedores. A observação do comportamento do classificador no <code>/status</code> permitirá que as equipes de engenharia monitorem o impacto direto dessa mudança em suas implantações. A expectativa é que outras plataformas de IA sigam tendências semelhantes de otimização de custos e transparência.</p>",
+  "tags": [
+    "claude",
+    "anthropic",
+    "ia empresarial"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude API",
+    "Anthropic",
+    "classificação automática",
+    "IA empresarial",
+    "custo operacional",
+    "Bedrock",
+    "Vertex AI",
+    "Foundry"
+  ],
+  "meta_description_seo": "Claude API atualiza modo automático para reduzir custos empresariais, priorizando processamento no servidor. Saiba mais.",
+  "faq": [
+    {
+      "q": "Como a Anthropic está mudando o modo automático da API Claude?",
+      "a": "A Anthropic passou a usar um classificador de conteúdo no servidor por padrão para usuários da API Claude e empresariais, eliminando custos associados a essa etapa de processamento."
+    },
+    {
+      "q": "Quais plataformas são afetadas por essa mudança?",
+      "a": "As plataformas Bedrock, Vertex e Foundry, além de gateways que integram a API Claude, são impactadas por essa alteração no modo automático."
+    },
+    {
+      "q": "É possível desativar o classificador automático no servidor?",
+      "a": "Sim, em ambientes como Bedrock, Vertex e Foundry, é possível desativar essa funcionalidade configurando `CLAUDE_CODE_AUTO_MODE_SERVER=0`."
+    }
+  ],
+  "written_at": "2026-09-19T04:30:43.567Z",
+  "slug": "claude-api-muda-classificacao-automatica-para-reduzir-custos-em-producao",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/86dd102b4465452c2cdc6f52e2551ce87b94a537c045f15b8e80baf2d0a782be/anthropics/claude-code/releases/tag/v2.1.278"
+}
