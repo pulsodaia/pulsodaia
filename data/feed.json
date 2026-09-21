@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-09-21T04:29:00.186Z",
+  "generated_at": "2026-09-21T12:32:40.794Z",
   "articles": [
+    {
+      "slug": "amazon-bloqueia-agente-de-ia-da-meta-em-compras-sinalizando-tensoes-no-mercado",
+      "headline": "Amazon Bloqueia Agente de IA da Meta em Compras, Sinalizando Tensões no Mercado",
+      "subtitle": "A gigante do e-commerce impõe restrições a ferramentas de terceiros, levantando questões sobre o acesso a dados e a concorrência.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "amazon",
+        "meta",
+        "bloqueio",
+        "comercio eletronico"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-21T05:21:47-04:00",
+      "written_at": "2026-09-21T12:32:40.562Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "onu-alerta-riscos-da-ia-exigem-acao-urgente-antes-da-certeza",
+      "headline": "ONU Alerta: Riscos da IA Exigem Ação Urgente, Antes da Certeza",
+      "subtitle": "Um painel da ONU emitiu um alerta sobre a necessidade de regulamentação da inteligência artificial, mesmo sem a compreensão completa de seus perigos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+      "category": "mercado",
+      "tags": [
+        "onu",
+        "inteligência artificial",
+        "regulamentação"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-21T06:18:06-04:00",
+      "written_at": "2026-09-21T12:32:29.578Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "nova-abordagem-otimiza-roteamento-em-modelos-de-linguagem-com-mixture-of-experts",
       "headline": "Nova Abordagem Otimiza Roteamento em Modelos de Linguagem com Mixture-of-Experts",

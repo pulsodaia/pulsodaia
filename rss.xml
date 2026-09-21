@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 21 Sep 2026 04:33:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 12:38:30 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Amazon Bloqueia Agente de IA da Meta em Compras, Sinalizando Tensões no Mercado</title>
+      <link>https://pulsodaia.com.br/feed/amazon-bloqueia-agente-de-ia-da-meta-em-compras-sinalizando-tensoes-no-mercado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-bloqueia-agente-de-ia-da-meta-em-compras-sinalizando-tensoes-no-mercado/</guid>
+      <pubDate>Mon, 21 Sep 2026 12:32:40 GMT</pubDate>
+      <description>A gigante do e-commerce impõe restrições a ferramentas de terceiros, levantando questões sobre o acesso a dados e a concorrência.</description>
+      <category>MERCADO</category>
+      <source url="https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping">The Verge AI</source>
+    </item>
+    <item>
+      <title>ONU Alerta: Riscos da IA Exigem Ação Urgente, Antes da Certeza</title>
+      <link>https://pulsodaia.com.br/feed/onu-alerta-riscos-da-ia-exigem-acao-urgente-antes-da-certeza/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/onu-alerta-riscos-da-ia-exigem-acao-urgente-antes-da-certeza/</guid>
+      <pubDate>Mon, 21 Sep 2026 12:32:29 GMT</pubDate>
+      <description>Um painel da ONU emitiu um alerta sobre a necessidade de regulamentação da inteligência artificial, mesmo sem a compreensão completa de seus perigos.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle">The Verge AI</source>
+    </item>
     <item>
       <title>Nova Abordagem Otimiza Roteamento em Modelos de Linguagem com Mixture-of-Experts</title>
       <link>https://pulsodaia.com.br/feed/nova-abordagem-otimiza-roteamento-em-modelos-de-linguagem-com-mixture-of-experts/</link>
@@ -439,24 +457,6 @@
       <description>Alerta sobre riscos existenciais ganha força entre especialistas, levantando preocupações para o desenvolvimento global.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/">The Decoder</source>
-    </item>
-    <item>
-      <title>Amazon Expande Alexa com Suporte a Hindi na Índia</title>
-      <link>https://pulsodaia.com.br/feed/amazon-expande-alexa-com-suporte-a-hindi-na-india/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-expande-alexa-com-suporte-a-hindi-na-india/</guid>
-      <pubDate>Wed, 16 Sep 2026 11:16:49 GMT</pubDate>
-      <description>Expansão visa democratizar o acesso à assistente virtual em um dos maiores mercados de língua não inglesa do mundo.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Functionalizer: Nova Abordagem para Tokenização de Subpalavras Preserva Informação Linguística</title>
-      <link>https://pulsodaia.com.br/feed/functionalizer-nova-abordagem-para-tokenizacao-de-subpalavras-preserva-informaca/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/functionalizer-nova-abordagem-para-tokenizacao-de-subpalavras-preserva-informaca/</guid>
-      <pubDate>Wed, 16 Sep 2026 04:42:25 GMT</pubDate>
-      <description>Pesquisadores introduzem um método que decompõe variações ortográficas sem perder dados, impactando a compreensão de textos em modelos de IA.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.15991">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>
