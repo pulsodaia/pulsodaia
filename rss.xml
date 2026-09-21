@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 21 Sep 2026 12:38:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 19:18:52 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Amazon Bloqueia Agente de IA da Meta de Acessar Seu Marketplace</title>
+      <link>https://pulsodaia.com.br/feed/amazon-bloqueia-agente-de-ia-da-meta-de-acessar-seu-marketplace/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-bloqueia-agente-de-ia-da-meta-de-acessar-seu-marketplace/</guid>
+      <pubDate>Mon, 21 Sep 2026 19:14:05 GMT</pubDate>
+      <description>A gigante do varejo online implementa restrições, levantando questões sobre a interoperabilidade de assistentes virtuais.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Físicos Otimizam Modelos de Linguagem com Abordagem de Física Estatística</title>
+      <link>https://pulsodaia.com.br/feed/fisicos-otimizam-modelos-de-linguagem-com-abordagem-de-fisica-estatistica/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/fisicos-otimizam-modelos-de-linguagem-com-abordagem-de-fisica-estatistica/</guid>
+      <pubDate>Mon, 21 Sep 2026 19:13:17 GMT</pubDate>
+      <description>Uma nova metodologia usa conceitos de física para tornar modelos de IA mais eficientes.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an">Hugging Face</source>
+    </item>
     <item>
       <title>Amazon Bloqueia Agente de IA da Meta em Compras, Sinalizando Tensões no Mercado</title>
       <link>https://pulsodaia.com.br/feed/amazon-bloqueia-agente-de-ia-da-meta-em-compras-sinalizando-tensoes-no-mercado/</link>
@@ -439,24 +457,6 @@
       <description>A indústria de robôs ainda busca a adoção em massa, e a Nvidia aponta caminhos.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Unifica Claude Chat e Cowork em Interface Única</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-unifica-claude-chat-e-cowork-em-interface-unica/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-unifica-claude-chat-e-cowork-em-interface-unica/</guid>
-      <pubDate>Wed, 16 Sep 2026 16:37:02 GMT</pubDate>
-      <description>A integração visa otimizar o fluxo de trabalho para assinantes premium, indicando um movimento em direção a ferramentas de IA mais coesas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Um Quinto dos Pesquisadores de IA Previa Cenário de Extinção em 2024</title>
-      <link>https://pulsodaia.com.br/feed/um-quinto-dos-pesquisadores-de-ia-previa-cenario-de-extincao-em-2024/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/um-quinto-dos-pesquisadores-de-ia-previa-cenario-de-extincao-em-2024/</guid>
-      <pubDate>Wed, 16 Sep 2026 11:17:11 GMT</pubDate>
-      <description>Alerta sobre riscos existenciais ganha força entre especialistas, levantando preocupações para o desenvolvimento global.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/">The Decoder</source>
     </item>
   </channel>
 </rss>
