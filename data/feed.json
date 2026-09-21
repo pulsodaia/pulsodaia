@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-09-20T22:20:04.648Z",
+  "generated_at": "2026-09-21T04:29:00.186Z",
   "articles": [
+    {
+      "slug": "nova-abordagem-otimiza-roteamento-em-modelos-de-linguagem-com-mixture-of-experts",
+      "headline": "Nova Abordagem Otimiza Roteamento em Modelos de Linguagem com Mixture-of-Experts",
+      "subtitle": "Pesquisa acadêmica propõe método para aprimorar a eficiência e o desempenho de LLMs.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.20974",
+      "category": "research",
+      "tags": [
+        "mixture-of-experts",
+        "roteamento",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-21T04:29:00.152Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "rbs-attention-otimiza-modelos-de-linguagem-para-contextos-longos",
+      "headline": "RBS-Attention Otimiza Modelos de Linguagem para Contextos Longos",
+      "subtitle": "Nova abordagem promete acelerar o processamento de prompts extensos em LLMs, um gargalo atual.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.20971",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "otimizacao",
+        "contexto longo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 21 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-21T04:28:49.166Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "jensen-huang-minimiza-temores-sobre-ia-0-chance-de-fim-da-humanidade",
       "headline": "Jensen Huang minimiza temores sobre IA: \"0% chance\" de fim da humanidade",
