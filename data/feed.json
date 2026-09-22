@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-22T11:21:23.236Z",
+  "generated_at": "2026-09-22T16:43:26.870Z",
   "articles": [
+    {
+      "slug": "techcrunch-disrupt-2026-fundadores-de-ia-precisam-priorizar-seguranca",
+      "headline": "TechCrunch Disrupt 2026: Fundadores de IA Precisam Priorizar Segurança",
+      "subtitle": "O evento de tecnologia destaca sessões focadas em práticas responsáveis para o desenvolvimento de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança",
+        "techcrunch disrupt"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 22 Sep 2026 15:00:00 +0000",
+      "written_at": "2026-09-22T16:43:26.758Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-reduz-precos-do-opus-5-5-e-alcanca-desempenho-superior",
+      "headline": "Anthropic Reduz Preços do Opus 5.5 e Alcança Desempenho Superior",
+      "subtitle": "O novo modelo da Anthropic promete mais capacidade a um custo menor, impactando o cenário de IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "opus 5.5",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 22 Sep 2026 16:30:07 +0000",
+      "written_at": "2026-09-22T16:43:09.185Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-opus-5-5-chega-com-contexto-ampliado-e-otimizacoes-de-custo",
+      "headline": "Claude Opus 5.5 Chega com Contexto Ampliado e Otimizações de Custo",
+      "subtitle": "Nova versão do modelo da Anthropic eleva a capacidade de processamento e ajusta precificação para desenvolvedores no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "lancamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-22T16:38:14Z",
+      "written_at": "2026-09-22T16:42:57.972Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "openai-relata-avanco-matematico-com-modelo-interno-treinado-por-um-mes",
       "headline": "OpenAI relata avanço matemático com modelo interno treinado por um mês",
