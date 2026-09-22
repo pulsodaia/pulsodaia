@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-22T16:43:26.870Z",
+  "generated_at": "2026-09-22T21:09:16.010Z",
   "articles": [
+    {
+      "slug": "meta-confirma-inspiracao-em-openclaw-para-assistente-muse",
+      "headline": "Meta Confirma Inspiração em OpenClaw para Assistente Muse",
+      "subtitle": "A gigante de tecnologia admite sem rodeios a influência de um projeto anterior no desenvolvimento de sua nova ferramenta de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+      "category": "mercado",
+      "tags": [
+        "meta",
+        "inteligência artificial",
+        "open source"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 22 Sep 2026 19:09:11 +0000",
+      "written_at": "2026-09-22T21:09:15.986Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "qualcomm-aposta-em-ia-embarcada-com-novos-chips-para-smartphones",
+      "headline": "Qualcomm Aposta em IA Embarcada com Novos Chips para Smartphones",
+      "subtitle": "Novos processadores prometem rodar modelos de linguagem complexos diretamente nos dispositivos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+      "category": "mercado",
+      "tags": [
+        "qualcomm",
+        "ia embarcada",
+        "smartphones"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 22 Sep 2026 20:00:00 +0000",
+      "written_at": "2026-09-22T21:08:56.001Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "reproducibilidade-em-ia-aisi-e-evaleval-buscam-padronizar-benchmarks-no-reino-un",
+      "headline": "Reproducibilidade em IA: AISI e EvalEval buscam padronizar benchmarks no Reino Unido",
+      "subtitle": "Iniciativas visam garantir que resultados de testes de modelos de linguagem sejam confiáveis e verificáveis.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/evaleval-aisi",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "benchmarks",
+        "reproducibilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+      "written_at": "2026-09-22T21:08:46.058Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "techcrunch-disrupt-2026-fundadores-de-ia-precisam-priorizar-seguranca",
       "headline": "TechCrunch Disrupt 2026: Fundadores de IA Precisam Priorizar Segurança",

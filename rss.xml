@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 22 Sep 2026 16:49:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 21:14:05 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Meta Confirma Inspiração em OpenClaw para Assistente Muse</title>
+      <link>https://pulsodaia.com.br/feed/meta-confirma-inspiracao-em-openclaw-para-assistente-muse/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-confirma-inspiracao-em-openclaw-para-assistente-muse/</guid>
+      <pubDate>Tue, 22 Sep 2026 21:09:15 GMT</pubDate>
+      <description>A gigante de tecnologia admite sem rodeios a influência de um projeto anterior no desenvolvimento de sua nova ferramenta de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Qualcomm Aposta em IA Embarcada com Novos Chips para Smartphones</title>
+      <link>https://pulsodaia.com.br/feed/qualcomm-aposta-em-ia-embarcada-com-novos-chips-para-smartphones/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/qualcomm-aposta-em-ia-embarcada-com-novos-chips-para-smartphones/</guid>
+      <pubDate>Tue, 22 Sep 2026 21:08:56 GMT</pubDate>
+      <description>Novos processadores prometem rodar modelos de linguagem complexos diretamente nos dispositivos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Reproducibilidade em IA: AISI e EvalEval buscam padronizar benchmarks no Reino Unido</title>
+      <link>https://pulsodaia.com.br/feed/reproducibilidade-em-ia-aisi-e-evaleval-buscam-padronizar-benchmarks-no-reino-un/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/reproducibilidade-em-ia-aisi-e-evaleval-buscam-padronizar-benchmarks-no-reino-un/</guid>
+      <pubDate>Tue, 22 Sep 2026 21:08:46 GMT</pubDate>
+      <description>Iniciativas visam garantir que resultados de testes de modelos de linguagem sejam confiáveis e verificáveis.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/evaleval-aisi">Hugging Face</source>
+    </item>
     <item>
       <title>TechCrunch Disrupt 2026: Fundadores de IA Precisam Priorizar Segurança</title>
       <link>https://pulsodaia.com.br/feed/techcrunch-disrupt-2026-fundadores-de-ia-precisam-priorizar-seguranca/</link>
@@ -430,33 +457,6 @@
       <description>Nova parceria visa desenvolver e divulgar metodos para treinamento e monitoramento de modelos de IA de peso aberto.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Consumo de Tokens em IA: Bom Sinal ou Bolha Inflada?</title>
-      <link>https://pulsodaia.com.br/feed/consumo-de-tokens-em-ia-bom-sinal-ou-bolha-inflada/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/consumo-de-tokens-em-ia-bom-sinal-ou-bolha-inflada/</guid>
-      <pubDate>Thu, 17 Sep 2026 13:17:34 GMT</pubDate>
-      <description>Um gráfico revela um salto de 25.000% no uso de tokens, mas o que isso realmente significa para o mercado?</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/openrouters-staggering-token-chart-is-the-ai-bubble-debate-in-a-single-image/">The Decoder</source>
-    </item>
-    <item>
-      <title>Agentes de IA em 'Enxame': Uma Crítica à Eficiência e ao Custo</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-em-enxame-uma-critica-a-eficiencia-e-ao-custo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-em-enxame-uma-critica-a-eficiencia-e-ao-custo/</guid>
-      <pubDate>Thu, 17 Sep 2026 13:17:21 GMT</pubDate>
-      <description>Especialista da OpenAI aponta desperdício de recursos em arquiteturas de múltiplos agentes.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/">The Decoder</source>
-    </item>
-    <item>
-      <title>Seguranca em IA: Incidentes Expõem Urgência em Pesquisa</title>
-      <link>https://pulsodaia.com.br/feed/seguranca-em-ia-incidentes-expoem-urgencia-em-pesquisa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/seguranca-em-ia-incidentes-expoem-urgencia-em-pesquisa/</guid>
-      <pubDate>Thu, 17 Sep 2026 13:17:09 GMT</pubDate>
-      <description>Um incidente com modelo da OpenAI força pesquisadores a se reunirem em um "war room", evidenciando a fragilidade de sistemas avançados.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic">The Verge AI</source>
     </item>
   </channel>
 </rss>
