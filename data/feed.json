@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-22T04:24:26.844Z",
+  "generated_at": "2026-09-22T11:21:23.236Z",
   "articles": [
+    {
+      "slug": "openai-relata-avanco-matematico-com-modelo-interno-treinado-por-um-mes",
+      "headline": "OpenAI relata avanço matemático com modelo interno treinado por um mês",
+      "subtitle": "Avanço em problemas de matemática de longa data levanta questões sobre o ritmo de pesquisa da empresa e a supervisão externa.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "inteligência artificial",
+        "matemática",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 22 Sep 2026 11:17:59 +0000",
+      "written_at": "2026-09-22T11:21:21.825Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-reforca-comunidade-mlx-com-chegada-de-criador-e-mantenedor",
+      "headline": "Hugging Face reforça comunidade MLX com chegada de criador e mantenedor",
+      "subtitle": "A plataforma de IA busca expandir o alcance de sua biblioteca focada em hardware Apple.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/omlx",
+      "category": "opensource",
+      "tags": [
+        "mlx",
+        "hugging face",
+        "apple"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+      "written_at": "2026-09-22T11:21:11.667Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "transformers-da-hugging-face-agora-rodam-quants-do-llama-cpp",
+      "headline": "Transformers da Hugging Face agora rodam quants do llama.cpp",
+      "subtitle": "A compatibilidade expandida promete democratizar o acesso a modelos de linguagem avançados no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "transformers",
+        "llama.cpp"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+      "written_at": "2026-09-22T11:21:01.606Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelos-de-linguagem-podem-simular-efeitos-psicologicos-humanos-novo-estudo-cria",
       "headline": "Modelos de Linguagem Podem \"Simular\" Efeitos Psicológicos Humanos? Novo Estudo Cria Ferramenta de Teste",
