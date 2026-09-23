@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-09-23T18:20:54.586Z",
+  "generated_at": "2026-09-23T22:52:12.277Z",
   "articles": [
+    {
+      "slug": "nvidia-acelera-simulacao-robotica-com-warp-e-mjwarp",
+      "headline": "NVIDIA Acelera Simulação Robótica com Warp e MjWarp",
+      "subtitle": "Ferramentas da NVIDIA prometem otimizar fluxos de trabalho de aprendizado e simulação para robótica no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "category": "opensource",
+      "tags": [
+        "nvidia",
+        "warp",
+        "robótica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 23 Sep 2026 18:41:40 GMT",
+      "written_at": "2026-09-23T22:52:12.026Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-beam-expande-alcance-global-e-parcerias-estrategicas",
+      "headline": "Google Beam Expande Alcance Global e Parcerias Estratégicas",
+      "subtitle": "Plataforma de IA do Google amplia presença em cinco novos países e firma colaboração com a Industrious.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "category": "google",
+      "tags": [
+        "google beam",
+        "inteligência artificial",
+        "expansão global",
+        "parcerias"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 23 Sep 2026 18:00:00 +0000",
+      "written_at": "2026-09-23T22:52:01.526Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "deepmind-introduz-memoria-segura-em-nuvem-para-ia-pessoal-privada",
       "headline": "DeepMind Introduz Memória Segura em Nuvem para IA Pessoal Privada",

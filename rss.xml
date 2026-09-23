@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 23 Sep 2026 18:25:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 22:58:52 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>NVIDIA Acelera Simulação Robótica com Warp e MjWarp</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-acelera-simulacao-robotica-com-warp-e-mjwarp/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-acelera-simulacao-robotica-com-warp-e-mjwarp/</guid>
+      <pubDate>Wed, 23 Sep 2026 22:52:12 GMT</pubDate>
+      <description>Ferramentas da NVIDIA prometem otimizar fluxos de trabalho de aprendizado e simulação para robótica no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp">Hugging Face</source>
+    </item>
+    <item>
+      <title>Google Beam Expande Alcance Global e Parcerias Estratégicas</title>
+      <link>https://pulsodaia.com.br/feed/google-beam-expande-alcance-global-e-parcerias-estrategicas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-beam-expande-alcance-global-e-parcerias-estrategicas/</guid>
+      <pubDate>Wed, 23 Sep 2026 22:52:01 GMT</pubDate>
+      <description>Plataforma de IA do Google amplia presença em cinco novos países e firma colaboração com a Industrious.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/">Google AI</source>
+    </item>
     <item>
       <title>DeepMind Introduz Memória Segura em Nuvem para IA Pessoal Privada</title>
       <link>https://pulsodaia.com.br/feed/deepmind-introduz-memoria-segura-em-nuvem-para-ia-pessoal-privada/</link>
@@ -439,24 +457,6 @@
       <description>A empresa de IA que alerta sobre riscos existenciais também investe em pesquisa biológica, levantando questões sobre o futuro da ciência.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Vantora Capta US$ 100 Milhões para Desenvolver IA Aplicada à Indústria Física</title>
-      <link>https://pulsodaia.com.br/feed/vantora-capta-us-100-milhoes-para-desenvolver-ia-aplicada-a-industria-fisica/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vantora-capta-us-100-milhoes-para-desenvolver-ia-aplicada-a-industria-fisica/</guid>
-      <pubDate>Sat, 19 Sep 2026 00:05:05 GMT</pubDate>
-      <description>A empresa, antes conhecida como UP.Labs, foca na criação de startups para o setor industrial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Ganha Flexibilidade com AGENTS.md e Configurações de Rede Avançadas</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-ganha-flexibilidade-com-agents-md-e-configuracoes-de-rede-avancadas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-ganha-flexibilidade-com-agents-md-e-configuracoes-de-rede-avancadas/</guid>
-      <pubDate>Fri, 18 Sep 2026 20:44:57 GMT</pubDate>
-      <description>Atualização da Anthropic foca em otimização de fluxo de trabalho e controle de infraestrutura para desenvolvedores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.277">Claude Code</source>
     </item>
   </channel>
 </rss>
