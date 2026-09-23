@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-23T00:14:00.101Z",
+  "generated_at": "2026-09-23T07:38:04.234Z",
   "articles": [
+    {
+      "slug": "ia-avanca-em-simulacao-de-cenas-3d-dinamicas-com-nova-arquitetura",
+      "headline": "IA Avança em Simulação de Cenas 3D Dinâmicas com Nova Arquitetura",
+      "subtitle": "Pesquisa propõe modelo para prever evolução de ambientes virtuais complexos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.25036",
+      "category": "research",
+      "tags": [
+        "gaussian splatting",
+        "previsao temporal",
+        "ia 3d"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-23T07:38:04.203Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "otimizacao-do-tabpfn-novos-achados-para-dados-biomedicos",
+      "headline": "Otimização do TabPFN: Novos Achados para Dados Biomédicos",
+      "subtitle": "Estudo empírico detalha o impacto de estratégias de pré-condicionamento na performance de modelos de IA para saúde.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.25013",
+      "category": "research",
+      "tags": [
+        "ia na saude",
+        "otimizacao de modelos",
+        "dados biomédicos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-23T07:37:52.422Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-em-marketing-personas-sinteticas-falham-em-prever-resposta-real-do-publico",
+      "headline": "IA em Marketing: Personas Sintéticas Falham em Prever Resposta Real do Público",
+      "subtitle": "Estudo sugere que modelos de linguagem sem persona superam abordagens complexas em simulações de marketing.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.25010",
+      "category": "research",
+      "tags": [
+        "ia",
+        "marketing",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 23 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-23T07:37:42.240Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "snorkel-ai-salta-para-us-3-5-bilhoes-em-valorizacao-com-crescente-demanda-por-da",
       "headline": "Snorkel AI Salta para US$ 3,5 Bilhões em Valorização com Crescente Demanda por Dados de Treinamento de IA",

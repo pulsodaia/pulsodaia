@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:19:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 07:45:20 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Avança em Simulação de Cenas 3D Dinâmicas com Nova Arquitetura</title>
+      <link>https://pulsodaia.com.br/feed/ia-avanca-em-simulacao-de-cenas-3d-dinamicas-com-nova-arquitetura/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-avanca-em-simulacao-de-cenas-3d-dinamicas-com-nova-arquitetura/</guid>
+      <pubDate>Wed, 23 Sep 2026 07:38:04 GMT</pubDate>
+      <description>Pesquisa propõe modelo para prever evolução de ambientes virtuais complexos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.25036">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Otimização do TabPFN: Novos Achados para Dados Biomédicos</title>
+      <link>https://pulsodaia.com.br/feed/otimizacao-do-tabpfn-novos-achados-para-dados-biomedicos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-do-tabpfn-novos-achados-para-dados-biomedicos/</guid>
+      <pubDate>Wed, 23 Sep 2026 07:37:52 GMT</pubDate>
+      <description>Estudo empírico detalha o impacto de estratégias de pré-condicionamento na performance de modelos de IA para saúde.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.25013">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA em Marketing: Personas Sintéticas Falham em Prever Resposta Real do Público</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-marketing-personas-sinteticas-falham-em-prever-resposta-real-do-publico/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-marketing-personas-sinteticas-falham-em-prever-resposta-real-do-publico/</guid>
+      <pubDate>Wed, 23 Sep 2026 07:37:42 GMT</pubDate>
+      <description>Estudo sugere que modelos de linguagem sem persona superam abordagens complexas em simulações de marketing.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.25010">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Snorkel AI Salta para US$ 3,5 Bilhões em Valorização com Crescente Demanda por Dados de Treinamento de IA</title>
       <link>https://pulsodaia.com.br/feed/snorkel-ai-salta-para-us-3-5-bilhoes-em-valorizacao-com-crescente-demanda-por-da/</link>
@@ -430,33 +457,6 @@
       <description>A rodada de investimento avalia a empresa em US$ 30,9 bilhões, sinalizando forte demanda por infraestrutura de IA no Brasil e globalmente.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Aprimora Integração e Usabilidade em Nova Atualização</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-integracao-e-usabilidade-em-nova-atualizacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-integracao-e-usabilidade-em-nova-atualizacao/</guid>
-      <pubDate>Fri, 18 Sep 2026 00:01:48 GMT</pubDate>
-      <description>A Anthropic avança na experiência do usuário com melhorias de sincronização e funcionalidades de envio.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.275">Claude Code</source>
-    </item>
-    <item>
-      <title>Google e ONU Unem Forças para Democratizar Dados Globais com Nova Plataforma</title>
-      <link>https://pulsodaia.com.br/feed/google-e-onu-unem-forcas-para-democratizar-dados-globais-com-nova-plataforma/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-e-onu-unem-forcas-para-democratizar-dados-globais-com-nova-plataforma/</guid>
-      <pubDate>Fri, 18 Sep 2026 00:01:37 GMT</pubDate>
-      <description>Iniciativa busca facilitar o acesso e a análise de estatísticas mundiais para pesquisadores, governos e o público em geral.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/">Google AI</source>
-    </item>
-    <item>
-      <title>Huawei Acelera Ascend 960DT: Nova Fronteira na Disputa Global por Chips de IA</title>
-      <link>https://pulsodaia.com.br/feed/huawei-acelera-ascend-960dt-nova-fronteira-na-disputa-global-por-chips-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/huawei-acelera-ascend-960dt-nova-fronteira-na-disputa-global-por-chips-de-ia/</guid>
-      <pubDate>Thu, 17 Sep 2026 18:05:12 GMT</pubDate>
-      <description>A gigante chinesa busca reduzir a defasagem tecnológica frente aos EUA com lançamento antecipado de seu processador de inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
