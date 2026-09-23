@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-09-23T13:32:49.646Z",
+  "generated_at": "2026-09-23T18:20:54.586Z",
   "articles": [
+    {
+      "slug": "deepmind-introduz-memoria-segura-em-nuvem-para-ia-pessoal-privada",
+      "headline": "DeepMind Introduz Memória Segura em Nuvem para IA Pessoal Privada",
+      "subtitle": "Nova funcionalidade visa proteger dados de usuários em computação de IA no lado do servidor.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "category": "google",
+      "tags": [
+        "ia privada",
+        "privacidade de dados",
+        "google deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 23 Sep 2026 16:00:57 +0000",
+      "written_at": "2026-09-23T18:20:54.300Z",
+      "quality_score": 0.85,
+      "hero_image": null
+    },
+    {
+      "slug": "google-beam-amplia-alcance-global-e-parcerias",
+      "headline": "Google Beam Amplia Alcance Global e Parcerias",
+      "subtitle": "Plataforma de IA da Google expande para novas regiões e integra mais clientes.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-expansion/",
+      "category": "google",
+      "tags": [
+        "google beam",
+        "inteligencia artificial",
+        "expansao global"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 23 Sep 2026 18:00:00 +0000",
+      "written_at": "2026-09-23T18:20:43.599Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ema-capta-us-77-milhoes-em-rodada-que-evidencia-o-avanco-da-ia-no-software-corpo",
       "headline": "Ema capta US$ 77 milhões em rodada que evidencia o avanço da IA no software corporativo",
