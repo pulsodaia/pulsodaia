@@ -7,3 +7,9 @@ logos-temp/
 .env
 .env.local
 .secrets/
+
+# Midia de trabalho do Remotion — video base e frames gerados.
+# Os MP4 finais vivem no R2 (bucket criativos-usa) e na Mesa.
+remotion/public/*/*.mp4
+remotion/public/*/*.mov
+remotion/out/
