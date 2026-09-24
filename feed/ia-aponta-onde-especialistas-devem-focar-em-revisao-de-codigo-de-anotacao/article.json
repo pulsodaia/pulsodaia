@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2609.26926v1",
+  "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
+  "url": "https://arxiv.org/abs/2609.26926",
+  "summary": "arXiv:2609.26926v1 Announce Type: new Abstract: Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could speed this process by applying an early codebook to the data, surfacing cases with strong LLM disagreement, and eliciting expert feedback to address them. We examined three ways experts can provide feedback for LLM codebook revision: (i) editing LLM-generated revisions driven by cross-LLM disagreement (Codebook Verifying), (ii) answering questions about LLM disagreements (Question Answering), and (iii) labeling disagreement cases with rationales (Rationale Labeling). Experiments on thousands of tutoring-session transcripts show that Rationale Labeling yielded the highest LLM-labeling accuracy (64.9%) against expert labels, outperforming the expert-revised codebook (57.8%). The best Question Answering setting also outperformed ",
+  "published_at": "Thu, 24 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Aponta Onde Especialistas Devem Focar Em Revisão de Código de Anotação",
+  "subtitle": "Pesquisadores propõem método para otimizar o trabalho humano na criação de guias para anotação de dados em larga escala.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "A criação de guias de anotação de texto, essenciais para treinar modelos de IA em larga escala, pode ser acelerada. Uma nova abordagem utiliza a discordância entre diferentes modelos de linguagem grandes (LLMs) para identificar pontos que exigem atenção humana especializada.",
+  "body_markdown": "## O que aconteceu\n\nDesenvolver um guia de anotação robusto para milhões de documentos pode consumir meses de trabalho. Pesquisadores em um novo estudo publicado no arXiv propõem uma metodologia para otimizar esse processo, aproveitando a capacidade dos LLMs de aplicar um código preliminar aos dados. A chave está em identificar os casos onde há forte divergência entre os resultados de diferentes LLMs. Esses pontos de discordância são então apresentados a especialistas humanos para feedback. O estudo examina três formas de coletar essa retroalimentação: (i) edição de revisões geradas por LLMs, guiadas pela discordância entre modelos (Codebook Verifying); (ii) respostas a perguntas sobre os pontos de divergência identificados pelos LLMs (Question Answering); e (iii) rotulagem de casos de discordância com justificativas (Rationale Labeling). Experimentos realizados em milhares de transcrições de sessões de tutoria demonstraram a eficácia dessa abordagem em direcionar o esforço dos especialistas. A pesquisa completa está disponível em [arXiv:2609.26926](https://arxiv.org/abs/2609.26926).\n\n## Por que importa\n\nNo Brasil, a demanda por dados de alta qualidade para o desenvolvimento de soluções de IA cresce exponencialmente. Empresas e instituições de pesquisa enfrentam o desafio de criar e refinar guias de anotação eficientes, um gargalo que impacta diretamente a velocidade e o custo de projetos de machine learning. A metodologia proposta pode significar uma redução considerável no tempo e nos recursos necessários para a fase de curadoria de dados. Ao focar o trabalho humano nos pontos de maior incerteza ou complexidade, identificados pela IA, o processo de revisão se torna mais eficiente. Isso libera especialistas para se dedicarem a nuances e decisões críticas, em vez de revisarem um grande volume de dados com pouca variabilidade ou discordância. O impacto se estende desde startups de tecnologia até grandes corporações buscando otimizar suas operações com IA.\n\n## O que esperar\n\nA expectativa é que essa abordagem se torne um padrão na criação de bases de dados para treinamento de LLMs e outros modelos de IA. A capacidade de automatizar a identificação de áreas problemáticas em guias de anotação, direcionando o olhar humano para onde ele é mais necessário, promete agilizar o ciclo de desenvolvimento de IA. A pesquisa sugere que a combinação do poder computacional dos LLMs com a expertise humana pode ser a chave para escalar a criação de dados anotados de forma eficaz e econômica. Futuros trabalhos podem explorar a aplicação dessa técnica em diferentes domínios de texto e para outros tipos de tarefas de anotação, como reconhecimento de entidades nomeadas ou análise de sentimento. A metodologia publicada em [arXiv](https://arxiv.org/abs/2609.26926) abre caminho para um desenvolvimento de IA mais rápido e preciso.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Desenvolver um guia de anotação robusto para milhões de documentos pode consumir meses de trabalho. Pesquisadores em um novo estudo publicado no arXiv propõem uma metodologia para otimizar esse processo, aproveitando a capacidade dos LLMs de aplicar um código preliminar aos dados. A chave está em identificar os casos onde há forte divergência entre os resultados de diferentes LLMs. Esses pontos de discordância são então apresentados a especialistas humanos para feedback. O estudo examina três formas de coletar essa retroalimentação: (i) edição de revisões geradas por LLMs, guiadas pela discordância entre modelos (Codebook Verifying); (ii) respostas a perguntas sobre os pontos de divergência identificados pelos LLMs (Question Answering); e (iii) rotulagem de casos de discordância com justificativas (Rationale Labeling). Experimentos realizados em milhares de transcrições de sessões de tutoria demonstraram a eficácia dessa abordagem em direcionar o esforço dos especialistas. A pesquisa completa está disponível em <a href=\"https://arxiv.org/abs/2609.26926\" target=\"_blank\" rel=\"external noopener\">arXiv:2609.26926</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, a demanda por dados de alta qualidade para o desenvolvimento de soluções de IA cresce exponencialmente. Empresas e instituições de pesquisa enfrentam o desafio de criar e refinar guias de anotação eficientes, um gargalo que impacta diretamente a velocidade e o custo de projetos de machine learning. A metodologia proposta pode significar uma redução considerável no tempo e nos recursos necessários para a fase de curadoria de dados. Ao focar o trabalho humano nos pontos de maior incerteza ou complexidade, identificados pela IA, o processo de revisão se torna mais eficiente. Isso libera especialistas para se dedicarem a nuances e decisões críticas, em vez de revisarem um grande volume de dados com pouca variabilidade ou discordância. O impacto se estende desde startups de tecnologia até grandes corporações buscando otimizar suas operações com IA.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que essa abordagem se torne um padrão na criação de bases de dados para treinamento de LLMs e outros modelos de IA. A capacidade de automatizar a identificação de áreas problemáticas em guias de anotação, direcionando o olhar humano para onde ele é mais necessário, promete agilizar o ciclo de desenvolvimento de IA. A pesquisa sugere que a combinação do poder computacional dos LLMs com a expertise humana pode ser a chave para escalar a criação de dados anotados de forma eficaz e econômica. Futuros trabalhos podem explorar a aplicação dessa técnica em diferentes domínios de texto e para outros tipos de tarefas de anotação, como reconhecimento de entidades nomeadas ou análise de sentimento. A metodologia publicada em <a href=\"https://arxiv.org/abs/2609.26926\" target=\"_blank\" rel=\"external noopener\">arXiv</a> abre caminho para um desenvolvimento de IA mais rápido e preciso.</p>",
+  "tags": [
+    "ia",
+    "anotacao de dados",
+    "llms"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "inteligência artificial",
+    "modelos de linguagem grandes",
+    "anotação de texto",
+    "revisão de código",
+    "aprendizado de máquina"
+  ],
+  "meta_description_seo": "Pesquisa propõe método para otimizar anotação de dados em IA, usando discordância entre LLMs para direcionar esforço humano.",
+  "faq": [
+    {
+      "q": "Como a IA pode ajudar a criar guias de anotação mais rápido?",
+      "a": "A IA, especificamente modelos de linguagem grandes (LLMs), pode aplicar um guia preliminar aos dados e identificar onde há forte discordância entre diferentes modelos. Esses pontos de divergência são então apresentados a especialistas humanos para revisão."
+    },
+    {
+      "q": "Quais são os benefícios de usar a discordância entre LLMs na anotação?",
+      "a": "Usar a discordância entre LLMs permite focar o esforço humano nos casos mais complexos ou ambíguos, tornando o processo de revisão do guia de anotação mais eficiente e rápido, ao invés de revisar grandes volumes de dados com pouca variação."
+    },
+    {
+      "q": "De que forma os especialistas podem fornecer feedback nesse processo?",
+      "a": "Especialistas podem revisar as sugestões de mudança feitas pelos LLMs, responder a perguntas sobre as divergências identificadas pelos modelos, ou rotular os casos de discordância com suas justificativas."
+    }
+  ],
+  "written_at": "2026-09-24T11:30:53.674Z",
+  "slug": "ia-aponta-onde-especialistas-devem-focar-em-revisao-de-codigo-de-anotacao",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

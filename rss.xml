@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 23 Sep 2026 22:58:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 11:37:48 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Aponta Onde Especialistas Devem Focar Em Revisão de Código de Anotação</title>
+      <link>https://pulsodaia.com.br/feed/ia-aponta-onde-especialistas-devem-focar-em-revisao-de-codigo-de-anotacao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aponta-onde-especialistas-devem-focar-em-revisao-de-codigo-de-anotacao/</guid>
+      <pubDate>Thu, 24 Sep 2026 11:30:53 GMT</pubDate>
+      <description>Pesquisadores propõem método para otimizar o trabalho humano na criação de guias para anotação de dados em larga escala.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.26926">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>NVIDIA Acelera Simulação Robótica com Warp e MjWarp</title>
       <link>https://pulsodaia.com.br/feed/nvidia-acelera-simulacao-robotica-com-warp-e-mjwarp/</link>
@@ -448,15 +457,6 @@
       <description>Um incidente nos EUA expõe a fragilidade de LLMs em cenários críticos, com implicações diretas para a adoção de IA em setores sensíveis no Brasil.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Testa Limites da IA em Laboratório de Biologia</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-testa-limites-da-ia-em-laboratorio-de-biologia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-testa-limites-da-ia-em-laboratorio-de-biologia/</guid>
-      <pubDate>Sat, 19 Sep 2026 00:05:16 GMT</pubDate>
-      <description>A empresa de IA que alerta sobre riscos existenciais também investe em pesquisa biológica, levantando questões sobre o futuro da ciência.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

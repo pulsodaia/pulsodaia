@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-09-23T22:52:12.277Z",
+  "generated_at": "2026-09-24T11:30:53.709Z",
   "articles": [
+    {
+      "slug": "ia-aponta-onde-especialistas-devem-focar-em-revisao-de-codigo-de-anotacao",
+      "headline": "IA Aponta Onde Especialistas Devem Focar Em Revisão de Código de Anotação",
+      "subtitle": "Pesquisadores propõem método para otimizar o trabalho humano na criação de guias para anotação de dados em larga escala.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2609.26926",
+      "category": "research",
+      "tags": [
+        "ia",
+        "anotacao de dados",
+        "llms"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 24 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-24T11:30:53.674Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nvidia-acelera-simulacao-robotica-com-warp-e-mjwarp",
       "headline": "NVIDIA Acelera Simulação Robótica com Warp e MjWarp",
