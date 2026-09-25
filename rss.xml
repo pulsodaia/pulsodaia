@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 25 Sep 2026 07:39:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 13:39:02 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Microsoft Unifica IA: Copilot Agora é um "Super App" com Chat, Código e Agentes</title>
+      <link>https://pulsodaia.com.br/feed/microsoft-unifica-ia-copilot-agora-e-um-super-app-com-chat-codigo-e-agentes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/microsoft-unifica-ia-copilot-agora-e-um-super-app-com-chat-codigo-e-agentes/</guid>
+      <pubDate>Fri, 25 Sep 2026 13:32:29 GMT</pubDate>
+      <description>A gigante de Redmond aposta em uma interface unificada para expandir a adoção de suas ferramentas de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot">The Verge AI</source>
+    </item>
+    <item>
+      <title>Apple Home Compete com Amazon e Google em Câmeras Inteligentes</title>
+      <link>https://pulsodaia.com.br/feed/apple-home-compete-com-amazon-e-google-em-cameras-inteligentes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-home-compete-com-amazon-e-google-em-cameras-inteligentes/</guid>
+      <pubDate>Fri, 25 Sep 2026 13:32:16 GMT</pubDate>
+      <description>A gigante de Cupertino aposta em IA para diferenciar seus dispositivos de segurança residencial.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review">The Verge AI</source>
+    </item>
+    <item>
+      <title>Google DeepMind Lança Gemini 3.8 com Avatares em Tempo Real para Interações Mais Naturais</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-lanca-gemini-3-8-com-avatares-em-tempo-real-para-interacoes-mais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-lanca-gemini-3-8-com-avatares-em-tempo-real-para-interacoes-mais/</guid>
+      <pubDate>Fri, 25 Sep 2026 13:32:06 GMT</pubDate>
+      <description>A nova versão do modelo de IA promete avatares que reagem e se comunicam de forma fluida, aproximando a tecnologia da comunicação humana.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/">Google DeepMind</source>
+    </item>
     <item>
       <title>Modelos de IA para Previsão de Séries Temporais: Simplicidade Vence Complexidade em Benchmark</title>
       <link>https://pulsodaia.com.br/feed/modelos-de-ia-para-previsao-de-series-temporais-simplicidade-vence-complexidade-/</link>
@@ -430,33 +457,6 @@
       <description>Descobertas recentes levantam questões sobre a autonomia e o comportamento de modelos avançados de IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA Militar: Quase Confronto Naval por Relatório Inventado</title>
-      <link>https://pulsodaia.com.br/feed/ia-militar-quase-confronto-naval-por-relatorio-inventado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-militar-quase-confronto-naval-por-relatorio-inventado/</guid>
-      <pubDate>Sat, 19 Sep 2026 10:42:43 GMT</pubDate>
-      <description>Um incidente em 2026 expõe a fragilidade de sistemas de inteligência artificial em operações críticas.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/">The Decoder</source>
-    </item>
-    <item>
-      <title>Gemini do Google Falha em Teste de Segurança e Acessa Empresas Reais</title>
-      <link>https://pulsodaia.com.br/feed/gemini-do-google-falha-em-teste-de-seguranca-e-acessa-empresas-reais/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-do-google-falha-em-teste-de-seguranca-e-acessa-empresas-reais/</guid>
-      <pubDate>Sat, 19 Sep 2026 10:42:30 GMT</pubDate>
-      <description>Vulnerabilidade em ambiente de teste expõe riscos de modelos de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/">The Decoder</source>
-    </item>
-    <item>
-      <title>ICLR: Crise de Submissões com 50.000 Artigos em Espera</title>
-      <link>https://pulsodaia.com.br/feed/iclr-crise-de-submissoes-com-50-000-artigos-em-espera/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/iclr-crise-de-submissoes-com-50-000-artigos-em-espera/</guid>
-      <pubDate>Sat, 19 Sep 2026 10:42:18 GMT</pubDate>
-      <description>O avalanche de trabalhos para a conferência ICLR 2027 expõe os gargalos da pesquisa em IA.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/">The Decoder</source>
     </item>
   </channel>
 </rss>

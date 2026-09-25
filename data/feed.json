@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-25T07:31:10.081Z",
+  "generated_at": "2026-09-25T13:32:29.400Z",
   "articles": [
+    {
+      "slug": "microsoft-unifica-ia-copilot-agora-e-um-super-app-com-chat-codigo-e-agentes",
+      "headline": "Microsoft Unifica IA: Copilot Agora é um \"Super App\" com Chat, Código e Agentes",
+      "subtitle": "A gigante de Redmond aposta em uma interface unificada para expandir a adoção de suas ferramentas de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "category": "mercado",
+      "tags": [
+        "microsoft",
+        "copilot",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-25T08:00:00-04:00",
+      "written_at": "2026-09-25T13:32:29.357Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "apple-home-compete-com-amazon-e-google-em-cameras-inteligentes",
+      "headline": "Apple Home Compete com Amazon e Google em Câmeras Inteligentes",
+      "subtitle": "A gigante de Cupertino aposta em IA para diferenciar seus dispositivos de segurança residencial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "category": "mercado",
+      "tags": [
+        "apple home",
+        "inteligenica artificial",
+        "cameras de seguranca"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-25T09:00:00-04:00",
+      "written_at": "2026-09-25T13:32:16.767Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "google-deepmind-lanca-gemini-3-8-com-avatares-em-tempo-real-para-interacoes-mais",
+      "headline": "Google DeepMind Lança Gemini 3.8 com Avatares em Tempo Real para Interações Mais Naturais",
+      "subtitle": "A nova versão do modelo de IA promete avatares que reagem e se comunicam de forma fluida, aproximando a tecnologia da comunicação humana.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google deepmind",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 24 Sep 2026 16:20:39 +0000",
+      "written_at": "2026-09-25T13:32:06.013Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelos-de-ia-para-previsao-de-series-temporais-simplicidade-vence-complexidade-",
       "headline": "Modelos de IA para Previsão de Séries Temporais: Simplicidade Vence Complexidade em Benchmark",
