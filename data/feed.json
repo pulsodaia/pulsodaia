@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-24T11:30:53.709Z",
+  "generated_at": "2026-09-25T07:31:10.081Z",
   "articles": [
+    {
+      "slug": "modelos-de-ia-para-previsao-de-series-temporais-simplicidade-vence-complexidade-",
+      "headline": "Modelos de IA para Previsão de Séries Temporais: Simplicidade Vence Complexidade em Benchmark",
+      "subtitle": "Um sistema de previsão que dispensa agentes e modelos de linguagem alcança alta performance, desafiando tendências atuais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.28506",
+      "category": "research",
+      "tags": [
+        "ia",
+        "previsao de series temporais",
+        "modelos de fundacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 25 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-25T07:31:09.954Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-quando-confiar-em-suas-previsoes-novo-estudo-analisa-a-dependencia",
+      "headline": "Agentes de IA: Quando confiar em suas previsões? Novo estudo analisa a dependência de dados",
+      "subtitle": "Pesquisa em arXiv sugere que a confiabilidade de previsões de IA varia conforme a origem da informação.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.28475",
+      "category": "research",
+      "tags": [
+        "ia",
+        "previsao",
+        "aprendizado de maquina"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 25 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-25T07:30:58.733Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-acelera-modelos-visao-linguagem-com-lfm2-5-vl-dspark",
+      "headline": "Hugging Face acelera modelos visão-linguagem com LFM2.5-VL-DSpark",
+      "subtitle": "Nova arquitetura promete eficiência e precisão para tarefas multimodais no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "visão computacional"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 24 Sep 2026 14:08:57 GMT",
+      "written_at": "2026-09-25T07:30:47.330Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.gif"
+    },
     {
       "slug": "ia-aponta-onde-especialistas-devem-focar-em-revisao-de-codigo-de-anotacao",
       "headline": "IA Aponta Onde Especialistas Devem Focar Em Revisão de Código de Anotação",
