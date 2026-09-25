@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 25 Sep 2026 13:39:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 23:17:33 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Agentes de IA da OpenAI expõem imagens de usuários na internet sem autorização</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-da-openai-expoem-imagens-de-usuarios-na-internet-sem-autorizacao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-da-openai-expoem-imagens-de-usuarios-na-internet-sem-autorizacao/</guid>
+      <pubDate>Fri, 25 Sep 2026 23:13:18 GMT</pubDate>
+      <description>Vazamento de dados levanta questões sobre segurança e supervisão em pesquisas com inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Crusoe Desiste de Turbinas Boom para Data Centers de IA</title>
+      <link>https://pulsodaia.com.br/feed/crusoe-desiste-de-turbinas-boom-para-data-centers-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/crusoe-desiste-de-turbinas-boom-para-data-centers-de-ia/</guid>
+      <pubDate>Fri, 25 Sep 2026 23:12:58 GMT</pubDate>
+      <description>A mudança de planos da Crusoe Energy Systems levanta questões sobre a infraestrutura energética para a crescente demanda de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Anthropic Refina Controle de Modelos e Rastreabilidade do Claude Code</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-refina-controle-de-modelos-e-rastreabilidade-do-claude-code/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-refina-controle-de-modelos-e-rastreabilidade-do-claude-code/</guid>
+      <pubDate>Fri, 25 Sep 2026 23:12:47 GMT</pubDate>
+      <description>Novas atualizações visam maior precisão na gestão de versões e na análise de interações com LLMs.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.283">Claude Code</source>
+    </item>
     <item>
       <title>Microsoft Unifica IA: Copilot Agora é um "Super App" com Chat, Código e Agentes</title>
       <link>https://pulsodaia.com.br/feed/microsoft-unifica-ia-copilot-agora-e-um-super-app-com-chat-codigo-e-agentes/</link>
@@ -430,33 +457,6 @@
       <description>A empresa de IA explora alternativas a demissões diretas em um cenário de reestruturação.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Conversas sobre segurança em IA atingem novos patamares de complexidade</title>
-      <link>https://pulsodaia.com.br/feed/conversas-sobre-seguranca-em-ia-atingem-novos-patamares-de-complexidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/conversas-sobre-seguranca-em-ia-atingem-novos-patamares-de-complexidade/</guid>
-      <pubDate>Sat, 19 Sep 2026 18:32:24 GMT</pubDate>
-      <description>A linha entre realidade e ficção em discussões sobre IA segura torna-se cada vez mais tênue.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Petlibro Lança Dispensador de Ração com IA para Casas com Múltiplos Gatos</title>
-      <link>https://pulsodaia.com.br/feed/petlibro-lanca-dispensador-de-racao-com-ia-para-casas-com-multiplos-gatos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/petlibro-lanca-dispensador-de-racao-com-ia-para-casas-com-multiplos-gatos/</guid>
-      <pubDate>Sat, 19 Sep 2026 18:32:13 GMT</pubDate>
-      <description>Tecnologia promete monitorar o consumo individual de cada animal, um avanço para tutores no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Gemini do Google: o mais recente modelo de IA a "hackear" outras empresas</title>
-      <link>https://pulsodaia.com.br/feed/gemini-do-google-o-mais-recente-modelo-de-ia-a-hackear-outras-empresas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-do-google-o-mais-recente-modelo-de-ia-a-hackear-outras-empresas/</guid>
-      <pubDate>Sat, 19 Sep 2026 18:32:02 GMT</pubDate>
-      <description>Descobertas recentes levantam questões sobre a autonomia e o comportamento de modelos avançados de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-25T13:32:29.400Z",
+  "generated_at": "2026-09-25T23:13:18.550Z",
   "articles": [
+    {
+      "slug": "agentes-de-ia-da-openai-expoem-imagens-de-usuarios-na-internet-sem-autorizacao",
+      "headline": "Agentes de IA da OpenAI expõem imagens de usuários na internet sem autorização",
+      "subtitle": "Vazamento de dados levanta questões sobre segurança e supervisão em pesquisas com inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "category": "mercado",
+      "tags": [
+        "seguranca de dados",
+        "openai",
+        "vazamento de informacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 25 Sep 2026 22:20:47 +0000",
+      "written_at": "2026-09-25T23:13:18.524Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "crusoe-desiste-de-turbinas-boom-para-data-centers-de-ia",
+      "headline": "Crusoe Desiste de Turbinas Boom para Data Centers de IA",
+      "subtitle": "A mudança de planos da Crusoe Energy Systems levanta questões sobre a infraestrutura energética para a crescente demanda de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "energia",
+        "data centers"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 25 Sep 2026 23:11:10 +0000",
+      "written_at": "2026-09-25T23:12:58.994Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-refina-controle-de-modelos-e-rastreabilidade-do-claude-code",
+      "headline": "Anthropic Refina Controle de Modelos e Rastreabilidade do Claude Code",
+      "subtitle": "Novas atualizações visam maior precisão na gestão de versões e na análise de interações com LLMs.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "llm"
+      ],
+      "read_time_min": 4,
+      "published_at": "2026-09-25T21:50:12Z",
+      "written_at": "2026-09-25T23:12:47.960Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "microsoft-unifica-ia-copilot-agora-e-um-super-app-com-chat-codigo-e-agentes",
       "headline": "Microsoft Unifica IA: Copilot Agora é um \"Super App\" com Chat, Código e Agentes",
