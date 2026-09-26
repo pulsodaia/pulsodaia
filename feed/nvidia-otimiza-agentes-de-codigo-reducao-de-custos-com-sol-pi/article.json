@@ -1,0 +1,50 @@
+{
+  "id": "https://the-decoder.com/?p=40688",
+  "title": "Nvidia&#039;s SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
+  "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/",
+  "summary": "SoL-Pi cuts coding agents' token usage by up to 49 percent with little change in performance by optimizing the control layer between the model and its environment. A research agent tested 152 approaches across more than 3,000 runs to develop the system, though the gains were smaller on other benchmarks. The article Nvidia&#039;s SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness appeared first on The Decoder .",
+  "published_at": "Sat, 26 Sep 2026 10:30:32 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "Nvidia Otimiza Agentes de Código: Redução de Custos com SoL-Pi",
+  "subtitle": "Nova tecnologia da Nvidia promete diminuir o uso de tokens em até 49% para tarefas de codificação, impactando o custo de desenvolvimento de IA no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Nvidia apresentou o SoL-Pi, um sistema que reduz o consumo de tokens em agentes de codificação de inteligência artificial em quase metade. A otimização foca na camada de controle entre o modelo e seu ambiente, prometendo eficiência sem grande perda de performance.",
+  "body_markdown": "## O que aconteceu\n\nA Nvidia desenvolveu o SoL-Pi, um sistema que demonstra uma capacidade notável de otimizar o uso de tokens por agentes de codificação de IA. De acordo com informações divulgadas pelo The Decoder, esta tecnologia consegue reduzir o consumo de tokens em até 49%. A inovação reside na otimização da \"harness\", que pode ser entendida como a camada de controle que intermedia a interação entre o modelo de IA e seu ambiente de execução. O desenvolvimento do sistema envolveu testes extensivos, com um agente de pesquisa explorando mais de 150 abordagens distintas em mais de 3.000 execuções. Essa pesquisa focada resultou em ganhos significativos de eficiência, embora os resultados possam variar em diferentes benchmarks. A pesquisa original detalha os esforços para aprimorar a interação entre os modelos de linguagem e as ferramentas que eles utilizam para executar tarefas complexas de programação. [O artigo completo detalha a metodologia](https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/).\n\n## Por que importa\n\nNo cenário brasileiro, onde o desenvolvimento de soluções baseadas em IA tem crescido exponencialmente, a eficiência no uso de recursos computacionais é crucial. O custo associado ao uso de tokens em modelos de linguagem grandes (LLMs) é um fator determinante para a viabilidade econômica de aplicações de IA, especialmente para startups e empresas com orçamentos mais restritos. A redução de quase 50% no consumo de tokens promovida pelo SoL-Pi pode significar uma diminuição substancial nos custos operacionais para empresas que utilizam agentes de codificação para automatizar tarefas de desenvolvimento de software, análise de dados ou criação de conteúdo. Isso abre portas para a adoção em larga escala de ferramentas de IA mais sofisticadas e acessíveis no mercado nacional, impulsionando a inovação em diversos setores.\n\n## O que esperar\n\nA expectativa é que o SoL-Pi, ou tecnologias derivadas dele, se tornem um padrão para a otimização de agentes de codificação. A Nvidia, como um dos principais players no desenvolvimento de hardware e software para IA, tende a integrar essas otimizações em suas plataformas e bibliotecas. Para desenvolvedores e empresas no Brasil, isso pode se traduzir em acesso a ferramentas mais eficientes e econômicas. A pesquisa contínua na área de otimização de LLMs é fundamental para democratizar o acesso à inteligência artificial avançada. O aprimoramento da interação entre modelos e suas ferramentas externas é um caminho promissor para aumentar a performance e reduzir os custos. Fica o convite para explorar mais sobre os avanços na área, como os detalhados neste [artigo sobre otimização de IA](https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/). A tendência é que mais pesquisas surjam focadas em tornar a IA mais sustentável e economicamente viável.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Nvidia desenvolveu o SoL-Pi, um sistema que demonstra uma capacidade notável de otimizar o uso de tokens por agentes de codificação de IA. De acordo com informações divulgadas pelo The Decoder, esta tecnologia consegue reduzir o consumo de tokens em até 49%. A inovação reside na otimização da \"harness\", que pode ser entendida como a camada de controle que intermedia a interação entre o modelo de IA e seu ambiente de execução. O desenvolvimento do sistema envolveu testes extensivos, com um agente de pesquisa explorando mais de 150 abordagens distintas em mais de 3.000 execuções. Essa pesquisa focada resultou em ganhos significativos de eficiência, embora os resultados possam variar em diferentes benchmarks. A pesquisa original detalha os esforços para aprimorar a interação entre os modelos de linguagem e as ferramentas que eles utilizam para executar tarefas complexas de programação. <a href=\"https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/\" target=\"_blank\" rel=\"external noopener\">O artigo completo detalha a metodologia</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No cenário brasileiro, onde o desenvolvimento de soluções baseadas em IA tem crescido exponencialmente, a eficiência no uso de recursos computacionais é crucial. O custo associado ao uso de tokens em modelos de linguagem grandes (LLMs) é um fator determinante para a viabilidade econômica de aplicações de IA, especialmente para startups e empresas com orçamentos mais restritos. A redução de quase 50% no consumo de tokens promovida pelo SoL-Pi pode significar uma diminuição substancial nos custos operacionais para empresas que utilizam agentes de codificação para automatizar tarefas de desenvolvimento de software, análise de dados ou criação de conteúdo. Isso abre portas para a adoção em larga escala de ferramentas de IA mais sofisticadas e acessíveis no mercado nacional, impulsionando a inovação em diversos setores.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que o SoL-Pi, ou tecnologias derivadas dele, se tornem um padrão para a otimização de agentes de codificação. A Nvidia, como um dos principais players no desenvolvimento de hardware e software para IA, tende a integrar essas otimizações em suas plataformas e bibliotecas. Para desenvolvedores e empresas no Brasil, isso pode se traduzir em acesso a ferramentas mais eficientes e econômicas. A pesquisa contínua na área de otimização de LLMs é fundamental para democratizar o acesso à inteligência artificial avançada. O aprimoramento da interação entre modelos e suas ferramentas externas é um caminho promissor para aumentar a performance e reduzir os custos. Fica o convite para explorar mais sobre os avanços na área, como os detalhados neste <a href=\"https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/\" target=\"_blank\" rel=\"external noopener\">artigo sobre otimização de IA</a>. A tendência é que mais pesquisas surjam focadas em tornar a IA mais sustentável e economicamente viável.</p>",
+  "tags": [
+    "nvidia",
+    "inteligencia artificial",
+    "otimizacao"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Nvidia SoL-Pi",
+    "agentes de codificação",
+    "uso de tokens",
+    "otimização de IA",
+    "custo IA"
+  ],
+  "meta_description_seo": "Nvidia SoL-Pi reduz uso de tokens em agentes de codificação de IA em quase 50%. Otimização de custos para desenvolvimento de IA no Brasil.",
+  "faq": [
+    {
+      "q": "O que o sistema SoL-Pi da Nvidia faz?",
+      "a": "O SoL-Pi é um sistema da Nvidia que otimiza a camada de controle entre modelos de IA e seu ambiente, reduzindo o uso de tokens por agentes de codificação em quase metade."
+    },
+    {
+      "q": "Qual o impacto da redução de tokens no custo de IA?",
+      "a": "A redução no uso de tokens diminui os custos operacionais para empresas que utilizam IA, tornando o desenvolvimento e a aplicação de modelos mais acessíveis e economicamente viáveis."
+    },
+    {
+      "q": "A tecnologia SoL-Pi afeta a performance dos agentes de codificação?",
+      "a": "Segundo a fonte, a otimização do SoL-Pi atinge uma redução significativa no uso de tokens com pouca alteração na performance do agente de codificação."
+    }
+  ],
+  "written_at": "2026-09-26T11:10:51.881Z",
+  "slug": "nvidia-otimiza-agentes-de-codigo-reducao-de-custos-com-sol-pi",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/09/solpi-agent-harness-optimization-nano-banana-pro.jpg"
+}
