@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-09-26T11:11:05.386Z",
+  "generated_at": "2026-09-26T16:12:00.236Z",
   "articles": [
+    {
+      "slug": "matthew-prince-cloudflare-debate-o-futuro-da-web-diante-da-ia",
+      "headline": "Matthew Prince (Cloudflare) debate o futuro da web diante da IA",
+      "subtitle": "O CEO da Cloudflare discute os desafios e oportunidades que a inteligência artificial impõe à internet.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "cloudflare",
+        "internet",
+        "matthew prince"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-26T10:00:00-04:00",
+      "written_at": "2026-09-26T16:11:59.961Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "avatar-digital-interativo-o-reflexo-da-ia-na-sua-propria-imagem",
+      "headline": "Avatar Digital Interativo: O Reflexo da IA na Sua Própria Imagem",
+      "subtitle": "A capacidade de criar clones digitais levanta questões éticas e práticas para o mercado brasileiro.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+      "category": "mercado",
+      "tags": [
+        "avatar ai",
+        "inteligência artificial",
+        "ética digital"
+      ],
+      "read_time_min": 4,
+      "published_at": "Sat, 26 Sep 2026 14:00:00 +0000",
+      "written_at": "2026-09-26T16:11:48.650Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "gpt-6-astra-da-openai-detecta-erros-em-montagem-de-moveis-com-alta-precisao",
       "headline": "GPT-6 Astra da OpenAI Detecta Erros em Montagem de Móveis com Alta Precisão",
