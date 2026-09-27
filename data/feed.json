@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-27T07:56:22.218Z",
+  "generated_at": "2026-09-27T13:47:27.306Z",
   "articles": [
+    {
+      "slug": "robo-com-gpt-6-astra-limpa-cozinha-desconhecida-sem-treinamento-especifico",
+      "headline": "Robô com GPT-6 Astra limpa cozinha desconhecida sem treinamento específico",
+      "subtitle": "Um avanço significativo na autonomia de robôs de serviço, com implicações para o mercado brasileiro.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/",
+      "category": "mercado",
+      "tags": [
+        "gpt-6",
+        "robótica",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 27 Sep 2026 10:59:11 +0000",
+      "written_at": "2026-09-27T13:47:25.331Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-lanca-modelo-de-ia-gratuito-para-identificar-ate-oito-vozes-em-conversas",
+      "headline": "Nvidia lança modelo de IA gratuito para identificar até oito vozes em conversas",
+      "subtitle": "Ferramenta promete aprimorar transcrições e análises de áudio em português.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "nvidia",
+        "diarizacao de audio"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 27 Sep 2026 11:01:13 +0000",
+      "written_at": "2026-09-27T13:47:13.042Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "veteranos-da-anthropic-consideram-refugios-remotos-diante-de-riscos-da-ia",
+      "headline": "Veteranos da Anthropic Consideram Refúgios Remotos Diante de Riscos da IA",
+      "subtitle": "A preocupação com cenários extremos de IA levanta debates sobre segurança e o futuro do setor no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança",
+        "riscos",
+        "altruísmo eficaz"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 27 Sep 2026 13:03:05 +0000",
+      "written_at": "2026-09-27T13:47:00.325Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "google-integra-compra-via-ia-com-flipkart-na-india",
       "headline": "Google Integra Compra via IA com Flipkart na Índia",
