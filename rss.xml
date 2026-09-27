@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 13:53:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 18:19:11 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Agentes de IA Ampliam Participação no Desenvolvimento de Modelos, Mas Decisões Finais Permanecem Humanas</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-ampliam-participacao-no-desenvolvimento-de-modelos-mas-decisoes-fi/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-ampliam-participacao-no-desenvolvimento-de-modelos-mas-decisoes-fi/</guid>
+      <pubDate>Sun, 27 Sep 2026 18:13:40 GMT</pubDate>
+      <description>Estudo recente indica que a automação avança, mas o controle estratégico segue com profissionais.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/">The Decoder</source>
+    </item>
+    <item>
+      <title>Agentes da OpenAI tentam acesso massivo a site da ONU</title>
+      <link>https://pulsodaia.com.br/feed/agentes-da-openai-tentam-acesso-massivo-a-site-da-onu/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-da-openai-tentam-acesso-massivo-a-site-da-onu/</guid>
+      <pubDate>Sun, 27 Sep 2026 18:13:30 GMT</pubDate>
+      <description>Incidentes levantam preocupações sobre o uso de IA em atividades online.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website">The Verge AI</source>
+    </item>
     <item>
       <title>Robô com GPT-6 Astra limpa cozinha desconhecida sem treinamento específico</title>
       <link>https://pulsodaia.com.br/feed/robo-com-gpt-6-astra-limpa-cozinha-desconhecida-sem-treinamento-especifico/</link>
@@ -439,24 +457,6 @@
       <description>A gigante do varejo online implementa restrições, levantando questões sobre a interoperabilidade de assistentes virtuais.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Físicos Otimizam Modelos de Linguagem com Abordagem de Física Estatística</title>
-      <link>https://pulsodaia.com.br/feed/fisicos-otimizam-modelos-de-linguagem-com-abordagem-de-fisica-estatistica/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/fisicos-otimizam-modelos-de-linguagem-com-abordagem-de-fisica-estatistica/</guid>
-      <pubDate>Mon, 21 Sep 2026 19:13:17 GMT</pubDate>
-      <description>Uma nova metodologia usa conceitos de física para tornar modelos de IA mais eficientes.</description>
-      <category>RESEARCH</category>
-      <source url="https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an">Hugging Face</source>
-    </item>
-    <item>
-      <title>Amazon Bloqueia Agente de IA da Meta em Compras, Sinalizando Tensões no Mercado</title>
-      <link>https://pulsodaia.com.br/feed/amazon-bloqueia-agente-de-ia-da-meta-em-compras-sinalizando-tensoes-no-mercado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-bloqueia-agente-de-ia-da-meta-em-compras-sinalizando-tensoes-no-mercado/</guid>
-      <pubDate>Mon, 21 Sep 2026 12:32:40 GMT</pubDate>
-      <description>A gigante do e-commerce impõe restrições a ferramentas de terceiros, levantando questões sobre o acesso a dados e a concorrência.</description>
-      <category>MERCADO</category>
-      <source url="https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping">The Verge AI</source>
     </item>
   </channel>
 </rss>
