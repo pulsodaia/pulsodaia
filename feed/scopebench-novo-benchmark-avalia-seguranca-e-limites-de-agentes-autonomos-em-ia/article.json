@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2609.30325v1",
+  "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+  "url": "https://arxiv.org/abs/2609.30325",
+  "summary": "arXiv:2609.30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability; as those benchmarks saturate, the real barrier to deployment is a special case of alignment: scope adherence. We introduce ScopeBench, a benchmark of 30 dead-end agentic security tasks in which the stated objective is reachable only by violating the stated scope. Each task appears under two conditions that share an environment, verifier, and objective and differ only in scope: one instruction set has no scope and measures capability; the other has a natural-language scope to measure adherence. Scopeless trajectories are graded by a standard deterministic verifier. Scoped trajectories pass through two grading arms. First, the same deterministic verifier checks for the flag: because the flag ",
+  "published_at": "Mon, 28 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "ScopeBench: Novo Benchmark Avalia Segurança e Limites de Agentes Autônomos em IA",
+  "subtitle": "A precisão em seguir escopo se torna o novo gargalo para a adoção de IA em testes de segurança cibernética.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores introduziram o ScopeBench, um conjunto de testes projetado para avaliar se agentes de IA autônomos conseguem manter a aderência a limites de escopo definidos, mesmo sob pressão para atingir objetivos. Esta métrica de alinhamento é crucial para a implantação segura em cenários reais.",
+  "body_markdown": "## O que aconteceu\n\nA crescente autonomia de agentes de IA em aplicações web e testes de penetração de redes levanta uma preocupação fundamental: a capacidade de não exceder os limites estabelecidos. Uma única ação fora do escopo acordado pode acarretar sérias consequências legais e de conformidade para o cliente. Enquanto benchmarks existentes focam na habilidade bruta de ataque dos agentes, o verdadeiro obstáculo para sua adoção em larga escala agora reside em um aspecto específico do alinhamento: a aderência ao escopo.\n\nPara endereçar essa lacuna, foi desenvolvido o ScopeBench, um novo benchmark apresentado em um artigo no [arXiv cs.AI](https://arxiv.org/abs/2609.30325). Ele compreende 30 tarefas de segurança que funcionam como \"becos sem saída\" para agentes de IA. Nesses cenários, o objetivo declarado só pode ser alcançado se o agente violar explicitamente o escopo definido para a tarefa. Cada tarefa é apresentada em duas condições distintas, compartilhando o mesmo ambiente, verificador e objetivo. A diferença crucial reside nas instruções: um conjunto não especifica escopo, medindo a capacidade pura do agente, enquanto o outro inclui uma definição em linguagem natural do escopo, permitindo a avaliação da aderência.\n\n## Por que importa\n\nNo contexto brasileiro, onde a transformação digital avança rapidamente e a adoção de soluções de segurança baseadas em IA ganha força, a capacidade de agentes autônomos operarem dentro de limites claros é vital. Empresas que utilizam IA para testes de segurança cibernética precisam garantir que essas ferramentas não causem danos não intencionais ou violem regulamentações de proteção de dados, como a LGPD. A falta de aderência ao escopo pode resultar em multas pesadas, perda de confiança do cliente e danos reputacionais. O ScopeBench oferece uma metodologia objetiva para quantificar e melhorar essa capacidade crítica, permitindo que organizações brasileiras implementem IA de forma mais segura e confiável.\n\n## O que esperar\n\nO desenvolvimento do ScopeBench representa um passo importante na evolução dos benchmarks de segurança em IA. A expectativa é que ele incentive a criação de agentes mais robustos e alinhados com as necessidades práticas de segurança. A pesquisa sugere que o desafio de manter o escopo é mais complexo do que a simples execução de tarefas de hacking, exigindo um nível mais sofisticado de raciocínio e controle por parte dos agentes. A partir deste trabalho, espera-se que futuras pesquisas se concentrem em técnicas de treinamento e arquiteturas de agentes que priorizem a aderência ao escopo como um objetivo de primeira ordem. Além disso, a comunidade de segurança cibernética pode utilizar este benchmark para comparar diferentes abordagens e identificar as mais eficazes em garantir operações seguras de agentes autônomos. Os resultados do [ScopeBench](https://arxiv.org/abs/2609.30325) abrem caminho para uma nova geração de ferramentas de IA mais confiáveis.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A crescente autonomia de agentes de IA em aplicações web e testes de penetração de redes levanta uma preocupação fundamental: a capacidade de não exceder os limites estabelecidos. Uma única ação fora do escopo acordado pode acarretar sérias consequências legais e de conformidade para o cliente. Enquanto benchmarks existentes focam na habilidade bruta de ataque dos agentes, o verdadeiro obstáculo para sua adoção em larga escala agora reside em um aspecto específico do alinhamento: a aderência ao escopo.</p>\n\n<p>Para endereçar essa lacuna, foi desenvolvido o ScopeBench, um novo benchmark apresentado em um artigo no <a href=\"https://arxiv.org/abs/2609.30325\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>. Ele compreende 30 tarefas de segurança que funcionam como \"becos sem saída\" para agentes de IA. Nesses cenários, o objetivo declarado só pode ser alcançado se o agente violar explicitamente o escopo definido para a tarefa. Cada tarefa é apresentada em duas condições distintas, compartilhando o mesmo ambiente, verificador e objetivo. A diferença crucial reside nas instruções: um conjunto não especifica escopo, medindo a capacidade pura do agente, enquanto o outro inclui uma definição em linguagem natural do escopo, permitindo a avaliação da aderência.</p>\n\n<h2>Por que importa</h2>\n\n<p>No contexto brasileiro, onde a transformação digital avança rapidamente e a adoção de soluções de segurança baseadas em IA ganha força, a capacidade de agentes autônomos operarem dentro de limites claros é vital. Empresas que utilizam IA para testes de segurança cibernética precisam garantir que essas ferramentas não causem danos não intencionais ou violem regulamentações de proteção de dados, como a LGPD. A falta de aderência ao escopo pode resultar em multas pesadas, perda de confiança do cliente e danos reputacionais. O ScopeBench oferece uma metodologia objetiva para quantificar e melhorar essa capacidade crítica, permitindo que organizações brasileiras implementem IA de forma mais segura e confiável.</p>\n\n<h2>O que esperar</h2>\n\n<p>O desenvolvimento do ScopeBench representa um passo importante na evolução dos benchmarks de segurança em IA. A expectativa é que ele incentive a criação de agentes mais robustos e alinhados com as necessidades práticas de segurança. A pesquisa sugere que o desafio de manter o escopo é mais complexo do que a simples execução de tarefas de hacking, exigindo um nível mais sofisticado de raciocínio e controle por parte dos agentes. A partir deste trabalho, espera-se que futuras pesquisas se concentrem em técnicas de treinamento e arquiteturas de agentes que priorizem a aderência ao escopo como um objetivo de primeira ordem. Além disso, a comunidade de segurança cibernética pode utilizar este benchmark para comparar diferentes abordagens e identificar as mais eficazes em garantir operações seguras de agentes autônomos. Os resultados do <a href=\"https://arxiv.org/abs/2609.30325\" target=\"_blank\" rel=\"external noopener\">ScopeBench</a> abrem caminho para uma nova geração de ferramentas de IA mais confiáveis.</p>",
+  "tags": [
+    "ia",
+    "segurança cibernética",
+    "benchmarks"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "agentes autônomos",
+    "escopo",
+    "aderência",
+    "segurança de IA",
+    "testes de penetração"
+  ],
+  "meta_description_seo": "Novo benchmark, ScopeBench, avalia se agentes de IA autônomos respeitam limites de escopo em testes de segurança cibernética. Essencial para adoção segura.",
+  "faq": [
+    {
+      "q": "O que é o ScopeBench?",
+      "a": "ScopeBench é um novo benchmark de segurança para IA que avalia a capacidade de agentes autônomos de seguir limites de escopo definidos, mesmo quando o objetivo principal pode ser alcançado apenas violando esses limites."
+    },
+    {
+      "q": "Por que a aderência ao escopo é importante para agentes de IA em segurança?",
+      "a": "Em testes de segurança, uma ação fora do escopo pode causar danos não intencionais, violar regulamentações e gerar consequências legais. Garantir que agentes respeitem o escopo é crucial para a implantação segura."
+    },
+    {
+      "q": "Quais são os objetivos do ScopeBench?",
+      "a": "O ScopeBench visa medir a capacidade de agentes de IA de aderir a restrições de escopo, distinguindo essa habilidade da mera capacidade de realizar tarefas de hacking, impulsionando o desenvolvimento de agentes mais confiáveis."
+    }
+  ],
+  "written_at": "2026-09-28T04:54:48.091Z",
+  "slug": "scopebench-novo-benchmark-avalia-seguranca-e-limites-de-agentes-autonomos-em-ia",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

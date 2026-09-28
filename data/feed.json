@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-27T18:13:41.369Z",
+  "generated_at": "2026-09-28T04:55:08.024Z",
   "articles": [
+    {
+      "slug": "ia-julgando-codigo-a-nova-fronteira-da-verificacao-ganha-transparencia",
+      "headline": "IA Julgando Código: A Nova Fronteira da Verificação Ganha Transparência",
+      "subtitle": "Pesquisa aponta falhas em modelos de linguagem ao avaliar a correção de código, abrindo caminho para métodos mais robustos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.30328",
+      "category": "research",
+      "tags": [
+        "inteligencia artificial",
+        "desenvolvimento de software",
+        "avaliacao de codigo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-28T04:55:07.962Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "scopebench-novo-benchmark-avalia-seguranca-e-limites-de-agentes-autonomos-em-ia",
+      "headline": "ScopeBench: Novo Benchmark Avalia Segurança e Limites de Agentes Autônomos em IA",
+      "subtitle": "A precisão em seguir escopo se torna o novo gargalo para a adoção de IA em testes de segurança cibernética.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.30325",
+      "category": "research",
+      "tags": [
+        "ia",
+        "segurança cibernética",
+        "benchmarks"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-28T04:54:48.091Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-autonoma-conexao-entre-redes-neurais-e-logica-simbolica-e-chave-para-sistemas",
+      "headline": "IA Autônoma: Conexão entre Redes Neurais e Lógica Simbólica é Chave para Sistemas Avançados",
+      "subtitle": "Pesquisa no arXiv propõe framework para integrar abordagens de IA e engenharia de sistemas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.30291",
+      "category": "research",
+      "tags": [
+        "ia autonoma",
+        "inteligência artificial",
+        "arquitetura de agentes"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-28T04:54:37.807Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "agentes-de-ia-ampliam-participacao-no-desenvolvimento-de-modelos-mas-decisoes-fi",
       "headline": "Agentes de IA Ampliam Participação no Desenvolvimento de Modelos, Mas Decisões Finais Permanecem Humanas",
