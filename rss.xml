@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 28 Sep 2026 04:59:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 20:33:52 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic Atualiza Claude com Modelo Sonnet 5.5 e Melhorias de Usabilidade</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-atualiza-claude-com-modelo-sonnet-5-5-e-melhorias-de-usabilidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-atualiza-claude-com-modelo-sonnet-5-5-e-melhorias-de-usabilidade/</guid>
+      <pubDate>Mon, 28 Sep 2026 20:28:30 GMT</pubDate>
+      <description>A nova versão do Claude Code introduz aprimoramentos significativos para desenvolvedores e usuários da API no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.284">Claude Code</source>
+    </item>
+    <item>
+      <title>Holo4 Promete Agentes de Computação Generalistas</title>
+      <link>https://pulsodaia.com.br/feed/holo4-promete-agentes-de-computacao-generalistas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/holo4-promete-agentes-de-computacao-generalistas/</guid>
+      <pubDate>Mon, 28 Sep 2026 20:28:19 GMT</pubDate>
+      <description>Nova abordagem de IA busca unificar o uso de computadores para tarefas complexas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/Hcompany/holo4">Hugging Face</source>
+    </item>
+    <item>
+      <title>XPRIZE de Visão Futura Anuncia Vencedor com Foco em IA</title>
+      <link>https://pulsodaia.com.br/feed/xprize-de-visao-futura-anuncia-vencedor-com-foco-em-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/xprize-de-visao-futura-anuncia-vencedor-com-foco-em-ia/</guid>
+      <pubDate>Mon, 28 Sep 2026 20:28:08 GMT</pubDate>
+      <description>O projeto "The Gifted" se destaca em competição global de inovação.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/">Google AI</source>
+    </item>
     <item>
       <title>IA Julgando Código: A Nova Fronteira da Verificação Ganha Transparência</title>
       <link>https://pulsodaia.com.br/feed/ia-julgando-codigo-a-nova-fronteira-da-verificacao-ganha-transparencia/</link>
@@ -430,33 +457,6 @@
       <description>Avanço em problemas de matemática de longa data levanta questões sobre o ritmo de pesquisa da empresa e a supervisão externa.</description>
       <category>RESEARCH</category>
       <source url="https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training/">The Decoder</source>
-    </item>
-    <item>
-      <title>Hugging Face reforça comunidade MLX com chegada de criador e mantenedor</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-reforca-comunidade-mlx-com-chegada-de-criador-e-mantenedor/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-reforca-comunidade-mlx-com-chegada-de-criador-e-mantenedor/</guid>
-      <pubDate>Tue, 22 Sep 2026 11:21:11 GMT</pubDate>
-      <description>A plataforma de IA busca expandir o alcance de sua biblioteca focada em hardware Apple.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/omlx">Hugging Face</source>
-    </item>
-    <item>
-      <title>Transformers da Hugging Face agora rodam quants do llama.cpp</title>
-      <link>https://pulsodaia.com.br/feed/transformers-da-hugging-face-agora-rodam-quants-do-llama-cpp/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/transformers-da-hugging-face-agora-rodam-quants-do-llama-cpp/</guid>
-      <pubDate>Tue, 22 Sep 2026 11:21:01 GMT</pubDate>
-      <description>A compatibilidade expandida promete democratizar o acesso a modelos de linguagem avançados no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/transformers-llama-cpp-quants">Hugging Face</source>
-    </item>
-    <item>
-      <title>Modelos de Linguagem Podem "Simular" Efeitos Psicológicos Humanos? Novo Estudo Cria Ferramenta de Teste</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-podem-simular-efeitos-psicologicos-humanos-novo-estudo-cria/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-podem-simular-efeitos-psicologicos-humanos-novo-estudo-cria/</guid>
-      <pubDate>Tue, 22 Sep 2026 04:24:26 GMT</pubDate>
-      <description>Pesquisa acadêmica introduz benchmark para investigar a genuinidade de comportamentos observados em LLMs.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.22090">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-09-28T04:55:08.024Z",
+  "generated_at": "2026-09-28T20:28:31.599Z",
   "articles": [
+    {
+      "slug": "anthropic-atualiza-claude-com-modelo-sonnet-5-5-e-melhorias-de-usabilidade",
+      "headline": "Anthropic Atualiza Claude com Modelo Sonnet 5.5 e Melhorias de Usabilidade",
+      "subtitle": "A nova versão do Claude Code introduz aprimoramentos significativos para desenvolvedores e usuários da API no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-28T18:02:03Z",
+      "written_at": "2026-09-28T20:28:30.717Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "holo4-promete-agentes-de-computacao-generalistas",
+      "headline": "Holo4 Promete Agentes de Computação Generalistas",
+      "subtitle": "Nova abordagem de IA busca unificar o uso de computadores para tarefas complexas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/Hcompany/holo4",
+      "category": "opensource",
+      "tags": [
+        "agentes de ia",
+        "computação generalista",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 28 Sep 2026 09:44:05 GMT",
+      "written_at": "2026-09-28T20:28:19.427Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "xprize-de-visao-futura-anuncia-vencedor-com-foco-em-ia",
+      "headline": "XPRIZE de Visão Futura Anuncia Vencedor com Foco em IA",
+      "subtitle": "O projeto \"The Gifted\" se destaca em competição global de inovação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "xpriz",
+        "vision",
+        "future",
+        "google ai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 28 Sep 2026 19:00:00 +0000",
+      "written_at": "2026-09-28T20:28:08.861Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-julgando-codigo-a-nova-fronteira-da-verificacao-ganha-transparencia",
       "headline": "IA Julgando Código: A Nova Fronteira da Verificação Ganha Transparência",
