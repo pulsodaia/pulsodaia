@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-29T16:27:11.819Z",
+  "generated_at": "2026-09-29T22:07:17.854Z",
   "articles": [
+    {
+      "slug": "openai-busca-us-30-bilhoes-em-nova-rodada-de-financiamento-avaliada-em-us-1-4-tr",
+      "headline": "OpenAI Busca US$ 30 Bilhões em Nova Rodada de Financiamento, Avaliada em US$ 1,4 Trilhão",
+      "subtitle": "A gigante da IA se prepara para uma potencial abertura de capital em 2027 com um aporte expressivo.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "inteligência artificial",
+        "financiamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 29 Sep 2026 19:52:37 +0000",
+      "written_at": "2026-09-29T22:07:17.762Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-desafia-lojas-de-aplicativos-com-plataforma-integrada-no-chatgpt",
+      "headline": "OpenAI Desafia Lojas de Aplicativos com Plataforma Integrada no ChatGPT",
+      "subtitle": "A empresa busca centralizar a descoberta e o uso de softwares diretamente em sua interface de IA, impactando o modelo de distribuição digital.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "lojas de aplicativos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 29 Sep 2026 20:15:47 +0000",
+      "written_at": "2026-09-29T22:07:07.216Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-ganha-ferramentas-de-controle-e-integracao",
+      "headline": "Claude Code Ganha Ferramentas de Controle e Integração",
+      "subtitle": "Novas funcionalidades no Claude Code buscam simplificar a gestão de plugins e a interação com o ambiente de desenvolvimento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "ia",
+        "desenvolvimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-09-29T19:27:30Z",
+      "written_at": "2026-09-29T22:06:57.200Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "plataforma-instinct-ve-dominio-do-turismo-em-transacoes-geradas-por-ia",
       "headline": "Plataforma Instinct Vê Domínio do Turismo em Transações Geradas por IA",
