@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 28 Sep 2026 20:33:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:23:21 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Simplifica Simulações Complexas de Materiais Metálicos</title>
+      <link>https://pulsodaia.com.br/feed/ia-simplifica-simulacoes-complexas-de-materiais-metalicos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-simplifica-simulacoes-complexas-de-materiais-metalicos/</guid>
+      <pubDate>Tue, 29 Sep 2026 08:15:47 GMT</pubDate>
+      <description>Uma nova ferramenta baseada em LLM promete agilizar a pesquisa em plasticidade de cristais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2609.31790">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Rastreabilidade em Modelos de IA Abertos: Novas Ferramentas para Auditar Linhagens</title>
+      <link>https://pulsodaia.com.br/feed/rastreabilidade-em-modelos-de-ia-abertos-novas-ferramentas-para-auditar-linhagen/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/rastreabilidade-em-modelos-de-ia-abertos-novas-ferramentas-para-auditar-linhagen/</guid>
+      <pubDate>Tue, 29 Sep 2026 08:15:37 GMT</pubDate>
+      <description>Um estudo acadêmico propõe métodos para verificar a origem e a evolução de modelos de IA de código aberto, crucial para a integridade no mercado brasileiro.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.31784">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA em UTIs: Foco em privacidade para evitar falhas em diagnósticos históricos</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-utis-foco-em-privacidade-para-evitar-falhas-em-diagnosticos-historicos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-utis-foco-em-privacidade-para-evitar-falhas-em-diagnosticos-historicos/</guid>
+      <pubDate>Tue, 29 Sep 2026 08:15:27 GMT</pubDate>
+      <description>Nova arquitetura busca garantir que dados de pacientes não sejam esquecidos em monitoramentos críticos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.31763">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Anthropic Atualiza Claude com Modelo Sonnet 5.5 e Melhorias de Usabilidade</title>
       <link>https://pulsodaia.com.br/feed/anthropic-atualiza-claude-com-modelo-sonnet-5-5-e-melhorias-de-usabilidade/</link>
@@ -430,33 +457,6 @@
       <description>O evento de tecnologia destaca sessões focadas em práticas responsáveis para o desenvolvimento de inteligência artificial.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Reduz Preços do Opus 5.5 e Alcança Desempenho Superior</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-reduz-precos-do-opus-5-5-e-alcanca-desempenho-superior/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-reduz-precos-do-opus-5-5-e-alcanca-desempenho-superior/</guid>
-      <pubDate>Tue, 22 Sep 2026 16:43:09 GMT</pubDate>
-      <description>O novo modelo da Anthropic promete mais capacidade a um custo menor, impactando o cenário de IA no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Opus 5.5 Chega com Contexto Ampliado e Otimizações de Custo</title>
-      <link>https://pulsodaia.com.br/feed/claude-opus-5-5-chega-com-contexto-ampliado-e-otimizacoes-de-custo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-opus-5-5-chega-com-contexto-ampliado-e-otimizacoes-de-custo/</guid>
-      <pubDate>Tue, 22 Sep 2026 16:42:57 GMT</pubDate>
-      <description>Nova versão do modelo da Anthropic eleva a capacidade de processamento e ajusta precificação para desenvolvedores no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.280">Claude Code</source>
-    </item>
-    <item>
-      <title>OpenAI relata avanço matemático com modelo interno treinado por um mês</title>
-      <link>https://pulsodaia.com.br/feed/openai-relata-avanco-matematico-com-modelo-interno-treinado-por-um-mes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-relata-avanco-matematico-com-modelo-interno-treinado-por-um-mes/</guid>
-      <pubDate>Tue, 22 Sep 2026 11:21:21 GMT</pubDate>
-      <description>Avanço em problemas de matemática de longa data levanta questões sobre o ritmo de pesquisa da empresa e a supervisão externa.</description>
-      <category>RESEARCH</category>
-      <source url="https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training/">The Decoder</source>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2609.31784v1",
+  "title": "Witeness Overlap: Directional Provenance Inside Open-Weight Model Families",
+  "url": "https://arxiv.org/abs/2609.31784",
+  "summary": "arXiv:2609.31784v1 Announce Type: new Abstract: Open-weight models are often released, fine-tuned, aligned, merged, and re-released, making provenance audits ask not only whether checkpoints are related, but also which checkpoint came first. Many existing model-provenance methods are designed for a base-known audit setting: given a victim or source model, they test whether a suspect model is related to it. Although these audits are framed as source-to-suspect tests, their underlying evidence is often symmetric, relying on representation similarity, weight similarity, behavioral fingerprints, or correlation statistics. Symmetric pairwise comparisons can detect relatedness, but they cannot by themselves orient relationship between checkpoints A and B. We therefore introduce a local geometric comparison: instead of comparing two checkpoints directly, we add a third same-family checkpoint as a witness and compare the geometry around each candidate endpoint. Direction is inferred by asking ",
+  "published_at": "Tue, 29 Sep 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Rastreabilidade em Modelos de IA Abertos: Novas Ferramentas para Auditar Linhagens",
+  "subtitle": "Um estudo acadêmico propõe métodos para verificar a origem e a evolução de modelos de IA de código aberto, crucial para a integridade no mercado brasileiro.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "A proliferação de modelos de IA de código aberto, com frequentes atualizações e fusões, levanta desafios na auditoria de sua proveniência. Um novo artigo no arXiv introduz abordagens para determinar não apenas a relação entre checkpoints, mas também a ordem temporal de sua criação.",
+  "body_markdown": "## O que aconteceu\n\nA comunidade de inteligência artificial tem visto um fluxo contínuo de modelos de peso aberto (open-weight models) sendo lançados, adaptados e recombinados. Esse ciclo dinâmico, embora promova a inovação, complica a tarefa de auditar a origem e a evolução desses artefatos. Métodos existentes para verificar a proveniência de modelos geralmente se concentram em identificar se um modelo \"suspeito\" deriva de um modelo \"fonte\" conhecido. No entanto, a maioria dessas técnicas se baseia em comparações simétricas, como similaridade de representação ou de pesos, que detectam a relação, mas não estabelecem uma direção clara. O estudo \"Witeness Overlap: Directional Provenance Inside Open-Weight Model Families\", disponível no [arXiv](https://arxiv.org/abs/2609.31784), propõe uma solução para essa lacuna, introduzindo uma abordagem geométrica local para orientar a relação entre diferentes versões de modelos.\n\n## Por que importa\n\nPara o mercado brasileiro de IA, a capacidade de rastrear a origem e a linhagem de modelos é fundamental. A transparência na proveniência fortalece a confiança em aplicações de IA, especialmente em setores críticos como finanças, saúde e governo. A possibilidade de auditar se um modelo foi derivado de outro, e em qual ordem, permite identificar potenciais vieses introduzidos em etapas específicas de treinamento ou ajuste fino, e verificar se o modelo utilizado em uma solução comercial está em conformidade com licenças de uso e com as melhores práticas de segurança. A falta de clareza na proveniência pode levar a riscos de segurança, problemas de conformidade regulatória e dificuldades na depuração de erros.\n\n## O que esperar\n\nA pesquisa aponta para um futuro onde a auditoria de modelos de IA será mais robusta e precisa. Ao permitir a determinação direcional da proveniência, as novas técnicas oferecem um caminho para entender melhor como os modelos evoluem. Isso pode auxiliar desenvolvedores e pesquisadores a identificar quais modificações específicas levaram a determinadas capacidades ou falhas em um modelo. Para empresas brasileiras que utilizam ou desenvolvem soluções baseadas em IA, essa clareza é um passo importante para a adoção responsável e segura da tecnologia. Espera-se que essas metodologias sejam incorporadas em ferramentas de auditoria e validação de modelos, facilitando a conformidade com futuras regulamentações e promovendo um desenvolvimento de IA mais confiável. O estudo [Witeness Overlap](https://arxiv.org/abs/2609.31784) oferece uma base teórica e prática para essa evolução.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A comunidade de inteligência artificial tem visto um fluxo contínuo de modelos de peso aberto (open-weight models) sendo lançados, adaptados e recombinados. Esse ciclo dinâmico, embora promova a inovação, complica a tarefa de auditar a origem e a evolução desses artefatos. Métodos existentes para verificar a proveniência de modelos geralmente se concentram em identificar se um modelo \"suspeito\" deriva de um modelo \"fonte\" conhecido. No entanto, a maioria dessas técnicas se baseia em comparações simétricas, como similaridade de representação ou de pesos, que detectam a relação, mas não estabelecem uma direção clara. O estudo \"Witeness Overlap: Directional Provenance Inside Open-Weight Model Families\", disponível no <a href=\"https://arxiv.org/abs/2609.31784\" target=\"_blank\" rel=\"external noopener\">arXiv</a>, propõe uma solução para essa lacuna, introduzindo uma abordagem geométrica local para orientar a relação entre diferentes versões de modelos.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de IA, a capacidade de rastrear a origem e a linhagem de modelos é fundamental. A transparência na proveniência fortalece a confiança em aplicações de IA, especialmente em setores críticos como finanças, saúde e governo. A possibilidade de auditar se um modelo foi derivado de outro, e em qual ordem, permite identificar potenciais vieses introduzidos em etapas específicas de treinamento ou ajuste fino, e verificar se o modelo utilizado em uma solução comercial está em conformidade com licenças de uso e com as melhores práticas de segurança. A falta de clareza na proveniência pode levar a riscos de segurança, problemas de conformidade regulatória e dificuldades na depuração de erros.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa aponta para um futuro onde a auditoria de modelos de IA será mais robusta e precisa. Ao permitir a determinação direcional da proveniência, as novas técnicas oferecem um caminho para entender melhor como os modelos evoluem. Isso pode auxiliar desenvolvedores e pesquisadores a identificar quais modificações específicas levaram a determinadas capacidades ou falhas em um modelo. Para empresas brasileiras que utilizam ou desenvolvem soluções baseadas em IA, essa clareza é um passo importante para a adoção responsável e segura da tecnologia. Espera-se que essas metodologias sejam incorporadas em ferramentas de auditoria e validação de modelos, facilitando a conformidade com futuras regulamentações e promovendo um desenvolvimento de IA mais confiável. O estudo <a href=\"https://arxiv.org/abs/2609.31784\" target=\"_blank\" rel=\"external noopener\">Witeness Overlap</a> oferece uma base teórica e prática para essa evolução.</p>",
+  "tags": [
+    "proveniencia",
+    "modelos abertos",
+    "auditoria de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "proveniencia de modelos",
+    "modelos de peso aberto",
+    "auditoria de IA",
+    "rastreabilidade",
+    "modelos de machine learning"
+  ],
+  "meta_description_seo": "Estudo propõe métodos para rastrear a origem e evolução de modelos de IA de código aberto, crucial para auditorias confiáveis no Brasil.",
+  "faq": [
+    {
+      "q": "O que é proveniência de modelos de IA?",
+      "a": "Proveniência de modelos de IA refere-se à documentação e rastreabilidade de sua origem, incluindo os dados utilizados no treinamento, as modificações aplicadas e a ordem em que diferentes versões foram criadas."
+    },
+    {
+      "q": "Por que a proveniência é importante para modelos de IA abertos?",
+      "a": "A proveniência é vital para garantir a confiança, a segurança e a conformidade. Permite auditar a origem de vieses, verificar a origem de vulnerabilidades e assegurar que o modelo atende aos requisitos legais e éticos."
+    },
+    {
+      "q": "Quais são as limitações dos métodos atuais de auditoria de proveniência?",
+      "a": "Métodos atuais frequentemente se baseiam em comparações simétricas que detectam a relação entre modelos, mas não determinam qual versão veio primeiro, dificultando a auditoria direcional da evolução do modelo."
+    }
+  ],
+  "written_at": "2026-09-29T08:15:37.606Z",
+  "slug": "rastreabilidade-em-modelos-de-ia-abertos-novas-ferramentas-para-auditar-linhagen",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-09-28T20:28:31.599Z",
+  "generated_at": "2026-09-29T08:15:47.505Z",
   "articles": [
+    {
+      "slug": "ia-simplifica-simulacoes-complexas-de-materiais-metalicos",
+      "headline": "IA Simplifica Simulações Complexas de Materiais Metálicos",
+      "subtitle": "Uma nova ferramenta baseada em LLM promete agilizar a pesquisa em plasticidade de cristais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.31790",
+      "category": "research",
+      "tags": [
+        "ia",
+        "simulacao",
+        "materiais"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 29 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-29T08:15:47.393Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "rastreabilidade-em-modelos-de-ia-abertos-novas-ferramentas-para-auditar-linhagen",
+      "headline": "Rastreabilidade em Modelos de IA Abertos: Novas Ferramentas para Auditar Linhagens",
+      "subtitle": "Um estudo acadêmico propõe métodos para verificar a origem e a evolução de modelos de IA de código aberto, crucial para a integridade no mercado brasileiro.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.31784",
+      "category": "research",
+      "tags": [
+        "proveniencia",
+        "modelos abertos",
+        "auditoria de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 29 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-29T08:15:37.606Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-em-utis-foco-em-privacidade-para-evitar-falhas-em-diagnosticos-historicos",
+      "headline": "IA em UTIs: Foco em privacidade para evitar falhas em diagnósticos históricos",
+      "subtitle": "Nova arquitetura busca garantir que dados de pacientes não sejam esquecidos em monitoramentos críticos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.31763",
+      "category": "research",
+      "tags": [
+        "ia em saude",
+        "privacidade de dados",
+        "suporte a decisao clinica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 29 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-29T08:15:27.378Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "anthropic-atualiza-claude-com-modelo-sonnet-5-5-e-melhorias-de-usabilidade",
       "headline": "Anthropic Atualiza Claude com Modelo Sonnet 5.5 e Melhorias de Usabilidade",
