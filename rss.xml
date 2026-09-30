@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 30 Sep 2026 05:14:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:26:58 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google Paga Pouco a Publicadores por Conteúdo em Respostas de IA</title>
+      <link>https://pulsodaia.com.br/feed/google-paga-pouco-a-publicadores-por-conteudo-em-respostas-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-paga-pouco-a-publicadores-por-conteudo-em-respostas-de-ia/</guid>
+      <pubDate>Wed, 30 Sep 2026 12:21:13 GMT</pubDate>
+      <description>A remuneração por material usado em recursos como AI Overviews e Gemini gera descontentamento no setor.</description>
+      <category>MERCADO</category>
+      <source url="https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/">The Decoder</source>
+    </item>
+    <item>
+      <title>Modelos de IA chineses demonstram habilidade preocupante em criar exploits cibernéticos</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-ia-chineses-demonstram-habilidade-preocupante-em-criar-exploits-ciber/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-chineses-demonstram-habilidade-preocupante-em-criar-exploits-ciber/</guid>
+      <pubDate>Wed, 30 Sep 2026 12:21:02 GMT</pubDate>
+      <description>Pesquisa da Anthropic revela que o GLM-5.3 da Zhipu se aproxima de modelos de ponta em tarefas de exploração de segurança.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/">The Decoder</source>
+    </item>
+    <item>
+      <title>Airbnb aposta em IA para busca e conecta viajantes com serviços locais</title>
+      <link>https://pulsodaia.com.br/feed/airbnb-aposta-em-ia-para-busca-e-conecta-viajantes-com-servicos-locais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/airbnb-aposta-em-ia-para-busca-e-conecta-viajantes-com-servicos-locais/</guid>
+      <pubDate>Wed, 30 Sep 2026 12:20:51 GMT</pubDate>
+      <description>A plataforma busca otimizar a experiência do usuário com inteligência artificial e expandir seu portfólio de conveniências.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA: Fine-tuning de modelos pode dispensar texto legível por humanos</title>
       <link>https://pulsodaia.com.br/feed/ia-fine-tuning-de-modelos-pode-dispensar-texto-legivel-por-humanos/</link>
@@ -430,33 +457,6 @@
       <description>Plataforma de IA da Google expande para novas regiões e integra mais clientes.</description>
       <category>LANCAMENTO</category>
       <source url="https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-expansion/">Google AI</source>
-    </item>
-    <item>
-      <title>Ema capta US$ 77 milhões em rodada que evidencia o avanço da IA no software corporativo</title>
-      <link>https://pulsodaia.com.br/feed/ema-capta-us-77-milhoes-em-rodada-que-evidencia-o-avanco-da-ia-no-software-corpo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ema-capta-us-77-milhoes-em-rodada-que-evidencia-o-avanco-da-ia-no-software-corpo/</guid>
-      <pubDate>Wed, 23 Sep 2026 13:32:49 GMT</pubDate>
-      <description>A startup de IA para gestão de dados corporativos consolida sua posição com novo aporte, sinalizando a crescente adoção da tecnologia em grandes empresas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Spotify Libera Controle de Algoritmo de Recomendações para Usuários nos EUA</title>
-      <link>https://pulsodaia.com.br/feed/spotify-libera-controle-de-algoritmo-de-recomendacoes-para-usuarios-nos-eua/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/spotify-libera-controle-de-algoritmo-de-recomendacoes-para-usuarios-nos-eua/</guid>
-      <pubDate>Wed, 23 Sep 2026 13:32:38 GMT</pubDate>
-      <description>Ferramenta "Taste Profile" permite ajuste fino das sugestões musicais via linguagem natural.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>NVIDIA Nemotron 3 Avança Diarização de Voz para Identificação Precisa de Falantes</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-nemotron-3-avanca-diarizacao-de-voz-para-identificacao-precisa-de-falante/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-nemotron-3-avanca-diarizacao-de-voz-para-identificacao-precisa-de-falante/</guid>
-      <pubDate>Wed, 23 Sep 2026 13:32:28 GMT</pubDate>
-      <description>A nova tecnologia da NVIDIA promete refinar a análise de áudio, com potencial impacto na acessibilidade e em ferramentas de produtividade no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/nemotron-diarization">Hugging Face</source>
     </item>
   </channel>
 </rss>

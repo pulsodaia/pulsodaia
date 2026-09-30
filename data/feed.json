@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-09-30T05:08:11.351Z",
+  "generated_at": "2026-09-30T12:21:14.945Z",
   "articles": [
+    {
+      "slug": "google-paga-pouco-a-publicadores-por-conteudo-em-respostas-de-ia",
+      "headline": "Google Paga Pouco a Publicadores por Conteúdo em Respostas de IA",
+      "subtitle": "A remuneração por material usado em recursos como AI Overviews e Gemini gera descontentamento no setor.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+      "category": "mercado",
+      "tags": [
+        "google",
+        "inteligência artificial",
+        "publicadores",
+        "remuneração"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 30 Sep 2026 10:17:15 +0000",
+      "written_at": "2026-09-30T12:21:13.401Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-ia-chineses-demonstram-habilidade-preocupante-em-criar-exploits-ciber",
+      "headline": "Modelos de IA chineses demonstram habilidade preocupante em criar exploits cibernéticos",
+      "subtitle": "Pesquisa da Anthropic revela que o GLM-5.3 da Zhipu se aproxima de modelos de ponta em tarefas de exploração de segurança.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "ciberseguranca",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 30 Sep 2026 11:05:05 +0000",
+      "written_at": "2026-09-30T12:21:02.549Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "airbnb-aposta-em-ia-para-busca-e-conecta-viajantes-com-servicos-locais",
+      "headline": "Airbnb aposta em IA para busca e conecta viajantes com serviços locais",
+      "subtitle": "A plataforma busca otimizar a experiência do usuário com inteligência artificial e expandir seu portfólio de conveniências.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+      "category": "mercado",
+      "tags": [
+        "airbnb",
+        "inteligência artificial",
+        "busca",
+        "serviços locais"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 30 Sep 2026 12:00:00 +0000",
+      "written_at": "2026-09-30T12:20:51.037Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "ia-fine-tuning-de-modelos-pode-dispensar-texto-legivel-por-humanos",
       "headline": "IA: Fine-tuning de modelos pode dispensar texto legível por humanos",
