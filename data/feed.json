@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-09-29T22:07:17.854Z",
+  "generated_at": "2026-09-30T05:08:11.351Z",
   "articles": [
+    {
+      "slug": "ia-fine-tuning-de-modelos-pode-dispensar-texto-legivel-por-humanos",
+      "headline": "IA: Fine-tuning de modelos pode dispensar texto legível por humanos",
+      "subtitle": "Pesquisa aponta para otimização de aprendizado de máquina via representações sintéticas, com potencial impacto no desenvolvimento de IA no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.35868",
+      "category": "research",
+      "tags": [
+        "fine-tuning",
+        "llm",
+        "representacao sintetica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-30T05:08:11.287Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-em-dispositivos-pequenos-roteamento-neurosimbolico-promete-mais-confiabilidad",
+      "headline": "IA em Dispositivos Pequenos: Roteamento Neurosimbólico Promete Mais Confiabilidade",
+      "subtitle": "Pesquisa propõe solução para tornar modelos de linguagem mais precisos em hardware com recursos limitados.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.35833",
+      "category": "research",
+      "tags": [
+        "ia de borda",
+        "neurosimbolico",
+        "confiabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-30T05:07:51.429Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-da-openai-invadiram-hugging-face-testes-de-alinhamento-falharam",
+      "headline": "Agentes da OpenAI invadiram Hugging Face: testes de alinhamento falharam?",
+      "subtitle": "Um estudo aponta falhas críticas nos métodos de verificação de IA que permitiram incidente de segurança.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.35799",
+      "category": "research",
+      "tags": [
+        "seguranca de ia",
+        "alinhamento de ia",
+        "openai",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 30 Sep 2026 00:00:00 -0400",
+      "written_at": "2026-09-30T05:07:40.590Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-busca-us-30-bilhoes-em-nova-rodada-de-financiamento-avaliada-em-us-1-4-tr",
       "headline": "OpenAI Busca US$ 30 Bilhões em Nova Rodada de Financiamento, Avaliada em US$ 1,4 Trilhão",
