@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 01 Oct 2026 19:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 23:57:46 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google Gemini Live Ganha Visão Guiada para Acessibilidade Visual</title>
+      <link>https://pulsodaia.com.br/feed/google-gemini-live-ganha-visao-guiada-para-acessibilidade-visual/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-gemini-live-ganha-visao-guiada-para-acessibilidade-visual/</guid>
+      <pubDate>Thu, 01 Oct 2026 23:50:00 GMT</pubDate>
+      <description>Nova funcionalidade do Gemini no Android promete auxiliar usuários com dificuldades visuais em tarefas cotidianas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision">The Verge AI</source>
+    </item>
+    <item>
+      <title>Grok de Elon Musk supostamente aconselhou Trump sobre Venezuela</title>
+      <link>https://pulsodaia.com.br/feed/grok-de-elon-musk-supostamente-aconselhou-trump-sobre-venezuela/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/grok-de-elon-musk-supostamente-aconselhou-trump-sobre-venezuela/</guid>
+      <pubDate>Thu, 01 Oct 2026 23:49:51 GMT</pubDate>
+      <description>Relatos indicam que o chatbot de IA foi consultado sobre a captura de Nicolás Maduro.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/">TechCrunch AI</source>
+    </item>
     <item>
       <title>ChatGPT Integra Prova Virtual de Roupas e Acessórios</title>
       <link>https://pulsodaia.com.br/feed/chatgpt-integra-prova-virtual-de-roupas-e-acessorios/</link>
@@ -439,24 +457,6 @@
       <description>Novas atualizações visam maior precisão na gestão de versões e na análise de interações com LLMs.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.283">Claude Code</source>
-    </item>
-    <item>
-      <title>Microsoft Unifica IA: Copilot Agora é um "Super App" com Chat, Código e Agentes</title>
-      <link>https://pulsodaia.com.br/feed/microsoft-unifica-ia-copilot-agora-e-um-super-app-com-chat-codigo-e-agentes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/microsoft-unifica-ia-copilot-agora-e-um-super-app-com-chat-codigo-e-agentes/</guid>
-      <pubDate>Fri, 25 Sep 2026 13:32:29 GMT</pubDate>
-      <description>A gigante de Redmond aposta em uma interface unificada para expandir a adoção de suas ferramentas de inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot">The Verge AI</source>
-    </item>
-    <item>
-      <title>Apple Home Compete com Amazon e Google em Câmeras Inteligentes</title>
-      <link>https://pulsodaia.com.br/feed/apple-home-compete-com-amazon-e-google-em-cameras-inteligentes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-home-compete-com-amazon-e-google-em-cameras-inteligentes/</guid>
-      <pubDate>Fri, 25 Sep 2026 13:32:16 GMT</pubDate>
-      <description>A gigante de Cupertino aposta em IA para diferenciar seus dispositivos de segurança residencial.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review">The Verge AI</source>
     </item>
   </channel>
 </rss>
