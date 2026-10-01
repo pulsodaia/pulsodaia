@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-09-30T23:37:52.616Z",
+  "generated_at": "2026-10-01T05:22:36.257Z",
   "articles": [
+    {
+      "slug": "arex-2-agentes-de-ia-aprendem-a-se-autoaperfeicoar-em-tarefas-complexas",
+      "headline": "AREX-2: Agentes de IA aprendem a se autoaperfeiçoar em tarefas complexas",
+      "subtitle": "Nova abordagem busca aprimorar a capacidade de modelos de linguagem evoluírem suas próprias soluções.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.38288",
+      "category": "research",
+      "tags": [
+        "ia",
+        "aprendizado de maquina",
+        "agentes autonomos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 01 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-01T05:22:36.204Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-para-ocr-nova-abordagem-aumenta-precisao-na-transcricao-de-textos-em-imagens",
+      "headline": "IA para OCR: Nova Abordagem Aumenta Precisão na Transcrição de Textos em Imagens",
+      "subtitle": "Pesquisadores propõem método que adapta a orientação da IA durante o aprendizado, evitando distorções linguísticas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2609.38282",
+      "category": "research",
+      "tags": [
+        "ocr",
+        "inteligência artificial",
+        "processamento de imagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 01 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-01T05:22:25.233Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "google-deepmind-testa-marca-d-agua-em-proteinas-criadas-por-ia",
       "headline": "Google DeepMind Testa Marca d'Água em Proteínas Criadas por IA",

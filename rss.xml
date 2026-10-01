@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 30 Sep 2026 23:42:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 05:27:44 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>AREX-2: Agentes de IA aprendem a se autoaperfeiçoar em tarefas complexas</title>
+      <link>https://pulsodaia.com.br/feed/arex-2-agentes-de-ia-aprendem-a-se-autoaperfeicoar-em-tarefas-complexas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/arex-2-agentes-de-ia-aprendem-a-se-autoaperfeicoar-em-tarefas-complexas/</guid>
+      <pubDate>Thu, 01 Oct 2026 05:22:36 GMT</pubDate>
+      <description>Nova abordagem busca aprimorar a capacidade de modelos de linguagem evoluírem suas próprias soluções.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.38288">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA para OCR: Nova Abordagem Aumenta Precisão na Transcrição de Textos em Imagens</title>
+      <link>https://pulsodaia.com.br/feed/ia-para-ocr-nova-abordagem-aumenta-precisao-na-transcricao-de-textos-em-imagens/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-ocr-nova-abordagem-aumenta-precisao-na-transcricao-de-textos-em-imagens/</guid>
+      <pubDate>Thu, 01 Oct 2026 05:22:25 GMT</pubDate>
+      <description>Pesquisadores propõem método que adapta a orientação da IA durante o aprendizado, evitando distorções linguísticas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2609.38282">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Google DeepMind Testa Marca d'Água em Proteínas Criadas por IA</title>
       <link>https://pulsodaia.com.br/feed/google-deepmind-testa-marca-d-agua-em-proteinas-criadas-por-ia/</link>
@@ -439,24 +457,6 @@
       <description>Pesquisadores propõem método para otimizar o trabalho humano na criação de guias para anotação de dados em larga escala.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2609.26926">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>NVIDIA Acelera Simulação Robótica com Warp e MjWarp</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-acelera-simulacao-robotica-com-warp-e-mjwarp/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-acelera-simulacao-robotica-com-warp-e-mjwarp/</guid>
-      <pubDate>Wed, 23 Sep 2026 22:52:12 GMT</pubDate>
-      <description>Ferramentas da NVIDIA prometem otimizar fluxos de trabalho de aprendizado e simulação para robótica no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Beam Expande Alcance Global e Parcerias Estratégicas</title>
-      <link>https://pulsodaia.com.br/feed/google-beam-expande-alcance-global-e-parcerias-estrategicas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-beam-expande-alcance-global-e-parcerias-estrategicas/</guid>
-      <pubDate>Wed, 23 Sep 2026 22:52:01 GMT</pubDate>
-      <description>Plataforma de IA do Google amplia presença em cinco novos países e firma colaboração com a Industrious.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/">Google AI</source>
     </item>
   </channel>
 </rss>
