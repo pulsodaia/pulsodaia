@@ -1,0 +1,50 @@
+{
+  "id": "https://huggingface.co/blog/allenai/olmocore3",
+  "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+  "url": "https://huggingface.co/blog/allenai/olmocore3",
+  "summary": "",
+  "published_at": "Thu, 01 Oct 2026 15:01:43 GMT",
+  "source_id": "huggingface-blog",
+  "source_name": "Hugging Face",
+  "category": "opensource",
+  "source_type": "blog-oficial",
+  "headline": "Olmo-core 3: Infraestrutura de Treinamento Aberta para Modelos de Linguagem Grandes",
+  "subtitle": "Hugging Face lança ferramenta que visa democratizar o acesso e a escalabilidade no desenvolvimento de MoEs.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Hugging Face anunciou o Olmo-core 3, uma nova infraestrutura de treinamento projetada para facilitar a criação e o escalonamento de Mixture-of-Experts (MoEs). O projeto busca oferecer uma solução aberta e eficiente para pesquisadores e desenvolvedores.",
+  "body_markdown": "## O que aconteceu\n\nA Hugging Face, plataforma central para a comunidade de IA, apresentou o Olmo-core 3. Este sistema de treinamento foi desenvolvido com o objetivo de tornar o desenvolvimento de modelos de linguagem grandes, especificamente os do tipo Mixture-of-Experts (MoEs), mais acessível e escalável. A iniciativa, detalhada em um post no blog oficial da Hugging Face, enfatiza a natureza aberta e colaborativa do projeto. MoEs são arquiteturas que utilizam múltiplos \"especialistas\" (sub-redes neurais) para processar diferentes partes de uma entrada, permitindo maior eficiência e capacidade sem o aumento proporcional de custos computacionais. O Olmo-core 3 visa simplificar o processo complexo de configurar e gerenciar o treinamento desses modelos, abordando desafios de infraestrutura que historicamente limitaram seu uso. O anúncio destaca a importância de ferramentas abertas para o avanço da pesquisa em IA.\n\n## Por que importa\n\nA disponibilização de uma infraestrutura robusta e aberta como o Olmo-core 3 tem implicações significativas para o cenário de IA no Brasil. Atualmente, o desenvolvimento de modelos de linguagem de ponta exige recursos computacionais consideráveis e expertise técnica especializada, barreiras que frequentemente limitam a participação de instituições e empresas brasileiras. Com o Olmo-core 3, espera-se que pesquisadores e desenvolvedores locais possam experimentar e construir modelos MoEs com maior facilidade, impulsionando a inovação e a aplicação dessas tecnologias em setores como saúde, finanças e educação, adaptadas às necessidades e dados específicos do mercado nacional. A democratização do acesso a essas ferramentas pode acelerar a criação de soluções de IA mais competitivas e personalizadas, reduzindo a dependência de modelos desenvolvidos externamente.\n\n## O que esperar\n\nO Olmo-core 3 promete simplificar a complexidade associada ao treinamento de MoEs, tornando a arquitetura mais viável para um público mais amplo. A infraestrutura foi projetada para ser escalável, permitindo que os usuários treinem modelos de tamanhos variados, desde experimentais até de grande escala, dependendo de suas necessidades e recursos. A natureza aberta do projeto incentiva contribuições da comunidade, o que pode levar a melhorias contínuas e à adição de novas funcionalidades. Para o futuro, espera-se que o Olmo-core 3 facilite a pesquisa em novas abordagens para MoEs, explorando otimizações de desempenho e eficiência. A Hugging Face continua a ser um pilar no avanço da IA aberta, e ferramentas como esta são cruciais para manter o progresso acessível. Mais detalhes sobre a arquitetura e seu uso podem ser encontrados na publicação oficial [aqui](https://huggingface.co/blog/allenai/olmocore3).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Hugging Face, plataforma central para a comunidade de IA, apresentou o Olmo-core 3. Este sistema de treinamento foi desenvolvido com o objetivo de tornar o desenvolvimento de modelos de linguagem grandes, especificamente os do tipo Mixture-of-Experts (MoEs), mais acessível e escalável. A iniciativa, detalhada em um post no blog oficial da Hugging Face, enfatiza a natureza aberta e colaborativa do projeto. MoEs são arquiteturas que utilizam múltiplos \"especialistas\" (sub-redes neurais) para processar diferentes partes de uma entrada, permitindo maior eficiência e capacidade sem o aumento proporcional de custos computacionais. O Olmo-core 3 visa simplificar o processo complexo de configurar e gerenciar o treinamento desses modelos, abordando desafios de infraestrutura que historicamente limitaram seu uso. O anúncio destaca a importância de ferramentas abertas para o avanço da pesquisa em IA.</p>\n\n<h2>Por que importa</h2>\n\n<p>A disponibilização de uma infraestrutura robusta e aberta como o Olmo-core 3 tem implicações significativas para o cenário de IA no Brasil. Atualmente, o desenvolvimento de modelos de linguagem de ponta exige recursos computacionais consideráveis e expertise técnica especializada, barreiras que frequentemente limitam a participação de instituições e empresas brasileiras. Com o Olmo-core 3, espera-se que pesquisadores e desenvolvedores locais possam experimentar e construir modelos MoEs com maior facilidade, impulsionando a inovação e a aplicação dessas tecnologias em setores como saúde, finanças e educação, adaptadas às necessidades e dados específicos do mercado nacional. A democratização do acesso a essas ferramentas pode acelerar a criação de soluções de IA mais competitivas e personalizadas, reduzindo a dependência de modelos desenvolvidos externamente.</p>\n\n<h2>O que esperar</h2>\n\n<p>O Olmo-core 3 promete simplificar a complexidade associada ao treinamento de MoEs, tornando a arquitetura mais viável para um público mais amplo. A infraestrutura foi projetada para ser escalável, permitindo que os usuários treinem modelos de tamanhos variados, desde experimentais até de grande escala, dependendo de suas necessidades e recursos. A natureza aberta do projeto incentiva contribuições da comunidade, o que pode levar a melhorias contínuas e à adição de novas funcionalidades. Para o futuro, espera-se que o Olmo-core 3 facilite a pesquisa em novas abordagens para MoEs, explorando otimizações de desempenho e eficiência. A Hugging Face continua a ser um pilar no avanço da IA aberta, e ferramentas como esta são cruciais para manter o progresso acessível. Mais detalhes sobre a arquitetura e seu uso podem ser encontrados na publicação oficial <a href=\"https://huggingface.co/blog/allenai/olmocore3\" target=\"_blank\" rel=\"external noopener\">aqui</a>.</p>",
+  "tags": [
+    "moe",
+    "treinamento",
+    "ia aberta"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Olmo-core 3",
+    "Hugging Face",
+    "Mixture-of-Experts",
+    "treinamento de IA",
+    "modelos de linguagem grandes"
+  ],
+  "meta_description_seo": "Hugging Face lança Olmo-core 3, infraestrutura aberta para treinamento escalável de modelos Mixture-of-Experts (MoEs). Democratiza o acesso à IA avançada.",
+  "faq": [
+    {
+      "q": "O que é o Olmo-core 3?",
+      "a": "Olmo-core 3 é uma infraestrutura de treinamento aberta desenvolvida pela Hugging Face. Ela foi projetada para facilitar a criação e o escalonamento de modelos de linguagem grandes do tipo Mixture-of-Experts (MoEs)."
+    },
+    {
+      "q": "Qual o principal benefício do Olmo-core 3?",
+      "a": "O principal benefício é a democratização do acesso e do desenvolvimento de modelos MoEs. Ele simplifica a complexidade e os requisitos de infraestrutura para treinar esses modelos avançados, tornando-os mais acessíveis a pesquisadores e desenvolvedores."
+    },
+    {
+      "q": "Como o Olmo-core 3 impacta o desenvolvimento de IA no Brasil?",
+      "a": "O Olmo-core 3 pode reduzir barreiras para instituições e empresas brasileiras no desenvolvimento de IA. Isso permite a criação de modelos mais adaptados às necessidades locais e impulsiona a inovação no país."
+    }
+  ],
+  "written_at": "2026-10-01T19:24:12.068Z",
+  "slug": "olmo-core-3-infraestrutura-de-treinamento-aberta-para-modelos-de-linguagem-grand",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/uKnK93gjkKbmJmSx94WO2.png"
+}

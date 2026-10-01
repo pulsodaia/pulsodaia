@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-01T12:54:45.354Z",
+  "generated_at": "2026-10-01T19:24:32.677Z",
   "articles": [
+    {
+      "slug": "chatgpt-integra-prova-virtual-de-roupas-e-acessorios",
+      "headline": "ChatGPT Integra Prova Virtual de Roupas e Acessórios",
+      "subtitle": "A OpenAI expande funcionalidades do ChatGPT para o varejo de moda, permitindo testes virtuais com fotos do usuário.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "moda",
+        "ecommerce"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 01 Oct 2026 19:21:53 +0000",
+      "written_at": "2026-10-01T19:24:32.594Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-2-1-287-expande-capacidade-de-plugins-com-novos-modos-e-monitoramento",
+      "headline": "Claude 2.1.287 Expande Capacidade de Plugins com Novos Modos e Monitoramento",
+      "subtitle": "Anthropic introduz funcionalidades que permitem maior customização e segurança em interações com seu modelo de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "plugins"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-01T18:43:19Z",
+      "written_at": "2026-10-01T19:24:22.276Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "olmo-core-3-infraestrutura-de-treinamento-aberta-para-modelos-de-linguagem-grand",
+      "headline": "Olmo-core 3: Infraestrutura de Treinamento Aberta para Modelos de Linguagem Grandes",
+      "subtitle": "Hugging Face lança ferramenta que visa democratizar o acesso e a escalabilidade no desenvolvimento de MoEs.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/olmocore3",
+      "category": "opensource",
+      "tags": [
+        "moe",
+        "treinamento",
+        "ia aberta"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 01 Oct 2026 15:01:43 GMT",
+      "written_at": "2026-10-01T19:24:12.068Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-falha-em-proteger-modelos-contra-roubo-de-raciocinio-azure-permanece-vuln",
       "headline": "OpenAI Falha em Proteger Modelos Contra Roubo de Raciocínio; Azure Permanece Vulnerável",
