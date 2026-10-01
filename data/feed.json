@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-10-01T05:22:36.257Z",
+  "generated_at": "2026-10-01T12:54:45.354Z",
   "articles": [
+    {
+      "slug": "openai-falha-em-proteger-modelos-contra-roubo-de-raciocinio-azure-permanece-vuln",
+      "headline": "OpenAI Falha em Proteger Modelos Contra Roubo de Raciocínio; Azure Permanece Vulnerável",
+      "subtitle": "Ataque coordenado expõe falhas de segurança em plataformas de nuvem que utilizam a tecnologia da OpenAI.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+      "category": "mercado",
+      "tags": [
+        "segurança de ia",
+        "openai",
+        "azure"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 01 Oct 2026 12:05:49 +0000",
+      "written_at": "2026-10-01T12:54:43.665Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "satlyt-capta-us-8-milhoes-para-levar-ia-a-satelites-com-plataforma-aberta",
+      "headline": "Satlyt Capta US$ 8 Milhões para Levar IA a Satélites com Plataforma Aberta",
+      "subtitle": "A startup quer democratizar o processamento de dados orbitais, competindo com modelos fechados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "category": "mercado",
+      "tags": [
+        "ia espacial",
+        "computação orbital",
+        "satélites"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 01 Oct 2026 12:00:00 +0000",
+      "written_at": "2026-10-01T12:54:32.668Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "arex-2-agentes-de-ia-aprendem-a-se-autoaperfeicoar-em-tarefas-complexas",
       "headline": "AREX-2: Agentes de IA aprendem a se autoaperfeiçoar em tarefas complexas",

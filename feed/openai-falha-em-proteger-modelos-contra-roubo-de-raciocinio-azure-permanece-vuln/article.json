@@ -1,0 +1,50 @@
+{
+  "id": "https://the-decoder.com/?p=40934",
+  "title": "OpenAI says it stopped a campaign to steal its models&#039; reasoning, but the trick still worked on Azure",
+  "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+  "summary": "OpenAI says it stopped a coordinated campaign in which more than 15,000 accounts tried to copy the hidden reasoning of its models. The company ties part of the activity to people connected to Moonshot AI. But researchers found that the same attack kept working on Microsoft Azure for weeks, even against the new GPT-6 Astra. So far, OpenAI's protections don't seem to extend to the cloud platforms that also sell its models. The article OpenAI says it stopped a campaign to steal its models&#039; reasoning, but the trick still worked on Azure appeared first on The Decoder .",
+  "published_at": "Thu, 01 Oct 2026 12:05:49 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "OpenAI Falha em Proteger Modelos Contra Roubo de Raciocínio; Azure Permanece Vulnerável",
+  "subtitle": "Ataque coordenado expõe falhas de segurança em plataformas de nuvem que utilizam a tecnologia da OpenAI.",
+  "eyebrow_category": "ANALISE",
+  "lead": "A OpenAI anunciou ter neutralizado uma campanha em larga escala com mais de 15.000 contas visando extrair o raciocínio interno de seus modelos. Contudo, a vulnerabilidade persistiu em instâncias do Azure, demonstrando que as defesas da OpenAI não se estendem completamente às plataformas de nuvem que distribuem sua tecnologia.",
+  "body_markdown": "## O que aconteceu\n\nA OpenAI declarou publicamente ter encerrado uma operação coordenada que empregou mais de 15.000 contas com o objetivo de replicar o processo de raciocínio de seus modelos de inteligência artificial. A empresa associou parte dessa atividade a indivíduos com ligações à Moonshot AI. O método explorado permitia a cópia do funcionamento interno dos modelos, um tipo de ataque que busca desvendar a \"caixa preta\" da IA. No entanto, o problema se estendeu para além das defesas da OpenAI. Pesquisadores observaram que a mesma técnica de extração de raciocínio continuou a funcionar em instâncias do Microsoft Azure por semanas, afetando inclusive o modelo GPT-6 Astra, uma versão mais recente. Isso sugere que as proteções implementadas pela OpenAI não foram aplicadas ou não foram eficazes em ambientes de nuvem de terceiros que hospedam e vendem acesso aos seus modelos. A notícia original detalha essa falha em [The Decoder](https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/).\n\n## Por que importa\n\nNo Brasil, onde a adoção de IA por empresas de todos os portes é crescente, a segurança dos modelos e a proteção da propriedade intelectual são preocupações centrais. O incidente levanta questões sobre a confiabilidade das plataformas de nuvem que oferecem acesso a modelos de IA avançados. Se a tecnologia da OpenAI, mesmo com proteções, é vulnerável em ambientes externos, isso pode gerar desconfiança em corporações brasileiras que dependem dessas plataformas para seus fluxos de trabalho de IA. A capacidade de extrair o raciocínio de modelos pode levar à replicação não autorizada de tecnologias, minando o investimento em pesquisa e desenvolvimento e potencialmente resultando em concorrência desleal. Para o mercado brasileiro, isso significa um alerta para a necessidade de auditorias rigorosas e garantias contratuais robustas ao contratar serviços de IA baseados em modelos de terceiros.\n\n## O que esperar\n\nA OpenAI, ao admitir a falha, provavelmente intensificará seus esforços para garantir que suas proteções sejam aplicadas de forma consistente em todas as plataformas que utilizam sua tecnologia. Espera-se um aprimoramento nas camadas de segurança que monitoram e previnem a extração de dados e raciocínio. Para os usuários do Azure, a Microsoft precisará investigar e implementar correções urgentes para garantir a integridade dos modelos hospedados em sua infraestrutura. A longo prazo, este evento pode catalisar um debate mais amplo sobre a padronização de segurança em serviços de IA e a responsabilidade compartilhada entre criadores de modelos e provedores de nuvem. A indústria de IA, em geral, pode ver um aumento na demanda por modelos \"open-source\" com auditorias de segurança transparentes ou, alternativamente, por soluções de IA \"on-premise\" para empresas com requisitos de segurança máxima. Mais detalhes sobre a situação podem ser encontrados em [The Decoder](https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A OpenAI declarou publicamente ter encerrado uma operação coordenada que empregou mais de 15.000 contas com o objetivo de replicar o processo de raciocínio de seus modelos de inteligência artificial. A empresa associou parte dessa atividade a indivíduos com ligações à Moonshot AI. O método explorado permitia a cópia do funcionamento interno dos modelos, um tipo de ataque que busca desvendar a \"caixa preta\" da IA. No entanto, o problema se estendeu para além das defesas da OpenAI. Pesquisadores observaram que a mesma técnica de extração de raciocínio continuou a funcionar em instâncias do Microsoft Azure por semanas, afetando inclusive o modelo GPT-6 Astra, uma versão mais recente. Isso sugere que as proteções implementadas pela OpenAI não foram aplicadas ou não foram eficazes em ambientes de nuvem de terceiros que hospedam e vendem acesso aos seus modelos. A notícia original detalha essa falha em <a href=\"https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, onde a adoção de IA por empresas de todos os portes é crescente, a segurança dos modelos e a proteção da propriedade intelectual são preocupações centrais. O incidente levanta questões sobre a confiabilidade das plataformas de nuvem que oferecem acesso a modelos de IA avançados. Se a tecnologia da OpenAI, mesmo com proteções, é vulnerável em ambientes externos, isso pode gerar desconfiança em corporações brasileiras que dependem dessas plataformas para seus fluxos de trabalho de IA. A capacidade de extrair o raciocínio de modelos pode levar à replicação não autorizada de tecnologias, minando o investimento em pesquisa e desenvolvimento e potencialmente resultando em concorrência desleal. Para o mercado brasileiro, isso significa um alerta para a necessidade de auditorias rigorosas e garantias contratuais robustas ao contratar serviços de IA baseados em modelos de terceiros.</p>\n\n<h2>O que esperar</h2>\n\n<p>A OpenAI, ao admitir a falha, provavelmente intensificará seus esforços para garantir que suas proteções sejam aplicadas de forma consistente em todas as plataformas que utilizam sua tecnologia. Espera-se um aprimoramento nas camadas de segurança que monitoram e previnem a extração de dados e raciocínio. Para os usuários do Azure, a Microsoft precisará investigar e implementar correções urgentes para garantir a integridade dos modelos hospedados em sua infraestrutura. A longo prazo, este evento pode catalisar um debate mais amplo sobre a padronização de segurança em serviços de IA e a responsabilidade compartilhada entre criadores de modelos e provedores de nuvem. A indústria de IA, em geral, pode ver um aumento na demanda por modelos \"open-source\" com auditorias de segurança transparentes ou, alternativamente, por soluções de IA \"on-premise\" para empresas com requisitos de segurança máxima. Mais detalhes sobre a situação podem ser encontrados em <a href=\"https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>.</p>",
+  "tags": [
+    "segurança de ia",
+    "openai",
+    "azure"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "segurança de IA",
+    "openai",
+    "azure",
+    "roubo de modelos",
+    "extração de raciocínio"
+  ],
+  "meta_description_seo": "OpenAI falha em proteger modelos de IA contra roubo de raciocínio; Azure permanece vulnerável. Entenda o impacto para empresas no Brasil.",
+  "faq": [
+    {
+      "q": "O que a OpenAI fez para impedir o roubo de seus modelos?",
+      "a": "A OpenAI informou ter interrompido uma campanha coordenada que utilizava mais de 15.000 contas para tentar extrair o raciocínio interno de seus modelos de IA."
+    },
+    {
+      "q": "Por que o Azure continuou vulnerável mesmo após a ação da OpenAI?",
+      "a": "A falha sugere que as proteções implementadas pela OpenAI não foram completamente eficazes ou estendidas às instâncias do Azure, permitindo que o ataque persistisse."
+    },
+    {
+      "q": "Qual o impacto disso para empresas que usam IA no Brasil?",
+      "a": "O incidente levanta preocupações sobre a segurança dos modelos de IA em plataformas de nuvem, podendo afetar a confiança de empresas brasileiras na segurança de suas implementações de IA."
+    }
+  ],
+  "written_at": "2026-10-01T12:54:43.665Z",
+  "slug": "openai-falha-em-proteger-modelos-contra-roubo-de-raciocinio-azure-permanece-vuln",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/09/openai_gpt_6_stars_astra.png"
+}
