@@ -1,0 +1,52 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.288",
+  "title": "v2.1.288",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+  "summary": "<h2>What's changed</h2> <ul> <li>Added <code>$.ui.selection()</code> for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row</li> <li>Added a built-in <code>gh api</code> to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal</li> <li>Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images</li> <li>Added a re-authenticate prompt when an MCP server asks for more OAuth scope during a tool call</li> <li>Added <code>--max-findings <n>|all</code> to /code-review to report more or fewer findings than the usual limit; the choice is reused until you pass <code>--max-findings default</code></li> <li>Added Ctrl+F to find a session by name and Alt+↑/↓ to jump between groups in the agents view; both, and rename, can be rebound in keybindings.j",
+  "published_at": "2026-10-02T20:19:57Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code 2.1.288 Refina Interatividade e Segurança em Sessões de Código",
+  "subtitle": "Atualização da Anthropic foca em usabilidade e robustez para desenvolvedores que utilizam IA na codificação.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão 2.1.288 do Claude Code, introduzindo melhorias significativas na interação do usuário com o ambiente de desenvolvimento. As novidades incluem a recuperação de prompts apagados e a gestão de permissões de acesso a ferramentas.",
+  "body_markdown": "## O que aconteceu\n\nA atualização 2.1.288 do Claude Code, detalhada em seu [repositório no GitHub](https://github.com/anthropics/claude-code/releases/tag/v2.1.288), introduz funcionalidades que aprimoram a experiência do desenvolvedor. Uma adição notável é o `$.ui.selection()`, que permite aos mods acessar o texto previamente selecionado pelo usuário em modo de tela cheia. Essa função também retorna a linha de transcrição completa quando a seleção se restringe a uma única linha.\n\nPara sessões em nuvem, a Anthropic integrou um comando `gh api` nativo, especialmente útil em ambientes que não possuem a GitHub CLI instalada. Houve também correções no envio de caracteres de controle para o terminal, garantindo que nomes de arquivos, filtros jq ou erros do GitHub sejam processados corretamente.\n\nA usabilidade foi um ponto chave, com a implementação de recuperação de prompts. Agora, ao pressionar a tecla \"Para Cima\" em um prompt vazio, o rascunho anterior é restaurado, incluindo textos e imagens colados. Em termos de segurança e integração, a ferramenta exibe um prompt de reautenticação caso um servidor MCP solicite escopos OAuth adicionais durante uma chamada de ferramenta, garantindo maior controle sobre as permissões.\n\nAdicionalmente, o comando `/code-review` recebeu o parâmetro `--max-findings <n>|all`, permitindo definir o número de descobertas a serem reportadas, superando o limite padrão. Essa configuração é persistente para uso futuro.\n\n## Por que importa\n\nEssas melhorias impactam diretamente a produtividade e a segurança no uso de modelos de linguagem grandes para tarefas de codificação. A capacidade de recuperar prompts perdidos reduz a frustração e o retrabalho, enquanto a integração mais robusta com ferramentas de linha de comando e APIs de versionamento de código simplifica fluxos de trabalho complexos.\n\nNo contexto brasileiro, onde a adoção de ferramentas de IA para desenvolvimento tem crescido, essas atualizações facilitam a adoção por equipes que buscam otimizar seus processos de desenvolvimento de software. A gestão de permissões mais granular, com a reautenticação em chamadas de ferramentas, é crucial para empresas que precisam manter altos padrões de segurança e conformidade. A flexibilidade no `/code-review` também permite que equipes adaptem a profundidade das análises de código às suas necessidades específicas.\n\n## O que esperar\n\nA Anthropic demonstra um compromisso contínuo em refinar a interação entre humanos e modelos de IA em ambientes de desenvolvimento. A tendência aponta para uma integração cada vez mais profunda e intuitiva, onde a IA não apenas auxilia na escrita de código, mas também na gestão do próprio ambiente de desenvolvimento.\n\nA funcionalidade de recuperação de prompts pode inspirar outras ferramentas a implementarem mecanismos similares de \"desfazer\" para interações com LLMs. A integração de comandos nativos, como o `gh api`, sugere um futuro onde as IAs se tornam mais autônomas na interação com o ecossistema de ferramentas de desenvolvimento. A evolução do `/code-review` com controle de quantidade de achados é um passo em direção a análises mais customizáveis e eficientes. Para mais detalhes sobre as funcionalidades, consulte o [changelog oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.288).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A atualização 2.1.288 do Claude Code, detalhada em seu <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.288\" target=\"_blank\" rel=\"external noopener\">repositório no GitHub</a>, introduz funcionalidades que aprimoram a experiência do desenvolvedor. Uma adição notável é o <code>$.ui.selection()</code>, que permite aos mods acessar o texto previamente selecionado pelo usuário em modo de tela cheia. Essa função também retorna a linha de transcrição completa quando a seleção se restringe a uma única linha.</p>\n\n<p>Para sessões em nuvem, a Anthropic integrou um comando <code>gh api</code> nativo, especialmente útil em ambientes que não possuem a GitHub CLI instalada. Houve também correções no envio de caracteres de controle para o terminal, garantindo que nomes de arquivos, filtros jq ou erros do GitHub sejam processados corretamente.</p>\n\n<p>A usabilidade foi um ponto chave, com a implementação de recuperação de prompts. Agora, ao pressionar a tecla \"Para Cima\" em um prompt vazio, o rascunho anterior é restaurado, incluindo textos e imagens colados. Em termos de segurança e integração, a ferramenta exibe um prompt de reautenticação caso um servidor MCP solicite escopos OAuth adicionais durante uma chamada de ferramenta, garantindo maior controle sobre as permissões.</p>\n\n<p>Adicionalmente, o comando <code>/code-review</code> recebeu o parâmetro <code>--max-findings <n>|all</code>, permitindo definir o número de descobertas a serem reportadas, superando o limite padrão. Essa configuração é persistente para uso futuro.</p>\n\n<h2>Por que importa</h2>\n\n<p>Essas melhorias impactam diretamente a produtividade e a segurança no uso de modelos de linguagem grandes para tarefas de codificação. A capacidade de recuperar prompts perdidos reduz a frustração e o retrabalho, enquanto a integração mais robusta com ferramentas de linha de comando e APIs de versionamento de código simplifica fluxos de trabalho complexos.</p>\n\n<p>No contexto brasileiro, onde a adoção de ferramentas de IA para desenvolvimento tem crescido, essas atualizações facilitam a adoção por equipes que buscam otimizar seus processos de desenvolvimento de software. A gestão de permissões mais granular, com a reautenticação em chamadas de ferramentas, é crucial para empresas que precisam manter altos padrões de segurança e conformidade. A flexibilidade no <code>/code-review</code> também permite que equipes adaptem a profundidade das análises de código às suas necessidades específicas.</p>\n\n<h2>O que esperar</h2>\n\n<p>A Anthropic demonstra um compromisso contínuo em refinar a interação entre humanos e modelos de IA em ambientes de desenvolvimento. A tendência aponta para uma integração cada vez mais profunda e intuitiva, onde a IA não apenas auxilia na escrita de código, mas também na gestão do próprio ambiente de desenvolvimento.</p>\n\n<p>A funcionalidade de recuperação de prompts pode inspirar outras ferramentas a implementarem mecanismos similares de \"desfazer\" para interações com LLMs. A integração de comandos nativos, como o <code>gh api</code>, sugere um futuro onde as IAs se tornam mais autônomas na interação com o ecossistema de ferramentas de desenvolvimento. A evolução do <code>/code-review</code> com controle de quantidade de achados é um passo em direção a análises mais customizáveis e eficientes. Para mais detalhes sobre as funcionalidades, consulte o <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.288\" target=\"_blank\" rel=\"external noopener\">changelog oficial</a>.</p>",
+  "tags": [
+    "claude",
+    "desenvolvimento",
+    "ia",
+    "anthropic"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "IA para desenvolvimento",
+    "código",
+    "GitHub CLI",
+    "prompt recovery"
+  ],
+  "meta_description_seo": "Claude Code 2.1.288: Novidades em interatividade, recuperação de prompts e segurança para desenvolvedores de IA.",
+  "faq": [
+    {
+      "q": "Quais as principais novidades do Claude Code 2.1.288?",
+      "a": "A atualização traz a capacidade de recuperar prompts apagados, acesso ao texto selecionado pelo usuário e melhorias na integração com ferramentas como a GitHub CLI."
+    },
+    {
+      "q": "Como o Claude Code 2.1.288 melhora a segurança?",
+      "a": "Implementa um prompt de reautenticação quando um servidor solicita permissões adicionais de OAuth durante chamadas de ferramentas, aumentando o controle sobre o acesso."
+    },
+    {
+      "q": "O que significa a função `$.ui.selection()`?",
+      "a": "Ela permite que modificações (mods) acessem o texto que o usuário selecionou em tela cheia e, se a seleção for em uma única linha, retorna essa linha completa."
+    }
+  ],
+  "written_at": "2026-10-02T23:39:43.115Z",
+  "slug": "claude-code-2-1-288-refina-interatividade-e-seguranca-em-sessoes-de-codigo",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/a3be99ac1261695aeb8f3db7799f778ef42e65bf6fbf1a5900f5cf4806632c60/anthropics/claude-code/releases/tag/v2.1.288"
+}

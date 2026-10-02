@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-02T19:07:12.561Z",
+  "generated_at": "2026-10-02T23:40:04.266Z",
   "articles": [
+    {
+      "slug": "techcrunch-disrupt-2026-passes-acessiveis-para-profissionais-afetados-por-demiss",
+      "headline": "TechCrunch Disrupt 2026: Passes Acessíveis para Profissionais Afetados por Demissões",
+      "subtitle": "Evento busca oferecer oportunidades em um cenário de reestruturação no setor de tecnologia.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "category": "mercado",
+      "tags": [
+        "techcrunch",
+        "disrupt",
+        "layoffs"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 02 Oct 2026 19:15:51 +0000",
+      "written_at": "2026-10-02T23:40:04.227Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "stability-ai-redirecionada-para-musica-sob-lideranca-de-sean-parker",
+      "headline": "Stability AI Redirecionada para Música sob Liderança de Sean Parker",
+      "subtitle": "O cofundador do Napster retorna ao setor musical, agora com foco em inteligência artificial.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "musica",
+        "stability ai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 02 Oct 2026 21:09:14 +0000",
+      "written_at": "2026-10-02T23:39:53.958Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-288-refina-interatividade-e-seguranca-em-sessoes-de-codigo",
+      "headline": "Claude Code 2.1.288 Refina Interatividade e Segurança em Sessões de Código",
+      "subtitle": "Atualização da Anthropic foca em usabilidade e robustez para desenvolvedores que utilizam IA na codificação.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "desenvolvimento",
+        "ia",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-02T20:19:57Z",
+      "written_at": "2026-10-02T23:39:43.115Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "apple-restringe-acesso-a-dados-no-macos-frente-a-riscos-de-agentes-de-ia",
       "headline": "Apple Restringe Acesso a Dados no macOS Frente a Riscos de Agentes de IA",
