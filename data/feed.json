@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-01T23:50:01.014Z",
+  "generated_at": "2026-10-02T05:10:51.989Z",
   "articles": [
+    {
+      "slug": "modelos-causais-aprimoram-agentes-modulares-de-llm-em-sistemas-complexos",
+      "headline": "Modelos Causais Aprimoram Agentes Modulares de LLM em Sistemas Complexos",
+      "subtitle": "Pesquisa explora como entender relações de causa e efeito melhora a tomada de decisão de IA em fluxos de trabalho interconectados.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.00012",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "causalidade"
+      ],
+      "read_time_min": 4,
+      "published_at": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-02T05:10:51.927Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "memoria-de-agentes-de-ia-o-efeito-cauda-longa-e-suas-implicacoes",
+      "headline": "Memória de Agentes de IA: O Efeito Cauda Longa e Suas Implicações",
+      "subtitle": "Pesquisa no arXiv revela como modelos de linguagem de longo alcance lidam com informações, com reflexos para a gestão de dados em sistemas brasileiros.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.00010",
+      "category": "research",
+      "tags": [
+        "memoria de ia",
+        "agentes de linguagem",
+        "aprendizado de maquina"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 02 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-02T05:10:40.265Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "servicenow-inova-em-geracao-de-dados-sinteticos-para-agentes-de-ia-corporativos",
+      "headline": "ServiceNow Inova em Geração de Dados Sintéticos para Agentes de IA Corporativos",
+      "subtitle": "Nova ferramenta promete agilizar o treinamento de modelos de IA para empresas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "category": "opensource",
+      "tags": [
+        "ia corporativa",
+        "dados sinteticos",
+        "servicenow"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 02 Oct 2026 04:01:31 GMT",
+      "written_at": "2026-10-02T05:10:29.504Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "google-gemini-live-ganha-visao-guiada-para-acessibilidade-visual",
       "headline": "Google Gemini Live Ganha Visão Guiada para Acessibilidade Visual",

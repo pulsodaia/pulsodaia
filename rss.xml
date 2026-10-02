@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 01 Oct 2026 23:57:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 05:15:38 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos Causais Aprimoram Agentes Modulares de LLM em Sistemas Complexos</title>
+      <link>https://pulsodaia.com.br/feed/modelos-causais-aprimoram-agentes-modulares-de-llm-em-sistemas-complexos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-causais-aprimoram-agentes-modulares-de-llm-em-sistemas-complexos/</guid>
+      <pubDate>Fri, 02 Oct 2026 05:10:51 GMT</pubDate>
+      <description>Pesquisa explora como entender relações de causa e efeito melhora a tomada de decisão de IA em fluxos de trabalho interconectados.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.00012">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Memória de Agentes de IA: O Efeito Cauda Longa e Suas Implicações</title>
+      <link>https://pulsodaia.com.br/feed/memoria-de-agentes-de-ia-o-efeito-cauda-longa-e-suas-implicacoes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/memoria-de-agentes-de-ia-o-efeito-cauda-longa-e-suas-implicacoes/</guid>
+      <pubDate>Fri, 02 Oct 2026 05:10:40 GMT</pubDate>
+      <description>Pesquisa no arXiv revela como modelos de linguagem de longo alcance lidam com informações, com reflexos para a gestão de dados em sistemas brasileiros.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.00010">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>ServiceNow Inova em Geração de Dados Sintéticos para Agentes de IA Corporativos</title>
+      <link>https://pulsodaia.com.br/feed/servicenow-inova-em-geracao-de-dados-sinteticos-para-agentes-de-ia-corporativos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/servicenow-inova-em-geracao-de-dados-sinteticos-para-agentes-de-ia-corporativos/</guid>
+      <pubDate>Fri, 02 Oct 2026 05:10:29 GMT</pubDate>
+      <description>Nova ferramenta promete agilizar o treinamento de modelos de IA para empresas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ServiceNow-AI/autosynthdata">Hugging Face</source>
+    </item>
     <item>
       <title>Google Gemini Live Ganha Visão Guiada para Acessibilidade Visual</title>
       <link>https://pulsodaia.com.br/feed/google-gemini-live-ganha-visao-guiada-para-acessibilidade-visual/</link>
@@ -430,33 +457,6 @@
       <description>A gigante das redes sociais aposta em wearables para manter usuários imersos no universo online.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Agentes de IA da OpenAI expõem imagens de usuários na internet sem autorização</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-da-openai-expoem-imagens-de-usuarios-na-internet-sem-autorizacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-da-openai-expoem-imagens-de-usuarios-na-internet-sem-autorizacao/</guid>
-      <pubDate>Fri, 25 Sep 2026 23:13:18 GMT</pubDate>
-      <description>Vazamento de dados levanta questões sobre segurança e supervisão em pesquisas com inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Crusoe Desiste de Turbinas Boom para Data Centers de IA</title>
-      <link>https://pulsodaia.com.br/feed/crusoe-desiste-de-turbinas-boom-para-data-centers-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/crusoe-desiste-de-turbinas-boom-para-data-centers-de-ia/</guid>
-      <pubDate>Fri, 25 Sep 2026 23:12:58 GMT</pubDate>
-      <description>A mudança de planos da Crusoe Energy Systems levanta questões sobre a infraestrutura energética para a crescente demanda de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Refina Controle de Modelos e Rastreabilidade do Claude Code</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-refina-controle-de-modelos-e-rastreabilidade-do-claude-code/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-refina-controle-de-modelos-e-rastreabilidade-do-claude-code/</guid>
-      <pubDate>Fri, 25 Sep 2026 23:12:47 GMT</pubDate>
-      <description>Novas atualizações visam maior precisão na gestão de versões e na análise de interações com LLMs.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.283">Claude Code</source>
     </item>
   </channel>
 </rss>

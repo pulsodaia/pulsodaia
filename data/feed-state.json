@@ -13999,6 +13999,34 @@
     "https://www.theverge.com/?p=1003756": {
       "date": "2026-10-01T23:49:45.372Z",
       "title": "Google’s new Guided Vision feature can help you read the fine print"
+    },
+    "https://huggingface.co/blog/ServiceNow-AI/autosynthdata": {
+      "date": "2026-10-02T05:10:21.361Z",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents"
+    },
+    "oai:arXiv.org:2610.00010v1": {
+      "date": "2026-10-02T05:10:21.734Z",
+      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents"
+    },
+    "oai:arXiv.org:2610.00012v1": {
+      "date": "2026-10-02T05:10:21.734Z",
+      "title": "When Do Causal World Models Help Modular LLM Agents"
+    },
+    "oai:arXiv.org:2610.00015v1": {
+      "date": "2026-10-02T05:10:21.734Z",
+      "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution"
+    },
+    "oai:arXiv.org:2610.00007v1": {
+      "date": "2026-10-02T05:10:22.043Z",
+      "title": "On-Device Named-Entity Recognition: A Deployability Study of Accuracy, Cost, Reliability, and Confidence"
+    },
+    "oai:arXiv.org:2610.00045v1": {
+      "date": "2026-10-02T05:10:22.043Z",
+      "title": "SCM-based Fairness and Faithful Explainability for Legal Document Classification"
+    },
+    "oai:arXiv.org:2610.00054v1": {
+      "date": "2026-10-02T05:10:22.043Z",
+      "title": "The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating"
     }
   }
 }
