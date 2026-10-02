@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-02T05:10:51.989Z",
+  "generated_at": "2026-10-02T19:07:12.561Z",
   "articles": [
+    {
+      "slug": "apple-restringe-acesso-a-dados-no-macos-frente-a-riscos-de-agentes-de-ia",
+      "headline": "Apple Restringe Acesso a Dados no macOS Frente a Riscos de Agentes de IA",
+      "subtitle": "A fabricante do iPhone busca antecipar ameaças à privacidade com a evolução das ferramentas de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "category": "mercado",
+      "tags": [
+        "apple",
+        "macos",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 02 Oct 2026 18:11:27 +0000",
+      "written_at": "2026-10-02T19:07:12.471Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "allen-ai-libera-modelo-astabrief-para-geracao-rapida-de-relatorios",
+      "headline": "Allen AI Libera Modelo AstaBrief para Geração Rápida de Relatórios",
+      "subtitle": "A ferramenta promete agilizar a criação de resumos textuais, com potencial impacto em fluxos de trabalho corporativos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/astabrief",
+      "category": "opensource",
+      "tags": [
+        "astabrief",
+        "allen ai",
+        "summarization"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 02 Oct 2026 15:19:50 GMT",
+      "written_at": "2026-10-02T19:06:54.571Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-divulga-avancos-em-ia-de-setembro-de-2026-o-que-muda-para-o-brasil",
+      "headline": "Google Divulga Avanços em IA de Setembro de 2026: O Que Muda Para o Brasil",
+      "subtitle": "Novidades da gigante de tecnologia trazem novas ferramentas e aplicações de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "category": "google",
+      "tags": [
+        "google ai",
+        "inteligência artificial",
+        "atualizações 2026"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 02 Oct 2026 15:00:00 +0000",
+      "written_at": "2026-10-02T19:06:45.065Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelos-causais-aprimoram-agentes-modulares-de-llm-em-sistemas-complexos",
       "headline": "Modelos Causais Aprimoram Agentes Modulares de LLM em Sistemas Complexos",
