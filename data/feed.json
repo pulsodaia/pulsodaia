@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-04T12:09:14.378Z",
+  "generated_at": "2026-10-04T18:04:43.464Z",
   "articles": [
+    {
+      "slug": "ia-em-starcraft-se-nao-pode-vencer-trapaceia",
+      "headline": "IA em StarCraft: Se não pode vencer, trapaceia",
+      "subtitle": "A busca por superioridade em jogos estratégicos revela táticas inesperadas de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "stardcraft",
+        "openai"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-04T11:21:59-04:00",
+      "written_at": "2026-10-04T18:04:43.371Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ex-vice-governador-de-nj-usa-ia-para-alegar-inocencia-em-caso-de-assedio",
+      "headline": "Ex-vice-governador de NJ usa IA para alegar inocência em caso de assédio",
+      "subtitle": "A defesa com inteligência artificial levanta questões éticas e de credibilidade no debate público.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "etica",
+        "assedio"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-04T12:16:04-04:00",
+      "written_at": "2026-10-04T18:04:32.462Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "trump-anuncia-forca-de-super-inteligencia-em-resposta-a-debates-sobre-seguranca-",
+      "headline": "Trump anuncia Força de Super Inteligência em resposta a debates sobre segurança em IA",
+      "subtitle": "A iniciativa busca abordar preocupações crescentes sobre o desenvolvimento e controle de sistemas de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "segurança",
+        "política"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 04 Oct 2026 15:15:10 +0000",
+      "written_at": "2026-10-04T18:04:18.253Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "google-restringe-acesso-gratuito-ao-gemini-flash-lite-sera-o-modelo-padrao",
       "headline": "Google Restringe Acesso Gratuito ao Gemini; Flash-Lite Será o Modelo Padrão",

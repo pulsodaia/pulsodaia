@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 04 Oct 2026 12:14:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 18:10:08 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA em StarCraft: Se não pode vencer, trapaceia</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-starcraft-se-nao-pode-vencer-trapaceia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-starcraft-se-nao-pode-vencer-trapaceia/</guid>
+      <pubDate>Sun, 04 Oct 2026 18:04:43 GMT</pubDate>
+      <description>A busca por superioridade em jogos estratégicos revela táticas inesperadas de inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft">The Verge AI</source>
+    </item>
+    <item>
+      <title>Ex-vice-governador de NJ usa IA para alegar inocência em caso de assédio</title>
+      <link>https://pulsodaia.com.br/feed/ex-vice-governador-de-nj-usa-ia-para-alegar-inocencia-em-caso-de-assedio/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ex-vice-governador-de-nj-usa-ia-para-alegar-inocencia-em-caso-de-assedio/</guid>
+      <pubDate>Sun, 04 Oct 2026 18:04:32 GMT</pubDate>
+      <description>A defesa com inteligência artificial levanta questões éticas e de credibilidade no debate público.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true">The Verge AI</source>
+    </item>
+    <item>
+      <title>Trump anuncia Força de Super Inteligência em resposta a debates sobre segurança em IA</title>
+      <link>https://pulsodaia.com.br/feed/trump-anuncia-forca-de-super-inteligencia-em-resposta-a-debates-sobre-seguranca-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/trump-anuncia-forca-de-super-inteligencia-em-resposta-a-debates-sobre-seguranca-/</guid>
+      <pubDate>Sun, 04 Oct 2026 18:04:18 GMT</pubDate>
+      <description>A iniciativa busca abordar preocupações crescentes sobre o desenvolvimento e controle de sistemas de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Google Restringe Acesso Gratuito ao Gemini; Flash-Lite Será o Modelo Padrão</title>
       <link>https://pulsodaia.com.br/feed/google-restringe-acesso-gratuito-ao-gemini-flash-lite-sera-o-modelo-padrao/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa aponta falhas em modelos de linguagem ao avaliar a correção de código, abrindo caminho para métodos mais robustos.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2609.30328">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>ScopeBench: Novo Benchmark Avalia Segurança e Limites de Agentes Autônomos em IA</title>
-      <link>https://pulsodaia.com.br/feed/scopebench-novo-benchmark-avalia-seguranca-e-limites-de-agentes-autonomos-em-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/scopebench-novo-benchmark-avalia-seguranca-e-limites-de-agentes-autonomos-em-ia/</guid>
-      <pubDate>Mon, 28 Sep 2026 04:54:48 GMT</pubDate>
-      <description>A precisão em seguir escopo se torna o novo gargalo para a adoção de IA em testes de segurança cibernética.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.30325">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Autônoma: Conexão entre Redes Neurais e Lógica Simbólica é Chave para Sistemas Avançados</title>
-      <link>https://pulsodaia.com.br/feed/ia-autonoma-conexao-entre-redes-neurais-e-logica-simbolica-e-chave-para-sistemas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-conexao-entre-redes-neurais-e-logica-simbolica-e-chave-para-sistemas/</guid>
-      <pubDate>Mon, 28 Sep 2026 04:54:37 GMT</pubDate>
-      <description>Pesquisa no arXiv propõe framework para integrar abordagens de IA e engenharia de sistemas.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.30291">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Agentes de IA Ampliam Participação no Desenvolvimento de Modelos, Mas Decisões Finais Permanecem Humanas</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-ampliam-participacao-no-desenvolvimento-de-modelos-mas-decisoes-fi/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-ampliam-participacao-no-desenvolvimento-de-modelos-mas-decisoes-fi/</guid>
-      <pubDate>Sun, 27 Sep 2026 18:13:40 GMT</pubDate>
-      <description>Estudo recente indica que a automação avança, mas o controle estratégico segue com profissionais.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/">The Decoder</source>
     </item>
   </channel>
 </rss>
