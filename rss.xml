@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 03 Oct 2026 22:53:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 05:32:00 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Atualização do Claude Code Corrige Falhas de Segurança e Estabilidade</title>
+      <link>https://pulsodaia.com.br/feed/atualizacao-do-claude-code-corrige-falhas-de-seguranca-e-estabilidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/atualizacao-do-claude-code-corrige-falhas-de-seguranca-e-estabilidade/</guid>
+      <pubDate>Sun, 04 Oct 2026 05:26:16 GMT</pubDate>
+      <description>A Anthropic lança correções pontuais para sua ferramenta de desenvolvimento, visando usuários brasileiros.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.289">Claude Code</source>
+    </item>
     <item>
       <title>Agente de IA Ignora Banco de Dados: Falha na Confiabilidade de Sistemas Autônomos</title>
       <link>https://pulsodaia.com.br/feed/agente-de-ia-ignora-banco-de-dados-falha-na-confiabilidade-de-sistemas-autonomos/</link>
@@ -448,15 +457,6 @@
       <description>Ferramenta promete aprimorar transcrições e análises de áudio em português.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/">The Decoder</source>
-    </item>
-    <item>
-      <title>Veteranos da Anthropic Consideram Refúgios Remotos Diante de Riscos da IA</title>
-      <link>https://pulsodaia.com.br/feed/veteranos-da-anthropic-consideram-refugios-remotos-diante-de-riscos-da-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/veteranos-da-anthropic-consideram-refugios-remotos-diante-de-riscos-da-ia/</guid>
-      <pubDate>Sun, 27 Sep 2026 13:47:00 GMT</pubDate>
-      <description>A preocupação com cenários extremos de IA levanta debates sobre segurança e o futuro do setor no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/">The Decoder</source>
     </item>
   </channel>
 </rss>

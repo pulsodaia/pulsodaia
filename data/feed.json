@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-10-03T22:47:32.933Z",
+  "generated_at": "2026-10-04T05:26:16.498Z",
   "articles": [
+    {
+      "slug": "atualizacao-do-claude-code-corrige-falhas-de-seguranca-e-estabilidade",
+      "headline": "Atualização do Claude Code Corrige Falhas de Segurança e Estabilidade",
+      "subtitle": "A Anthropic lança correções pontuais para sua ferramenta de desenvolvimento, visando usuários brasileiros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "atualizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-03T23:07:17Z",
+      "written_at": "2026-10-04T05:26:16.147Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "agente-de-ia-ignora-banco-de-dados-falha-na-confiabilidade-de-sistemas-autonomos",
       "headline": "Agente de IA Ignora Banco de Dados: Falha na Confiabilidade de Sistemas Autônomos",
