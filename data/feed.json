@@ -1,6 +1,67 @@
 {
-  "generated_at": "2026-10-04T05:26:16.498Z",
+  "generated_at": "2026-10-04T12:09:14.378Z",
   "articles": [
+    {
+      "slug": "google-restringe-acesso-gratuito-ao-gemini-flash-lite-sera-o-modelo-padrao",
+      "headline": "Google Restringe Acesso Gratuito ao Gemini; Flash-Lite Será o Modelo Padrão",
+      "subtitle": "Mudança em outubro de 2026 limita usuários sem assinatura ao modelo mais básico da IA.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+      "category": "mercado",
+      "tags": [
+        "gemini",
+        "google",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 04 Oct 2026 07:28:54 +0000",
+      "written_at": "2026-10-04T12:09:12.725Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-ia-chineses-doutrina-estatal-ou-silencio-em-temas-sensiveis",
+      "headline": "Modelos de IA Chineses: Doutrina Estatal ou Silêncio em Temas Sensíveis",
+      "subtitle": "Estudo revela viés e censura em respostas de IAs desenvolvidas na China.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "china",
+        "censura",
+        "politica",
+        "aleph alpha"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 04 Oct 2026 08:47:52 +0000",
+      "written_at": "2026-10-04T12:09:00.848Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-de-codigo-aberto-para-a-lua-nasa-e-ibm-mapeiam-gelo-lunar-com-dados-historico",
+      "headline": "IA de Código Aberto para a Lua: NASA e IBM Mapeiam Gelo Lunar com Dados Históricos",
+      "subtitle": "Um novo modelo de IA da NASA e IBM promete refinar a busca por recursos lunares, com impacto direto em futuras missões espaciais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "nasa",
+        "ibm",
+        "lua",
+        "exploração espacial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 04 Oct 2026 10:10:12 +0000",
+      "written_at": "2026-10-04T12:08:49.535Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "atualizacao-do-claude-code-corrige-falhas-de-seguranca-e-estabilidade",
       "headline": "Atualização do Claude Code Corrige Falhas de Segurança e Estabilidade",
