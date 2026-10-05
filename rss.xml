@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:10:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:45:11 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Acordos de Segurança em IA: Solução ou Propaganda?</title>
+      <link>https://pulsodaia.com.br/feed/acordos-de-seguranca-em-ia-solucao-ou-propaganda/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/acordos-de-seguranca-em-ia-solucao-ou-propaganda/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:39:34 GMT</pubDate>
+      <description>O debate sobre a regulamentação da inteligência artificial ganha contornos complexos com propostas de "super inteligência" e pactos voluntários.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Google Suspende Programa de Recompensas por Bugs em Código Aberto Diante do Volume de Submissões de IA</title>
+      <link>https://pulsodaia.com.br/feed/google-suspende-programa-de-recompensas-por-bugs-em-codigo-aberto-diante-do-volu/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-suspende-programa-de-recompensas-por-bugs-em-codigo-aberto-diante-do-volu/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:39:23 GMT</pubDate>
+      <description>A gigante de tecnologia enfrenta um dilema na gestão de vulnerabilidades em projetos de código aberto, afetando a segurança de diversas ferramentas.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA em StarCraft: Se não pode vencer, trapaceia</title>
       <link>https://pulsodaia.com.br/feed/ia-em-starcraft-se-nao-pode-vencer-trapaceia/</link>
@@ -439,24 +457,6 @@
       <description>Nova abordagem de IA busca unificar o uso de computadores para tarefas complexas.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/Hcompany/holo4">Hugging Face</source>
-    </item>
-    <item>
-      <title>XPRIZE de Visão Futura Anuncia Vencedor com Foco em IA</title>
-      <link>https://pulsodaia.com.br/feed/xprize-de-visao-futura-anuncia-vencedor-com-foco-em-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/xprize-de-visao-futura-anuncia-vencedor-com-foco-em-ia/</guid>
-      <pubDate>Mon, 28 Sep 2026 20:28:08 GMT</pubDate>
-      <description>O projeto "The Gifted" se destaca em competição global de inovação.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/">Google AI</source>
-    </item>
-    <item>
-      <title>IA Julgando Código: A Nova Fronteira da Verificação Ganha Transparência</title>
-      <link>https://pulsodaia.com.br/feed/ia-julgando-codigo-a-nova-fronteira-da-verificacao-ganha-transparencia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-julgando-codigo-a-nova-fronteira-da-verificacao-ganha-transparencia/</guid>
-      <pubDate>Mon, 28 Sep 2026 04:55:07 GMT</pubDate>
-      <description>Pesquisa aponta falhas em modelos de linguagem ao avaliar a correção de código, abrindo caminho para métodos mais robustos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2609.30328">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
