@@ -1,0 +1,52 @@
+{
+  "id": "oai:arXiv.org:2610.02281v1",
+  "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
+  "url": "https://arxiv.org/abs/2610.02281",
+  "summary": "arXiv:2610.02281v1 Announce Type: new Abstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed at scale with LLMs, provide a useful signal about how companies disclose their response to AI? We test this by applying a reproducible two-stage classification pipeline to 9,821 annual reports from 1,362 UK listed companies (2020-2025, with partial 2026 data). We first validate the method against 474 human-annotated passages, finding high recall and moderate label-level agreement. We then report three empirical patterns: (i) between 2020 and 2025, the share of reports mentioning AI risk rose from 2.8% to 41.2%, while AI adoption disclosure also rose, from 13.8% to 45.2%, and named vendor mentions cluster around a small set of major providers led by Microsoft; (ii) disclosure varies substantially by Critical National Infrastructure sector and market segment: AIM reports disclose AI risk at f",
+  "published_at": "Mon, 05 Oct 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Relatórios Anuais Revelam Crescimento Acelerado na Divulgação de Riscos e Adoção de IA por Empresas",
+  "subtitle": "Um estudo em larga escala com relatórios financeiros de empresas listadas no Reino Unido mostra um salto na menção de riscos associados à inteligência artificial.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "A forma como empresas comunicam seus planos e riscos relacionados à inteligência artificial está mudando drasticemente. Um novo estudo analisou milhares de relatórios anuais e encontrou um aumento exponencial na menção de riscos de IA e na divulgação de sua adoção.",
+  "body_markdown": "## O que aconteceu\n\nA pesquisa \"The AI Risk Observatory\" utilizou processamento em larga escala com Modelos de Linguagem Grandes (LLMs) para analisar 9.821 relatórios anuais de 1.362 empresas listadas no Reino Unido, cobrindo o período de 2020 a 2025, com dados parciais de 2026. O objetivo foi verificar se esses documentos financeiros podem servir como um indicador útil sobre como as companhias divulgam suas respostas aos desafios apresentados pela inteligência artificial. O método desenvolvido foi validado contra 474 passagens anotadas manualmente, demonstrando alta capacidade de identificar menções relevantes (recall) e uma concordância moderada no nível das etiquetas. Os resultados empíricos mostram uma trajetória clara: entre 2020 e 2025, a porcentagem de relatórios que mencionam risco de IA saltou de 2,8% para 41,2%. Paralelamente, a divulgação sobre a adoção de IA também cresceu significativamente, passando de 13,8% para 45,2%. A menção de fornecedores específicos de IA também aumentou, indicando uma integração mais profunda das tecnologias. Você pode conferir os detalhes metodológicos e os achados completos no [artigo original disponível no ArXiv](https://arxiv.org/abs/2610.02281).\n\n## Por que importa\n\nPara o mercado brasileiro de tecnologia e finanças, esses dados sinalizam uma tendência global que não pode ser ignorada. A maior transparência sobre riscos de IA em relatórios financeiros sugere uma crescente conscientização sobre a necessidade de gerenciar esses riscos de forma proativa. Isso pode influenciar a forma como investidores avaliam empresas, buscando aquelas que demonstram maturidade na governança de IA. Empresas brasileiras que ainda não abordam explicitamente os riscos e a adoção de IA em seus documentos públicos podem precisar reavaliar suas estratégias de comunicação corporativa e de gestão de riscos para se manterem competitivas e alinhadas às expectativas do mercado global. A análise em escala, como a proposta neste estudo, pode ser replicada para o contexto brasileiro, oferecendo insights valiosos sobre a maturidade da nossa própria indústria em relação à IA.\n\n## O que esperar\n\nA tendência de aumento na divulgação de informações sobre IA em relatórios anuais deve continuar. Espera-se que, com o avanço da IA e a maior regulamentação em diversas jurisdições, as empresas sejam cada vez mais pressionadas a detalhar como estão mitigando riscos, como vieses algorítmicos, segurança de dados e o impacto no mercado de trabalho. A metodologia apresentada no estudo pode ser aprimorada e aplicada a outros mercados e tipos de documentos corporativos, expandindo o alcance da observação. A capacidade de processar grandes volumes de texto com LLMs abre portas para análises contínuas e em tempo real sobre a evolução da adoção e dos riscos de IA no setor corporativo. Para se aprofundar em como essa pesquisa foi conduzida, acesse o [link para o estudo completo](https://arxiv.org/abs/2610.02281). A evolução das divulgações pode servir como um termômetro para a resiliência social e econômica das empresas frente às rápidas mudanças tecnológicas.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A pesquisa \"The AI Risk Observatory\" utilizou processamento em larga escala com Modelos de Linguagem Grandes (LLMs) para analisar 9.821 relatórios anuais de 1.362 empresas listadas no Reino Unido, cobrindo o período de 2020 a 2025, com dados parciais de 2026. O objetivo foi verificar se esses documentos financeiros podem servir como um indicador útil sobre como as companhias divulgam suas respostas aos desafios apresentados pela inteligência artificial. O método desenvolvido foi validado contra 474 passagens anotadas manualmente, demonstrando alta capacidade de identificar menções relevantes (recall) e uma concordância moderada no nível das etiquetas. Os resultados empíricos mostram uma trajetória clara: entre 2020 e 2025, a porcentagem de relatórios que mencionam risco de IA saltou de 2,8% para 41,2%. Paralelamente, a divulgação sobre a adoção de IA também cresceu significativamente, passando de 13,8% para 45,2%. A menção de fornecedores específicos de IA também aumentou, indicando uma integração mais profunda das tecnologias. Você pode conferir os detalhes metodológicos e os achados completos no <a href=\"https://arxiv.org/abs/2610.02281\" target=\"_blank\" rel=\"external noopener\">artigo original disponível no ArXiv</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de tecnologia e finanças, esses dados sinalizam uma tendência global que não pode ser ignorada. A maior transparência sobre riscos de IA em relatórios financeiros sugere uma crescente conscientização sobre a necessidade de gerenciar esses riscos de forma proativa. Isso pode influenciar a forma como investidores avaliam empresas, buscando aquelas que demonstram maturidade na governança de IA. Empresas brasileiras que ainda não abordam explicitamente os riscos e a adoção de IA em seus documentos públicos podem precisar reavaliar suas estratégias de comunicação corporativa e de gestão de riscos para se manterem competitivas e alinhadas às expectativas do mercado global. A análise em escala, como a proposta neste estudo, pode ser replicada para o contexto brasileiro, oferecendo insights valiosos sobre a maturidade da nossa própria indústria em relação à IA.</p>\n\n<h2>O que esperar</h2>\n\n<p>A tendência de aumento na divulgação de informações sobre IA em relatórios anuais deve continuar. Espera-se que, com o avanço da IA e a maior regulamentação em diversas jurisdições, as empresas sejam cada vez mais pressionadas a detalhar como estão mitigando riscos, como vieses algorítmicos, segurança de dados e o impacto no mercado de trabalho. A metodologia apresentada no estudo pode ser aprimorada e aplicada a outros mercados e tipos de documentos corporativos, expandindo o alcance da observação. A capacidade de processar grandes volumes de texto com LLMs abre portas para análises contínuas e em tempo real sobre a evolução da adoção e dos riscos de IA no setor corporativo. Para se aprofundar em como essa pesquisa foi conduzida, acesse o <a href=\"https://arxiv.org/abs/2610.02281\" target=\"_blank\" rel=\"external noopener\">link para o estudo completo</a>. A evolução das divulgações pode servir como um termômetro para a resiliência social e econômica das empresas frente às rápidas mudanças tecnológicas.</p>",
+  "tags": [
+    "ia",
+    "relatorios financeiros",
+    "governanca corporativa"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.92,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "riscos de ia",
+    "relatorios anuais",
+    "governanca corporativa",
+    "adoção de ia",
+    "resiliencia social",
+    "llms"
+  ],
+  "meta_description_seo": "Estudo revela que menções a riscos e adoção de IA em relatórios anuais de empresas cresceram exponencialmente entre 2020 e 2025.",
+  "faq": [
+    {
+      "q": "Como os relatórios anuais podem indicar a resiliência de uma empresa à IA?",
+      "a": "Ao analisar a frequência e o conteúdo das menções a riscos e à adoção de inteligência artificial em relatórios anuais, é possível avaliar o quão preparadas as empresas estão para gerenciar os desafios e aproveitar as oportunidades que a IA apresenta, refletindo sua resiliência."
+    },
+    {
+      "q": "Qual foi o principal achado da pesquisa sobre a divulgação de IA em relatórios anuais?",
+      "a": "A pesquisa identificou um aumento significativo, de 2,8% para 41,2%, na menção de riscos de IA em relatórios anuais entre 2020 e 2025, e um crescimento similar na divulgação da adoção de IA."
+    },
+    {
+      "q": "Que tecnologia foi utilizada para analisar os relatórios?",
+      "a": "A pesquisa utilizou Modelos de Linguagem Grandes (LLMs) para processar e classificar em larga escala os milhares de relatórios anuais, permitindo identificar padrões de divulgação sobre IA."
+    }
+  ],
+  "written_at": "2026-10-05T08:46:19.276Z",
+  "slug": "relatorios-anuais-revelam-crescimento-acelerado-na-divulgacao-de-riscos-e-adocao",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

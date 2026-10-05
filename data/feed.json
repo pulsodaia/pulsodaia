@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-05T00:39:34.400Z",
+  "generated_at": "2026-10-05T08:46:19.335Z",
   "articles": [
+    {
+      "slug": "relatorios-anuais-revelam-crescimento-acelerado-na-divulgacao-de-riscos-e-adocao",
+      "headline": "Relatórios Anuais Revelam Crescimento Acelerado na Divulgação de Riscos e Adoção de IA por Empresas",
+      "subtitle": "Um estudo em larga escala com relatórios financeiros de empresas listadas no Reino Unido mostra um salto na menção de riscos associados à inteligência artificial.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.02281",
+      "category": "research",
+      "tags": [
+        "ia",
+        "relatorios financeiros",
+        "governanca corporativa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 05 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-05T08:46:19.276Z",
+      "quality_score": 0.92,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-decisao-system-1-para-agentes-de-ia-um-teste-de-performance-e-custo",
+      "headline": "Modelos de Decisão \"System-1\" para Agentes de IA: Um Teste de Performance e Custo",
+      "subtitle": "Pesquisa avalia a eficácia de modelos mais rápidos em substituir chamadas a LLMs em tarefas de agentes.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.02267",
+      "category": "research",
+      "tags": [
+        "ia",
+        "agentes de ia",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 05 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-05T08:46:08.289Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "mintflow-nova-abordagem-minimiza-distorcao-em-modelos-generativos-com-restricoes",
+      "headline": "MintFlow: Nova Abordagem Minimiza Distorção em Modelos Generativos com Restrições",
+      "subtitle": "Pesquisa do ArXiv propõe método para que amostras de IA respeitem leis físicas e dados sem perder qualidade.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.02260",
+      "category": "research",
+      "tags": [
+        "ia generativa",
+        "flow matching",
+        "amostragem restrita"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 05 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-05T08:45:57.462Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "acordos-de-seguranca-em-ia-solucao-ou-propaganda",
       "headline": "Acordos de Segurança em IA: Solução ou Propaganda?",
