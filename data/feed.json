@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-06T16:39:09.129Z",
+  "generated_at": "2026-10-06T22:34:22.630Z",
   "articles": [
+    {
+      "slug": "lambda-capta-us-4-bilhoes-ante-ipo-planejado-para-2027",
+      "headline": "Lambda Capta US$ 4 Bilhões Ante IPO Planejado para 2027",
+      "subtitle": "Empresa de hardware para IA avança com forte injeção de capital de fundos de investimento globais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "category": "mercado",
+      "tags": [
+        "lambda",
+        "hardware ia",
+        "captação",
+        "ipo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 06 Oct 2026 20:00:30 +0000",
+      "written_at": "2026-10-06T22:34:22.363Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "musubi-lanca-modelo-de-ia-leve-para-moderacao-de-conteudo-aberto",
+      "headline": "Musubi Lança Modelo de IA Leve para Moderação de Conteúdo Aberto",
+      "subtitle": "A nova ferramenta promete agilizar a curadoria de conteúdo em plataformas digitais com foco na eficiência.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "moderacao de conteudo",
+        "open source"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 06 Oct 2026 20:35:20 +0000",
+      "written_at": "2026-10-06T22:34:10.737Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-aprimora-ferramentas-para-desenvolvedores-com-novas-funcionalidades",
+      "headline": "Claude Code Aprimora Ferramentas para Desenvolvedores com Novas Funcionalidades",
+      "subtitle": "Atualizações na plataforma Claude Code visam otimizar o fluxo de trabalho e a integração de plugins.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "desenvolvedores",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-06T18:59:30Z",
+      "written_at": "2026-10-06T22:34:00.292Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "libreoffice-adota-postura-sem-ia-como-diferencial-de-privacidade",
       "headline": "LibreOffice adota postura \"sem IA\" como diferencial de privacidade",
