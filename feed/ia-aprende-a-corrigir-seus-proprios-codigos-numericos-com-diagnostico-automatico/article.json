@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2610.03872v1",
+  "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+  "url": "https://arxiv.org/abs/2610.03872",
+  "summary": "arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely reveals its underlying cause and how to address it. We introduce Auto-Diagnosis and Skill Discovery (ADSD), a framework that links numerical diagnosis to reusable solver self-improvement. ADSD follows a diagnosis-first paradigm that first explains why a solver performs poorly, then uses this diagnosis to guide the discovery of appropriate numerical methods. The resulting knowledge is packaged into reusable solver skills, turning solver improvement from trial-and-error editing into a structured process of diagnosis, discovery, and implementation. Across four challenging numerical domains--power flow equation, AC optimal power flow control, stiff ordinary differential equations, and heterogeneous diffusion PDEs--",
+  "published_at": "Tue, 06 Oct 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Aprende a Corrigir Seus Próprios Códigos Numéricos com Diagnóstico Automático",
+  "subtitle": "Pesquisa no arXiv propõe framework para que agentes de IA identifiquem e resolvam falhas em algoritmos de cálculo.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Agentes de IA já geram código científico, mas aprimorar a lógica por trás dessas ferramentas é um desafio. Uma nova abordagem no arXiv sugere um método para que a própria IA diagnostique e corrija problemas de performance em solucionadores numéricos.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores apresentaram o framework Auto-Diagnosis and Skill Discovery (ADSD), detalhado em um artigo no arXiv. Este sistema visa superar a limitação atual de que, embora a IA possa escrever código, ela não necessariamente melhora os algoritmos subjacentes. A execução de código numérico pode revelar falhas de desempenho, mas raramente indica a causa raiz ou como solucioná-la. O ADSD opera sob um paradigma focado no diagnóstico: primeiro, ele explica por que um solucionador está com desempenho insatisfatório e, em seguida, utiliza essa análise para guiar a descoberta de métodos numéricos mais adequados. A informação resultante é organizada em \"habilidades de solucionador\" reutilizáveis, transformando o aprimoramento de solucionadores de um processo de tentativa e erro para um fluxo estruturado de diagnóstico e aprendizado. O artigo completo pode ser consultado em [arXiv:2610.03872](https://arxiv.org/abs/2610.03872).\n\n## Por que importa\n\nNo Brasil, onde a adoção de ferramentas de IA em setores como finanças, engenharia e pesquisa científica cresce, a capacidade de aprimorar algoritmos de forma autônoma tem implicações significativas. Solucionadores numéricos são a espinha dorsal de muitas simulações e análises complexas. Um sistema capaz de identificar e corrigir suas próprias falhas pode acelerar o desenvolvimento de novas tecnologias e a otimização de processos existentes. Isso significa maior precisão em previsões financeiras, simulações de engenharia mais eficientes e descobertas científicas mais rápidas, reduzindo a dependência de intervenção humana especializada para a depuração de código numérico. A reutilização dessas \"habilidades\" pode democratizar o acesso a algoritmos de alta performance.\n\n## O que esperar\n\nO framework ADSD representa um passo em direção a sistemas de IA mais autônomos e autossuficientes no domínio da computação numérica. A expectativa é que essa metodologia possa ser aplicada a uma gama mais ampla de algoritmos, não apenas solucionadores numéricos. O desenvolvimento futuro pode envolver a integração do ADSD em plataformas de desenvolvimento de IA, permitindo que desenvolvedores incorporem essa capacidade de autodiagnóstico em seus próprios modelos. A validação em cenários práticos e a escalabilidade do framework serão pontos cruciais para sua adoção. Mais detalhes sobre a proposta estão disponíveis em [arXiv:2610.03872](https://arxiv.org/abs/2610.03872).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores apresentaram o framework Auto-Diagnosis and Skill Discovery (ADSD), detalhado em um artigo no arXiv. Este sistema visa superar a limitação atual de que, embora a IA possa escrever código, ela não necessariamente melhora os algoritmos subjacentes. A execução de código numérico pode revelar falhas de desempenho, mas raramente indica a causa raiz ou como solucioná-la. O ADSD opera sob um paradigma focado no diagnóstico: primeiro, ele explica por que um solucionador está com desempenho insatisfatório e, em seguida, utiliza essa análise para guiar a descoberta de métodos numéricos mais adequados. A informação resultante é organizada em \"habilidades de solucionador\" reutilizáveis, transformando o aprimoramento de solucionadores de um processo de tentativa e erro para um fluxo estruturado de diagnóstico e aprendizado. O artigo completo pode ser consultado em <a href=\"https://arxiv.org/abs/2610.03872\" target=\"_blank\" rel=\"external noopener\">arXiv:2610.03872</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, onde a adoção de ferramentas de IA em setores como finanças, engenharia e pesquisa científica cresce, a capacidade de aprimorar algoritmos de forma autônoma tem implicações significativas. Solucionadores numéricos são a espinha dorsal de muitas simulações e análises complexas. Um sistema capaz de identificar e corrigir suas próprias falhas pode acelerar o desenvolvimento de novas tecnologias e a otimização de processos existentes. Isso significa maior precisão em previsões financeiras, simulações de engenharia mais eficientes e descobertas científicas mais rápidas, reduzindo a dependência de intervenção humana especializada para a depuração de código numérico. A reutilização dessas \"habilidades\" pode democratizar o acesso a algoritmos de alta performance.</p>\n\n<h2>O que esperar</h2>\n\n<p>O framework ADSD representa um passo em direção a sistemas de IA mais autônomos e autossuficientes no domínio da computação numérica. A expectativa é que essa metodologia possa ser aplicada a uma gama mais ampla de algoritmos, não apenas solucionadores numéricos. O desenvolvimento futuro pode envolver a integração do ADSD em plataformas de desenvolvimento de IA, permitindo que desenvolvedores incorporem essa capacidade de autodiagnóstico em seus próprios modelos. A validação em cenários práticos e a escalabilidade do framework serão pontos cruciais para sua adoção. Mais detalhes sobre a proposta estão disponíveis em <a href=\"https://arxiv.org/abs/2610.03872\" target=\"_blank\" rel=\"external noopener\">arXiv:2610.03872</a>.</p>",
+  "tags": [
+    "ia",
+    "aprendizado de maquina",
+    "pesquisa"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "aprendizado automatico",
+    "diagnostico automatico",
+    "algoritmos numericos",
+    "aprimoramento de IA"
+  ],
+  "meta_description_seo": "Pesquisa no arXiv propõe framework ADSD para IA diagnosticar e corrigir falhas em solucionadores numéricos, otimizando algoritmos.",
+  "faq": [
+    {
+      "q": "O que é o framework ADSD?",
+      "a": "ADSD é um sistema que permite a agentes de IA identificar por que um solucionador numérico tem desempenho ruim e, então, usar essa informação para descobrir e implementar métodos melhores."
+    },
+    {
+      "q": "Como o ADSD melhora os algoritmos de IA?",
+      "a": "Ele transforma o aprimoramento de algoritmos de um processo aleatório para um método estruturado, onde a IA primeiro diagnostica o problema e depois busca soluções, empacotando o conhecimento em habilidades reutilizáveis."
+    },
+    {
+      "q": "Qual a importância dessa pesquisa para o desenvolvimento de IA?",
+      "a": "Essa pesquisa avança a capacidade de IA de se autoaprimorar em tarefas complexas como computação numérica, reduzindo a necessidade de intervenção humana para corrigir falhas de código."
+    }
+  ],
+  "written_at": "2026-10-06T08:49:24.780Z",
+  "slug": "ia-aprende-a-corrigir-seus-proprios-codigos-numericos-com-diagnostico-automatico",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

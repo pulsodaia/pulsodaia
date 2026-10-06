@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-05T19:10:37.504Z",
+  "generated_at": "2026-10-06T08:49:35.409Z",
   "articles": [
+    {
+      "slug": "ia-reconstrui-ph-oceanico-com-precisao-quimica",
+      "headline": "IA Reconstrui pH Oceânico com Precisão Química",
+      "subtitle": "Nova abordagem de machine learning supera limitações em modelos de simulação oceânica.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.03888",
+      "category": "research",
+      "tags": [
+        "ia",
+        "oceano",
+        "ciencia de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 06 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-06T08:49:35.293Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-aprende-a-corrigir-seus-proprios-codigos-numericos-com-diagnostico-automatico",
+      "headline": "IA Aprende a Corrigir Seus Próprios Códigos Numéricos com Diagnóstico Automático",
+      "subtitle": "Pesquisa no arXiv propõe framework para que agentes de IA identifiquem e resolvam falhas em algoritmos de cálculo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.03872",
+      "category": "research",
+      "tags": [
+        "ia",
+        "aprendizado de maquina",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 06 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-06T08:49:24.780Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "falcon-emirati-llm-que-domina-sotaque-e-cultura-local",
+      "headline": "Falcon-Emirati: LLM que domina sotaque e cultura local",
+      "subtitle": "Modelos de linguagem agora aprendem nuances regionais, abrindo portas para aplicações mais precisas no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "llm",
+        "linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 06 Oct 2026 06:44:39 GMT",
+      "written_at": "2026-10-06T08:49:14.249Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "instinct-expande-ia-para-chats-em-grupo-democratizando-o-acesso",
       "headline": "Instinct expande IA para chats em grupo, democratizando o acesso",
