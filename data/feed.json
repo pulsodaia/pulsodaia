@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-07T13:05:07.123Z",
+  "generated_at": "2026-10-07T19:51:15.897Z",
   "articles": [
+    {
+      "slug": "meta-acelera-expansao-do-assistente-de-ia-muse-com-lancamento-no-ipad",
+      "headline": "Meta acelera expansão do assistente de IA Muse com lançamento no iPad",
+      "subtitle": "A ferramenta de inteligência artificial da Meta, lançada há um mês para celulares, agora chega a tablets, ampliando seu alcance.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+      "category": "mercado",
+      "tags": [
+        "meta",
+        "muse",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 07 Oct 2026 18:30:57 +0000",
+      "written_at": "2026-10-07T19:51:15.622Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-atualiza-claude-foco-em-eficiencia-e-nova-versao-haiku",
+      "headline": "Anthropic Atualiza Claude, Foco em Eficiência e Nova Versão Haiku",
+      "subtitle": "Novidades na API de modelos de linguagem prometem otimizar interações e desenvolvimento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 4,
+      "published_at": "2026-10-07T18:10:20Z",
+      "written_at": "2026-10-07T19:51:04.947Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "modelos-de-decisao-multimodais-para-edge-open-d1-chega-ao-mercado",
+      "headline": "Modelos de Decisão Multimodais para Edge: Open D1 Chega ao Mercado",
+      "subtitle": "Inovação da Hugging Face foca em processamento de dados complexos diretamente em dispositivos, com potencial impacto em aplicações no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "category": "opensource",
+      "tags": [
+        "multimodal",
+        "edge ai",
+        "open source"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 07 Oct 2026 16:54:33 GMT",
+      "written_at": "2026-10-07T19:50:53.075Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-generativa-ganha-olhar-analitico-visualizacao-zero-shot-abre-caminhos-para-ex",
       "headline": "IA Generativa Ganha Olhar Analítico: Visualização Zero-Shot Abre Caminhos para Explorar Dados Textuais",
