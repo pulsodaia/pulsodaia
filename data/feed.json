@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-06T22:34:22.630Z",
+  "generated_at": "2026-10-07T13:05:07.123Z",
   "articles": [
+    {
+      "slug": "ia-generativa-ganha-olhar-analitico-visualizacao-zero-shot-abre-caminhos-para-ex",
+      "headline": "IA Generativa Ganha Olhar Analítico: Visualização Zero-Shot Abre Caminhos para Explorar Dados Textuais",
+      "subtitle": "Novos métodos permitem que usuários naveguem em grandes volumes de texto sem pré-definição de eixos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2610.06889",
+      "category": "research",
+      "tags": [
+        "zero-shot visualization",
+        "llms",
+        "exploração de dados textuais"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 07 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-07T13:05:07.015Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nemotron-da-nvidia-alcanca-resultados-de-nivel-olimpico-em-tarefas-de-raciocinio",
+      "headline": "Nemotron da Nvidia Alcança Resultados de Nível Olímpico em Tarefas de Raciocínio",
+      "subtitle": "Modelos de linguagem ajustados demonstram aptidão para desafios complexos de lógica e matemática.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "nvidia",
+        "nemotron"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 07 Oct 2026 12:45:31 GMT",
+      "written_at": "2026-10-07T13:04:55.898Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-lanca-playground-plataforma-experimental-para-criacao-de-jogos-com-ia",
+      "headline": "Google Lanca Playground, Plataforma Experimental para Criacao de Jogos com IA",
+      "subtitle": "A gigante de tecnologia explora o potencial criativo da inteligência artificial no universo dos games.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "jogos",
+        "google ai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 07 Oct 2026 12:00:00 +0000",
+      "written_at": "2026-10-07T13:04:45.185Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "lambda-capta-us-4-bilhoes-ante-ipo-planejado-para-2027",
       "headline": "Lambda Capta US$ 4 Bilhões Ante IPO Planejado para 2027",
