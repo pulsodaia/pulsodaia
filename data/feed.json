@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-07T19:51:15.897Z",
+  "generated_at": "2026-10-08T08:43:55.270Z",
   "articles": [
+    {
+      "slug": "novos-metodos-de-ia-aceleram-verificacao-de-software-e-hardware",
+      "headline": "Novos métodos de IA aceleram verificação de software e hardware",
+      "subtitle": "Pesquisa em aprendizado de máquina aborda gargalos em sistemas de satisfatibilidade lógica para aplicações críticas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.08808",
+      "category": "research",
+      "tags": [
+        "ia",
+        "verificacao de software",
+        "smt"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-08T08:43:55.157Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "arquitetura-cognitiva-busca-automatizar-processos-corporativos-com-adaptabilidad",
+      "headline": "Arquitetura Cognitiva Busca Automatizar Processos Corporativos com Adaptabilidade",
+      "subtitle": "Nova abordagem em IA promete lidar com instabilidade e feedback operacional em sistemas empresariais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.08793",
+      "category": "research",
+      "tags": [
+        "automacao",
+        "inteligencia artificial",
+        "arquitetura cognitiva"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 08 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-08T08:43:44.218Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-deepmind-lanca-embeddinggemma-2-modelo-multimodal-leve-e-aberto",
+      "headline": "Google DeepMind Lança EmbeddingGemma 2: Modelo Multimodal Leve e Aberto",
+      "subtitle": "A nova geração de modelos de embedding busca democratizar o acesso a capacidades avançadas de compreensão de dados multimodais no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "category": "google",
+      "tags": [
+        "embedding",
+        "multimodal",
+        "open source"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 06 Oct 2026 19:57:04 +0000",
+      "written_at": "2026-10-08T08:43:31.254Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "meta-acelera-expansao-do-assistente-de-ia-muse-com-lancamento-no-ipad",
       "headline": "Meta acelera expansão do assistente de IA Muse com lançamento no iPad",
