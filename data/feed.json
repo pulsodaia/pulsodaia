@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-08T08:43:55.270Z",
+  "generated_at": "2026-10-08T17:19:30.226Z",
   "articles": [
+    {
+      "slug": "goodfire-apresenta-monitoramento-de-ia-mais-acessivel",
+      "headline": "Goodfire Apresenta Monitoramento de IA Mais Acessível",
+      "subtitle": "Nova abordagem promete reduzir custos na supervisão de agentes autônomos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "monitoramento",
+        "goodfire"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 08 Oct 2026 16:00:00 +0000",
+      "written_at": "2026-10-08T17:19:30.131Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "natura-lanca-anel-inteligente-com-ia-integrada-por-us-99",
+      "headline": "Natura lança anel inteligente com IA integrada por US$ 99",
+      "subtitle": "Um dispositivo que promete colocar assistentes virtuais na ponta dos seus dedos, combinando conveniência e monitoramento de saúde.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+      "category": "mercado",
+      "tags": [
+        "anel inteligente",
+        "inteligência artificial",
+        "wearables"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 08 Oct 2026 16:00:00 +0000",
+      "written_at": "2026-10-08T17:19:19.811Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-lanca-falcon-asr-novo-modelo-para-reconhecimento-de-voz",
+      "headline": "Hugging Face Lança Falcon ASR: Novo Modelo para Reconhecimento de Voz",
+      "subtitle": "A Hugging Face, plataforma central para a comunidade de IA, anuncia o Falcon ASR, um avanço em sistemas de reconhecimento de fala.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "category": "opensource",
+      "tags": [
+        "asr",
+        "reconhecimento de voz",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 07 Oct 2026 13:21:03 GMT",
+      "written_at": "2026-10-08T17:19:09.109Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "novos-metodos-de-ia-aceleram-verificacao-de-software-e-hardware",
       "headline": "Novos métodos de IA aceleram verificação de software e hardware",
