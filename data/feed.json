@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-10-09T12:59:06.314Z",
+  "generated_at": "2026-10-09T19:25:35.060Z",
   "articles": [
+    {
+      "slug": "amazon-fim-de-sigilo-em-data-centers-e-ia-novas-fronteiras-de-negocios-e-privaci",
+      "headline": "Amazon Fim de Sigilo em Data Centers e IA: Novas Fronteiras de Negócios e Privacidade",
+      "subtitle": "A gigante do e-commerce busca transparência em infraestrutura de IA, enquanto startups exploram acesso a dados de consumidores.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+      "category": "mercado",
+      "tags": [
+        "amazon",
+        "data center",
+        "inteligência artificial",
+        "privacidade",
+        "finanças"
+      ],
+      "read_time_min": 4,
+      "published_at": "Fri, 09 Oct 2026 16:53:02 +0000",
+      "written_at": "2026-10-09T19:25:34.969Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "gigantes-da-nuvem-aboliram-sigilo-em-acordos-de-data-centers",
+      "headline": "Gigantes da Nuvem Aboliram Sigilo em Acordos de Data Centers",
+      "subtitle": "Mudança da Amazon e Microsoft busca mitigar oposição comunitária à infraestrutura de IA.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+      "category": "mercado",
+      "tags": [
+        "data centers",
+        "inteligência artificial",
+        "transparência"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 09 Oct 2026 16:56:42 +0000",
+      "written_at": "2026-10-09T19:25:23.761Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "otimizacao-de-agendamento-para-clusters-de-gpus-um-avanco-para-o-treinamento-de-",
+      "headline": "Otimização de Agendamento para Clusters de GPUs: Um Avanço para o Treinamento de IA",
+      "subtitle": "A eficiência no uso de recursos computacionais é crucial para o avanço da pesquisa e desenvolvimento de inteligência artificial no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "category": "opensource",
+      "tags": [
+        "gpu",
+        "agendamento",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 09 Oct 2026 15:20:29 GMT",
+      "written_at": "2026-10-09T19:25:12.782Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nova-abordagem-gera-dados-corporativos-por-simulacao-contornando-restricoes-de-a",
       "headline": "Nova Abordagem Gera Dados Corporativos por Simulação, Contornando Restrições de Acesso",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 09 Oct 2026 13:04:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 19:30:40 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Amazon Fim de Sigilo em Data Centers e IA: Novas Fronteiras de Negócios e Privacidade</title>
+      <link>https://pulsodaia.com.br/feed/amazon-fim-de-sigilo-em-data-centers-e-ia-novas-fronteiras-de-negocios-e-privaci/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-fim-de-sigilo-em-data-centers-e-ia-novas-fronteiras-de-negocios-e-privaci/</guid>
+      <pubDate>Fri, 09 Oct 2026 19:25:34 GMT</pubDate>
+      <description>A gigante do e-commerce busca transparência em infraestrutura de IA, enquanto startups exploram acesso a dados de consumidores.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Gigantes da Nuvem Aboliram Sigilo em Acordos de Data Centers</title>
+      <link>https://pulsodaia.com.br/feed/gigantes-da-nuvem-aboliram-sigilo-em-acordos-de-data-centers/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gigantes-da-nuvem-aboliram-sigilo-em-acordos-de-data-centers/</guid>
+      <pubDate>Fri, 09 Oct 2026 19:25:23 GMT</pubDate>
+      <description>Mudança da Amazon e Microsoft busca mitigar oposição comunitária à infraestrutura de IA.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Otimização de Agendamento para Clusters de GPUs: Um Avanço para o Treinamento de IA</title>
+      <link>https://pulsodaia.com.br/feed/otimizacao-de-agendamento-para-clusters-de-gpus-um-avanco-para-o-treinamento-de-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-de-agendamento-para-clusters-de-gpus-um-avanco-para-o-treinamento-de-/</guid>
+      <pubDate>Fri, 09 Oct 2026 19:25:12 GMT</pubDate>
+      <description>A eficiência no uso de recursos computacionais é crucial para o avanço da pesquisa e desenvolvimento de inteligência artificial no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/allenai/impactful-scheduling">Hugging Face</source>
+    </item>
     <item>
       <title>Nova Abordagem Gera Dados Corporativos por Simulação, Contornando Restrições de Acesso</title>
       <link>https://pulsodaia.com.br/feed/nova-abordagem-gera-dados-corporativos-por-simulacao-contornando-restricoes-de-a/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa explora como entender relações de causa e efeito melhora a tomada de decisão de IA em fluxos de trabalho interconectados.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.00012">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Memória de Agentes de IA: O Efeito Cauda Longa e Suas Implicações</title>
-      <link>https://pulsodaia.com.br/feed/memoria-de-agentes-de-ia-o-efeito-cauda-longa-e-suas-implicacoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/memoria-de-agentes-de-ia-o-efeito-cauda-longa-e-suas-implicacoes/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:10:40 GMT</pubDate>
-      <description>Pesquisa no arXiv revela como modelos de linguagem de longo alcance lidam com informações, com reflexos para a gestão de dados em sistemas brasileiros.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.00010">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>ServiceNow Inova em Geração de Dados Sintéticos para Agentes de IA Corporativos</title>
-      <link>https://pulsodaia.com.br/feed/servicenow-inova-em-geracao-de-dados-sinteticos-para-agentes-de-ia-corporativos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/servicenow-inova-em-geracao-de-dados-sinteticos-para-agentes-de-ia-corporativos/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:10:29 GMT</pubDate>
-      <description>Nova ferramenta promete agilizar o treinamento de modelos de IA para empresas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/ServiceNow-AI/autosynthdata">Hugging Face</source>
-    </item>
-    <item>
-      <title>Google Gemini Live Ganha Visão Guiada para Acessibilidade Visual</title>
-      <link>https://pulsodaia.com.br/feed/google-gemini-live-ganha-visao-guiada-para-acessibilidade-visual/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-gemini-live-ganha-visao-guiada-para-acessibilidade-visual/</guid>
-      <pubDate>Thu, 01 Oct 2026 23:50:00 GMT</pubDate>
-      <description>Nova funcionalidade do Gemini no Android promete auxiliar usuários com dificuldades visuais em tarefas cotidianas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision">The Verge AI</source>
     </item>
   </channel>
 </rss>
