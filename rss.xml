@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 08 Oct 2026 17:24:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 13:04:19 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nova Abordagem Gera Dados Corporativos por Simulação, Contornando Restrições de Acesso</title>
+      <link>https://pulsodaia.com.br/feed/nova-abordagem-gera-dados-corporativos-por-simulacao-contornando-restricoes-de-a/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-abordagem-gera-dados-corporativos-por-simulacao-contornando-restricoes-de-a/</guid>
+      <pubDate>Fri, 09 Oct 2026 12:59:06 GMT</pubDate>
+      <description>Pesquisa do arXiv propõe método "Schema-Free" para criar conjuntos de dados empresariais realistas, abrindo portas para treinamento de IA em ambientes restritos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.10549">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Novas ferramentas de IA avaliam qualidade de dados com foco em cabeçalhos de tabelas</title>
+      <link>https://pulsodaia.com.br/feed/novas-ferramentas-de-ia-avaliam-qualidade-de-dados-com-foco-em-cabecalhos-de-tab/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/novas-ferramentas-de-ia-avaliam-qualidade-de-dados-com-foco-em-cabecalhos-de-tab/</guid>
+      <pubDate>Fri, 09 Oct 2026 12:58:54 GMT</pubDate>
+      <description>Pesquisa em artigo científico propõe framework para garantir confiabilidade de metadados antes da integração em bases de conhecimento.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.10541">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Sob Medida: Desenvolvedores Criam Modelos Onde Antes Não Havia</title>
+      <link>https://pulsodaia.com.br/feed/ia-sob-medida-desenvolvedores-criam-modelos-onde-antes-nao-havia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-sob-medida-desenvolvedores-criam-modelos-onde-antes-nao-havia/</guid>
+      <pubDate>Fri, 09 Oct 2026 12:58:43 GMT</pubDate>
+      <description>A democratização da criação de modelos de IA avança, permitindo que equipes desenvolvam soluções personalizadas sem depender de ferramentas pré-existentes.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/building-with-ml-intern">Hugging Face</source>
+    </item>
     <item>
       <title>Goodfire Apresenta Monitoramento de IA Mais Acessível</title>
       <link>https://pulsodaia.com.br/feed/goodfire-apresenta-monitoramento-de-ia-mais-acessivel/</link>
@@ -430,33 +457,6 @@
       <description>Nova funcionalidade do Gemini no Android promete auxiliar usuários com dificuldades visuais em tarefas cotidianas.</description>
       <category>LANCAMENTO</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision">The Verge AI</source>
-    </item>
-    <item>
-      <title>Grok de Elon Musk supostamente aconselhou Trump sobre Venezuela</title>
-      <link>https://pulsodaia.com.br/feed/grok-de-elon-musk-supostamente-aconselhou-trump-sobre-venezuela/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/grok-de-elon-musk-supostamente-aconselhou-trump-sobre-venezuela/</guid>
-      <pubDate>Thu, 01 Oct 2026 23:49:51 GMT</pubDate>
-      <description>Relatos indicam que o chatbot de IA foi consultado sobre a captura de Nicolás Maduro.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>ChatGPT Integra Prova Virtual de Roupas e Acessórios</title>
-      <link>https://pulsodaia.com.br/feed/chatgpt-integra-prova-virtual-de-roupas-e-acessorios/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/chatgpt-integra-prova-virtual-de-roupas-e-acessorios/</guid>
-      <pubDate>Thu, 01 Oct 2026 19:24:32 GMT</pubDate>
-      <description>A OpenAI expande funcionalidades do ChatGPT para o varejo de moda, permitindo testes virtuais com fotos do usuário.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude 2.1.287 Expande Capacidade de Plugins com Novos Modos e Monitoramento</title>
-      <link>https://pulsodaia.com.br/feed/claude-2-1-287-expande-capacidade-de-plugins-com-novos-modos-e-monitoramento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-2-1-287-expande-capacidade-de-plugins-com-novos-modos-e-monitoramento/</guid>
-      <pubDate>Thu, 01 Oct 2026 19:24:22 GMT</pubDate>
-      <description>Anthropic introduz funcionalidades que permitem maior customização e segurança em interações com seu modelo de linguagem.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.287">Claude Code</source>
     </item>
   </channel>
 </rss>
