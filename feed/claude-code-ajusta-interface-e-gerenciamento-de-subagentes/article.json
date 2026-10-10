@@ -1,0 +1,53 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.296",
+  "title": "v2.1.296",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+  "summary": "<h2>What's changed</h2> <ul> <li>Added a <code>code</code> key to the Claude apps gateway's <code>managed.policies[]</code>: the same settings as <code>cli</code>, also applied in Claude Desktop's Code tab; beside <code>desktop</code>, it turns on Claude Desktop's gateway mode</li> <li>Added <code>autoCompactWindow</code> to subagent frontmatter and <code>--agents</code> definitions, so a subagent can auto-compact earlier than the main conversation's window</li> <li>Added <code>CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL</code> to run every workflow agent on one model while other subagents keep theirs</li> <li>Added <code>CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS</code> environment variable to set a longer maximum delay for the backoff when retrying an overloaded (529) request</li> <li>Added a note in <code>/plugin</code> on a plugin whose hooks are left out because another enabled plugin has the same name</li> <li>Added an <code>allow_large</code> option to the Read tool so Claude can read a ",
+  "published_at": "2026-10-09T19:28:59Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Ajusta Interface e Gerenciamento de Subagentes",
+  "subtitle": "Atualizações focam em controle granular e otimização de fluxos de trabalho para desenvolvedores.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão v2.1.296 do Claude Code, introduzindo modificações significativas na gestão de políticas e na configuração de subagentes. As mudanças visam aprimorar a experiência do usuário no Claude Desktop e o controle sobre a execução de fluxos de trabalho.",
+  "body_markdown": "## O que aconteceu\n\nA versão v2.1.296 do Claude Code traz novidades importantes para a organização e o uso do modelo. Uma das principais adições é a chave `code` dentro do gateway de aplicativos do Claude, especificamente em `managed.policies[]`. Essa configuração espelha as opções disponíveis na linha de comando (`cli`) e será aplicada na aba de Código do Claude Desktop. Complementarmente, a opção `desktop` ativa o modo gateway do Claude Desktop.\n\nOutra melhoria notável é a introdução de `autoCompactWindow` nas definições de subagentes e no `frontmatter`. Isso permite que um subagente compacte sua janela de conversa mais cedo do que a janela principal da conversa. Para otimizar o uso de recursos computacionais, foi adicionada a variável de ambiente `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL`. Ela permite que todos os agentes de fluxo de trabalho executem em um único modelo, enquanto outros subagentes mantêm seus modelos designados.\n\nAlém disso, a Anthropic implementou a variável de ambiente `CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS`. Esta variável permite definir um tempo de espera máximo maior para o mecanismo de retentativa quando solicitações sobrecarregadas (código de erro 529) são recebidas. Detalhes completos sobre estas e outras alterações podem ser consultados diretamente no [registro de lançamentos](https://github.com/anthropics/claude-code/releases/tag/v2.1.296).\n\n## Por que importa\n\nEssas atualizações impactam diretamente a forma como desenvolvedores e usuários avançados interagem com o Claude, especialmente no contexto de tarefas de codificação e fluxos de trabalho complexos. A granularidade no controle de políticas e a otimização de janelas de subagentes sugerem um movimento em direção a interfaces mais personalizáveis e eficientes. A capacidade de direcionar modelos específicos para agentes de fluxo de trabalho pode levar a um uso mais consciente dos recursos e a melhor desempenho em tarefas repetitivas. No Brasil, onde a adoção de ferramentas de IA para desenvolvimento e análise de código tem crescido, essas funcionalidades podem representar um avanço na produtividade.\n\n## O que esperar\n\nCom a introdução dessas novas configurações, espera-se que os usuários do Claude Desktop e da linha de comando possam gerenciar suas interações de forma mais refinada. A capacidade de auto-compactação de janelas de subagentes pode ser particularmente útil para manter a organização em sessões de trabalho extensas. A otimização de modelos para fluxos de trabalho específicos pode incentivar a criação de pipelines de IA mais especializados. A melhoria no tratamento de requisições sobrecarregadas indica um foco contínuo na robustez e confiabilidade do serviço. Para entender as implicações técnicas e as melhores práticas de uso, é recomendável acompanhar as atualizações e a documentação oficial, disponível em [GitHub](https://github.com/anthropics/claude-code/releases/tag/v2.1.296).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A versão v2.1.296 do Claude Code traz novidades importantes para a organização e o uso do modelo. Uma das principais adições é a chave <code>code</code> dentro do gateway de aplicativos do Claude, especificamente em <code>managed.policies[]</code>. Essa configuração espelha as opções disponíveis na linha de comando (<code>cli</code>) e será aplicada na aba de Código do Claude Desktop. Complementarmente, a opção <code>desktop</code> ativa o modo gateway do Claude Desktop.</p>\n\n<p>Outra melhoria notável é a introdução de <code>autoCompactWindow</code> nas definições de subagentes e no <code>frontmatter</code>. Isso permite que um subagente compacte sua janela de conversa mais cedo do que a janela principal da conversa. Para otimizar o uso de recursos computacionais, foi adicionada a variável de ambiente <code>CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL</code>. Ela permite que todos os agentes de fluxo de trabalho executem em um único modelo, enquanto outros subagentes mantêm seus modelos designados.</p>\n\n<p>Além disso, a Anthropic implementou a variável de ambiente <code>CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS</code>. Esta variável permite definir um tempo de espera máximo maior para o mecanismo de retentativa quando solicitações sobrecarregadas (código de erro 529) são recebidas. Detalhes completos sobre estas e outras alterações podem ser consultados diretamente no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.296\" target=\"_blank\" rel=\"external noopener\">registro de lançamentos</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Essas atualizações impactam diretamente a forma como desenvolvedores e usuários avançados interagem com o Claude, especialmente no contexto de tarefas de codificação e fluxos de trabalho complexos. A granularidade no controle de políticas e a otimização de janelas de subagentes sugerem um movimento em direção a interfaces mais personalizáveis e eficientes. A capacidade de direcionar modelos específicos para agentes de fluxo de trabalho pode levar a um uso mais consciente dos recursos e a melhor desempenho em tarefas repetitivas. No Brasil, onde a adoção de ferramentas de IA para desenvolvimento e análise de código tem crescido, essas funcionalidades podem representar um avanço na produtividade.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a introdução dessas novas configurações, espera-se que os usuários do Claude Desktop e da linha de comando possam gerenciar suas interações de forma mais refinada. A capacidade de auto-compactação de janelas de subagentes pode ser particularmente útil para manter a organização em sessões de trabalho extensas. A otimização de modelos para fluxos de trabalho específicos pode incentivar a criação de pipelines de IA mais especializados. A melhoria no tratamento de requisições sobrecarregadas indica um foco contínuo na robustez e confiabilidade do serviço. Para entender as implicações técnicas e as melhores práticas de uso, é recomendável acompanhar as atualizações e a documentação oficial, disponível em <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.296\" target=\"_blank\" rel=\"external noopener\">GitHub</a>.</p>",
+  "tags": [
+    "claude",
+    "anthropic",
+    "desenvolvimento"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.8,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "v2.1.296",
+    "IA",
+    "desenvolvimento de software",
+    "subagentes",
+    "políticas",
+    "fluxo de trabalho"
+  ],
+  "meta_description_seo": "Claude Code v2.1.296 atualiza gateway, políticas e subagentes para aprimorar a experiência de desenvolvedores.",
+  "faq": [
+    {
+      "q": "Quais foram as principais novidades na versão v2.1.296 do Claude Code?",
+      "a": "A atualização introduziu uma chave `code` para configurações de políticas, a opção `autoCompactWindow` para subagentes e a variável `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` para gerenciar modelos de agentes."
+    },
+    {
+      "q": "Como a nova versão melhora o uso do Claude Desktop?",
+      "a": "A chave `code` nas políticas e a opção `desktop` ativam o modo gateway, e a configuração `autoCompactWindow` permite uma melhor organização visual para subagentes."
+    },
+    {
+      "q": "O que a variável `CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS` faz?",
+      "a": "Ela permite configurar um tempo de espera maior ao tentar novamente solicitações que resultaram em erro de sobrecarga (529), melhorando a resiliência do sistema."
+    }
+  ],
+  "written_at": "2026-10-09T23:55:50.657Z",
+  "slug": "claude-code-ajusta-interface-e-gerenciamento-de-subagentes",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/d62f2246da963b4a9e47318fa942b33e3f9a0f8c0a37f82c7597a51716210c8d/anthropics/claude-code/releases/tag/v2.1.296"
+}

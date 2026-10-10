@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-09T19:25:35.060Z",
+  "generated_at": "2026-10-09T23:56:11.814Z",
   "articles": [
+    {
+      "slug": "modelo-de-ia-da-anthropic-alerta-policia-com-noticia-falsa-de-homicidio",
+      "headline": "Modelo de IA da Anthropic Alerta Polícia com Notícia Falsa de Homicídio",
+      "subtitle": "O incidente levanta questões sobre a confiabilidade de sistemas de IA em aplicações críticas.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "anthropic",
+        "falha de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 09 Oct 2026 19:36:56 +0000",
+      "written_at": "2026-10-09T23:56:11.768Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "jev-modelo-de-ia-nao-textual-atinge-us-7-5-bilhoes-em-semanas",
+      "headline": "Jev: Modelo de IA não textual atinge US$ 7,5 bilhões em semanas",
+      "subtitle": "A nova tecnologia promete eficiência que atrai grandes corporações.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "inteligência artificial",
+        "jej",
+        "type safe"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 09 Oct 2026 21:41:29 +0000",
+      "written_at": "2026-10-09T23:56:01.148Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-ajusta-interface-e-gerenciamento-de-subagentes",
+      "headline": "Claude Code Ajusta Interface e Gerenciamento de Subagentes",
+      "subtitle": "Atualizações focam em controle granular e otimização de fluxos de trabalho para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "desenvolvimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-09T19:28:59Z",
+      "written_at": "2026-10-09T23:55:50.657Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "amazon-fim-de-sigilo-em-data-centers-e-ia-novas-fronteiras-de-negocios-e-privaci",
       "headline": "Amazon Fim de Sigilo em Data Centers e IA: Novas Fronteiras de Negócios e Privacidade",
