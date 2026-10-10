@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 10 Oct 2026 00:01:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 05:30:53 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic Desconecta IA da Internet para Avaliações Internas</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-desconecta-ia-da-internet-para-avaliacoes-internas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-desconecta-ia-da-internet-para-avaliacoes-internas/</guid>
+      <pubDate>Sat, 10 Oct 2026 05:24:55 GMT</pubDate>
+      <description>A empresa busca estabilidade e controle em seus modelos de IA, impactando o desenvolvimento e testes no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Modelo de IA da Anthropic Alerta Polícia com Notícia Falsa de Homicídio</title>
       <link>https://pulsodaia.com.br/feed/modelo-de-ia-da-anthropic-alerta-policia-com-noticia-falsa-de-homicidio/</link>
@@ -448,15 +457,6 @@
       <description>Atualização da Anthropic foca em usabilidade e robustez para desenvolvedores que utilizam IA na codificação.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.288">Claude Code</source>
-    </item>
-    <item>
-      <title>Apple Restringe Acesso a Dados no macOS Frente a Riscos de Agentes de IA</title>
-      <link>https://pulsodaia.com.br/feed/apple-restringe-acesso-a-dados-no-macos-frente-a-riscos-de-agentes-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-restringe-acesso-a-dados-no-macos-frente-a-riscos-de-agentes-de-ia/</guid>
-      <pubDate>Fri, 02 Oct 2026 19:07:12 GMT</pubDate>
-      <description>A fabricante do iPhone busca antecipar ameaças à privacidade com a evolução das ferramentas de inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
