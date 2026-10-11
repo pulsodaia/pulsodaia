@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 11 Oct 2026 05:22:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 12:39:14 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nadella adota termo de Trump para IA e mira em OpenAI e Anthropic</title>
+      <link>https://pulsodaia.com.br/feed/nadella-adota-termo-de-trump-para-ia-e-mira-em-openai-e-anthropic/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nadella-adota-termo-de-trump-para-ia-e-mira-em-openai-e-anthropic/</guid>
+      <pubDate>Sun, 11 Oct 2026 12:32:06 GMT</pubDate>
+      <description>Mudança de linguagem da Microsoft levanta questões sobre estratégia corporativa e segurança de dados.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/">The Decoder</source>
+    </item>
+    <item>
+      <title>ArXiv limita submissões a duas por mês devido a avalanche de artigos de IA</title>
+      <link>https://pulsodaia.com.br/feed/arxiv-limita-submissoes-a-duas-por-mes-devido-a-avalanche-de-artigos-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/arxiv-limita-submissoes-a-duas-por-mes-devido-a-avalanche-de-artigos-de-ia/</guid>
+      <pubDate>Sun, 11 Oct 2026 12:31:47 GMT</pubDate>
+      <description>A plataforma de preprints busca conter o excesso de publicações de baixa qualidade que sobrecarregam moderadores voluntários.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/">The Decoder</source>
+    </item>
+    <item>
+      <title>Queda no custo de tokens de IA impulsiona demanda; cenário ideal para Jensen Huang</title>
+      <link>https://pulsodaia.com.br/feed/queda-no-custo-de-tokens-de-ia-impulsiona-demanda-cenario-ideal-para-jensen-huan/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/queda-no-custo-de-tokens-de-ia-impulsiona-demanda-cenario-ideal-para-jensen-huan/</guid>
+      <pubDate>Sun, 11 Oct 2026 12:31:35 GMT</pubDate>
+      <description>Entender a dinâmica de preços e consumo é crucial para o futuro da computação avançada no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/">The Decoder</source>
+    </item>
     <item>
       <title>Apple adquire tecnologia e equipe de startup de podcasts personalizados</title>
       <link>https://pulsodaia.com.br/feed/apple-adquire-tecnologia-e-equipe-de-startup-de-podcasts-personalizados/</link>
@@ -430,33 +457,6 @@
       <description>Estudo revela viés e censura em respostas de IAs desenvolvidas na China.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA de Código Aberto para a Lua: NASA e IBM Mapeiam Gelo Lunar com Dados Históricos</title>
-      <link>https://pulsodaia.com.br/feed/ia-de-codigo-aberto-para-a-lua-nasa-e-ibm-mapeiam-gelo-lunar-com-dados-historico/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-codigo-aberto-para-a-lua-nasa-e-ibm-mapeiam-gelo-lunar-com-dados-historico/</guid>
-      <pubDate>Sun, 04 Oct 2026 12:08:49 GMT</pubDate>
-      <description>Um novo modelo de IA da NASA e IBM promete refinar a busca por recursos lunares, com impacto direto em futuras missões espaciais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/">The Decoder</source>
-    </item>
-    <item>
-      <title>Atualização do Claude Code Corrige Falhas de Segurança e Estabilidade</title>
-      <link>https://pulsodaia.com.br/feed/atualizacao-do-claude-code-corrige-falhas-de-seguranca-e-estabilidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/atualizacao-do-claude-code-corrige-falhas-de-seguranca-e-estabilidade/</guid>
-      <pubDate>Sun, 04 Oct 2026 05:26:16 GMT</pubDate>
-      <description>A Anthropic lança correções pontuais para sua ferramenta de desenvolvimento, visando usuários brasileiros.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.289">Claude Code</source>
-    </item>
-    <item>
-      <title>Agente de IA Ignora Banco de Dados: Falha na Confiabilidade de Sistemas Autônomos</title>
-      <link>https://pulsodaia.com.br/feed/agente-de-ia-ignora-banco-de-dados-falha-na-confiabilidade-de-sistemas-autonomos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agente-de-ia-ignora-banco-de-dados-falha-na-confiabilidade-de-sistemas-autonomos/</guid>
-      <pubDate>Sat, 03 Oct 2026 22:47:32 GMT</pubDate>
-      <description>A precisão de sistemas de IA em seguir instruções é posta em xeque por um incidente recente.</description>
-      <category>ANALISE</category>
-      <source url="https://huggingface.co/blog/microsoft/thinkingbox">Hugging Face</source>
     </item>
   </channel>
 </rss>
