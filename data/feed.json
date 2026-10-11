@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-11T12:32:08.049Z",
+  "generated_at": "2026-10-11T18:44:49.716Z",
   "articles": [
+    {
+      "slug": "ia-local-a-experiencia-de-usar-modelos-de-ponta-no-seu-computador",
+      "headline": "IA Local: A Experiência de Usar Modelos de Ponta no Seu Computador",
+      "subtitle": "A complexidade e o potencial da inteligência artificial rodando offline, sem depender de serviços na nuvem, ganham destaque.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "category": "mercado",
+      "tags": [
+        "ia local",
+        "privacidade de dados",
+        "modelos de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-11T07:00:00-04:00",
+      "written_at": "2026-10-11T18:44:49.532Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-de-voz-longe-do-momento-chatgpt-avaliam-executivos",
+      "headline": "IA de Voz Longe do \"Momento ChatGPT\", Avaliam Executivos",
+      "subtitle": "Apesar dos avanços, a tecnologia ainda falha em compreender contextos cruciais, limitando sua adoção em massa.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "category": "mercado",
+      "tags": [
+        "ia de voz",
+        "inteligência artificial",
+        "contexto"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 11 Oct 2026 14:00:00 +0000",
+      "written_at": "2026-10-11T18:44:39.182Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "fim-do-sigilo-em-data-centers-nova-tatica-da-ia-para-conquistar-opositores",
+      "headline": "Fim do Sigilo em Data Centers: Nova Tática da IA para Conquistar Opositores?",
+      "subtitle": "A indústria de inteligência artificial busca transparência para mitigar conflitos sobre infraestrutura.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "data centers",
+        "transparência"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 11 Oct 2026 16:52:33 +0000",
+      "written_at": "2026-10-11T18:44:29.226Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "nadella-adota-termo-de-trump-para-ia-e-mira-em-openai-e-anthropic",
       "headline": "Nadella adota termo de Trump para IA e mira em OpenAI e Anthropic",
