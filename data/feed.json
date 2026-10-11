@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-10T18:24:10.757Z",
+  "generated_at": "2026-10-11T05:18:11.120Z",
   "articles": [
+    {
+      "slug": "apple-adquire-tecnologia-e-equipe-de-startup-de-podcasts-personalizados",
+      "headline": "Apple adquire tecnologia e equipe de startup de podcasts personalizados",
+      "subtitle": "Movimento indica aposta da gigante de Cupertino em conteúdo gerado por IA para audio.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "category": "mercado",
+      "tags": [
+        "apple",
+        "ia",
+        "podcasts"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 10 Oct 2026 19:50:00 +0000",
+      "written_at": "2026-10-11T05:18:11.070Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nadella-pede-freio-de-emergencia-para-modelos-de-ia",
+      "headline": "Nadella pede \"freio de emergência\" para modelos de IA",
+      "subtitle": "CEO da Microsoft levanta a necessidade de reavaliar a arquitetura de confiança em sistemas de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "seguranca de ia",
+        "satya nadella"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 10 Oct 2026 21:47:51 +0000",
+      "written_at": "2026-10-11T05:18:01.256Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "model-context-protocol-lanca-versao-1-0-0-padronizando-interacao-com-modelos-de-",
+      "headline": "Model Context Protocol Lança Versão 1.0.0, Padronizando Interação com Modelos de Linguagem",
+      "subtitle": "Nova especificação busca unificar a forma como desenvolvedores acessam e gerenciam dados para IAs.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "MCP Spec",
+      "source_url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "category": "claude-code",
+      "tags": [
+        "ia",
+        "desenvolvimento",
+        "padronizacao",
+        "mcp"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-11T03:05:26Z",
+      "written_at": "2026-10-11T05:17:49.935Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "openai-e-meta-a-guerra-pela-privacidade-dos-agentes-de-ia-comeca",
       "headline": "OpenAI e Meta: A Guerra pela Privacidade dos Agentes de IA Começa",

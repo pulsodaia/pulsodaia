@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 10 Oct 2026 18:29:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 05:22:46 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Apple adquire tecnologia e equipe de startup de podcasts personalizados</title>
+      <link>https://pulsodaia.com.br/feed/apple-adquire-tecnologia-e-equipe-de-startup-de-podcasts-personalizados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-adquire-tecnologia-e-equipe-de-startup-de-podcasts-personalizados/</guid>
+      <pubDate>Sun, 11 Oct 2026 05:18:11 GMT</pubDate>
+      <description>Movimento indica aposta da gigante de Cupertino em conteúdo gerado por IA para audio.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Nadella pede "freio de emergência" para modelos de IA</title>
+      <link>https://pulsodaia.com.br/feed/nadella-pede-freio-de-emergencia-para-modelos-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nadella-pede-freio-de-emergencia-para-modelos-de-ia/</guid>
+      <pubDate>Sun, 11 Oct 2026 05:18:01 GMT</pubDate>
+      <description>CEO da Microsoft levanta a necessidade de reavaliar a arquitetura de confiança em sistemas de inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Model Context Protocol Lança Versão 1.0.0, Padronizando Interação com Modelos de Linguagem</title>
+      <link>https://pulsodaia.com.br/feed/model-context-protocol-lanca-versao-1-0-0-padronizando-interacao-com-modelos-de-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/model-context-protocol-lanca-versao-1-0-0-padronizando-interacao-com-modelos-de-/</guid>
+      <pubDate>Sun, 11 Oct 2026 05:17:49 GMT</pubDate>
+      <description>Nova especificação busca unificar a forma como desenvolvedores acessam e gerenciam dados para IAs.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0">MCP Spec</source>
+    </item>
     <item>
       <title>OpenAI e Meta: A Guerra pela Privacidade dos Agentes de IA Começa</title>
       <link>https://pulsodaia.com.br/feed/openai-e-meta-a-guerra-pela-privacidade-dos-agentes-de-ia-comeca/</link>
@@ -430,33 +457,6 @@
       <description>A precisão de sistemas de IA em seguir instruções é posta em xeque por um incidente recente.</description>
       <category>ANALISE</category>
       <source url="https://huggingface.co/blog/microsoft/thinkingbox">Hugging Face</source>
-    </item>
-    <item>
-      <title>Agentes de IA em Mensagens: O Novo Fronte da Interação Digital</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-em-mensagens-o-novo-fronte-da-interacao-digital/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-em-mensagens-o-novo-fronte-da-interacao-digital/</guid>
-      <pubDate>Sat, 03 Oct 2026 19:11:06 GMT</pubDate>
-      <description>A inteligência artificial se integra ao cotidiano via SMS, prometendo automatizar tarefas e otimizar a comunicação.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Ex-funcionário de segurança da OpenAI alega "cultura quebrada" em carta de demissão</title>
-      <link>https://pulsodaia.com.br/feed/ex-funcionario-de-seguranca-da-openai-alega-cultura-quebrada-em-carta-de-demissa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ex-funcionario-de-seguranca-da-openai-alega-cultura-quebrada-em-carta-de-demissa/</guid>
-      <pubDate>Sat, 03 Oct 2026 19:10:54 GMT</pubDate>
-      <description>A saída de David Robinson levanta questões sobre a governança e a priorização da segurança em laboratórios de IA de ponta.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Amazon Abandona Acordos de Confidencialidade para Data Centers em Resposta a Críticas</title>
-      <link>https://pulsodaia.com.br/feed/amazon-abandona-acordos-de-confidencialidade-para-data-centers-em-resposta-a-cri/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/amazon-abandona-acordos-de-confidencialidade-para-data-centers-em-resposta-a-cri/</guid>
-      <pubDate>Sat, 03 Oct 2026 19:10:44 GMT</pubDate>
-      <description>A AWS busca dissipar desconfiança pública sobre suas operações de infraestrutura de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
