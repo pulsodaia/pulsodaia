@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-12T05:30:28.393Z",
+  "generated_at": "2026-10-12T15:04:22.786Z",
   "articles": [
+    {
+      "slug": "microsoft-maia-300-novo-chip-proprio-desafia-dominio-da-nvidia-em-ia",
+      "headline": "Microsoft Maia 300: Novo chip próprio desafia domínio da Nvidia em IA",
+      "subtitle": "A gigante de Redmond aposta em hardware customizado para otimizar seus serviços de inteligência artificial, buscando maior controle de custos e performance.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "category": "mercado",
+      "tags": [
+        "microsoft",
+        "ia",
+        "hardware"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-12T09:00:00-04:00",
+      "written_at": "2026-10-12T15:04:22.636Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ambi-capta-r-140-milhoes-para-app-de-ia-que-grava-conversas-em-segundo-plano",
+      "headline": "Ambi capta R$ 140 milhões para app de IA que grava conversas em segundo plano",
+      "subtitle": "Nova startup de ex-executivo da Plaud aposta em gravação ambiental contínua para produtividade.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "produtividade",
+        "privacidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 12 Oct 2026 12:47:59 +0000",
+      "written_at": "2026-10-12T15:04:12.417Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "techcrunch-disrupt-2026-ultima-chamada-para-descontos-em-ingressos",
+      "headline": "TechCrunch Disrupt 2026: Última chamada para descontos em ingressos",
+      "subtitle": "O evento de tecnologia em São Francisco se aproxima, com oportunidades de economia para participantes.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "category": "mercado",
+      "tags": [
+        "techcrunch disrupt",
+        "startups",
+        "tecnologia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 12 Oct 2026 14:00:00 +0000",
+      "written_at": "2026-10-12T15:04:01.933Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "elitetable-llms-guiam-busca-por-politicas-de-controle-de-ia-auto-aprimoraveis",
       "headline": "EliteTable: LLMs Guiam Busca por Políticas de Controle de IA Auto-Aprimoráveis",
