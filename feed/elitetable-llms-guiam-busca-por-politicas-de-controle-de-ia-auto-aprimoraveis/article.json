@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2610.12536v1",
+  "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+  "url": "https://arxiv.org/abs/2610.12536",
+  "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated across ten independently initialized searches. Candidate-score medians rose between the first and final generations in all six tasks, and selected-winner search-score medians rose in five. In CartPole-v1, the selected winner reached the search-score ceiling in the first generation of all ten searches. All ten paired held-out endpoints improved in four of the six tasks. BipedalWalker-v3 and CarRacing-v3 improved without reaching their reporting targets. Six of ten Acrobot-v1 searches declined on held-out episodes, and the median paired change was negat",
+  "published_at": "Mon, 12 Oct 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "EliteTable: LLMs Guiam Busca por Políticas de Controle de IA Auto-Aprimoráveis",
+  "subtitle": "Pesquisadores desenvolvem algoritmo que usa modelos de linguagem para otimizar a performance de sistemas de controle autônomos.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo algoritmo de busca, o EliteTable, utiliza Large Language Models (LLMs) para aprimorar a busca por políticas de controle executáveis. A abordagem se baseia em uma tabela de soluções de alta pontuação para guiar o desenvolvimento de novas propostas e edições, demonstrando melhorias consistentes em tarefas de controle.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores apresentaram o EliteTable, um algoritmo de busca que se auto-aprimora. A ferramenta emprega Large Language Models (LLMs) como guia para identificar e refinar políticas de controle executáveis. O método centraliza o aprendizado em uma tabela de capacidade fixa, armazenando soluções de alta performance. Essa base de conhecimento orienta a geração de novas propostas, a edição de soluções existentes e a combinação de diferentes estratégicas. A eficácia do EliteTable foi validada em seis tarefas de controle do ambiente Gymnasium. Em cada tarefa, o algoritmo passou por dez gerações de aprimoramento, com cinquenta posições para candidatos em cada ciclo. A avaliação foi realizada em dez buscas com inicializações independentes. Os resultados mostraram um aumento na mediana das pontuações dos candidatos entre a primeira e a última geração em todas as seis tarefas. A mediana da pontuação do vencedor selecionado também apresentou elevação em cinco das seis tarefas. Notavelmente, no ambiente CartPole-v1, o vencedor selecionado atingiu o teto de pontuação na primeira geração de todas as dez buscas. Detalhes técnicos e a arquitetura do algoritmo podem ser encontrados no artigo publicado em [arXiv](https://arxiv.org/abs/2610.12536).\n\n## Por que importa\n\nA capacidade de sistemas de IA aprenderem e se adaptarem autonomamente é crucial para o avanço em diversas áreas, desde robótica industrial até veículos autônomos. No contexto brasileiro, onde a automação e a otimização de processos são prioridades em setores como agronegócio e manufatura, um algoritmo como o EliteTable pode significar ganhos de eficiência e redução de custos. A busca por políticas de controle mais robustas e eficientes é um gargalo em muitas aplicações. A abordagem guiada por LLMs promete acelerar esse processo, tornando a IA mais acessível e aplicável a problemas complexos. A auto-otimização contínua reduz a necessidade de intervenção humana constante, um fator importante para a escalabilidade de soluções de IA em larga escala no país. A metodologia apresentada demonstra um caminho promissor para sistemas de controle mais inteligentes e adaptáveis.\n\n## O que esperar\n\nO sucesso demonstrado em tarefas de controle sugere que o EliteTable pode ser expandido para domínios mais complexos e aplicações do mundo real. A capacidade de aprimoramento contínuo, alimentada por LLMs, abre portas para a criação de sistemas de controle que se adaptam dinamicamente a novas condições e imprevistos. Futuras pesquisas podem focar na escalabilidade do algoritmo para problemas com espaços de busca maiores e na integração com diferentes tipos de sensores e atuadores. A validação em cenários simulados mais realistas e, posteriormente, em ambientes físicos, será um passo natural. A publicação em [arXiv](https://arxiv.org/abs/2610.12536) indica que a comunidade científica está acompanhando de perto esse desenvolvimento, o que pode estimular colaborações e novas aplicações. A expectativa é que essa linha de pesquisa contribua para o desenvolvimento de IA mais autônoma e eficiente em diversas indústrias.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores apresentaram o EliteTable, um algoritmo de busca que se auto-aprimora. A ferramenta emprega Large Language Models (LLMs) como guia para identificar e refinar políticas de controle executáveis. O método centraliza o aprendizado em uma tabela de capacidade fixa, armazenando soluções de alta performance. Essa base de conhecimento orienta a geração de novas propostas, a edição de soluções existentes e a combinação de diferentes estratégicas. A eficácia do EliteTable foi validada em seis tarefas de controle do ambiente Gymnasium. Em cada tarefa, o algoritmo passou por dez gerações de aprimoramento, com cinquenta posições para candidatos em cada ciclo. A avaliação foi realizada em dez buscas com inicializações independentes. Os resultados mostraram um aumento na mediana das pontuações dos candidatos entre a primeira e a última geração em todas as seis tarefas. A mediana da pontuação do vencedor selecionado também apresentou elevação em cinco das seis tarefas. Notavelmente, no ambiente CartPole-v1, o vencedor selecionado atingiu o teto de pontuação na primeira geração de todas as dez buscas. Detalhes técnicos e a arquitetura do algoritmo podem ser encontrados no artigo publicado em <a href=\"https://arxiv.org/abs/2610.12536\" target=\"_blank\" rel=\"external noopener\">arXiv</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de sistemas de IA aprenderem e se adaptarem autonomamente é crucial para o avanço em diversas áreas, desde robótica industrial até veículos autônomos. No contexto brasileiro, onde a automação e a otimização de processos são prioridades em setores como agronegócio e manufatura, um algoritmo como o EliteTable pode significar ganhos de eficiência e redução de custos. A busca por políticas de controle mais robustas e eficientes é um gargalo em muitas aplicações. A abordagem guiada por LLMs promete acelerar esse processo, tornando a IA mais acessível e aplicável a problemas complexos. A auto-otimização contínua reduz a necessidade de intervenção humana constante, um fator importante para a escalabilidade de soluções de IA em larga escala no país. A metodologia apresentada demonstra um caminho promissor para sistemas de controle mais inteligentes e adaptáveis.</p>\n\n<h2>O que esperar</h2>\n\n<p>O sucesso demonstrado em tarefas de controle sugere que o EliteTable pode ser expandido para domínios mais complexos e aplicações do mundo real. A capacidade de aprimoramento contínuo, alimentada por LLMs, abre portas para a criação de sistemas de controle que se adaptam dinamicamente a novas condições e imprevistos. Futuras pesquisas podem focar na escalabilidade do algoritmo para problemas com espaços de busca maiores e na integração com diferentes tipos de sensores e atuadores. A validação em cenários simulados mais realistas e, posteriormente, em ambientes físicos, será um passo natural. A publicação em <a href=\"https://arxiv.org/abs/2610.12536\" target=\"_blank\" rel=\"external noopener\">arXiv</a> indica que a comunidade científica está acompanhando de perto esse desenvolvimento, o que pode estimular colaborações e novas aplicações. A expectativa é que essa linha de pesquisa contribua para o desenvolvimento de IA mais autônoma e eficiente em diversas indústrias.</p>",
+  "tags": [
+    "ia",
+    "aprendizado de maquina",
+    "controle autonomo"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "EliteTable",
+    "LLMs",
+    "políticas de controle",
+    "IA auto-aprimorável",
+    "busca de programas",
+    "Gymnasium"
+  ],
+  "meta_description_seo": "EliteTable usa LLMs para otimizar busca por políticas de controle de IA. Algoritmo demonstra auto-aprimoramento em tarefas de controle.",
+  "faq": [
+    {
+      "q": "O que é o algoritmo EliteTable?",
+      "a": "EliteTable é um algoritmo de busca que usa Large Language Models (LLMs) para aprimorar a criação de políticas de controle executáveis para sistemas de IA. Ele aprende e se otimiza com base em soluções de alta pontuação."
+    },
+    {
+      "q": "Como o EliteTable melhora as políticas de controle?",
+      "a": "Ele utiliza uma tabela de soluções de sucesso para guiar a geração de novas propostas, editar as existentes e combinar diferentes estratégias, aumentando a performance em tarefas de controle."
+    },
+    {
+      "q": "Quais foram os resultados da avaliação do EliteTable?",
+      "a": "O algoritmo mostrou melhorias consistentes nas pontuações em seis tarefas de controle do Gymnasium, com o vencedor selecionado atingindo o teto de pontuação em uma tarefa específica na primeira geração."
+    }
+  ],
+  "written_at": "2026-10-12T05:30:28.344Z",
+  "slug": "elitetable-llms-guiam-busca-por-politicas-de-controle-de-ia-auto-aprimoraveis",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
