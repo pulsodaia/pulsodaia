@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 14 Oct 2026 18:32:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 23:11:13 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Flock CEO e controvérsia sobre detecção de som: promessa versus realidade</title>
+      <link>https://pulsodaia.com.br/feed/flock-ceo-e-controversia-sobre-deteccao-de-som-promessa-versus-realidade/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/flock-ceo-e-controversia-sobre-deteccao-de-som-promessa-versus-realidade/</guid>
+      <pubDate>Wed, 14 Oct 2026 23:05:54 GMT</pubDate>
+      <description>A tecnologia de vigilância por IA da Flock enfrenta escrutínio por inconsistências entre o que o CEO afirma e o que seu site descreve.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Anthropic Refina Claude Code com Novas Ferramentas para Desenvolvedores</title>
       <link>https://pulsodaia.com.br/feed/anthropic-refina-claude-code-com-novas-ferramentas-para-desenvolvedores/</link>
@@ -448,15 +457,6 @@
       <description>A democratização da criação de modelos de IA avança, permitindo que equipes desenvolvam soluções personalizadas sem depender de ferramentas pré-existentes.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/building-with-ml-intern">Hugging Face</source>
-    </item>
-    <item>
-      <title>Goodfire Apresenta Monitoramento de IA Mais Acessível</title>
-      <link>https://pulsodaia.com.br/feed/goodfire-apresenta-monitoramento-de-ia-mais-acessivel/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/goodfire-apresenta-monitoramento-de-ia-mais-acessivel/</guid>
-      <pubDate>Thu, 08 Oct 2026 17:19:30 GMT</pubDate>
-      <description>Nova abordagem promete reduzir custos na supervisão de agentes autônomos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
