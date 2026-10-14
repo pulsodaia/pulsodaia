@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-14T01:03:07.722Z",
+  "generated_at": "2026-10-14T07:23:36.551Z",
   "articles": [
+    {
+      "slug": "agentes-de-ia-em-data-science-falham-em-silencio-metodologia-e-dominio-ignorados",
+      "headline": "Agentes de IA em Data Science Falham em Silêncio: Metodologia e Domínio Ignorados em Avaliações",
+      "subtitle": "Um novo estudo aponta falhas críticas na forma como o desempenho de sistemas autônomos de ciência de dados é medido, com implicações para o mercado brasileiro.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.14115",
+      "category": "research",
+      "tags": [
+        "ia",
+        "ciencia de dados",
+        "agentes de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 14 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-14T07:23:36.424Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "avaliacao-de-ia-novo-teste-busca-medir-inteligencia-alem-da-humana",
+      "headline": "Avaliação de IA: Novo teste busca medir inteligência além da humana",
+      "subtitle": "Pesquisadores propõem método para testar sistemas que superam a capacidade humana em tarefas complexas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.14005",
+      "category": "research",
+      "tags": [
+        "inteligencia artificial",
+        "llm",
+        "testes de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 14 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-14T07:23:25.546Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-deepmind-e-governo-de-singapura-unem-forcas-contra-golpes-com-ia-embarcad",
+      "headline": "Google DeepMind e Governo de Singapura Unem Forças Contra Golpes com IA Embarcada",
+      "subtitle": "Novos modelos de IA rodando diretamente no dispositivo prometem proteger conversas privadas sem enviar dados para a nuvem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "segurança digital",
+        "privacidade",
+        "golpes"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 14 Oct 2026 02:00:14 +0000",
+      "written_at": "2026-10-14T07:23:15.487Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
     {
       "slug": "industrial-next-robos-de-fabrica-em-minutos-nao-semanas",
       "headline": "Industrial Next: Robôs de Fábrica em Minutos, Não Semanas",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 14 Oct 2026 01:08:16 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 07:29:02 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Agentes de IA em Data Science Falham em Silêncio: Metodologia e Domínio Ignorados em Avaliações</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-em-data-science-falham-em-silencio-metodologia-e-dominio-ignorados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-em-data-science-falham-em-silencio-metodologia-e-dominio-ignorados/</guid>
+      <pubDate>Wed, 14 Oct 2026 07:23:36 GMT</pubDate>
+      <description>Um novo estudo aponta falhas críticas na forma como o desempenho de sistemas autônomos de ciência de dados é medido, com implicações para o mercado brasileiro.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.14115">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Avaliação de IA: Novo teste busca medir inteligência além da humana</title>
+      <link>https://pulsodaia.com.br/feed/avaliacao-de-ia-novo-teste-busca-medir-inteligencia-alem-da-humana/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/avaliacao-de-ia-novo-teste-busca-medir-inteligencia-alem-da-humana/</guid>
+      <pubDate>Wed, 14 Oct 2026 07:23:25 GMT</pubDate>
+      <description>Pesquisadores propõem método para testar sistemas que superam a capacidade humana em tarefas complexas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.14005">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Google DeepMind e Governo de Singapura Unem Forças Contra Golpes com IA Embarcada</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-e-governo-de-singapura-unem-forcas-contra-golpes-com-ia-embarcad/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-e-governo-de-singapura-unem-forcas-contra-golpes-com-ia-embarcad/</guid>
+      <pubDate>Wed, 14 Oct 2026 07:23:15 GMT</pubDate>
+      <description>Novos modelos de IA rodando diretamente no dispositivo prometem proteger conversas privadas sem enviar dados para a nuvem.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/on-device-ai-scam-detection-mddi/">Google DeepMind</source>
+    </item>
     <item>
       <title>Industrial Next: Robôs de Fábrica em Minutos, Não Semanas</title>
       <link>https://pulsodaia.com.br/feed/industrial-next-robos-de-fabrica-em-minutos-nao-semanas/</link>
@@ -430,33 +457,6 @@
       <description>A nova geração de modelos de embedding busca democratizar o acesso a capacidades avançadas de compreensão de dados multimodais no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Meta acelera expansão do assistente de IA Muse com lançamento no iPad</title>
-      <link>https://pulsodaia.com.br/feed/meta-acelera-expansao-do-assistente-de-ia-muse-com-lancamento-no-ipad/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-acelera-expansao-do-assistente-de-ia-muse-com-lancamento-no-ipad/</guid>
-      <pubDate>Wed, 07 Oct 2026 19:51:15 GMT</pubDate>
-      <description>A ferramenta de inteligência artificial da Meta, lançada há um mês para celulares, agora chega a tablets, ampliando seu alcance.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Atualiza Claude, Foco em Eficiência e Nova Versão Haiku</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-atualiza-claude-foco-em-eficiencia-e-nova-versao-haiku/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-atualiza-claude-foco-em-eficiencia-e-nova-versao-haiku/</guid>
-      <pubDate>Wed, 07 Oct 2026 19:51:04 GMT</pubDate>
-      <description>Novidades na API de modelos de linguagem prometem otimizar interações e desenvolvimento.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.293">Claude Code</source>
-    </item>
-    <item>
-      <title>Modelos de Decisão Multimodais para Edge: Open D1 Chega ao Mercado</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-decisao-multimodais-para-edge-open-d1-chega-ao-mercado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-decisao-multimodais-para-edge-open-d1-chega-ao-mercado/</guid>
-      <pubDate>Wed, 07 Oct 2026 19:50:53 GMT</pubDate>
-      <description>Inovação da Hugging Face foca em processamento de dados complexos diretamente em dispositivos, com potencial impacto em aplicações no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/LiquidAI/open-d1">Hugging Face</source>
     </item>
   </channel>
 </rss>

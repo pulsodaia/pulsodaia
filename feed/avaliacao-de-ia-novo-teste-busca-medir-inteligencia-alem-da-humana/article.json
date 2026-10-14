@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2610.14005v1",
+  "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+  "url": "https://arxiv.org/abs/2610.14005",
+  "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language",
+  "published_at": "Wed, 14 Oct 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Avaliação de IA: Novo teste busca medir inteligência além da humana",
+  "subtitle": "Pesquisadores propõem método para testar sistemas que superam a capacidade humana em tarefas complexas.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Com o avanço acelerado da inteligência artificial, testes atuais para avaliar LLMs (Large Language Models) e outras IAs correm o risco de se tornarem obsoletos rapidamente. Uma nova proposta de pesquisa, publicada no arXiv, sugere um caminho para medir capacidades que podem transcender a inteligência humana.",
+  "body_markdown": "## O que aconteceu\n\nA pesquisa \"Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence\", disponível em <a href=\"https://arxiv.org/abs/2610.14005\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>, aborda o desafio de avaliar sistemas de IA que podem em breve ultrapassar as capacidades humanas e até mesmo as dos criadores de testes. A dificuldade de benchmarks tradicionais, calibrados com humanos ou IAs atuais, satura rapidamente. A solução proposta reside em problemas inversos, um tipo de inferência indutiva onde a complexidade da tarefa está ligada à complexidade do mecanismo subjacente, dadas as observações e o conhecimento prévio. A complexidade de Kolmogorov, especificamente sua variante computável Kt de Levin, é apresentada como um limite teórico para essa dificuldade. Essa medida equilibra a representação mais simples de um mecanismo com o tempo necessário para executá-lo.\n\n## Por que importa\n\nNo Brasil, onde o ecossistema de IA está em expansão e a adoção de tecnologias avançadas se intensifica, a capacidade de medir o progresso de forma confiável é crucial. A validação de sistemas de IA mais avançados impacta diretamente o desenvolvimento de novas aplicações em setores como saúde, finanças e automação industrial. Sem métricas adequadas, a inovação pode ser prejudicada por avaliações imprecisas ou desatualizadas, dificultando a tomada de decisões estratégicas por empresas e governos. A proposta de um teste que avalie a inteligência \"supra-humana\" abre portas para entender os limites e o potencial real dessas tecnologias, preparando o país para um futuro onde IAs mais capazes serão protagonistas.\n\n## O que esperar\n\nA pesquisa sugere que testes baseados em problemas inversos e inferência indutiva podem oferecer uma escala de dificuldade mais resiliente ao rápido progresso da IA. A complexidade de Kolmogorov (Kt) fornece uma base teórica para quantificar essa dificuldade, permitindo a criação de avaliações que se mantêm relevantes por mais tempo. Isso significa que, à medida que os LLMs e outros sistemas de IA se tornam mais sofisticados, os testes baseados neste framework continuarão a apresentar desafios significativos, permitindo uma avaliação contínua e precisa de suas capacidades. A comunidade de pesquisa em IA deverá explorar e refinar esses métodos para garantir que o desenvolvimento tecnológico seja acompanhado por uma compreensão sólida de suas implicações e potencialidades, como discutido em <a href=\"https://arxiv.org/abs/2610.14005\" target=\"_blank\" rel=\"external noopener\">o artigo original</a>.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A pesquisa \"Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence\", disponível em <a href=\"https://arxiv.org/abs/2610.14005\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>, aborda o desafio de avaliar sistemas de IA que podem em breve ultrapassar as capacidades humanas e até mesmo as dos criadores de testes. A dificuldade de benchmarks tradicionais, calibrados com humanos ou IAs atuais, satura rapidamente. A solução proposta reside em problemas inversos, um tipo de inferência indutiva onde a complexidade da tarefa está ligada à complexidade do mecanismo subjacente, dadas as observações e o conhecimento prévio. A complexidade de Kolmogorov, especificamente sua variante computável Kt de Levin, é apresentada como um limite teórico para essa dificuldade. Essa medida equilibra a representação mais simples de um mecanismo com o tempo necessário para executá-lo.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, onde o ecossistema de IA está em expansão e a adoção de tecnologias avançadas se intensifica, a capacidade de medir o progresso de forma confiável é crucial. A validação de sistemas de IA mais avançados impacta diretamente o desenvolvimento de novas aplicações em setores como saúde, finanças e automação industrial. Sem métricas adequadas, a inovação pode ser prejudicada por avaliações imprecisas ou desatualizadas, dificultando a tomada de decisões estratégicas por empresas e governos. A proposta de um teste que avalie a inteligência \"supra-humana\" abre portas para entender os limites e o potencial real dessas tecnologias, preparando o país para um futuro onde IAs mais capazes serão protagonistas.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pesquisa sugere que testes baseados em problemas inversos e inferência indutiva podem oferecer uma escala de dificuldade mais resiliente ao rápido progresso da IA. A complexidade de Kolmogorov (Kt) fornece uma base teórica para quantificar essa dificuldade, permitindo a criação de avaliações que se mantêm relevantes por mais tempo. Isso significa que, à medida que os LLMs e outros sistemas de IA se tornam mais sofisticados, os testes baseados neste framework continuarão a apresentar desafios significativos, permitindo uma avaliação contínua e precisa de suas capacidades. A comunidade de pesquisa em IA deverá explorar e refinar esses métodos para garantir que o desenvolvimento tecnológico seja acompanhado por uma compreensão sólida de suas implicações e potencialidades, como discutido em <a href=\"https://arxiv.org/abs/2610.14005\" target=\"_blank\" rel=\"external noopener\">o artigo original</a>.</p>",
+  "tags": [
+    "inteligencia artificial",
+    "llm",
+    "testes de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "llm",
+    "testes de IA",
+    "complexidade de Kolmogorov",
+    "problemas inversos",
+    "suprainteligencia"
+  ],
+  "meta_description_seo": "Pesquisa propõe teste para avaliar IAs com inteligência superior à humana, utilizando problemas inversos e complexidade de Kolmogorov.",
+  "faq": [
+    {
+      "q": "Qual o principal problema com os testes atuais de IA?",
+      "a": "Testes atuais, calibrados com humanos ou IAs existentes, tornam-se obsoletos rapidamente devido ao avanço acelerado da tecnologia de IA."
+    },
+    {
+      "q": "Como a nova pesquisa propõe resolver esse problema?",
+      "a": "A pesquisa sugere o uso de problemas inversos e inferência indutiva, cuja dificuldade está ligada à complexidade do mecanismo subjacente, usando a complexidade de Kolmogorov como medida."
+    },
+    {
+      "q": "O que significa testar \"suprainteligência\"?",
+      "a": "Significa avaliar sistemas de IA que podem demonstrar capacidades e níveis de raciocínio superiores aos da inteligência humana, superando as limitações dos testes atuais."
+    }
+  ],
+  "written_at": "2026-10-14T07:23:25.546Z",
+  "slug": "avaliacao-de-ia-novo-teste-busca-medir-inteligencia-alem-da-humana",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

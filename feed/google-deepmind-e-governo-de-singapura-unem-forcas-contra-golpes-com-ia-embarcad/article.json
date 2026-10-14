@@ -1,0 +1,50 @@
+{
+  "id": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+  "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+  "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+  "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+  "published_at": "Wed, 14 Oct 2026 02:00:14 +0000",
+  "source_id": "deepmind-blog",
+  "source_name": "Google DeepMind",
+  "category": "google",
+  "source_type": "blog-oficial",
+  "headline": "Google DeepMind e Governo de Singapura Unem Forças Contra Golpes com IA Embarcada",
+  "subtitle": "Novos modelos de IA rodando diretamente no dispositivo prometem proteger conversas privadas sem enviar dados para a nuvem.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Google DeepMind e o governo de Singapura anunciaram uma colaboração focada no desenvolvimento de um modelo de inteligência artificial capaz de detectar golpes em conversas privadas. A inovação reside na execução do modelo diretamente no dispositivo do usuário, garantindo a privacidade dos dados.",
+  "body_markdown": "## O que aconteceu\n\nA Google DeepMind e a agência GovTech de Singapura firmaram parceria para criar um sistema de detecção de golpes que opera de forma embarcada. Utilizando modelos leves da família Gemma, a solução processa informações diretamente no aparelho do usuário, eliminando a necessidade de enviar dados conversacionais para servidores na nuvem. Essa abordagem visa interceptar atividades fraudulentas em tempo real, protegendo os usuários sem comprometer sua privacidade. A tecnologia foi detalhada em [comunicado oficial da Google DeepMind](https://deepmind.google/blog/on-device-ai-scam-detection-mddi/).\n\n## Por que importa\n\nA proliferação de golpes online, especialmente aqueles que exploram engenharia social em aplicativos de mensagens, representa um desafio crescente para a segurança digital. No Brasil, onde a penetração de smartphones é alta e o uso de aplicativos de comunicação é massivo, a capacidade de detectar e prevenir fraudes de forma privada e eficaz é crucial. A solução desenvolvida por DeepMind e GovTech Singapura, ao rodar localmente, oferece um nível de proteção que não depende de infraestrutura em nuvem, o que pode ser particularmente vantajoso em cenários de conectividade limitada ou para usuários com preocupações rigorosas sobre a privacidade de seus dados. A tecnologia pode ser adaptada para identificar padrões de linguagem e comportamento associados a diversos tipos de golpes, desde phishing até esquemas de investimento fraudulentos, protegendo os cidadãos de perdas financeiras e danos à reputação.\n\n## O que esperar\n\nA expectativa é que essa tecnologia, uma vez refinada e implementada em larga escala, possa ser integrada a diversas plataformas de comunicação e serviços digitais. A capacidade de operar de forma autônoma no dispositivo abre portas para novas aplicações de segurança e privacidade. A Google DeepMind e a GovTech Singapura continuarão a explorar as capacidades dos modelos Gemma em cenários de segurança, com potencial para expandir o escopo de detecção para outras ameaças cibernéticas. A colaboração demonstra um caminho promissor para o uso de IA no combate a crimes digitais, priorizando a proteção do usuário. Mais detalhes sobre as iniciativas e o desenvolvimento técnico podem ser encontrados no [blog da Google DeepMind](https://deepmind.google/blog/on-device-ai-scam-detection-mddi/).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Google DeepMind e a agência GovTech de Singapura firmaram parceria para criar um sistema de detecção de golpes que opera de forma embarcada. Utilizando modelos leves da família Gemma, a solução processa informações diretamente no aparelho do usuário, eliminando a necessidade de enviar dados conversacionais para servidores na nuvem. Essa abordagem visa interceptar atividades fraudulentas em tempo real, protegendo os usuários sem comprometer sua privacidade. A tecnologia foi detalhada em <a href=\"https://deepmind.google/blog/on-device-ai-scam-detection-mddi/\" target=\"_blank\" rel=\"external noopener\">comunicado oficial da Google DeepMind</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A proliferação de golpes online, especialmente aqueles que exploram engenharia social em aplicativos de mensagens, representa um desafio crescente para a segurança digital. No Brasil, onde a penetração de smartphones é alta e o uso de aplicativos de comunicação é massivo, a capacidade de detectar e prevenir fraudes de forma privada e eficaz é crucial. A solução desenvolvida por DeepMind e GovTech Singapura, ao rodar localmente, oferece um nível de proteção que não depende de infraestrutura em nuvem, o que pode ser particularmente vantajoso em cenários de conectividade limitada ou para usuários com preocupações rigorosas sobre a privacidade de seus dados. A tecnologia pode ser adaptada para identificar padrões de linguagem e comportamento associados a diversos tipos de golpes, desde phishing até esquemas de investimento fraudulentos, protegendo os cidadãos de perdas financeiras e danos à reputação.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que essa tecnologia, uma vez refinada e implementada em larga escala, possa ser integrada a diversas plataformas de comunicação e serviços digitais. A capacidade de operar de forma autônoma no dispositivo abre portas para novas aplicações de segurança e privacidade. A Google DeepMind e a GovTech Singapura continuarão a explorar as capacidades dos modelos Gemma em cenários de segurança, com potencial para expandir o escopo de detecção para outras ameaças cibernéticas. A colaboração demonstra um caminho promissor para o uso de IA no combate a crimes digitais, priorizando a proteção do usuário. Mais detalhes sobre as iniciativas e o desenvolvimento técnico podem ser encontrados no <a href=\"https://deepmind.google/blog/on-device-ai-scam-detection-mddi/\" target=\"_blank\" rel=\"external noopener\">blog da Google DeepMind</a>.</p>",
+  "tags": [
+    "ia",
+    "segurança digital",
+    "privacidade",
+    "golpes"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "IA embarcada",
+    "detecção de golpes",
+    "Google DeepMind",
+    "GovTech Singapura",
+    "Gemma",
+    "privacidade de dados"
+  ],
+  "meta_description_seo": "Google DeepMind e GovTech Singapura colaboram em IA embarcada para detectar golpes em conversas privadas sem enviar dados para a nuvem.",
+  "faq": [
+    {
+      "q": "Como essa nova IA detecta golpes?",
+      "a": "A IA utiliza modelos de linguagem leves que rodam diretamente no dispositivo do usuário. Ela analisa os padrões de conversa para identificar características de atividades fraudulentas."
+    },
+    {
+      "q": "Meus dados de conversa são enviados para a nuvem?",
+      "a": "Não. A principal característica dessa tecnologia é que todo o processamento ocorre localmente no seu aparelho, garantindo que seus dados de conversa não saiam do dispositivo."
+    },
+    {
+      "q": "Essa tecnologia estará disponível para o público geral em breve?",
+      "a": "O anúncio foca na colaboração e no desenvolvimento técnico. Detalhes sobre a implementação em produtos de consumo ainda não foram divulgados."
+    }
+  ],
+  "written_at": "2026-10-14T07:23:15.487Z",
+  "slug": "google-deepmind-e-governo-de-singapura-unem-forcas-contra-golpes-com-ia-embarcad"
+}
