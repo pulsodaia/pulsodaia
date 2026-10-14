@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-10-14T13:32:48.100Z",
+  "generated_at": "2026-10-14T18:27:15.153Z",
   "articles": [
+    {
+      "slug": "anthropic-refina-claude-code-com-novas-ferramentas-para-desenvolvedores",
+      "headline": "Anthropic Refina Claude Code com Novas Ferramentas para Desenvolvedores",
+      "subtitle": "Atualizações na plataforma visam melhorar a experiência de modding e a integração com serviços AWS.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "desenvolvimento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-14T18:24:25Z",
+      "written_at": "2026-10-14T18:27:14.461Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-simula-clima-extremo-com-precisao-e-custo-reduzido",
+      "headline": "IA simula clima extremo com precisão e custo reduzido",
+      "subtitle": "Nova ferramenta promete democratizar a previsão de eventos climáticos severos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "clima",
+        "meteorologia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 14 Oct 2026 16:12:42 GMT",
+      "written_at": "2026-10-14T18:27:02.660Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "engenheiro-da-openai-e-preso-por-plantar-dispositivo-de-espionagem-com-ajuda-de-",
       "headline": "Engenheiro da OpenAI é preso por plantar dispositivo de espionagem com ajuda de chatbot",

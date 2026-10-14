@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 14 Oct 2026 13:37:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 18:32:15 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic Refina Claude Code com Novas Ferramentas para Desenvolvedores</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-refina-claude-code-com-novas-ferramentas-para-desenvolvedores/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-refina-claude-code-com-novas-ferramentas-para-desenvolvedores/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:27:14 GMT</pubDate>
+      <description>Atualizações na plataforma visam melhorar a experiência de modding e a integração com serviços AWS.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.300">Claude Code</source>
+    </item>
+    <item>
+      <title>IA simula clima extremo com precisão e custo reduzido</title>
+      <link>https://pulsodaia.com.br/feed/ia-simula-clima-extremo-com-precisao-e-custo-reduzido/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-simula-clima-extremo-com-precisao-e-custo-reduzido/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:27:02 GMT</pubDate>
+      <description>Nova ferramenta promete democratizar a previsão de eventos climáticos severos no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/allenai/hiro-acev2">Hugging Face</source>
+    </item>
     <item>
       <title>Engenheiro da OpenAI é preso por plantar dispositivo de espionagem com ajuda de chatbot</title>
       <link>https://pulsodaia.com.br/feed/engenheiro-da-openai-e-preso-por-plantar-dispositivo-de-espionagem-com-ajuda-de-/</link>
@@ -439,24 +457,6 @@
       <description>Nova abordagem promete reduzir custos na supervisão de agentes autônomos.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Natura lança anel inteligente com IA integrada por US$ 99</title>
-      <link>https://pulsodaia.com.br/feed/natura-lanca-anel-inteligente-com-ia-integrada-por-us-99/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/natura-lanca-anel-inteligente-com-ia-integrada-por-us-99/</guid>
-      <pubDate>Thu, 08 Oct 2026 17:19:19 GMT</pubDate>
-      <description>Um dispositivo que promete colocar assistentes virtuais na ponta dos seus dedos, combinando conveniência e monitoramento de saúde.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Hugging Face Lança Falcon ASR: Novo Modelo para Reconhecimento de Voz</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-lanca-falcon-asr-novo-modelo-para-reconhecimento-de-voz/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-lanca-falcon-asr-novo-modelo-para-reconhecimento-de-voz/</guid>
-      <pubDate>Thu, 08 Oct 2026 17:19:09 GMT</pubDate>
-      <description>A Hugging Face, plataforma central para a comunidade de IA, anuncia o Falcon ASR, um avanço em sistemas de reconhecimento de fala.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/tiiuae/falcon-asr">Hugging Face</source>
     </item>
   </channel>
 </rss>
