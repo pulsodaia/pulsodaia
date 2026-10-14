@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-14T07:23:36.551Z",
+  "generated_at": "2026-10-14T13:32:48.100Z",
   "articles": [
+    {
+      "slug": "engenheiro-da-openai-e-preso-por-plantar-dispositivo-de-espionagem-com-ajuda-de-",
+      "headline": "Engenheiro da OpenAI é preso por plantar dispositivo de espionagem com ajuda de chatbot",
+      "subtitle": "O caso levanta questões sobre a segurança de dados e o uso indevido de ferramentas de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "segurança",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 14 Oct 2026 12:37:05 +0000",
+      "written_at": "2026-10-14T13:32:46.407Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-para-defesa-cibernetica-orion-1-surge-para-fechar-lacuna-criada-por-barreiras",
+      "headline": "IA para Defesa Cibernética: Orion-1 Surge para Fechar Lacuna Criada por Barreiras de Segurança",
+      "subtitle": "Novos modelos de IA focados em cibersegurança buscam contornar restrições que limitam a atuação de defensores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "cibersegurança",
+        "orion-1"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 14 Oct 2026 13:24:22 +0000",
+      "written_at": "2026-10-14T13:32:34.681Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "scimplify-capta-us-25-milhoes-para-reduzir-dominio-chines-em-materiais-criticos-",
+      "headline": "Scimplify capta US$ 25 milhões para reduzir domínio chinês em materiais críticos com IA",
+      "subtitle": "A empresa busca expandir operações nos EUA e diversificar cadeias de suprimentos globais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "materiais criticos",
+        "financiamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 14 Oct 2026 11:00:00 +0000",
+      "written_at": "2026-10-14T13:32:24.145Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "agentes-de-ia-em-data-science-falham-em-silencio-metodologia-e-dominio-ignorados",
       "headline": "Agentes de IA em Data Science Falham em Silêncio: Metodologia e Domínio Ignorados em Avaliações",
