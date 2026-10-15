@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-15T11:13:48.146Z",
+  "generated_at": "2026-10-15T16:44:32.443Z",
   "articles": [
+    {
+      "slug": "hugging-face-libera-flux-3-modelo-de-difusao-de-imagem-com-foco-em-pequenos-tama",
+      "headline": "Hugging Face Libera FLUX.3, Modelo de Difusão de Imagem com Foco em Pequenos Tamanhos",
+      "subtitle": "A novidade promete democratizar a criação de imagens de alta qualidade em dispositivos com recursos limitados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/flux-3",
+      "category": "opensource",
+      "tags": [
+        "difusão",
+        "imagem",
+        "hugginface"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "written_at": "2026-10-15T16:44:32.335Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "apertus-1-5-chega-com-melhorias-em-eficiencia-e-acessibilidade",
+      "headline": "Apertus 1.5 Chega com Melhorias em Eficiência e Acessibilidade",
+      "subtitle": "A nova versão promete otimizar o uso de modelos de linguagem em diversas aplicações.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "category": "opensource",
+      "tags": [
+        "apertus",
+        "hugging face",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 15 Oct 2026 09:08:45 GMT",
+      "written_at": "2026-10-15T16:44:22.228Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "google-antigravity-acelera-descoberta-de-peptideos-antimicrobianos",
+      "headline": "Google Antigravity Acelera Descoberta de Peptídeos Antimicrobianos",
+      "subtitle": "Nova ferramenta de IA do Google DeepMind pode agilizar a busca por soluções contra superbactérias no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "saude",
+        "descoberta de farmacos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 15 Oct 2026 16:08:03 +0000",
+      "written_at": "2026-10-15T16:44:11.769Z",
+      "quality_score": 0.85,
+      "hero_image": null
+    },
     {
       "slug": "receita-da-anthropic-atinge-us-16-8-bilhoes-no-3-trimestre-mas-crescimento-desac",
       "headline": "Receita da Anthropic Atinge US$ 16,8 Bilhões no 3º Trimestre, Mas Crescimento Desacelera Antes de IPO",
