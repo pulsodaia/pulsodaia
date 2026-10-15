@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 14 Oct 2026 23:11:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 04:16:46 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA em Cobrança: Agentes de Voz Podem Seguir Leis Complexas Sem Treinamento Específico</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-cobranca-agentes-de-voz-podem-seguir-leis-complexas-sem-treinamento-especi/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-cobranca-agentes-de-voz-podem-seguir-leis-complexas-sem-treinamento-especi/</guid>
+      <pubDate>Thu, 15 Oct 2026 04:11:01 GMT</pubDate>
+      <description>Pesquisa no arXiv propõe método para que assistentes virtuais se adaptem a regulamentações de dívidas sem reprogramação constante.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.18881">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>Flock CEO e controvérsia sobre detecção de som: promessa versus realidade</title>
       <link>https://pulsodaia.com.br/feed/flock-ceo-e-controversia-sobre-deteccao-de-som-promessa-versus-realidade/</link>
@@ -448,15 +457,6 @@
       <description>Pesquisa em artigo científico propõe framework para garantir confiabilidade de metadados antes da integração em bases de conhecimento.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.10541">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Sob Medida: Desenvolvedores Criam Modelos Onde Antes Não Havia</title>
-      <link>https://pulsodaia.com.br/feed/ia-sob-medida-desenvolvedores-criam-modelos-onde-antes-nao-havia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-sob-medida-desenvolvedores-criam-modelos-onde-antes-nao-havia/</guid>
-      <pubDate>Fri, 09 Oct 2026 12:58:43 GMT</pubDate>
-      <description>A democratização da criação de modelos de IA avança, permitindo que equipes desenvolvam soluções personalizadas sem depender de ferramentas pré-existentes.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/building-with-ml-intern">Hugging Face</source>
     </item>
   </channel>
 </rss>
