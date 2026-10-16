@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-15T16:44:32.443Z",
+  "generated_at": "2026-10-16T00:12:44.045Z",
   "articles": [
+    {
+      "slug": "claude-code-v2-1-301-ajustes-em-retry-mode-e-integracao-com-opentelemetry",
+      "headline": "Claude Code v2.1.301: Ajustes em Retry Mode e Integração com OpenTelemetry",
+      "subtitle": "Atualizações no projeto Claude Code focam em controle de uso e observabilidade para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "ia",
+        "opentelemetry",
+        "desenvolvimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-15T19:22:06Z",
+      "written_at": "2026-10-16T00:12:43.356Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "meta-lanca-muse-spark-open-modelo-multimodal-de-mistura-de-especialistas-abertos",
+      "headline": "Meta Lança Muse Spark Open: Modelo Multimodal de Mistura de Especialistas Abertos",
+      "subtitle": "A Meta disponibiliza um novo modelo de IA aberto, prometendo avanços em compreensão e geração multimodal para a comunidade brasileira.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "category": "opensource",
+      "tags": [
+        "meta",
+        "ia aberta",
+        "multimodal"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "written_at": "2026-10-16T00:12:23.786Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ibm-unifica-chat-decisoes-e-voz-com-novo-modelo-granite-switch-4-1",
+      "headline": "IBM Unifica Chat, Decisões e Voz com Novo Modelo Granite Switch 4.1",
+      "subtitle": "A tecnologia promete simplificar a interação com inteligência artificial para empresas no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "category": "opensource",
+      "tags": [
+        "ibm",
+        "granite",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 15 Oct 2026 20:34:01 GMT",
+      "written_at": "2026-10-16T00:12:13.553Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "hugging-face-libera-flux-3-modelo-de-difusao-de-imagem-com-foco-em-pequenos-tama",
       "headline": "Hugging Face Libera FLUX.3, Modelo de Difusão de Imagem com Foco em Pequenos Tamanhos",

@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:50:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:17:40 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code v2.1.301: Ajustes em Retry Mode e Integração com OpenTelemetry</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-301-ajustes-em-retry-mode-e-integracao-com-opentelemetry/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-301-ajustes-em-retry-mode-e-integracao-com-opentelemetry/</guid>
+      <pubDate>Fri, 16 Oct 2026 00:12:43 GMT</pubDate>
+      <description>Atualizações no projeto Claude Code focam em controle de uso e observabilidade para desenvolvedores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.301">Claude Code</source>
+    </item>
+    <item>
+      <title>Meta Lança Muse Spark Open: Modelo Multimodal de Mistura de Especialistas Abertos</title>
+      <link>https://pulsodaia.com.br/feed/meta-lanca-muse-spark-open-modelo-multimodal-de-mistura-de-especialistas-abertos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-lanca-muse-spark-open-modelo-multimodal-de-mistura-de-especialistas-abertos/</guid>
+      <pubDate>Fri, 16 Oct 2026 00:12:23 GMT</pubDate>
+      <description>A Meta disponibiliza um novo modelo de IA aberto, prometendo avanços em compreensão e geração multimodal para a comunidade brasileira.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/meta-muse-spark-open">Hugging Face</source>
+    </item>
+    <item>
+      <title>IBM Unifica Chat, Decisões e Voz com Novo Modelo Granite Switch 4.1</title>
+      <link>https://pulsodaia.com.br/feed/ibm-unifica-chat-decisoes-e-voz-com-novo-modelo-granite-switch-4-1/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-unifica-chat-decisoes-e-voz-com-novo-modelo-granite-switch-4-1/</guid>
+      <pubDate>Fri, 16 Oct 2026 00:12:13 GMT</pubDate>
+      <description>A tecnologia promete simplificar a interação com inteligência artificial para empresas no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ibm-granite/granite-switch-4-1">Hugging Face</source>
+    </item>
     <item>
       <title>Hugging Face Libera FLUX.3, Modelo de Difusão de Imagem com Foco em Pequenos Tamanhos</title>
       <link>https://pulsodaia.com.br/feed/hugging-face-libera-flux-3-modelo-de-difusao-de-imagem-com-foco-em-pequenos-tama/</link>
@@ -430,33 +457,6 @@
       <description>O evento em São Francisco reunirá centenas de startups de tecnologia, oferecendo um vislumbre antecipado das inovações que moldarão o mercado.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Desconecta IA da Internet para Avaliações Internas</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-desconecta-ia-da-internet-para-avaliacoes-internas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-desconecta-ia-da-internet-para-avaliacoes-internas/</guid>
-      <pubDate>Sat, 10 Oct 2026 05:24:55 GMT</pubDate>
-      <description>A empresa busca estabilidade e controle em seus modelos de IA, impactando o desenvolvimento e testes no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Modelo de IA da Anthropic Alerta Polícia com Notícia Falsa de Homicídio</title>
-      <link>https://pulsodaia.com.br/feed/modelo-de-ia-da-anthropic-alerta-policia-com-noticia-falsa-de-homicidio/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelo-de-ia-da-anthropic-alerta-policia-com-noticia-falsa-de-homicidio/</guid>
-      <pubDate>Fri, 09 Oct 2026 23:56:11 GMT</pubDate>
-      <description>O incidente levanta questões sobre a confiabilidade de sistemas de IA em aplicações críticas.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Jev: Modelo de IA não textual atinge US$ 7,5 bilhões em semanas</title>
-      <link>https://pulsodaia.com.br/feed/jev-modelo-de-ia-nao-textual-atinge-us-7-5-bilhoes-em-semanas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/jev-modelo-de-ia-nao-textual-atinge-us-7-5-bilhoes-em-semanas/</guid>
-      <pubDate>Fri, 09 Oct 2026 23:56:01 GMT</pubDate>
-      <description>A nova tecnologia promete eficiência que atrai grandes corporações.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

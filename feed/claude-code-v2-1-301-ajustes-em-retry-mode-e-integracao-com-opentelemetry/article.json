@@ -1,0 +1,52 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.301",
+  "title": "v2.1.301",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+  "summary": "<h2>What's changed</h2> <ul> <li>Added <code>CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS</code> so unattended retry mode (<code>CLAUDE_CODE_RETRY_WATCHDOG</code>) ends a request at a usage limit that resets too far away instead of waiting</li> <li>Added OpenTelemetry tracing guidance to the <code>claude-api</code> skill, including setting up trace destinations with the <code>ant</code> CLI</li> <li>Added the <code>%</code> motion to vim mode: jump to the matching bracket, alone or with d/c/y</li> <li>Added <code>rows</code> to a mod's <code>Input</code>: a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter starts a new line</li> <li>Added <code>classifier_verdict</code> and <code>permission_mode</code> to OpenTelemetry <code>tool_decision</code> events, so auto mode classifier decisions can be told apart from permission rules</li> <li>Added <code>classifier_category</code> to OpenTelemetry <code>tool_decision</code> event",
+  "published_at": "2026-10-15T19:22:06Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code v2.1.301: Ajustes em Retry Mode e Integração com OpenTelemetry",
+  "subtitle": "Atualizações no projeto Claude Code focam em controle de uso e observabilidade para desenvolvedores.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A mais recente versão do Claude Code, a v2.1.301, introduz melhorias significativas em seu sistema de retentativas automatizadas e adiciona diretrizes para integração com OpenTelemetry. As mudanças visam otimizar o uso de recursos e a monitoração do desempenho.",
+  "body_markdown": "## O que aconteceu\n\nO projeto Claude Code, disponível no GitHub, recebeu a atualização v2.1.301 em 15 de outubro de 2026. As principais novidades incluem a introdução da variável de ambiente `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS`. Esta configuração permite que o modo de retentativa automática (ativado por `CLAUDE_CODE_RETRY_WATCHDOG`) encerre uma requisição quando o limite de uso de um recurso se reseta em um intervalo de tempo muito longo, evitando esperas desnecessárias.\n\nAlém disso, a versão traz orientações detalhadas para a instrumentação de rastreamento com OpenTelemetry através da skill `claude-api`. O guia abrange a configuração de destinos de rastreamento utilizando a CLI `ant`. Para usuários do editor Vim, a atualização adiciona o comando de movimento `%`, que permite saltar para o colchete correspondente, útil em edição de código.\n\nOutra adição notável é o campo de texto `rows` para um módulo `Input`. Este novo campo possibilita a entrada de texto em múltiplas linhas no terminal, onde a tecla Enter submete o conteúdo, enquanto Shift+Enter ou uma barra invertida antes do Enter iniciam uma nova linha. Finalmente, foram adicionados os campos `classifier_verdict` e `permission_mode` aos dados de telemetria do OpenTelemetry, expandindo as métricas disponíveis para análise. Mais detalhes sobre as alterações podem ser encontrados no [repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.301).\n\n## Por que importa\n\nPara desenvolvedores que utilizam o Claude Code no Brasil, essas atualizações representam um avanço na gestão de custos e na eficiência operacional. O controle aprimorado sobre o retry mode, especialmente em cenários de alta demanda ou com limites de API restritivos, pode prevenir gastos excessivos e interrupções inesperadas em fluxos de trabalho automatizados. A integração com OpenTelemetry, uma ferramenta padrão de mercado para observabilidade, permite que equipes de desenvolvimento monitorem e diagnostiquem problemas com maior precisão. Isso é crucial para garantir a estabilidade e o desempenho de aplicações baseadas em IA, especialmente em ambientes de produção onde a confiabilidade é fundamental. A capacidade de coletar métricas mais detalhadas sobre a classificação e permissões de dados pode auxiliar na conformidade e na otimização de modelos.\n\n## O que esperar\n\nCom essas adições, espera-se que os desenvolvedores ganhem mais controle e visibilidade sobre a execução de suas tarefas com o Claude Code. A configuração granular do retry mode sugere um futuro onde a automação de IA se torna mais resiliente a flutuações de recursos. A adoção de padrões de observabilidade como OpenTelemetry indica uma tendência de profissionalização no desenvolvimento de sistemas de IA, facilitando a colaboração e a manutenção. Usuários podem esperar uma documentação mais robusta e exemplos práticos para implementar o rastreamento em seus próprios projetos. A evolução contínua do Claude Code, como visto nesta versão [v2.1.301](https://github.com/anthropics/claude-code/releases/tag/v2.1.301), aponta para ferramentas cada vez mais sofisticadas e adaptadas às necessidades de desenvolvimento de aplicações de IA em larga escala.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>O projeto Claude Code, disponível no GitHub, recebeu a atualização v2.1.301 em 15 de outubro de 2026. As principais novidades incluem a introdução da variável de ambiente <code>CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS</code>. Esta configuração permite que o modo de retentativa automática (ativado por <code>CLAUDE_CODE_RETRY_WATCHDOG</code>) encerre uma requisição quando o limite de uso de um recurso se reseta em um intervalo de tempo muito longo, evitando esperas desnecessárias.</p>\n\n<p>Além disso, a versão traz orientações detalhadas para a instrumentação de rastreamento com OpenTelemetry através da skill <code>claude-api</code>. O guia abrange a configuração de destinos de rastreamento utilizando a CLI <code>ant</code>. Para usuários do editor Vim, a atualização adiciona o comando de movimento <code>%</code>, que permite saltar para o colchete correspondente, útil em edição de código.</p>\n\n<p>Outra adição notável é o campo de texto <code>rows</code> para um módulo <code>Input</code>. Este novo campo possibilita a entrada de texto em múltiplas linhas no terminal, onde a tecla Enter submete o conteúdo, enquanto Shift+Enter ou uma barra invertida antes do Enter iniciam uma nova linha. Finalmente, foram adicionados os campos <code>classifier_verdict</code> e <code>permission_mode</code> aos dados de telemetria do OpenTelemetry, expandindo as métricas disponíveis para análise. Mais detalhes sobre as alterações podem ser encontrados no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.301\" target=\"_blank\" rel=\"external noopener\">repositório oficial</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para desenvolvedores que utilizam o Claude Code no Brasil, essas atualizações representam um avanço na gestão de custos e na eficiência operacional. O controle aprimorado sobre o retry mode, especialmente em cenários de alta demanda ou com limites de API restritivos, pode prevenir gastos excessivos e interrupções inesperadas em fluxos de trabalho automatizados. A integração com OpenTelemetry, uma ferramenta padrão de mercado para observabilidade, permite que equipes de desenvolvimento monitorem e diagnostiquem problemas com maior precisão. Isso é crucial para garantir a estabilidade e o desempenho de aplicações baseadas em IA, especialmente em ambientes de produção onde a confiabilidade é fundamental. A capacidade de coletar métricas mais detalhadas sobre a classificação e permissões de dados pode auxiliar na conformidade e na otimização de modelos.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com essas adições, espera-se que os desenvolvedores ganhem mais controle e visibilidade sobre a execução de suas tarefas com o Claude Code. A configuração granular do retry mode sugere um futuro onde a automação de IA se torna mais resiliente a flutuações de recursos. A adoção de padrões de observabilidade como OpenTelemetry indica uma tendência de profissionalização no desenvolvimento de sistemas de IA, facilitando a colaboração e a manutenção. Usuários podem esperar uma documentação mais robusta e exemplos práticos para implementar o rastreamento em seus próprios projetos. A evolução contínua do Claude Code, como visto nesta versão <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.301\" target=\"_blank\" rel=\"external noopener\">v2.1.301</a>, aponta para ferramentas cada vez mais sofisticadas e adaptadas às necessidades de desenvolvimento de aplicações de IA em larga escala.</p>",
+  "tags": [
+    "claude code",
+    "ia",
+    "opentelemetry",
+    "desenvolvimento"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "v2.1.301",
+    "OpenTelemetry",
+    "retry mode",
+    "IA",
+    "desenvolvimento de software"
+  ],
+  "meta_description_seo": "Claude Code v2.1.301 atualiza retry mode e integra OpenTelemetry. Melhorias em controle de uso e observabilidade para desenvolvedores de IA.",
+  "faq": [
+    {
+      "q": "Quais as principais novidades do Claude Code v2.1.301?",
+      "a": "A versão introduz melhor controle sobre o modo de retentativa automática, permitindo encerrar requisições com limites de uso distantes, e adiciona guias para integração com OpenTelemetry para rastreamento."
+    },
+    {
+      "q": "Como o Claude Code v2.1.301 afeta o uso de recursos?",
+      "a": "A nova configuração `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS` evita esperas desnecessárias em retentativas automáticas quando o reset de um limite de uso está muito distante, otimizando o consumo."
+    },
+    {
+      "q": "O que o OpenTelemetry traz para o Claude Code?",
+      "a": "A integração com OpenTelemetry, detalhada na atualização, permite um rastreamento mais aprofundado do desempenho e do fluxo de requisições, facilitando a monitoração e o diagnóstico de problemas em aplicações."
+    }
+  ],
+  "written_at": "2026-10-16T00:12:43.356Z",
+  "slug": "claude-code-v2-1-301-ajustes-em-retry-mode-e-integracao-com-opentelemetry",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/320b6490de42374d99ccc5201a9e44d68b796444a013218ca10bea6e20c91cc9/anthropics/claude-code/releases/tag/v2.1.301"
+}
