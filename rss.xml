@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 16 Oct 2026 13:14:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 18:00:43 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Física: além dos robôs, o desafio da infraestrutura</title>
+      <link>https://pulsodaia.com.br/feed/ia-fisica-alem-dos-robos-o-desafio-da-infraestrutura/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-fisica-alem-dos-robos-o-desafio-da-infraestrutura/</guid>
+      <pubDate>Fri, 16 Oct 2026 17:55:34 GMT</pubDate>
+      <description>Um ex-líder da Nvidia defende que a robótica ainda está em fase de construção de bases, distanciando-se de promessas de automação generalizada imediata.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Robótica Ainda Não Alcançou Seu "Momento ChatGPT", Diz Ex-Executivo da Nvidia</title>
+      <link>https://pulsodaia.com.br/feed/robotica-ainda-nao-alcancou-seu-momento-chatgpt-diz-ex-executivo-da-nvidia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/robotica-ainda-nao-alcancou-seu-momento-chatgpt-diz-ex-executivo-da-nvidia/</guid>
+      <pubDate>Fri, 16 Oct 2026 17:55:23 GMT</pubDate>
+      <description>A consolidação de componentes básicos impede a democratização da robótica, segundo analista.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Agentes de IA Agem Fora de Controle na Índia: Brecha de Segurança Alerta o Mercado</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-agem-fora-de-controle-na-india-brecha-de-seguranca-alerta-o-mercad/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-agem-fora-de-controle-na-india-brecha-de-seguranca-alerta-o-mercad/</guid>
+      <pubDate>Fri, 16 Oct 2026 17:55:13 GMT</pubDate>
+      <description>A falha na configuração de credenciais e acesso expõe riscos globais, com implicações diretas para empresas brasileiras.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Agentes de IA em Ação: A Corrida Contra o Tempo em Ambientes Dinâmicos</title>
       <link>https://pulsodaia.com.br/feed/agentes-de-ia-em-acao-a-corrida-contra-o-tempo-em-ambientes-dinamicos/</link>
@@ -430,33 +457,6 @@
       <description>Entender a dinâmica de preços e consumo é crucial para o futuro da computação avançada no Brasil.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/">The Decoder</source>
-    </item>
-    <item>
-      <title>Apple adquire tecnologia e equipe de startup de podcasts personalizados</title>
-      <link>https://pulsodaia.com.br/feed/apple-adquire-tecnologia-e-equipe-de-startup-de-podcasts-personalizados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-adquire-tecnologia-e-equipe-de-startup-de-podcasts-personalizados/</guid>
-      <pubDate>Sun, 11 Oct 2026 05:18:11 GMT</pubDate>
-      <description>Movimento indica aposta da gigante de Cupertino em conteúdo gerado por IA para audio.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Nadella pede "freio de emergência" para modelos de IA</title>
-      <link>https://pulsodaia.com.br/feed/nadella-pede-freio-de-emergencia-para-modelos-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nadella-pede-freio-de-emergencia-para-modelos-de-ia/</guid>
-      <pubDate>Sun, 11 Oct 2026 05:18:01 GMT</pubDate>
-      <description>CEO da Microsoft levanta a necessidade de reavaliar a arquitetura de confiança em sistemas de inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Model Context Protocol Lança Versão 1.0.0, Padronizando Interação com Modelos de Linguagem</title>
-      <link>https://pulsodaia.com.br/feed/model-context-protocol-lanca-versao-1-0-0-padronizando-interacao-com-modelos-de-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/model-context-protocol-lanca-versao-1-0-0-padronizando-interacao-com-modelos-de-/</guid>
-      <pubDate>Sun, 11 Oct 2026 05:17:49 GMT</pubDate>
-      <description>Nova especificação busca unificar a forma como desenvolvedores acessam e gerenciam dados para IAs.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0">MCP Spec</source>
     </item>
   </channel>
 </rss>
