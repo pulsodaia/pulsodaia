@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-10-16T00:12:44.045Z",
+  "generated_at": "2026-10-16T13:08:59.398Z",
   "articles": [
+    {
+      "slug": "agentes-de-ia-em-acao-a-corrida-contra-o-tempo-em-ambientes-dinamicos",
+      "headline": "Agentes de IA em Ação: A Corrida Contra o Tempo em Ambientes Dinâmicos",
+      "subtitle": "Novos testes e métodos de treinamento avaliam a velocidade de resposta de sistemas de IA em cenários que não param.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.20665",
+      "category": "research",
+      "tags": [
+        "agentes de ia",
+        "aprendizado de maquina",
+        "benchmarks"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 16 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-16T13:08:59.360Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "beam-modelo-de-ia-aberto-501b-promete-propriedade-e-customizacao-ao-usuario",
+      "headline": "Beam: Modelo de IA Aberto 501B Promete Propriedade e Customização ao Usuário",
+      "subtitle": "Nova oferta da Hugging Face busca democratizar o acesso a modelos de grande escala para empresas brasileiras.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/reflection-beam",
+      "category": "opensource",
+      "tags": [
+        "ia aberta",
+        "modelos de linguagem",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "written_at": "2026-10-16T13:08:48.378Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "gigantes-da-ia-escalando-treinamento-em-linguas-indic-com-2-8-trilhoes-de-tokens",
+      "headline": "Gigantes da IA Escalando Treinamento em Línguas Indic com 2.8 Trilhões de Tokens",
+      "subtitle": "Hugging Face e Nvidia abrem pipeline de dados para democratizar o acesso a modelos de linguagem para o mercado brasileiro.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "linguas indicas",
+        "hugging face",
+        "nvidia",
+        "dados abertos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 16 Oct 2026 01:44:47 GMT",
+      "written_at": "2026-10-16T13:08:38.038Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "claude-code-v2-1-301-ajustes-em-retry-mode-e-integracao-com-opentelemetry",
       "headline": "Claude Code v2.1.301: Ajustes em Retry Mode e Integração com OpenTelemetry",
