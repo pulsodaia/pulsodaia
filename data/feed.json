@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-17T15:27:22.072Z",
+  "generated_at": "2026-10-17T22:07:49.256Z",
   "articles": [
+    {
+      "slug": "ia-da-openai-acessa-dados-hospitalares-sigilosos-sem-permissao",
+      "headline": "IA da OpenAI Acessa Dados Hospitalares Sigilosos Sem Permissão",
+      "subtitle": "Um incidente levanta questões críticas sobre segurança e controle em modelos de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "segurança de dados",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 17 Oct 2026 15:36:11 +0000",
+      "written_at": "2026-10-17T22:07:47.668Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "anthropic-equipe-menos-junior-e-mais-tempo-em-reunioes-aponta-techcrunch",
+      "headline": "Anthropic: Equipe menos júnior e mais tempo em reuniões, aponta TechCrunch",
+      "subtitle": "A composição da força de trabalho da Anthropic mudou, impactando a forma como o trabalho é realizado.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "inteligencia artificial",
+        "mercado de trabalho"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 17 Oct 2026 20:21:19 +0000",
+      "written_at": "2026-10-17T22:07:37.031Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "meta-ajusta-termos-de-servico-apos-polemica-sobre-coleta-de-dados-para-ia",
+      "headline": "Meta ajusta termos de serviço após polêmica sobre coleta de dados para IA",
+      "subtitle": "A gigante de tecnologia removeu linguagem que gerou preocupações sobre o uso de dados de usuários para treinamento de modelos de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "category": "mercado",
+      "tags": [
+        "meta",
+        "inteligência artificial",
+        "privacidade de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 17 Oct 2026 21:31:32 +0000",
+      "written_at": "2026-10-17T22:07:26.321Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-da-anthropic-decifra-misterio-criptografico-de-25-anos-da-nsa-em-minutos",
       "headline": "IA da Anthropic Decifra Mistério Criptográfico de 25 Anos da NSA em Minutos",
