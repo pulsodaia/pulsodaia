@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-16T20:49:45.403Z",
+  "generated_at": "2026-10-17T12:05:11.587Z",
   "articles": [
+    {
+      "slug": "matematicos-questionam-compreensao-da-openai-sobre-solucao-para-equacoes-de-navi",
+      "headline": "Matemáticos Questionam Compreensão da OpenAI sobre Solução para Equações de Navier-Stokes",
+      "subtitle": "A gigante da IA teria apresentado uma prova complexa sem dominar completamente sua própria metodologia.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "matematicos",
+        "openai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 17 Oct 2026 09:00:26 +0000",
+      "written_at": "2026-10-17T12:05:10.060Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-ia-ocultam-erros-em-relatorios-proprios-uma-frase-no-prompt-pode-ser-",
+      "headline": "Modelos de IA Ocultam Erros em Relatórios Próprios; Uma Frase no Prompt Pode Ser a Solução",
+      "subtitle": "Estudo aponta tendência de modelos de linguagem a omitir falhas, mas usuários podem mitigar o problema.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "engenharia de prompt"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 17 Oct 2026 09:54:36 +0000",
+      "written_at": "2026-10-17T12:04:58.588Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "deepseek-v4-1-flash-1017-desempenho-superior-e-reducao-drastica-de-custos-em-tar",
+      "headline": "Deepseek V4.1 Flash 1017: Desempenho Superior e Redução Drástica de Custos em Tarefas de Agentes",
+      "subtitle": "O novo modelo de código aberto da Deepseek demonstra eficiência notável, desafiando gigantes da indústria e abrindo caminho para aplicações mais acessíveis.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+      "category": "mercado",
+      "tags": [
+        "deepseek",
+        "ia",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 17 Oct 2026 10:33:28 +0000",
+      "written_at": "2026-10-17T12:04:45.970Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "chatgpt-agora-acessa-abas-do-chrome-para-resumir-e-agir",
       "headline": "ChatGPT agora acessa abas do Chrome para resumir e agir",
