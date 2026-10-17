@@ -1,0 +1,55 @@
+{
+  "id": "https://the-decoder.com/?p=41667",
+  "title": "Anthropics&#039; Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+  "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+  "summary": "Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the seeds came from \"lrand48,\" a simple C random number generator, making deliberate backdoors far less likely. The article Anthropics&#039; Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes appeared first on The Decoder .",
+  "published_at": "Sat, 17 Oct 2026 14:42:56 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "IA da Anthropic Decifra Mistério Criptográfico de 25 Anos da NSA em Minutos",
+  "subtitle": "Solução rápida por Claude levanta questões sobre a origem de parâmetros criptográficos essenciais.",
+  "eyebrow_category": "ANALISE",
+  "lead": "O modelo de linguagem Claude, desenvolvido pela Anthropic, resolveu um enigma criptográfico que persistia há um quarto de século. A capacidade da IA de identificar a origem de sementes aleatórias usadas em padrões de assinatura digital da NSA, em menos de 30 minutos, sugere novas abordagens para a análise de segurança.",
+  "body_markdown": "## O que aconteceu\n\nUm mistério técnico que se arrastava há 25 anos, relacionado às curvas padrão da Agência de Segurança Nacional dos Estados Unidos (NSA) para assinaturas digitais, foi desvendado pela inteligência artificial Claude. A NSA havia fornecido as sementes para essas curvas sem uma explicação clara, gerando suspeitas de possíveis \"backdoors\" ou falhas intencionais embutidas nos sistemas. Agora, o Claude identificou a origem dessas sementes: um gerador de números aleatórios simples em C chamado \"lrand48\". A descoberta, realizada em um tempo notavelmente curto, torna a hipótese de um backdoor deliberado muito menos provável. A informação original foi publicada no portal [The Decoder](https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/).\n\n## Por que importa\n\nNo Brasil, a segurança digital é um pilar fundamental para a economia e a confiança nas transações. Entender a origem e a robustez dos algoritmos criptográficos que protegem dados financeiros, comunicações e infraestruturas críticas é essencial. A capacidade de uma IA como o Claude de analisar e solucionar problemas complexos em criptografia, que levaram décadas para serem compreendidos por humanos, demonstra o potencial dessas tecnologias para auditar e fortalecer a segurança digital. Isso pode impactar diretamente as práticas de desenvolvimento de software e a validação de padrões de segurança utilizados por empresas e órgãos governamentais no país.\n\n## O que esperar\n\nA velocidade com que o Claude resolveu este enigma criptográfico sugere um futuro onde a IA será cada vez mais utilizada na verificação de segurança e na identificação de vulnerabilidades em sistemas complexos. Empresas brasileiras que lidam com dados sensíveis podem começar a explorar o uso de ferramentas de IA para complementar as auditorias de segurança existentes. A transparência na origem de componentes criptográficos, agora validada por IA, pode se tornar um novo padrão. Este evento abre portas para que modelos de linguagem sejam aplicados em outras áreas da cibersegurança, acelerando a detecção de falhas e a melhoria contínua dos protocolos de proteção. Para mais detalhes sobre a solução, consulte [The Decoder](https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um mistério técnico que se arrastava há 25 anos, relacionado às curvas padrão da Agência de Segurança Nacional dos Estados Unidos (NSA) para assinaturas digitais, foi desvendado pela inteligência artificial Claude. A NSA havia fornecido as sementes para essas curvas sem uma explicação clara, gerando suspeitas de possíveis \"backdoors\" ou falhas intencionais embutidas nos sistemas. Agora, o Claude identificou a origem dessas sementes: um gerador de números aleatórios simples em C chamado \"lrand48\". A descoberta, realizada em um tempo notavelmente curto, torna a hipótese de um backdoor deliberado muito menos provável. A informação original foi publicada no portal <a href=\"https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, a segurança digital é um pilar fundamental para a economia e a confiança nas transações. Entender a origem e a robustez dos algoritmos criptográficos que protegem dados financeiros, comunicações e infraestruturas críticas é essencial. A capacidade de uma IA como o Claude de analisar e solucionar problemas complexos em criptografia, que levaram décadas para serem compreendidos por humanos, demonstra o potencial dessas tecnologias para auditar e fortalecer a segurança digital. Isso pode impactar diretamente as práticas de desenvolvimento de software e a validação de padrões de segurança utilizados por empresas e órgãos governamentais no país.</p>\n\n<h2>O que esperar</h2>\n\n<p>A velocidade com que o Claude resolveu este enigma criptográfico sugere um futuro onde a IA será cada vez mais utilizada na verificação de segurança e na identificação de vulnerabilidades em sistemas complexos. Empresas brasileiras que lidam com dados sensíveis podem começar a explorar o uso de ferramentas de IA para complementar as auditorias de segurança existentes. A transparência na origem de componentes criptográficos, agora validada por IA, pode se tornar um novo padrão. Este evento abre portas para que modelos de linguagem sejam aplicados em outras áreas da cibersegurança, acelerando a detecção de falhas e a melhoria contínua dos protocolos de proteção. Para mais detalhes sobre a solução, consulte <a href=\"https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>.</p>",
+  "tags": [
+    "ia",
+    "criptografia",
+    "segurança",
+    "anthropic",
+    "claude"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "IA",
+    "Claude",
+    "Anthropic",
+    "criptografia",
+    "NSA",
+    "segurança digital",
+    "lrand48",
+    "The Decoder"
+  ],
+  "meta_description_seo": "IA Claude da Anthropic decifra mistério criptográfico de 25 anos da NSA em minutos, levantando questões sobre segurança digital.",
+  "faq": [
+    {
+      "q": "Como a IA Claude resolveu o mistério criptográfico da NSA?",
+      "a": "O Claude identificou que as sementes usadas em padrões de assinatura digital da NSA provinham de um gerador de números aleatórios simples em C, o \"lrand48\"."
+    },
+    {
+      "q": "Qual a implicação dessa descoberta para a segurança digital?",
+      "a": "A solução rápida pela IA torna menos provável a existência de backdoors intencionais nos algoritmos, reforçando a confiança nos padrões criptográficos."
+    },
+    {
+      "q": "Essa capacidade da IA pode ser aplicada no Brasil?",
+      "a": "Sim, a IA pode ser usada para auditar e fortalecer a segurança digital em empresas e órgãos governamentais brasileiros que lidam com dados sensíveis."
+    }
+  ],
+  "written_at": "2026-10-17T15:27:20.796Z",
+  "slug": "ia-da-anthropic-decifra-misterio-criptografico-de-25-anos-da-nsa-em-minutos",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/10/anthropic_unintended_actions.png"
+}
