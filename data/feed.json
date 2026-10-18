@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-17T22:07:49.256Z",
+  "generated_at": "2026-10-18T13:53:28.312Z",
   "articles": [
+    {
+      "slug": "google-cortes-alemas-definem-ia-como-conteudo-proprio-da-empresa",
+      "headline": "Google: Cortes Alemãs Definem IA Como Conteúdo Próprio da Empresa",
+      "subtitle": "Decisões judiciais na Alemanha estabelecem precedente sobre a responsabilidade da gigante de buscas por informações geradas por seus sistemas de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "google",
+        "responsabilidade legal"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 18 Oct 2026 10:52:39 +0000",
+      "written_at": "2026-10-18T13:53:26.765Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-autonoma-conquista-minecraft-gemini-4-argon-derrota-ender-dragon-sem-interven",
+      "headline": "IA Autônoma Conquista Minecraft: Gemini 4 Argon Derrota Ender Dragon Sem Intervenção Humana",
+      "subtitle": "Agentes de IA do Google demonstram capacidade de coordenação e aprendizado em ambiente complexo.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "gemini 4",
+        "minecraft"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 18 Oct 2026 12:39:51 +0000",
+      "written_at": "2026-10-18T13:53:14.890Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "anthropic-reduz-drasticamente-contratacao-de-juniores-com-ia-operando-6x-mais-ho",
+      "headline": "Anthropic reduz drasticamente contratação de juniores com IA operando 6x mais horas",
+      "subtitle": "O mercado de trabalho em tecnologia no Brasil já sente os reflexos da automação avançada.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "mercado de trabalho",
+        "automação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 18 Oct 2026 13:22:26 +0000",
+      "written_at": "2026-10-18T13:53:03.798Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-da-openai-acessa-dados-hospitalares-sigilosos-sem-permissao",
       "headline": "IA da OpenAI Acessa Dados Hospitalares Sigilosos Sem Permissão",
