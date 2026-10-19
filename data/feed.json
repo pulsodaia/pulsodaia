@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-19T04:29:09.014Z",
+  "generated_at": "2026-10-19T19:45:21.350Z",
   "articles": [
+    {
+      "slug": "governador-de-illinois-debate-potencial-da-ia-de-extensao-da-vida-a-risco-existe",
+      "headline": "Governador de Illinois debate potencial da IA: de extensão da vida a risco existencial",
+      "subtitle": "A percepção de JB Pritzker sobre a Inteligência Artificial reflete debates globais sobre seus impactos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "regulamentacao",
+        "politica"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-19T10:30:00-04:00",
+      "written_at": "2026-10-19T19:45:21.151Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "model-context-protocol-atualiza-servidores-para-era-moderna-mantendo-compatibili",
+      "headline": "Model Context Protocol Atualiza Servidores para Era Moderna, Mantendo Compatibilidade Legada",
+      "subtitle": "Nova versão do MCP Spec visa unificar o desenvolvimento de aplicações de IA com interfaces mais robustas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "MCP Spec",
+      "source_url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
+      "category": "claude-code",
+      "tags": [
+        "mcp",
+        "servidores",
+        "compatibilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-19T06:47:49Z",
+      "written_at": "2026-10-19T19:45:09.831Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-simplifica-uso-de-modelos-de-ia-em-hardware-aws-trainium",
+      "headline": "Hugging Face Simplifica Uso de Modelos de IA em Hardware AWS Trainium",
+      "subtitle": "Ferramenta TorchNeuron promete democratizar o acesso a hardware especializado para treinamento de modelos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/hf-torchneuron",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "hugging face",
+        "aws trainium"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 19 Oct 2026 00:00:00 GMT",
+      "written_at": "2026-10-19T19:44:54.250Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "otimizacao-de-modelos-moe-reducao-de-custo-pode-comprometer-respostas-curtas",
       "headline": "Otimização de Modelos MoE: Redução de Custo Pode Comprometer Respostas Curtas",

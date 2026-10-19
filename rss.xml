@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 19 Oct 2026 04:35:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 19:50:46 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Governador de Illinois debate potencial da IA: de extensão da vida a risco existencial</title>
+      <link>https://pulsodaia.com.br/feed/governador-de-illinois-debate-potencial-da-ia-de-extensao-da-vida-a-risco-existe/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governador-de-illinois-debate-potencial-da-ia-de-extensao-da-vida-a-risco-existe/</guid>
+      <pubDate>Mon, 19 Oct 2026 19:45:21 GMT</pubDate>
+      <description>A percepção de JB Pritzker sobre a Inteligência Artificial reflete debates globais sobre seus impactos.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws">The Verge AI</source>
+    </item>
+    <item>
+      <title>Model Context Protocol Atualiza Servidores para Era Moderna, Mantendo Compatibilidade Legada</title>
+      <link>https://pulsodaia.com.br/feed/model-context-protocol-atualiza-servidores-para-era-moderna-mantendo-compatibili/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/model-context-protocol-atualiza-servidores-para-era-moderna-mantendo-compatibili/</guid>
+      <pubDate>Mon, 19 Oct 2026 19:45:09 GMT</pubDate>
+      <description>Nova versão do MCP Spec visa unificar o desenvolvimento de aplicações de IA com interfaces mais robustas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0">MCP Spec</source>
+    </item>
+    <item>
+      <title>Hugging Face Simplifica Uso de Modelos de IA em Hardware AWS Trainium</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-simplifica-uso-de-modelos-de-ia-em-hardware-aws-trainium/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-simplifica-uso-de-modelos-de-ia-em-hardware-aws-trainium/</guid>
+      <pubDate>Mon, 19 Oct 2026 19:44:54 GMT</pubDate>
+      <description>Ferramenta TorchNeuron promete democratizar o acesso a hardware especializado para treinamento de modelos no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/hf-torchneuron">Hugging Face</source>
+    </item>
     <item>
       <title>Otimização de Modelos MoE: Redução de Custo Pode Comprometer Respostas Curtas</title>
       <link>https://pulsodaia.com.br/feed/otimizacao-de-modelos-moe-reducao-de-custo-pode-comprometer-respostas-curtas/</link>
@@ -430,33 +457,6 @@
       <description>A gigante de tecnologia reforça compromisso com ética e segurança em seus modelos de IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Google Lança Gemini 4 Argon, Novo Modelo de IA para Tarefas Complexas</title>
-      <link>https://pulsodaia.com.br/feed/google-lanca-gemini-4-argon-novo-modelo-de-ia-para-tarefas-complexas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-lanca-gemini-4-argon-novo-modelo-de-ia-para-tarefas-complexas/</guid>
-      <pubDate>Tue, 13 Oct 2026 21:08:00 GMT</pubDate>
-      <description>A mais recente inovação da gigante de tecnologia visa atender a demandas de desenvolvedores e empresas no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/">Google AI</source>
-    </item>
-    <item>
-      <title>TechCrunch Disrupt 2026: Lineup Finalizado com Nomes de Peso em IA</title>
-      <link>https://pulsodaia.com.br/feed/techcrunch-disrupt-2026-lineup-finalizado-com-nomes-de-peso-em-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/techcrunch-disrupt-2026-lineup-finalizado-com-nomes-de-peso-em-ia/</guid>
-      <pubDate>Tue, 13 Oct 2026 15:49:22 GMT</pubDate>
-      <description>O evento promete debates exclusivos sobre o avanço da inteligência artificial, com foco em figuras relevantes do setor.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/13/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>SpaceXSI Unifica X Premium, Grok e Cursor em Assinatura Única</title>
-      <link>https://pulsodaia.com.br/feed/spacexsi-unifica-x-premium-grok-e-cursor-em-assinatura-unica/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/spacexsi-unifica-x-premium-grok-e-cursor-em-assinatura-unica/</guid>
-      <pubDate>Tue, 13 Oct 2026 15:49:01 GMT</pubDate>
-      <description>Nova oferta da empresa de Elon Musk visa consolidar serviços de comunicação e IA para usuários.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
