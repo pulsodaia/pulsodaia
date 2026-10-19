@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-10-18T20:25:27.267Z",
+  "generated_at": "2026-10-19T04:29:09.014Z",
   "articles": [
+    {
+      "slug": "otimizacao-de-modelos-moe-reducao-de-custo-pode-comprometer-respostas-curtas",
+      "headline": "Otimização de Modelos MoE: Redução de Custo Pode Comprometer Respostas Curtas",
+      "subtitle": "Pesquisa aponta que cortar processamento de tokens iniciais em modelos de mistura de especialistas prejudica a precisão em perguntas diretas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2610.22454",
+      "category": "research",
+      "tags": [
+        "moe",
+        "modelos de linguagem",
+        "otimização"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-19T04:29:08.889Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "embeddings-em-modelos-de-linguagem-pequenos-uma-alternativa-de-baixo-custo-em-de",
+      "headline": "Embeddings em Modelos de Linguagem Pequenos: Uma Alternativa de Baixo Custo em Debate",
+      "subtitle": "Pesquisadores investigam se a substituição de vocabulários caros por versões congeladas pode otimizar modelos de IA no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.CL",
+      "source_url": "https://arxiv.org/abs/2610.22428",
+      "category": "research",
+      "tags": [
+        "embeddings",
+        "modelos de linguagem pequenos",
+        "otimização de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 19 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-19T04:28:48.968Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "mulher-detida-por-obstruir-robo-de-entrega-protesto-contra-automacao-ganha-conto",
       "headline": "Mulher detida por obstruir robô de entrega: protesto contra automação ganha contornos legais",

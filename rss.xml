@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 18 Oct 2026 20:30:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 04:35:31 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Otimização de Modelos MoE: Redução de Custo Pode Comprometer Respostas Curtas</title>
+      <link>https://pulsodaia.com.br/feed/otimizacao-de-modelos-moe-reducao-de-custo-pode-comprometer-respostas-curtas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-de-modelos-moe-reducao-de-custo-pode-comprometer-respostas-curtas/</guid>
+      <pubDate>Mon, 19 Oct 2026 04:29:08 GMT</pubDate>
+      <description>Pesquisa aponta que cortar processamento de tokens iniciais em modelos de mistura de especialistas prejudica a precisão em perguntas diretas.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.22454">ArXiv cs.CL</source>
+    </item>
+    <item>
+      <title>Embeddings em Modelos de Linguagem Pequenos: Uma Alternativa de Baixo Custo em Debate</title>
+      <link>https://pulsodaia.com.br/feed/embeddings-em-modelos-de-linguagem-pequenos-uma-alternativa-de-baixo-custo-em-de/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/embeddings-em-modelos-de-linguagem-pequenos-uma-alternativa-de-baixo-custo-em-de/</guid>
+      <pubDate>Mon, 19 Oct 2026 04:28:48 GMT</pubDate>
+      <description>Pesquisadores investigam se a substituição de vocabulários caros por versões congeladas pode otimizar modelos de IA no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.22428">ArXiv cs.CL</source>
+    </item>
     <item>
       <title>Mulher detida por obstruir robô de entrega: protesto contra automação ganha contornos legais</title>
       <link>https://pulsodaia.com.br/feed/mulher-detida-por-obstruir-robo-de-entrega-protesto-contra-automacao-ganha-conto/</link>
@@ -439,24 +457,6 @@
       <description>Nova oferta da empresa de Elon Musk visa consolidar serviços de comunicação e IA para usuários.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>TechCrunch Disrupt 2026 Abre Portas em São Francisco com Foco em Startups e Liderança Tecnológica</title>
-      <link>https://pulsodaia.com.br/feed/techcrunch-disrupt-2026-abre-portas-em-sao-francisco-com-foco-em-startups-e-lide/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/techcrunch-disrupt-2026-abre-portas-em-sao-francisco-com-foco-em-startups-e-lide/</guid>
-      <pubDate>Tue, 13 Oct 2026 15:48:50 GMT</pubDate>
-      <description>O evento anual, conhecido por ser um epicentro de inovação, inicia sua edição de 2026.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Honeyjar Propõe IA para Otimizar Relações Públicas e Comunicação Corporativa</title>
-      <link>https://pulsodaia.com.br/feed/honeyjar-propoe-ia-para-otimizar-relacoes-publicas-e-comunicacao-corporativa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/honeyjar-propoe-ia-para-otimizar-relacoes-publicas-e-comunicacao-corporativa/</guid>
-      <pubDate>Mon, 12 Oct 2026 22:51:05 GMT</pubDate>
-      <description>Plataforma busca solucionar ineficiências percebidas no setor de comunicação empresarial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
