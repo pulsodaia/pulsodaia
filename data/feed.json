@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-20T04:25:41.445Z",
+  "generated_at": "2026-10-20T16:42:18.984Z",
   "articles": [
+    {
+      "slug": "hugging-face-integra-suporte-nativo-a-tpus-do-google",
+      "headline": "Hugging Face Integra Suporte Nativo a TPUs do Google",
+      "subtitle": "A plataforma de IA colaborativa expande suas capacidades de hardware para democratizar o acesso a computação de alta performance.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/hf-torchtpu",
+      "category": "opensource",
+      "tags": [
+        "hugging face",
+        "tpu",
+        "google cloud",
+        "machine learning"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 20 Oct 2026 00:00:00 GMT",
+      "written_at": "2026-10-20T16:42:18.848Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "memoria-aprendida-supera-modelos-de-fronteira-em-atendimento-ao-cliente",
+      "headline": "Memória Aprendida Supera Modelos de Fronteira em Atendimento ao Cliente",
+      "subtitle": "Nova abordagem da IBM Research demonstra eficiência sem depender de modelos de ponta.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "category": "opensource",
+      "tags": [
+        "atendimento ao cliente",
+        "memoria aprendida",
+        "ia corporativa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 20 Oct 2026 15:19:48 GMT",
+      "written_at": "2026-10-20T16:42:09.245Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
+    {
+      "slug": "fairstress-nova-ferramenta-avalia-vies-em-decisoes-de-modelos-de-linguagem",
+      "headline": "FairStress: Nova Ferramenta Avalia Viés em Decisões de Modelos de Linguagem",
+      "subtitle": "Pesquisa da Hugging Face lança luz sobre a equidade em LLMs, um tema crucial para o mercado brasileiro.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/fairstress",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "equidade",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 20 Oct 2026 16:09:19 GMT",
+      "written_at": "2026-10-20T16:41:59.959Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-controlada-explica-diferencas-em-scores-de-risco-com-dados-historicos",
       "headline": "IA Controlada Explica Diferenças em Scores de Risco com Dados Históricos",
