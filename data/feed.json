@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-10-20T16:42:18.984Z",
+  "generated_at": "2026-10-20T21:28:18.655Z",
   "articles": [
+    {
+      "slug": "parceiras-de-nuvem-da-anthropic-enfrentam-turbulencia-pre-ipo",
+      "headline": "Parceiras de Nuvem da Anthropic Enfrentam Turbulência Pré-IPO",
+      "subtitle": "Dificuldades em obter capacidade computacional levantam questões sobre a estratégia da empresa.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "ia",
+        "infraestrutura de nuvem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 20 Oct 2026 21:25:22 +0000",
+      "written_at": "2026-10-20T21:28:18.484Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-305-sandboxing-aprimorado-e-correcoes-criticas-para-desenvolvedo",
+      "headline": "Claude Code 2.1.305: Sandboxing Aprimorado e Correções Críticas para Desenvolvedores",
+      "subtitle": "Atualização do modelo de linguagem foca em maior flexibilidade e estabilidade para execução de comandos em ambientes isolados no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "sandboxing",
+        "ia",
+        "desenvolvimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-20T20:46:50Z",
+      "written_at": "2026-10-20T21:28:07.421Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-simula-cirurgias-clinicas-com-ia-generativa",
+      "headline": "NVIDIA Simula Cirurgias Clínicas com IA Generativa",
+      "subtitle": "Nova plataforma promete treinamento médico mais seguro e acessível no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "category": "opensource",
+      "tags": [
+        "ia generativa",
+        "simulação médica",
+        "treinamento cirúrgico"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 20 Oct 2026 18:17:47 GMT",
+      "written_at": "2026-10-20T21:27:54.915Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "hugging-face-integra-suporte-nativo-a-tpus-do-google",
       "headline": "Hugging Face Integra Suporte Nativo a TPUs do Google",
