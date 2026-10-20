@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2610.23962v1",
+  "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+  "url": "https://arxiv.org/abs/2610.23962",
+  "summary": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow produces more consistent, evidence-grounded and traceable diagnoses than the same LLM without structured workflow guidance.",
+  "published_at": "Tue, 20 Oct 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Controlada Explica Diferenças em Scores de Risco com Dados Históricos",
+  "subtitle": "Nova abordagem de LLMs busca maior transparência e confiabilidade em diagnósticos financeiros.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores propõem um fluxo de trabalho estruturado para Large Language Models (LLMs) que visa a explicação detalhada de diferenças em scores de risco, utilizando transações históricas como base. O método combina recuperação de referências e explicações contrastivas com raciocínio baseado em LLM e validação determinística.",
+  "body_markdown": "## O que aconteceu\n\nUm novo estudo publicado no arXiv apresenta uma metodologia para aprimorar a capacidade de modelos de linguagem grandes (LLMs) em diagnosticar e justificar variações em scores de risco. A pesquisa, detalhada em [um artigo disponível no arXiv](https://arxiv.org/abs/2610.23962), descreve um \"workflow controlado\" que organiza o processo de análise. Essencialmente, o sistema busca transações históricas semelhantes para criar um contexto de comparação. Em seguida, utiliza técnicas como SHAP (SHapley Additive exPlanations) para identificar os fatores mais influentes nas diferenças observadas nos scores. Finalmente, um LLM é empregado para gerar explicações baseadas nessas evidências, com um passo final de validação para garantir a precisão e a consistência. Os experimentos realizados demonstraram que essa abordagem estruturada resulta em diagnósticos mais confiáveis e com rastreabilidade clara, superando o desempenho de LLMs que operam sem essa orientação procedural.\n\n## Por que importa\n\nNo Brasil, a crescente adoção de modelos de IA em setores como financeiro, seguros e análise de crédito levanta questões críticas sobre transparência e explicabilidade. A capacidade de um LLM justificar, de forma clara e fundamentada, por que um determinado score de risco difere de outro é crucial para a conformidade regulatória, a confiança do cliente e a tomada de decisões estratégicas. Uma explicação baseada em evidências concretas, como transações passadas, permite que empresas identifiquem padrões, detectem anomalias e aprimorem seus modelos de risco de maneira mais eficiente. A falta de clareza pode levar a decisões injustas, perda de confiança e potenciais problemas legais. A metodologia proposta visa mitigar essas preocupações, oferecendo um caminho para diagnósticos de risco mais auditáveis e compreensíveis.\n\n## O que esperar\n\nA expectativa é que fluxos de trabalho controlados como o apresentado neste estudo se tornem padrão para a aplicação de LLMs em tarefas de análise de risco e conformidade. A validação determinística e a integração de explicações baseadas em evidências são passos importantes para a maturidade da IA explicável (XAI). Para o mercado brasileiro, isso significa um potencial aumento na adoção de soluções de IA mais robustas e confiáveis, especialmente em setores que lidam com grandes volumes de dados e necessitam de justificativas sólidas para suas operações. A pesquisa sugere que o futuro da aplicação de LLMs em cenários complexos envolverá menos \"caixas pretas\" e mais processos estruturados que garantam a integridade e a rastreabilidade das conclusões geradas. Explorar mais sobre [as aplicações de IA na explicabilidade](https://arxiv.org/abs/2610.23962) pode oferecer novas perspectivas.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo estudo publicado no arXiv apresenta uma metodologia para aprimorar a capacidade de modelos de linguagem grandes (LLMs) em diagnosticar e justificar variações em scores de risco. A pesquisa, detalhada em <a href=\"https://arxiv.org/abs/2610.23962\" target=\"_blank\" rel=\"external noopener\">um artigo disponível no arXiv</a>, descreve um \"workflow controlado\" que organiza o processo de análise. Essencialmente, o sistema busca transações históricas semelhantes para criar um contexto de comparação. Em seguida, utiliza técnicas como SHAP (SHapley Additive exPlanations) para identificar os fatores mais influentes nas diferenças observadas nos scores. Finalmente, um LLM é empregado para gerar explicações baseadas nessas evidências, com um passo final de validação para garantir a precisão e a consistência. Os experimentos realizados demonstraram que essa abordagem estruturada resulta em diagnósticos mais confiáveis e com rastreabilidade clara, superando o desempenho de LLMs que operam sem essa orientação procedural.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, a crescente adoção de modelos de IA em setores como financeiro, seguros e análise de crédito levanta questões críticas sobre transparência e explicabilidade. A capacidade de um LLM justificar, de forma clara e fundamentada, por que um determinado score de risco difere de outro é crucial para a conformidade regulatória, a confiança do cliente e a tomada de decisões estratégicas. Uma explicação baseada em evidências concretas, como transações passadas, permite que empresas identifiquem padrões, detectem anomalias e aprimorem seus modelos de risco de maneira mais eficiente. A falta de clareza pode levar a decisões injustas, perda de confiança e potenciais problemas legais. A metodologia proposta visa mitigar essas preocupações, oferecendo um caminho para diagnósticos de risco mais auditáveis e compreensíveis.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que fluxos de trabalho controlados como o apresentado neste estudo se tornem padrão para a aplicação de LLMs em tarefas de análise de risco e conformidade. A validação determinística e a integração de explicações baseadas em evidências são passos importantes para a maturidade da IA explicável (XAI). Para o mercado brasileiro, isso significa um potencial aumento na adoção de soluções de IA mais robustas e confiáveis, especialmente em setores que lidam com grandes volumes de dados e necessitam de justificativas sólidas para suas operações. A pesquisa sugere que o futuro da aplicação de LLMs em cenários complexos envolverá menos \"caixas pretas\" e mais processos estruturados que garantam a integridade e a rastreabilidade das conclusões geradas. Explorar mais sobre <a href=\"https://arxiv.org/abs/2610.23962\" target=\"_blank\" rel=\"external noopener\">as aplicações de IA na explicabilidade</a> pode oferecer novas perspectivas.</p>",
+  "tags": [
+    "llm",
+    "explicabilidade",
+    "risk score"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "LLM",
+    "IA explicável",
+    "scores de risco",
+    "análise de dados",
+    "workflow",
+    "transações históricas"
+  ],
+  "meta_description_seo": "Estudo propõe workflow para LLMs explicarem scores de risco com base em dados históricos, aumentando transparência e confiabilidade.",
+  "faq": [
+    {
+      "q": "Como esse novo método de LLM explica diferenças em scores de risco?",
+      "a": "O método utiliza um fluxo de trabalho controlado que recupera transações históricas semelhantes, aplica técnicas de explicação como SHAP para identificar fatores-chave e emprega o LLM para gerar justificativas baseadas nessas evidências, com validação final."
+    },
+    {
+      "q": "Qual a vantagem dessa abordagem em comparação com LLMs sem orientação?",
+      "a": "A abordagem controlada produz diagnósticos mais consistentes, fundamentados em evidências concretas e com maior rastreabilidade, tornando as explicações mais confiáveis e auditáveis."
+    },
+    {
+      "q": "O que isso significa para o mercado financeiro brasileiro?",
+      "a": "Significa um caminho para maior transparência e confiabilidade em sistemas de IA para análise de risco, facilitando a conformidade regulatória e a tomada de decisões mais informadas e justas."
+    }
+  ],
+  "written_at": "2026-10-20T04:25:41.352Z",
+  "slug": "ia-controlada-explica-diferencas-em-scores-de-risco-com-dados-historicos",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

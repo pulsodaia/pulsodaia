@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-19T19:45:21.350Z",
+  "generated_at": "2026-10-20T04:25:41.445Z",
   "articles": [
+    {
+      "slug": "ia-controlada-explica-diferencas-em-scores-de-risco-com-dados-historicos",
+      "headline": "IA Controlada Explica Diferenças em Scores de Risco com Dados Históricos",
+      "subtitle": "Nova abordagem de LLMs busca maior transparência e confiabilidade em diagnósticos financeiros.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.23962",
+      "category": "research",
+      "tags": [
+        "llm",
+        "explicabilidade",
+        "risk score"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 20 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-20T04:25:41.352Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-de-agentes-menos-e-mais-mas-quando-um-olhar-matematico",
+      "headline": "IA de Agentes: Menos é Mais, Mas Quando? Um Olhar Matemático",
+      "subtitle": "Pesquisa compara a eficiência de sistemas de IA baseados em agentes com abordagens tradicionais em tarefas de cálculo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.23921",
+      "category": "research",
+      "tags": [
+        "ia",
+        "agentes",
+        "arquitetura",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 20 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-20T04:25:31.587Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "gardenbench-monitoramento-diario-de-modelos-de-linguagem-em-campo-aberto",
+      "headline": "GardenBench: Monitoramento Diário de Modelos de Linguagem em Campo Aberto",
+      "subtitle": "Nova ferramenta de benchmark busca capturar flutuações de performance e custo em LLMs.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.23866",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 20 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-20T04:25:21.715Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "governador-de-illinois-debate-potencial-da-ia-de-extensao-da-vida-a-risco-existe",
       "headline": "Governador de Illinois debate potencial da IA: de extensão da vida a risco existencial",

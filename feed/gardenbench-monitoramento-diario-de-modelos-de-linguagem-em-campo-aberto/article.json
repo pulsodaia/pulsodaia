@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2610.23866v1",
+  "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+  "url": "https://arxiv.org/abs/2610.23866",
+  "summary": "arXiv:2610.23866v1 Announce Type: new Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model is released. We base our evaluation on general-use tasks and make our results publicly accessible via a live dashboard, diversifying existing approaches to LLM testing. Our main contribution is an innovative, lightweight, and inexpensive benchmark, designed to be consumer-facing and for everyday tasks.",
+  "published_at": "Tue, 20 Oct 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "GardenBench: Monitoramento Diário de Modelos de Linguagem em Campo Aberto",
+  "subtitle": "Nova ferramenta de benchmark busca capturar flutuações de performance e custo em LLMs.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Um novo benchmark batizado de GardenBench surge como uma abordagem para avaliar continuamente a capacidade de modelos de linguagem grandes (LLMs). A ferramenta se propõe a documentar variações diárias na performance, custos e tempo de resposta, aspectos frequentemente negligenciados por avaliações pontuais.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores apresentaram o GardenBench, um sistema de benchmark composto por 11 suítes de testes. O objetivo é monitorar a evolução das capacidades de LLMs através de consultas leves e sistemáticas. Ao contrário de benchmarks tradicionais que oferecem uma fotografia estática, o GardenBench foca em capturar as mudanças diárias. Isso inclui a análise da precisão das respostas, funcionalidades oferecidas e até mesmo o custo computacional e o tempo necessário para cada interação. A metodologia permite identificar tanto o progresso quanto a degradação no desempenho de modelos, seja por atualizações pós-implantação ou pelo lançamento de novas versões. Os resultados são disponibilizados publicamente através de um painel interativo, diversificando as abordagens existentes para avaliação de LLMs. O trabalho detalha essa metodologia em seu artigo disponível no [arXiv](https://arxiv.org/abs/2610.23866).\n\n## Por que importa\n\nA volatilidade no desempenho de LLMs é uma preocupação crescente para empresas e desenvolvedores no Brasil. Modelos que funcionam perfeitamente hoje podem apresentar resultados inferiores amanhã, impactando diretamente a experiência do usuário e a eficiência de aplicações críticas. O GardenBench oferece uma lente de aumento para essas flutuações, permitindo que organizações brasileiras tomem decisões mais informadas sobre a adoção e o gerenciamento de LLMs. A capacidade de rastrear custos e tempos de resposta de forma contínua é crucial para otimizar investimentos em IA e garantir a escalabilidade de soluções. Ao expor essas dinâmicas, o benchmark pode incentivar maior transparência e responsabilidade por parte dos provedores de modelos.\n\n## O que esperar\n\nA expectativa é que o GardenBench se torne uma referência para a comunidade de IA, tanto no Brasil quanto globalmente. A disponibilização pública dos dados e a metodologia aberta incentivam a colaboração e a inovação. Empresas poderão usar o benchmark para validar a performance de modelos antes de integrá-los a seus produtos ou serviços, e até mesmo para comparar diferentes provedores e versões de forma objetiva. A análise contínua pode revelar padrões de comportamento de modelos que não seriam evidentes em avaliações esporádicas, auxiliando na identificação de tendências e na antecipação de problemas. O acesso a resultados públicos em um painel dinâmico, como proposto no [artigo](https://arxiv.org/abs/2610.23866), permitirá um acompanhamento em tempo real das mudanças no cenário de LLMs.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores apresentaram o GardenBench, um sistema de benchmark composto por 11 suítes de testes. O objetivo é monitorar a evolução das capacidades de LLMs através de consultas leves e sistemáticas. Ao contrário de benchmarks tradicionais que oferecem uma fotografia estática, o GardenBench foca em capturar as mudanças diárias. Isso inclui a análise da precisão das respostas, funcionalidades oferecidas e até mesmo o custo computacional e o tempo necessário para cada interação. A metodologia permite identificar tanto o progresso quanto a degradação no desempenho de modelos, seja por atualizações pós-implantação ou pelo lançamento de novas versões. Os resultados são disponibilizados publicamente através de um painel interativo, diversificando as abordagens existentes para avaliação de LLMs. O trabalho detalha essa metodologia em seu artigo disponível no <a href=\"https://arxiv.org/abs/2610.23866\" target=\"_blank\" rel=\"external noopener\">arXiv</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A volatilidade no desempenho de LLMs é uma preocupação crescente para empresas e desenvolvedores no Brasil. Modelos que funcionam perfeitamente hoje podem apresentar resultados inferiores amanhã, impactando diretamente a experiência do usuário e a eficiência de aplicações críticas. O GardenBench oferece uma lente de aumento para essas flutuações, permitindo que organizações brasileiras tomem decisões mais informadas sobre a adoção e o gerenciamento de LLMs. A capacidade de rastrear custos e tempos de resposta de forma contínua é crucial para otimizar investimentos em IA e garantir a escalabilidade de soluções. Ao expor essas dinâmicas, o benchmark pode incentivar maior transparência e responsabilidade por parte dos provedores de modelos.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que o GardenBench se torne uma referência para a comunidade de IA, tanto no Brasil quanto globalmente. A disponibilização pública dos dados e a metodologia aberta incentivam a colaboração e a inovação. Empresas poderão usar o benchmark para validar a performance de modelos antes de integrá-los a seus produtos ou serviços, e até mesmo para comparar diferentes provedores e versões de forma objetiva. A análise contínua pode revelar padrões de comportamento de modelos que não seriam evidentes em avaliações esporádicas, auxiliando na identificação de tendências e na antecipação de problemas. O acesso a resultados públicos em um painel dinâmico, como proposto no <a href=\"https://arxiv.org/abs/2610.23866\" target=\"_blank\" rel=\"external noopener\">artigo</a>, permitirá um acompanhamento em tempo real das mudanças no cenário de LLMs.</p>",
+  "tags": [
+    "ia",
+    "llm",
+    "benchmark"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "modelos de linguagem",
+    "inteligência artificial",
+    "benchmark",
+    "avaliação de IA",
+    "LLM performance"
+  ],
+  "meta_description_seo": "GardenBench: nova ferramenta monitora diariamente performance e custos de LLMs, revelando flutuações e degradação.",
+  "faq": [
+    {
+      "q": "O que é o GardenBench?",
+      "a": "GardenBench é um novo benchmark que avalia continuamente modelos de linguagem grandes (LLMs) através de testes diários. Ele monitora performance, custos e tempo de resposta."
+    },
+    {
+      "q": "Por que o monitoramento diário de LLMs é importante?",
+      "a": "O monitoramento diário é crucial porque o desempenho dos LLMs pode variar significativamente de um dia para o outro, afetando a confiabilidade de aplicações e a eficiência de custos."
+    },
+    {
+      "q": "Onde posso ver os resultados do GardenBench?",
+      "a": "Os resultados do GardenBench são disponibilizados publicamente através de um painel interativo, permitindo o acompanhamento das métricas de forma dinâmica."
+    }
+  ],
+  "written_at": "2026-10-20T04:25:21.715Z",
+  "slug": "gardenbench-monitoramento-diario-de-modelos-de-linguagem-em-campo-aberto",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
