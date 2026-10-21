@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:34:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 07:30:55 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Autônoma Planeja Construção com Aprendizado por Reforço</title>
+      <link>https://pulsodaia.com.br/feed/ia-autonoma-planeja-construcao-com-aprendizado-por-reforco/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-planeja-construcao-com-aprendizado-por-reforco/</guid>
+      <pubDate>Wed, 21 Oct 2026 07:23:30 GMT</pubDate>
+      <description>Pesquisa na ArXiv propõe método para otimizar processos construtivos com modelos de linguagem e RL.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.26899">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Navalia Aprimora Agentes de Colaboração com Síntese de Tarefas Verificáveis</title>
+      <link>https://pulsodaia.com.br/feed/navalia-aprimora-agentes-de-colaboracao-com-sintese-de-tarefas-verificaveis/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/navalia-aprimora-agentes-de-colaboracao-com-sintese-de-tarefas-verificaveis/</guid>
+      <pubDate>Wed, 21 Oct 2026 07:23:20 GMT</pubDate>
+      <description>Nova abordagem promete elevar a capacidade de modelos de linguagem em tarefas financeiras complexas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2610.26887">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Economia Digital do Sudeste Asiático Rumo a US$ 368 Bilhões Impulsionada por IA</title>
+      <link>https://pulsodaia.com.br/feed/economia-digital-do-sudeste-asiatico-rumo-a-us-368-bilhoes-impulsionada-por-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/economia-digital-do-sudeste-asiatico-rumo-a-us-368-bilhoes-impulsionada-por-ia/</guid>
+      <pubDate>Wed, 21 Oct 2026 07:23:09 GMT</pubDate>
+      <description>Projeções globais de crescimento digital indicam aceleração significativa na região, com reflexos potenciais para o Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/">Google AI</source>
+    </item>
     <item>
       <title>CEO da Hugging Face critica documentário da Netflix sobre OpenAI</title>
       <link>https://pulsodaia.com.br/feed/ceo-da-hugging-face-critica-documentario-da-netflix-sobre-openai/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa no arXiv propõe método para que assistentes virtuais se adaptem a regulamentações de dívidas sem reprogramação constante.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.18881">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Flock CEO e controvérsia sobre detecção de som: promessa versus realidade</title>
-      <link>https://pulsodaia.com.br/feed/flock-ceo-e-controversia-sobre-deteccao-de-som-promessa-versus-realidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/flock-ceo-e-controversia-sobre-deteccao-de-som-promessa-versus-realidade/</guid>
-      <pubDate>Wed, 14 Oct 2026 23:05:54 GMT</pubDate>
-      <description>A tecnologia de vigilância por IA da Flock enfrenta escrutínio por inconsistências entre o que o CEO afirma e o que seu site descreve.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Refina Claude Code com Novas Ferramentas para Desenvolvedores</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-refina-claude-code-com-novas-ferramentas-para-desenvolvedores/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-refina-claude-code-com-novas-ferramentas-para-desenvolvedores/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:27:14 GMT</pubDate>
-      <description>Atualizações na plataforma visam melhorar a experiência de modding e a integração com serviços AWS.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.300">Claude Code</source>
-    </item>
-    <item>
-      <title>IA simula clima extremo com precisão e custo reduzido</title>
-      <link>https://pulsodaia.com.br/feed/ia-simula-clima-extremo-com-precisao-e-custo-reduzido/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-simula-clima-extremo-com-precisao-e-custo-reduzido/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:27:02 GMT</pubDate>
-      <description>Nova ferramenta promete democratizar a previsão de eventos climáticos severos no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/allenai/hiro-acev2">Hugging Face</source>
     </item>
   </channel>
 </rss>

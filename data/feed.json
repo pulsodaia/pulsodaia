@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-21T00:29:16.468Z",
+  "generated_at": "2026-10-21T07:23:30.917Z",
   "articles": [
+    {
+      "slug": "ia-autonoma-planeja-construcao-com-aprendizado-por-reforco",
+      "headline": "IA Autônoma Planeja Construção com Aprendizado por Reforço",
+      "subtitle": "Pesquisa na ArXiv propõe método para otimizar processos construtivos com modelos de linguagem e RL.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.26899",
+      "category": "research",
+      "tags": [
+        "ia",
+        "construcao civil",
+        "aprendizado por reforco"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 21 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-21T07:23:30.648Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "navalia-aprimora-agentes-de-colaboracao-com-sintese-de-tarefas-verificaveis",
+      "headline": "Navalia Aprimora Agentes de Colaboração com Síntese de Tarefas Verificáveis",
+      "subtitle": "Nova abordagem promete elevar a capacidade de modelos de linguagem em tarefas financeiras complexas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.26887",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "agentes de colaboracao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 21 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-21T07:23:20.235Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "economia-digital-do-sudeste-asiatico-rumo-a-us-368-bilhoes-impulsionada-por-ia",
+      "headline": "Economia Digital do Sudeste Asiático Rumo a US$ 368 Bilhões Impulsionada por IA",
+      "subtitle": "Projeções globais de crescimento digital indicam aceleração significativa na região, com reflexos potenciais para o Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "economia digital",
+        "sudeste asiático"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 21 Oct 2026 04:00:00 +0000",
+      "written_at": "2026-10-21T07:23:09.887Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ceo-da-hugging-face-critica-documentario-da-netflix-sobre-openai",
       "headline": "CEO da Hugging Face critica documentário da Netflix sobre OpenAI",
