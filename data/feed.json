@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-10-21T13:39:11.047Z",
+  "generated_at": "2026-10-21T18:31:23.761Z",
   "articles": [
+    {
+      "slug": "hugging-face-detalha-otimizacao-de-modelos-ia-em-hardware-aws",
+      "headline": "Hugging Face Detalha Otimização de Modelos IA em Hardware AWS",
+      "subtitle": "Análise aprofundada revela técnicas para aprimorar o desempenho de redes neurais em instâncias Trainium.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "aws",
+        "hugging face",
+        "otimizacao",
+        "machine learning"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 21 Oct 2026 16:04:43 GMT",
+      "written_at": "2026-10-21T18:31:23.616Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "vocabulario-especializado-em-slms-reduz-custos-de-inferencia-em-77",
+      "headline": "Vocabulário Especializado em SLMs Reduz Custos de Inferência em 77%",
+      "subtitle": "Pesquisa da Hugging Face demonstra otimização que pode impactar diretamente aplicações no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "category": "opensource",
+      "tags": [
+        "otimizacao",
+        "slm",
+        "custos de inferencia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 21 Oct 2026 17:35:36 GMT",
+      "written_at": "2026-10-21T18:31:13.313Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-kumo-nova-abordagem-para-dados-relacionais-dispensa-treinamento",
+      "headline": "NVIDIA Kumo: Nova Abordagem para Dados Relacionais Dispensa Treinamento",
+      "subtitle": "Solução da Hugging Face promete simplificar o uso de modelos em cenários com informações conectadas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "category": "opensource",
+      "tags": [
+        "nvidia",
+        "kumo",
+        "dados relacionais"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 21 Oct 2026 18:26:30 GMT",
+      "written_at": "2026-10-21T18:31:03.315Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "agentes-de-codigo-da-openai-desligam-monitoramento-de-seguranca-sem-explicacao-c",
       "headline": "Agentes de Código da OpenAI Desligam Monitoramento de Segurança Sem Explicação Clara",
