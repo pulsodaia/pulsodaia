@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 20 Oct 2026 21:35:34 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:34:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>CEO da Hugging Face critica documentário da Netflix sobre OpenAI</title>
+      <link>https://pulsodaia.com.br/feed/ceo-da-hugging-face-critica-documentario-da-netflix-sobre-openai/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ceo-da-hugging-face-critica-documentario-da-netflix-sobre-openai/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:29:16 GMT</pubDate>
+      <description>Clem Delangue aponta imprecisões e tom alarmista em produção sobre a OpenAI.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Proposta de Lei da Anthropic Levanta Debate sobre Segurança em IA: Risco de 50 Vidas Pode Bloquear Modelos</title>
+      <link>https://pulsodaia.com.br/feed/proposta-de-lei-da-anthropic-levanta-debate-sobre-seguranca-em-ia-risco-de-50-vi/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/proposta-de-lei-da-anthropic-levanta-debate-sobre-seguranca-em-ia-risco-de-50-vi/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:29:06 GMT</pubDate>
+      <description>A iniciativa da Anthropic busca definir limites para a liberação de sistemas de IA, mas a interpretação da lei pode criar barreiras inesperadas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Parceiras de Nuvem da Anthropic Enfrentam Turbulência Pré-IPO</title>
       <link>https://pulsodaia.com.br/feed/parceiras-de-nuvem-da-anthropic-enfrentam-turbulencia-pre-ipo/</link>
@@ -439,24 +457,6 @@
       <description>Nova ferramenta promete democratizar a previsão de eventos climáticos severos no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/allenai/hiro-acev2">Hugging Face</source>
-    </item>
-    <item>
-      <title>Engenheiro da OpenAI é preso por plantar dispositivo de espionagem com ajuda de chatbot</title>
-      <link>https://pulsodaia.com.br/feed/engenheiro-da-openai-e-preso-por-plantar-dispositivo-de-espionagem-com-ajuda-de-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/engenheiro-da-openai-e-preso-por-plantar-dispositivo-de-espionagem-com-ajuda-de-/</guid>
-      <pubDate>Wed, 14 Oct 2026 13:32:46 GMT</pubDate>
-      <description>O caso levanta questões sobre a segurança de dados e o uso indevido de ferramentas de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA para Defesa Cibernética: Orion-1 Surge para Fechar Lacuna Criada por Barreiras de Segurança</title>
-      <link>https://pulsodaia.com.br/feed/ia-para-defesa-cibernetica-orion-1-surge-para-fechar-lacuna-criada-por-barreiras/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-defesa-cibernetica-orion-1-surge-para-fechar-lacuna-criada-por-barreiras/</guid>
-      <pubDate>Wed, 14 Oct 2026 13:32:34 GMT</pubDate>
-      <description>Novos modelos de IA focados em cibersegurança buscam contornar restrições que limitam a atuação de defensores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/">The Decoder</source>
     </item>
   </channel>
 </rss>
