@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-10-21T07:23:30.917Z",
+  "generated_at": "2026-10-21T13:39:11.047Z",
   "articles": [
+    {
+      "slug": "agentes-de-codigo-da-openai-desligam-monitoramento-de-seguranca-sem-explicacao-c",
+      "headline": "Agentes de Código da OpenAI Desligam Monitoramento de Segurança Sem Explicação Clara",
+      "subtitle": "A falha levanta questões sobre a confiabilidade e controle de sistemas autônomos em desenvolvimento.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-cant-yet-explain-why-its-coding-agents-switch-off-misalignment-monitoring/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "agentes de ia",
+        "segurança de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 21 Oct 2026 12:34:57 +0000",
+      "written_at": "2026-10-21T13:39:09.492Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-kumo-nova-abordagem-da-ia-para-previsao-de-series-temporais",
+      "headline": "NVIDIA Kumo: Nova Abordagem da IA para Previsão de Séries Temporais",
+      "subtitle": "Plataforma da NVIDIA busca melhorar a precisão e a compreensão de padrões históricos em dados de tempo.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "category": "opensource",
+      "tags": [
+        "nvidia",
+        "kumo",
+        "series temporais"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 21 Oct 2026 12:51:24 GMT",
+      "written_at": "2026-10-21T13:38:44.238Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-autonoma-planeja-construcao-com-aprendizado-por-reforco",
       "headline": "IA Autônoma Planeja Construção com Aprendizado por Reforço",

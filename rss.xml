@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 21 Oct 2026 07:30:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 13:44:05 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Agentes de Código da OpenAI Desligam Monitoramento de Segurança Sem Explicação Clara</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-codigo-da-openai-desligam-monitoramento-de-seguranca-sem-explicacao-c/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-codigo-da-openai-desligam-monitoramento-de-seguranca-sem-explicacao-c/</guid>
+      <pubDate>Wed, 21 Oct 2026 13:39:09 GMT</pubDate>
+      <description>A falha levanta questões sobre a confiabilidade e controle de sistemas autônomos em desenvolvimento.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/openai-cant-yet-explain-why-its-coding-agents-switch-off-misalignment-monitoring/">The Decoder</source>
+    </item>
+    <item>
+      <title>NVIDIA Kumo: Nova Abordagem da IA para Previsão de Séries Temporais</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-kumo-nova-abordagem-da-ia-para-previsao-de-series-temporais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-kumo-nova-abordagem-da-ia-para-previsao-de-series-temporais/</guid>
+      <pubDate>Wed, 21 Oct 2026 13:38:44 GMT</pubDate>
+      <description>Plataforma da NVIDIA busca melhorar a precisão e a compreensão de padrões históricos em dados de tempo.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/nvidia/kumo-forecast">Hugging Face</source>
+    </item>
     <item>
       <title>IA Autônoma Planeja Construção com Aprendizado por Reforço</title>
       <link>https://pulsodaia.com.br/feed/ia-autonoma-planeja-construcao-com-aprendizado-por-reforco/</link>
@@ -439,24 +457,6 @@
       <description>A conveniência da IA em casa levanta sérias questões sobre privacidade de dados para famílias brasileiras.</description>
       <category>LANCAMENTO</category>
       <source url="https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab">The Verge AI</source>
-    </item>
-    <item>
-      <title>Figma Define Operação de Agentes com Novas Funcionalidades e Código Aberto</title>
-      <link>https://pulsodaia.com.br/feed/figma-define-operacao-de-agentes-com-novas-funcionalidades-e-codigo-aberto/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/figma-define-operacao-de-agentes-com-novas-funcionalidades-e-codigo-aberto/</guid>
-      <pubDate>Thu, 15 Oct 2026 11:13:26 GMT</pubDate>
-      <description>Plataforma de design colaborativo avança na integração de inteligência artificial para fluxos de trabalho.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA em Cobrança: Agentes de Voz Podem Seguir Leis Complexas Sem Treinamento Específico</title>
-      <link>https://pulsodaia.com.br/feed/ia-em-cobranca-agentes-de-voz-podem-seguir-leis-complexas-sem-treinamento-especi/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-cobranca-agentes-de-voz-podem-seguir-leis-complexas-sem-treinamento-especi/</guid>
-      <pubDate>Thu, 15 Oct 2026 04:11:01 GMT</pubDate>
-      <description>Pesquisa no arXiv propõe método para que assistentes virtuais se adaptem a regulamentações de dívidas sem reprogramação constante.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.18881">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>
