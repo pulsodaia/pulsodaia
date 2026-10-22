@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-10-21T18:31:23.761Z",
+  "generated_at": "2026-10-22T04:15:56.806Z",
   "articles": [
+    {
+      "slug": "modelos-menores-de-ia-podem-refinar-perguntas-ambiguas-em-sistemas-rag",
+      "headline": "Modelos menores de IA podem refinar perguntas ambíguas em sistemas RAG",
+      "subtitle": "Pesquisa em artigo científico aponta para eficiência em modelos com menos parâmetros para melhorar a clareza em interações com IA.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.28686",
+      "category": "research",
+      "tags": [
+        "ia",
+        "rag",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 22 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-22T04:15:56.678Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "hugging-face-detalha-otimizacao-de-modelos-ia-em-hardware-aws",
       "headline": "Hugging Face Detalha Otimização de Modelos IA em Hardware AWS",

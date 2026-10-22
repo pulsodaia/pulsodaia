@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 21 Oct 2026 18:37:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 04:21:02 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos menores de IA podem refinar perguntas ambíguas em sistemas RAG</title>
+      <link>https://pulsodaia.com.br/feed/modelos-menores-de-ia-podem-refinar-perguntas-ambiguas-em-sistemas-rag/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-menores-de-ia-podem-refinar-perguntas-ambiguas-em-sistemas-rag/</guid>
+      <pubDate>Thu, 22 Oct 2026 04:15:56 GMT</pubDate>
+      <description>Pesquisa em artigo científico aponta para eficiência em modelos com menos parâmetros para melhorar a clareza em interações com IA.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.28686">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Hugging Face Detalha Otimização de Modelos IA em Hardware AWS</title>
       <link>https://pulsodaia.com.br/feed/hugging-face-detalha-otimizacao-de-modelos-ia-em-hardware-aws/</link>
@@ -448,15 +457,6 @@
       <description>A novidade promete democratizar a criação de imagens de alta qualidade em dispositivos com recursos limitados.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/flux-3">Hugging Face</source>
-    </item>
-    <item>
-      <title>Apertus 1.5 Chega com Melhorias em Eficiência e Acessibilidade</title>
-      <link>https://pulsodaia.com.br/feed/apertus-1-5-chega-com-melhorias-em-eficiencia-e-acessibilidade/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apertus-1-5-chega-com-melhorias-em-eficiencia-e-acessibilidade/</guid>
-      <pubDate>Thu, 15 Oct 2026 16:44:22 GMT</pubDate>
-      <description>A nova versão promete otimizar o uso de modelos de linguagem em diversas aplicações.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes">Hugging Face</source>
     </item>
   </channel>
 </rss>
