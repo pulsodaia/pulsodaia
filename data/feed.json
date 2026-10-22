@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-22T04:15:56.806Z",
+  "generated_at": "2026-10-22T11:33:49.058Z",
   "articles": [
+    {
+      "slug": "robo-de-ia-para-bolsa-ignora-promessas-de-seguranca-e-expoe-dados-de-usuarios",
+      "headline": "Robô de IA para bolsa ignora promessas de segurança e expõe dados de usuários",
+      "subtitle": "Falhas em um pequeno robô de conversa com IA levantam dúvidas sobre a proteção de dados em dispositivos conectados.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+      "category": "mercado",
+      "tags": [
+        "segurança de dados",
+        "inteligência artificial",
+        "privacidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-22T07:00:00-04:00",
+      "written_at": "2026-10-22T11:33:48.554Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-atualizado-foco-em-correcoes-e-estabilidade",
+      "headline": "Claude Code Atualizado: Foco em Correções e Estabilidade",
+      "subtitle": "Nova versão do modelo de código da Anthropic prioriza refinamentos técnicos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "desenvolvimento de software",
+        "ia"
+      ],
+      "read_time_min": 2,
+      "published_at": "2026-10-22T04:34:55Z",
+      "written_at": "2026-10-22T11:33:36.705Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ibm-granito-novos-modelos-de-series-temporais-buscam-precisao-em-previsoes",
+      "headline": "IBM Granito: Novos Modelos de Séries Temporais Buscam Precisão em Previsões",
+      "subtitle": "A abordagem de ensemble promete aprimorar a acurácia em cenários econômicos e de mercado.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "category": "opensource",
+      "tags": [
+        "series temporais",
+        "ia",
+        "previsao"
+      ],
+      "read_time_min": 2,
+      "published_at": "Thu, 22 Oct 2026 07:51:31 GMT",
+      "written_at": "2026-10-22T11:33:26.396Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "modelos-menores-de-ia-podem-refinar-perguntas-ambiguas-em-sistemas-rag",
       "headline": "Modelos menores de IA podem refinar perguntas ambíguas em sistemas RAG",
