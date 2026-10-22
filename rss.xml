@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 22 Oct 2026 11:39:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 17:07:12 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Hackers Chineses Usam IA para Espionar Milhares de Empresas via ConnectWise</title>
+      <link>https://pulsodaia.com.br/feed/hackers-chineses-usam-ia-para-espionar-milhares-de-empresas-via-connectwise/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hackers-chineses-usam-ia-para-espionar-milhares-de-empresas-via-connectwise/</guid>
+      <pubDate>Thu, 22 Oct 2026 16:59:41 GMT</pubDate>
+      <description>Ataque sofisticado explora vulnerabilidades em gigante de TI, levantando preocupações sobre segurança cibernética global.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>OlmoEarth v1.3: Novas Embeddings Globais para Análise Geoespacial</title>
+      <link>https://pulsodaia.com.br/feed/olmoearth-v1-3-novas-embeddings-globais-para-analise-geoespacial/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/olmoearth-v1-3-novas-embeddings-globais-para-analise-geoespacial/</guid>
+      <pubDate>Thu, 22 Oct 2026 16:59:30 GMT</pubDate>
+      <description>O portal Hugging Face anuncia uma atualização significativa em modelos de representação de dados geográficos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/allenai/olmoearth-v1-3">Hugging Face</source>
+    </item>
+    <item>
+      <title>Google DeepMind Mapeia Florestas Globais com Detalhe Sem Precedentes</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-mapeia-florestas-globais-com-detalhe-sem-precedentes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-mapeia-florestas-globais-com-detalhe-sem-precedentes/</guid>
+      <pubDate>Thu, 22 Oct 2026 16:59:19 GMT</pubDate>
+      <description>Nova ferramenta de IA promete revolucionar o monitoramento ambiental e a gestão de recursos naturais no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/">Google DeepMind</source>
+    </item>
     <item>
       <title>Robô de IA para bolsa ignora promessas de segurança e expõe dados de usuários</title>
       <link>https://pulsodaia.com.br/feed/robo-de-ia-para-bolsa-ignora-promessas-de-seguranca-e-expoe-dados-de-usuarios/</link>
@@ -430,33 +457,6 @@
       <description>Novos testes e métodos de treinamento avaliam a velocidade de resposta de sistemas de IA em cenários que não param.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.20665">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Beam: Modelo de IA Aberto 501B Promete Propriedade e Customização ao Usuário</title>
-      <link>https://pulsodaia.com.br/feed/beam-modelo-de-ia-aberto-501b-promete-propriedade-e-customizacao-ao-usuario/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/beam-modelo-de-ia-aberto-501b-promete-propriedade-e-customizacao-ao-usuario/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:08:48 GMT</pubDate>
-      <description>Nova oferta da Hugging Face busca democratizar o acesso a modelos de grande escala para empresas brasileiras.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/reflection-beam">Hugging Face</source>
-    </item>
-    <item>
-      <title>Gigantes da IA Escalando Treinamento em Línguas Indic com 2.8 Trilhões de Tokens</title>
-      <link>https://pulsodaia.com.br/feed/gigantes-da-ia-escalando-treinamento-em-linguas-indic-com-2-8-trilhoes-de-tokens/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gigantes-da-ia-escalando-treinamento-em-linguas-indic-com-2-8-trilhoes-de-tokens/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:08:38 GMT</pubDate>
-      <description>Hugging Face e Nvidia abrem pipeline de dados para democratizar o acesso a modelos de linguagem para o mercado brasileiro.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/scaling-indic-pretraining">Hugging Face</source>
-    </item>
-    <item>
-      <title>Claude Code v2.1.301: Ajustes em Retry Mode e Integração com OpenTelemetry</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-301-ajustes-em-retry-mode-e-integracao-com-opentelemetry/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-301-ajustes-em-retry-mode-e-integracao-com-opentelemetry/</guid>
-      <pubDate>Fri, 16 Oct 2026 00:12:43 GMT</pubDate>
-      <description>Atualizações no projeto Claude Code focam em controle de uso e observabilidade para desenvolvedores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.301">Claude Code</source>
     </item>
   </channel>
 </rss>
