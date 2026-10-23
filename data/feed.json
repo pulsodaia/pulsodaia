@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-22T16:59:41.682Z",
+  "generated_at": "2026-10-23T00:30:08.380Z",
   "articles": [
+    {
+      "slug": "microsoft-avanca-em-treinamento-de-ia-com-recompensa-baseada-em-banco-de-dados",
+      "headline": "Microsoft Avança em Treinamento de IA com Recompensa Baseada em Banco de Dados",
+      "subtitle": "Nova abordagem da Hugging Face simplifica o ajuste fino de modelos pós-treinamento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "treinamento",
+        "microsoft",
+        "hugging face",
+        "recompensa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 22 Oct 2026 22:24:34 GMT",
+      "written_at": "2026-10-23T00:30:08.192Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "hackers-chineses-usam-ia-para-espionar-milhares-de-empresas-via-connectwise",
       "headline": "Hackers Chineses Usam IA para Espionar Milhares de Empresas via ConnectWise",

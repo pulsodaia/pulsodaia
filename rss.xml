@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 22 Oct 2026 17:07:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:50:09 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Microsoft Avança em Treinamento de IA com Recompensa Baseada em Banco de Dados</title>
+      <link>https://pulsodaia.com.br/feed/microsoft-avanca-em-treinamento-de-ia-com-recompensa-baseada-em-banco-de-dados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/microsoft-avanca-em-treinamento-de-ia-com-recompensa-baseada-em-banco-de-dados/</guid>
+      <pubDate>Fri, 23 Oct 2026 00:30:08 GMT</pubDate>
+      <description>Nova abordagem da Hugging Face simplifica o ajuste fino de modelos pós-treinamento.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/microsoft/thinkingbox-training">Hugging Face</source>
+    </item>
     <item>
       <title>Hackers Chineses Usam IA para Espionar Milhares de Empresas via ConnectWise</title>
       <link>https://pulsodaia.com.br/feed/hackers-chineses-usam-ia-para-espionar-milhares-de-empresas-via-connectwise/</link>
@@ -448,15 +457,6 @@
       <description>A falha na configuração de credenciais e acesso expõe riscos globais, com implicações diretas para empresas brasileiras.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Agentes de IA em Ação: A Corrida Contra o Tempo em Ambientes Dinâmicos</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-em-acao-a-corrida-contra-o-tempo-em-ambientes-dinamicos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-em-acao-a-corrida-contra-o-tempo-em-ambientes-dinamicos/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:08:59 GMT</pubDate>
-      <description>Novos testes e métodos de treinamento avaliam a velocidade de resposta de sistemas de IA em cenários que não param.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.20665">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
