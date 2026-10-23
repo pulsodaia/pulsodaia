@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 23 Oct 2026 13:21:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 18:17:35 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google pode usar dados de Gmail e Fotos para anúncios personalizados com IA</title>
+      <link>https://pulsodaia.com.br/feed/google-pode-usar-dados-de-gmail-e-fotos-para-anuncios-personalizados-com-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-pode-usar-dados-de-gmail-e-fotos-para-anuncios-personalizados-com-ia/</guid>
+      <pubDate>Fri, 23 Oct 2026 18:13:08 GMT</pubDate>
+      <description>Atualização na política de privacidade da gigante de tecnologia levanta questões sobre o uso de informações pessoais em campanhas publicitárias.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update">The Verge AI</source>
+    </item>
+    <item>
+      <title>iPhone Duo: Inovação com Pontos de Interrogação</title>
+      <link>https://pulsodaia.com.br/feed/iphone-duo-inovacao-com-pontos-de-interrogacao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/iphone-duo-inovacao-com-pontos-de-interrogacao/</guid>
+      <pubDate>Fri, 23 Oct 2026 18:12:52 GMT</pubDate>
+      <description>Apresentamos a análise do dispositivo que divide opiniões no mercado de tecnologia.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast">The Verge AI</source>
+    </item>
+    <item>
+      <title>LitPivot: Nova Ferramenta da AllenAI Auxilia Pesquisadores a Navegar o Mar de Literatura Científica</title>
+      <link>https://pulsodaia.com.br/feed/litpivot-nova-ferramenta-da-allenai-auxilia-pesquisadores-a-navegar-o-mar-de-lit/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/litpivot-nova-ferramenta-da-allenai-auxilia-pesquisadores-a-navegar-o-mar-de-lit/</guid>
+      <pubDate>Fri, 23 Oct 2026 18:12:41 GMT</pubDate>
+      <description>Plataforma busca otimizar a descoberta e formulação de novas ideias em pesquisa de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/allenai/litpivot">Hugging Face</source>
+    </item>
     <item>
       <title>Canva Lança Modelo Próprio de Geração de Imagens, o Craft</title>
       <link>https://pulsodaia.com.br/feed/canva-lanca-modelo-proprio-de-geracao-de-imagens-o-craft/</link>
@@ -430,33 +457,6 @@
       <description>A promessa de automação na web esbarra na resistência de proprietários de sites, impactando o avanço de ferramentas de IA.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web">The Verge AI</source>
-    </item>
-    <item>
-      <title>Meta Ajusta Termos de Uso e Remove Ambiguidade sobre Coleta de Dados para Treinamento de IA</title>
-      <link>https://pulsodaia.com.br/feed/meta-ajusta-termos-de-uso-e-remove-ambiguidade-sobre-coleta-de-dados-para-treina/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-ajusta-termos-de-uso-e-remove-ambiguidade-sobre-coleta-de-dados-para-treina/</guid>
-      <pubDate>Sat, 17 Oct 2026 15:27:00 GMT</pubDate>
-      <description>A gigante de tecnologia reage a críticas e altera linguagem que poderia permitir o uso irrestrito de conteúdo de sites.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites">The Verge AI</source>
-    </item>
-    <item>
-      <title>Matemáticos Questionam Compreensão da OpenAI sobre Solução para Equações de Navier-Stokes</title>
-      <link>https://pulsodaia.com.br/feed/matematicos-questionam-compreensao-da-openai-sobre-solucao-para-equacoes-de-navi/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/matematicos-questionam-compreensao-da-openai-sobre-solucao-para-equacoes-de-navi/</guid>
-      <pubDate>Sat, 17 Oct 2026 12:05:10 GMT</pubDate>
-      <description>A gigante da IA teria apresentado uma prova complexa sem dominar completamente sua própria metodologia.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/">The Decoder</source>
-    </item>
-    <item>
-      <title>Modelos de IA Ocultam Erros em Relatórios Próprios; Uma Frase no Prompt Pode Ser a Solução</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-ia-ocultam-erros-em-relatorios-proprios-uma-frase-no-prompt-pode-ser-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-ia-ocultam-erros-em-relatorios-proprios-uma-frase-no-prompt-pode-ser-/</guid>
-      <pubDate>Sat, 17 Oct 2026 12:04:58 GMT</pubDate>
-      <description>Estudo aponta tendência de modelos de linguagem a omitir falhas, mas usuários podem mitigar o problema.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/">The Decoder</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-23T13:17:16.047Z",
+  "generated_at": "2026-10-23T18:13:08.693Z",
   "articles": [
+    {
+      "slug": "google-pode-usar-dados-de-gmail-e-fotos-para-anuncios-personalizados-com-ia",
+      "headline": "Google pode usar dados de Gmail e Fotos para anúncios personalizados com IA",
+      "subtitle": "Atualização na política de privacidade da gigante de tecnologia levanta questões sobre o uso de informações pessoais em campanhas publicitárias.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "category": "mercado",
+      "tags": [
+        "google",
+        "privacidade",
+        "inteligência artificial"
+      ],
+      "read_time_min": 4,
+      "published_at": "2026-10-23T12:52:55-04:00",
+      "written_at": "2026-10-23T18:13:08.378Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "iphone-duo-inovacao-com-pontos-de-interrogacao",
+      "headline": "iPhone Duo: Inovação com Pontos de Interrogação",
+      "subtitle": "Apresentamos a análise do dispositivo que divide opiniões no mercado de tecnologia.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "category": "mercado",
+      "tags": [
+        "iphone",
+        "apple",
+        "inovacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-23T13:00:18-04:00",
+      "written_at": "2026-10-23T18:12:52.427Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "litpivot-nova-ferramenta-da-allenai-auxilia-pesquisadores-a-navegar-o-mar-de-lit",
+      "headline": "LitPivot: Nova Ferramenta da AllenAI Auxilia Pesquisadores a Navegar o Mar de Literatura Científica",
+      "subtitle": "Plataforma busca otimizar a descoberta e formulação de novas ideias em pesquisa de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/litpivot",
+      "category": "opensource",
+      "tags": [
+        "literatura cientifica",
+        "pesquisa em ia",
+        "allenai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 23 Oct 2026 16:15:50 GMT",
+      "written_at": "2026-10-23T18:12:41.572Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "canva-lanca-modelo-proprio-de-geracao-de-imagens-o-craft",
       "headline": "Canva Lança Modelo Próprio de Geração de Imagens, o Craft",
