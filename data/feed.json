@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-10-23T00:30:08.380Z",
+  "generated_at": "2026-10-23T07:17:31.898Z",
   "articles": [
+    {
+      "slug": "ia-acelera-mapeamento-de-risco-de-incendios-florestais-no-canada",
+      "headline": "IA Acelera Mapeamento de Risco de Incêndios Florestais no Canadá",
+      "subtitle": "Um novo framework de modelagem substituta com IA promete reduzir drasticamente o tempo de processamento para mapeamento de risco, com potencial para aplicações no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.30170",
+      "category": "research",
+      "tags": [
+        "inteligencia artificial",
+        "incêndios florestais",
+        "modelagem preditiva"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-23T07:17:31.780Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-cli-ou-mcp-para-agentes-autonomos-estudo-compara-abordagens-de-integracao-de-",
+      "headline": "IA: CLI ou MCP para Agentes Autônomos? Estudo Compara Abordagens de Integração de Ferramentas",
+      "subtitle": "Um novo artigo científico no arXiv analisa os prós e contras de duas estratégias chave para a interação de agentes de IA com o mundo digital.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.30157",
+      "category": "research",
+      "tags": [
+        "ia",
+        "agentes autonomos",
+        "integracao de ferramentas"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-23T07:17:21.114Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "custo-invisivel-o-preco-da-primeira-palavra-em-comunicacao-entre-agentes-de-ia",
+      "headline": "Custo Invisível: O Preço da Primeira Palavra em Comunicação entre Agentes de IA",
+      "subtitle": "Um estudo inédito quantifica o tempo e os recursos consumidos antes que a primeira mensagem útil seja trocada entre sistemas de inteligência artificial no Brasil e no mundo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.30151",
+      "category": "research",
+      "tags": [
+        "ia",
+        "comunicação",
+        "agentes",
+        "pesquisa",
+        "eficiência"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 23 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-23T07:17:11.161Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "microsoft-avanca-em-treinamento-de-ia-com-recompensa-baseada-em-banco-de-dados",
       "headline": "Microsoft Avança em Treinamento de IA com Recompensa Baseada em Banco de Dados",
