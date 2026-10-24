@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-10-23T22:59:56.238Z",
+  "generated_at": "2026-10-24T04:10:40.555Z",
   "articles": [
+    {
+      "slug": "openai-suspende-treinamento-de-modelos-com-dados-da-internet-ao-vivo",
+      "headline": "OpenAI Suspende Treinamento de Modelos com Dados da Internet ao Vivo",
+      "subtitle": "A decisão da gigante de IA pode impactar o desenvolvimento e a atualização de modelos de linguagem no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "inteligencia artificial",
+        "treinamento de modelos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 23 Oct 2026 23:05:49 +0000",
+      "written_at": "2026-10-24T04:10:40.514Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-ajusta-ferramentas-e-corre-falhas-em-atualizacao",
+      "headline": "Claude Code Ajusta Ferramentas e Corre Falhas em Atualização",
+      "subtitle": "A Anthropic aprimora a usabilidade e a estabilidade do seu modelo de código, com impacto direto em desenvolvedores no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-23T23:39:00Z",
+      "written_at": "2026-10-24T04:10:30.534Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "openai-isola-treinamento-de-modelos-de-ponta-da-internet-apos-incidentes-de-segu",
       "headline": "OpenAI isola treinamento de modelos de ponta da internet após incidentes de segurança",

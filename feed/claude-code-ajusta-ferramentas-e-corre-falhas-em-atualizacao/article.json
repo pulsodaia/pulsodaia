@@ -1,0 +1,53 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.310",
+  "title": "v2.1.310",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+  "summary": "<h2>What's changed</h2> <ul> <li>Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too</li> <li>Fixed requests failing behind some gateways and compatible servers that reject the <code>effort-2025-11-24</code> beta value or mid-conversation system messages; Claude Code now retries without them</li> <li>Fixed background cleanup deleting some recent files, such as pasted images, when <code>cleanupPeriodDays</code> is set to a very large value</li> <li>Fixed compaction after a \"Prompt is too long\" error keeping too much of a conversation with dense text, such as base64 or SVG, so the next request could fail again</li> <li>Fixed file read permission prompts not showing where a symbolic link leads</li> <li>Fixed a question's auto-continue timeout firing the moment the external editor closed after a long edit</li> <li>Windows: Fixed PreToolUse and PermissionRequest h",
+  "published_at": "2026-10-23T23:39:00Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Ajusta Ferramentas e Corre Falhas em Atualização",
+  "subtitle": "A Anthropic aprimora a usabilidade e a estabilidade do seu modelo de código, com impacto direto em desenvolvedores no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic liberou a versão v2.1.310 do Claude Code, introduzindo melhorias significativas em monitoramento e correções para falhas de comunicação e gerenciamento de arquivos. As atualizações visam aumentar a robustez e a eficiência do modelo em ambientes de desenvolvimento.",
+  "body_markdown": "## O que aconteceu\n\nA atualização v2.1.310 do Claude Code, detalhada no [repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.310), trouxe uma série de ajustes focados em aprimorar a experiência do usuário e a confiabilidade da ferramenta. Entre as novidades, destaca-se a adição da ferramenta de Monitoramento (Monitor tool) e monitores de plugin em plataformas como Bedrock, Vertex e Foundry. Essas funcionalidades agora também bloqueiam longos períodos de espera em segundo plano quando a telemetria ou tráfego não essencial é desativado.\n\nOutros pontos importantes incluem a correção de requisições que falhavam atrás de alguns gateways ou servidores que rejeitavam o valor beta `effort-2025-11-24` ou mensagens de sistema no meio de uma conversa. O Claude Code agora implementa uma estratégia de retentativas sem esses elementos. Problemas com a limpeza em segundo plano, que deletava arquivos recentes como imagens coladas quando o parâmetro `cleanupPeriodDays` era configurado para um valor muito alto, foram solucionados. Adicionalmente, a compactação após erros de \"Prompt é muito longo\" que retinha excessiva informação de conversas densas, como dados em base64 ou SVGs, foi corrigida para evitar falhas subsequentes. Por fim, problemas na exibição de prompts de permissão de leitura de arquivos foram resolvidos.\n\n## Por que importa\n\nPara desenvolvedores brasileiros que utilizam ou consideram o Claude Code em seus fluxos de trabalho, essas correções representam um ganho direto em produtividade e estabilidade. A capacidade de monitoramento aprimorada, especialmente em cenários com restrições de tráfego, garante maior visibilidade sobre o funcionamento do modelo. A resolução de falhas em requisições e a melhor gestão de conversas densas minimizam interrupções inesperadas, um fator crítico em projetos de software. A correção na limpeza de arquivos também protege o trabalho do usuário, evitando a perda de artefatos importantes. Estes ajustes indicam um compromisso da Anthropic em refinar as ferramentas de desenvolvimento de IA, tornando-as mais adequadas para uso profissional em diversos mercados.\n\n## O que esperar\n\nCom essas melhorias, espera-se que o Claude Code se torne uma ferramenta ainda mais confiável para a geração e análise de código. A adição de mecanismos de monitoramento mais robustos sugere um futuro onde a integração do modelo com diferentes plataformas de desenvolvimento e nuvem será mais fluida e transparente. A resolução de falhas de comunicação e de gerenciamento de dados aponta para uma maior capacidade do modelo em lidar com cenários complexos e com grande volume de informações. A Anthropic continua a evoluir suas ofertas, e esta atualização, disponível em seu [repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.310), demonstra um foco contínuo na estabilidade e na usabilidade prática para o desenvolvedor. O aprimoramento das funcionalidades de limpeza e compactação também sugere um cuidado maior com a persistência e organização dos dados de conversação, elementos essenciais para o aprendizado e adaptação do modelo.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A atualização v2.1.310 do Claude Code, detalhada no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.310\" target=\"_blank\" rel=\"external noopener\">repositório oficial</a>, trouxe uma série de ajustes focados em aprimorar a experiência do usuário e a confiabilidade da ferramenta. Entre as novidades, destaca-se a adição da ferramenta de Monitoramento (Monitor tool) e monitores de plugin em plataformas como Bedrock, Vertex e Foundry. Essas funcionalidades agora também bloqueiam longos períodos de espera em segundo plano quando a telemetria ou tráfego não essencial é desativado.</p>\n\n<p>Outros pontos importantes incluem a correção de requisições que falhavam atrás de alguns gateways ou servidores que rejeitavam o valor beta <code>effort-2025-11-24</code> ou mensagens de sistema no meio de uma conversa. O Claude Code agora implementa uma estratégia de retentativas sem esses elementos. Problemas com a limpeza em segundo plano, que deletava arquivos recentes como imagens coladas quando o parâmetro <code>cleanupPeriodDays</code> era configurado para um valor muito alto, foram solucionados. Adicionalmente, a compactação após erros de \"Prompt é muito longo\" que retinha excessiva informação de conversas densas, como dados em base64 ou SVGs, foi corrigida para evitar falhas subsequentes. Por fim, problemas na exibição de prompts de permissão de leitura de arquivos foram resolvidos.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para desenvolvedores brasileiros que utilizam ou consideram o Claude Code em seus fluxos de trabalho, essas correções representam um ganho direto em produtividade e estabilidade. A capacidade de monitoramento aprimorada, especialmente em cenários com restrições de tráfego, garante maior visibilidade sobre o funcionamento do modelo. A resolução de falhas em requisições e a melhor gestão de conversas densas minimizam interrupções inesperadas, um fator crítico em projetos de software. A correção na limpeza de arquivos também protege o trabalho do usuário, evitando a perda de artefatos importantes. Estes ajustes indicam um compromisso da Anthropic em refinar as ferramentas de desenvolvimento de IA, tornando-as mais adequadas para uso profissional em diversos mercados.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com essas melhorias, espera-se que o Claude Code se torne uma ferramenta ainda mais confiável para a geração e análise de código. A adição de mecanismos de monitoramento mais robustos sugere um futuro onde a integração do modelo com diferentes plataformas de desenvolvimento e nuvem será mais fluida e transparente. A resolução de falhas de comunicação e de gerenciamento de dados aponta para uma maior capacidade do modelo em lidar com cenários complexos e com grande volume de informações. A Anthropic continua a evoluir suas ofertas, e esta atualização, disponível em seu <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.310\" target=\"_blank\" rel=\"external noopener\">repositório oficial</a>, demonstra um foco contínuo na estabilidade e na usabilidade prática para o desenvolvedor. O aprimoramento das funcionalidades de limpeza e compactação também sugere um cuidado maior com a persistência e organização dos dados de conversação, elementos essenciais para o aprendizado e adaptação do modelo.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "desenvolvimento de software"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "Claude Code v2.1.310",
+    "Anthropic",
+    "ferramentas de IA",
+    "desenvolvimento de código",
+    "correções de bugs",
+    "monitoramento de IA",
+    "Vertex AI",
+    "Bedrock"
+  ],
+  "meta_description_seo": "Claude Code v2.1.310: Anthropic corrige falhas em ferramentas de monitoramento e gerenciamento de código, aumentando a robustez para desenvolvedores.",
+  "faq": [
+    {
+      "q": "Quais foram as principais correções na versão v2.1.310 do Claude Code?",
+      "a": "A atualização adicionou ferramentas de monitoramento, corrigiu falhas em requisições com gateways específicos e resolveu problemas de limpeza e compactação de dados de conversação."
+    },
+    {
+      "q": "Como essa atualização afeta desenvolvedores que usam o Claude Code?",
+      "a": "A versão melhora a estabilidade, a produtividade e a confiabilidade do modelo, minimizando interrupções e protegendo o trabalho do usuário contra perda de arquivos."
+    },
+    {
+      "q": "Onde posso encontrar mais detalhes sobre as mudanças no Claude Code?",
+      "a": "As informações detalhadas sobre as alterações estão disponíveis no [repositório oficial do Claude Code no GitHub](https://github.com/anthropics/claude-code/releases/tag/v2.1.310)."
+    }
+  ],
+  "written_at": "2026-10-24T04:10:30.534Z",
+  "slug": "claude-code-ajusta-ferramentas-e-corre-falhas-em-atualizacao",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/29a5b054b8870aa16af5ee813a1120bb15f4e1ff9da30bfe5a52778a7481673a/anthropics/claude-code/releases/tag/v2.1.310"
+}
