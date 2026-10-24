@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-24T10:42:07.449Z",
+  "generated_at": "2026-10-24T18:42:28.734Z",
   "articles": [
+    {
+      "slug": "pennsylvania-exige-rotulos-em-anuncios-gerados-por-ia",
+      "headline": "Pennsylvania exige rótulos em anúncios gerados por IA",
+      "subtitle": "Nova lei estadual nos EUA impõe transparência para conteúdos criados artificialmente.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "publicidade",
+        "regulamentacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-24T14:32:21-04:00",
+      "written_at": "2026-10-24T18:42:28.449Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "modelos-de-ia-divergem-em-preferencias-politicas-grok-aponta-republicanos-openai",
+      "headline": "Modelos de IA Divergem em Preferências Políticas: Grok Aponta Republicanos, OpenAI Democratas",
+      "subtitle": "Estudo revela viés partidário em modelos de linguagem avançados, levantando questões sobre neutralidade em sistemas de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "vieses",
+        "politica",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 24 Oct 2026 15:00:00 +0000",
+      "written_at": "2026-10-24T18:42:17.971Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "modelo-de-voz-da-block-impressiona-com-realismo-humano",
+      "headline": "Modelo de Voz da Block Impressiona com Realismo Humano",
+      "subtitle": "A tecnologia que roda em hardware acessível pode redefinir a interação digital no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "category": "mercado",
+      "tags": [
+        "ia de voz",
+        "block",
+        "processamento local"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 24 Oct 2026 16:00:00 +0000",
+      "written_at": "2026-10-24T18:42:07.126Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "agentes-de-codificacao-ferramentas-elegantes-nao-melhoram-desempenho-apenas-elev",
       "headline": "Agentes de Codificação: Ferramentas Elegantes Não Melhoram Desempenho, Apenas Elevam Custos",
