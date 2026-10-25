@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 24 Oct 2026 22:28:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 04:18:21 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Atualização Crítica: ModelContext Protocol Corrige Vulnerabilidades em Servidores de IA</title>
+      <link>https://pulsodaia.com.br/feed/atualizacao-critica-modelcontext-protocol-corrige-vulnerabilidades-em-servidores/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/atualizacao-critica-modelcontext-protocol-corrige-vulnerabilidades-em-servidores/</guid>
+      <pubDate>Sun, 25 Oct 2026 04:13:09 GMT</pubDate>
+      <description>Correções de segurança urgentes afetam componentes cruciais para o desenvolvimento de aplicações com IA no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0">MCP Spec</source>
+    </item>
     <item>
       <title>BBC Apostará em Imperfeições Visuais para Combater Desconfiança da IA em "Blue Planet III"</title>
       <link>https://pulsodaia.com.br/feed/bbc-apostara-em-imperfeicoes-visuais-para-combater-desconfianca-da-ia-em-blue-pl/</link>
@@ -448,15 +457,6 @@
       <description>Pesquisa aponta que cortar processamento de tokens iniciais em modelos de mistura de especialistas prejudica a precisão em perguntas diretas.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.22454">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Embeddings em Modelos de Linguagem Pequenos: Uma Alternativa de Baixo Custo em Debate</title>
-      <link>https://pulsodaia.com.br/feed/embeddings-em-modelos-de-linguagem-pequenos-uma-alternativa-de-baixo-custo-em-de/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/embeddings-em-modelos-de-linguagem-pequenos-uma-alternativa-de-baixo-custo-em-de/</guid>
-      <pubDate>Mon, 19 Oct 2026 04:28:48 GMT</pubDate>
-      <description>Pesquisadores investigam se a substituição de vocabulários caros por versões congeladas pode otimizar modelos de IA no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.22428">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>
