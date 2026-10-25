@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 25 Oct 2026 04:18:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 11:15:18 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic sugere consolidação de agentes de IA, citando eficiência</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-sugere-consolidacao-de-agentes-de-ia-citando-eficiencia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-sugere-consolidacao-de-agentes-de-ia-citando-eficiencia/</guid>
+      <pubDate>Sun, 25 Oct 2026 11:07:21 GMT</pubDate>
+      <description>A empresa de pesquisa em IA propõe uma arquitetura simplificada para tarefas complexas.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/">The Decoder</source>
+    </item>
+    <item>
+      <title>IA Autônoma em 2027: Nova Previsão de Cofundador da Anthropic</title>
+      <link>https://pulsodaia.com.br/feed/ia-autonoma-em-2027-nova-previsao-de-cofundador-da-anthropic/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-em-2027-nova-previsao-de-cofundador-da-anthropic/</guid>
+      <pubDate>Sun, 25 Oct 2026 11:07:09 GMT</pubDate>
+      <description>Indicadores recentes sugerem que sistemas capazes de autoaperfeiçoamento podem surgir antes do esperado.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/">The Decoder</source>
+    </item>
+    <item>
+      <title>Nvidia Lança Flora: Etiquetagem de Vídeo para Robôs 125x Mais Barata que Modelos Anteriores</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-lanca-flora-etiquetagem-de-video-para-robos-125x-mais-barata-que-modelos-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-lanca-flora-etiquetagem-de-video-para-robos-125x-mais-barata-que-modelos-/</guid>
+      <pubDate>Sun, 25 Oct 2026 11:06:57 GMT</pubDate>
+      <description>Iniciativa da gigante de semicondutores visa democratizar o treinamento de robôs com IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/">The Decoder</source>
+    </item>
     <item>
       <title>Atualização Crítica: ModelContext Protocol Corrige Vulnerabilidades em Servidores de IA</title>
       <link>https://pulsodaia.com.br/feed/atualizacao-critica-modelcontext-protocol-corrige-vulnerabilidades-em-servidores/</link>
@@ -430,33 +457,6 @@
       <description>A percepção de JB Pritzker sobre a Inteligência Artificial reflete debates globais sobre seus impactos.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws">The Verge AI</source>
-    </item>
-    <item>
-      <title>Model Context Protocol Atualiza Servidores para Era Moderna, Mantendo Compatibilidade Legada</title>
-      <link>https://pulsodaia.com.br/feed/model-context-protocol-atualiza-servidores-para-era-moderna-mantendo-compatibili/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/model-context-protocol-atualiza-servidores-para-era-moderna-mantendo-compatibili/</guid>
-      <pubDate>Mon, 19 Oct 2026 19:45:09 GMT</pubDate>
-      <description>Nova versão do MCP Spec visa unificar o desenvolvimento de aplicações de IA com interfaces mais robustas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0">MCP Spec</source>
-    </item>
-    <item>
-      <title>Hugging Face Simplifica Uso de Modelos de IA em Hardware AWS Trainium</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-simplifica-uso-de-modelos-de-ia-em-hardware-aws-trainium/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-simplifica-uso-de-modelos-de-ia-em-hardware-aws-trainium/</guid>
-      <pubDate>Mon, 19 Oct 2026 19:44:54 GMT</pubDate>
-      <description>Ferramenta TorchNeuron promete democratizar o acesso a hardware especializado para treinamento de modelos no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/hf-torchneuron">Hugging Face</source>
-    </item>
-    <item>
-      <title>Otimização de Modelos MoE: Redução de Custo Pode Comprometer Respostas Curtas</title>
-      <link>https://pulsodaia.com.br/feed/otimizacao-de-modelos-moe-reducao-de-custo-pode-comprometer-respostas-curtas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/otimizacao-de-modelos-moe-reducao-de-custo-pode-comprometer-respostas-curtas/</guid>
-      <pubDate>Mon, 19 Oct 2026 04:29:08 GMT</pubDate>
-      <description>Pesquisa aponta que cortar processamento de tokens iniciais em modelos de mistura de especialistas prejudica a precisão em perguntas diretas.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.22454">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-25T04:13:10.034Z",
+  "generated_at": "2026-10-25T11:07:24.169Z",
   "articles": [
+    {
+      "slug": "anthropic-sugere-consolidacao-de-agentes-de-ia-citando-eficiencia",
+      "headline": "Anthropic sugere consolidação de agentes de IA, citando eficiência",
+      "subtitle": "A empresa de pesquisa em IA propõe uma arquitetura simplificada para tarefas complexas.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "arquitetura de ia",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 25 Oct 2026 09:12:10 +0000",
+      "written_at": "2026-10-25T11:07:21.959Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-autonoma-em-2027-nova-previsao-de-cofundador-da-anthropic",
+      "headline": "IA Autônoma em 2027: Nova Previsão de Cofundador da Anthropic",
+      "subtitle": "Indicadores recentes sugerem que sistemas capazes de autoaperfeiçoamento podem surgir antes do esperado.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "aprendizado de maquina",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 25 Oct 2026 09:37:46 +0000",
+      "written_at": "2026-10-25T11:07:09.459Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-lanca-flora-etiquetagem-de-video-para-robos-125x-mais-barata-que-modelos-",
+      "headline": "Nvidia Lança Flora: Etiquetagem de Vídeo para Robôs 125x Mais Barata que Modelos Anteriores",
+      "subtitle": "Iniciativa da gigante de semicondutores visa democratizar o treinamento de robôs com IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "flora",
+        "robótica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 25 Oct 2026 10:08:49 +0000",
+      "written_at": "2026-10-25T11:06:57.998Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "atualizacao-critica-modelcontext-protocol-corrige-vulnerabilidades-em-servidores",
       "headline": "Atualização Crítica: ModelContext Protocol Corrige Vulnerabilidades em Servidores de IA",
