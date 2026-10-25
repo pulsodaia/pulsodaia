@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 25 Oct 2026 11:15:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 18:59:06 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Comunidade Open Source no Reddit Proíbe Projetos com IA</title>
+      <link>https://pulsodaia.com.br/feed/comunidade-open-source-no-reddit-proibe-projetos-com-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/comunidade-open-source-no-reddit-proibe-projetos-com-ia/</guid>
+      <pubDate>Sun, 25 Oct 2026 18:51:46 GMT</pubDate>
+      <description>A decisão levanta debates sobre a inclusão de tecnologias emergentes em plataformas colaborativas.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban">The Verge AI</source>
+    </item>
+    <item>
+      <title>Gadgets de IA Vestíveis Ganham Espaço no Mercado</title>
+      <link>https://pulsodaia.com.br/feed/gadgets-de-ia-vestiveis-ganham-espaco-no-mercado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gadgets-de-ia-vestiveis-ganham-espaco-no-mercado/</guid>
+      <pubDate>Sun, 25 Oct 2026 18:51:36 GMT</pubDate>
+      <description>Dispositivos prometem integrar inteligência artificial ao cotidiano de forma mais íntima.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>IA: O Retorno Financeiro Prometido Ainda Não Chegou para a Maioria das Empresas</title>
+      <link>https://pulsodaia.com.br/feed/ia-o-retorno-financeiro-prometido-ainda-nao-chegou-para-a-maioria-das-empresas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-o-retorno-financeiro-prometido-ainda-nao-chegou-para-a-maioria-das-empresas/</guid>
+      <pubDate>Sun, 25 Oct 2026 18:51:27 GMT</pubDate>
+      <description>Relatório de economista aponta que investimentos massivos em inteligência artificial não se traduziram em lucro para a maioria das companhias americanas fora do setor de tecnologia.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Anthropic sugere consolidação de agentes de IA, citando eficiência</title>
       <link>https://pulsodaia.com.br/feed/anthropic-sugere-consolidacao-de-agentes-de-ia-citando-eficiencia/</link>
@@ -430,33 +457,6 @@
       <description>Nova abordagem de LLMs busca maior transparência e confiabilidade em diagnósticos financeiros.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.23962">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA de Agentes: Menos é Mais, Mas Quando? Um Olhar Matemático</title>
-      <link>https://pulsodaia.com.br/feed/ia-de-agentes-menos-e-mais-mas-quando-um-olhar-matematico/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-de-agentes-menos-e-mais-mas-quando-um-olhar-matematico/</guid>
-      <pubDate>Tue, 20 Oct 2026 04:25:31 GMT</pubDate>
-      <description>Pesquisa compara a eficiência de sistemas de IA baseados em agentes com abordagens tradicionais em tarefas de cálculo.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.23921">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>GardenBench: Monitoramento Diário de Modelos de Linguagem em Campo Aberto</title>
-      <link>https://pulsodaia.com.br/feed/gardenbench-monitoramento-diario-de-modelos-de-linguagem-em-campo-aberto/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gardenbench-monitoramento-diario-de-modelos-de-linguagem-em-campo-aberto/</guid>
-      <pubDate>Tue, 20 Oct 2026 04:25:21 GMT</pubDate>
-      <description>Nova ferramenta de benchmark busca capturar flutuações de performance e custo em LLMs.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2610.23866">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Governador de Illinois debate potencial da IA: de extensão da vida a risco existencial</title>
-      <link>https://pulsodaia.com.br/feed/governador-de-illinois-debate-potencial-da-ia-de-extensao-da-vida-a-risco-existe/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/governador-de-illinois-debate-potencial-da-ia-de-extensao-da-vida-a-risco-existe/</guid>
-      <pubDate>Mon, 19 Oct 2026 19:45:21 GMT</pubDate>
-      <description>A percepção de JB Pritzker sobre a Inteligência Artificial reflete debates globais sobre seus impactos.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws">The Verge AI</source>
     </item>
   </channel>
 </rss>
