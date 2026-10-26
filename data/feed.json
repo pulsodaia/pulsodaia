@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-26T12:40:51.782Z",
+  "generated_at": "2026-10-26T23:41:25.732Z",
   "articles": [
+    {
+      "slug": "anthropic-aposta-em-combinacao-de-produtos-para-fidelizar-clientes-corporativos",
+      "headline": "Anthropic aposta em combinação de produtos para fidelizar clientes corporativos",
+      "subtitle": "Estratégia da empresa de IA espelha táticas da Amazon para aumentar a retenção de grandes contas.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "ia corporativa",
+        "retenção de clientes"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 26 Oct 2026 16:49:42 +0000",
+      "written_at": "2026-10-26T23:41:25.675Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-aprimora-gerenciamento-de-sessoes-e-lida-com-contextos-amplos",
+      "headline": "Claude Code Aprimora Gerenciamento de Sessões e Lida com Contextos Amplos",
+      "subtitle": "Atualização do assistente de codificação da Anthropic foca em estabilidade e eficiência para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-26T21:51:23Z",
+      "written_at": "2026-10-26T23:41:14.308Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "google-lanca-modulo-de-ia-focado-em-neurociencia-para-alfabetizacao-digital",
+      "headline": "Google Lança Módulo de IA Focado em Neurociência para Alfabetização Digital",
+      "subtitle": "Nova iniciativa do Google AI busca democratizar o conhecimento sobre como a inteligência artificial interage com o cérebro humano.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "neurociência",
+        "educação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 26 Oct 2026 16:00:00 +0000",
+      "written_at": "2026-10-26T23:41:03.411Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "toyota-investe-bilhoes-em-robos-humanoides-e-automacao-de-fabricas",
       "headline": "Toyota Investe Bilhões em Robôs Humanoides e Automação de Fábricas",

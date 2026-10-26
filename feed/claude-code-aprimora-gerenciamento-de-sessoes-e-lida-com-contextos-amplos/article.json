@@ -1,0 +1,50 @@
+{
+  "id": "tag:github.com,2008:Repository/937253475/v2.1.311",
+  "title": "v2.1.311",
+  "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+  "summary": "<h2>What's changed</h2> <ul> <li>Added <code>--hold-idle-file</code> and <code>--max-hold-min</code> to <code>self-hosted-runner</code>, to keep an idle session while your host reports processes it left running</li> <li>Added a tip for the Explanatory output style, shown when you ask Claude for explanations</li> <li>Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item</li> <li>Fixed interrupting Claude not taking effect until a timeout while an MCP server had not answered a resource read or a skill was still downloading</li> <li>Fixed standard-context sessions stopping with \"Usage credits required for 1M context\" when a request ran over 200K tokens; Claude Code now compacts the conversation and continues</li> <li>Fixed Write and Edit stalling for up to 5 seconds after they ran, and reporting 0 lines changed, when changing thousands of lines in a file</li> <li>Fixed subagents being unable to use MCP tools from servers that fi",
+  "published_at": "2026-10-26T21:51:23Z",
+  "source_id": "claude-code-releases",
+  "source_name": "Claude Code",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Claude Code Aprimora Gerenciamento de Sessões e Lida com Contextos Amplos",
+  "subtitle": "Atualização do assistente de codificação da Anthropic foca em estabilidade e eficiência para desenvolvedores.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic lançou a versão v2.1.311 do Claude Code, introduzindo melhorias significativas no gerenciamento de sessões e na capacidade de lidar com contextos de conversação extensos. As atualizações visam otimizar a experiência do usuário, especialmente em fluxos de trabalho complexos de desenvolvimento de software.",
+  "body_markdown": "## O que aconteceu\n\nA versão v2.1.311 do Claude Code traz novas funcionalidades para o componente `self-hosted-runner`, incluindo as opções `--hold-idle-file` e `--max-hold-min`. Essas configurações permitem manter uma sessão ociosa ativa enquanto o host reporta processos ainda em execução, evitando interrupções inesperadas. Além disso, foi adicionada uma dica visual para o estilo de saída \"Explanatory\", exibida quando o Claude é solicitado a fornecer explicações detalhadas.\n\nA atualização também corrigiu problemas de longa duração que ocorriam durante a inicialização ou após a leitura e edição de arquivos quando um arquivo `CLAUDE.md` continha uma lista de itens excessivamente longa. Outras correções importantes incluem a melhoria na interrupção de tarefas do Claude, que agora se torna efetiva mais rapidamente, mesmo quando um servidor MCP não respondeu a uma leitura de recurso ou uma skill ainda estava em download. Um ponto crucial abordado foi o encerramento de sessões de contexto padrão que ocorria com a mensagem \"Usage credits required for 1M context\" quando uma requisição excedia 200.000 tokens. Agora, o Claude Code compacta a conversa para continuar o processamento, mantendo a continuidade do trabalho. Essas correções estão detalhadas no [changelog oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.311).\n\n## Por que importa\n\nPara o mercado brasileiro de desenvolvimento, a estabilidade e a eficiência de ferramentas de IA como o Claude Code são fundamentais. A capacidade de gerenciar contextos maiores sem interrupções ou erros de limite de tokens significa menos tempo perdido com reinícios de tarefas e maior produtividade. Desenvolvedores que trabalham com bases de código extensas ou em projetos que exigem análise de muitos documentos podem se beneficiar diretamente dessas melhorias. A otimização na resposta a interrupções e a gestão de recursos também contribuem para um fluxo de trabalho mais ágil e previsível, aspectos valorizados em ambientes de desenvolvimento que buscam alta performance.\n\n## O que esperar\n\nCom essas atualizações, espera-se que o Claude Code se torne uma ferramenta ainda mais robusta para assistentes de codificação. A capacidade de lidar com contextos de até 1 milhão de tokens, mesmo que de forma compactada, abre portas para análises mais profundas e interações mais ricas com o código e a documentação. A Anthropic demonstra um compromisso contínuo em refinar a experiência do usuário, abordando problemas específicos que impactam a usabilidade em cenários reais. Desenvolvedores podem antecipar uma experiência mais fluida e confiável, com menos gargalos técnicos. A evolução contínua do Claude Code, como evidenciado neste [último lançamento](https://github.com/anthropics/claude-code/releases/tag/v2.1.311), sugere que podemos esperar mais refinamentos em áreas como a gestão de recursos e a interação com o usuário em futuras iterações.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A versão v2.1.311 do Claude Code traz novas funcionalidades para o componente <code>self-hosted-runner</code>, incluindo as opções <code>--hold-idle-file</code> e <code>--max-hold-min</code>. Essas configurações permitem manter uma sessão ociosa ativa enquanto o host reporta processos ainda em execução, evitando interrupções inesperadas. Além disso, foi adicionada uma dica visual para o estilo de saída \"Explanatory\", exibida quando o Claude é solicitado a fornecer explicações detalhadas.</p>\n\n<p>A atualização também corrigiu problemas de longa duração que ocorriam durante a inicialização ou após a leitura e edição de arquivos quando um arquivo <code>CLAUDE.md</code> continha uma lista de itens excessivamente longa. Outras correções importantes incluem a melhoria na interrupção de tarefas do Claude, que agora se torna efetiva mais rapidamente, mesmo quando um servidor MCP não respondeu a uma leitura de recurso ou uma skill ainda estava em download. Um ponto crucial abordado foi o encerramento de sessões de contexto padrão que ocorria com a mensagem \"Usage credits required for 1M context\" quando uma requisição excedia 200.000 tokens. Agora, o Claude Code compacta a conversa para continuar o processamento, mantendo a continuidade do trabalho. Essas correções estão detalhadas no <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.311\" target=\"_blank\" rel=\"external noopener\">changelog oficial</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de desenvolvimento, a estabilidade e a eficiência de ferramentas de IA como o Claude Code são fundamentais. A capacidade de gerenciar contextos maiores sem interrupções ou erros de limite de tokens significa menos tempo perdido com reinícios de tarefas e maior produtividade. Desenvolvedores que trabalham com bases de código extensas ou em projetos que exigem análise de muitos documentos podem se beneficiar diretamente dessas melhorias. A otimização na resposta a interrupções e a gestão de recursos também contribuem para um fluxo de trabalho mais ágil e previsível, aspectos valorizados em ambientes de desenvolvimento que buscam alta performance.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com essas atualizações, espera-se que o Claude Code se torne uma ferramenta ainda mais robusta para assistentes de codificação. A capacidade de lidar com contextos de até 1 milhão de tokens, mesmo que de forma compactada, abre portas para análises mais profundas e interações mais ricas com o código e a documentação. A Anthropic demonstra um compromisso contínuo em refinar a experiência do usuário, abordando problemas específicos que impactam a usabilidade em cenários reais. Desenvolvedores podem antecipar uma experiência mais fluida e confiável, com menos gargalos técnicos. A evolução contínua do Claude Code, como evidenciado neste <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.311\" target=\"_blank\" rel=\"external noopener\">último lançamento</a>, sugere que podemos esperar mais refinamentos em áreas como a gestão de recursos e a interação com o usuário em futuras iterações.</p>",
+  "tags": [
+    "claude code",
+    "anthropic",
+    "desenvolvimento de software"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Claude Code",
+    "Anthropic",
+    "IA para codificação",
+    "gerenciamento de sessão",
+    "contexto de IA"
+  ],
+  "meta_description_seo": "Claude Code v2.1.311: Novas features para gerenciamento de sessão e contexto amplo. Veja as novidades.",
+  "faq": [
+    {
+      "q": "Quais são as principais novidades do Claude Code v2.1.311?",
+      "a": "A nova versão introduz melhorias no gerenciamento de sessões com novas opções para o `self-hosted-runner` e aprimora o manejo de contextos extensos, compactando conversas para evitar interrupções."
+    },
+    {
+      "q": "Como o Claude Code lida com limites de tokens em conversas longas?",
+      "a": "Anteriormente, sessões podiam ser encerradas ao exceder 200.000 tokens. Agora, o Claude Code compacta a conversa para permitir a continuidade do processamento, mesmo em contextos muito amplos."
+    },
+    {
+      "q": "Quais problemas de estabilidade foram corrigidos?",
+      "a": "Foram corrigidos longos travamentos na inicialização e após edições de arquivo causados por listas extensas em `CLAUDE.md`, além de melhorias na efetividade da interrupção de tarefas."
+    }
+  ],
+  "written_at": "2026-10-26T23:41:14.308Z",
+  "slug": "claude-code-aprimora-gerenciamento-de-sessoes-e-lida-com-contextos-amplos",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/3ef034bc77ab21a0f22bc2b9c8e4117c23d6ec2dd6e387ea8f263c059463cbd8/anthropics/claude-code/releases/tag/v2.1.311"
+}
