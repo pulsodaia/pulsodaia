@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 26 Oct 2026 04:22:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 12:46:31 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Toyota Investe Bilhões em Robôs Humanoides e Automação de Fábricas</title>
+      <link>https://pulsodaia.com.br/feed/toyota-investe-bilhoes-em-robos-humanoides-e-automacao-de-fabricas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/toyota-investe-bilhoes-em-robos-humanoides-e-automacao-de-fabricas/</guid>
+      <pubDate>Mon, 26 Oct 2026 12:40:51 GMT</pubDate>
+      <description>A montadora japonesa busca liderança global em robótica, mirando eficiência e novas aplicações.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/">The Decoder</source>
+    </item>
+    <item>
+      <title>Traders de Alta Frequência Investem em Infraestrutura e Chips para Liderar na Corrida da IA</title>
+      <link>https://pulsodaia.com.br/feed/traders-de-alta-frequencia-investem-em-infraestrutura-e-chips-para-liderar-na-co/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/traders-de-alta-frequencia-investem-em-infraestrutura-e-chips-para-liderar-na-co/</guid>
+      <pubDate>Mon, 26 Oct 2026 12:40:38 GMT</pubDate>
+      <description>Instituições financeiras buscam vantagem competitiva através de poder computacional e desenvolvimento de hardware.</description>
+      <category>MERCADO</category>
+      <source url="https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/">The Decoder</source>
+    </item>
     <item>
       <title>Phronix: Novo Paradigma de Aprendizado para Agentes de IA Foca em Capacidades Reutilizáveis</title>
       <link>https://pulsodaia.com.br/feed/phronix-novo-paradigma-de-aprendizado-para-agentes-de-ia-foca-em-capacidades-reu/</link>
@@ -439,24 +457,6 @@
       <description>Nova plataforma promete treinamento médico mais seguro e acessível no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/nvidia/cosmos3-h-dreams">Hugging Face</source>
-    </item>
-    <item>
-      <title>Hugging Face Integra Suporte Nativo a TPUs do Google</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-integra-suporte-nativo-a-tpus-do-google/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-integra-suporte-nativo-a-tpus-do-google/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:42:18 GMT</pubDate>
-      <description>A plataforma de IA colaborativa expande suas capacidades de hardware para democratizar o acesso a computação de alta performance.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/hf-torchtpu">Hugging Face</source>
-    </item>
-    <item>
-      <title>Memória Aprendida Supera Modelos de Fronteira em Atendimento ao Cliente</title>
-      <link>https://pulsodaia.com.br/feed/memoria-aprendida-supera-modelos-de-fronteira-em-atendimento-ao-cliente/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/memoria-aprendida-supera-modelos-de-fronteira-em-atendimento-ao-cliente/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:42:09 GMT</pubDate>
-      <description>Nova abordagem da IBM Research demonstra eficiência sem depender de modelos de ponta.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/ibm-research/altk-evolve-bc">Hugging Face</source>
     </item>
   </channel>
 </rss>
