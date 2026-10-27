@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 27 Oct 2026 17:56:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 22:07:16 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic Pós-IPO: Desvendando a Estrutura de Governança Complexa</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-pos-ipo-desvendando-a-estrutura-de-governanca-complexa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-pos-ipo-desvendando-a-estrutura-de-governanca-complexa/</guid>
+      <pubDate>Tue, 27 Oct 2026 22:01:58 GMT</pubDate>
+      <description>A estrutura societária da Anthropic ganha holofotes após a abertura de capital.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Bank of America: Senha bancária não é para assistentes de IA</title>
+      <link>https://pulsodaia.com.br/feed/bank-of-america-senha-bancaria-nao-e-para-assistentes-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/bank-of-america-senha-bancaria-nao-e-para-assistentes-de-ia/</guid>
+      <pubDate>Tue, 27 Oct 2026 22:01:49 GMT</pubDate>
+      <description>Instituição financeira reforça responsabilidade do usuário sobre transações via inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Atualiza Gateway de Apps e Refina Interação com Código</title>
+      <link>https://pulsodaia.com.br/feed/claude-atualiza-gateway-de-apps-e-refina-interacao-com-codigo/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-atualiza-gateway-de-apps-e-refina-interacao-com-codigo/</guid>
+      <pubDate>Tue, 27 Oct 2026 22:01:39 GMT</pubDate>
+      <description>A Anthropic aprimora a gestão de identidades e a experiência de edição de arquivos no seu ambiente de desenvolvimento.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.312">Claude Code</source>
+    </item>
     <item>
       <title>Modelos de Linguagem Gigantes (LLMs) Podem Avaliar a Novidade de Pesquisas? Um Teste.</title>
       <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-llms-podem-avaliar-a-novidade-de-pesquisas-um-test/</link>
@@ -430,33 +457,6 @@
       <description>Nova versão do modelo de código da Anthropic prioriza refinamentos técnicos.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.308">Claude Code</source>
-    </item>
-    <item>
-      <title>IBM Granito: Novos Modelos de Séries Temporais Buscam Precisão em Previsões</title>
-      <link>https://pulsodaia.com.br/feed/ibm-granito-novos-modelos-de-series-temporais-buscam-precisao-em-previsoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-granito-novos-modelos-de-series-temporais-buscam-precisao-em-previsoes/</guid>
-      <pubDate>Thu, 22 Oct 2026 11:33:26 GMT</pubDate>
-      <description>A abordagem de ensemble promete aprimorar a acurácia em cenários econômicos e de mercado.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1">Hugging Face</source>
-    </item>
-    <item>
-      <title>Modelos menores de IA podem refinar perguntas ambíguas em sistemas RAG</title>
-      <link>https://pulsodaia.com.br/feed/modelos-menores-de-ia-podem-refinar-perguntas-ambiguas-em-sistemas-rag/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-menores-de-ia-podem-refinar-perguntas-ambiguas-em-sistemas-rag/</guid>
-      <pubDate>Thu, 22 Oct 2026 04:15:56 GMT</pubDate>
-      <description>Pesquisa em artigo científico aponta para eficiência em modelos com menos parâmetros para melhorar a clareza em interações com IA.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.28686">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Hugging Face Detalha Otimização de Modelos IA em Hardware AWS</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-detalha-otimizacao-de-modelos-ia-em-hardware-aws/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-detalha-otimizacao-de-modelos-ia-em-hardware-aws/</guid>
-      <pubDate>Wed, 21 Oct 2026 18:31:23 GMT</pubDate>
-      <description>Análise aprofundada revela técnicas para aprimorar o desempenho de redes neurais em instâncias Trainium.</description>
-      <category>ANALISE</category>
-      <source url="https://huggingface.co/blog/amazon/profiling-torchneuron-part-1">Hugging Face</source>
     </item>
   </channel>
 </rss>

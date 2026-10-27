@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-27T17:51:38.105Z",
+  "generated_at": "2026-10-27T22:01:58.928Z",
   "articles": [
+    {
+      "slug": "anthropic-pos-ipo-desvendando-a-estrutura-de-governanca-complexa",
+      "headline": "Anthropic Pós-IPO: Desvendando a Estrutura de Governança Complexa",
+      "subtitle": "A estrutura societária da Anthropic ganha holofotes após a abertura de capital.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "governança",
+        "ipo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 27 Oct 2026 21:38:28 +0000",
+      "written_at": "2026-10-27T22:01:58.871Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "bank-of-america-senha-bancaria-nao-e-para-assistentes-de-ia",
+      "headline": "Bank of America: Senha bancária não é para assistentes de IA",
+      "subtitle": "Instituição financeira reforça responsabilidade do usuário sobre transações via inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "category": "mercado",
+      "tags": [
+        "segurança bancária",
+        "inteligência artificial",
+        "proteção de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 27 Oct 2026 21:44:34 +0000",
+      "written_at": "2026-10-27T22:01:49.360Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-atualiza-gateway-de-apps-e-refina-interacao-com-codigo",
+      "headline": "Claude Atualiza Gateway de Apps e Refina Interação com Código",
+      "subtitle": "A Anthropic aprimora a gestão de identidades e a experiência de edição de arquivos no seu ambiente de desenvolvimento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "ia",
+        "desenvolvimento",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-27T20:24:20Z",
+      "written_at": "2026-10-27T22:01:39.140Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "modelos-de-linguagem-gigantes-llms-podem-avaliar-a-novidade-de-pesquisas-um-test",
       "headline": "Modelos de Linguagem Gigantes (LLMs) Podem Avaliar a Novidade de Pesquisas? Um Teste.",
