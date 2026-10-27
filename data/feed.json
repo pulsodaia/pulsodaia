@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-10-27T04:36:35.945Z",
+  "generated_at": "2026-10-27T11:56:22.986Z",
   "articles": [
+    {
+      "slug": "anthropic-reafirma-promessa-claude-jamais-exibira-anuncios",
+      "headline": "Anthropic reafirma promessa: Claude jamais exibirá anúncios",
+      "subtitle": "Companhia detalha estratégia de monetização em carta de abertura de capital, mirando em modelos de negócio focados na utilidade.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "claude",
+        "ipo",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 27 Oct 2026 11:20:51 +0000",
+      "written_at": "2026-10-27T11:56:21.052Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "openai-prioriza-conteudo-de-parceiros-no-chatgpt-ignorando-o-resto-da-web",
+      "headline": "OpenAI Prioriza Conteúdo de Parceiros no ChatGPT, Ignorando o Resto da Web",
+      "subtitle": "Acesso diferenciado a informações no chatbot levanta questões sobre equidade e a qualidade dos dados.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "dados",
+        "curadoria"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 27 Oct 2026 11:39:24 +0000",
+      "written_at": "2026-10-27T11:56:09.121Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-investe-em-startup-indiana-para-otimizar-uso-de-gpus-em-ia",
+      "headline": "Nvidia Investe em Startup Indiana para Otimizar Uso de GPUs em IA",
+      "subtitle": "A aposta em eficiência computacional pode impactar a adoção de IA em empresas brasileiras.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "simplismart",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 27 Oct 2026 11:00:00 +0000",
+      "written_at": "2026-10-27T11:55:57.860Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-para-arquivos-historicos-nova-avaliacao-de-ocr-foca-em-entidades-essenciais",
       "headline": "IA para Arquivos Históricos: Nova Avaliação de OCR Foca em Entidades Essenciais",

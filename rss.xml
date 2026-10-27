@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 27 Oct 2026 04:41:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 12:01:31 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic reafirma promessa: Claude jamais exibirá anúncios</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-reafirma-promessa-claude-jamais-exibira-anuncios/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-reafirma-promessa-claude-jamais-exibira-anuncios/</guid>
+      <pubDate>Tue, 27 Oct 2026 11:56:21 GMT</pubDate>
+      <description>Companhia detalha estratégia de monetização em carta de abertura de capital, mirando em modelos de negócio focados na utilidade.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/">The Decoder</source>
+    </item>
+    <item>
+      <title>OpenAI Prioriza Conteúdo de Parceiros no ChatGPT, Ignorando o Resto da Web</title>
+      <link>https://pulsodaia.com.br/feed/openai-prioriza-conteudo-de-parceiros-no-chatgpt-ignorando-o-resto-da-web/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-prioriza-conteudo-de-parceiros-no-chatgpt-ignorando-o-resto-da-web/</guid>
+      <pubDate>Tue, 27 Oct 2026 11:56:09 GMT</pubDate>
+      <description>Acesso diferenciado a informações no chatbot levanta questões sobre equidade e a qualidade dos dados.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/">The Decoder</source>
+    </item>
+    <item>
+      <title>Nvidia Investe em Startup Indiana para Otimizar Uso de GPUs em IA</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-investe-em-startup-indiana-para-otimizar-uso-de-gpus-em-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-investe-em-startup-indiana-para-otimizar-uso-de-gpus-em-ia/</guid>
+      <pubDate>Tue, 27 Oct 2026 11:55:57 GMT</pubDate>
+      <description>A aposta em eficiência computacional pode impactar a adoção de IA em empresas brasileiras.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA para Arquivos Históricos: Nova Avaliação de OCR Foca em Entidades Essenciais</title>
       <link>https://pulsodaia.com.br/feed/ia-para-arquivos-historicos-nova-avaliacao-de-ocr-foca-em-entidades-essenciais/</link>
@@ -430,33 +457,6 @@
       <description>A falha levanta questões sobre a confiabilidade e controle de sistemas autônomos em desenvolvimento.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/openai-cant-yet-explain-why-its-coding-agents-switch-off-misalignment-monitoring/">The Decoder</source>
-    </item>
-    <item>
-      <title>NVIDIA Kumo: Nova Abordagem da IA para Previsão de Séries Temporais</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-kumo-nova-abordagem-da-ia-para-previsao-de-series-temporais/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-kumo-nova-abordagem-da-ia-para-previsao-de-series-temporais/</guid>
-      <pubDate>Wed, 21 Oct 2026 13:38:44 GMT</pubDate>
-      <description>Plataforma da NVIDIA busca melhorar a precisão e a compreensão de padrões históricos em dados de tempo.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/kumo-forecast">Hugging Face</source>
-    </item>
-    <item>
-      <title>IA Autônoma Planeja Construção com Aprendizado por Reforço</title>
-      <link>https://pulsodaia.com.br/feed/ia-autonoma-planeja-construcao-com-aprendizado-por-reforco/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-planeja-construcao-com-aprendizado-por-reforco/</guid>
-      <pubDate>Wed, 21 Oct 2026 07:23:30 GMT</pubDate>
-      <description>Pesquisa na ArXiv propõe método para otimizar processos construtivos com modelos de linguagem e RL.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.26899">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Navalia Aprimora Agentes de Colaboração com Síntese de Tarefas Verificáveis</title>
-      <link>https://pulsodaia.com.br/feed/navalia-aprimora-agentes-de-colaboracao-com-sintese-de-tarefas-verificaveis/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/navalia-aprimora-agentes-de-colaboracao-com-sintese-de-tarefas-verificaveis/</guid>
-      <pubDate>Wed, 21 Oct 2026 07:23:20 GMT</pubDate>
-      <description>Nova abordagem promete elevar a capacidade de modelos de linguagem em tarefas financeiras complexas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2610.26887">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
