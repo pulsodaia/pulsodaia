@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-27T11:56:22.986Z",
+  "generated_at": "2026-10-27T17:51:38.105Z",
   "articles": [
+    {
+      "slug": "modelos-de-linguagem-gigantes-llms-podem-avaliar-a-novidade-de-pesquisas-um-test",
+      "headline": "Modelos de Linguagem Gigantes (LLMs) Podem Avaliar a Novidade de Pesquisas? Um Teste.",
+      "subtitle": "Um estudo do Allen Institute for AI investiga a capacidade de LLMs em identificar ideias de pesquisa inéditas, com implicações para a ciência e inovação no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "pesquisa",
+        "novidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 27 Oct 2026 16:12:42 GMT",
+      "written_at": "2026-10-27T17:51:37.698Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-lanca-ferramenta-para-criacao-de-modelos-multimodais-especializados",
+      "headline": "Hugging Face Lança Ferramenta para Criação de Modelos Multimodais Especializados",
+      "subtitle": "A Hugging Face apresenta LFM3, permitindo o desenvolvimento de IAs capazes de processar e gerar múltiplos tipos de dados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "category": "opensource",
+      "tags": [
+        "ia multimodal",
+        "hugging face",
+        "modelos especializados"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 27 Oct 2026 17:16:52 GMT",
+      "written_at": "2026-10-27T17:51:26.865Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "genie-4-google-deepmind-apresenta-modelo-de-simulacao-de-mundo-com-realismo-apri",
+      "headline": "Genie 4: Google DeepMind Apresenta Modelo de Simulação de Mundo com Realismo Aprimorado",
+      "subtitle": "Novos avanços em modelos de mundo prometem simulações mais fiéis e interativas para o desenvolvimento de IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "category": "google",
+      "tags": [
+        "modelos de mundo",
+        "simulacao",
+        "google deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 27 Oct 2026 16:01:38 +0000",
+      "written_at": "2026-10-27T17:51:16.400Z",
+      "quality_score": 0.88,
+      "hero_image": null
+    },
     {
       "slug": "anthropic-reafirma-promessa-claude-jamais-exibira-anuncios",
       "headline": "Anthropic reafirma promessa: Claude jamais exibirá anúncios",

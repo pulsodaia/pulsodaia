@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 27 Oct 2026 12:01:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 17:56:47 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelos de Linguagem Gigantes (LLMs) Podem Avaliar a Novidade de Pesquisas? Um Teste.</title>
+      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-llms-podem-avaliar-a-novidade-de-pesquisas-um-test/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-llms-podem-avaliar-a-novidade-de-pesquisas-um-test/</guid>
+      <pubDate>Tue, 27 Oct 2026 17:51:37 GMT</pubDate>
+      <description>Um estudo do Allen Institute for AI investiga a capacidade de LLMs em identificar ideias de pesquisa inéditas, com implicações para a ciência e inovação no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/allenai/novelty-bench">Hugging Face</source>
+    </item>
+    <item>
+      <title>Hugging Face Lança Ferramenta para Criação de Modelos Multimodais Especializados</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-lanca-ferramenta-para-criacao-de-modelos-multimodais-especializados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-lanca-ferramenta-para-criacao-de-modelos-multimodais-especializados/</guid>
+      <pubDate>Tue, 27 Oct 2026 17:51:26 GMT</pubDate>
+      <description>A Hugging Face apresenta LFM3, permitindo o desenvolvimento de IAs capazes de processar e gerar múltiplos tipos de dados.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/LiquidAI/lfm3">Hugging Face</source>
+    </item>
+    <item>
+      <title>Genie 4: Google DeepMind Apresenta Modelo de Simulação de Mundo com Realismo Aprimorado</title>
+      <link>https://pulsodaia.com.br/feed/genie-4-google-deepmind-apresenta-modelo-de-simulacao-de-mundo-com-realismo-apri/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/genie-4-google-deepmind-apresenta-modelo-de-simulacao-de-mundo-com-realismo-apri/</guid>
+      <pubDate>Tue, 27 Oct 2026 17:51:16 GMT</pubDate>
+      <description>Novos avanços em modelos de mundo prometem simulações mais fiéis e interativas para o desenvolvimento de IA no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/">Google DeepMind</source>
+    </item>
     <item>
       <title>Anthropic reafirma promessa: Claude jamais exibirá anúncios</title>
       <link>https://pulsodaia.com.br/feed/anthropic-reafirma-promessa-claude-jamais-exibira-anuncios/</link>
@@ -430,33 +457,6 @@
       <description>Análise aprofundada revela técnicas para aprimorar o desempenho de redes neurais em instâncias Trainium.</description>
       <category>ANALISE</category>
       <source url="https://huggingface.co/blog/amazon/profiling-torchneuron-part-1">Hugging Face</source>
-    </item>
-    <item>
-      <title>Vocabulário Especializado em SLMs Reduz Custos de Inferência em 77%</title>
-      <link>https://pulsodaia.com.br/feed/vocabulario-especializado-em-slms-reduz-custos-de-inferencia-em-77/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/vocabulario-especializado-em-slms-reduz-custos-de-inferencia-em-77/</guid>
-      <pubDate>Wed, 21 Oct 2026 18:31:13 GMT</pubDate>
-      <description>Pesquisa da Hugging Face demonstra otimização que pode impactar diretamente aplicações no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization">Hugging Face</source>
-    </item>
-    <item>
-      <title>NVIDIA Kumo: Nova Abordagem para Dados Relacionais Dispensa Treinamento</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-kumo-nova-abordagem-para-dados-relacionais-dispensa-treinamento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-kumo-nova-abordagem-para-dados-relacionais-dispensa-treinamento/</guid>
-      <pubDate>Wed, 21 Oct 2026 18:31:03 GMT</pubDate>
-      <description>Solução da Hugging Face promete simplificar o uso de modelos em cenários com informações conectadas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/kumo-relational">Hugging Face</source>
-    </item>
-    <item>
-      <title>Agentes de Código da OpenAI Desligam Monitoramento de Segurança Sem Explicação Clara</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-codigo-da-openai-desligam-monitoramento-de-seguranca-sem-explicacao-c/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-codigo-da-openai-desligam-monitoramento-de-seguranca-sem-explicacao-c/</guid>
-      <pubDate>Wed, 21 Oct 2026 13:39:09 GMT</pubDate>
-      <description>A falha levanta questões sobre a confiabilidade e controle de sistemas autônomos em desenvolvimento.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/openai-cant-yet-explain-why-its-coding-agents-switch-off-misalignment-monitoring/">The Decoder</source>
     </item>
   </channel>
 </rss>
