@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2610.33004v1",
+  "title": "Entity-Aware Evaluation of OCR Systems for Historical Document Transcription",
+  "url": "https://arxiv.org/abs/2610.33004",
+  "summary": "arXiv:2610.33004v1 Announce Type: new Abstract: Optical Character Recognition (OCR) is essential for digitizing historical archives, yet standard evaluation metrics such as Character Error Rate (CER) do not necessarily reflect whether meaningful information, such as names, dates, and identifiers, is preserved. In this work, we investigate entitylevel analysis of OCR errors as a complementary perspective for evaluating OCR quality in historical documents. Using a publicly available benchmark of 175 documents from the Berrutti Archive, augmented with 5,209 manually annotated entity mentions that will be released upon acceptance, we compare sequence-recognition OCR systems, OCR-specialized vision-language models, and general-purpose vision-language models. Beyond global transcription accuracy, we analyze entity preservation and recoverability under varying character-level edit tolerances. Our experiments show that OCR rankings depend on the evaluation criterion: while Qwen 3.6 achieves th",
+  "published_at": "Tue, 27 Oct 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-cl",
+  "source_name": "ArXiv cs.CL",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA para Arquivos Históricos: Nova Avaliação de OCR Foca em Entidades Essenciais",
+  "subtitle": "Pesquisa em desenvolvimento sugere métricas mais precisas para transcrever documentos antigos, superando a simples contagem de erros de caractere.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Uma nova abordagem para avaliar sistemas de Reconhecimento Óptico de Caracteres (OCR) em documentos históricos propõe ir além das métricas tradicionais. O foco agora é na preservação de informações cruciais como nomes, datas e identificadores, essenciais para a pesquisa e digitalização de acervos.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores propõem uma análise de erros em nível de entidade para avaliar a qualidade de sistemas OCR em documentos históricos. A métrica tradicional de taxa de erro de caractere (CER) pode não capturar a perda de informações significativas, como nomes de pessoas, datas específicas ou códigos de identificação, que são vitais para a utilidade dos arquivos digitalizados. O estudo, disponível no arXiv, utiliza um conjunto de dados de 175 documentos do Berrutti Archive, enriquecido com mais de 5.000 menções de entidades anotadas manualmente. Essa base de dados, que será liberada publicamente após a aceitação do trabalho, permite uma comparação detalhada entre sistemas OCR convencionais, modelos de visão-linguagem especializados em OCR e modelos de visão-linguagem de propósito geral. A investigação busca entender como diferentes arquiteturas de IA lidam com a preservação de dados contextuais em textos antigos. A pesquisa pode ser consultada em sua totalidade em [Entity-Aware Evaluation of OCR Systems for Historical Document Transcription](https://arxiv.org/abs/2610.33004).\n\n## Por que importa\n\nA digitalização de acervos históricos é um passo fundamental para democratizar o acesso ao conhecimento e preservar a memória cultural. No Brasil, com sua rica e vasta história, a capacidade de transcrever documentos antigos com precisão, preservando suas informações essenciais, tem um impacto direto na pesquisa acadêmica, na genealogia, na historiografia e até mesmo em processos legais que dependem de registros históricos. Métricas de avaliação de OCR que se concentram apenas na correção de caracteres individuais podem mascarar falhas graves na extração de dados chave. Uma avaliação focada em entidades permite identificar sistemas que realmente entregam valor prático, garantindo que nomes de figuras históricas, datas de eventos cruciais ou identificadores de propriedades não sejam perdidos ou distorcidos no processo de digitalização. Isso é particularmente relevante para instituições brasileiras como arquivos nacionais, bibliotecas públicas e universidades que gerenciam vastos acervos.\n\n## O que esperar\n\nA expectativa é que esta nova linha de avaliação incentive o desenvolvimento de sistemas OCR mais robustos e conscientes do contexto para documentos históricos. Modelos que se destacarem nessa análise de entidade-aware provavelmente oferecerão maior confiabilidade para aplicações práticas, reduzindo a necessidade de correções manuais extensivas e demoradas. A liberação do conjunto de dados de entidades anotadas servirá como um recurso valioso para a comunidade de pesquisa em IA, permitindo a replicação de experimentos e o avanço de novas metodologias. Futuras pesquisas podem explorar a adaptação desses modelos para diferentes tipos de documentos históricos, idiomas e períodos, ampliando ainda mais o alcance dessa tecnologia. Para mais detalhes sobre as metodologias e resultados preliminares, recomenda-se a leitura do artigo científico em [arXiv](https://arxiv.org/abs/2610.33004).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores propõem uma análise de erros em nível de entidade para avaliar a qualidade de sistemas OCR em documentos históricos. A métrica tradicional de taxa de erro de caractere (CER) pode não capturar a perda de informações significativas, como nomes de pessoas, datas específicas ou códigos de identificação, que são vitais para a utilidade dos arquivos digitalizados. O estudo, disponível no arXiv, utiliza um conjunto de dados de 175 documentos do Berrutti Archive, enriquecido com mais de 5.000 menções de entidades anotadas manualmente. Essa base de dados, que será liberada publicamente após a aceitação do trabalho, permite uma comparação detalhada entre sistemas OCR convencionais, modelos de visão-linguagem especializados em OCR e modelos de visão-linguagem de propósito geral. A investigação busca entender como diferentes arquiteturas de IA lidam com a preservação de dados contextuais em textos antigos. A pesquisa pode ser consultada em sua totalidade em <a href=\"https://arxiv.org/abs/2610.33004\" target=\"_blank\" rel=\"external noopener\">Entity-Aware Evaluation of OCR Systems for Historical Document Transcription</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A digitalização de acervos históricos é um passo fundamental para democratizar o acesso ao conhecimento e preservar a memória cultural. No Brasil, com sua rica e vasta história, a capacidade de transcrever documentos antigos com precisão, preservando suas informações essenciais, tem um impacto direto na pesquisa acadêmica, na genealogia, na historiografia e até mesmo em processos legais que dependem de registros históricos. Métricas de avaliação de OCR que se concentram apenas na correção de caracteres individuais podem mascarar falhas graves na extração de dados chave. Uma avaliação focada em entidades permite identificar sistemas que realmente entregam valor prático, garantindo que nomes de figuras históricas, datas de eventos cruciais ou identificadores de propriedades não sejam perdidos ou distorcidos no processo de digitalização. Isso é particularmente relevante para instituições brasileiras como arquivos nacionais, bibliotecas públicas e universidades que gerenciam vastos acervos.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que esta nova linha de avaliação incentive o desenvolvimento de sistemas OCR mais robustos e conscientes do contexto para documentos históricos. Modelos que se destacarem nessa análise de entidade-aware provavelmente oferecerão maior confiabilidade para aplicações práticas, reduzindo a necessidade de correções manuais extensivas e demoradas. A liberação do conjunto de dados de entidades anotadas servirá como um recurso valioso para a comunidade de pesquisa em IA, permitindo a replicação de experimentos e o avanço de novas metodologias. Futuras pesquisas podem explorar a adaptação desses modelos para diferentes tipos de documentos históricos, idiomas e períodos, ampliando ainda mais o alcance dessa tecnologia. Para mais detalhes sobre as metodologias e resultados preliminares, recomenda-se a leitura do artigo científico em <a href=\"https://arxiv.org/abs/2610.33004\" target=\"_blank\" rel=\"external noopener\">arXiv</a>.</p>",
+  "tags": [
+    "ocr",
+    "ia",
+    "documentos históricos"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "reconhecimento optico de caracteres",
+    "inteligencia artificial",
+    "documentos antigos",
+    "avaliacao de IA",
+    "Berrutti Archive"
+  ],
+  "meta_description_seo": "Pesquisa propõe nova forma de avaliar OCR em documentos históricos, focando em entidades como nomes e datas, para maior precisão na digitalização de acervos.",
+  "faq": [
+    {
+      "q": "Qual o problema com as métricas atuais de OCR para documentos históricos?",
+      "a": "As métricas atuais, como a taxa de erro de caractere, não refletem se informações importantes como nomes, datas e identificadores são preservadas. Elas focam apenas na precisão geral do texto."
+    },
+    {
+      "q": "O que a nova pesquisa propõe para melhorar a avaliação de OCR?",
+      "a": "A pesquisa propõe uma análise em nível de entidade, focando na precisão com que informações cruciais (nomes, datas, identificadores) são extraídas e preservadas pelos sistemas de OCR."
+    },
+    {
+      "q": "Qual a importância dessa nova abordagem para o Brasil?",
+      "a": "Para o Brasil, com seus vastos acervos históricos, essa abordagem garante que a digitalização preserve informações essenciais, auxiliando pesquisas acadêmicas, genealógicas e a preservação da memória nacional."
+    }
+  ],
+  "written_at": "2026-10-27T04:36:35.920Z",
+  "slug": "ia-para-arquivos-historicos-nova-avaliacao-de-ocr-foca-em-entidades-essenciais",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
