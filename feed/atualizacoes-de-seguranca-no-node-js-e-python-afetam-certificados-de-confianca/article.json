@@ -1,0 +1,54 @@
+{
+  "id": "tag:github.com,2008:Repository/890668799/v2.2.0",
+  "title": "v2.2.0",
+  "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
+  "summary": "<h2>Security: Node.js runtime and CA certificate updates (October 2026)</h2> <p>On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates could be recovered from the public certificates. On October 21, Node.js shipped <a href=\"https://nodejs.org/en/blog/vulnerability/october-2026-security-releases\" rel=\"nofollow\">security releases</a> that update its bundled CA certificates for the compromise and fix several unrelated high-severity runtime CVEs. On October 23, Python's <code>certifi</code> 2026.10.23 removed the eMudhra roots <code>emSign Root CA - C1</code> and <code>emSign ECC Root CA - C3</code>.</p> <p><strong>How these servers stand</strong></p> <ul> <li><strong>The TypeScript servers rely on the Node.js runtime for certificate checks.</strong> They ship no CA certificates of their own. Only <code>server-everything</code> makes outbound HTTPS requests (<code>gzip-file-as-resource</code>), and the Node.js it runs on verifies them. <c",
+  "published_at": "2026-10-28T20:57:13Z",
+  "source_id": "mcp-spec-releases",
+  "source_name": "MCP Spec",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "Atualizações de Segurança no Node.js e Python Afetam Certificados de Confiança",
+  "subtitle": "Falha em chaves privadas de autoridade certificadora indiana força correções urgentes em plataformas de IA.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Um incidente de segurança envolvendo a eMudhra, uma autoridade certificadora indiana, levou a atualizações críticas no Node.js e no pacote `certifi` do Python. A vulnerabilidade, descoberta em outubro de 2026, permitiu a recuperação de chaves privadas de certificados intermediários, exigindo ações imediatas para garantir a integridade das comunicações digitais.",
+  "body_markdown": "## O que aconteceu\n\nEm 20 de outubro de 2026, a empresa indiana eMudhra reportou uma falha grave: chaves privadas de oito de seus certificados de autoridade certificadora (CA) intermediária podiam ser recuperadas a partir de seus certificados públicos. Essa descoberta acionou uma resposta rápida da comunidade de desenvolvimento. No dia seguinte, 21 de outubro, o projeto Node.js lançou atualizações de segurança que incluíam novos certificados CA em seu pacote padrão, visando mitigar o impacto da vulnerabilidade e corrigir outras falhas de segurança de alta gravidade no runtime. Paralelamente, em 23 de outubro, a biblioteca `certifi` do Python, amplamente utilizada para validação de certificados TLS/SSL, removeu os certificados raiz comprometidos da eMudhra, especificamente `emSign Root CA - C1` e `emSign ECC Root CA - C3`. Os servidores que dependem do runtime Node.js para suas verificações de certificado, como os descritos na especificação MCP (Model Context Protocol) versão 2.2.0, estão diretamente afetados por essas mudanças. A atualização v2.2.0 do MCP, divulgada em [https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0), reflete a necessidade de adaptar-se a essas correções de segurança emergentes.\n\n## Por que importa\n\nA segurança das comunicações é um pilar fundamental para a operação de qualquer sistema de inteligência artificial, especialmente aqueles que lidam com dados sensíveis ou interagem com redes externas. A falha nos certificados da eMudhra, embora originada em um fornecedor específico, tem implicações globais. Autoridades certificadoras são a base da confiança na internet, e a comprometimento de suas chaves privadas abala essa confiança. Para empresas brasileiras que utilizam plataformas baseadas em Node.js ou Python para seus serviços de IA, a falta de atualização pode expor sistemas a ataques de interceptação de dados ou negação de serviço. A rápida adoção das correções é essencial para manter a integridade e a confidencialidade das informações processadas, evitando que aplicações de IA se tornem vetores de vulnerabilidade. A dependência de frameworks e runtimes atualizados é um indicativo da maturidade e segurança das soluções de IA no mercado.\n\n## O que esperar\n\nCom a divulgação dessas correções, espera-se que os desenvolvedores e administradores de sistemas de IA priorizem a aplicação das atualizações mais recentes do Node.js e do pacote `certifi` do Python. A indústria de IA, cada vez mais interconectada, necessita de um ambiente seguro para o desenvolvimento e a implantação de modelos. A rápida resposta da comunidade técnica, com lançamentos de patches e remoção de certificados comprometidos, demonstra a resiliência do ecossistema de software aberto. Para o futuro, incidentes como este reforçam a importância da diversificação de fornecedores de certificados e da implementação de monitoramento contínuo da cadeia de confiança digital. Plataformas como a descrita na especificação MCP, em sua versão [v2.2.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0), precisarão incorporar mecanismos de verificação mais robustos e adaptáveis a eventos de segurança inesperados. A vigilância constante e a agilidade na resposta a vulnerabilidades serão cruciais para a segurança e a confiança em aplicações de IA.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Em 20 de outubro de 2026, a empresa indiana eMudhra reportou uma falha grave: chaves privadas de oito de seus certificados de autoridade certificadora (CA) intermediária podiam ser recuperadas a partir de seus certificados públicos. Essa descoberta acionou uma resposta rápida da comunidade de desenvolvimento. No dia seguinte, 21 de outubro, o projeto Node.js lançou atualizações de segurança que incluíam novos certificados CA em seu pacote padrão, visando mitigar o impacto da vulnerabilidade e corrigir outras falhas de segurança de alta gravidade no runtime. Paralelamente, em 23 de outubro, a biblioteca <code>certifi</code> do Python, amplamente utilizada para validação de certificados TLS/SSL, removeu os certificados raiz comprometidos da eMudhra, especificamente <code>emSign Root CA - C1</code> e <code>emSign ECC Root CA - C3</code>. Os servidores que dependem do runtime Node.js para suas verificações de certificado, como os descritos na especificação MCP (Model Context Protocol) versão 2.2.0, estão diretamente afetados por essas mudanças. A atualização v2.2.0 do MCP, divulgada em <a href=\"https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0\" target=\"_blank\" rel=\"external noopener\">https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0</a>, reflete a necessidade de adaptar-se a essas correções de segurança emergentes.</p>\n\n<h2>Por que importa</h2>\n\n<p>A segurança das comunicações é um pilar fundamental para a operação de qualquer sistema de inteligência artificial, especialmente aqueles que lidam com dados sensíveis ou interagem com redes externas. A falha nos certificados da eMudhra, embora originada em um fornecedor específico, tem implicações globais. Autoridades certificadoras são a base da confiança na internet, e a comprometimento de suas chaves privadas abala essa confiança. Para empresas brasileiras que utilizam plataformas baseadas em Node.js ou Python para seus serviços de IA, a falta de atualização pode expor sistemas a ataques de interceptação de dados ou negação de serviço. A rápida adoção das correções é essencial para manter a integridade e a confidencialidade das informações processadas, evitando que aplicações de IA se tornem vetores de vulnerabilidade. A dependência de frameworks e runtimes atualizados é um indicativo da maturidade e segurança das soluções de IA no mercado.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a divulgação dessas correções, espera-se que os desenvolvedores e administradores de sistemas de IA priorizem a aplicação das atualizações mais recentes do Node.js e do pacote <code>certifi</code> do Python. A indústria de IA, cada vez mais interconectada, necessita de um ambiente seguro para o desenvolvimento e a implantação de modelos. A rápida resposta da comunidade técnica, com lançamentos de patches e remoção de certificados comprometidos, demonstra a resiliência do ecossistema de software aberto. Para o futuro, incidentes como este reforçam a importância da diversificação de fornecedores de certificados e da implementação de monitoramento contínuo da cadeia de confiança digital. Plataformas como a descrita na especificação MCP, em sua versão <a href=\"https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0\" target=\"_blank\" rel=\"external noopener\">v2.2.0</a>, precisarão incorporar mecanismos de verificação mais robustos e adaptáveis a eventos de segurança inesperados. A vigilância constante e a agilidade na resposta a vulnerabilidades serão cruciais para a segurança e a confiança em aplicações de IA.</p>",
+  "tags": [
+    "segurança",
+    "node.js",
+    "python",
+    "certificados",
+    "emudhra"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "segurança de IA",
+    "certificados CA",
+    "Node.js",
+    "Python",
+    "vulnerabilidade",
+    "eMudhra",
+    "MCP"
+  ],
+  "meta_description_seo": "Falha em certificados da eMudhra força atualizações urgentes no Node.js e Python, impactando segurança de aplicações de IA.",
+  "faq": [
+    {
+      "q": "O que causou a necessidade de atualizações de segurança no Node.js e Python?",
+      "a": "A eMudhra, uma autoridade certificadora indiana, teve suas chaves privadas de certificados intermediários comprometidas, permitindo sua recuperação. Isso exigiu que o Node.js atualizasse seus certificados e o Python removesse os certificados raiz afetados."
+    },
+    {
+      "q": "Como essa falha afeta os servidores baseados em Node.js?",
+      "a": "Servidores que dependem do runtime Node.js para verificar certificados digitais foram impactados, pois a confiabilidade desses certificados foi comprometida. As atualizações corrigem a lista de certificados confiáveis."
+    },
+    {
+      "q": "Quais são as implicações para a segurança de sistemas de IA?",
+      "a": "A segurança das comunicações é vital para IA. A falha em certificados pode expor sistemas a ataques de interceptação de dados. A atualização rápida é crucial para manter a confidencialidade e integridade das informações processadas por aplicações de IA."
+    }
+  ],
+  "written_at": "2026-10-28T22:26:29.177Z",
+  "slug": "atualizacoes-de-seguranca-no-node-js-e-python-afetam-certificados-de-confianca",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/02fc8371f34113c438c9b50bf50867cf87b66f3c30b45e398a65deb66e89a2d3/modelcontextprotocol/servers/releases/tag/v2.2.0"
+}

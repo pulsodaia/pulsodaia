@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 28 Oct 2026 16:37:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:34:04 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Microsoft Revela Receita Anual do Azure: US$ 33,2 Bilhões em Movimento Estratégico</title>
+      <link>https://pulsodaia.com.br/feed/microsoft-revela-receita-anual-do-azure-us-33-2-bilhoes-em-movimento-estrategico/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/microsoft-revela-receita-anual-do-azure-us-33-2-bilhoes-em-movimento-estrategico/</guid>
+      <pubDate>Wed, 28 Oct 2026 22:26:39 GMT</pubDate>
+      <description>A gigante de Redmond detalha pela primeira vez o faturamento de sua nuvem, aproximando-se da liderança de mercado.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Atualizações de Segurança no Node.js e Python Afetam Certificados de Confiança</title>
+      <link>https://pulsodaia.com.br/feed/atualizacoes-de-seguranca-no-node-js-e-python-afetam-certificados-de-confianca/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/atualizacoes-de-seguranca-no-node-js-e-python-afetam-certificados-de-confianca/</guid>
+      <pubDate>Wed, 28 Oct 2026 22:26:29 GMT</pubDate>
+      <description>Falha em chaves privadas de autoridade certificadora indiana força correções urgentes em plataformas de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0">MCP Spec</source>
+    </item>
+    <item>
+      <title>Google DeepMind Revela Gemini 4 Carbon, Próximo Modelo de Fronteira</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-revela-gemini-4-carbon-proximo-modelo-de-fronteira/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-revela-gemini-4-carbon-proximo-modelo-de-fronteira/</guid>
+      <pubDate>Wed, 28 Oct 2026 22:26:18 GMT</pubDate>
+      <description>A nova geração de modelos de linguagem promete avanços significativos em capacidade e eficiência para o mercado brasileiro.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/">Google DeepMind</source>
+    </item>
     <item>
       <title>Setor financeiro sul-coreano sob ataque: IA eleva o risco cibernético na Ásia</title>
       <link>https://pulsodaia.com.br/feed/setor-financeiro-sul-coreano-sob-ataque-ia-eleva-o-risco-cibernetico-na-asia/</link>
@@ -430,33 +457,6 @@
       <description>Ferramentas de inteligência artificial aceleram a adaptação de jogos antigos para plataformas modernas.</description>
       <category>LANCAMENTO</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port">The Verge AI</source>
-    </item>
-    <item>
-      <title>IA Acelera Mapeamento de Risco de Incêndios Florestais no Canadá</title>
-      <link>https://pulsodaia.com.br/feed/ia-acelera-mapeamento-de-risco-de-incendios-florestais-no-canada/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-acelera-mapeamento-de-risco-de-incendios-florestais-no-canada/</guid>
-      <pubDate>Fri, 23 Oct 2026 07:17:31 GMT</pubDate>
-      <description>Um novo framework de modelagem substituta com IA promete reduzir drasticamente o tempo de processamento para mapeamento de risco, com potencial para aplicações no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2610.30170">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA: CLI ou MCP para Agentes Autônomos? Estudo Compara Abordagens de Integração de Ferramentas</title>
-      <link>https://pulsodaia.com.br/feed/ia-cli-ou-mcp-para-agentes-autonomos-estudo-compara-abordagens-de-integracao-de-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-cli-ou-mcp-para-agentes-autonomos-estudo-compara-abordagens-de-integracao-de-/</guid>
-      <pubDate>Fri, 23 Oct 2026 07:17:21 GMT</pubDate>
-      <description>Um novo artigo científico no arXiv analisa os prós e contras de duas estratégias chave para a interação de agentes de IA com o mundo digital.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.30157">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Custo Invisível: O Preço da Primeira Palavra em Comunicação entre Agentes de IA</title>
-      <link>https://pulsodaia.com.br/feed/custo-invisivel-o-preco-da-primeira-palavra-em-comunicacao-entre-agentes-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/custo-invisivel-o-preco-da-primeira-palavra-em-comunicacao-entre-agentes-de-ia/</guid>
-      <pubDate>Fri, 23 Oct 2026 07:17:11 GMT</pubDate>
-      <description>Um estudo inédito quantifica o tempo e os recursos consumidos antes que a primeira mensagem útil seja trocada entre sistemas de inteligência artificial no Brasil e no mundo.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.30151">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
