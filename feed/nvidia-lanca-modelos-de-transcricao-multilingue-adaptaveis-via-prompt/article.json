@@ -1,0 +1,50 @@
+{
+  "id": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+  "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+  "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+  "summary": "",
+  "published_at": "Wed, 28 Oct 2026 14:58:17 GMT",
+  "source_id": "huggingface-blog",
+  "source_name": "Hugging Face",
+  "category": "opensource",
+  "source_type": "blog-oficial",
+  "headline": "NVIDIA Lança Modelos de Transcrição Multilíngue Adaptáveis via Prompt",
+  "subtitle": "A empresa aposta em flexibilidade e personalização para processamento de áudio em diversos idiomas.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A NVIDIA apresentou seus novos modelos Nemotron 3.5 Transcribe e Granary v2, focados em transcrição de áudio multilíngue. A inovação reside na capacidade de adaptar e direcionar o comportamento dos modelos através de prompts, permitindo maior controle e personalização para tarefas específicas.",
+  "body_markdown": "## O que aconteceu\n\nA NVIDIA, conhecida por seus avanços em hardware para inteligência artificial, expande seu portfólio de software com os modelos Nemotron 3.5 Transcribe e Granary v2. Estes modelos foram desenvolvidos para realizar transcrições de áudio em múltiplos idiomas, com uma característica distintiva: a capacidade de serem instruídos e ajustados por meio de prompts. Isso significa que os usuários podem guiar o modelo, indicando o idioma, o tipo de vocabulário a ser priorizado ou até mesmo o contexto da fala, tudo isso sem a necessidade de um novo treinamento extensivo. Essa abordagem oferece uma flexibilidade sem precedentes para aplicações que lidam com grande volume de dados de áudio em diferentes línguas e domínios. Saiba mais sobre os detalhes técnicos e as capacidades desses modelos no anúncio oficial da Hugging Face [aqui](https://huggingface.com/blog/nvidia/nemotron-transcribe-granary).\n\n## Por que importa\n\nPara o mercado brasileiro, a capacidade de lidar com transcrições multilíngues de forma adaptável é um diferencial significativo. Empresas que operam com clientes ou parceiros internacionais, ou que precisam processar conteúdo em diferentes dialetos do português, como o português de Portugal e o do Brasil, se beneficiarão enormemente. A personalização via prompt pode reduzir drasticamente os custos e o tempo associados à adaptação de modelos genéricos para necessidades específicas, como a transcrição de chamadas de atendimento ao cliente, reuniões corporativas, ou até mesmo conteúdo midiático. A redução da barreira linguística e a melhoria na precisão da transcrição abrem portas para uma análise de dados mais eficiente e insights mais profundos sobre interações em áudio.\n\n## O que esperar\n\nA expectativa é que Nemotron 3.5 Transcribe e Granary v2 permitam o desenvolvimento de soluções de IA mais robustas e acessíveis para empresas de todos os portes. A capacidade de adaptação via prompt simplifica o processo de implementação, tornando a tecnologia de transcrição avançada mais democrática. O foco em múltiplos idiomas sugere um futuro onde as barreiras de comunicação em ambientes digitais se tornam cada vez menores. A NVIDIA continua a investir em modelos que oferecem não apenas performance, mas também usabilidade e controle para o desenvolvedor e o usuário final. Detalhes adicionais sobre o roadmap e integrações futuras podem ser encontrados no [anúncio original](https://huggingface.com/blog/nvidia/nemotron-transcribe-granary).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A NVIDIA, conhecida por seus avanços em hardware para inteligência artificial, expande seu portfólio de software com os modelos Nemotron 3.5 Transcribe e Granary v2. Estes modelos foram desenvolvidos para realizar transcrições de áudio em múltiplos idiomas, com uma característica distintiva: a capacidade de serem instruídos e ajustados por meio de prompts. Isso significa que os usuários podem guiar o modelo, indicando o idioma, o tipo de vocabulário a ser priorizado ou até mesmo o contexto da fala, tudo isso sem a necessidade de um novo treinamento extensivo. Essa abordagem oferece uma flexibilidade sem precedentes para aplicações que lidam com grande volume de dados de áudio em diferentes línguas e domínios. Saiba mais sobre os detalhes técnicos e as capacidades desses modelos no anúncio oficial da Hugging Face <a href=\"https://huggingface.com/blog/nvidia/nemotron-transcribe-granary\" target=\"_blank\" rel=\"external noopener\">aqui</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro, a capacidade de lidar com transcrições multilíngues de forma adaptável é um diferencial significativo. Empresas que operam com clientes ou parceiros internacionais, ou que precisam processar conteúdo em diferentes dialetos do português, como o português de Portugal e o do Brasil, se beneficiarão enormemente. A personalização via prompt pode reduzir drasticamente os custos e o tempo associados à adaptação de modelos genéricos para necessidades específicas, como a transcrição de chamadas de atendimento ao cliente, reuniões corporativas, ou até mesmo conteúdo midiático. A redução da barreira linguística e a melhoria na precisão da transcrição abrem portas para uma análise de dados mais eficiente e insights mais profundos sobre interações em áudio.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que Nemotron 3.5 Transcribe e Granary v2 permitam o desenvolvimento de soluções de IA mais robustas e acessíveis para empresas de todos os portes. A capacidade de adaptação via prompt simplifica o processo de implementação, tornando a tecnologia de transcrição avançada mais democrática. O foco em múltiplos idiomas sugere um futuro onde as barreiras de comunicação em ambientes digitais se tornam cada vez menores. A NVIDIA continua a investir em modelos que oferecem não apenas performance, mas também usabilidade e controle para o desenvolvedor e o usuário final. Detalhes adicionais sobre o roadmap e integrações futuras podem ser encontrados no <a href=\"https://huggingface.com/blog/nvidia/nemotron-transcribe-granary\" target=\"_blank\" rel=\"external noopener\">anúncio original</a>.</p>",
+  "tags": [
+    "nvidia",
+    "ia",
+    "transcrição"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "NVIDIA Nemotron",
+    "Granary v2",
+    "transcrição multilíngue",
+    "IA adaptável",
+    "processamento de áudio"
+  ],
+  "meta_description_seo": "NVIDIA lança Nemotron 3.5 Transcribe e Granary v2: modelos de transcrição de áudio multilíngue adaptáveis por prompt.",
+  "faq": [
+    {
+      "q": "O que são os modelos Nemotron 3.5 Transcribe e Granary v2 da NVIDIA?",
+      "a": "São novos modelos de inteligência artificial desenvolvidos pela NVIDIA para realizar transcrições de áudio em diversos idiomas. Sua principal característica é a capacidade de serem adaptados e direcionados por meio de prompts."
+    },
+    {
+      "q": "Qual a principal vantagem desses modelos?",
+      "a": "A grande vantagem é a flexibilidade e personalização. Usuários podem guiar o modelo para priorizar idiomas, vocabulários específicos ou contextos de fala sem a necessidade de um novo treinamento extenso, o que economiza tempo e recursos."
+    },
+    {
+      "q": "Como esses modelos podem beneficiar o mercado brasileiro?",
+      "a": "Eles podem melhorar a precisão e reduzir custos na transcrição de áudio multilíngue, sendo úteis para empresas com atuação internacional ou que lidam com diferentes variações do português, facilitando a análise de dados de áudio."
+    }
+  ],
+  "written_at": "2026-10-28T16:31:54.864Z",
+  "slug": "nvidia-lanca-modelos-de-transcricao-multilingue-adaptaveis-via-prompt",
+  "hero_image": "hero.jpeg",
+  "hero_source_url": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg"
+}

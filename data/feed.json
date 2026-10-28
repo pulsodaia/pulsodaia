@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-28T08:10:21.438Z",
+  "generated_at": "2026-10-28T16:32:15.725Z",
   "articles": [
+    {
+      "slug": "setor-financeiro-sul-coreano-sob-ataque-ia-eleva-o-risco-cibernetico-na-asia",
+      "headline": "Setor financeiro sul-coreano sob ataque: IA eleva o risco cibernético na Ásia",
+      "subtitle": "Ataques cibernéticos recorrentes na Coreia do Sul sinalizam uma escalada na sofisticação de ameaças impulsionadas por IA, com implicações globais.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+      "category": "mercado",
+      "tags": [
+        "cibersegurança",
+        "inteligência artificial",
+        "setor financeiro"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 28 Oct 2026 15:41:18 +0000",
+      "written_at": "2026-10-28T16:32:15.649Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "executivos-de-ia-distantes-da-realidade-do-usuario-comum",
+      "headline": "Executivos de IA Distantes da Realidade do Usuário Comum",
+      "subtitle": "Relatos indicam que a elite da tecnologia pode estar perdendo a noção das necessidades cotidianas.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "executivos",
+        "publico geral"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 28 Oct 2026 15:53:52 +0000",
+      "written_at": "2026-10-28T16:32:05.289Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-lanca-modelos-de-transcricao-multilingue-adaptaveis-via-prompt",
+      "headline": "NVIDIA Lança Modelos de Transcrição Multilíngue Adaptáveis via Prompt",
+      "subtitle": "A empresa aposta em flexibilidade e personalização para processamento de áudio em diversos idiomas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "category": "opensource",
+      "tags": [
+        "nvidia",
+        "ia",
+        "transcrição"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 28 Oct 2026 14:58:17 GMT",
+      "written_at": "2026-10-28T16:31:54.864Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "trinity-nova-abordagem-para-autoaprimoramento-recursivo-em-agentes-multimodais",
       "headline": "Trinity: Nova Abordagem para Autoaprimoramento Recursivo em Agentes Multimodais",
