@@ -1,0 +1,52 @@
+{
+  "id": "oai:arXiv.org:2610.35942v1",
+  "title": "Counting the Bandages: On measuring the time that AI saves",
+  "url": "https://arxiv.org/abs/2610.35942",
+  "summary": "arXiv:2610.35942v1 Announce Type: new Abstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read next to the errors the work lets through, and I argue for the latter. The argument has four parts. I define a model-free pair of quantities, time saved and excess escaped defects, and one decision number built from them: the break-even defect cost. I give a baseline model of checking in which, until the model is good enough not to check, a calibrated worker's escaped-defect rate does not depend on how good the model is; checking time grows with the logarithm of the model's error rate; and over-trust buys minutes on the clock at a larger cost in total minutes. I show what randomized studies can and cannot identify, and I replicate METR's developer study from its public data: the same 246 issues support a slowdown of 19% or 24% dependi",
+  "published_at": "Wed, 28 Oct 2026 00:00:00 -0400",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Salva Tempo: A Contabilidade da Eficiência Real",
+  "subtitle": "Medir o ganho de produtividade da inteligência artificial exige mais do que um cronômetro, focando em erros evitados.",
+  "eyebrow_category": "ANALISE",
+  "lead": "A inteligência artificial promete otimizar fluxos de trabalho, mas a mensuração efetiva do tempo economizado é um desafio. Uma nova perspectiva sugere que a contagem de \"curativos\" aplicados, ou seja, erros corrigidos pela IA, é mais reveladora do que a simples observação de um cronômetro.",
+  "body_markdown": "## O que aconteceu\n\nUm artigo recente publicado no arXiv, intitulado \"Counting the Bandages: On measuring the time that AI saves\", propõe uma reavaliação fundamental sobre como quantificamos a eficiência proporcionada pela inteligência artificial. O autor contrapõe duas visões: a \"visão do cronômetro\", que se limita ao tempo registrado em relógio, e a \"visão do livro-razão\", que considera o ganho de tempo em um cenário contrafactual, ponderando os erros que o trabalho com IA evita. A argumentação defende a segunda abordagem como mais precisa para entender o real valor da IA na produtividade. [A discussão completa pode ser acessada aqui](https://arxiv.org/abs/2610.35942).\n\n## Por que importa\n\nNo contexto brasileiro, onde a adoção de IA em empresas de diversos portes é crescente, a capacidade de medir objetivamente os retornos sobre o investimento em tecnologia é crucial. Uma métrica superficial de tempo economizado pode levar a decisões equivocadas sobre a implementação e o aprimoramento de sistemas de IA. Se a IA apenas acelera um processo com alta taxa de erros, o ganho líquido pode ser ilusório. A \"visão do livro-razão\" permite que gestores avaliem se a IA está, de fato, reduzindo a carga de trabalho de correções e retrabalhos, um benefício tangível para a eficiência operacional e a qualidade final dos produtos ou serviços. Ignorar essa nuance pode resultar em investimentos mal direcionados e na subutilização do potencial da IA.\n\n## O que esperar\n\nA proposta de quantificar o tempo economizado com base nos \"defeitos escapados\" (erros que a IA evita) e calcular um \"custo de defeito de ponto de equilíbrio\" (break-even defect cost) oferece um caminho para avaliações mais robustas. Isso implica que a eficácia da IA não deve ser julgada isoladamente, mas sim em relação à sua capacidade de mitigar falhas humanas ou de processos. Um modelo de verificação, por exemplo, onde a IA auxilia um trabalhador humano, pode ter sua performance avaliada pela taxa de erros que ambos, conjuntamente, deixam de cometer. O tempo de verificação pode crescer logaritmicamente com a taxa de erro do modelo, indicando que a confiança excessiva na IA, sem uma validação adequada dos seus resultados, pode custar tempo no relógio, mesmo que pareça economizar. A busca por modelos de IA cada vez mais precisos e a integração criteriosa com processos humanos serão essenciais. [Mais detalhes sobre a metodologia estão disponíveis no artigo](https://arxiv.org/abs/2610.35942).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um artigo recente publicado no arXiv, intitulado \"Counting the Bandages: On measuring the time that AI saves\", propõe uma reavaliação fundamental sobre como quantificamos a eficiência proporcionada pela inteligência artificial. O autor contrapõe duas visões: a \"visão do cronômetro\", que se limita ao tempo registrado em relógio, e a \"visão do livro-razão\", que considera o ganho de tempo em um cenário contrafactual, ponderando os erros que o trabalho com IA evita. A argumentação defende a segunda abordagem como mais precisa para entender o real valor da IA na produtividade. <a href=\"https://arxiv.org/abs/2610.35942\" target=\"_blank\" rel=\"external noopener\">A discussão completa pode ser acessada aqui</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No contexto brasileiro, onde a adoção de IA em empresas de diversos portes é crescente, a capacidade de medir objetivamente os retornos sobre o investimento em tecnologia é crucial. Uma métrica superficial de tempo economizado pode levar a decisões equivocadas sobre a implementação e o aprimoramento de sistemas de IA. Se a IA apenas acelera um processo com alta taxa de erros, o ganho líquido pode ser ilusório. A \"visão do livro-razão\" permite que gestores avaliem se a IA está, de fato, reduzindo a carga de trabalho de correções e retrabalhos, um benefício tangível para a eficiência operacional e a qualidade final dos produtos ou serviços. Ignorar essa nuance pode resultar em investimentos mal direcionados e na subutilização do potencial da IA.</p>\n\n<h2>O que esperar</h2>\n\n<p>A proposta de quantificar o tempo economizado com base nos \"defeitos escapados\" (erros que a IA evita) e calcular um \"custo de defeito de ponto de equilíbrio\" (break-even defect cost) oferece um caminho para avaliações mais robustas. Isso implica que a eficácia da IA não deve ser julgada isoladamente, mas sim em relação à sua capacidade de mitigar falhas humanas ou de processos. Um modelo de verificação, por exemplo, onde a IA auxilia um trabalhador humano, pode ter sua performance avaliada pela taxa de erros que ambos, conjuntamente, deixam de cometer. O tempo de verificação pode crescer logaritmicamente com a taxa de erro do modelo, indicando que a confiança excessiva na IA, sem uma validação adequada dos seus resultados, pode custar tempo no relógio, mesmo que pareça economizar. A busca por modelos de IA cada vez mais precisos e a integração criteriosa com processos humanos serão essenciais. <a href=\"https://arxiv.org/abs/2610.35942\" target=\"_blank\" rel=\"external noopener\">Mais detalhes sobre a metodologia estão disponíveis no artigo</a>.</p>",
+  "tags": [
+    "inteligencia artificial",
+    "produtividade",
+    "mensuracao de ia"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "eficienca",
+    "tempo economizado",
+    "mensuracao",
+    "erros",
+    "produtividade",
+    "livro razao"
+  ],
+  "meta_description_seo": "Analise a mensuracao do tempo economizado pela IA. Descubra porque a contagem de erros evitados e mais precisa que um cronometro.",
+  "faq": [
+    {
+      "q": "Como medir de forma precisa o tempo que a IA economiza?",
+      "a": "A abordagem mais precisa envolve uma contagem contrafactual, comparando o trabalho com IA contra um cenário sem ela, focando nos erros que a IA evitou. Isso vai além de simplesmente medir o tempo no relógio."
+    },
+    {
+      "q": "Qual a diferença entre a \"visão do cronômetro\" e a \"visão do livro-razão\"?",
+      "a": "A \"visão do cronômetro\" foca apenas no tempo registrado em um relógio. Já a \"visão do livro-razão\" considera o tempo economizado em relação aos erros que seriam cometidos sem a IA, avaliando o custo desses erros."
+    },
+    {
+      "q": "Por que a confiança excessiva na IA pode ser um problema para a economia de tempo?",
+      "a": "Confiar excessivamente na IA sem validação adequada pode levar a erros que exigem retrabalho. Esse retrabalho consome tempo no relógio, anulando os ganhos aparentes de eficiência."
+    }
+  ],
+  "written_at": "2026-10-28T08:09:59.460Z",
+  "slug": "ia-salva-tempo-a-contabilidade-da-eficiencia-real",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
