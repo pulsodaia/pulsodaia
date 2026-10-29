@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-28T22:26:39.718Z",
+  "generated_at": "2026-10-29T12:43:53.785Z",
   "articles": [
+    {
+      "slug": "adam-mosseri-preve-piora-na-percepcao-publica-sobre-ia",
+      "headline": "Adam Mosseri prevê piora na percepção pública sobre IA",
+      "subtitle": "Líder do Instagram sinaliza aumento da negatividade em relação à inteligência artificial, ecoando descontentamento além de nichos específicos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "percepcao publica",
+        "adam mosseri"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-28T19:05:39-04:00",
+      "written_at": "2026-10-29T12:43:53.489Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "expansao-de-data-centers-nos-eua-sinaliza-nova-crise-hidrica-para-ia",
+      "headline": "Expansão de Data Centers nos EUA Sinaliza Nova Crise Hídrica para IA",
+      "subtitle": "A crescente demanda por infraestrutura de IA coloca pressão sobre recursos escassos, um alerta para o Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "sustentabilidade",
+        "recursos hídricos"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-29T06:00:04-04:00",
+      "written_at": "2026-10-29T12:43:42.771Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-libera-modelos-abertos-para-fala-e-decisoes-em-plataformas-apple",
+      "headline": "Hugging Face libera modelos abertos para fala e decisões em plataformas Apple",
+      "subtitle": "Iniciativa busca democratizar o acesso a tecnologias de IA para desenvolvedores no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/anydecisionmodel",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "apple",
+        "open source"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "written_at": "2026-10-29T12:43:28.536Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "microsoft-revela-receita-anual-do-azure-us-33-2-bilhoes-em-movimento-estrategico",
       "headline": "Microsoft Revela Receita Anual do Azure: US$ 33,2 Bilhões em Movimento Estratégico",

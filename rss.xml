@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 28 Oct 2026 22:34:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 12:50:21 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Adam Mosseri prevê piora na percepção pública sobre IA</title>
+      <link>https://pulsodaia.com.br/feed/adam-mosseri-preve-piora-na-percepcao-publica-sobre-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/adam-mosseri-preve-piora-na-percepcao-publica-sobre-ia/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:43:53 GMT</pubDate>
+      <description>Líder do Instagram sinaliza aumento da negatividade em relação à inteligência artificial, ecoando descontentamento além de nichos específicos.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity">The Verge AI</source>
+    </item>
+    <item>
+      <title>Expansão de Data Centers nos EUA Sinaliza Nova Crise Hídrica para IA</title>
+      <link>https://pulsodaia.com.br/feed/expansao-de-data-centers-nos-eua-sinaliza-nova-crise-hidrica-para-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/expansao-de-data-centers-nos-eua-sinaliza-nova-crise-hidrica-para-ia/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:43:42 GMT</pubDate>
+      <description>A crescente demanda por infraestrutura de IA coloca pressão sobre recursos escassos, um alerta para o Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc">The Verge AI</source>
+    </item>
+    <item>
+      <title>Hugging Face libera modelos abertos para fala e decisões em plataformas Apple</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-libera-modelos-abertos-para-fala-e-decisoes-em-plataformas-apple/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-libera-modelos-abertos-para-fala-e-decisoes-em-plataformas-apple/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:43:28 GMT</pubDate>
+      <description>Iniciativa busca democratizar o acesso a tecnologias de IA para desenvolvedores no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/anydecisionmodel">Hugging Face</source>
+    </item>
     <item>
       <title>Microsoft Revela Receita Anual do Azure: US$ 33,2 Bilhões em Movimento Estratégico</title>
       <link>https://pulsodaia.com.br/feed/microsoft-revela-receita-anual-do-azure-us-33-2-bilhoes-em-movimento-estrategico/</link>
@@ -430,33 +457,6 @@
       <description>Apresentamos a análise do dispositivo que divide opiniões no mercado de tecnologia.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast">The Verge AI</source>
-    </item>
-    <item>
-      <title>LitPivot: Nova Ferramenta da AllenAI Auxilia Pesquisadores a Navegar o Mar de Literatura Científica</title>
-      <link>https://pulsodaia.com.br/feed/litpivot-nova-ferramenta-da-allenai-auxilia-pesquisadores-a-navegar-o-mar-de-lit/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/litpivot-nova-ferramenta-da-allenai-auxilia-pesquisadores-a-navegar-o-mar-de-lit/</guid>
-      <pubDate>Fri, 23 Oct 2026 18:12:41 GMT</pubDate>
-      <description>Plataforma busca otimizar a descoberta e formulação de novas ideias em pesquisa de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/allenai/litpivot">Hugging Face</source>
-    </item>
-    <item>
-      <title>Canva Lança Modelo Próprio de Geração de Imagens, o Craft</title>
-      <link>https://pulsodaia.com.br/feed/canva-lanca-modelo-proprio-de-geracao-de-imagens-o-craft/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/canva-lanca-modelo-proprio-de-geracao-de-imagens-o-craft/</guid>
-      <pubDate>Fri, 23 Oct 2026 13:17:15 GMT</pubDate>
-      <description>Plataforma de design aposta em tecnologia interna para expandir suas capacidades criativas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA Democratiza Portabilidade de Clássicos de Videogame</title>
-      <link>https://pulsodaia.com.br/feed/ia-democratiza-portabilidade-de-classicos-de-videogame/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-democratiza-portabilidade-de-classicos-de-videogame/</guid>
-      <pubDate>Fri, 23 Oct 2026 13:16:54 GMT</pubDate>
-      <description>Ferramentas de inteligência artificial aceleram a adaptação de jogos antigos para plataformas modernas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port">The Verge AI</source>
     </item>
   </channel>
 </rss>
