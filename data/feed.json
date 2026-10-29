@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-29T12:43:53.785Z",
+  "generated_at": "2026-10-29T19:29:38.447Z",
   "articles": [
+    {
+      "slug": "mistral-large-4-chega-ao-hugging-face-ampliando-acesso-a-modelos-avancados",
+      "headline": "Mistral Large 4 Chega ao Hugging Face, Ampliando Acesso a Modelos Avançados",
+      "subtitle": "A plataforma de IA abre as portas para a nova iteração do modelo da Mistral AI, prometendo novas possibilidades para desenvolvedores no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/mistral-large4",
+      "category": "opensource",
+      "tags": [
+        "mistral ai",
+        "hugging face",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "written_at": "2026-10-29T19:29:38.320Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-lanca-projeto-protostar-para-tornar-ciencia-publica-acessivel-a-ia",
+      "headline": "Hugging Face Lança Projeto ProtoStar para Tornar Ciência Pública Acessível à IA",
+      "subtitle": "Iniciativa visa democratizar o uso de descobertas científicas financiadas com recursos públicos em modelos de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/announcing-project-protostar",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "ciencia",
+        "dados",
+        "open science"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "written_at": "2026-10-29T19:29:28.483Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ibm-granite-switch-4-1-1-atualizacao-de-modelos-de-ia-simplificada",
+      "headline": "IBM Granite Switch 4.1.1: Atualização de Modelos de IA Simplificada",
+      "subtitle": "A IBM busca equiparar a agilidade das atualizações de software à evolução dos modelos de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "category": "opensource",
+      "tags": [
+        "ibm granite",
+        "atualizacao de modelos",
+        "ia corporativa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 29 Oct 2026 13:37:07 GMT",
+      "written_at": "2026-10-29T19:29:19.047Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "adam-mosseri-preve-piora-na-percepcao-publica-sobre-ia",
       "headline": "Adam Mosseri prevê piora na percepção pública sobre IA",
