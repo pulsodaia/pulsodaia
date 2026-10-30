@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-30T05:20:35.453Z",
+  "generated_at": "2026-10-30T12:35:26.332Z",
   "articles": [
+    {
+      "slug": "thinkjev-ajusta-decisoes-de-ia-com-pensamento-calibrado-por-orcamento",
+      "headline": "ThinkJev Ajusta Decisões de IA com Pensamento Calibrado por Orçamento",
+      "subtitle": "Nova abordagem busca otimizar a velocidade e a precisão em tarefas que exigem raciocínio sequencial.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.37732",
+      "category": "research",
+      "tags": [
+        "ia",
+        "processamento de linguagem natural",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 30 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-30T12:35:26.246Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-localizada-nova-abordagem-para-calibracao-de-modelos-cientificos",
+      "headline": "IA Localizada: Nova Abordagem para Calibração de Modelos Científicos",
+      "subtitle": "Pesquisa avança na adaptação de modelos de IA para fenômenos complexos, com potencial para aplicações em geofísica e climatologia no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.37731",
+      "category": "research",
+      "tags": [
+        "ia",
+        "calibracao",
+        "modelos cientificos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 30 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-30T12:35:16.425Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "lrmoe-nova-abordagem-otimiza-treinamento-de-modelos-moe-em-hardware-com-memoria-",
+      "headline": "LRMoE: Nova Abordagem Otimiza Treinamento de Modelos MoE em Hardware com Memória Limitada",
+      "subtitle": "Pesquisa propõe solução para gargalos de computação e comunicação em sistemas de inteligência artificial.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.37720",
+      "category": "research",
+      "tags": [
+        "ia",
+        "moe",
+        "otimizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 30 Oct 2026 00:00:00 -0400",
+      "written_at": "2026-10-30T12:35:05.700Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "claude-code-aprimora-seguranca-e-eficiencia-com-atualizacoes",
       "headline": "Claude Code aprimora segurança e eficiência com atualizações",

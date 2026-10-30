@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 30 Oct 2026 05:25:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 12:40:44 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>ThinkJev Ajusta Decisões de IA com Pensamento Calibrado por Orçamento</title>
+      <link>https://pulsodaia.com.br/feed/thinkjev-ajusta-decisoes-de-ia-com-pensamento-calibrado-por-orcamento/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/thinkjev-ajusta-decisoes-de-ia-com-pensamento-calibrado-por-orcamento/</guid>
+      <pubDate>Fri, 30 Oct 2026 12:35:26 GMT</pubDate>
+      <description>Nova abordagem busca otimizar a velocidade e a precisão em tarefas que exigem raciocínio sequencial.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.37732">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA Localizada: Nova Abordagem para Calibração de Modelos Científicos</title>
+      <link>https://pulsodaia.com.br/feed/ia-localizada-nova-abordagem-para-calibracao-de-modelos-cientificos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-localizada-nova-abordagem-para-calibracao-de-modelos-cientificos/</guid>
+      <pubDate>Fri, 30 Oct 2026 12:35:16 GMT</pubDate>
+      <description>Pesquisa avança na adaptação de modelos de IA para fenômenos complexos, com potencial para aplicações em geofísica e climatologia no Brasil.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.37731">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>LRMoE: Nova Abordagem Otimiza Treinamento de Modelos MoE em Hardware com Memória Limitada</title>
+      <link>https://pulsodaia.com.br/feed/lrmoe-nova-abordagem-otimiza-treinamento-de-modelos-moe-em-hardware-com-memoria-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/lrmoe-nova-abordagem-otimiza-treinamento-de-modelos-moe-em-hardware-com-memoria-/</guid>
+      <pubDate>Fri, 30 Oct 2026 12:35:05 GMT</pubDate>
+      <description>Pesquisa propõe solução para gargalos de computação e comunicação em sistemas de inteligência artificial.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2610.37720">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Claude Code aprimora segurança e eficiência com atualizações</title>
       <link>https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-eficiencia-com-atualizacoes/</link>
@@ -430,33 +457,6 @@
       <description>Estudo aponta que a complexidade das interfaces de agentes de IA para codificação não se traduz em ganhos de eficiência, mas encarece o processo.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/">The Decoder</source>
-    </item>
-    <item>
-      <title>OpenAI Suspende Treinamento de Modelos com Dados da Internet ao Vivo</title>
-      <link>https://pulsodaia.com.br/feed/openai-suspende-treinamento-de-modelos-com-dados-da-internet-ao-vivo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-suspende-treinamento-de-modelos-com-dados-da-internet-ao-vivo/</guid>
-      <pubDate>Sat, 24 Oct 2026 04:10:40 GMT</pubDate>
-      <description>A decisão da gigante de IA pode impactar o desenvolvimento e a atualização de modelos de linguagem no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Ajusta Ferramentas e Corre Falhas em Atualização</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-ajusta-ferramentas-e-corre-falhas-em-atualizacao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-ajusta-ferramentas-e-corre-falhas-em-atualizacao/</guid>
-      <pubDate>Sat, 24 Oct 2026 04:10:30 GMT</pubDate>
-      <description>A Anthropic aprimora a usabilidade e a estabilidade do seu modelo de código, com impacto direto em desenvolvedores no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.310">Claude Code</source>
-    </item>
-    <item>
-      <title>OpenAI isola treinamento de modelos de ponta da internet após incidentes de segurança</title>
-      <link>https://pulsodaia.com.br/feed/openai-isola-treinamento-de-modelos-de-ponta-da-internet-apos-incidentes-de-segu/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-isola-treinamento-de-modelos-de-ponta-da-internet-apos-incidentes-de-segu/</guid>
-      <pubDate>Fri, 23 Oct 2026 22:59:55 GMT</pubDate>
-      <description>A medida visa mitigar riscos de acesso não autorizado e manipulação de dados em sistemas de IA avançados.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet">The Verge AI</source>
     </item>
   </channel>
 </rss>
