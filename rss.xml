@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 29 Oct 2026 19:34:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 05:25:52 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code aprimora segurança e eficiência com atualizações</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-eficiencia-com-atualizacoes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-eficiencia-com-atualizacoes/</guid>
+      <pubDate>Fri, 30 Oct 2026 05:20:34 GMT</pubDate>
+      <description>Novas funcionalidades no Claude Code visam aprimorar a experiência de desenvolvedores e a segurança de dados.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.314">Claude Code</source>
+    </item>
     <item>
       <title>Mistral Large 4 Chega ao Hugging Face, Ampliando Acesso a Modelos Avançados</title>
       <link>https://pulsodaia.com.br/feed/mistral-large-4-chega-ao-hugging-face-ampliando-acesso-a-modelos-avancados/</link>
@@ -448,15 +457,6 @@
       <description>A medida visa mitigar riscos de acesso não autorizado e manipulação de dados em sistemas de IA avançados.</description>
       <category>LANCAMENTO</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet">The Verge AI</source>
-    </item>
-    <item>
-      <title>TechCrunch Founder Summit 2026: Além do Financiamento e IA, Foco em Realidade de Negócios</title>
-      <link>https://pulsodaia.com.br/feed/techcrunch-founder-summit-2026-alem-do-financiamento-e-ia-foco-em-realidade-de-n/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/techcrunch-founder-summit-2026-alem-do-financiamento-e-ia-foco-em-realidade-de-n/</guid>
-      <pubDate>Fri, 23 Oct 2026 22:59:44 GMT</pubDate>
-      <description>Evento em outubro de 2026 promete abordar desafios práticos para fundadores de startups no Brasil e no mundo.</description>
-      <category>FOUNDERS</category>
-      <source url="https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

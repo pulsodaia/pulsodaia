@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-10-29T19:29:38.447Z",
+  "generated_at": "2026-10-30T05:20:35.453Z",
   "articles": [
+    {
+      "slug": "claude-code-aprimora-seguranca-e-eficiencia-com-atualizacoes",
+      "headline": "Claude Code aprimora segurança e eficiência com atualizações",
+      "subtitle": "Novas funcionalidades no Claude Code visam aprimorar a experiência de desenvolvedores e a segurança de dados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "seguranca de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-30T01:06:26Z",
+      "written_at": "2026-10-30T05:20:34.819Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "mistral-large-4-chega-ao-hugging-face-ampliando-acesso-a-modelos-avancados",
       "headline": "Mistral Large 4 Chega ao Hugging Face, Ampliando Acesso a Modelos Avançados",
