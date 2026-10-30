@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-10-30T12:35:26.332Z",
+  "generated_at": "2026-10-30T19:06:20.322Z",
   "articles": [
+    {
+      "slug": "google-coloca-tpu-na-orbita-terrestre-e-gera-poesia-artificial",
+      "headline": "Google Coloca TPU na Órbita Terrestre e Gera Poesia Artificial",
+      "subtitle": "A gigante de tecnologia avança na computação espacial com um modelo de linguagem em órbita.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "category": "mercado",
+      "tags": [
+        "ia espacial",
+        "google",
+        "deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 30 Oct 2026 17:00:00 +0000",
+      "written_at": "2026-10-30T19:06:20.186Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-resolve-dilemas-gastronomicos-por-mensagem",
+      "headline": "IA Resolve Dilemas Gastronômicos por Mensagem",
+      "subtitle": "Novo agente de IA simplifica a escolha de restaurantes e reservas, atendendo a múltiplos gostos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "aplicativos",
+        "reservas",
+        "gastronomia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 30 Oct 2026 17:47:12 +0000",
+      "written_at": "2026-10-30T19:06:09.853Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-apresenta-nemotron-modelo-de-linguagem-focado-em-dados-de-negocios",
+      "headline": "Nvidia Apresenta Nemotron, Modelo de Linguagem Focado em Dados de Negócios",
+      "subtitle": "A empresa de hardware lança um modelo de IA com arquitetura e otimização para análise de informações corporativas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "nvidia",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 30 Oct 2026 17:57:24 GMT",
+      "written_at": "2026-10-30T19:05:58.514Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "thinkjev-ajusta-decisoes-de-ia-com-pensamento-calibrado-por-orcamento",
       "headline": "ThinkJev Ajusta Decisões de IA com Pensamento Calibrado por Orçamento",
