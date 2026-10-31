@@ -1,0 +1,50 @@
+{
+  "id": "https://the-decoder.com/?p=42243",
+  "title": "Anthropic&#039;s watermark rollout leaves a loophole on two older Claude models",
+  "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+  "summary": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article Anthropic&#039;s watermark rollout leaves a loophole on two older Claude models appeared first on The Decoder .",
+  "published_at": "Sat, 31 Oct 2026 19:20:55 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "Anthropic Expande Marca d'Água em Modelos de IA, Mas Falha em Versões Anteriores",
+  "subtitle": "A fabricante de Claude busca conformidade com regulamentação europeia, mas uma brecha em modelos mais antigos gera preocupações.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Anthropic está implementando marcas d'água em mais quatro modelos de sua linha Claude para atender às exigências do Ato de IA da União Europeia até dezembro. No entanto, uma vulnerabilidade foi identificada em duas versões mais antigas, Claude Opus 4.6 e Sonnet 4.6, permitindo a remoção da marca por meio de ajustes técnicos.",
+  "body_markdown": "## O que aconteceu\n\nA corrida pela conformidade regulatória impulsiona a Anthropic a expandir a aplicação de sua tecnologia de marca d'água em texto gerado por inteligência artificial. A empresa anunciou a inclusão de quatro modelos adicionais da família Claude nesse sistema. Essa medida é uma resposta direta ao prazo de dezembro estabelecido pelo Ato de IA da União Europeia, que exige mecanismos para identificar conteúdo gerado por IA. O objetivo é aumentar a transparência e permitir a rastreabilidade de informações produzidas por sistemas de linguagem natural.\n\nContudo, a implementação não está isenta de problemas. A análise de [The Decoder](https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/) revelou que os modelos Claude Opus 4.6 e Claude Sonnet 4.6, versões mais antigas da plataforma, apresentam uma falha significativa. Desenvolvedores conseguem contornar a marca d'água simplesmente alterando um parâmetro de amostragem. A Anthropic reconheceu a existência dessa brecha, mas, por enquanto, limitou sua resposta a um aviso de conformidade, sem apresentar uma solução técnica imediata para esses modelos específicos.\n\n## Por que importa\n\nA capacidade de identificar conteúdo gerado por IA é crucial para combater a desinformação e garantir a autenticidade em diversas esferas. No Brasil, onde a adoção de IA avança rapidamente em setores como marketing, jornalismo e atendimento ao cliente, a falta de mecanismos robustos de rastreabilidade pode abrir portas para a proliferação de notícias falsas e manipulação de informações. A falha da Anthropic em proteger modelos mais antigos pode criar um precedente para que outros desenvolvedores ignorem ou minimizem a importância da marca d'água em suas implementações.\n\nA União Europeia lidera o movimento regulatório global em IA, e as ações de empresas como a Anthropic servem de referência para outros mercados. A brecha identificada levanta questões sobre a maturidade e a segurança das tecnologias de marca d'água em larga escala. Para empresas brasileiras que já utilizam ou planejam integrar modelos de linguagem avançados em seus processos, a confiabilidade dessas ferramentas de identificação é um fator determinante para a segurança e a credibilidade de suas operações.\n\n## O que esperar\n\nA expectativa é que a Anthropic priorize a correção da vulnerabilidade nos modelos Claude Opus 4.6 e Sonnet 4.6. A pressão regulatória, aliada à necessidade de manter a confiança dos usuários e parceiros, deve forçar a empresa a desenvolver uma solução técnica efetiva. É provável que outras empresas de IA também estejam revisando suas próprias implementações de marca d'água após essa descoberta, intensificando a pesquisa e o desenvolvimento em métodos mais seguros e resistentes.\n\nA comunidade de pesquisa em IA também deve se debruçar sobre essa questão, buscando novas abordagens para a marca d'água que sejam mais difíceis de serem burladas. O incidente serve como um lembrete de que a segurança e a confiabilidade em IA são desafios contínuos. Acompanharemos o desenvolvimento de novas tecnologias e as respostas regulatórias, incluindo possíveis atualizações no [Ato de IA da UE](https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/), que podem impactar diretamente o mercado brasileiro.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A corrida pela conformidade regulatória impulsiona a Anthropic a expandir a aplicação de sua tecnologia de marca d'água em texto gerado por inteligência artificial. A empresa anunciou a inclusão de quatro modelos adicionais da família Claude nesse sistema. Essa medida é uma resposta direta ao prazo de dezembro estabelecido pelo Ato de IA da União Europeia, que exige mecanismos para identificar conteúdo gerado por IA. O objetivo é aumentar a transparência e permitir a rastreabilidade de informações produzidas por sistemas de linguagem natural.</p>\n\n<p>Contudo, a implementação não está isenta de problemas. A análise de <a href=\"https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a> revelou que os modelos Claude Opus 4.6 e Claude Sonnet 4.6, versões mais antigas da plataforma, apresentam uma falha significativa. Desenvolvedores conseguem contornar a marca d'água simplesmente alterando um parâmetro de amostragem. A Anthropic reconheceu a existência dessa brecha, mas, por enquanto, limitou sua resposta a um aviso de conformidade, sem apresentar uma solução técnica imediata para esses modelos específicos.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de identificar conteúdo gerado por IA é crucial para combater a desinformação e garantir a autenticidade em diversas esferas. No Brasil, onde a adoção de IA avança rapidamente em setores como marketing, jornalismo e atendimento ao cliente, a falta de mecanismos robustos de rastreabilidade pode abrir portas para a proliferação de notícias falsas e manipulação de informações. A falha da Anthropic em proteger modelos mais antigos pode criar um precedente para que outros desenvolvedores ignorem ou minimizem a importância da marca d'água em suas implementações.</p>\n\n<p>A União Europeia lidera o movimento regulatório global em IA, e as ações de empresas como a Anthropic servem de referência para outros mercados. A brecha identificada levanta questões sobre a maturidade e a segurança das tecnologias de marca d'água em larga escala. Para empresas brasileiras que já utilizam ou planejam integrar modelos de linguagem avançados em seus processos, a confiabilidade dessas ferramentas de identificação é um fator determinante para a segurança e a credibilidade de suas operações.</p>\n\n<h2>O que esperar</h2>\n\n<p>A expectativa é que a Anthropic priorize a correção da vulnerabilidade nos modelos Claude Opus 4.6 e Sonnet 4.6. A pressão regulatória, aliada à necessidade de manter a confiança dos usuários e parceiros, deve forçar a empresa a desenvolver uma solução técnica efetiva. É provável que outras empresas de IA também estejam revisando suas próprias implementações de marca d'água após essa descoberta, intensificando a pesquisa e o desenvolvimento em métodos mais seguros e resistentes.</p>\n\n<p>A comunidade de pesquisa em IA também deve se debruçar sobre essa questão, buscando novas abordagens para a marca d'água que sejam mais difíceis de serem burladas. O incidente serve como um lembrete de que a segurança e a confiabilidade em IA são desafios contínuos. Acompanharemos o desenvolvimento de novas tecnologias e as respostas regulatórias, incluindo possíveis atualizações no <a href=\"https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/\" target=\"_blank\" rel=\"external noopener\">Ato de IA da UE</a>, que podem impactar diretamente o mercado brasileiro.</p>",
+  "tags": [
+    "anthropic",
+    "claude",
+    "marca d'agua"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "marca d'agua IA",
+    "Anthropic Claude",
+    "Ato de IA UE",
+    "vulnerabilidade IA",
+    "tecnologia de IA"
+  ],
+  "meta_description_seo": "Anthropic expande marca d'agua em Claude para cumprir lei europeia, mas falha em modelos antigos. Falha em Opus e Sonnet 4.6 gera preocupações.",
+  "faq": [
+    {
+      "q": "Por que a Anthropic está implementando marca d'água em seus modelos de IA?",
+      "a": "A Anthropic está expandindo o uso de marcas d'água em seus modelos Claude para cumprir as exigências do Ato de IA da União Europeia, que visa identificar conteúdo gerado por inteligência artificial."
+    },
+    {
+      "q": "Qual o problema com os modelos Claude Opus 4.6 e Sonnet 4.6?",
+      "a": "Nesses modelos mais antigos, desenvolvedores conseguem remover a marca d'água ajustando um único parâmetro de amostragem, criando uma brecha na identificação do conteúdo gerado por IA."
+    },
+    {
+      "q": "O que a Anthropic fará sobre essa falha?",
+      "a": "A Anthropic reconheceu a vulnerabilidade, mas, até o momento, respondeu com um aviso de conformidade, sem apresentar uma solução técnica imediata para corrigir a falha nesses modelos específicos."
+    }
+  ],
+  "written_at": "2026-10-31T21:17:53.936Z",
+  "slug": "anthropic-expande-marca-d-agua-em-modelos-de-ia-mas-falha-em-versoes-anteriores",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/08/Claude-Watermark.png"
+}

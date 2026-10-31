@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-10-31T17:11:06.486Z",
+  "generated_at": "2026-10-31T21:17:55.047Z",
   "articles": [
+    {
+      "slug": "anthropic-expande-marca-d-agua-em-modelos-de-ia-mas-falha-em-versoes-anteriores",
+      "headline": "Anthropic Expande Marca d'Água em Modelos de IA, Mas Falha em Versões Anteriores",
+      "subtitle": "A fabricante de Claude busca conformidade com regulamentação europeia, mas uma brecha em modelos mais antigos gera preocupações.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "claude",
+        "marca d'agua"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 31 Oct 2026 19:20:55 +0000",
+      "written_at": "2026-10-31T21:17:53.936Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "juiz-permite-que-processo-da-naacp-contra-xai-por-poluicao-avance",
+      "headline": "Juiz permite que processo da NAACP contra xAI por poluição avance",
+      "subtitle": "Ação judicial alega violação da Lei do Ar Limpo por centro de dados de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "xai",
+        "meio ambiente"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 31 Oct 2026 21:17:03 +0000",
+      "written_at": "2026-10-31T21:17:43.605Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "openai-expande-coleta-de-dados-para-treinamento-mesmo-com-opt-out-ativado",
       "headline": "OpenAI expande coleta de dados para treinamento, mesmo com opt-out ativado",
