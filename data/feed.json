@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-10-31T05:03:52.530Z",
+  "generated_at": "2026-10-31T17:11:06.486Z",
   "articles": [
+    {
+      "slug": "openai-expande-coleta-de-dados-para-treinamento-mesmo-com-opt-out-ativado",
+      "headline": "OpenAI expande coleta de dados para treinamento, mesmo com opt-out ativado",
+      "subtitle": "Novas diretrizes de uso de dados acendem alerta sobre privacidade e consentimento em modelos de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "privacidade",
+        "treinamento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 31 Oct 2026 16:38:37 +0000",
+      "written_at": "2026-10-31T17:11:05.172Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "meta-lanca-muse-charm-mas-entusiastas-ja-criaram-alternativas-portateis-de-ia",
+      "headline": "Meta Lança Muse Charm, Mas Entusiastas Já Criaram Alternativas Portáteis de IA",
+      "subtitle": "Enquanto a gigante de tecnologia aposta em wearables fofos, a comunidade DIY demonstra agilidade na criação de companheiros de IA personalizados.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "meta",
+        "muse charm"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-10-31T12:05:00-04:00",
+      "written_at": "2026-10-31T17:10:54.730Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "openai-ajusta-metas-de-captacao-em-novo-ciclo-de-investimento",
+      "headline": "OpenAI Ajusta Metas de Captação em Novo Ciclo de Investimento",
+      "subtitle": "A gigante da IA pode ter que reavaliar expectativas em meio a um cenário de investimentos mais cauteloso.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "category": "mercado",
+      "tags": [
+        "openai",
+        "financiamento",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 31 Oct 2026 16:12:55 +0000",
+      "written_at": "2026-10-31T17:10:43.978Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "nvidia-considera-avalizar-emprestimo-para-data-center-de-ia-da-nscale",
       "headline": "Nvidia considera avalizar empréstimo para data center de IA da NScale",
