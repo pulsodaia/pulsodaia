@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 30 Oct 2026 23:41:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 05:08:58 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nvidia considera avalizar empréstimo para data center de IA da NScale</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-considera-avalizar-emprestimo-para-data-center-de-ia-da-nscale/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-considera-avalizar-emprestimo-para-data-center-de-ia-da-nscale/</guid>
+      <pubDate>Sat, 31 Oct 2026 05:03:52 GMT</pubDate>
+      <description>A gigante dos chips pode mitigar riscos para investidores em um momento de cautela com gastos em IA.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Ajusta Operações com Novas Configurações de Orçamento e Controle de Processos</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-ajusta-operacoes-com-novas-configuracoes-de-orcamento-e-controle-de-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-ajusta-operacoes-com-novas-configuracoes-de-orcamento-e-controle-de-/</guid>
+      <pubDate>Sat, 31 Oct 2026 05:03:31 GMT</pubDate>
+      <description>Atualizações no Claude Code visam maior flexibilidade e gestão de custos para desenvolvedores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.316">Claude Code</source>
+    </item>
     <item>
       <title>Avaliação de Risco da Anthropic Pós-IPO: Um Desafio para o Financiamento</title>
       <link>https://pulsodaia.com.br/feed/avaliacao-de-risco-da-anthropic-pos-ipo-um-desafio-para-o-financiamento/</link>
@@ -439,24 +457,6 @@
       <description>A empresa de pesquisa em IA propõe uma arquitetura simplificada para tarefas complexas.</description>
       <category>ANALISE</category>
       <source url="https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/">The Decoder</source>
-    </item>
-    <item>
-      <title>IA Autônoma em 2027: Nova Previsão de Cofundador da Anthropic</title>
-      <link>https://pulsodaia.com.br/feed/ia-autonoma-em-2027-nova-previsao-de-cofundador-da-anthropic/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-autonoma-em-2027-nova-previsao-de-cofundador-da-anthropic/</guid>
-      <pubDate>Sun, 25 Oct 2026 11:07:09 GMT</pubDate>
-      <description>Indicadores recentes sugerem que sistemas capazes de autoaperfeiçoamento podem surgir antes do esperado.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/">The Decoder</source>
-    </item>
-    <item>
-      <title>Nvidia Lança Flora: Etiquetagem de Vídeo para Robôs 125x Mais Barata que Modelos Anteriores</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-lanca-flora-etiquetagem-de-video-para-robos-125x-mais-barata-que-modelos-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-lanca-flora-etiquetagem-de-video-para-robos-125x-mais-barata-que-modelos-/</guid>
-      <pubDate>Sun, 25 Oct 2026 11:06:57 GMT</pubDate>
-      <description>Iniciativa da gigante de semicondutores visa democratizar o treinamento de robôs com IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/">The Decoder</source>
     </item>
   </channel>
 </rss>
