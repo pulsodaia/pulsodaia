@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 01 Nov 2026 16:50:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 22:00:12 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA: Benefícios Concentrados no Topo, Desafios na Base</title>
+      <link>https://pulsodaia.com.br/feed/ia-beneficios-concentrados-no-topo-desafios-na-base/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-beneficios-concentrados-no-topo-desafios-na-base/</guid>
+      <pubDate>Sun, 01 Nov 2026 21:55:02 GMT</pubDate>
+      <description>Enquanto executivos de tecnologia celebram ganhos de produtividade, a democratização real da IA ainda enfrenta barreiras.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Modelos de IA Chineses: Complexidade Política Além do Discurso Oficial</title>
       <link>https://pulsodaia.com.br/feed/modelos-de-ia-chineses-complexidade-politica-alem-do-discurso-oficial/</link>
@@ -448,15 +457,6 @@
       <description>Pesquisadores propõem método para tornar o ajuste fino de sistemas de reconhecimento de voz mais acessível a desenvolvedores no Brasil.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.32997">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>Anthropic aposta em combinação de produtos para fidelizar clientes corporativos</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-aposta-em-combinacao-de-produtos-para-fidelizar-clientes-corporativos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-aposta-em-combinacao-de-produtos-para-fidelizar-clientes-corporativos/</guid>
-      <pubDate>Mon, 26 Oct 2026 23:41:25 GMT</pubDate>
-      <description>Estratégia da empresa de IA espelha táticas da Amazon para aumentar a retenção de grandes contas.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
