@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-02T01:24:57.420Z",
+  "generated_at": "2026-11-02T09:12:35.440Z",
   "articles": [
+    {
+      "slug": "arbitragem-computacional-em-ia-nova-fronteira-de-lucro-em-marketplaces-de-modelo",
+      "headline": "Arbitragem Computacional em IA: Nova Fronteira de Lucro em Marketplaces de Modelos",
+      "subtitle": "Pesquisa no arXiv detalha estratégias para otimizar a compra e venda de inferência de IA, abrindo caminho para intermediários mais eficientes.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.40831",
+      "category": "research",
+      "tags": [
+        "ia",
+        "marketplaces",
+        "arbitragem computacional"
+      ],
+      "read_time_min": 4,
+      "published_at": "Mon, 02 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-02T09:12:35.228Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "modelos-de-ia-para-a-web-falham-em-garantir-seguranca-essencial",
+      "headline": "Modelos de IA para a Web Falham em Garantir Segurança Essencial",
+      "subtitle": "Previsões plausíveis de ações futuras não são suficientes para decisões de segurança confiáveis em agentes autônomos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.40798",
+      "category": "research",
+      "tags": [
+        "segurança em ia",
+        "modelos de mundo",
+        "pesquisa em ia",
+        "arxiv"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 02 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-02T09:12:24.062Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-aprendem-regras-ocultas-em-novo-teste",
+      "headline": "Agentes de IA aprendem regras ocultas em novo teste",
+      "subtitle": "Pesquisa em IA explora a capacidade de sistemas autônomos descobrirem e aplicarem normas não explicitadas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2610.40758",
+      "category": "research",
+      "tags": [
+        "ia",
+        "aprendizado",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 02 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-02T09:12:12.926Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "openai-repagina-centros-de-dados-como-ai-compute-campuses",
       "headline": "OpenAI repagina centros de dados como \"AI Compute Campuses\"",

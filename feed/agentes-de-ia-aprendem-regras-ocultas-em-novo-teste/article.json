@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2610.40758v1",
+  "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+  "url": "https://arxiv.org/abs/2610.40758",
+  "summary": "arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum of Latent Rules benchmark. Each chain adds one hidden rule per level on top of the earlier ones. A rule acts on an opaque label that stands for a named grouping published on the Web, such as the founding members of an airline alliance. The task gives one example value, practice feedback reveals one more member and one non-member, and the test checks unseen members and similar non-members. Probes certify that the base model knows the members of each grouping and does not guess it without feedback, and that the evidence identifies the grouping once labels are read as named groupings. An automated pipeline builds chains from a new data domain, and w",
+  "published_at": "Mon, 02 Nov 2026 00:00:00 -0500",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "Agentes de IA aprendem regras ocultas em novo teste",
+  "subtitle": "Pesquisa em IA explora a capacidade de sistemas autônomos descobrirem e aplicarem normas não explicitadas.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo benchmark, o CLR-Bench, foi introduzido para avaliar a habilidade de agentes de IA em aprender regras não declaradas. A pesquisa investiga se esses agentes, capazes de auto-modificação, conseguem inferir e aplicar lógicas complexas sem instrução direta.",
+  "body_markdown": "## O que aconteceu\n\nPesquisadores apresentaram o CLR-Bench, um conjunto de testes projetado para medir a capacidade de agentes de IA em aprender e aplicar regras que não são explicitamente codificadas em seu treinamento. A maioria dos agentes autônomos pode reescrever seu estado persistente com base em feedback, mas a compreensão de que isso permite aprender regras ocultas permanece em grande parte inexplorada. Uma abordagem simplista seria o agente registrar cada correção como uma exceção, resultando em uma lista de regras cada vez maior. O CLR-Bench opera com cadeias de regras onde cada nível adiciona uma nova regra oculta sobre as anteriores. Cada regra atua sobre um rótulo opaco que representa uma categoria nomeada, como membros fundadores de alianças de companhias aéreas. A tarefa fornece um exemplo inicial, feedback que revela um membro e um não membro, e testes com membros não vistos e não membros semelhantes. O objetivo é verificar se o modelo base é capaz de reconhecer os membros de cada categoria, conforme detalhado no artigo [CLR-Bench: A Curriculum of Latent Rules Benchmark](https://arxiv.org/abs/2610.40758).\n\n## Por que importa\n\nA capacidade de sistemas de IA descobrirem e aplicarem regras não explicitadas é fundamental para avanços em diversas áreas. No Brasil, isso pode significar um salto na automação de processos complexos que dependem de normas implícitas, como regulamentações setoriais ou padrões de comportamento social. A compreensão de regras ocultas por agentes de IA poderia otimizar a tomada de decisão em setores como finanças, direito e até mesmo na adaptação de interfaces para usuários brasileiros com expectativas culturais específicas. Se os agentes puderem aprender essas nuances sem programação explícita, a implementação e o uso de IA em contextos reais no país se tornariam mais fluidos e eficientes, reduzindo a necessidade de intervenção humana constante para ajuste fino de parâmetros.\n\n## O que esperar\n\nO CLR-Bench abre caminho para o desenvolvimento de agentes de IA mais adaptáveis e inteligentes. A expectativa é que esta pesquisa leve à criação de sistemas capazes de inferir e aplicar regras de forma mais autônoma, o que pode acelerar a adoção de IA em setores que exigem sensibilidade a contextos e normas não escritas. Futuras iterações deste benchmark podem incluir regras mais complexas e cenários de aplicação mais amplos, testando os limites da capacidade de aprendizado inferencial dos agentes. A pesquisa sobre a auto-evolução de agentes, como apresentado no [artigo original](https://arxiv.org/abs/2610.40758), sugere um futuro onde sistemas de IA não apenas executam tarefas, mas também aprendem os princípios subjacentes que regem essas tarefas, tornando-os mais robustos e versáteis.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Pesquisadores apresentaram o CLR-Bench, um conjunto de testes projetado para medir a capacidade de agentes de IA em aprender e aplicar regras que não são explicitamente codificadas em seu treinamento. A maioria dos agentes autônomos pode reescrever seu estado persistente com base em feedback, mas a compreensão de que isso permite aprender regras ocultas permanece em grande parte inexplorada. Uma abordagem simplista seria o agente registrar cada correção como uma exceção, resultando em uma lista de regras cada vez maior. O CLR-Bench opera com cadeias de regras onde cada nível adiciona uma nova regra oculta sobre as anteriores. Cada regra atua sobre um rótulo opaco que representa uma categoria nomeada, como membros fundadores de alianças de companhias aéreas. A tarefa fornece um exemplo inicial, feedback que revela um membro e um não membro, e testes com membros não vistos e não membros semelhantes. O objetivo é verificar se o modelo base é capaz de reconhecer os membros de cada categoria, conforme detalhado no artigo <a href=\"https://arxiv.org/abs/2610.40758\" target=\"_blank\" rel=\"external noopener\">CLR-Bench: A Curriculum of Latent Rules Benchmark</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de sistemas de IA descobrirem e aplicarem regras não explicitadas é fundamental para avanços em diversas áreas. No Brasil, isso pode significar um salto na automação de processos complexos que dependem de normas implícitas, como regulamentações setoriais ou padrões de comportamento social. A compreensão de regras ocultas por agentes de IA poderia otimizar a tomada de decisão em setores como finanças, direito e até mesmo na adaptação de interfaces para usuários brasileiros com expectativas culturais específicas. Se os agentes puderem aprender essas nuances sem programação explícita, a implementação e o uso de IA em contextos reais no país se tornariam mais fluidos e eficientes, reduzindo a necessidade de intervenção humana constante para ajuste fino de parâmetros.</p>\n\n<h2>O que esperar</h2>\n\n<p>O CLR-Bench abre caminho para o desenvolvimento de agentes de IA mais adaptáveis e inteligentes. A expectativa é que esta pesquisa leve à criação de sistemas capazes de inferir e aplicar regras de forma mais autônoma, o que pode acelerar a adoção de IA em setores que exigem sensibilidade a contextos e normas não escritas. Futuras iterações deste benchmark podem incluir regras mais complexas e cenários de aplicação mais amplos, testando os limites da capacidade de aprendizado inferencial dos agentes. A pesquisa sobre a auto-evolução de agentes, como apresentado no <a href=\"https://arxiv.org/abs/2610.40758\" target=\"_blank\" rel=\"external noopener\">artigo original</a>, sugere um futuro onde sistemas de IA não apenas executam tarefas, mas também aprendem os princípios subjacentes que regem essas tarefas, tornando-os mais robustos e versáteis.</p>",
+  "tags": [
+    "ia",
+    "aprendizado",
+    "pesquisa"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "agentes de IA",
+    "regras ocultas",
+    "benchmark",
+    "aprendizado autônomo",
+    "CLR-Bench"
+  ],
+  "meta_description_seo": "Pesquisa em IA introduz CLR-Bench para testar agentes em aprendizado de regras não declaradas. Avalia capacidade de inferência e aplicação de normas ocultas.",
+  "faq": [
+    {
+      "q": "O que é o CLR-Bench?",
+      "a": "O CLR-Bench é um novo conjunto de testes (benchmark) criado para avaliar a capacidade de agentes de inteligência artificial em aprender e aplicar regras que não foram explicitamente ensinadas a eles."
+    },
+    {
+      "q": "Como os agentes de IA aprendem regras ocultas neste teste?",
+      "a": "Os agentes aprendem através de um currículo onde cada etapa adiciona uma nova regra oculta. Eles recebem exemplos e feedback para deduzir essas regras, que atuam sobre rótulos opacos representando categorias."
+    },
+    {
+      "q": "Qual a importância de agentes de IA aprenderem regras ocultas?",
+      "a": "Essa capacidade permite que sistemas de IA se tornem mais adaptáveis e capazes de operar em cenários complexos do mundo real, onde muitas normas e comportamentos não são explicitamente definidos, mas sim implícitos."
+    }
+  ],
+  "written_at": "2026-11-02T09:12:12.926Z",
+  "slug": "agentes-de-ia-aprendem-regras-ocultas-em-novo-teste",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
