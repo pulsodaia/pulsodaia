@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 01 Nov 2026 22:00:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 01:30:07 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI repagina centros de dados como "AI Compute Campuses"</title>
+      <link>https://pulsodaia.com.br/feed/openai-repagina-centros-de-dados-como-ai-compute-campuses/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-repagina-centros-de-dados-como-ai-compute-campuses/</guid>
+      <pubDate>Mon, 02 Nov 2026 01:24:57 GMT</pubDate>
+      <description>Mudança de nome busca suavizar percepção negativa de infraestrutura de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/">TechCrunch AI</source>
+    </item>
     <item>
       <title>IA: Benefícios Concentrados no Topo, Desafios na Base</title>
       <link>https://pulsodaia.com.br/feed/ia-beneficios-concentrados-no-topo-desafios-na-base/</link>
@@ -448,15 +457,6 @@
       <description>Pesquisadores propõem um framework para gerenciar tensões na edição científica impulsionada por IA.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.33001">ArXiv cs.CL</source>
-    </item>
-    <item>
-      <title>IA para Fala: Otimização de Treinamento Reduz Custos de Adaptação de Modelos</title>
-      <link>https://pulsodaia.com.br/feed/ia-para-fala-otimizacao-de-treinamento-reduz-custos-de-adaptacao-de-modelos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-para-fala-otimizacao-de-treinamento-reduz-custos-de-adaptacao-de-modelos/</guid>
-      <pubDate>Tue, 27 Oct 2026 04:36:10 GMT</pubDate>
-      <description>Pesquisadores propõem método para tornar o ajuste fino de sistemas de reconhecimento de voz mais acessível a desenvolvedores no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2610.32997">ArXiv cs.CL</source>
     </item>
   </channel>
 </rss>
