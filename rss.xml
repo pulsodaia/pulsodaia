@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 02 Nov 2026 09:17:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 03:32:00 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Reforça Segurança e Transparência em Novas Atualizações</title>
+      <link>https://pulsodaia.com.br/feed/claude-reforca-seguranca-e-transparencia-em-novas-atualizacoes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-reforca-seguranca-e-transparencia-em-novas-atualizacoes/</guid>
+      <pubDate>Tue, 03 Nov 2026 03:24:43 GMT</pubDate>
+      <description>Novas funcionalidades buscam proteger dados do usuário e clareza em interações com ferramentas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.317">Claude Code</source>
+    </item>
+    <item>
+      <title>IA do Google DeepMind Acelera Decisões de Planejamento no Reino Unido</title>
+      <link>https://pulsodaia.com.br/feed/ia-do-google-deepmind-acelera-decisoes-de-planejamento-no-reino-unido/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-do-google-deepmind-acelera-decisoes-de-planejamento-no-reino-unido/</guid>
+      <pubDate>Tue, 03 Nov 2026 03:24:32 GMT</pubDate>
+      <description>A inteligência artificial demonstra potencial para otimizar processos governamentais complexos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/">Google DeepMind</source>
+    </item>
+    <item>
+      <title>Google Divulga Avanços de IA em Outubro de 2026</title>
+      <link>https://pulsodaia.com.br/feed/google-divulga-avancos-de-ia-em-outubro-de-2026/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-divulga-avancos-de-ia-em-outubro-de-2026/</guid>
+      <pubDate>Tue, 03 Nov 2026 03:24:22 GMT</pubDate>
+      <description>A gigante de tecnologia detalha suas mais recentes inovações em inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/">Google AI</source>
+    </item>
     <item>
       <title>Arbitragem Computacional em IA: Nova Fronteira de Lucro em Marketplaces de Modelos</title>
       <link>https://pulsodaia.com.br/feed/arbitragem-computacional-em-ia-nova-fronteira-de-lucro-em-marketplaces-de-modelo/</link>
@@ -430,33 +457,6 @@
       <description>A Hugging Face apresenta LFM3, permitindo o desenvolvimento de IAs capazes de processar e gerar múltiplos tipos de dados.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/LiquidAI/lfm3">Hugging Face</source>
-    </item>
-    <item>
-      <title>Genie 4: Google DeepMind Apresenta Modelo de Simulação de Mundo com Realismo Aprimorado</title>
-      <link>https://pulsodaia.com.br/feed/genie-4-google-deepmind-apresenta-modelo-de-simulacao-de-mundo-com-realismo-apri/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/genie-4-google-deepmind-apresenta-modelo-de-simulacao-de-mundo-com-realismo-apri/</guid>
-      <pubDate>Tue, 27 Oct 2026 17:51:16 GMT</pubDate>
-      <description>Novos avanços em modelos de mundo prometem simulações mais fiéis e interativas para o desenvolvimento de IA no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>Anthropic reafirma promessa: Claude jamais exibirá anúncios</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-reafirma-promessa-claude-jamais-exibira-anuncios/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-reafirma-promessa-claude-jamais-exibira-anuncios/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:56:21 GMT</pubDate>
-      <description>Companhia detalha estratégia de monetização em carta de abertura de capital, mirando em modelos de negócio focados na utilidade.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/">The Decoder</source>
-    </item>
-    <item>
-      <title>OpenAI Prioriza Conteúdo de Parceiros no ChatGPT, Ignorando o Resto da Web</title>
-      <link>https://pulsodaia.com.br/feed/openai-prioriza-conteudo-de-parceiros-no-chatgpt-ignorando-o-resto-da-web/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-prioriza-conteudo-de-parceiros-no-chatgpt-ignorando-o-resto-da-web/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:56:09 GMT</pubDate>
-      <description>Acesso diferenciado a informações no chatbot levanta questões sobre equidade e a qualidade dos dados.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/">The Decoder</source>
     </item>
   </channel>
 </rss>

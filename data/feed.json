@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-02T09:12:35.440Z",
+  "generated_at": "2026-11-03T03:24:43.910Z",
   "articles": [
+    {
+      "slug": "claude-reforca-seguranca-e-transparencia-em-novas-atualizacoes",
+      "headline": "Claude Reforça Segurança e Transparência em Novas Atualizações",
+      "subtitle": "Novas funcionalidades buscam proteger dados do usuário e clareza em interações com ferramentas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "ia",
+        "segurança"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-03T01:25:46Z",
+      "written_at": "2026-11-03T03:24:43.242Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-do-google-deepmind-acelera-decisoes-de-planejamento-no-reino-unido",
+      "headline": "IA do Google DeepMind Acelera Decisões de Planejamento no Reino Unido",
+      "subtitle": "A inteligência artificial demonstra potencial para otimizar processos governamentais complexos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "planejamento urbano",
+        "governo",
+        "google deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 30 Oct 2026 14:18:30 +0000",
+      "written_at": "2026-11-03T03:24:32.058Z",
+      "quality_score": 0.85,
+      "hero_image": null
+    },
+    {
+      "slug": "google-divulga-avancos-de-ia-em-outubro-de-2026",
+      "headline": "Google Divulga Avanços de IA em Outubro de 2026",
+      "subtitle": "A gigante de tecnologia detalha suas mais recentes inovações em inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "category": "google",
+      "tags": [
+        "google ai",
+        "inteligência artificial",
+        "atualizações 2026"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 02 Nov 2026 17:45:00 +0000",
+      "written_at": "2026-11-03T03:24:22.386Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "arbitragem-computacional-em-ia-nova-fronteira-de-lucro-em-marketplaces-de-modelo",
       "headline": "Arbitragem Computacional em IA: Nova Fronteira de Lucro em Marketplaces de Modelos",
