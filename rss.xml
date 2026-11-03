@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 03 Nov 2026 03:32:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 11:54:14 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Otimiza Leilões e Bundles para Varejistas Online de Produtos Perecíveis</title>
+      <link>https://pulsodaia.com.br/feed/ia-otimiza-leiloes-e-bundles-para-varejistas-online-de-produtos-pereciveis/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-otimiza-leiloes-e-bundles-para-varejistas-online-de-produtos-pereciveis/</guid>
+      <pubDate>Tue, 03 Nov 2026 11:46:57 GMT</pubDate>
+      <description>Um novo agente de IA aprende a precificar e agrupar produtos em um cenário de incerteza.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2611.00165">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Nova Abordagem em Clusterização Borrada Aumenta Precisão e Autonomia em Dados</title>
+      <link>https://pulsodaia.com.br/feed/nova-abordagem-em-clusterizacao-borrada-aumenta-precisao-e-autonomia-em-dados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-abordagem-em-clusterizacao-borrada-aumenta-precisao-e-autonomia-em-dados/</guid>
+      <pubDate>Tue, 03 Nov 2026 11:46:46 GMT</pubDate>
+      <description>Pesquisadores propõem framework que estima automaticamente o número de grupos em dados complexos.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2611.00159">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Hugging Face Facilita Integração de Modelos Transformer com Contratos</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-facilita-integracao-de-modelos-transformer-com-contratos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-facilita-integracao-de-modelos-transformer-com-contratos/</guid>
+      <pubDate>Tue, 03 Nov 2026 11:46:35 GMT</pubDate>
+      <description>A plataforma de IA anuncia novas ferramentas para agilizar a implementação de modelos avançados em aplicações empresariais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/transformers-mic">Hugging Face</source>
+    </item>
     <item>
       <title>Claude Reforça Segurança e Transparência em Novas Atualizações</title>
       <link>https://pulsodaia.com.br/feed/claude-reforca-seguranca-e-transparencia-em-novas-atualizacoes/</link>
@@ -430,33 +457,6 @@
       <description>Instituição financeira reforça responsabilidade do usuário sobre transações via inteligência artificial.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Atualiza Gateway de Apps e Refina Interação com Código</title>
-      <link>https://pulsodaia.com.br/feed/claude-atualiza-gateway-de-apps-e-refina-interacao-com-codigo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-atualiza-gateway-de-apps-e-refina-interacao-com-codigo/</guid>
-      <pubDate>Tue, 27 Oct 2026 22:01:39 GMT</pubDate>
-      <description>A Anthropic aprimora a gestão de identidades e a experiência de edição de arquivos no seu ambiente de desenvolvimento.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.312">Claude Code</source>
-    </item>
-    <item>
-      <title>Modelos de Linguagem Gigantes (LLMs) Podem Avaliar a Novidade de Pesquisas? Um Teste.</title>
-      <link>https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-llms-podem-avaliar-a-novidade-de-pesquisas-um-test/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelos-de-linguagem-gigantes-llms-podem-avaliar-a-novidade-de-pesquisas-um-test/</guid>
-      <pubDate>Tue, 27 Oct 2026 17:51:37 GMT</pubDate>
-      <description>Um estudo do Allen Institute for AI investiga a capacidade de LLMs em identificar ideias de pesquisa inéditas, com implicações para a ciência e inovação no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://huggingface.co/blog/allenai/novelty-bench">Hugging Face</source>
-    </item>
-    <item>
-      <title>Hugging Face Lança Ferramenta para Criação de Modelos Multimodais Especializados</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-lanca-ferramenta-para-criacao-de-modelos-multimodais-especializados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-lanca-ferramenta-para-criacao-de-modelos-multimodais-especializados/</guid>
-      <pubDate>Tue, 27 Oct 2026 17:51:26 GMT</pubDate>
-      <description>A Hugging Face apresenta LFM3, permitindo o desenvolvimento de IAs capazes de processar e gerar múltiplos tipos de dados.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/LiquidAI/lfm3">Hugging Face</source>
     </item>
   </channel>
 </rss>

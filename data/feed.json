@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-03T03:24:43.910Z",
+  "generated_at": "2026-11-03T11:46:57.744Z",
   "articles": [
+    {
+      "slug": "ia-otimiza-leiloes-e-bundles-para-varejistas-online-de-produtos-pereciveis",
+      "headline": "IA Otimiza Leilões e Bundles para Varejistas Online de Produtos Perecíveis",
+      "subtitle": "Um novo agente de IA aprende a precificar e agrupar produtos em um cenário de incerteza.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.00165",
+      "category": "research",
+      "tags": [
+        "ia",
+        "varejo online",
+        "machine learning",
+        "produtos perecíveis"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 03 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-03T11:46:57.665Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nova-abordagem-em-clusterizacao-borrada-aumenta-precisao-e-autonomia-em-dados",
+      "headline": "Nova Abordagem em Clusterização Borrada Aumenta Precisão e Autonomia em Dados",
+      "subtitle": "Pesquisadores propõem framework que estima automaticamente o número de grupos em dados complexos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.00159",
+      "category": "research",
+      "tags": [
+        "clusterizacao",
+        "inteligencia artificial",
+        "aprendizado de maquina"
+      ],
+      "read_time_min": 4,
+      "published_at": "Tue, 03 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-03T11:46:46.566Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "hugging-face-facilita-integracao-de-modelos-transformer-com-contratos",
+      "headline": "Hugging Face Facilita Integração de Modelos Transformer com Contratos",
+      "subtitle": "A plataforma de IA anuncia novas ferramentas para agilizar a implementação de modelos avançados em aplicações empresariais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/transformers-mic",
+      "category": "opensource",
+      "tags": [
+        "hugging face",
+        "transformers",
+        "contratos de integração"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 03 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-03T11:46:35.862Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "claude-reforca-seguranca-e-transparencia-em-novas-atualizacoes",
       "headline": "Claude Reforça Segurança e Transparência em Novas Atualizações",

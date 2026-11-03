@@ -1,0 +1,54 @@
+{
+  "id": "oai:arXiv.org:2611.00165v1",
+  "title": "Learning to bid and bundle: a posterior-sampling agent for online retail",
+  "url": "https://arxiv.org/abs/2611.00165",
+  "summary": "arXiv:2611.00165v1 Announce Type: new Abstract: An online retailer launching a perishable product bids for sponsored-search clicks, discounts a bundle with an always-stocked staple and displays its remaining stock, which raises willingness to pay. It knows neither how clicks respond to its bid nor how strong and dispersed its market is, and learns both over repeated seasons from data its own decisions censor: a zero bid reveals nothing about paid clicks, and choices follow only clicks. We design a posterior-sampling agent for it. Each period it draws a market from an exact posterior and posts the bid and discount of that market's exactly solved season plan, so every action is one a fully informed seller could take. In a simulated online florist it has the lowest regret averaged over markets. In weak markets it gives up 12% to 23% of one season's revenue over 500 seasons, four to seven times less than drawing once per season. A planner acting on point estimates can stop bidding and neve",
+  "published_at": "Tue, 03 Nov 2026 00:00:00 -0500",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Otimiza Leilões e Bundles para Varejistas Online de Produtos Perecíveis",
+  "subtitle": "Um novo agente de IA aprende a precificar e agrupar produtos em um cenário de incerteza.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores propõem um agente de IA baseado em amostragem posterior para varejistas online lidarem com produtos perecíveis. O sistema aprende a otimizar lances em anúncios e a criar pacotes de produtos, mesmo com informações limitadas sobre o mercado.",
+  "body_markdown": "## O que aconteceu\n\nUm novo estudo publicado no arXiv, intitulado \"Learning to bid and bundle: a posterior-sampling agent for online retail\" (https://arxiv.org/abs/2611.00165), apresenta uma solução de inteligência artificial para varejistas online que vendem produtos com prazo de validade. O cenário envolve um varejista que precisa decidir lances para cliques em anúncios patrocinados, descontos em pacotes de produtos (bundling) que combinam um item perecível com um item de estoque constante, e a exibição do estoque restante, o que pode influenciar a disposição do cliente a pagar.\n\nO principal desafio enfrentado por esses varejistas é a falta de conhecimento sobre a resposta dos cliques aos seus lances e a dimensão e dispersão do mercado. Essas informações são cruciais, mas difíceis de obter, especialmente porque as próprias decisões do varejista podem censurar os dados. Por exemplo, um lance zero não fornece informações sobre cliques pagos, e as escolhas de compra só ocorrem se houver cliques. Para superar essa limitação, os pesquisadores desenvolveram um agente de IA que utiliza amostragem posterior. A cada período, o agente seleciona uma possível configuração de mercado a partir de uma distribuição posterior exata. Com base nessa amostra, ele determina o lance e o desconto ideais para o plano da estação, garantindo que cada ação tomada seja aquela que um vendedor totalmente informado consideraria.\n\n## Por que importa\n\nA aplicação prática dessa tecnologia pode ter um impacto significativo no varejo online brasileiro, especialmente em setores como o de alimentos frescos, flores e outros produtos com curta vida útil. Varejistas que operam nesses segmentos frequentemente lutam com a gestão de estoque e precificação dinâmica. A capacidade de um agente de IA aprender e se adaptar a condições de mercado incertas, otimizando simultaneamente a publicidade paga e as estratégias de vendas em pacotes, pode levar a uma redução substancial de perdas por produtos encalhados e a um aumento na receita.\n\nA abordagem de amostragem posterior permite que o agente explore o espaço de incerteza de forma eficiente, tomando decisões que são robustas mesmo com dados limitados e ruidosos. Isso é particularmente relevante para o mercado brasileiro, onde a volatilidade econômica e as mudanças nos hábitos de consumo podem criar desafios adicionais para os varejistas. Ao simular cenários e aprender com suas próprias ações, o agente de IA pode fornecer recomendações de precificação e promoção que maximizam o valor em um ambiente competitivo e dinâmico.\n\n## O que esperar\n\nO estudo demonstra a eficácia do agente em simulações, utilizando o exemplo de uma floricultura online. Os resultados indicam que o agente alcançou o menor arrependimento médio em comparação com outras abordagens, o que sugere uma alta eficiência na tomada de decisões sob incerteza. A expectativa é que essa tecnologia possa ser adaptada e implementada em plataformas de e-commerce reais.\n\nO próximo passo natural seria a validação em ambientes de produção, onde o agente de IA poderia interagir com dados de mercado reais e refinar seus modelos continuamente. A capacidade de generalização para diferentes tipos de produtos perecíveis e mercados diversos será um fator chave para sua adoção generalizada. Pesquisas futuras podem explorar a integração deste agente com outras ferramentas de análise de dados e sistemas de gestão de estoque para criar soluções de varejo online ainda mais sofisticadas e autônomas. Para mais detalhes técnicos sobre a metodologia, confira o artigo original em (https://arxiv.org/abs/2611.00165).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo estudo publicado no arXiv, intitulado \"Learning to bid and bundle: a posterior-sampling agent for online retail\" (https://arxiv.org/abs/2611.00165), apresenta uma solução de inteligência artificial para varejistas online que vendem produtos com prazo de validade. O cenário envolve um varejista que precisa decidir lances para cliques em anúncios patrocinados, descontos em pacotes de produtos (bundling) que combinam um item perecível com um item de estoque constante, e a exibição do estoque restante, o que pode influenciar a disposição do cliente a pagar.</p>\n\n<p>O principal desafio enfrentado por esses varejistas é a falta de conhecimento sobre a resposta dos cliques aos seus lances e a dimensão e dispersão do mercado. Essas informações são cruciais, mas difíceis de obter, especialmente porque as próprias decisões do varejista podem censurar os dados. Por exemplo, um lance zero não fornece informações sobre cliques pagos, e as escolhas de compra só ocorrem se houver cliques. Para superar essa limitação, os pesquisadores desenvolveram um agente de IA que utiliza amostragem posterior. A cada período, o agente seleciona uma possível configuração de mercado a partir de uma distribuição posterior exata. Com base nessa amostra, ele determina o lance e o desconto ideais para o plano da estação, garantindo que cada ação tomada seja aquela que um vendedor totalmente informado consideraria.</p>\n\n<h2>Por que importa</h2>\n\n<p>A aplicação prática dessa tecnologia pode ter um impacto significativo no varejo online brasileiro, especialmente em setores como o de alimentos frescos, flores e outros produtos com curta vida útil. Varejistas que operam nesses segmentos frequentemente lutam com a gestão de estoque e precificação dinâmica. A capacidade de um agente de IA aprender e se adaptar a condições de mercado incertas, otimizando simultaneamente a publicidade paga e as estratégias de vendas em pacotes, pode levar a uma redução substancial de perdas por produtos encalhados e a um aumento na receita.</p>\n\n<p>A abordagem de amostragem posterior permite que o agente explore o espaço de incerteza de forma eficiente, tomando decisões que são robustas mesmo com dados limitados e ruidosos. Isso é particularmente relevante para o mercado brasileiro, onde a volatilidade econômica e as mudanças nos hábitos de consumo podem criar desafios adicionais para os varejistas. Ao simular cenários e aprender com suas próprias ações, o agente de IA pode fornecer recomendações de precificação e promoção que maximizam o valor em um ambiente competitivo e dinâmico.</p>\n\n<h2>O que esperar</h2>\n\n<p>O estudo demonstra a eficácia do agente em simulações, utilizando o exemplo de uma floricultura online. Os resultados indicam que o agente alcançou o menor arrependimento médio em comparação com outras abordagens, o que sugere uma alta eficiência na tomada de decisões sob incerteza. A expectativa é que essa tecnologia possa ser adaptada e implementada em plataformas de e-commerce reais.</p>\n\n<p>O próximo passo natural seria a validação em ambientes de produção, onde o agente de IA poderia interagir com dados de mercado reais e refinar seus modelos continuamente. A capacidade de generalização para diferentes tipos de produtos perecíveis e mercados diversos será um fator chave para sua adoção generalizada. Pesquisas futuras podem explorar a integração deste agente com outras ferramentas de análise de dados e sistemas de gestão de estoque para criar soluções de varejo online ainda mais sofisticadas e autônomas. Para mais detalhes técnicos sobre a metodologia, confira o artigo original em (https://arxiv.org/abs/2611.00165).</p>",
+  "tags": [
+    "ia",
+    "varejo online",
+    "machine learning",
+    "produtos perecíveis"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "inteligência artificial",
+    "varejo",
+    "e-commerce",
+    "aprendizado de máquina",
+    "precificação",
+    "bundling",
+    "produtos perecíveis",
+    "amostragem posterior"
+  ],
+  "meta_description_seo": "IA otimiza lances e bundles para varejo online de perecíveis. Agente de IA aprende a precificar e agrupar produtos com dados limitados.",
+  "faq": [
+    {
+      "q": "Como a IA aprende a otimizar lances e bundles?",
+      "a": "O agente de IA utiliza amostragem posterior para estimar as condições de mercado e, a partir disso, determina o lance e o desconto ideais para cada período, aprendendo com os dados gerados por suas próprias decisões."
+    },
+    {
+      "q": "Quais são os benefícios para varejistas online de produtos perecíveis?",
+      "a": "A IA pode ajudar a reduzir perdas por produtos encalhados e aumentar a receita, otimizando a precificação e a estratégia de vendas em pacotes em um ambiente de mercado incerto."
+    },
+    {
+      "q": "Onde essa tecnologia pode ser aplicada no Brasil?",
+      "a": "Pode ser aplicada em diversos setores do e-commerce brasileiro que lidam com produtos de curta vida útil, como alimentos frescos, flores e outros itens perecíveis."
+    }
+  ],
+  "written_at": "2026-11-03T11:46:57.665Z",
+  "slug": "ia-otimiza-leiloes-e-bundles-para-varejistas-online-de-produtos-pereciveis",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
