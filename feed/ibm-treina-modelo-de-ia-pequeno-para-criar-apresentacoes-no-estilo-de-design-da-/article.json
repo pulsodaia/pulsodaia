@@ -1,0 +1,52 @@
+{
+  "id": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+  "title": "Palette: teaching a small model to build decks in your design language",
+  "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+  "summary": "",
+  "published_at": "Tue, 03 Nov 2026 16:35:36 GMT",
+  "source_id": "huggingface-blog",
+  "source_name": "Hugging Face",
+  "category": "opensource",
+  "source_type": "blog-oficial",
+  "headline": "IBM Treina Modelo de IA Pequeno para Criar Apresentações no Estilo de Design da Empresa",
+  "subtitle": "Uma nova abordagem permite que modelos menores aprendam a replicar linguagens visuais complexas, com potencial impacto na padronização de materiais corporativos.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores da IBM apresentaram o Palette, um sistema que ensina modelos de inteligência artificial de menor porte a gerar apresentações (decks) que seguem um determinado padrão de design. A técnica visa democratizar a criação de conteúdo visualmente consistente, mesmo com recursos computacionais limitados.",
+  "body_markdown": "## O que aconteceu\n\nO projeto Palette, detalhado em publicação no blog da Hugging Face, demonstra um método para treinar modelos de IA para que eles aprendam e repliquem uma linguagem de design específica. Tradicionalmente, a geração de conteúdo visual complexo exige modelos de grande escala. No entanto, o trabalho da IBM foca em capacitar modelos menores a executar essa tarefa. O sistema é capaz de analisar e absorver os elementos de um estilo visual, como cores, fontes, layouts e a organização de elementos gráficos, permitindo a criação de novas apresentações que se alinham a essas diretrizes. Isso é alcançado através de um processo de treinamento que ensina ao modelo as características distintivas do design desejado. Para mais detalhes sobre a metodologia, consulte a fonte original [aqui](https://huggingface.co/blog/ibm-research/palette-deck-building).\n\n## Por que importa\n\nA capacidade de manter uma identidade visual consistente em todos os materiais corporativos é um desafio constante para empresas. A criação manual de apresentações que sigam um manual de marca pode ser demorada e exigir esforço considerável, especialmente em organizações com equipes distribuídas ou grande volume de conteúdo. O Palette oferece uma solução potencial para automatizar parte desse processo. Para o mercado brasileiro, isso significa a possibilidade de empresas de diferentes portes padronizarem sua comunicação visual em relatórios, propostas e apresentações internas e externas, fortalecendo o reconhecimento da marca e transmitindo profissionalismo. A eficiência ganha um novo aliado ao permitir que modelos de IA mais acessíveis gerem conteúdo que antes demandava designers dedicados ou ferramentas complexas.\n\n## O que esperar\n\nA tecnologia apresentada pela IBM sugere um futuro onde a personalização e a consistência visual de materiais de marketing e comunicação corporativa podem ser geradas por IA de forma mais acessível. Espera-se que essa abordagem inspire o desenvolvimento de ferramentas que auxiliem equipes de marketing, design e vendas a criar conteúdo visualmente coeso rapidamente. A democratização de modelos de IA capazes de aprender e aplicar estilos de design específicos pode reduzir barreiras para empresas que buscam aprimorar sua identidade visual sem investimentos massivos em infraestrutura de IA. O avanço pode levar a novas aplicações em plataformas de apresentação e ferramentas de criação de conteúdo. Um olhar mais aprofundado sobre as possibilidades pode ser encontrado [neste artigo](https://huggingface.co/blog/ibm-research/palette-deck-building).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>O projeto Palette, detalhado em publicação no blog da Hugging Face, demonstra um método para treinar modelos de IA para que eles aprendam e repliquem uma linguagem de design específica. Tradicionalmente, a geração de conteúdo visual complexo exige modelos de grande escala. No entanto, o trabalho da IBM foca em capacitar modelos menores a executar essa tarefa. O sistema é capaz de analisar e absorver os elementos de um estilo visual, como cores, fontes, layouts e a organização de elementos gráficos, permitindo a criação de novas apresentações que se alinham a essas diretrizes. Isso é alcançado através de um processo de treinamento que ensina ao modelo as características distintivas do design desejado. Para mais detalhes sobre a metodologia, consulte a fonte original <a href=\"https://huggingface.co/blog/ibm-research/palette-deck-building\" target=\"_blank\" rel=\"external noopener\">aqui</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de manter uma identidade visual consistente em todos os materiais corporativos é um desafio constante para empresas. A criação manual de apresentações que sigam um manual de marca pode ser demorada e exigir esforço considerável, especialmente em organizações com equipes distribuídas ou grande volume de conteúdo. O Palette oferece uma solução potencial para automatizar parte desse processo. Para o mercado brasileiro, isso significa a possibilidade de empresas de diferentes portes padronizarem sua comunicação visual em relatórios, propostas e apresentações internas e externas, fortalecendo o reconhecimento da marca e transmitindo profissionalismo. A eficiência ganha um novo aliado ao permitir que modelos de IA mais acessíveis gerem conteúdo que antes demandava designers dedicados ou ferramentas complexas.</p>\n\n<h2>O que esperar</h2>\n\n<p>A tecnologia apresentada pela IBM sugere um futuro onde a personalização e a consistência visual de materiais de marketing e comunicação corporativa podem ser geradas por IA de forma mais acessível. Espera-se que essa abordagem inspire o desenvolvimento de ferramentas que auxiliem equipes de marketing, design e vendas a criar conteúdo visualmente coeso rapidamente. A democratização de modelos de IA capazes de aprender e aplicar estilos de design específicos pode reduzir barreiras para empresas que buscam aprimorar sua identidade visual sem investimentos massivos em infraestrutura de IA. O avanço pode levar a novas aplicações em plataformas de apresentação e ferramentas de criação de conteúdo. Um olhar mais aprofundado sobre as possibilidades pode ser encontrado <a href=\"https://huggingface.co/blog/ibm-research/palette-deck-building\" target=\"_blank\" rel=\"external noopener\">neste artigo</a>.</p>",
+  "tags": [
+    "ia",
+    "design",
+    "apresentacoes",
+    "treinamento de modelo"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.88,
+  "seo_keywords": [
+    "inteligencia artificial",
+    "modelo pequeno",
+    "linguagem de design",
+    "geracao de apresentacao",
+    "IBM",
+    "Hugging Face"
+  ],
+  "meta_description_seo": "IBM treina modelo de IA pequeno para criar apresentações no estilo de design corporativo, democratizando a consistência visual com recursos acessíveis.",
+  "faq": [
+    {
+      "q": "Como o Palette ensina um modelo de IA a criar apresentações?",
+      "a": "O Palette treina modelos de IA menores para aprender e replicar uma linguagem de design específica, analisando e absorvendo elementos visuais como cores, fontes e layouts."
+    },
+    {
+      "q": "Qual o principal benefício do Palette para as empresas?",
+      "a": "O principal benefício é a automatização da criação de apresentações visualmente consistentes com a identidade da marca, economizando tempo e esforço."
+    },
+    {
+      "q": "Essa tecnologia é voltada apenas para grandes empresas?",
+      "a": "Não, a abordagem visa democratizar a criação de conteúdo visualmente coeso, tornando-a acessível também para empresas de menor porte."
+    }
+  ],
+  "written_at": "2026-11-03T19:23:03.922Z",
+  "slug": "ibm-treina-modelo-de-ia-pequeno-para-criar-apresentacoes-no-estilo-de-design-da-",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png"
+}

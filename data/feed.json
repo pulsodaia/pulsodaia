@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-03T11:46:57.744Z",
+  "generated_at": "2026-11-03T19:23:04.107Z",
   "articles": [
+    {
+      "slug": "ibm-treina-modelo-de-ia-pequeno-para-criar-apresentacoes-no-estilo-de-design-da-",
+      "headline": "IBM Treina Modelo de IA Pequeno para Criar Apresentações no Estilo de Design da Empresa",
+      "subtitle": "Uma nova abordagem permite que modelos menores aprendam a replicar linguagens visuais complexas, com potencial impacto na padronização de materiais corporativos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "design",
+        "apresentacoes",
+        "treinamento de modelo"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 03 Nov 2026 16:35:36 GMT",
+      "written_at": "2026-11-03T19:23:03.922Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "statebench-novo-benchmark-avalia-modelos-de-linguagem-na-compreensao-de-mudancas",
+      "headline": "StateBench: Novo benchmark avalia modelos de linguagem na compreensão de mudanças em documentos extensos",
+      "subtitle": "A Hugging Face lança ferramenta para testar a capacidade de IAs em acompanhar informações ao longo de textos longos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/statebench",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "benchmark"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 03 Nov 2026 17:15:21 GMT",
+      "written_at": "2026-11-03T19:22:53.698Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-da-google-acelera-descoberta-de-farmacos-com-foco-em-moleculas-complexas",
+      "headline": "IA da Google Acelera Descoberta de Fármacos com Foco em Moléculas Complexas",
+      "subtitle": "Ferramenta Antigravity e \"Cheminformatics Skills\" prometem otimizar a busca por novos medicamentos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "descoberta de farmacos",
+        "quimica computacional"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 03 Nov 2026 17:01:49 +0000",
+      "written_at": "2026-11-03T19:22:41.969Z",
+      "quality_score": 0.85,
+      "hero_image": null
+    },
     {
       "slug": "ia-otimiza-leiloes-e-bundles-para-varejistas-online-de-produtos-pereciveis",
       "headline": "IA Otimiza Leilões e Bundles para Varejistas Online de Produtos Perecíveis",

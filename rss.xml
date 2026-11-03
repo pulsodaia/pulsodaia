@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 03 Nov 2026 11:54:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 19:31:08 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IBM Treina Modelo de IA Pequeno para Criar Apresentações no Estilo de Design da Empresa</title>
+      <link>https://pulsodaia.com.br/feed/ibm-treina-modelo-de-ia-pequeno-para-criar-apresentacoes-no-estilo-de-design-da-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-treina-modelo-de-ia-pequeno-para-criar-apresentacoes-no-estilo-de-design-da-/</guid>
+      <pubDate>Tue, 03 Nov 2026 19:23:03 GMT</pubDate>
+      <description>Uma nova abordagem permite que modelos menores aprendam a replicar linguagens visuais complexas, com potencial impacto na padronização de materiais corporativos.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ibm-research/palette-deck-building">Hugging Face</source>
+    </item>
+    <item>
+      <title>StateBench: Novo benchmark avalia modelos de linguagem na compreensão de mudanças em documentos extensos</title>
+      <link>https://pulsodaia.com.br/feed/statebench-novo-benchmark-avalia-modelos-de-linguagem-na-compreensao-de-mudancas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/statebench-novo-benchmark-avalia-modelos-de-linguagem-na-compreensao-de-mudancas/</guid>
+      <pubDate>Tue, 03 Nov 2026 19:22:53 GMT</pubDate>
+      <description>A Hugging Face lança ferramenta para testar a capacidade de IAs em acompanhar informações ao longo de textos longos.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/allenai/statebench">Hugging Face</source>
+    </item>
+    <item>
+      <title>IA da Google Acelera Descoberta de Fármacos com Foco em Moléculas Complexas</title>
+      <link>https://pulsodaia.com.br/feed/ia-da-google-acelera-descoberta-de-farmacos-com-foco-em-moleculas-complexas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-da-google-acelera-descoberta-de-farmacos-com-foco-em-moleculas-complexas/</guid>
+      <pubDate>Tue, 03 Nov 2026 19:22:41 GMT</pubDate>
+      <description>Ferramenta Antigravity e "Cheminformatics Skills" prometem otimizar a busca por novos medicamentos no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/">Google DeepMind</source>
+    </item>
     <item>
       <title>IA Otimiza Leilões e Bundles para Varejistas Online de Produtos Perecíveis</title>
       <link>https://pulsodaia.com.br/feed/ia-otimiza-leiloes-e-bundles-para-varejistas-online-de-produtos-pereciveis/</link>
@@ -430,33 +457,6 @@
       <description>Novas técnicas de geração de dados buscam superar limitações em modelos de aprendizado profundo para agricultura.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.35984">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Salva Tempo: A Contabilidade da Eficiência Real</title>
-      <link>https://pulsodaia.com.br/feed/ia-salva-tempo-a-contabilidade-da-eficiencia-real/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-salva-tempo-a-contabilidade-da-eficiencia-real/</guid>
-      <pubDate>Wed, 28 Oct 2026 08:09:59 GMT</pubDate>
-      <description>Medir o ganho de produtividade da inteligência artificial exige mais do que um cronômetro, focando em erros evitados.</description>
-      <category>ANALISE</category>
-      <source url="https://arxiv.org/abs/2610.35942">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Anthropic Pós-IPO: Desvendando a Estrutura de Governança Complexa</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-pos-ipo-desvendando-a-estrutura-de-governanca-complexa/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-pos-ipo-desvendando-a-estrutura-de-governanca-complexa/</guid>
-      <pubDate>Tue, 27 Oct 2026 22:01:58 GMT</pubDate>
-      <description>A estrutura societária da Anthropic ganha holofotes após a abertura de capital.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Bank of America: Senha bancária não é para assistentes de IA</title>
-      <link>https://pulsodaia.com.br/feed/bank-of-america-senha-bancaria-nao-e-para-assistentes-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/bank-of-america-senha-bancaria-nao-e-para-assistentes-de-ia/</guid>
-      <pubDate>Tue, 27 Oct 2026 22:01:49 GMT</pubDate>
-      <description>Instituição financeira reforça responsabilidade do usuário sobre transações via inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
