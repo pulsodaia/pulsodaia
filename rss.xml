@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 04 Nov 2026 18:01:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 23:34:39 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nothing Anuncia Dispositivo Focado em IA para o Próximo Mês</title>
+      <link>https://pulsodaia.com.br/feed/nothing-anuncia-dispositivo-focado-em-ia-para-o-proximo-mes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nothing-anuncia-dispositivo-focado-em-ia-para-o-proximo-mes/</guid>
+      <pubDate>Wed, 04 Nov 2026 23:29:26 GMT</pubDate>
+      <description>Startup de tecnologia promete nova abordagem em produtividade através de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>PACs de IA Investem Milhões para Influenciar o Congresso dos EUA com Resultados Mistos</title>
+      <link>https://pulsodaia.com.br/feed/pacs-de-ia-investem-milhoes-para-influenciar-o-congresso-dos-eua-com-resultados-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pacs-de-ia-investem-milhoes-para-influenciar-o-congresso-dos-eua-com-resultados-/</guid>
+      <pubDate>Wed, 04 Nov 2026 23:29:17 GMT</pubDate>
+      <description>A influência do setor de inteligência artificial na política americana busca consolidar suas posições para o futuro.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Model Context Protocol Atualiza Servidores com Novas Versões de Pacotes</title>
+      <link>https://pulsodaia.com.br/feed/model-context-protocol-atualiza-servidores-com-novas-versoes-de-pacotes/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/model-context-protocol-atualiza-servidores-com-novas-versoes-de-pacotes/</guid>
+      <pubDate>Wed, 04 Nov 2026 23:29:06 GMT</pubDate>
+      <description>A plataforma MCP avança com atualizações em componentes chave para gerenciamento de contexto em IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0">MCP Spec</source>
+    </item>
     <item>
       <title>CARD: Nova Interface Garante Confiabilidade em Ações Robóticas Baseadas em Dados</title>
       <link>https://pulsodaia.com.br/feed/card-nova-interface-garante-confiabilidade-em-acoes-roboticas-baseadas-em-dados/</link>
@@ -430,33 +457,6 @@
       <description>A crescente demanda por infraestrutura de IA coloca pressão sobre recursos escassos, um alerta para o Brasil.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc">The Verge AI</source>
-    </item>
-    <item>
-      <title>Hugging Face libera modelos abertos para fala e decisões em plataformas Apple</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-libera-modelos-abertos-para-fala-e-decisoes-em-plataformas-apple/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-libera-modelos-abertos-para-fala-e-decisoes-em-plataformas-apple/</guid>
-      <pubDate>Thu, 29 Oct 2026 12:43:28 GMT</pubDate>
-      <description>Iniciativa busca democratizar o acesso a tecnologias de IA para desenvolvedores no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/anydecisionmodel">Hugging Face</source>
-    </item>
-    <item>
-      <title>Microsoft Revela Receita Anual do Azure: US$ 33,2 Bilhões em Movimento Estratégico</title>
-      <link>https://pulsodaia.com.br/feed/microsoft-revela-receita-anual-do-azure-us-33-2-bilhoes-em-movimento-estrategico/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/microsoft-revela-receita-anual-do-azure-us-33-2-bilhoes-em-movimento-estrategico/</guid>
-      <pubDate>Wed, 28 Oct 2026 22:26:39 GMT</pubDate>
-      <description>A gigante de Redmond detalha pela primeira vez o faturamento de sua nuvem, aproximando-se da liderança de mercado.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Atualizações de Segurança no Node.js e Python Afetam Certificados de Confiança</title>
-      <link>https://pulsodaia.com.br/feed/atualizacoes-de-seguranca-no-node-js-e-python-afetam-certificados-de-confianca/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/atualizacoes-de-seguranca-no-node-js-e-python-afetam-certificados-de-confianca/</guid>
-      <pubDate>Wed, 28 Oct 2026 22:26:29 GMT</pubDate>
-      <description>Falha em chaves privadas de autoridade certificadora indiana força correções urgentes em plataformas de IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0">MCP Spec</source>
     </item>
   </channel>
 </rss>
