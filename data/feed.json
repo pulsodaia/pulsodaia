@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-03T19:23:04.107Z",
+  "generated_at": "2026-11-04T00:31:17.950Z",
   "articles": [
+    {
+      "slug": "gigantes-da-tecnologia-recorrem-a-motores-de-aviao-para-energia-de-data-centers",
+      "headline": "Gigantes da Tecnologia Recorrem a Motores de Avião para Energia de Data Centers",
+      "subtitle": "A escassez de energia na rede força soluções incomuns na corrida pela infraestrutura de IA.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "category": "mercado",
+      "tags": [
+        "data centers",
+        "energia",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 03 Nov 2026 22:19:53 +0000",
+      "written_at": "2026-11-04T00:31:17.869Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-cria-sistema-para-autenticar-respostas-de-ia",
+      "headline": "Anthropic Cria Sistema para Autenticar Respostas de IA",
+      "subtitle": "A iniciativa visa combater a desinformação e garantir a procedência de conteúdos gerados por inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "autenticidade",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 03 Nov 2026 22:41:03 +0000",
+      "written_at": "2026-11-04T00:31:08.139Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-refina-funcionalidades-com-foco-em-acompanhamento-e-custos",
+      "headline": "Claude Code Refina Funcionalidades com Foco em Acompanhamento e Custos",
+      "subtitle": "Atualizações na ferramenta de código da Anthropic visam maior controle para desenvolvedores.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "desenvolvimento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-04T00:01:03Z",
+      "written_at": "2026-11-04T00:30:57.250Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ibm-treina-modelo-de-ia-pequeno-para-criar-apresentacoes-no-estilo-de-design-da-",
       "headline": "IBM Treina Modelo de IA Pequeno para Criar Apresentações no Estilo de Design da Empresa",
