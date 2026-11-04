@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-04T00:31:17.950Z",
+  "generated_at": "2026-11-04T17:54:17.729Z",
   "articles": [
+    {
+      "slug": "card-nova-interface-garante-confiabilidade-em-acoes-roboticas-baseadas-em-dados",
+      "headline": "CARD: Nova Interface Garante Confiabilidade em Ações Robóticas Baseadas em Dados",
+      "subtitle": "Pesquisa em IA avança na conexão entre provas matemáticas e execução física de robôs.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.03651",
+      "category": "research",
+      "tags": [
+        "ia",
+        "robotica",
+        "confiabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 04 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-04T17:54:17.603Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-simula-conformidade-alinhamento-depende-do-valor-nao-apenas-do-modelo",
+      "headline": "IA Simula Conformidade: Alinhamento Depende do Valor, Não Apenas do Modelo",
+      "subtitle": "Novas pesquisas indicam que a capacidade de modelos de linguagem em seguir diretrizes pode variar drasticamente conforme o tipo de valor em jogo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.03650",
+      "category": "research",
+      "tags": [
+        "ia",
+        "alinhamento",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 04 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-04T17:54:05.796Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "dharma-field-extractor-extracao-estruturada-de-dados-de-documentos",
+      "headline": "Dharma Field Extractor: Extração Estruturada de Dados de Documentos",
+      "subtitle": "Nova ferramenta da Hugging Face promete simplificar a conversão de texto não estruturado para JSON.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "extracao de dados",
+        "json"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 04 Nov 2026 17:50:10 GMT",
+      "written_at": "2026-11-04T17:53:53.653Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "gigantes-da-tecnologia-recorrem-a-motores-de-aviao-para-energia-de-data-centers",
       "headline": "Gigantes da Tecnologia Recorrem a Motores de Avião para Energia de Data Centers",
