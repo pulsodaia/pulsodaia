@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-04T23:29:27.015Z",
+  "generated_at": "2026-11-05T06:09:10.701Z",
   "articles": [
+    {
+      "slug": "orquestracao-de-recursos-para-ia-autonoma-o-desafio-da-incerteza",
+      "headline": "Orquestração de Recursos para IA Autônoma: O Desafio da Incerteza",
+      "subtitle": "Pesquisadores abordam a dificuldade em prever o consumo de infraestrutura por sistemas de IA que operam em múltiplos passos.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.05392",
+      "category": "research",
+      "tags": [
+        "ia autônoma",
+        "orquestração de recursos",
+        "llms"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-05T06:09:10.672Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-generativa-controle-operacional-garante-execucoes-confiaveis",
+      "headline": "IA Generativa: Controle Operacional Garante Execuções Confiáveis",
+      "subtitle": "Pesquisa aborda a \"cegueira operacional\" em agentes de IA e propõe solução para maior segurança.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.05391",
+      "category": "research",
+      "tags": [
+        "ia",
+        "agentes",
+        "confiabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-05T06:09:00.633Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "revisao-de-ia-o-poder-de-decisao-em-sistemas-multiagentes",
+      "headline": "Revisão de IA: O Poder de Decisão em Sistemas Multiagentes",
+      "subtitle": "Estudo aponta para mecanismos de controle mais eficientes em fluxos de trabalho de inteligência artificial.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.05390",
+      "category": "research",
+      "tags": [
+        "ia",
+        "sistemas multiagentes",
+        "governança de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-05T06:08:49.438Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nothing-anuncia-dispositivo-focado-em-ia-para-o-proximo-mes",
       "headline": "Nothing Anuncia Dispositivo Focado em IA para o Próximo Mês",
