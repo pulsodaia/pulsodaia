@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-05T16:21:16.807Z",
+  "generated_at": "2026-11-05T23:30:21.597Z",
   "articles": [
+    {
+      "slug": "nvidia-lanca-modelos-cosmos-3-para-simulacoes-de-mundo-complexas",
+      "headline": "NVIDIA lança modelos Cosmos 3 para simulações de mundo complexas",
+      "subtitle": "A nova geração de modelos da NVIDIA promete avanços em simulações interativas, com potencial impacto em setores como entretenimento e robótica no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "category": "opensource",
+      "tags": [
+        "nvidia",
+        "cosmos 3",
+        "simulacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 19:35:16 GMT",
+      "written_at": "2026-11-05T23:30:21.262Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-deepmind-lanca-gemini-omni-1-2-flash-agilidade-e-economia-para-processame",
+      "headline": "Google DeepMind lança Gemini Omni 1.2 Flash: agilidade e economia para processamento de vídeo",
+      "subtitle": "Nova versão do modelo de IA promete eficiência em tarefas com trechos de vídeo mais longos, com impacto direto para empresas brasileiras.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google deepmind",
+        "processamento de video"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 17:05:16 +0000",
+      "written_at": "2026-11-05T23:30:11.594Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-gemini-omni-1-2-flash-video-nativo-de-15s-e-custos-30-menores-chegam-para",
+      "headline": "Google Gemini Omni 1.2 Flash: Vídeo nativo de 15s e custos 30% menores chegam para desenvolvedores",
+      "subtitle": "Nova versão do modelo de IA do Google promete agilidade e economia para criação de conteúdo em vídeo.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google ai",
+        "video ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 17:00:00 +0000",
+      "written_at": "2026-11-05T23:30:02.121Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "dropbox-compra-tigris-data-por-us-350-milhoes-para-fortalecer-infraestrutura-de-",
       "headline": "Dropbox Compra Tigris Data por US$ 350 Milhões para Fortalecer Infraestrutura de IA",
