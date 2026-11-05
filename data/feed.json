@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-05T06:09:10.701Z",
+  "generated_at": "2026-11-05T16:21:16.807Z",
   "articles": [
+    {
+      "slug": "dropbox-compra-tigris-data-por-us-350-milhoes-para-fortalecer-infraestrutura-de-",
+      "headline": "Dropbox Compra Tigris Data por US$ 350 Milhões para Fortalecer Infraestrutura de IA",
+      "subtitle": "A aquisição visa acelerar o desenvolvimento de novas plataformas de armazenamento voltadas para criadores de modelos de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "category": "mercado",
+      "tags": [
+        "dropbox",
+        "tigris data",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 15:19:05 +0000",
+      "written_at": "2026-11-05T16:21:16.708Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "axiom-math-garante-integridade-em-provas-matematicas-com-ia",
+      "headline": "Axiom Math Garante Integridade em Provas Matemáticas com IA",
+      "subtitle": "Startup aposta em verificação formal para combater imprecisões geradas por inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "category": "mercado",
+      "tags": [
+        "verificacao formal",
+        "inteligencia artificial",
+        "matematica",
+        "axiom math"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 16:16:45 +0000",
+      "written_at": "2026-11-05T16:21:06.464Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "phonon-tts-chega-para-sintetizar-voz-de-alta-qualidade-diretamente-no-dispositiv",
+      "headline": "Phonon TTS Chega para Sintetizar Voz de Alta Qualidade Diretamente no Dispositivo",
+      "subtitle": "Novidade da Hugging Face promete áudio natural sem depender de nuvem, com potencial para aplicações brasileiras.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/phonon-tts",
+      "category": "opensource",
+      "tags": [
+        "tts",
+        "sintese de voz",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 05 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-05T16:20:55.936Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "orquestracao-de-recursos-para-ia-autonoma-o-desafio-da-incerteza",
       "headline": "Orquestração de Recursos para IA Autônoma: O Desafio da Incerteza",

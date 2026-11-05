@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 05 Nov 2026 06:16:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 16:28:50 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Dropbox Compra Tigris Data por US$ 350 Milhões para Fortalecer Infraestrutura de IA</title>
+      <link>https://pulsodaia.com.br/feed/dropbox-compra-tigris-data-por-us-350-milhoes-para-fortalecer-infraestrutura-de-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/dropbox-compra-tigris-data-por-us-350-milhoes-para-fortalecer-infraestrutura-de-/</guid>
+      <pubDate>Thu, 05 Nov 2026 16:21:16 GMT</pubDate>
+      <description>A aquisição visa acelerar o desenvolvimento de novas plataformas de armazenamento voltadas para criadores de modelos de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Axiom Math Garante Integridade em Provas Matemáticas com IA</title>
+      <link>https://pulsodaia.com.br/feed/axiom-math-garante-integridade-em-provas-matematicas-com-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/axiom-math-garante-integridade-em-provas-matematicas-com-ia/</guid>
+      <pubDate>Thu, 05 Nov 2026 16:21:06 GMT</pubDate>
+      <description>Startup aposta em verificação formal para combater imprecisões geradas por inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Phonon TTS Chega para Sintetizar Voz de Alta Qualidade Diretamente no Dispositivo</title>
+      <link>https://pulsodaia.com.br/feed/phonon-tts-chega-para-sintetizar-voz-de-alta-qualidade-diretamente-no-dispositiv/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/phonon-tts-chega-para-sintetizar-voz-de-alta-qualidade-diretamente-no-dispositiv/</guid>
+      <pubDate>Thu, 05 Nov 2026 16:20:55 GMT</pubDate>
+      <description>Novidade da Hugging Face promete áudio natural sem depender de nuvem, com potencial para aplicações brasileiras.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/phonon-tts">Hugging Face</source>
+    </item>
     <item>
       <title>Orquestração de Recursos para IA Autônoma: O Desafio da Incerteza</title>
       <link>https://pulsodaia.com.br/feed/orquestracao-de-recursos-para-ia-autonoma-o-desafio-da-incerteza/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa propõe solução para gargalos de computação e comunicação em sistemas de inteligência artificial.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2610.37720">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Claude Code aprimora segurança e eficiência com atualizações</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-eficiencia-com-atualizacoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-eficiencia-com-atualizacoes/</guid>
-      <pubDate>Fri, 30 Oct 2026 05:20:34 GMT</pubDate>
-      <description>Novas funcionalidades no Claude Code visam aprimorar a experiência de desenvolvedores e a segurança de dados.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.314">Claude Code</source>
-    </item>
-    <item>
-      <title>Mistral Large 4 Chega ao Hugging Face, Ampliando Acesso a Modelos Avançados</title>
-      <link>https://pulsodaia.com.br/feed/mistral-large-4-chega-ao-hugging-face-ampliando-acesso-a-modelos-avancados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/mistral-large-4-chega-ao-hugging-face-ampliando-acesso-a-modelos-avancados/</guid>
-      <pubDate>Thu, 29 Oct 2026 19:29:38 GMT</pubDate>
-      <description>A plataforma de IA abre as portas para a nova iteração do modelo da Mistral AI, prometendo novas possibilidades para desenvolvedores no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/mistral-large4">Hugging Face</source>
-    </item>
-    <item>
-      <title>Hugging Face Lança Projeto ProtoStar para Tornar Ciência Pública Acessível à IA</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-lanca-projeto-protostar-para-tornar-ciencia-publica-acessivel-a-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-lanca-projeto-protostar-para-tornar-ciencia-publica-acessivel-a-ia/</guid>
-      <pubDate>Thu, 29 Oct 2026 19:29:28 GMT</pubDate>
-      <description>Iniciativa visa democratizar o uso de descobertas científicas financiadas com recursos públicos em modelos de inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/announcing-project-protostar">Hugging Face</source>
     </item>
   </channel>
 </rss>
