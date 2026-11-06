@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-06T14:07:52.999Z",
+  "generated_at": "2026-11-06T21:25:26.665Z",
   "articles": [
+    {
+      "slug": "meta-expande-ia-com-spaces-novo-ambiente-para-agentes-muse",
+      "headline": "Meta Expande IA com \"Spaces\", Novo Ambiente para Agentes Muse",
+      "subtitle": "A plataforma de inteligência artificial da Meta ganha uma nova interface para interação com seus assistentes.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "category": "mercado",
+      "tags": [
+        "meta",
+        "inteligencia artificial",
+        "muse",
+        "lancamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 06 Nov 2026 18:44:20 +0000",
+      "written_at": "2026-11-06T21:25:26.503Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ferramentas-de-hacking-com-ia-expostas-na-web-levantam-alerta-de-seguranca",
+      "headline": "Ferramentas de hacking com IA expostas na web levantam alerta de segurança",
+      "subtitle": "A falha na segurança de softwares de testes de penetração com IA pode ter implicações diretas para a proteção de dados corporativos no Brasil.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "category": "mercado",
+      "tags": [
+        "segurança cibernética",
+        "inteligência artificial",
+        "hacking"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 06 Nov 2026 18:44:38 +0000",
+      "written_at": "2026-11-06T21:25:15.850Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-ajusta-modo-automatico-e-expande-suporte-a-tarefas-em-terminal",
+      "headline": "Claude Code ajusta modo automático e expande suporte a tarefas em terminal",
+      "subtitle": "Atualização foca em controle de acesso e integração com ferramentas de desenvolvimento.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-06T17:04:01Z",
+      "written_at": "2026-11-06T21:25:04.318Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "modelo-de-voz-de-32mb-da-underdog-gera-fala-e-musica",
       "headline": "Modelo de voz de 32MB da Underdog Gera Fala e Música",

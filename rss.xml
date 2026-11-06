@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 06 Nov 2026 14:15:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 21:32:45 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Meta Expande IA com "Spaces", Novo Ambiente para Agentes Muse</title>
+      <link>https://pulsodaia.com.br/feed/meta-expande-ia-com-spaces-novo-ambiente-para-agentes-muse/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-expande-ia-com-spaces-novo-ambiente-para-agentes-muse/</guid>
+      <pubDate>Fri, 06 Nov 2026 21:25:26 GMT</pubDate>
+      <description>A plataforma de inteligência artificial da Meta ganha uma nova interface para interação com seus assistentes.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Ferramentas de hacking com IA expostas na web levantam alerta de segurança</title>
+      <link>https://pulsodaia.com.br/feed/ferramentas-de-hacking-com-ia-expostas-na-web-levantam-alerta-de-seguranca/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ferramentas-de-hacking-com-ia-expostas-na-web-levantam-alerta-de-seguranca/</guid>
+      <pubDate>Fri, 06 Nov 2026 21:25:15 GMT</pubDate>
+      <description>A falha na segurança de softwares de testes de penetração com IA pode ter implicações diretas para a proteção de dados corporativos no Brasil.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code ajusta modo automático e expande suporte a tarefas em terminal</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-ajusta-modo-automatico-e-expande-suporte-a-tarefas-em-terminal/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-ajusta-modo-automatico-e-expande-suporte-a-tarefas-em-terminal/</guid>
+      <pubDate>Fri, 06 Nov 2026 21:25:04 GMT</pubDate>
+      <description>Atualização foca em controle de acesso e integração com ferramentas de desenvolvimento.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.319">Claude Code</source>
+    </item>
     <item>
       <title>Modelo de voz de 32MB da Underdog Gera Fala e Música</title>
       <link>https://pulsodaia.com.br/feed/modelo-de-voz-de-32mb-da-underdog-gera-fala-e-musica/</link>
@@ -430,33 +457,6 @@
       <description>Enquanto a gigante de tecnologia aposta em wearables fofos, a comunidade DIY demonstra agilidade na criação de companheiros de IA personalizados.</description>
       <category>LANCAMENTO</category>
       <source url="https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code">The Verge AI</source>
-    </item>
-    <item>
-      <title>OpenAI Ajusta Metas de Captação em Novo Ciclo de Investimento</title>
-      <link>https://pulsodaia.com.br/feed/openai-ajusta-metas-de-captacao-em-novo-ciclo-de-investimento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-ajusta-metas-de-captacao-em-novo-ciclo-de-investimento/</guid>
-      <pubDate>Sat, 31 Oct 2026 17:10:43 GMT</pubDate>
-      <description>A gigante da IA pode ter que reavaliar expectativas em meio a um cenário de investimentos mais cauteloso.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Nvidia considera avalizar empréstimo para data center de IA da NScale</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-considera-avalizar-emprestimo-para-data-center-de-ia-da-nscale/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-considera-avalizar-emprestimo-para-data-center-de-ia-da-nscale/</guid>
-      <pubDate>Sat, 31 Oct 2026 05:03:52 GMT</pubDate>
-      <description>A gigante dos chips pode mitigar riscos para investidores em um momento de cautela com gastos em IA.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Ajusta Operações com Novas Configurações de Orçamento e Controle de Processos</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-ajusta-operacoes-com-novas-configuracoes-de-orcamento-e-controle-de-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-ajusta-operacoes-com-novas-configuracoes-de-orcamento-e-controle-de-/</guid>
-      <pubDate>Sat, 31 Oct 2026 05:03:31 GMT</pubDate>
-      <description>Atualizações no Claude Code visam maior flexibilidade e gestão de custos para desenvolvedores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.316">Claude Code</source>
     </item>
   </channel>
 </rss>
