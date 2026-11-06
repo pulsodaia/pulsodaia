@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2611.06977v1",
+  "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+  "url": "https://arxiv.org/abs/2611.06977",
+  "summary": "arXiv:2611.06977v1 Announce Type: new Abstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for this in different ways: batch-invariant kernels constrain every operator, and isolating prefill with fixed-shape decode ({our CoRun-style baseline}) gives up shared prefill compute and pads decode. We present BlockLock, which keeps shared batched prefill and pins only the numerical path of the protected request: it fixes the geometry that the request sees, with {two modes: BlockLock-Rows uses fixed-width rows and retains batched decode of all requests; BlockLock-Pack uses terminal-anchored packing with an isolated dummy segment, then extracts the protected request's KV state for target-only decode. Under a stated per-deployment contract, both modes preserve the target's output bitwise when its companions change.} Across five {dense} models (Qwen3-8B/14B, Llama-3.1-8B-Instruct, and Gemma-3-4B",
+  "published_at": "Fri, 06 Nov 2026 00:00:00 -0500",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "BlockLock: Nova Abordagem para Inferência Reproduzível de LLMs",
+  "subtitle": "Pesquisa no arXiv propõe método para garantir consistência em respostas de modelos de linguagem.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um novo artigo publicado no arXiv, intitulado \"BlockLock: Reproducible LLM Inference with Fixed Batch Geometry\", apresenta uma solução para um desafio persistente no uso de modelos de linguagem grandes (LLMs): garantir que uma requisição produza sempre o mesmo resultado, independentemente de outras requisições em processamento simultâneo. A pesquisa visa aprimorar a confiabilidade da inferência de LLMs.",
+  "body_markdown": "## O que aconteceu\n\nA necessidade de inferência reproduzível em LLMs é crucial para diversas aplicações, desde a depuração de modelos até sistemas que exigem resultados determinísticos. O artigo [BlockLock: Reproducible LLM Inference with Fixed Batch Geometry](https://arxiv.org/abs/2611.06977) introduz o BlockLock, um método que busca resolver essa questão sem os custos associados a abordagens anteriores. Soluções existentes frequentemente impõem restrições em todos os operadores do modelo ou isolam a fase de preenchimento inicial (prefill) com lotes de forma fixa, o que pode desperdiçar poder computacional. O BlockLock, por outro lado, mantém o prefill compartilhado em lotes e \"fixa\" apenas o caminho numérico da requisição protegida. Isso é alcançado ao fixar a geometria que a requisição específica \"vê\" durante o processamento. O método oferece dois modos de operação: BlockLock-Rows, que utiliza linhas de largura fixa e mantém o processamento em lote para decodificação de todas as requisições, e BlockLock-Pack, que emprega empacotamento ancorado no terminal com um segmento fictício isolado, extraindo então o estado KV da requisição protegida para decodificação exclusiva.\n\n## Por que importa\n\nA capacidade de obter resultados consistentes de LLMs é um fator determinante para sua adoção em cenários de missão crítica no Brasil e globalmente. Empresas que dependem de IA para análise de dados, geração de relatórios, ou mesmo para atendimento ao cliente, precisam de garantias de que as respostas serão previsíveis. A falta de reprodutibilidade pode levar a inconsistências em decisões de negócios, erros em sistemas automatizados e dificuldades na validação de modelos. O BlockLock, ao propor uma maneira mais eficiente de alcançar essa consistência, pode reduzir custos operacionais e aumentar a confiança na utilização de LLMs em larga escala. No contexto brasileiro, onde a adoção de IA avança rapidamente, melhorias na confiabilidade e eficiência da inferência de LLMs são essenciais para impulsionar a inovação e a competitividade.\n\n## O que esperar\n\nCom a introdução do BlockLock, espera-se um avanço na pesquisa e desenvolvimento de LLMs mais robustos e confiáveis. A abordagem promete otimizar o uso de recursos computacionais, permitindo que mais requisições sejam processadas de forma eficiente, mantendo a garantia de reprodutibilidade. A comunidade de pesquisa em IA, ao analisar os detalhes técnicos apresentados no artigo [BlockLock: Reproducible LLM Inference with Fixed Batch Geometry](https://arxiv.org/abs/2611.06977), poderá explorar a implementação e os benefícios práticos dos modos BlockLock-Rows e BlockLock-Pack. A longo prazo, essa metodologia pode pavimentar o caminho para a criação de sistemas de IA mais estáveis e previsíveis, abrindo novas possibilidades para a integração de LLMs em aplicações críticas e de alto volume. A validação empírica e a comparação com benchmarks existentes serão passos importantes para determinar o impacto real desta nova técnica.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A necessidade de inferência reproduzível em LLMs é crucial para diversas aplicações, desde a depuração de modelos até sistemas que exigem resultados determinísticos. O artigo <a href=\"https://arxiv.org/abs/2611.06977\" target=\"_blank\" rel=\"external noopener\">BlockLock: Reproducible LLM Inference with Fixed Batch Geometry</a> introduz o BlockLock, um método que busca resolver essa questão sem os custos associados a abordagens anteriores. Soluções existentes frequentemente impõem restrições em todos os operadores do modelo ou isolam a fase de preenchimento inicial (prefill) com lotes de forma fixa, o que pode desperdiçar poder computacional. O BlockLock, por outro lado, mantém o prefill compartilhado em lotes e \"fixa\" apenas o caminho numérico da requisição protegida. Isso é alcançado ao fixar a geometria que a requisição específica \"vê\" durante o processamento. O método oferece dois modos de operação: BlockLock-Rows, que utiliza linhas de largura fixa e mantém o processamento em lote para decodificação de todas as requisições, e BlockLock-Pack, que emprega empacotamento ancorado no terminal com um segmento fictício isolado, extraindo então o estado KV da requisição protegida para decodificação exclusiva.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de obter resultados consistentes de LLMs é um fator determinante para sua adoção em cenários de missão crítica no Brasil e globalmente. Empresas que dependem de IA para análise de dados, geração de relatórios, ou mesmo para atendimento ao cliente, precisam de garantias de que as respostas serão previsíveis. A falta de reprodutibilidade pode levar a inconsistências em decisões de negócios, erros em sistemas automatizados e dificuldades na validação de modelos. O BlockLock, ao propor uma maneira mais eficiente de alcançar essa consistência, pode reduzir custos operacionais e aumentar a confiança na utilização de LLMs em larga escala. No contexto brasileiro, onde a adoção de IA avança rapidamente, melhorias na confiabilidade e eficiência da inferência de LLMs são essenciais para impulsionar a inovação e a competitividade.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a introdução do BlockLock, espera-se um avanço na pesquisa e desenvolvimento de LLMs mais robustos e confiáveis. A abordagem promete otimizar o uso de recursos computacionais, permitindo que mais requisições sejam processadas de forma eficiente, mantendo a garantia de reprodutibilidade. A comunidade de pesquisa em IA, ao analisar os detalhes técnicos apresentados no artigo <a href=\"https://arxiv.org/abs/2611.06977\" target=\"_blank\" rel=\"external noopener\">BlockLock: Reproducible LLM Inference with Fixed Batch Geometry</a>, poderá explorar a implementação e os benefícios práticos dos modos BlockLock-Rows e BlockLock-Pack. A longo prazo, essa metodologia pode pavimentar o caminho para a criação de sistemas de IA mais estáveis e previsíveis, abrindo novas possibilidades para a integração de LLMs em aplicações críticas e de alto volume. A validação empírica e a comparação com benchmarks existentes serão passos importantes para determinar o impacto real desta nova técnica.</p>",
+  "tags": [
+    "llm",
+    "inferencia",
+    "reproducibilidade"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "llm",
+    "inferencia",
+    "reproducibilidade",
+    "blocklock",
+    "geometria de lote"
+  ],
+  "meta_description_seo": "Pesquisa introduz BlockLock, um método para inferência reproduzível de LLMs, garantindo consistência em respostas.",
+  "faq": [
+    {
+      "q": "O que é inferência reproduzível em LLMs?",
+      "a": "Inferência reproduzível significa que uma mesma requisição enviada a um modelo de linguagem grande (LLM) sempre produzirá o mesmo resultado, independentemente de outras tarefas que estejam sendo processadas simultaneamente."
+    },
+    {
+      "q": "Quais são os desafios da inferência reproduzível em LLMs?",
+      "a": "Abordagens anteriores para garantir a reprodutibilidade frequentemente exigiam restrições em todos os componentes do modelo ou utilizavam métodos que podiam ser computacionalmente ineficientes."
+    },
+    {
+      "q": "Como o BlockLock aborda a inferência reproduzível?",
+      "a": "O BlockLock mantém o processamento em lote compartilhado para a fase inicial (prefill) e foca em fixar a geometria numérica específica da requisição protegida, oferecendo modos para otimizar essa garantia."
+    }
+  ],
+  "written_at": "2026-11-06T06:02:51.233Z",
+  "slug": "blocklock-nova-abordagem-para-inferencia-reproduzivel-de-llms",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

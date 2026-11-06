@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-05T23:30:21.597Z",
+  "generated_at": "2026-11-06T06:02:51.425Z",
   "articles": [
+    {
+      "slug": "blocklock-nova-abordagem-para-inferencia-reproduzivel-de-llms",
+      "headline": "BlockLock: Nova Abordagem para Inferência Reproduzível de LLMs",
+      "subtitle": "Pesquisa no arXiv propõe método para garantir consistência em respostas de modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.06977",
+      "category": "research",
+      "tags": [
+        "llm",
+        "inferencia",
+        "reproducibilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-06T06:02:51.233Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-otimiza-julgamento-de-responsabilidade-legal-com-habilidades-dinamicas",
+      "headline": "IA Otimiza Julgamento de Responsabilidade Legal com Habilidades Dinâmicas",
+      "subtitle": "Nova abordagem em pesquisa acadêmica busca superar limitações de LLMs em tarefas complexas de adjudicação.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.06972",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "direito",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-06T06:02:40.148Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-formaliza-provas-matematicas-um-salto-para-a-confiabilidade-cientifica",
+      "headline": "IA formaliza provas matemáticas: um salto para a confiabilidade científica",
+      "subtitle": "Ferramentas de IA agora validam complexas teorias matemáticas, abrindo caminho para maior rigor em pesquisas no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.06962",
+      "category": "research",
+      "tags": [
+        "ia",
+        "matematicas",
+        "formalizacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 06 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-06T06:02:28.131Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nvidia-lanca-modelos-cosmos-3-para-simulacoes-de-mundo-complexas",
       "headline": "NVIDIA lança modelos Cosmos 3 para simulações de mundo complexas",
