@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 06 Nov 2026 06:10:05 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 14:15:01 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Modelo de voz de 32MB da Underdog Gera Fala e Música</title>
+      <link>https://pulsodaia.com.br/feed/modelo-de-voz-de-32mb-da-underdog-gera-fala-e-musica/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelo-de-voz-de-32mb-da-underdog-gera-fala-e-musica/</guid>
+      <pubDate>Fri, 06 Nov 2026 14:07:52 GMT</pubDate>
+      <description>Empresa demonstra capacidade de processamento de áudio em tamanho reduzido, abrindo portas para aplicações mais leves.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Reconhecimento de Voz em Árabe Egípcio e Suaíli Adiciona Novos Idiomas ao Leaderboard da Hugging Face</title>
+      <link>https://pulsodaia.com.br/feed/reconhecimento-de-voz-em-arabe-egipcio-e-suaili-adiciona-novos-idiomas-ao-leader/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/reconhecimento-de-voz-em-arabe-egipcio-e-suaili-adiciona-novos-idiomas-ao-leader/</guid>
+      <pubDate>Fri, 06 Nov 2026 14:07:36 GMT</pubDate>
+      <description>A expansão do reconhecimento automático de fala (ASR) para novas variantes linguísticas africanas abre portas para a inclusão digital e o desenvolvimento de novas aplicações.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/open-asr-leaderboard-liva">Hugging Face</source>
+    </item>
+    <item>
+      <title>ToyBlocks: Ambiente Controlado Para Treinamento e Avaliacao de Robos</title>
+      <link>https://pulsodaia.com.br/feed/toyblocks-ambiente-controlado-para-treinamento-e-avaliacao-de-robos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/toyblocks-ambiente-controlado-para-treinamento-e-avaliacao-de-robos/</guid>
+      <pubDate>Fri, 06 Nov 2026 14:07:26 GMT</pubDate>
+      <description>Nova plataforma promete acelerar a pesquisa em robótica com simulações precisas e escaláveis.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/allenai/toyblocks">Hugging Face</source>
+    </item>
     <item>
       <title>BlockLock: Nova Abordagem para Inferência Reproduzível de LLMs</title>
       <link>https://pulsodaia.com.br/feed/blocklock-nova-abordagem-para-inferencia-reproduzivel-de-llms/</link>
@@ -430,33 +457,6 @@
       <description>Atualizações no Claude Code visam maior flexibilidade e gestão de custos para desenvolvedores.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.316">Claude Code</source>
-    </item>
-    <item>
-      <title>Avaliação de Risco da Anthropic Pós-IPO: Um Desafio para o Financiamento</title>
-      <link>https://pulsodaia.com.br/feed/avaliacao-de-risco-da-anthropic-pos-ipo-um-desafio-para-o-financiamento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/avaliacao-de-risco-da-anthropic-pos-ipo-um-desafio-para-o-financiamento/</guid>
-      <pubDate>Fri, 30 Oct 2026 23:33:43 GMT</pubDate>
-      <description>Projeções indicam classificação de "junk" para a gigante de IA, impactando sua capacidade de captação.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Queda da Intel afeta participação governamental em US$ 12 bilhões</title>
-      <link>https://pulsodaia.com.br/feed/queda-da-intel-afeta-participacao-governamental-em-us-12-bilhoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/queda-da-intel-afeta-participacao-governamental-em-us-12-bilhoes/</guid>
-      <pubDate>Fri, 30 Oct 2026 23:33:33 GMT</pubDate>
-      <description>A indústria de IA demanda componentes, elevando preços e impactando fabricantes de PCs.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Ollie, Assistente de IA Focado em Privacidade, Encerra Operações</title>
-      <link>https://pulsodaia.com.br/feed/ollie-assistente-de-ia-focado-em-privacidade-encerra-operacoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ollie-assistente-de-ia-focado-em-privacidade-encerra-operacoes/</guid>
-      <pubDate>Fri, 30 Oct 2026 23:33:23 GMT</pubDate>
-      <description>O mercado brasileiro de IA assistentes presencia uma baixa significativa em um player que priorizava a proteção de dados.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>

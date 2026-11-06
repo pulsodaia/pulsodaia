@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-06T06:02:51.425Z",
+  "generated_at": "2026-11-06T14:07:52.999Z",
   "articles": [
+    {
+      "slug": "modelo-de-voz-de-32mb-da-underdog-gera-fala-e-musica",
+      "headline": "Modelo de voz de 32MB da Underdog Gera Fala e Música",
+      "subtitle": "Empresa demonstra capacidade de processamento de áudio em tamanho reduzido, abrindo portas para aplicações mais leves.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "audio",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 06 Nov 2026 13:02:16 +0000",
+      "written_at": "2026-11-06T14:07:52.928Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "reconhecimento-de-voz-em-arabe-egipcio-e-suaili-adiciona-novos-idiomas-ao-leader",
+      "headline": "Reconhecimento de Voz em Árabe Egípcio e Suaíli Adiciona Novos Idiomas ao Leaderboard da Hugging Face",
+      "subtitle": "A expansão do reconhecimento automático de fala (ASR) para novas variantes linguísticas africanas abre portas para a inclusão digital e o desenvolvimento de novas aplicações.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "category": "opensource",
+      "tags": [
+        "asr",
+        "huggin face",
+        "reconhecimento de voz"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 06 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-06T14:07:36.368Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "toyblocks-ambiente-controlado-para-treinamento-e-avaliacao-de-robos",
+      "headline": "ToyBlocks: Ambiente Controlado Para Treinamento e Avaliacao de Robos",
+      "subtitle": "Nova plataforma promete acelerar a pesquisa em robótica com simulações precisas e escaláveis.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/toyblocks",
+      "category": "opensource",
+      "tags": [
+        "robótica",
+        "inteligência artificial",
+        "simulação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 06 Nov 2026 14:00:48 GMT",
+      "written_at": "2026-11-06T14:07:26.118Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "blocklock-nova-abordagem-para-inferencia-reproduzivel-de-llms",
       "headline": "BlockLock: Nova Abordagem para Inferência Reproduzível de LLMs",
