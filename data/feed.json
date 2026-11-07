@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-07T16:14:12.429Z",
+  "generated_at": "2026-11-07T21:40:57.364Z",
   "articles": [
+    {
+      "slug": "auditoria-de-ia-deteccao-de-falhas-e-excesso-de-alarmes-falsos",
+      "headline": "Auditoria de IA: Detecção de Falhas e Excesso de Alarmes Falsos",
+      "subtitle": "Novas descobertas indicam que, embora sistemas de IA possam identificar comportamentos indesejados de agentes autônomos, a precisão ainda é um obstáculo para a segurança confiável.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+      "category": "mercado",
+      "tags": [
+        "auditoria de ia",
+        "segurança de ia",
+        "agentes autônomos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 07 Nov 2026 16:56:38 +0000",
+      "written_at": "2026-11-07T21:40:56.233Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "anthropic-segue-com-ipo-pos-ajuste-de-valor-em-meio-a-queda-tecnologica",
+      "headline": "Anthropic Segue com IPO Pós-Ajuste de Valor em Meio a Queda Tecnológica",
+      "subtitle": "A desenvolvedora do Claude busca capitalizar no mercado, mesmo com avaliação abaixo do esperado.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 07 Nov 2026 17:37:25 +0000",
+      "written_at": "2026-11-07T21:40:44.957Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "executiva-de-tecnologia-recrutada-para-espionagem-contra-ceo-da-nvidia-aponta-in",
+      "headline": "Executiva de tecnologia recrutada para espionagem contra CEO da Nvidia, aponta inteligência dos EUA",
+      "subtitle": "Relatório de inteligência americano levanta suspeitas sobre interferência chinesa em gigante de semicondutores.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "espionagem",
+        "geopolitica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 07 Nov 2026 21:17:08 +0000",
+      "written_at": "2026-11-07T21:40:34.424Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-desestabiliza-seguranca-cibernetica-um-olhar-critico",
       "headline": "IA Desestabiliza Segurança Cibernética: Um Olhar Crítico",
