@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-07T01:45:11.592Z",
+  "generated_at": "2026-11-07T16:14:12.429Z",
   "articles": [
+    {
+      "slug": "ia-desestabiliza-seguranca-cibernetica-um-olhar-critico",
+      "headline": "IA Desestabiliza Segurança Cibernética: Um Olhar Crítico",
+      "subtitle": "Especialista alerta para um cenário complexo e os desafios emergentes para a proteção de dados.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "cibersegurança",
+        "segurança de dados"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-07T10:00:00-05:00",
+      "written_at": "2026-11-07T16:14:12.345Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-chips-de-ia-vendidos-para-escritorios-vazios-na-china-geram-desconfianca",
+      "headline": "Nvidia: Chips de IA vendidos para escritórios vazios na China geram desconfiança",
+      "subtitle": "A fiscalização de empresas chinesas habilitadas a receber tecnologia avançada da Nvidia levanta questões sobre a eficácia das sanções dos EUA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "china",
+        "ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-07T10:43:45-05:00",
+      "written_at": "2026-11-07T16:14:01.655Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ia-no-fogao-auxilio-culinario-gera-elogios-e-criticas",
+      "headline": "IA no fogão: auxílio culinário gera elogios e críticas",
+      "subtitle": "Ferramentas de inteligência artificial começam a invadir a cozinha, com resultados mistos para o dia a dia.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "category": "mercado",
+      "tags": [
+        "inteligencia artificial",
+        "culinaria",
+        "assistente virtual"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-07T10:50:00-05:00",
+      "written_at": "2026-11-07T16:13:51.096Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "openai-atinge-us-1-25-trilhao-em-nova-rodada-de-financiamento",
       "headline": "OpenAI atinge US$ 1,25 trilhão em nova rodada de financiamento",
