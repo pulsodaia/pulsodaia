@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 06 Nov 2026 21:32:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 01:52:36 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>OpenAI atinge US$ 1,25 trilhão em nova rodada de financiamento</title>
+      <link>https://pulsodaia.com.br/feed/openai-atinge-us-1-25-trilhao-em-nova-rodada-de-financiamento/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-atinge-us-1-25-trilhao-em-nova-rodada-de-financiamento/</guid>
+      <pubDate>Sat, 07 Nov 2026 01:45:11 GMT</pubDate>
+      <description>A startup de IA consolida sua posição como uma das empresas de maior valor globalmente.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation">The Verge AI</source>
+    </item>
+    <item>
+      <title>OpenAI capta US$ 11 bilhões e atinge avaliação de US$ 1,25 trilhão</title>
+      <link>https://pulsodaia.com.br/feed/openai-capta-us-11-bilhoes-e-atinge-avaliacao-de-us-1-25-trilhao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-capta-us-11-bilhoes-e-atinge-avaliacao-de-us-1-25-trilhao/</guid>
+      <pubDate>Sat, 07 Nov 2026 01:45:02 GMT</pubDate>
+      <description>Nova rodada de investimentos eleva o valor da startup de IA, refletindo o apetite do mercado por avanços em inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Google Adquire Projeto de Data Center da Crusoe em Wyoming</title>
+      <link>https://pulsodaia.com.br/feed/google-adquire-projeto-de-data-center-da-crusoe-em-wyoming/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-adquire-projeto-de-data-center-da-crusoe-em-wyoming/</guid>
+      <pubDate>Sat, 07 Nov 2026 01:44:52 GMT</pubDate>
+      <description>A transação sinaliza os desafios na escala de infraestrutura para IA.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Meta Expande IA com "Spaces", Novo Ambiente para Agentes Muse</title>
       <link>https://pulsodaia.com.br/feed/meta-expande-ia-com-spaces-novo-ambiente-para-agentes-muse/</link>
@@ -430,33 +457,6 @@
       <description>A fabricante de Claude busca conformidade com regulamentação europeia, mas uma brecha em modelos mais antigos gera preocupações.</description>
       <category>LANCAMENTO</category>
       <source url="https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/">The Decoder</source>
-    </item>
-    <item>
-      <title>Juiz permite que processo da NAACP contra xAI por poluição avance</title>
-      <link>https://pulsodaia.com.br/feed/juiz-permite-que-processo-da-naacp-contra-xai-por-poluicao-avance/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/juiz-permite-que-processo-da-naacp-contra-xai-por-poluicao-avance/</guid>
-      <pubDate>Sat, 31 Oct 2026 21:17:43 GMT</pubDate>
-      <description>Ação judicial alega violação da Lei do Ar Limpo por centro de dados de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>OpenAI expande coleta de dados para treinamento, mesmo com opt-out ativado</title>
-      <link>https://pulsodaia.com.br/feed/openai-expande-coleta-de-dados-para-treinamento-mesmo-com-opt-out-ativado/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-expande-coleta-de-dados-para-treinamento-mesmo-com-opt-out-ativado/</guid>
-      <pubDate>Sat, 31 Oct 2026 17:11:05 GMT</pubDate>
-      <description>Novas diretrizes de uso de dados acendem alerta sobre privacidade e consentimento em modelos de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/">The Decoder</source>
-    </item>
-    <item>
-      <title>Meta Lança Muse Charm, Mas Entusiastas Já Criaram Alternativas Portáteis de IA</title>
-      <link>https://pulsodaia.com.br/feed/meta-lanca-muse-charm-mas-entusiastas-ja-criaram-alternativas-portateis-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-lanca-muse-charm-mas-entusiastas-ja-criaram-alternativas-portateis-de-ia/</guid>
-      <pubDate>Sat, 31 Oct 2026 17:10:54 GMT</pubDate>
-      <description>Enquanto a gigante de tecnologia aposta em wearables fofos, a comunidade DIY demonstra agilidade na criação de companheiros de IA personalizados.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code">The Verge AI</source>
     </item>
   </channel>
 </rss>
