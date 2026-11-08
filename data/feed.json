@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-08T16:35:15.979Z",
+  "generated_at": "2026-11-08T21:54:30.709Z",
   "articles": [
+    {
+      "slug": "apple-acelera-siri-a-corrida-por-um-assistente-mais-inteligente",
+      "headline": "Apple Acelera Siri: A Corrida Por Um Assistente Mais Inteligente",
+      "subtitle": "A gigante de Cupertino intensifica esforços para que sua assistente virtual cumpra o papel de um agente autônomo, mirando a concorrência direta com modelos como os da OpenAI.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "category": "mercado",
+      "tags": [
+        "siri",
+        "inteligência artificial",
+        "apple"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-08T14:18:19-05:00",
+      "written_at": "2026-11-08T21:54:30.465Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-abre-investigacao-sobre-ceo-jensen-huang-e-suposto-vinculo-com-espia-chin",
+      "headline": "Nvidia abre investigação sobre CEO Jensen Huang e suposto vínculo com espiã chinesa",
+      "subtitle": "Notícia abala o setor de semicondutores e levanta questões sobre segurança corporativa no mercado de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "espionagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-08T15:22:39-05:00",
+      "written_at": "2026-11-08T21:54:18.670Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-investiga-jensen-huang-apos-admissao-de-relacionamento-com-possivel-espia",
+      "headline": "Nvidia investiga Jensen Huang após admissão de relacionamento com possível espiã chinesa",
+      "subtitle": "A gigante dos semicondutores enfrenta um escrutínio interno e externo em um momento crucial para a inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "espionagem chinesa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 08 Nov 2026 21:00:11 +0000",
+      "written_at": "2026-11-08T21:54:07.049Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "licao-amarga-para-entusiastas-de-escala-de-llms-potencia-bruta-nao-basta",
       "headline": "Lição Amarga para Entusiastas de Escala de LLMs: Potência Bruta Não Basta",
