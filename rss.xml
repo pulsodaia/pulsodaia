@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 07 Nov 2026 21:48:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 01:20:47 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Midterms Sacodem Elon Musk e Centros de Dados Pós-Eleição</title>
+      <link>https://pulsodaia.com.br/feed/midterms-sacodem-elon-musk-e-centros-de-dados-pos-eleicao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/midterms-sacodem-elon-musk-e-centros-de-dados-pos-eleicao/</guid>
+      <pubDate>Sun, 08 Nov 2026 01:13:56 GMT</pubDate>
+      <description>A análise pós-eleição para o setor de tecnologia aponta para um cenário de incertezas.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Auditoria de IA: Detecção de Falhas e Excesso de Alarmes Falsos</title>
       <link>https://pulsodaia.com.br/feed/auditoria-de-ia-deteccao-de-falhas-e-excesso-de-alarmes-falsos/</link>
@@ -448,15 +457,6 @@
       <description>Mudança de nome busca suavizar percepção negativa de infraestrutura de IA.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>IA: Benefícios Concentrados no Topo, Desafios na Base</title>
-      <link>https://pulsodaia.com.br/feed/ia-beneficios-concentrados-no-topo-desafios-na-base/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-beneficios-concentrados-no-topo-desafios-na-base/</guid>
-      <pubDate>Sun, 01 Nov 2026 21:55:02 GMT</pubDate>
-      <description>Enquanto executivos de tecnologia celebram ganhos de produtividade, a democratização real da IA ainda enfrenta barreiras.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
