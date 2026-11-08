@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-08T01:13:56.408Z",
+  "generated_at": "2026-11-08T16:35:15.979Z",
   "articles": [
+    {
+      "slug": "licao-amarga-para-entusiastas-de-escala-de-llms-potencia-bruta-nao-basta",
+      "headline": "Lição Amarga para Entusiastas de Escala de LLMs: Potência Bruta Não Basta",
+      "subtitle": "O debate sobre a escalabilidade de modelos de linguagem avança para além do mero aumento de poder computacional.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "llm",
+        "aprendizado de maquina"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 08 Nov 2026 11:44:41 +0000",
+      "written_at": "2026-11-08T16:35:14.756Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "metafora-cerebro-computador-um-obstaculo-na-discussao-sobre-consciencia-artifici",
+      "headline": "Metáfora Cérebro-Computador: Um Obstáculo na Discussão sobre Consciência Artificial",
+      "subtitle": "Especialistas alertam que a analogia com o cérebro pode distorcer o debate sobre a senciência em sistemas de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "consciencia",
+        "neurociencia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 08 Nov 2026 13:49:21 +0000",
+      "written_at": "2026-11-08T16:35:02.186Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "andrej-karpathy-cria-plataforma-de-videos-curados-em-um-fim-de-semana-com-claude",
+      "headline": "Andrej Karpathy Cria Plataforma de Vídeos Curados em Um Fim de Semana com Claude e 20 Anos de Hacker News",
+      "subtitle": "A capacidade de modelos de linguagem avançados em processar e organizar grandes volumes de dados abre novas fronteiras para a curadoria de conteúdo.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "curadoria",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 08 Nov 2026 14:23:00 +0000",
+      "written_at": "2026-11-08T16:34:51.036Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "midterms-sacodem-elon-musk-e-centros-de-dados-pos-eleicao",
       "headline": "Midterms Sacodem Elon Musk e Centros de Dados Pós-Eleição",

@@ -1,0 +1,50 @@
+{
+  "id": "https://the-decoder.com/?p=42596",
+  "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+  "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+  "summary": "Turing Award winner Richard Sutton reaffirms that raw compute alone isn't enough for intelligence and that fundamentally new learning methods are needed. Ex-OpenAI researcher Tworek agrees, saying blind transformer scaling \"has reward hacked brains of a whole generation of scientists.\" A growing wave of startups is already betting on exactly this gap. The article The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts appeared first on The Decoder .",
+  "published_at": "Sun, 08 Nov 2026 11:44:41 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "Lição Amarga para Entusiastas de Escala de LLMs: Potência Bruta Não Basta",
+  "subtitle": "O debate sobre a escalabilidade de modelos de linguagem avança para além do mero aumento de poder computacional.",
+  "eyebrow_category": "ANALISE",
+  "lead": "Richard Sutton, criador do conceito de \"lição amarga\", alerta que a inteligência artificial não avançará apenas com mais poder de processamento. A comunidade científica, incluindo ex-pesquisadores de ponta, concorda que novos métodos de aprendizado são cruciais para superar as limitações atuais dos Large Language Models (LLMs).",
+  "body_markdown": "## O que aconteceu\n\nRichard Sutton, vencedor do Prêmio Turing e figura central no desenvolvimento da aprendizagem por reforço, reforça sua tese da \"lição amarga\": a inteligência artificial não é meramente uma função do poder computacional bruto. Em uma análise recente, ele argumenta que o foco excessivo na escalabilidade de modelos como os LLMs, sem a introdução de paradigmas de aprendizado fundamentalmente novos, pode levar a um beco sem saída. A visão é compartilhada por outros especialistas. Jan Leike, ex-pesquisador da OpenAI, expressou preocupação com a tendência de escalar modelos de transformadores de forma cega, afirmando que isso \"hackeou as recompensas de uma geração inteira de cientistas\". Essa abordagem, segundo ele, prioriza a otimização para métricas específicas sem necessariamente gerar uma inteligência mais robusta ou adaptável. A discussão, amplamente divulgada por publicações como The Decoder, sugere que a indústria de IA pode estar investindo pesadamente em uma estratégia com retornos decrescentes. Para mais detalhes sobre a perspectiva de Sutton, consulte [a análise original](https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/).\n\n## Por que importa\n\nNo Brasil, onde o ecossistema de startups de IA está em franca expansão, essa discussão tem implicações diretas. Muitas empresas locais e globais têm apostado em modelos maiores e mais potentes, buscando replicar o sucesso de gigantes da tecnologia. A advertência de Sutton e Leike sugere que essa estratégia pode ser insustentável a longo prazo, exigindo uma reavaliação dos investimentos e das pesquisas em andamento. Empresas que buscam diferenciação e inovação real no mercado brasileiro de IA podem encontrar uma oportunidade ao focar no desenvolvimento de métodos de aprendizado mais eficientes e criativos, em vez de apenas competir em escala. O risco é que a dependência exclusiva de modelos pré-treinados massivos limite a capacidade de adaptação e resolução de problemas específicos, cruciais para a realidade econômica e social do país.\n\n## O que esperar\n\nA pressão por novas abordagens no aprendizado de máquina deve aumentar. Startups já estão explorando esse nicho, buscando desenvolver algoritmos que aprendam de forma mais eficiente com menos dados ou que incorporem raciocínio simbólico e causalidade de maneira mais profunda. A comunidade de pesquisa acadêmica e industrial precisará debater ativamente sobre quais são os próximos passos para além do scaling. Isso pode envolver um retorno a pesquisas em áreas como aprendizado por imitação, aprendizado com poucos exemplos (few-shot learning) e o desenvolvimento de arquiteturas de modelos mais flexíveis. A tendência indica uma diversificação de estratégias, afastando-se da monocultura dos LLMs massivos. Para uma visão aprofundada sobre o tema, é recomendável acompanhar [discussões em fontes especializadas](https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/). A busca por \"inteligência artificial geral\" pode exigir um salto qualitativo em métodos de aprendizado, e não apenas quantitativo em recursos computacionais.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Richard Sutton, vencedor do Prêmio Turing e figura central no desenvolvimento da aprendizagem por reforço, reforça sua tese da \"lição amarga\": a inteligência artificial não é meramente uma função do poder computacional bruto. Em uma análise recente, ele argumenta que o foco excessivo na escalabilidade de modelos como os LLMs, sem a introdução de paradigmas de aprendizado fundamentalmente novos, pode levar a um beco sem saída. A visão é compartilhada por outros especialistas. Jan Leike, ex-pesquisador da OpenAI, expressou preocupação com a tendência de escalar modelos de transformadores de forma cega, afirmando que isso \"hackeou as recompensas de uma geração inteira de cientistas\". Essa abordagem, segundo ele, prioriza a otimização para métricas específicas sem necessariamente gerar uma inteligência mais robusta ou adaptável. A discussão, amplamente divulgada por publicações como The Decoder, sugere que a indústria de IA pode estar investindo pesadamente em uma estratégia com retornos decrescentes. Para mais detalhes sobre a perspectiva de Sutton, consulte <a href=\"https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/\" target=\"_blank\" rel=\"external noopener\">a análise original</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>No Brasil, onde o ecossistema de startups de IA está em franca expansão, essa discussão tem implicações diretas. Muitas empresas locais e globais têm apostado em modelos maiores e mais potentes, buscando replicar o sucesso de gigantes da tecnologia. A advertência de Sutton e Leike sugere que essa estratégia pode ser insustentável a longo prazo, exigindo uma reavaliação dos investimentos e das pesquisas em andamento. Empresas que buscam diferenciação e inovação real no mercado brasileiro de IA podem encontrar uma oportunidade ao focar no desenvolvimento de métodos de aprendizado mais eficientes e criativos, em vez de apenas competir em escala. O risco é que a dependência exclusiva de modelos pré-treinados massivos limite a capacidade de adaptação e resolução de problemas específicos, cruciais para a realidade econômica e social do país.</p>\n\n<h2>O que esperar</h2>\n\n<p>A pressão por novas abordagens no aprendizado de máquina deve aumentar. Startups já estão explorando esse nicho, buscando desenvolver algoritmos que aprendam de forma mais eficiente com menos dados ou que incorporem raciocínio simbólico e causalidade de maneira mais profunda. A comunidade de pesquisa acadêmica e industrial precisará debater ativamente sobre quais são os próximos passos para além do scaling. Isso pode envolver um retorno a pesquisas em áreas como aprendizado por imitação, aprendizado com poucos exemplos (few-shot learning) e o desenvolvimento de arquiteturas de modelos mais flexíveis. A tendência indica uma diversificação de estratégias, afastando-se da monocultura dos LLMs massivos. Para uma visão aprofundada sobre o tema, é recomendável acompanhar <a href=\"https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/\" target=\"_blank\" rel=\"external noopener\">discussões em fontes especializadas</a>. A busca por \"inteligência artificial geral\" pode exigir um salto qualitativo em métodos de aprendizado, e não apenas quantitativo em recursos computacionais.</p>",
+  "tags": [
+    "ia",
+    "llm",
+    "aprendizado de maquina"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "inteligência artificial",
+    "large language models",
+    "richard sutton",
+    "escalabilidade ia",
+    "métodos de aprendizado"
+  ],
+  "meta_description_seo": "Richard Sutton, criador da \"lição amarga\", alerta que escala bruta de LLMs não é suficiente para inteligência. Novos métodos de aprendizado são necessários.",
+  "faq": [
+    {
+      "q": "O que é a \"lição amarga\" de Richard Sutton?",
+      "a": "A \"lição amarga\" postula que a inteligência artificial avança mais com descobertas em métodos de aprendizado do que com o simples aumento de poder computacional."
+    },
+    {
+      "q": "Por que escalar LLMs cegamente é um problema?",
+      "a": "Escalar LLMs sem novos métodos de aprendizado pode otimizar para métricas específicas sem gerar inteligência mais robusta ou adaptável, \"hackeando\" a busca por avanços reais."
+    },
+    {
+      "q": "O que as empresas de IA devem fazer agora?",
+      "a": "Empresas devem considerar investir no desenvolvimento de métodos de aprendizado mais eficientes e criativos, explorando áreas além do scaling de modelos existentes."
+    }
+  ],
+  "written_at": "2026-11-08T16:35:14.756Z",
+  "slug": "licao-amarga-para-entusiastas-de-escala-de-llms-potencia-bruta-nao-basta",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/11/ai_scaling_bitter_lesson-2.png"
+}
