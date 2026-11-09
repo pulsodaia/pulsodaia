@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 09 Nov 2026 09:39:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 20:43:20 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code V2.1.321 Atualiza Modelo Fable e Refina Controle de Sessão</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-321-atualiza-modelo-fable-e-refina-controle-de-sessao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-321-atualiza-modelo-fable-e-refina-controle-de-sessao/</guid>
+      <pubDate>Mon, 09 Nov 2026 20:36:01 GMT</pubDate>
+      <description>Atualização do Claude Code foca em aprimoramentos de modelo e segurança, com impacto direto na forma como desenvolvedores interagem com a IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.321">Claude Code</source>
+    </item>
+    <item>
+      <title>Poda de IA: Novas Técnicas buscam Manter Especialistas em Modelos Complexos</title>
+      <link>https://pulsodaia.com.br/feed/poda-de-ia-novas-tecnicas-buscam-manter-especialistas-em-modelos-complexos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/poda-de-ia-novas-tecnicas-buscam-manter-especialistas-em-modelos-complexos/</guid>
+      <pubDate>Mon, 09 Nov 2026 20:35:50 GMT</pubDate>
+      <description>Pesquisa aborda a fragmentação de modelos de linguagem e propõe soluções para otimizar o desempenho.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/amazon/higher-order-pruning-experts">Hugging Face</source>
+    </item>
+    <item>
+      <title>Nvidia Lança Dataset Sintético Focado em Finanças e Demografia Japonesa</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-lanca-dataset-sintetico-focado-em-financas-e-demografia-japonesa/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-lanca-dataset-sintetico-focado-em-financas-e-demografia-japonesa/</guid>
+      <pubDate>Mon, 09 Nov 2026 20:35:40 GMT</pubDate>
+      <description>Novos dados visam aprimorar modelos de IA para o mercado financeiro asiático.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan">Hugging Face</source>
+    </item>
     <item>
       <title>IA Generativa Transforma Gestão de Estoques com Dados Não Estruturados</title>
       <link>https://pulsodaia.com.br/feed/ia-generativa-transforma-gestao-de-estoques-com-dados-nao-estruturados/</link>
@@ -430,33 +457,6 @@
       <description>Atualizações na ferramenta de código da Anthropic visam maior controle para desenvolvedores.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.318">Claude Code</source>
-    </item>
-    <item>
-      <title>IBM Treina Modelo de IA Pequeno para Criar Apresentações no Estilo de Design da Empresa</title>
-      <link>https://pulsodaia.com.br/feed/ibm-treina-modelo-de-ia-pequeno-para-criar-apresentacoes-no-estilo-de-design-da-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-treina-modelo-de-ia-pequeno-para-criar-apresentacoes-no-estilo-de-design-da-/</guid>
-      <pubDate>Tue, 03 Nov 2026 19:23:03 GMT</pubDate>
-      <description>Uma nova abordagem permite que modelos menores aprendam a replicar linguagens visuais complexas, com potencial impacto na padronização de materiais corporativos.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/ibm-research/palette-deck-building">Hugging Face</source>
-    </item>
-    <item>
-      <title>StateBench: Novo benchmark avalia modelos de linguagem na compreensão de mudanças em documentos extensos</title>
-      <link>https://pulsodaia.com.br/feed/statebench-novo-benchmark-avalia-modelos-de-linguagem-na-compreensao-de-mudancas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/statebench-novo-benchmark-avalia-modelos-de-linguagem-na-compreensao-de-mudancas/</guid>
-      <pubDate>Tue, 03 Nov 2026 19:22:53 GMT</pubDate>
-      <description>A Hugging Face lança ferramenta para testar a capacidade de IAs em acompanhar informações ao longo de textos longos.</description>
-      <category>RESEARCH</category>
-      <source url="https://huggingface.co/blog/allenai/statebench">Hugging Face</source>
-    </item>
-    <item>
-      <title>IA da Google Acelera Descoberta de Fármacos com Foco em Moléculas Complexas</title>
-      <link>https://pulsodaia.com.br/feed/ia-da-google-acelera-descoberta-de-farmacos-com-foco-em-moleculas-complexas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-da-google-acelera-descoberta-de-farmacos-com-foco-em-moleculas-complexas/</guid>
-      <pubDate>Tue, 03 Nov 2026 19:22:41 GMT</pubDate>
-      <description>Ferramenta Antigravity e "Cheminformatics Skills" prometem otimizar a busca por novos medicamentos no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/">Google DeepMind</source>
     </item>
   </channel>
 </rss>

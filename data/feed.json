@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-09T09:32:22.623Z",
+  "generated_at": "2026-11-09T20:36:02.408Z",
   "articles": [
+    {
+      "slug": "claude-code-v2-1-321-atualiza-modelo-fable-e-refina-controle-de-sessao",
+      "headline": "Claude Code V2.1.321 Atualiza Modelo Fable e Refina Controle de Sessão",
+      "subtitle": "Atualização do Claude Code foca em aprimoramentos de modelo e segurança, com impacto direto na forma como desenvolvedores interagem com a IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "lancamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-09T19:22:30Z",
+      "written_at": "2026-11-09T20:36:01.716Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "poda-de-ia-novas-tecnicas-buscam-manter-especialistas-em-modelos-complexos",
+      "headline": "Poda de IA: Novas Técnicas buscam Manter Especialistas em Modelos Complexos",
+      "subtitle": "Pesquisa aborda a fragmentação de modelos de linguagem e propõe soluções para otimizar o desempenho.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "otimizacao",
+        "poda"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 09 Nov 2026 12:34:29 GMT",
+      "written_at": "2026-11-09T20:35:50.513Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-lanca-dataset-sintetico-focado-em-financas-e-demografia-japonesa",
+      "headline": "Nvidia Lança Dataset Sintético Focado em Finanças e Demografia Japonesa",
+      "subtitle": "Novos dados visam aprimorar modelos de IA para o mercado financeiro asiático.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "finanças",
+        "dataset"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 09 Nov 2026 15:05:57 GMT",
+      "written_at": "2026-11-09T20:35:40.546Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpeg"
+    },
     {
       "slug": "ia-generativa-transforma-gestao-de-estoques-com-dados-nao-estruturados",
       "headline": "IA Generativa Transforma Gestão de Estoques com Dados Não Estruturados",
