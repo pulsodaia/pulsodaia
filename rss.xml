@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 09 Nov 2026 01:41:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 09:39:08 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA Generativa Transforma Gestão de Estoques com Dados Não Estruturados</title>
+      <link>https://pulsodaia.com.br/feed/ia-generativa-transforma-gestao-de-estoques-com-dados-nao-estruturados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-generativa-transforma-gestao-de-estoques-com-dados-nao-estruturados/</guid>
+      <pubDate>Mon, 09 Nov 2026 09:32:22 GMT</pubDate>
+      <description>Modelos de linguagem abrem caminho para classificação de itens mais precisa em e-commerces brasileiros.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2611.08626">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>NormGym: Novo Benchmark Avalia Capacidade de IA em Aprender Normas Sociais</title>
+      <link>https://pulsodaia.com.br/feed/normgym-novo-benchmark-avalia-capacidade-de-ia-em-aprender-normas-sociais/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/normgym-novo-benchmark-avalia-capacidade-de-ia-em-aprender-normas-sociais/</guid>
+      <pubDate>Mon, 09 Nov 2026 09:32:12 GMT</pubDate>
+      <description>Pesquisadores propõem ferramenta para testar como agentes de IA se adaptam a regras desconhecidas em interações.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://arxiv.org/abs/2611.08613">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>IA com Raciocínio Baseado em Casos: Nova Fronteira para Orientação Acadêmica</title>
+      <link>https://pulsodaia.com.br/feed/ia-com-raciocinio-baseado-em-casos-nova-fronteira-para-orientacao-academica/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-com-raciocinio-baseado-em-casos-nova-fronteira-para-orientacao-academica/</guid>
+      <pubDate>Mon, 09 Nov 2026 09:32:01 GMT</pubDate>
+      <description>Pesquisa no arXiv explora o potencial da tecnologia para aprimorar o suporte a estudantes universitários.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2611.08572">ArXiv cs.AI</source>
+    </item>
     <item>
       <title>Investigação na Nvidia: CEO Jensen Huang sob escrutínio por relacionamento com executiva chinesa</title>
       <link>https://pulsodaia.com.br/feed/investigacao-na-nvidia-ceo-jensen-huang-sob-escrutinio-por-relacionamento-com-ex/</link>
@@ -430,33 +457,6 @@
       <description>Ferramenta Antigravity e "Cheminformatics Skills" prometem otimizar a busca por novos medicamentos no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/">Google DeepMind</source>
-    </item>
-    <item>
-      <title>IA Otimiza Leilões e Bundles para Varejistas Online de Produtos Perecíveis</title>
-      <link>https://pulsodaia.com.br/feed/ia-otimiza-leiloes-e-bundles-para-varejistas-online-de-produtos-pereciveis/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-otimiza-leiloes-e-bundles-para-varejistas-online-de-produtos-pereciveis/</guid>
-      <pubDate>Tue, 03 Nov 2026 11:46:57 GMT</pubDate>
-      <description>Um novo agente de IA aprende a precificar e agrupar produtos em um cenário de incerteza.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://arxiv.org/abs/2611.00165">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Nova Abordagem em Clusterização Borrada Aumenta Precisão e Autonomia em Dados</title>
-      <link>https://pulsodaia.com.br/feed/nova-abordagem-em-clusterizacao-borrada-aumenta-precisao-e-autonomia-em-dados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-abordagem-em-clusterizacao-borrada-aumenta-precisao-e-autonomia-em-dados/</guid>
-      <pubDate>Tue, 03 Nov 2026 11:46:46 GMT</pubDate>
-      <description>Pesquisadores propõem framework que estima automaticamente o número de grupos em dados complexos.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.00159">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Hugging Face Facilita Integração de Modelos Transformer com Contratos</title>
-      <link>https://pulsodaia.com.br/feed/hugging-face-facilita-integracao-de-modelos-transformer-com-contratos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-facilita-integracao-de-modelos-transformer-com-contratos/</guid>
-      <pubDate>Tue, 03 Nov 2026 11:46:35 GMT</pubDate>
-      <description>A plataforma de IA anuncia novas ferramentas para agilizar a implementação de modelos avançados em aplicações empresariais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/transformers-mic">Hugging Face</source>
     </item>
   </channel>
 </rss>

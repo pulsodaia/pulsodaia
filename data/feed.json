@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-09T01:34:02.720Z",
+  "generated_at": "2026-11-09T09:32:22.623Z",
   "articles": [
+    {
+      "slug": "ia-generativa-transforma-gestao-de-estoques-com-dados-nao-estruturados",
+      "headline": "IA Generativa Transforma Gestão de Estoques com Dados Não Estruturados",
+      "subtitle": "Modelos de linguagem abrem caminho para classificação de itens mais precisa em e-commerces brasileiros.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.08626",
+      "category": "research",
+      "tags": [
+        "ia",
+        "gestao de estoque",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 09 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-09T09:32:22.501Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "normgym-novo-benchmark-avalia-capacidade-de-ia-em-aprender-normas-sociais",
+      "headline": "NormGym: Novo Benchmark Avalia Capacidade de IA em Aprender Normas Sociais",
+      "subtitle": "Pesquisadores propõem ferramenta para testar como agentes de IA se adaptam a regras desconhecidas em interações.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.08613",
+      "category": "research",
+      "tags": [
+        "inteligencia artificial",
+        "benchmark",
+        "normas sociais"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 09 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-09T09:32:12.176Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-com-raciocinio-baseado-em-casos-nova-fronteira-para-orientacao-academica",
+      "headline": "IA com Raciocínio Baseado em Casos: Nova Fronteira para Orientação Acadêmica",
+      "subtitle": "Pesquisa no arXiv explora o potencial da tecnologia para aprimorar o suporte a estudantes universitários.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.08572",
+      "category": "research",
+      "tags": [
+        "ia",
+        "orientacao academica",
+        "cbr"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 09 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-09T09:32:01.775Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "investigacao-na-nvidia-ceo-jensen-huang-sob-escrutinio-por-relacionamento-com-ex",
       "headline": "Investigação na Nvidia: CEO Jensen Huang sob escrutínio por relacionamento com executiva chinesa",

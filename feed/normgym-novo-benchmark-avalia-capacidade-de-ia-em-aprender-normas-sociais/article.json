@@ -1,0 +1,49 @@
+{
+  "id": "oai:arXiv.org:2611.08613v1",
+  "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+  "url": "https://arxiv.org/abs/2611.08613",
+  "summary": "arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can recognize or apply norms they may already know, rather than whether they can acquire previously unknown norms from social interaction. We introduce NormGym, an interactive benchmark for normative competence in which a newcomer must infer a hidden, arbitrary norm while pursuing its own task in a multi-agent community. Success requires distinguishing what is possible from what is permitted, inferring the norm from observed behavior and sanctions, and applying it in new situations. NormGym contains diverse norms and distinct environments, allowing systematic evaluation of current agents, including large language model (LLM) agents. We find that normative competence remains challenging: the stronges",
+  "published_at": "Mon, 09 Nov 2026 00:00:00 -0500",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "NormGym: Novo Benchmark Avalia Capacidade de IA em Aprender Normas Sociais",
+  "subtitle": "Pesquisadores propõem ferramenta para testar como agentes de IA se adaptam a regras desconhecidas em interações.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A capacidade de sistemas de inteligência artificial de inferir e seguir expectativas sociais em ambientes humanos é crucial para sua adoção. Um novo benchmark, NormGym, foi apresentado para avaliar essa competência normativa, focando na aquisição de regras a partir da interação.",
+  "body_markdown": "## O que aconteceu\n\nUm estudo publicado no arXiv, intitulado \"NormGym: Evaluating Normative Competence through Social Interaction\", introduz uma nova metodologia para testar a habilidade de agentes de IA em compreender e aplicar normas sociais. Diferente de avaliações existentes que verificam o reconhecimento de normas já conhecidas, o NormGym foca na aquisição de regras arbitrárias e previamente desconhecidas. O sistema funciona como um ambiente interativo onde um agente \"recém-chegado\" deve inferir uma norma oculta enquanto executa sua própria tarefa em uma comunidade multiagente. O sucesso no NormGym exige que o agente distinga o que é possível do que é permitido, deduzindo a norma a partir do comportamento observado e das sanções aplicadas, e então aplicando essa norma em novas situações. A proposta visa preencher uma lacuna importante na avaliação de IA para interações sociais complexas. Mais detalhes podem ser encontrados no artigo original [aqui](https://arxiv.org/abs/2611.08613).\n\n## Por que importa\n\nA capacidade de agentes de IA em navegar e respeitar normas sociais é um pré-requisito para sua integração bem-sucedida em diversas esferas da sociedade brasileira. Seja em assistentes virtuais que precisam entender nuances de comunicação, em robôs de serviço que operam em espaços públicos, ou em sistemas de recomendação que devem respeitar diretrizes éticas, a competência normativa é fundamental. A falta de ferramentas adequadas para avaliar essa habilidade pode levar ao desenvolvimento de IAs que, embora eficientes em tarefas específicas, falham em interações sociais, gerando atritos e desconfiança. O NormGym oferece um caminho para desenvolver IAs mais adaptáveis e socialmente conscientes, um passo necessário para que a tecnologia seja amplamente aceita e benéfica no contexto brasileiro. A pesquisa aponta para a necessidade de um foco maior no aprendizado de normas, e não apenas na memorização de regras.\n\n## O que esperar\n\nO NormGym, ao propor um benchmark interativo e focado na aquisição de normas, abre portas para pesquisas futuras em aprendizado social e adaptação de agentes. Espera-se que esta ferramenta incentive o desenvolvimento de algoritmos mais robustos na inferência de expectativas sociais, essenciais para a colaboração homem-máquina. Futuramente, podemos ver aplicações do NormGym na criação de IAs mais seguras e éticas, capazes de operar em cenários não mapeados previamente. A pesquisa pode impulsionar a criação de IAs que não apenas executem tarefas, mas que também compreendam o \"porquê\" por trás de certas regras, um nível de compreensão que ainda é um desafio significativo. Para um aprofundamento nos detalhes técnicos e nas métricas de avaliação, consulte o [documento completo](https://arxiv.org/abs/2611.08613). A comunidade de pesquisa em IA terá um novo ponto de referência para testar e comparar abordagens para a competência normativa.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um estudo publicado no arXiv, intitulado \"NormGym: Evaluating Normative Competence through Social Interaction\", introduz uma nova metodologia para testar a habilidade de agentes de IA em compreender e aplicar normas sociais. Diferente de avaliações existentes que verificam o reconhecimento de normas já conhecidas, o NormGym foca na aquisição de regras arbitrárias e previamente desconhecidas. O sistema funciona como um ambiente interativo onde um agente \"recém-chegado\" deve inferir uma norma oculta enquanto executa sua própria tarefa em uma comunidade multiagente. O sucesso no NormGym exige que o agente distinga o que é possível do que é permitido, deduzindo a norma a partir do comportamento observado e das sanções aplicadas, e então aplicando essa norma em novas situações. A proposta visa preencher uma lacuna importante na avaliação de IA para interações sociais complexas. Mais detalhes podem ser encontrados no artigo original <a href=\"https://arxiv.org/abs/2611.08613\" target=\"_blank\" rel=\"external noopener\">aqui</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de agentes de IA em navegar e respeitar normas sociais é um pré-requisito para sua integração bem-sucedida em diversas esferas da sociedade brasileira. Seja em assistentes virtuais que precisam entender nuances de comunicação, em robôs de serviço que operam em espaços públicos, ou em sistemas de recomendação que devem respeitar diretrizes éticas, a competência normativa é fundamental. A falta de ferramentas adequadas para avaliar essa habilidade pode levar ao desenvolvimento de IAs que, embora eficientes em tarefas específicas, falham em interações sociais, gerando atritos e desconfiança. O NormGym oferece um caminho para desenvolver IAs mais adaptáveis e socialmente conscientes, um passo necessário para que a tecnologia seja amplamente aceita e benéfica no contexto brasileiro. A pesquisa aponta para a necessidade de um foco maior no aprendizado de normas, e não apenas na memorização de regras.</p>\n\n<h2>O que esperar</h2>\n\n<p>O NormGym, ao propor um benchmark interativo e focado na aquisição de normas, abre portas para pesquisas futuras em aprendizado social e adaptação de agentes. Espera-se que esta ferramenta incentive o desenvolvimento de algoritmos mais robustos na inferência de expectativas sociais, essenciais para a colaboração homem-máquina. Futuramente, podemos ver aplicações do NormGym na criação de IAs mais seguras e éticas, capazes de operar em cenários não mapeados previamente. A pesquisa pode impulsionar a criação de IAs que não apenas executem tarefas, mas que também compreendam o \"porquê\" por trás de certas regras, um nível de compreensão que ainda é um desafio significativo. Para um aprofundamento nos detalhes técnicos e nas métricas de avaliação, consulte o <a href=\"https://arxiv.org/abs/2611.08613\" target=\"_blank\" rel=\"external noopener\">documento completo</a>. A comunidade de pesquisa em IA terá um novo ponto de referência para testar e comparar abordagens para a competência normativa.</p>",
+  "tags": [
+    "inteligencia artificial",
+    "benchmark",
+    "normas sociais"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "competencia normativa",
+    "agentes multiagente",
+    "aprendizado social",
+    "IA e sociedade"
+  ],
+  "meta_description_seo": "NormGym, novo benchmark, avalia competência normativa de IA em aprender regras sociais a partir de interações em comunidades multiagente.",
+  "faq": [
+    {
+      "q": "O que é competência normativa em IA?",
+      "a": "Competência normativa é a capacidade de um agente de IA inferir expectativas sociais impostas por uma comunidade a partir de interações e ajustar seu comportamento de acordo."
+    },
+    {
+      "q": "Qual a principal diferença do NormGym para avaliações anteriores?",
+      "a": "O NormGym foca em como agentes de IA adquirem normas desconhecidas através da interação, em vez de apenas testar se eles reconhecem ou aplicam normas que já conhecem."
+    },
+    {
+      "q": "Quais habilidades o NormGym testa nos agentes de IA?",
+      "a": "Ele avalia a habilidade de distinguir o que é possível do que é permitido, inferir normas a partir de comportamentos e sanções, e aplicar essas normas em novas situações."
+    }
+  ],
+  "written_at": "2026-11-09T09:32:12.176Z",
+  "slug": "normgym-novo-benchmark-avalia-capacidade-de-ia-em-aprender-normas-sociais",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

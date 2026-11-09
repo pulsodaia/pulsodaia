@@ -1,0 +1,52 @@
+{
+  "id": "oai:arXiv.org:2611.08626v1",
+  "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+  "url": "https://arxiv.org/abs/2611.08626",
+  "summary": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annual dollar usage, while multi-criteria inventory classification (MCIC) methods extend this but still depend on structured quantitative data and do not utilize unstructured information available in modern supply chains. This paper proposes an LLM-based feature extraction approach that transforms unstructured sources such as customer reviews into quantitative features using vector embeddings and LLM-generated evaluation criteria. The enriched feature set is incorporated into an MCIC framework based on the Hadi-Vencheh model. Experimental results show measurable reclassification effects when customer sentiment signals are included, demonstrating that integrating unstructured data into MCIC can enhance inventory pri",
+  "published_at": "Mon, 09 Nov 2026 00:00:00 -0500",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Generativa Transforma Gestão de Estoques com Dados Não Estruturados",
+  "subtitle": "Modelos de linguagem abrem caminho para classificação de itens mais precisa em e-commerces brasileiros.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores apresentaram um método inovador para extrair valor de dados de feedback de clientes e outras informações não estruturadas, utilizando Large Language Models (LLMs). A abordagem visa aprimorar a classificação de inventário, indo além das métricas tradicionais.",
+  "body_markdown": "## O que aconteceu\n\nUm novo artigo publicado no arXiv, intitulado \"LLM-Based Feature Extraction for Multi-Criteria Inventory Classification\", detalha uma metodologia que emprega LLMs para transformar dados não estruturados em características quantitativas. Fontes como avaliações de clientes, que antes eram subutilizadas na gestão de estoques, agora podem ser convertidas em dados acionáveis. A técnica utiliza vector embeddings e critérios de avaliação gerados por LLM para enriquecer o conjunto de dados. Esse conjunto de dados aprimorado é então incorporado a um framework de classificação multicritério de inventário (MCIC), baseado no modelo de Hadi-Vencheh. A pesquisa demonstra como essa abordagem supera as limitações das técnicas convencionais, como a análise ABC, que se baseia predominantemente no valor monetário anual, e os métodos MCIC existentes, que dependem de dados quantitativos estruturados. O trabalho pode ser consultado em [arXiv:2611.08626](https://arxiv.org/abs/2611.08626).\n\n## Por que importa\n\nPara o mercado brasileiro de e-commerce, a capacidade de gerenciar estoques de forma mais eficiente é crucial. A maioria das empresas no país lida com um volume crescente de dados de clientes e operações, mas a dificuldade em processar informações não estruturadas limita a precisão na classificação de inventário. Métodos tradicionais de classificação, focados apenas em valor monetário ou dados quantitativos, podem levar a decisões subótimas, resultando em excesso ou falta de estoque. A aplicação de LLMs para extrair insights de avaliações de produtos, por exemplo, pode revelar padrões de demanda, problemas de qualidade ou preferências de consumidores que não são capturados por métricas financeiras. Isso permite uma alocação de recursos mais inteligente, otimização de níveis de estoque e, consequentemente, melhoria na satisfação do cliente e redução de custos operacionais. Empresas brasileiras que adotarem essa tecnologia poderão ganhar uma vantagem competitiva significativa.\n\n## O que esperar\n\nA tendência é que a integração de LLMs na gestão de cadeias de suprimentos se torne mais comum. Espera-se que novas ferramentas e plataformas surjam, facilitando a implementação dessa abordagem para empresas de todos os portes. A pesquisa abre portas para a exploração de outros tipos de dados não estruturados, como transcrições de chamadas de atendimento ao cliente ou interações em redes sociais, para refinar ainda mais a classificação de inventário. O desenvolvimento de LLMs mais especializados para tarefas de análise de negócios e logística também é uma possibilidade futura. A pesquisa em [arXiv:2611.08626](https://arxiv.org/abs/2611.08626) sugere que a combinação de IA generativa com modelos analíticos robustos é o caminho para a próxima geração de sistemas de gestão de estoque. A evolução contínua dessa área promete otimizar significativamente as operações logísticas em um cenário de comércio eletrônico cada vez mais dinâmico.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo artigo publicado no arXiv, intitulado \"LLM-Based Feature Extraction for Multi-Criteria Inventory Classification\", detalha uma metodologia que emprega LLMs para transformar dados não estruturados em características quantitativas. Fontes como avaliações de clientes, que antes eram subutilizadas na gestão de estoques, agora podem ser convertidas em dados acionáveis. A técnica utiliza vector embeddings e critérios de avaliação gerados por LLM para enriquecer o conjunto de dados. Esse conjunto de dados aprimorado é então incorporado a um framework de classificação multicritério de inventário (MCIC), baseado no modelo de Hadi-Vencheh. A pesquisa demonstra como essa abordagem supera as limitações das técnicas convencionais, como a análise ABC, que se baseia predominantemente no valor monetário anual, e os métodos MCIC existentes, que dependem de dados quantitativos estruturados. O trabalho pode ser consultado em <a href=\"https://arxiv.org/abs/2611.08626\" target=\"_blank\" rel=\"external noopener\">arXiv:2611.08626</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de e-commerce, a capacidade de gerenciar estoques de forma mais eficiente é crucial. A maioria das empresas no país lida com um volume crescente de dados de clientes e operações, mas a dificuldade em processar informações não estruturadas limita a precisão na classificação de inventário. Métodos tradicionais de classificação, focados apenas em valor monetário ou dados quantitativos, podem levar a decisões subótimas, resultando em excesso ou falta de estoque. A aplicação de LLMs para extrair insights de avaliações de produtos, por exemplo, pode revelar padrões de demanda, problemas de qualidade ou preferências de consumidores que não são capturados por métricas financeiras. Isso permite uma alocação de recursos mais inteligente, otimização de níveis de estoque e, consequentemente, melhoria na satisfação do cliente e redução de custos operacionais. Empresas brasileiras que adotarem essa tecnologia poderão ganhar uma vantagem competitiva significativa.</p>\n\n<h2>O que esperar</h2>\n\n<p>A tendência é que a integração de LLMs na gestão de cadeias de suprimentos se torne mais comum. Espera-se que novas ferramentas e plataformas surjam, facilitando a implementação dessa abordagem para empresas de todos os portes. A pesquisa abre portas para a exploração de outros tipos de dados não estruturados, como transcrições de chamadas de atendimento ao cliente ou interações em redes sociais, para refinar ainda mais a classificação de inventário. O desenvolvimento de LLMs mais especializados para tarefas de análise de negócios e logística também é uma possibilidade futura. A pesquisa em <a href=\"https://arxiv.org/abs/2611.08626\" target=\"_blank\" rel=\"external noopener\">arXiv:2611.08626</a> sugere que a combinação de IA generativa com modelos analíticos robustos é o caminho para a próxima geração de sistemas de gestão de estoque. A evolução contínua dessa área promete otimizar significativamente as operações logísticas em um cenário de comércio eletrônico cada vez mais dinâmico.</p>",
+  "tags": [
+    "ia",
+    "gestao de estoque",
+    "llm"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Inteligência Artificial",
+    "LLM",
+    "Gestão de Estoques",
+    "E-commerce",
+    "Cadeia de Suprimentos",
+    "Classificação de Inventário",
+    "Dados Não Estruturados"
+  ],
+  "meta_description_seo": "IA generativa via LLMs aprimora gestão de estoques em e-commerces, transformando feedback de clientes em dados acionáveis para classificação multicritério.",
+  "faq": [
+    {
+      "q": "Como LLMs podem ajudar na gestão de estoque?",
+      "a": "LLMs podem extrair características quantitativas de dados não estruturados, como avaliações de clientes. Essas características enriquecem a análise para uma classificação de inventário mais precisa."
+    },
+    {
+      "q": "Qual a limitação das técnicas tradicionais de gestão de estoque?",
+      "a": "Métodos como a análise ABC focam apenas no valor monetário anual. Outras técnicas multicritério dependem de dados quantitativos estruturados, ignorando informações valiosas em textos."
+    },
+    {
+      "q": "Que tipo de dados não estruturados podem ser usados?",
+      "a": "O artigo menciona especificamente avaliações de clientes. Futuramente, outras fontes como transcrições de atendimento e interações em redes sociais podem ser exploradas."
+    }
+  ],
+  "written_at": "2026-11-09T09:32:22.501Z",
+  "slug": "ia-generativa-transforma-gestao-de-estoques-com-dados-nao-estruturados",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
