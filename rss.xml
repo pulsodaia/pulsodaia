@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 08 Nov 2026 21:59:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 01:41:27 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Investigação na Nvidia: CEO Jensen Huang sob escrutínio por relacionamento com executiva chinesa</title>
+      <link>https://pulsodaia.com.br/feed/investigacao-na-nvidia-ceo-jensen-huang-sob-escrutinio-por-relacionamento-com-ex/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/investigacao-na-nvidia-ceo-jensen-huang-sob-escrutinio-por-relacionamento-com-ex/</guid>
+      <pubDate>Mon, 09 Nov 2026 01:34:02 GMT</pubDate>
+      <description>O caso levanta questões sobre governança corporativa e a complexa relação entre tecnologia e geopolítica.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia">The Verge AI</source>
+    </item>
     <item>
       <title>Apple Acelera Siri: A Corrida Por Um Assistente Mais Inteligente</title>
       <link>https://pulsodaia.com.br/feed/apple-acelera-siri-a-corrida-por-um-assistente-mais-inteligente/</link>
@@ -448,15 +457,6 @@
       <description>A plataforma de IA anuncia novas ferramentas para agilizar a implementação de modelos avançados em aplicações empresariais.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/transformers-mic">Hugging Face</source>
-    </item>
-    <item>
-      <title>Claude Reforça Segurança e Transparência em Novas Atualizações</title>
-      <link>https://pulsodaia.com.br/feed/claude-reforca-seguranca-e-transparencia-em-novas-atualizacoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-reforca-seguranca-e-transparencia-em-novas-atualizacoes/</guid>
-      <pubDate>Tue, 03 Nov 2026 03:24:43 GMT</pubDate>
-      <description>Novas funcionalidades buscam proteger dados do usuário e clareza em interações com ferramentas.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.317">Claude Code</source>
     </item>
   </channel>
 </rss>
