@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 09 Nov 2026 20:43:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 04:08:03 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Jensen Huang teria contratado firma de RP especializada em escândalos sexuais há um ano</title>
+      <link>https://pulsodaia.com.br/feed/jensen-huang-teria-contratado-firma-de-rp-especializada-em-escandalos-sexuais-ha/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/jensen-huang-teria-contratado-firma-de-rp-especializada-em-escandalos-sexuais-ha/</guid>
+      <pubDate>Tue, 10 Nov 2026 04:01:24 GMT</pubDate>
+      <description>Ação ocorre após reportagem sobre relações de Alice Huang com o CEO da Nvidia.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Anthropic Prepara Caminho Para IPO, Define Avaliação Nesta Semana</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-prepara-caminho-para-ipo-define-avaliacao-nesta-semana/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-prepara-caminho-para-ipo-define-avaliacao-nesta-semana/</guid>
+      <pubDate>Tue, 10 Nov 2026 04:01:13 GMT</pubDate>
+      <description>A gigante da IA avança em planos de abertura de capital, sinalizando maturidade no setor.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code Acelera Processamento em Nuvem com Novo Modo Rápido na Vertex AI</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-acelera-processamento-em-nuvem-com-novo-modo-rapido-na-vertex-ai/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-acelera-processamento-em-nuvem-com-novo-modo-rapido-na-vertex-ai/</guid>
+      <pubDate>Tue, 10 Nov 2026 04:01:02 GMT</pubDate>
+      <description>Atualização da Anthropic visa otimizar a performance de modelos de linguagem em infraestruturas de nuvem globais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.322">Claude Code</source>
+    </item>
     <item>
       <title>Claude Code V2.1.321 Atualiza Modelo Fable e Refina Controle de Sessão</title>
       <link>https://pulsodaia.com.br/feed/claude-code-v2-1-321-atualiza-modelo-fable-e-refina-controle-de-sessao/</link>
@@ -430,33 +457,6 @@
       <description>Nova ferramenta da Hugging Face promete simplificar a conversão de texto não estruturado para JSON.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/Dharma-AI/dharma-field-extractor">Hugging Face</source>
-    </item>
-    <item>
-      <title>Gigantes da Tecnologia Recorrem a Motores de Avião para Energia de Data Centers</title>
-      <link>https://pulsodaia.com.br/feed/gigantes-da-tecnologia-recorrem-a-motores-de-aviao-para-energia-de-data-centers/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gigantes-da-tecnologia-recorrem-a-motores-de-aviao-para-energia-de-data-centers/</guid>
-      <pubDate>Wed, 04 Nov 2026 00:31:17 GMT</pubDate>
-      <description>A escassez de energia na rede força soluções incomuns na corrida pela infraestrutura de IA.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Cria Sistema para Autenticar Respostas de IA</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-cria-sistema-para-autenticar-respostas-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-cria-sistema-para-autenticar-respostas-de-ia/</guid>
-      <pubDate>Wed, 04 Nov 2026 00:31:08 GMT</pubDate>
-      <description>A iniciativa visa combater a desinformação e garantir a procedência de conteúdos gerados por inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Refina Funcionalidades com Foco em Acompanhamento e Custos</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-refina-funcionalidades-com-foco-em-acompanhamento-e-custos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-refina-funcionalidades-com-foco-em-acompanhamento-e-custos/</guid>
-      <pubDate>Wed, 04 Nov 2026 00:30:57 GMT</pubDate>
-      <description>Atualizações na ferramenta de código da Anthropic visam maior controle para desenvolvedores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.318">Claude Code</source>
     </item>
   </channel>
 </rss>

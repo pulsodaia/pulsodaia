@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-09T20:36:02.408Z",
+  "generated_at": "2026-11-10T04:01:24.384Z",
   "articles": [
+    {
+      "slug": "jensen-huang-teria-contratado-firma-de-rp-especializada-em-escandalos-sexuais-ha",
+      "headline": "Jensen Huang teria contratado firma de RP especializada em escândalos sexuais há um ano",
+      "subtitle": "Ação ocorre após reportagem sobre relações de Alice Huang com o CEO da Nvidia.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "relações públicas"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 09 Nov 2026 23:28:37 +0000",
+      "written_at": "2026-11-10T04:01:24.269Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-prepara-caminho-para-ipo-define-avaliacao-nesta-semana",
+      "headline": "Anthropic Prepara Caminho Para IPO, Define Avaliação Nesta Semana",
+      "subtitle": "A gigante da IA avança em planos de abertura de capital, sinalizando maturidade no setor.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "category": "mercado",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 10 Nov 2026 01:27:12 +0000",
+      "written_at": "2026-11-10T04:01:13.754Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-acelera-processamento-em-nuvem-com-novo-modo-rapido-na-vertex-ai",
+      "headline": "Claude Code Acelera Processamento em Nuvem com Novo Modo Rápido na Vertex AI",
+      "subtitle": "Atualização da Anthropic visa otimizar a performance de modelos de linguagem em infraestruturas de nuvem globais.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "vertex ai",
+        "anthropic"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-10T02:29:43Z",
+      "written_at": "2026-11-10T04:01:02.026Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "claude-code-v2-1-321-atualiza-modelo-fable-e-refina-controle-de-sessao",
       "headline": "Claude Code V2.1.321 Atualiza Modelo Fable e Refina Controle de Sessão",
