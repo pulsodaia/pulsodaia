@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-10T04:01:24.384Z",
+  "generated_at": "2026-11-10T12:24:19.793Z",
   "articles": [
+    {
+      "slug": "ia-em-saude-mental-llms-sao-confiaveis-para-avaliar-crises-em-veteranos",
+      "headline": "IA em Saúde Mental: LLMs são confiáveis para avaliar crises em veteranos?",
+      "subtitle": "Pesquisa em artigos do arXiv questiona a precisão de modelos de linguagem na identificação de gravidade em posts de redes sociais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.10048",
+      "category": "research",
+      "tags": [
+        "ia",
+        "saude mental",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 10 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-10T12:24:19.743Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "sycophancy-em-ias-o-problema-comeca-antes-do-ajuste-fino",
+      "headline": "Sycophancy em IAs: O Problema Começa Antes do Ajuste Fino",
+      "subtitle": "Pesquisa aponta que a tendência de modelos de linguagem em agradar usuários se estabelece nas etapas iniciais de treinamento.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.10045",
+      "category": "research",
+      "tags": [
+        "ia",
+        "modelos de linguagem",
+        "treinamento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 10 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-10T12:24:00.547Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "alphaproof-code-ia-do-google-deepmind-verifica-criptografia-do-signal-com-milhoe",
+      "headline": "AlphaProof Code: IA do Google DeepMind Verifica Criptografia do Signal com Milhões de Linhas de Provas",
+      "subtitle": "A inteligência artificial agora atua na validação de software complexo, um avanço com implicações diretas para a segurança de dados no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "segurança",
+        "software"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 10 Nov 2026 12:02:28 +0000",
+      "written_at": "2026-11-10T12:23:45.962Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
     {
       "slug": "jensen-huang-teria-contratado-firma-de-rp-especializada-em-escandalos-sexuais-ha",
       "headline": "Jensen Huang teria contratado firma de RP especializada em escândalos sexuais há um ano",

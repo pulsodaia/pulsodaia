@@ -1,0 +1,52 @@
+{
+  "id": "oai:arXiv.org:2611.10048v1",
+  "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
+  "url": "https://arxiv.org/abs/2611.10048",
+  "summary": "arXiv:2611.10048v1 Announce Type: new Abstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This study evaluates LLM-based crisis-severity annotation of veteran-related social media posts against annotations from eight Veteran Subject Matter Experts (SMEs). Using 149 tweets and five severity categories, we evaluate 15 open-source and 10 proprietary LLMs across eight prompt variants, examining annotation performance, inter-model agreement, prompt sensitivity, and high-severity crisis detection. Human reviewers showed higher ordinal than nominal agreement ({\\alpha} = 0.494), indicating that disagreements often occurred between neighboring severity levels. In contrast, selected LLMs demonstrated substantially higher inter-model consistency, with ordinal agreement ({\\alpha}) reaching 0.8336 under the baseline prompt. Proprietary models generally s",
+  "published_at": "Tue, 10 Nov 2026 00:00:00 -0500",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA em Saúde Mental: LLMs são confiáveis para avaliar crises em veteranos?",
+  "subtitle": "Pesquisa em artigos do arXiv questiona a precisão de modelos de linguagem na identificação de gravidade em posts de redes sociais.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Um estudo divulgado no arXiv compara a capacidade de Large Language Models (LLMs) em identificar a gravidade de crises de saúde mental em posts de redes sociais de veteranos com a de especialistas humanos. A confiabilidade dessas ferramentas em tarefas críticas para a segurança é o foco da investigação.",
+  "body_markdown": "## O que aconteceu\n\nA avaliação da saúde mental e de conteúdos de crise em redes sociais por meio de Large Language Models (LLMs) surge como uma abordagem escalável. No entanto, a confiabilidade desses modelos em tarefas de alta criticidade para a segurança ainda carece de clareza. Uma pesquisa recente, disponível no [arXiv cs.AI](https://arxiv.org/abs/2611.10048), buscou responder a essa questão. O estudo avaliou a anotação de gravidade de crises em posts de mídias sociais relacionados a veteranos, utilizando LLMs e comparando os resultados com as anotações de oito especialistas em assuntos de veteranos (SMEs). Foram analisados 149 tweets divididos em cinco categorias de gravidade. Quinze LLMs open-source e dez proprietários foram testados sob oito variações de prompts. A pesquisa examinou o desempenho da anotação, a concordância entre os modelos, a sensibilidade aos prompts e a capacidade de detecção de crises de alta gravidade. Os especialistas humanos apresentaram maior concordância ordinal do que nominal ({\\alpha} = 0.494), indicando que as discordâncias frequentemente ocorreram entre categorias de gravidade adjacentes.\n\n## Por que importa\n\nA potencial aplicação de LLMs na triagem e identificação de indivíduos em risco de saúde mental, especialmente em populações vulneráveis como veteranos, é vasta. No Brasil, onde a demanda por serviços de saúde mental é crescente e os recursos podem ser limitados, ferramentas que agilizem a identificação de crises podem ser cruciais. Uma melhor compreensão da concordância entre LLMs e especialistas humanos é essencial para determinar se essas tecnologias podem ser integradas de forma segura e eficaz em sistemas de apoio. A pesquisa sugere que, embora os LLMs possam oferecer escalabilidade, a nuance na avaliação de gravidade, especialmente em contextos sensíveis como o de veteranos, ainda é um desafio. A concordância entre especialistas humanos, que também não é perfeita, serve como um benchmark importante para o desenvolvimento e validação de LLMs. A pesquisa levanta questões sobre a robustez dos modelos em capturar a complexidade das expressões de sofrimento e a necessidade de validação rigorosa antes da implementação em larga escala.\n\n## O que esperar\n\nOs resultados deste estudo indicam que, embora os LLMs apresentem potencial para auxiliar na anotação de conteúdo relacionado a crises de saúde mental, a sua precisão e concordância com especialistas humanos variam consideravelmente. A sensibilidade dos modelos a diferentes prompts também é um fator chave a ser explorado para otimizar seu desempenho. Futuras pesquisas podem focar em refinar os prompts e treinar modelos específicos para domínios de saúde mental, visando aumentar a concordância com avaliações humanas. A busca por LLMs que demonstrem alta concordância em tarefas de segurança crítica, como a detecção de crises severas, é um passo fundamental. A pesquisa em [avaliação de LLMs para saúde mental](https://arxiv.org/abs/2611.10048) continuará a ser um campo ativo, com o objetivo de desenvolver ferramentas confiáveis e éticas para apoiar a saúde mental da população. A validação contínua contra o julgamento de especialistas humanos será indispensável.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A avaliação da saúde mental e de conteúdos de crise em redes sociais por meio de Large Language Models (LLMs) surge como uma abordagem escalável. No entanto, a confiabilidade desses modelos em tarefas de alta criticidade para a segurança ainda carece de clareza. Uma pesquisa recente, disponível no <a href=\"https://arxiv.org/abs/2611.10048\" target=\"_blank\" rel=\"external noopener\">arXiv cs.AI</a>, buscou responder a essa questão. O estudo avaliou a anotação de gravidade de crises em posts de mídias sociais relacionados a veteranos, utilizando LLMs e comparando os resultados com as anotações de oito especialistas em assuntos de veteranos (SMEs). Foram analisados 149 tweets divididos em cinco categorias de gravidade. Quinze LLMs open-source e dez proprietários foram testados sob oito variações de prompts. A pesquisa examinou o desempenho da anotação, a concordância entre os modelos, a sensibilidade aos prompts e a capacidade de detecção de crises de alta gravidade. Os especialistas humanos apresentaram maior concordância ordinal do que nominal ({\\alpha} = 0.494), indicando que as discordâncias frequentemente ocorreram entre categorias de gravidade adjacentes.</p>\n\n<h2>Por que importa</h2>\n\n<p>A potencial aplicação de LLMs na triagem e identificação de indivíduos em risco de saúde mental, especialmente em populações vulneráveis como veteranos, é vasta. No Brasil, onde a demanda por serviços de saúde mental é crescente e os recursos podem ser limitados, ferramentas que agilizem a identificação de crises podem ser cruciais. Uma melhor compreensão da concordância entre LLMs e especialistas humanos é essencial para determinar se essas tecnologias podem ser integradas de forma segura e eficaz em sistemas de apoio. A pesquisa sugere que, embora os LLMs possam oferecer escalabilidade, a nuance na avaliação de gravidade, especialmente em contextos sensíveis como o de veteranos, ainda é um desafio. A concordância entre especialistas humanos, que também não é perfeita, serve como um benchmark importante para o desenvolvimento e validação de LLMs. A pesquisa levanta questões sobre a robustez dos modelos em capturar a complexidade das expressões de sofrimento e a necessidade de validação rigorosa antes da implementação em larga escala.</p>\n\n<h2>O que esperar</h2>\n\n<p>Os resultados deste estudo indicam que, embora os LLMs apresentem potencial para auxiliar na anotação de conteúdo relacionado a crises de saúde mental, a sua precisão e concordância com especialistas humanos variam consideravelmente. A sensibilidade dos modelos a diferentes prompts também é um fator chave a ser explorado para otimizar seu desempenho. Futuras pesquisas podem focar em refinar os prompts e treinar modelos específicos para domínios de saúde mental, visando aumentar a concordância com avaliações humanas. A busca por LLMs que demonstrem alta concordância em tarefas de segurança crítica, como a detecção de crises severas, é um passo fundamental. A pesquisa em <a href=\"https://arxiv.org/abs/2611.10048\" target=\"_blank\" rel=\"external noopener\">avaliação de LLMs para saúde mental</a> continuará a ser um campo ativo, com o objetivo de desenvolver ferramentas confiáveis e éticas para apoiar a saúde mental da população. A validação contínua contra o julgamento de especialistas humanos será indispensável.</p>",
+  "tags": [
+    "ia",
+    "saude mental",
+    "llm"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.8,
+  "seo_keywords": [
+    "inteligência artificial",
+    "saúde mental",
+    "veteranos",
+    "LLM",
+    "anotação de dados",
+    "redes sociais",
+    "arXiv"
+  ],
+  "meta_description_seo": "Estudo em artigos do arXiv compara LLMs e especialistas humanos na avaliação de crises de saúde mental em posts de veteranos.",
+  "faq": [
+    {
+      "q": "LLMs podem identificar crises de saúde mental em veteranos de forma confiável?",
+      "a": "Um estudo recente no arXiv avaliou LLMs na identificação de gravidade de crises em posts de veteranos. Os resultados mostraram que a concordância com especialistas humanos varia, e a precisão ainda é um ponto de investigação."
+    },
+    {
+      "q": "Qual a principal dificuldade na avaliação de crises de saúde mental por IA?",
+      "a": "A principal dificuldade reside na nuance e complexidade da expressão do sofrimento humano, especialmente em populações sensíveis como veteranos. Garantir que os LLMs capturem essa complexidade de forma confiável é um desafio."
+    },
+    {
+      "q": "O que o estudo sugere para o futuro da IA em saúde mental?",
+      "a": "O estudo sugere que LLMs têm potencial, mas requerem otimização de prompts e treinamento específico. A validação contínua contra avaliações humanas é essencial para o desenvolvimento de ferramentas seguras e eficazes."
+    }
+  ],
+  "written_at": "2026-11-10T12:24:19.743Z",
+  "slug": "ia-em-saude-mental-llms-sao-confiaveis-para-avaliar-crises-em-veteranos",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

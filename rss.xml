@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 10 Nov 2026 04:08:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 12:38:19 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IA em Saúde Mental: LLMs são confiáveis para avaliar crises em veteranos?</title>
+      <link>https://pulsodaia.com.br/feed/ia-em-saude-mental-llms-sao-confiaveis-para-avaliar-crises-em-veteranos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-saude-mental-llms-sao-confiaveis-para-avaliar-crises-em-veteranos/</guid>
+      <pubDate>Tue, 10 Nov 2026 12:24:19 GMT</pubDate>
+      <description>Pesquisa em artigos do arXiv questiona a precisão de modelos de linguagem na identificação de gravidade em posts de redes sociais.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2611.10048">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Sycophancy em IAs: O Problema Começa Antes do Ajuste Fino</title>
+      <link>https://pulsodaia.com.br/feed/sycophancy-em-ias-o-problema-comeca-antes-do-ajuste-fino/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/sycophancy-em-ias-o-problema-comeca-antes-do-ajuste-fino/</guid>
+      <pubDate>Tue, 10 Nov 2026 12:24:00 GMT</pubDate>
+      <description>Pesquisa aponta que a tendência de modelos de linguagem em agradar usuários se estabelece nas etapas iniciais de treinamento.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2611.10045">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>AlphaProof Code: IA do Google DeepMind Verifica Criptografia do Signal com Milhões de Linhas de Provas</title>
+      <link>https://pulsodaia.com.br/feed/alphaproof-code-ia-do-google-deepmind-verifica-criptografia-do-signal-com-milhoe/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/alphaproof-code-ia-do-google-deepmind-verifica-criptografia-do-signal-com-milhoe/</guid>
+      <pubDate>Tue, 10 Nov 2026 12:23:45 GMT</pubDate>
+      <description>A inteligência artificial agora atua na validação de software complexo, um avanço com implicações diretas para a segurança de dados no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/introducing-alphaproof-code/">Google DeepMind</source>
+    </item>
     <item>
       <title>Jensen Huang teria contratado firma de RP especializada em escândalos sexuais há um ano</title>
       <link>https://pulsodaia.com.br/feed/jensen-huang-teria-contratado-firma-de-rp-especializada-em-escandalos-sexuais-ha/</link>
@@ -430,33 +457,6 @@
       <description>A plataforma MCP avança com atualizações em componentes chave para gerenciamento de contexto em IA.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0">MCP Spec</source>
-    </item>
-    <item>
-      <title>CARD: Nova Interface Garante Confiabilidade em Ações Robóticas Baseadas em Dados</title>
-      <link>https://pulsodaia.com.br/feed/card-nova-interface-garante-confiabilidade-em-acoes-roboticas-baseadas-em-dados/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/card-nova-interface-garante-confiabilidade-em-acoes-roboticas-baseadas-em-dados/</guid>
-      <pubDate>Wed, 04 Nov 2026 17:54:17 GMT</pubDate>
-      <description>Pesquisa em IA avança na conexão entre provas matemáticas e execução física de robôs.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.03651">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Simula Conformidade: Alinhamento Depende do Valor, Não Apenas do Modelo</title>
-      <link>https://pulsodaia.com.br/feed/ia-simula-conformidade-alinhamento-depende-do-valor-nao-apenas-do-modelo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-simula-conformidade-alinhamento-depende-do-valor-nao-apenas-do-modelo/</guid>
-      <pubDate>Wed, 04 Nov 2026 17:54:05 GMT</pubDate>
-      <description>Novas pesquisas indicam que a capacidade de modelos de linguagem em seguir diretrizes pode variar drasticamente conforme o tipo de valor em jogo.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.03650">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Dharma Field Extractor: Extração Estruturada de Dados de Documentos</title>
-      <link>https://pulsodaia.com.br/feed/dharma-field-extractor-extracao-estruturada-de-dados-de-documentos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/dharma-field-extractor-extracao-estruturada-de-dados-de-documentos/</guid>
-      <pubDate>Wed, 04 Nov 2026 17:53:53 GMT</pubDate>
-      <description>Nova ferramenta da Hugging Face promete simplificar a conversão de texto não estruturado para JSON.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/Dharma-AI/dharma-field-extractor">Hugging Face</source>
     </item>
   </channel>
 </rss>
