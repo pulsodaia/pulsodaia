@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 10 Nov 2026 12:38:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 20:52:53 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google Cloud Lança Gemini para Saúde com Foco em Dados Clínicos e Fluxos de Trabalho</title>
+      <link>https://pulsodaia.com.br/feed/google-cloud-lanca-gemini-para-saude-com-foco-em-dados-clinicos-e-fluxos-de-trab/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-cloud-lanca-gemini-para-saude-com-foco-em-dados-clinicos-e-fluxos-de-trab/</guid>
+      <pubDate>Tue, 10 Nov 2026 20:45:28 GMT</pubDate>
+      <description>A nova ferramenta busca otimizar a gestão de informações de saúde e reduzir a carga administrativa no setor.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/">Google AI</source>
+    </item>
+    <item>
+      <title>Google e Adobe Unem Forças: Ferramentas Criativas e Produtividade Integradas a Aplicativos Google</title>
+      <link>https://pulsodaia.com.br/feed/google-e-adobe-unem-forcas-ferramentas-criativas-e-produtividade-integradas-a-ap/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-e-adobe-unem-forcas-ferramentas-criativas-e-produtividade-integradas-a-ap/</guid>
+      <pubDate>Tue, 10 Nov 2026 20:45:18 GMT</pubDate>
+      <description>A colaboração promete simplificar fluxos de trabalho para milhões de usuários no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/">Google AI</source>
+    </item>
+    <item>
+      <title>Google Expande Gemini Intelligence para Mais Dispositivos</title>
+      <link>https://pulsodaia.com.br/feed/google-expande-gemini-intelligence-para-mais-dispositivos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-expande-gemini-intelligence-para-mais-dispositivos/</guid>
+      <pubDate>Tue, 10 Nov 2026 20:45:08 GMT</pubDate>
+      <description>O avanço busca integrar a inteligência artificial de forma mais profunda no dia a dia dos usuários brasileiros.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/">Google AI</source>
+    </item>
     <item>
       <title>IA em Saúde Mental: LLMs são confiáveis para avaliar crises em veteranos?</title>
       <link>https://pulsodaia.com.br/feed/ia-em-saude-mental-llms-sao-confiaveis-para-avaliar-crises-em-veteranos/</link>
@@ -430,33 +457,6 @@
       <description>Estudo aponta para mecanismos de controle mais eficientes em fluxos de trabalho de inteligência artificial.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2611.05390">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Nothing Anuncia Dispositivo Focado em IA para o Próximo Mês</title>
-      <link>https://pulsodaia.com.br/feed/nothing-anuncia-dispositivo-focado-em-ia-para-o-proximo-mes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nothing-anuncia-dispositivo-focado-em-ia-para-o-proximo-mes/</guid>
-      <pubDate>Wed, 04 Nov 2026 23:29:26 GMT</pubDate>
-      <description>Startup de tecnologia promete nova abordagem em produtividade através de inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>PACs de IA Investem Milhões para Influenciar o Congresso dos EUA com Resultados Mistos</title>
-      <link>https://pulsodaia.com.br/feed/pacs-de-ia-investem-milhoes-para-influenciar-o-congresso-dos-eua-com-resultados-/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/pacs-de-ia-investem-milhoes-para-influenciar-o-congresso-dos-eua-com-resultados-/</guid>
-      <pubDate>Wed, 04 Nov 2026 23:29:17 GMT</pubDate>
-      <description>A influência do setor de inteligência artificial na política americana busca consolidar suas posições para o futuro.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Model Context Protocol Atualiza Servidores com Novas Versões de Pacotes</title>
-      <link>https://pulsodaia.com.br/feed/model-context-protocol-atualiza-servidores-com-novas-versoes-de-pacotes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/model-context-protocol-atualiza-servidores-com-novas-versoes-de-pacotes/</guid>
-      <pubDate>Wed, 04 Nov 2026 23:29:06 GMT</pubDate>
-      <description>A plataforma MCP avança com atualizações em componentes chave para gerenciamento de contexto em IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0">MCP Spec</source>
     </item>
   </channel>
 </rss>
