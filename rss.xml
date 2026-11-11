@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 10 Nov 2026 20:52:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 01:55:01 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nova Lei de IA em Nova York Exige Transparência de Gigantes como OpenAI e Anthropic</title>
+      <link>https://pulsodaia.com.br/feed/nova-lei-de-ia-em-nova-york-exige-transparencia-de-gigantes-como-openai-e-anthro/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-lei-de-ia-em-nova-york-exige-transparencia-de-gigantes-como-openai-e-anthro/</guid>
+      <pubDate>Wed, 11 Nov 2026 01:48:06 GMT</pubDate>
+      <description>Regulamentação pioneira impõe obrigações de segurança e reporte a desenvolvedores de IA no estado americano.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>OpenAI Compra Startup de Viagens Odessia, Fundada por Ex-CEO da Sonder</title>
+      <link>https://pulsodaia.com.br/feed/openai-compra-startup-de-viagens-odessia-fundada-por-ex-ceo-da-sonder/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-compra-startup-de-viagens-odessia-fundada-por-ex-ceo-da-sonder/</guid>
+      <pubDate>Wed, 11 Nov 2026 01:47:56 GMT</pubDate>
+      <description>Movimento sinaliza possível expansão da empresa de IA para o setor de turismo.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Google Cloud Lança Gemini para Saúde com Foco em Dados Clínicos e Fluxos de Trabalho</title>
       <link>https://pulsodaia.com.br/feed/google-cloud-lanca-gemini-para-saude-com-foco-em-dados-clinicos-e-fluxos-de-trab/</link>
@@ -439,24 +457,6 @@
       <description>Pesquisadores abordam a dificuldade em prever o consumo de infraestrutura por sistemas de IA que operam em múltiplos passos.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2611.05392">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Generativa: Controle Operacional Garante Execuções Confiáveis</title>
-      <link>https://pulsodaia.com.br/feed/ia-generativa-controle-operacional-garante-execucoes-confiaveis/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-generativa-controle-operacional-garante-execucoes-confiaveis/</guid>
-      <pubDate>Thu, 05 Nov 2026 06:09:00 GMT</pubDate>
-      <description>Pesquisa aborda a "cegueira operacional" em agentes de IA e propõe solução para maior segurança.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.05391">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Revisão de IA: O Poder de Decisão em Sistemas Multiagentes</title>
-      <link>https://pulsodaia.com.br/feed/revisao-de-ia-o-poder-de-decisao-em-sistemas-multiagentes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/revisao-de-ia-o-poder-de-decisao-em-sistemas-multiagentes/</guid>
-      <pubDate>Thu, 05 Nov 2026 06:08:49 GMT</pubDate>
-      <description>Estudo aponta para mecanismos de controle mais eficientes em fluxos de trabalho de inteligência artificial.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.05390">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
