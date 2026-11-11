@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-11T01:48:06.515Z",
+  "generated_at": "2026-11-11T09:08:48.654Z",
   "articles": [
+    {
+      "slug": "ia-autonoma-executa-experimentos-cientificos-em-sincrotron",
+      "headline": "IA Autônoma Executa Experimentos Científicos em Síncrotron",
+      "subtitle": "Pesquisadores demonstram sistemas de IA capazes de conduzir pesquisas complexas em laboratório, abrindo portas para descobertas aceleradas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.12933",
+      "category": "research",
+      "tags": [
+        "ia",
+        "ciencia",
+        "automacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 11 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-11T09:08:48.528Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "botpsy-assistente-pessoal-embarcado-com-modelo-de-linguagem-de-menos-de-1-bilhao",
+      "headline": "BotPsy: Assistente Pessoal Embarcado com Modelo de Linguagem de Menos de 1 Bilhão de Parâmetros",
+      "subtitle": "Nova abordagem para assistentes de IA que operam localmente, sem depender de nuvem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/qvac/botpsy",
+      "category": "opensource",
+      "tags": [
+        "ia embarcada",
+        "assistente pessoal",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 11 Nov 2026 05:01:16 GMT",
+      "written_at": "2026-11-11T09:08:37.823Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-arts-culture-digitaliza-legado-de-esther-mahlangu",
+      "headline": "Google Arts & Culture digitaliza legado de Esther Mahlangu",
+      "subtitle": "Plataforma lança arquivo online da renomada artista sul-africana, expandindo acesso à sua obra.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "category": "google",
+      "tags": [
+        "esther mahlangu",
+        "google arts & culture",
+        "arte africana"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 11 Nov 2026 09:00:00 +0000",
+      "written_at": "2026-11-11T09:08:21.350Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nova-lei-de-ia-em-nova-york-exige-transparencia-de-gigantes-como-openai-e-anthro",
       "headline": "Nova Lei de IA em Nova York Exige Transparência de Gigantes como OpenAI e Anthropic",
