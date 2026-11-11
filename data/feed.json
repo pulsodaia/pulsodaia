@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-11T09:08:48.654Z",
+  "generated_at": "2026-11-11T17:49:36.902Z",
   "articles": [
+    {
+      "slug": "hugging-face-avanca-em-modelos-de-linguagem-com-token-pooling",
+      "headline": "Hugging Face Avança em Modelos de Linguagem com Token Pooling",
+      "subtitle": "Novas técnicas de treinamento prometem otimizar a representação de texto em modelos de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/token-pooling",
+      "category": "opensource",
+      "tags": [
+        "embedding",
+        "treinamento",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 11 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-11T17:49:36.750Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "alphagenome-2-ia-da-deepmind-mapeia-leitura-de-dna-celular-e-doencas",
+      "headline": "AlphaGenome 2: IA da DeepMind mapeia leitura de DNA celular e doenças",
+      "subtitle": "Nova ferramenta promete avanços na compreensão de como variações genéticas afetam a saúde humana.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "category": "google",
+      "tags": [
+        "inteligencia artificial",
+        "genetica",
+        "saude"
+      ],
+      "read_time_min": 2,
+      "published_at": "Wed, 11 Nov 2026 15:00:15 +0000",
+      "written_at": "2026-11-11T17:49:26.752Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
+    {
+      "slug": "google-labs-apresenta-tabletop-espaco-colaborativo-para-planejamento-em-grupo",
+      "headline": "Google Labs Apresenta Tabletop: Espaço Colaborativo para Planejamento em Grupo",
+      "subtitle": "Ferramenta busca otimizar a coordenação de equipes em projetos diversos.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "category": "google",
+      "tags": [
+        "google labs",
+        "colaboracao",
+        "produtividade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 11 Nov 2026 16:00:00 +0000",
+      "written_at": "2026-11-11T17:49:17.047Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-autonoma-executa-experimentos-cientificos-em-sincrotron",
       "headline": "IA Autônoma Executa Experimentos Científicos em Síncrotron",
