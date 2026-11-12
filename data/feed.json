@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-11T17:49:36.902Z",
+  "generated_at": "2026-11-12T00:24:53.537Z",
   "articles": [
+    {
+      "slug": "nvidia-em-crise-conselho-pondera-afastamento-de-jensen-huang",
+      "headline": "Nvidia em Crise: Conselho Pondera Afastamento de Jensen Huang",
+      "subtitle": "Rumores de possível demissão do CEO agitam o mercado de tecnologia e a indústria de semicondutores.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "inteligenccia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 11 Nov 2026 23:28:45 +0000",
+      "written_at": "2026-11-12T00:24:53.377Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "escandalo-de-jensen-huang-relacao-do-ceo-da-nvidia-com-suposta-espia-chinesa-lev",
+      "headline": "Escândalo de Jensen Huang: Relação do CEO da Nvidia com suposta espiã chinesa levanta questões de segurança nacional",
+      "subtitle": "O caso pode ter implicações profundas para o desenvolvimento de infraestrutura de IA em um cenário de disputa tecnológica global.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "segurança nacional"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 11 Nov 2026 23:50:00 +0000",
+      "written_at": "2026-11-12T00:24:39.950Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "google-lanca-gemini-decisions-api-para-decisoes-rapidas-e-calibradas",
+      "headline": "Google Lança Gemini Decisions API para Decisões Rápidas e Calibradas",
+      "subtitle": "Nova ferramenta promete agilizar processos de IA para desenvolvedores no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google ai",
+        "api"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 11 Nov 2026 18:00:00 +0000",
+      "written_at": "2026-11-12T00:24:25.910Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "hugging-face-avanca-em-modelos-de-linguagem-com-token-pooling",
       "headline": "Hugging Face Avança em Modelos de Linguagem com Token Pooling",

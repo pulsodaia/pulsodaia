@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 11 Nov 2026 17:56:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:32:18 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nvidia em Crise: Conselho Pondera Afastamento de Jensen Huang</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-em-crise-conselho-pondera-afastamento-de-jensen-huang/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-em-crise-conselho-pondera-afastamento-de-jensen-huang/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:24:53 GMT</pubDate>
+      <description>Rumores de possível demissão do CEO agitam o mercado de tecnologia e a indústria de semicondutores.</description>
+      <category>MERCADO</category>
+      <source url="https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Escândalo de Jensen Huang: Relação do CEO da Nvidia com suposta espiã chinesa levanta questões de segurança nacional</title>
+      <link>https://pulsodaia.com.br/feed/escandalo-de-jensen-huang-relacao-do-ceo-da-nvidia-com-suposta-espia-chinesa-lev/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/escandalo-de-jensen-huang-relacao-do-ceo-da-nvidia-com-suposta-espia-chinesa-lev/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:24:39 GMT</pubDate>
+      <description>O caso pode ter implicações profundas para o desenvolvimento de infraestrutura de IA em um cenário de disputa tecnológica global.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Google Lança Gemini Decisions API para Decisões Rápidas e Calibradas</title>
+      <link>https://pulsodaia.com.br/feed/google-lanca-gemini-decisions-api-para-decisoes-rapidas-e-calibradas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-lanca-gemini-decisions-api-para-decisoes-rapidas-e-calibradas/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:24:25 GMT</pubDate>
+      <description>Nova ferramenta promete agilizar processos de IA para desenvolvedores no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/">Google AI</source>
+    </item>
     <item>
       <title>Hugging Face Avança em Modelos de Linguagem com Token Pooling</title>
       <link>https://pulsodaia.com.br/feed/hugging-face-avanca-em-modelos-de-linguagem-com-token-pooling/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa no arXiv propõe método para garantir consistência em respostas de modelos de linguagem.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2611.06977">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Otimiza Julgamento de Responsabilidade Legal com Habilidades Dinâmicas</title>
-      <link>https://pulsodaia.com.br/feed/ia-otimiza-julgamento-de-responsabilidade-legal-com-habilidades-dinamicas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-otimiza-julgamento-de-responsabilidade-legal-com-habilidades-dinamicas/</guid>
-      <pubDate>Fri, 06 Nov 2026 06:02:40 GMT</pubDate>
-      <description>Nova abordagem em pesquisa acadêmica busca superar limitações de LLMs em tarefas complexas de adjudicação.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.06972">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA formaliza provas matemáticas: um salto para a confiabilidade científica</title>
-      <link>https://pulsodaia.com.br/feed/ia-formaliza-provas-matematicas-um-salto-para-a-confiabilidade-cientifica/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-formaliza-provas-matematicas-um-salto-para-a-confiabilidade-cientifica/</guid>
-      <pubDate>Fri, 06 Nov 2026 06:02:28 GMT</pubDate>
-      <description>Ferramentas de IA agora validam complexas teorias matemáticas, abrindo caminho para maior rigor em pesquisas no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.06962">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>NVIDIA lança modelos Cosmos 3 para simulações de mundo complexas</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-lanca-modelos-cosmos-3-para-simulacoes-de-mundo-complexas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-lanca-modelos-cosmos-3-para-simulacoes-de-mundo-complexas/</guid>
-      <pubDate>Thu, 05 Nov 2026 23:30:21 GMT</pubDate>
-      <description>A nova geração de modelos da NVIDIA promete avanços em simulações interativas, com potencial impacto em setores como entretenimento e robótica no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation">Hugging Face</source>
     </item>
   </channel>
 </rss>
