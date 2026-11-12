@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-12T18:03:35.805Z",
+  "generated_at": "2026-11-12T23:30:13.885Z",
   "articles": [
+    {
+      "slug": "democratas-abrem-investigacao-sobre-vendas-da-nvidia-para-china-e-relacoes-com-t",
+      "headline": "Democratas Abrem Investigação Sobre Vendas da Nvidia para China e Relações com Trump",
+      "subtitle": "A ação parlamentar levanta questões sobre as práticas comerciais da gigante de chips e sua interação com a política externa.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "china",
+        "trump",
+        "investigacao"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 12 Nov 2026 22:42:51 +0000",
+      "written_at": "2026-11-12T23:30:13.777Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-ganha-modo-de-codigo-para-executar-ferramentas-via-javascript",
+      "headline": "Claude Ganha Modo de Código para Executar Ferramentas via JavaScript",
+      "subtitle": "Nova funcionalidade experimental da Anthropic permite que o modelo gere e execute seu próprio código, abrindo caminho para maior autonomia.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "category": "claude-code",
+      "tags": [
+        "claude",
+        "ia",
+        "desenvolvimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-12T22:12:13Z",
+      "written_at": "2026-11-12T23:30:02.756Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "ibm-integra-llmon-em-novos-modelos-de-linguagem-simplificando-interacao-com-ia",
+      "headline": "IBM Integra LLMON em Novos Modelos de Linguagem, Simplificando Interação com IA",
+      "subtitle": "A nova linguagem de marcação nativa para LLMs promete agilizar a criação de aplicações de IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "category": "opensource",
+      "tags": [
+        "llm",
+        "ibm",
+        "llmon"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 12 Nov 2026 19:07:35 GMT",
+      "written_at": "2026-11-12T23:29:51.997Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.gif"
+    },
     {
       "slug": "aprimoramento-de-modelos-3d-com-lora-um-guia-detalhado",
       "headline": "Aprimoramento de Modelos 3D com LoRA: Um Guia Detalhado",

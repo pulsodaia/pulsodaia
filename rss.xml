@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 12 Nov 2026 18:10:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 23:37:30 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Democratas Abrem Investigação Sobre Vendas da Nvidia para China e Relações com Trump</title>
+      <link>https://pulsodaia.com.br/feed/democratas-abrem-investigacao-sobre-vendas-da-nvidia-para-china-e-relacoes-com-t/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/democratas-abrem-investigacao-sobre-vendas-da-nvidia-para-china-e-relacoes-com-t/</guid>
+      <pubDate>Thu, 12 Nov 2026 23:30:13 GMT</pubDate>
+      <description>A ação parlamentar levanta questões sobre as práticas comerciais da gigante de chips e sua interação com a política externa.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Ganha Modo de Código para Executar Ferramentas via JavaScript</title>
+      <link>https://pulsodaia.com.br/feed/claude-ganha-modo-de-codigo-para-executar-ferramentas-via-javascript/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-ganha-modo-de-codigo-para-executar-ferramentas-via-javascript/</guid>
+      <pubDate>Thu, 12 Nov 2026 23:30:02 GMT</pubDate>
+      <description>Nova funcionalidade experimental da Anthropic permite que o modelo gere e execute seu próprio código, abrindo caminho para maior autonomia.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.323">Claude Code</source>
+    </item>
+    <item>
+      <title>IBM Integra LLMON em Novos Modelos de Linguagem, Simplificando Interação com IA</title>
+      <link>https://pulsodaia.com.br/feed/ibm-integra-llmon-em-novos-modelos-de-linguagem-simplificando-interacao-com-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-integra-llmon-em-novos-modelos-de-linguagem-simplificando-interacao-com-ia/</guid>
+      <pubDate>Thu, 12 Nov 2026 23:29:51 GMT</pubDate>
+      <description>A nova linguagem de marcação nativa para LLMs promete agilizar a criação de aplicações de IA no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite">Hugging Face</source>
+    </item>
     <item>
       <title>Aprimoramento de Modelos 3D com LoRA: Um Guia Detalhado</title>
       <link>https://pulsodaia.com.br/feed/aprimoramento-de-modelos-3d-com-lora-um-guia-detalhado/</link>
@@ -430,33 +457,6 @@
       <description>A transação sinaliza os desafios na escala de infraestrutura para IA.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Meta Expande IA com "Spaces", Novo Ambiente para Agentes Muse</title>
-      <link>https://pulsodaia.com.br/feed/meta-expande-ia-com-spaces-novo-ambiente-para-agentes-muse/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/meta-expande-ia-com-spaces-novo-ambiente-para-agentes-muse/</guid>
-      <pubDate>Fri, 06 Nov 2026 21:25:26 GMT</pubDate>
-      <description>A plataforma de inteligência artificial da Meta ganha uma nova interface para interação com seus assistentes.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Ferramentas de hacking com IA expostas na web levantam alerta de segurança</title>
-      <link>https://pulsodaia.com.br/feed/ferramentas-de-hacking-com-ia-expostas-na-web-levantam-alerta-de-seguranca/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ferramentas-de-hacking-com-ia-expostas-na-web-levantam-alerta-de-seguranca/</guid>
-      <pubDate>Fri, 06 Nov 2026 21:25:15 GMT</pubDate>
-      <description>A falha na segurança de softwares de testes de penetração com IA pode ter implicações diretas para a proteção de dados corporativos no Brasil.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code ajusta modo automático e expande suporte a tarefas em terminal</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-ajusta-modo-automatico-e-expande-suporte-a-tarefas-em-terminal/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-ajusta-modo-automatico-e-expande-suporte-a-tarefas-em-terminal/</guid>
-      <pubDate>Fri, 06 Nov 2026 21:25:04 GMT</pubDate>
-      <description>Atualização foca em controle de acesso e integração com ferramentas de desenvolvimento.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.319">Claude Code</source>
     </item>
   </channel>
 </rss>

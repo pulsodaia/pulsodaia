@@ -1,0 +1,50 @@
+{
+  "id": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+  "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+  "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+  "summary": "",
+  "published_at": "Thu, 12 Nov 2026 19:07:35 GMT",
+  "source_id": "huggingface-blog",
+  "source_name": "Hugging Face",
+  "category": "opensource",
+  "source_type": "blog-oficial",
+  "headline": "IBM Integra LLMON em Novos Modelos de Linguagem, Simplificando Interação com IA",
+  "subtitle": "A nova linguagem de marcação nativa para LLMs promete agilizar a criação de aplicações de IA no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A IBM introduziu o LLMON, uma linguagem de marcação projetada especificamente para modelos de linguagem grandes (LLMs). Essa inovação, agora integrada aos modelos Granite 4.1 de 3 bilhões e 8 bilhões de parâmetros, visa facilitar a interação e o desenvolvimento de aplicações baseadas em IA.",
+  "body_markdown": "## O que aconteceu\n\nA Hugging Face anunciou a incorporação do LLMON (LLM-Native Markup Language) aos modelos Granite 4.1 da IBM. Desenvolvido pela IBM, o LLMON é uma linguagem de marcação que permite aos LLMs processar e gerar dados de forma mais estruturada e eficiente. Ao invés de depender de formatos genéricos como JSON ou XML, que podem exigir processamento adicional pelos modelos, o LLMON é concebido para ser nativamente compreendido pelos LLMs. Isso significa que os modelos podem interpretar instruções e dados de maneira mais direta, reduzindo a latência e aumentando a precisão nas tarefas. A publicação detalha como essa linguagem de marcação é utilizada para refinar a saída dos modelos, permitindo a criação de estruturas de dados complexas diretamente no texto gerado. A disponibilidade em modelos de diferentes tamanhos, como os de 3B e 8B parâmetros, indica um esforço para democratizar o uso dessa tecnologia.\n\n## Por que importa\n\nPara o mercado brasileiro de tecnologia, a adoção do LLMON representa um avanço significativo na forma como desenvolvedores e empresas interagem com a inteligência artificial. A complexidade na extração de informações específicas ou na formatação de respostas por LLMs tem sido um obstáculo para a criação de soluções de IA mais robustas e confiáveis. Com o LLMON, a IBM oferece uma ferramenta que simplifica a engenharia de prompts e a estruturação de dados de saída. Isso pode acelerar o desenvolvimento de chatbots mais precisos, sistemas de análise de texto mais eficientes e ferramentas de geração de conteúdo que entregam resultados formatados conforme a necessidade. A capacidade de obter dados estruturados diretamente da saída do LLM reduz a necessidade de camadas de pós-processamento, o que se traduz em menor custo computacional e tempo de desenvolvimento mais curto para aplicações de IA no Brasil.\n\n## O que esperar\n\nA integração do LLMON nos modelos Granite 4.1 é um passo inicial. Espera-se que essa abordagem se torne um padrão de fato para a comunicação com LLMs em diversas plataformas e ferramentas. A IBM pode expandir o suporte ao LLMON para outros modelos e serviços no futuro, incentivando a adoção por parte da comunidade de desenvolvedores. A simplicidade e a eficiência do LLMON podem impulsionar a criação de novas aplicações e a otimização das existentes. Para os profissionais de IA no Brasil, aprender a utilizar o LLMON abrirá portas para o desenvolvimento de soluções mais sofisticadas e eficientes. A Hugging Face, como hub central para modelos de IA, desempenha um papel crucial na disseminação dessa tecnologia, tornando-a acessível a um público mais amplo. A evolução para linguagens de marcação nativas para LLMs sugere um futuro onde a interação com a IA será mais fluida e programática. Você pode explorar mais sobre como o LLMON funciona diretamente no [blog da Hugging Face](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite). A comunidade técnica brasileira tem a oportunidade de se aprofundar nesta tecnologia e explorar seu potencial em [projetos inovadores](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Hugging Face anunciou a incorporação do LLMON (LLM-Native Markup Language) aos modelos Granite 4.1 da IBM. Desenvolvido pela IBM, o LLMON é uma linguagem de marcação que permite aos LLMs processar e gerar dados de forma mais estruturada e eficiente. Ao invés de depender de formatos genéricos como JSON ou XML, que podem exigir processamento adicional pelos modelos, o LLMON é concebido para ser nativamente compreendido pelos LLMs. Isso significa que os modelos podem interpretar instruções e dados de maneira mais direta, reduzindo a latência e aumentando a precisão nas tarefas. A publicação detalha como essa linguagem de marcação é utilizada para refinar a saída dos modelos, permitindo a criação de estruturas de dados complexas diretamente no texto gerado. A disponibilidade em modelos de diferentes tamanhos, como os de 3B e 8B parâmetros, indica um esforço para democratizar o uso dessa tecnologia.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de tecnologia, a adoção do LLMON representa um avanço significativo na forma como desenvolvedores e empresas interagem com a inteligência artificial. A complexidade na extração de informações específicas ou na formatação de respostas por LLMs tem sido um obstáculo para a criação de soluções de IA mais robustas e confiáveis. Com o LLMON, a IBM oferece uma ferramenta que simplifica a engenharia de prompts e a estruturação de dados de saída. Isso pode acelerar o desenvolvimento de chatbots mais precisos, sistemas de análise de texto mais eficientes e ferramentas de geração de conteúdo que entregam resultados formatados conforme a necessidade. A capacidade de obter dados estruturados diretamente da saída do LLM reduz a necessidade de camadas de pós-processamento, o que se traduz em menor custo computacional e tempo de desenvolvimento mais curto para aplicações de IA no Brasil.</p>\n\n<h2>O que esperar</h2>\n\n<p>A integração do LLMON nos modelos Granite 4.1 é um passo inicial. Espera-se que essa abordagem se torne um padrão de fato para a comunicação com LLMs em diversas plataformas e ferramentas. A IBM pode expandir o suporte ao LLMON para outros modelos e serviços no futuro, incentivando a adoção por parte da comunidade de desenvolvedores. A simplicidade e a eficiência do LLMON podem impulsionar a criação de novas aplicações e a otimização das existentes. Para os profissionais de IA no Brasil, aprender a utilizar o LLMON abrirá portas para o desenvolvimento de soluções mais sofisticadas e eficientes. A Hugging Face, como hub central para modelos de IA, desempenha um papel crucial na disseminação dessa tecnologia, tornando-a acessível a um público mais amplo. A evolução para linguagens de marcação nativas para LLMs sugere um futuro onde a interação com a IA será mais fluida e programática. Você pode explorar mais sobre como o LLMON funciona diretamente no <a href=\"https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite\" target=\"_blank\" rel=\"external noopener\">blog da Hugging Face</a>. A comunidade técnica brasileira tem a oportunidade de se aprofundar nesta tecnologia e explorar seu potencial em <a href=\"https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite\" target=\"_blank\" rel=\"external noopener\">projetos inovadores</a>.</p>",
+  "tags": [
+    "llm",
+    "ibm",
+    "llmon"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "LLMON",
+    "IBM Granite",
+    "Hugging Face",
+    "modelos de linguagem",
+    "IA"
+  ],
+  "meta_description_seo": "IBM lança LLMON em modelos Granite 4.1, simplificando interação e desenvolvimento com LLMs para o mercado brasileiro.",
+  "faq": [
+    {
+      "q": "O que é LLMON?",
+      "a": "LLMON é uma linguagem de marcação desenvolvida pela IBM para ser nativamente compreendida por modelos de linguagem grandes (LLMs). Ela facilita a estruturação de dados e a geração de saídas mais precisas e eficientes."
+    },
+    {
+      "q": "Quais modelos da IBM já incluem LLMON?",
+      "a": "Atualmente, os modelos Granite 4.1 da IBM, nas versões de 3 bilhões (3B) e 8 bilhões (8B) de parâmetros, já integram o LLMON."
+    },
+    {
+      "q": "Qual o benefício do LLMON para desenvolvedores?",
+      "a": "O LLMON simplifica a engenharia de prompts e a formatação de dados de saída, reduzindo a necessidade de pós-processamento e acelerando o desenvolvimento de aplicações de IA."
+    }
+  ],
+  "written_at": "2026-11-12T23:29:51.997Z",
+  "slug": "ibm-integra-llmon-em-novos-modelos-de-linguagem-simplificando-interacao-com-ia",
+  "hero_image": "hero.gif",
+  "hero_source_url": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif"
+}
