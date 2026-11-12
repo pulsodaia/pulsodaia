@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 12 Nov 2026 09:43:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 18:10:55 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Aprimoramento de Modelos 3D com LoRA: Um Guia Detalhado</title>
+      <link>https://pulsodaia.com.br/feed/aprimoramento-de-modelos-3d-com-lora-um-guia-detalhado/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/aprimoramento-de-modelos-3d-com-lora-um-guia-detalhado/</guid>
+      <pubDate>Thu, 12 Nov 2026 18:03:35 GMT</pubDate>
+      <description>Hugging Face lança guia para otimizar a geração de conteúdo tridimensional.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/3d-lora-finetuning">Hugging Face</source>
+    </item>
+    <item>
+      <title>Google DeepMind Apresenta Gemini 4 Hydrogen, Nova Geração de Modelo de IA</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-apresenta-gemini-4-hydrogen-nova-geracao-de-modelo-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-apresenta-gemini-4-hydrogen-nova-geracao-de-modelo-de-ia/</guid>
+      <pubDate>Thu, 12 Nov 2026 18:03:24 GMT</pubDate>
+      <description>Avanço promete maior capacidade de raciocínio e eficiência para aplicações de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/introducing-gemini-4-hydrogen/">Google DeepMind</source>
+    </item>
+    <item>
+      <title>Google Search Aprimorado com Gemini 4 Hydrogen: Respostas Mais Visuais e Intuitivas</title>
+      <link>https://pulsodaia.com.br/feed/google-search-aprimorado-com-gemini-4-hydrogen-respostas-mais-visuais-e-intuitiv/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-search-aprimorado-com-gemini-4-hydrogen-respostas-mais-visuais-e-intuitiv/</guid>
+      <pubDate>Thu, 12 Nov 2026 18:03:14 GMT</pubDate>
+      <description>A gigante de Mountain View anuncia atualização global para o seu buscador, visando uma experiência de usuário mais rica.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/">Google AI</source>
+    </item>
     <item>
       <title>Nvidia Sem Plano de Sucessão: Quem Assume o Comando da Gigante de Chips?</title>
       <link>https://pulsodaia.com.br/feed/nvidia-sem-plano-de-sucessao-quem-assume-o-comando-da-gigante-de-chips/</link>
@@ -430,33 +457,6 @@
       <description>Atualização foca em controle de acesso e integração com ferramentas de desenvolvimento.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.319">Claude Code</source>
-    </item>
-    <item>
-      <title>Modelo de voz de 32MB da Underdog Gera Fala e Música</title>
-      <link>https://pulsodaia.com.br/feed/modelo-de-voz-de-32mb-da-underdog-gera-fala-e-musica/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/modelo-de-voz-de-32mb-da-underdog-gera-fala-e-musica/</guid>
-      <pubDate>Fri, 06 Nov 2026 14:07:52 GMT</pubDate>
-      <description>Empresa demonstra capacidade de processamento de áudio em tamanho reduzido, abrindo portas para aplicações mais leves.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Reconhecimento de Voz em Árabe Egípcio e Suaíli Adiciona Novos Idiomas ao Leaderboard da Hugging Face</title>
-      <link>https://pulsodaia.com.br/feed/reconhecimento-de-voz-em-arabe-egipcio-e-suaili-adiciona-novos-idiomas-ao-leader/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/reconhecimento-de-voz-em-arabe-egipcio-e-suaili-adiciona-novos-idiomas-ao-leader/</guid>
-      <pubDate>Fri, 06 Nov 2026 14:07:36 GMT</pubDate>
-      <description>A expansão do reconhecimento automático de fala (ASR) para novas variantes linguísticas africanas abre portas para a inclusão digital e o desenvolvimento de novas aplicações.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/open-asr-leaderboard-liva">Hugging Face</source>
-    </item>
-    <item>
-      <title>ToyBlocks: Ambiente Controlado Para Treinamento e Avaliacao de Robos</title>
-      <link>https://pulsodaia.com.br/feed/toyblocks-ambiente-controlado-para-treinamento-e-avaliacao-de-robos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/toyblocks-ambiente-controlado-para-treinamento-e-avaliacao-de-robos/</guid>
-      <pubDate>Fri, 06 Nov 2026 14:07:26 GMT</pubDate>
-      <description>Nova plataforma promete acelerar a pesquisa em robótica com simulações precisas e escaláveis.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/allenai/toyblocks">Hugging Face</source>
     </item>
   </channel>
 </rss>

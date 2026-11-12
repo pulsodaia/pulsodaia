@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-12T09:35:45.682Z",
+  "generated_at": "2026-11-12T18:03:35.805Z",
   "articles": [
+    {
+      "slug": "aprimoramento-de-modelos-3d-com-lora-um-guia-detalhado",
+      "headline": "Aprimoramento de Modelos 3D com LoRA: Um Guia Detalhado",
+      "subtitle": "Hugging Face lança guia para otimizar a geração de conteúdo tridimensional.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "category": "opensource",
+      "tags": [
+        "ia 3d",
+        "hugging face",
+        "lora"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-12T18:03:35.648Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.gif"
+    },
+    {
+      "slug": "google-deepmind-apresenta-gemini-4-hydrogen-nova-geracao-de-modelo-de-ia",
+      "headline": "Google DeepMind Apresenta Gemini 4 Hydrogen, Nova Geração de Modelo de IA",
+      "subtitle": "Avanço promete maior capacidade de raciocínio e eficiência para aplicações de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google deepmind",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 12 Nov 2026 18:00:50 +0000",
+      "written_at": "2026-11-12T18:03:24.700Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "google-search-aprimorado-com-gemini-4-hydrogen-respostas-mais-visuais-e-intuitiv",
+      "headline": "Google Search Aprimorado com Gemini 4 Hydrogen: Respostas Mais Visuais e Intuitivas",
+      "subtitle": "A gigante de Mountain View anuncia atualização global para o seu buscador, visando uma experiência de usuário mais rica.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "category": "google",
+      "tags": [
+        "google search",
+        "gemini",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 12 Nov 2026 18:00:00 +0000",
+      "written_at": "2026-11-12T18:03:14.996Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nvidia-sem-plano-de-sucessao-quem-assume-o-comando-da-gigante-de-chips",
       "headline": "Nvidia Sem Plano de Sucessão: Quem Assume o Comando da Gigante de Chips?",
