@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 12 Nov 2026 00:32:18 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:43:34 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nvidia Sem Plano de Sucessão: Quem Assume o Comando da Gigante de Chips?</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-sem-plano-de-sucessao-quem-assume-o-comando-da-gigante-de-chips/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-sem-plano-de-sucessao-quem-assume-o-comando-da-gigante-de-chips/</guid>
+      <pubDate>Thu, 12 Nov 2026 09:35:45 GMT</pubDate>
+      <description>O futuro da liderança da Nvidia, peça central na revolução da IA, gera especulações diante da ausência de um sucessor claro.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/">TechCrunch AI</source>
+    </item>
     <item>
       <title>Nvidia em Crise: Conselho Pondera Afastamento de Jensen Huang</title>
       <link>https://pulsodaia.com.br/feed/nvidia-em-crise-conselho-pondera-afastamento-de-jensen-huang/</link>
@@ -448,15 +457,6 @@
       <description>Nova plataforma promete acelerar a pesquisa em robótica com simulações precisas e escaláveis.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/allenai/toyblocks">Hugging Face</source>
-    </item>
-    <item>
-      <title>BlockLock: Nova Abordagem para Inferência Reproduzível de LLMs</title>
-      <link>https://pulsodaia.com.br/feed/blocklock-nova-abordagem-para-inferencia-reproduzivel-de-llms/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/blocklock-nova-abordagem-para-inferencia-reproduzivel-de-llms/</guid>
-      <pubDate>Fri, 06 Nov 2026 06:02:51 GMT</pubDate>
-      <description>Pesquisa no arXiv propõe método para garantir consistência em respostas de modelos de linguagem.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.06977">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
