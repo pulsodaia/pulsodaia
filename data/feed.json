@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-11-12T23:30:13.885Z",
+  "generated_at": "2026-11-13T21:54:50.966Z",
   "articles": [
+    {
+      "slug": "llama-cpp-1-0-0-nova-base-para-ia-local-no-brasil",
+      "headline": "llama.cpp 1.0.0: Nova base para IA local no Brasil",
+      "subtitle": "A versão 1.0.0 do llama.cpp consolida uma infraestrutura crucial para o desenvolvimento de inteligência artificial em dispositivos pessoais no país.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "category": "opensource",
+      "tags": [
+        "llama.cpp",
+        "ia local",
+        "código aberto"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 13 Nov 2026 14:05:22 GMT",
+      "written_at": "2026-11-13T21:54:50.725Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "xybench-nova-ferramenta-da-hugging-face-busca-refinar-perguntas-para-ia",
+      "headline": "XYBench: Nova Ferramenta da Hugging Face Busca Refinar Perguntas para IA",
+      "subtitle": "A busca por prompts mais eficazes ganha um aliado técnico para desenvolvedores brasileiros.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/xybench",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "prompts",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 13 Nov 2026 17:02:35 GMT",
+      "written_at": "2026-11-13T21:54:40.226Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "simulacao-robotica-de-pick-and-place-ganha-novo-folego-com-assets-da-nvidia",
+      "headline": "Simulação Robótica de Pick-and-Place Ganha Novo Fôlego com Assets da Nvidia",
+      "subtitle": "A Hugging Face disponibiliza recursos para acelerar o desenvolvimento de robôs autônomos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "category": "opensource",
+      "tags": [
+        "robótica",
+        "simulação",
+        "nvidia",
+        "hugginface",
+        "automação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 13 Nov 2026 18:00:39 GMT",
+      "written_at": "2026-11-13T21:54:29.732Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.gif"
+    },
     {
       "slug": "democratas-abrem-investigacao-sobre-vendas-da-nvidia-para-china-e-relacoes-com-t",
       "headline": "Democratas Abrem Investigação Sobre Vendas da Nvidia para China e Relações com Trump",

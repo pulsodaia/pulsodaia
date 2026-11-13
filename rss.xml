@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 13 Nov 2026 06:14:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 22:02:13 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>llama.cpp 1.0.0: Nova base para IA local no Brasil</title>
+      <link>https://pulsodaia.com.br/feed/llama-cpp-1-0-0-nova-base-para-ia-local-no-brasil/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/llama-cpp-1-0-0-nova-base-para-ia-local-no-brasil/</guid>
+      <pubDate>Fri, 13 Nov 2026 21:54:50 GMT</pubDate>
+      <description>A versão 1.0.0 do llama.cpp consolida uma infraestrutura crucial para o desenvolvimento de inteligência artificial em dispositivos pessoais no país.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ggml-org/llama-cpp-v1">Hugging Face</source>
+    </item>
+    <item>
+      <title>XYBench: Nova Ferramenta da Hugging Face Busca Refinar Perguntas para IA</title>
+      <link>https://pulsodaia.com.br/feed/xybench-nova-ferramenta-da-hugging-face-busca-refinar-perguntas-para-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/xybench-nova-ferramenta-da-hugging-face-busca-refinar-perguntas-para-ia/</guid>
+      <pubDate>Fri, 13 Nov 2026 21:54:40 GMT</pubDate>
+      <description>A busca por prompts mais eficazes ganha um aliado técnico para desenvolvedores brasileiros.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/allenai/xybench">Hugging Face</source>
+    </item>
+    <item>
+      <title>Simulação Robótica de Pick-and-Place Ganha Novo Fôlego com Assets da Nvidia</title>
+      <link>https://pulsodaia.com.br/feed/simulacao-robotica-de-pick-and-place-ganha-novo-folego-com-assets-da-nvidia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/simulacao-robotica-de-pick-and-place-ganha-novo-folego-com-assets-da-nvidia/</guid>
+      <pubDate>Fri, 13 Nov 2026 21:54:29 GMT</pubDate>
+      <description>A Hugging Face disponibiliza recursos para acelerar o desenvolvimento de robôs autônomos no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">Hugging Face</source>
+    </item>
     <item>
       <title>Democratas Abrem Investigação Sobre Vendas da Nvidia para China e Relações com Trump</title>
       <link>https://pulsodaia.com.br/feed/democratas-abrem-investigacao-sobre-vendas-da-nvidia-para-china-e-relacoes-com-t/</link>
@@ -430,33 +457,6 @@
       <description>Ferramentas de inteligência artificial começam a invadir a cozinha, com resultados mistos para o dia a dia.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review">The Verge AI</source>
-    </item>
-    <item>
-      <title>OpenAI atinge US$ 1,25 trilhão em nova rodada de financiamento</title>
-      <link>https://pulsodaia.com.br/feed/openai-atinge-us-1-25-trilhao-em-nova-rodada-de-financiamento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-atinge-us-1-25-trilhao-em-nova-rodada-de-financiamento/</guid>
-      <pubDate>Sat, 07 Nov 2026 01:45:11 GMT</pubDate>
-      <description>A startup de IA consolida sua posição como uma das empresas de maior valor globalmente.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation">The Verge AI</source>
-    </item>
-    <item>
-      <title>OpenAI capta US$ 11 bilhões e atinge avaliação de US$ 1,25 trilhão</title>
-      <link>https://pulsodaia.com.br/feed/openai-capta-us-11-bilhoes-e-atinge-avaliacao-de-us-1-25-trilhao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/openai-capta-us-11-bilhoes-e-atinge-avaliacao-de-us-1-25-trilhao/</guid>
-      <pubDate>Sat, 07 Nov 2026 01:45:02 GMT</pubDate>
-      <description>Nova rodada de investimentos eleva o valor da startup de IA, refletindo o apetite do mercado por avanços em inteligência artificial.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Google Adquire Projeto de Data Center da Crusoe em Wyoming</title>
-      <link>https://pulsodaia.com.br/feed/google-adquire-projeto-de-data-center-da-crusoe-em-wyoming/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-adquire-projeto-de-data-center-da-crusoe-em-wyoming/</guid>
-      <pubDate>Sat, 07 Nov 2026 01:44:52 GMT</pubDate>
-      <description>A transação sinaliza os desafios na escala de infraestrutura para IA.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
