@@ -1,0 +1,51 @@
+{
+  "id": "https://the-decoder.com/?p=42846",
+  "title": "Runway&#039;s open-source Praxis-1 turns video AI into a robot controller",
+  "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+  "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The article Runway&#039;s open-source Praxis-1 turns video AI into a robot controller appeared first on The Decoder .",
+  "published_at": "Sat, 14 Nov 2026 09:45:45 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "Runway Libera Modelo de IA para Controle de Robôs com Código Aberto",
+  "subtitle": "Nova ferramenta da Runway pode acelerar a integração de inteligência artificial em robótica no Brasil.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A Runway, conhecida por suas inovações em inteligência artificial generativa, lançou o Praxis-1, um modelo de aprendizado de máquina focado em robótica. O código e os pesos do modelo foram disponibilizados sob a licença Apache 2.0, permitindo o uso e a modificação pela comunidade.",
+  "body_markdown": "## O que aconteceu\n\nA Runway liberou o Praxis-1, um modelo de IA que utiliza o conhecimento adquirido a partir do treinamento com vídeos para realizar tarefas de controle robótico. Este lançamento, com código-fonte e pesos abertos sob a licença Apache 2.0, representa um passo significativo para democratizar o acesso a tecnologias avançadas de robótica. O Praxis-1 já demonstrou sua capacidade ao liderar a categoria World Action Model no benchmark RoboLab-120 da Nvidia. A pesquisa base para este desenvolvimento pode ser encontrada em [The Decoder](https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/). Apesar de seu desempenho impressionante em tarefas específicas, o modelo ainda não é capaz de planejar sequências de ações complexas de forma autônoma.\n\n## Por que importa\n\nA disponibilização do Praxis-1 como código aberto tem implicações diretas para o mercado brasileiro de robótica e automação. Empresas e centros de pesquisa nacionais poderão integrar esta tecnologia em seus projetos sem custos de licenciamento elevados, o que pode acelerar o desenvolvimento de soluções robóticas customizadas. A capacidade de treinar modelos com dados de vídeo, aliada a um sistema de controle mais acessível, abre portas para aplicações em manufatura, logística e até mesmo em serviços. A liderança do modelo em benchmarks como o da Nvidia sugere um potencial de alta performance, que, com adaptações, pode beneficiar a indústria local.\n\n## O que esperar\n\nO futuro do Praxis-1, especialmente com a comunidade de desenvolvedores engajada, é promissor. Espera-se que as limitações atuais, como a incapacidade de planejamento autônomo de ações complexas, sejam superadas através de contribuições externas e aprimoramentos contínuos. A integração com outras ferramentas de IA e a adaptação para diferentes plataformas robóticas são caminhos naturais para a evolução do modelo. A Runway, ao apostar no código aberto, fomenta um ambiente colaborativo que pode levar a avanços rápidos. Mais detalhes sobre o modelo e seu desempenho estão disponíveis em [The Decoder](https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/). A expectativa é que o Praxis-1 se torne uma base sólida para a próxima geração de robôs inteligentes.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A Runway liberou o Praxis-1, um modelo de IA que utiliza o conhecimento adquirido a partir do treinamento com vídeos para realizar tarefas de controle robótico. Este lançamento, com código-fonte e pesos abertos sob a licença Apache 2.0, representa um passo significativo para democratizar o acesso a tecnologias avançadas de robótica. O Praxis-1 já demonstrou sua capacidade ao liderar a categoria World Action Model no benchmark RoboLab-120 da Nvidia. A pesquisa base para este desenvolvimento pode ser encontrada em <a href=\"https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>. Apesar de seu desempenho impressionante em tarefas específicas, o modelo ainda não é capaz de planejar sequências de ações complexas de forma autônoma.</p>\n\n<h2>Por que importa</h2>\n\n<p>A disponibilização do Praxis-1 como código aberto tem implicações diretas para o mercado brasileiro de robótica e automação. Empresas e centros de pesquisa nacionais poderão integrar esta tecnologia em seus projetos sem custos de licenciamento elevados, o que pode acelerar o desenvolvimento de soluções robóticas customizadas. A capacidade de treinar modelos com dados de vídeo, aliada a um sistema de controle mais acessível, abre portas para aplicações em manufatura, logística e até mesmo em serviços. A liderança do modelo em benchmarks como o da Nvidia sugere um potencial de alta performance, que, com adaptações, pode beneficiar a indústria local.</p>\n\n<h2>O que esperar</h2>\n\n<p>O futuro do Praxis-1, especialmente com a comunidade de desenvolvedores engajada, é promissor. Espera-se que as limitações atuais, como a incapacidade de planejamento autônomo de ações complexas, sejam superadas através de contribuições externas e aprimoramentos contínuos. A integração com outras ferramentas de IA e a adaptação para diferentes plataformas robóticas são caminhos naturais para a evolução do modelo. A Runway, ao apostar no código aberto, fomenta um ambiente colaborativo que pode levar a avanços rápidos. Mais detalhes sobre o modelo e seu desempenho estão disponíveis em <a href=\"https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>. A expectativa é que o Praxis-1 se torne uma base sólida para a próxima geração de robôs inteligentes.</p>",
+  "tags": [
+    "ia",
+    "robotica",
+    "codigo aberto"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Praxis-1",
+    "Runway",
+    "controle de robôs",
+    "IA para robótica",
+    "código aberto",
+    "RoboLab-120"
+  ],
+  "meta_description_seo": "Runway lança Praxis-1, IA para robótica com código aberto. Modelo usa vídeo para controle e lidera benchmark da Nvidia. Saiba mais.",
+  "faq": [
+    {
+      "q": "O que é o Praxis-1 da Runway?",
+      "a": "O Praxis-1 é um modelo de inteligência artificial da Runway que utiliza conhecimento de treinamento em vídeo para controlar robôs. O código e os pesos do modelo foram disponibilizados abertamente."
+    },
+    {
+      "q": "Qual a principal característica do Praxis-1?",
+      "a": "Sua principal característica é a capacidade de usar dados de vídeo para inferências de controle robótico, além de ter seu código e pesos liberados sob licença Apache 2.0, incentivando o desenvolvimento pela comunidade."
+    },
+    {
+      "q": "O Praxis-1 já é capaz de realizar tarefas complexas sozinho?",
+      "a": "Atualmente, o Praxis-1 ainda não consegue planejar sequências de ações complexas de forma autônoma, embora demonstre bom desempenho em outras capacidades de controle."
+    }
+  ],
+  "written_at": "2026-11-14T11:19:50.909Z",
+  "slug": "runway-libera-modelo-de-ia-para-controle-de-robos-com-codigo-aberto",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/11/Runway-Praxis-1.jpg"
+}

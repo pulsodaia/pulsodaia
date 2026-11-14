@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-11-13T21:54:50.966Z",
+  "generated_at": "2026-11-14T11:19:52.386Z",
   "articles": [
+    {
+      "slug": "runway-libera-modelo-de-ia-para-controle-de-robos-com-codigo-aberto",
+      "headline": "Runway Libera Modelo de IA para Controle de Robôs com Código Aberto",
+      "subtitle": "Nova ferramenta da Runway pode acelerar a integração de inteligência artificial em robótica no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "robotica",
+        "codigo aberto"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 14 Nov 2026 09:45:45 +0000",
+      "written_at": "2026-11-14T11:19:50.909Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "amazon-cria-banco-de-dados-global-de-produtos-com-ia",
+      "headline": "Amazon Cria Banco de Dados Global de Produtos com IA",
+      "subtitle": "Gigante do e-commerce busca centralizar informações de itens vendidos online para aprimorar busca e evitar que consumidores busquem em outros sites.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "category": "mercado",
+      "tags": [
+        "amazon",
+        "inteligência artificial",
+        "dados de produtos"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-13T18:49:11-05:00",
+      "written_at": "2026-11-14T11:19:41.267Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "saida-de-jensen-huang-da-nvidia-vcs-e-fundadores-preveem-encolhimento-no-financi",
+      "headline": "Saída de Jensen Huang da Nvidia: VCs e Fundadores Preveem Encolhimento no Financiamento de Startups de IA",
+      "subtitle": "A era de investimentos bilionários da Nvidia em startups de IA pode estar chegando ao fim, impactando o cenário de financiamento global.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "financiamento de ia",
+        "startups de ia",
+        "venture capital"
+      ],
+      "read_time_min": 4,
+      "published_at": "Fri, 13 Nov 2026 22:43:00 +0000",
+      "written_at": "2026-11-14T11:19:31.208Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "llama-cpp-1-0-0-nova-base-para-ia-local-no-brasil",
       "headline": "llama.cpp 1.0.0: Nova base para IA local no Brasil",
