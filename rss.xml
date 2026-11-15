@@ -6,8 +6,26 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 15 Nov 2026 13:55:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 19:47:44 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Anthropic Claude Fable 5.2: IA que "pinta" em vez de gerar imagens</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-claude-fable-5-2-ia-que-pinta-em-vez-de-gerar-imagens/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-claude-fable-5-2-ia-que-pinta-em-vez-de-gerar-imagens/</guid>
+      <pubDate>Sun, 15 Nov 2026 19:40:18 GMT</pubDate>
+      <description>Novos modelos de linguagem exploram abordagens distintas para a criação visual, fugindo do método tradicional de computação de pixels.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/">The Decoder</source>
+    </item>
+    <item>
+      <title>Congresso Americano Pressiona por Restrições em Exportação de Chips de IA Após Escândalo</title>
+      <link>https://pulsodaia.com.br/feed/congresso-americano-pressiona-por-restricoes-em-exportacao-de-chips-de-ia-apos-e/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/congresso-americano-pressiona-por-restricoes-em-exportacao-de-chips-de-ia-apos-e/</guid>
+      <pubDate>Sun, 15 Nov 2026 19:40:07 GMT</pubDate>
+      <description>A segurança nacional ganha destaque na discussão sobre o comércio de tecnologia de inteligência artificial com a China.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china">The Verge AI</source>
+    </item>
     <item>
       <title>Firma ligada a ex-parceira de Jensen Huang negocia US$ 12 bi em chips Nvidia para China</title>
       <link>https://pulsodaia.com.br/feed/firma-ligada-a-ex-parceira-de-jensen-huang-negocia-us-12-bi-em-chips-nvidia-para/</link>
@@ -439,24 +457,6 @@
       <description>O caso levanta questões sobre governança corporativa e a complexa relação entre tecnologia e geopolítica.</description>
       <category>ANALISE</category>
       <source url="https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia">The Verge AI</source>
-    </item>
-    <item>
-      <title>Apple Acelera Siri: A Corrida Por Um Assistente Mais Inteligente</title>
-      <link>https://pulsodaia.com.br/feed/apple-acelera-siri-a-corrida-por-um-assistente-mais-inteligente/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-acelera-siri-a-corrida-por-um-assistente-mais-inteligente/</guid>
-      <pubDate>Sun, 08 Nov 2026 21:54:30 GMT</pubDate>
-      <description>A gigante de Cupertino intensifica esforços para que sua assistente virtual cumpra o papel de um agente autônomo, mirando a concorrência direta com modelos como os da OpenAI.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic">The Verge AI</source>
-    </item>
-    <item>
-      <title>Nvidia abre investigação sobre CEO Jensen Huang e suposto vínculo com espiã chinesa</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-abre-investigacao-sobre-ceo-jensen-huang-e-suposto-vinculo-com-espia-chin/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-abre-investigacao-sobre-ceo-jensen-huang-e-suposto-vinculo-com-espia-chin/</guid>
-      <pubDate>Sun, 08 Nov 2026 21:54:18 GMT</pubDate>
-      <description>Notícia abala o setor de semicondutores e levanta questões sobre segurança corporativa no mercado de IA.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy">The Verge AI</source>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,44 @@
 {
-  "generated_at": "2026-11-15T13:47:42.644Z",
+  "generated_at": "2026-11-15T19:40:19.168Z",
   "articles": [
+    {
+      "slug": "anthropic-claude-fable-5-2-ia-que-pinta-em-vez-de-gerar-imagens",
+      "headline": "Anthropic Claude Fable 5.2: IA que \"pinta\" em vez de gerar imagens",
+      "subtitle": "Novos modelos de linguagem exploram abordagens distintas para a criação visual, fugindo do método tradicional de computação de pixels.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "anthropic",
+        "geracao de imagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 15 Nov 2026 15:42:03 +0000",
+      "written_at": "2026-11-15T19:40:18.050Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "congresso-americano-pressiona-por-restricoes-em-exportacao-de-chips-de-ia-apos-e",
+      "headline": "Congresso Americano Pressiona por Restrições em Exportação de Chips de IA Após Escândalo",
+      "subtitle": "A segurança nacional ganha destaque na discussão sobre o comércio de tecnologia de inteligência artificial com a China.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "semicondutores",
+        "geopolitica"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-15T14:15:43-05:00",
+      "written_at": "2026-11-15T19:40:07.385Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "firma-ligada-a-ex-parceira-de-jensen-huang-negocia-us-12-bi-em-chips-nvidia-para",
       "headline": "Firma ligada a ex-parceira de Jensen Huang negocia US$ 12 bi em chips Nvidia para China",
