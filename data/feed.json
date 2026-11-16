@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-15T23:54:06.499Z",
+  "generated_at": "2026-11-16T05:55:11.502Z",
   "articles": [
+    {
+      "slug": "loraweaver-otimiza-adaptacao-de-modelos-de-linguagem-com-roteamento-direcional",
+      "headline": "LoRAWeaver Otimiza Adaptação de Modelos de Linguagem com Roteamento Direcional",
+      "subtitle": "Nova abordagem simplifica a gestão de múltiplos adaptadores para LLMs no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.17340",
+      "category": "research",
+      "tags": [
+        "lora",
+        "llm",
+        "adaptacao de modelos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 16 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-16T05:55:11.477Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "detectores-de-alucinacao-de-ia-falham-em-modelos-pequenos-usados-em-dispositivos",
+      "headline": "Detectores de Alucinação de IA Falham em Modelos Pequenos Usados em Dispositivos",
+      "subtitle": "Pesquisa aponta lacuna entre modelos de pesquisa e hardwares de uso prático no Brasil.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.17339",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "alucinação"
+      ],
+      "read_time_min": 4,
+      "published_at": "Mon, 16 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-16T05:54:58.628Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "llms-o-perigo-de-esquecer-informacoes-cruciais-em-agentes-de-ia",
+      "headline": "LLMs: o perigo de \"esquecer\" informacoes cruciais em agentes de IA",
+      "subtitle": "Pesquisa aponta que a exclusao automatica de dados pode prejudicar a performance de sistemas de inteligencia artificial.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.17338",
+      "category": "research",
+      "tags": [
+        "llm",
+        "memoria",
+        "inteligencia artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 16 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-16T05:54:47.487Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "snl-satiriza-executivos-de-tecnologia-em-episodios-sobre-namoro-e-espionagem",
       "headline": "SNL satiriza executivos de tecnologia em episódios sobre namoro e espionagem",
