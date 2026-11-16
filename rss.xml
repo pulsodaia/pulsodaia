@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 16 Nov 2026 06:01:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 15:34:58 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Google Maps Cria Roteiros de Viagem Dinâmicos com Detalhes de Paradas</title>
+      <link>https://pulsodaia.com.br/feed/google-maps-cria-roteiros-de-viagem-dinamicos-com-detalhes-de-paradas/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-maps-cria-roteiros-de-viagem-dinamicos-com-detalhes-de-paradas/</guid>
+      <pubDate>Mon, 16 Nov 2026 15:27:31 GMT</pubDate>
+      <description>A funcionalidade, impulsionada por IA, promete otimizar o planejamento de passeios, desde compras de fim de ano até road trips mais complexas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>EUA Restringe Exportação de Chips de IA para Conter Acesso Remoto Chinês a Computação</title>
+      <link>https://pulsodaia.com.br/feed/eua-restringe-exportacao-de-chips-de-ia-para-conter-acesso-remoto-chines-a-compu/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/eua-restringe-exportacao-de-chips-de-ia-para-conter-acesso-remoto-chines-a-compu/</guid>
+      <pubDate>Mon, 16 Nov 2026 15:27:20 GMT</pubDate>
+      <description>Novas regras visam impedir que empresas chinesas utilizem infraestrutura de computação dos EUA.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Google Maps Aprimora Planejamento de Viagens com Novas Funções de IA</title>
+      <link>https://pulsodaia.com.br/feed/google-maps-aprimora-planejamento-de-viagens-com-novas-funcoes-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-maps-aprimora-planejamento-de-viagens-com-novas-funcoes-de-ia/</guid>
+      <pubDate>Mon, 16 Nov 2026 15:27:10 GMT</pubDate>
+      <description>Recursos de conversação no Maps prometem simplificar a organização de férias e o dia a dia dos usuários no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/">Google AI</source>
+    </item>
     <item>
       <title>LoRAWeaver Otimiza Adaptação de Modelos de Linguagem com Roteamento Direcional</title>
       <link>https://pulsodaia.com.br/feed/loraweaver-otimiza-adaptacao-de-modelos-de-linguagem-com-roteamento-direcional/</link>
@@ -430,33 +457,6 @@
       <description>Ação ocorre após reportagem sobre relações de Alice Huang com o CEO da Nvidia.</description>
       <category>ANALISE</category>
       <source url="https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Anthropic Prepara Caminho Para IPO, Define Avaliação Nesta Semana</title>
-      <link>https://pulsodaia.com.br/feed/anthropic-prepara-caminho-para-ipo-define-avaliacao-nesta-semana/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-prepara-caminho-para-ipo-define-avaliacao-nesta-semana/</guid>
-      <pubDate>Tue, 10 Nov 2026 04:01:13 GMT</pubDate>
-      <description>A gigante da IA avança em planos de abertura de capital, sinalizando maturidade no setor.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code Acelera Processamento em Nuvem com Novo Modo Rápido na Vertex AI</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-acelera-processamento-em-nuvem-com-novo-modo-rapido-na-vertex-ai/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-acelera-processamento-em-nuvem-com-novo-modo-rapido-na-vertex-ai/</guid>
-      <pubDate>Tue, 10 Nov 2026 04:01:02 GMT</pubDate>
-      <description>Atualização da Anthropic visa otimizar a performance de modelos de linguagem em infraestruturas de nuvem globais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.322">Claude Code</source>
-    </item>
-    <item>
-      <title>Claude Code V2.1.321 Atualiza Modelo Fable e Refina Controle de Sessão</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-321-atualiza-modelo-fable-e-refina-controle-de-sessao/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-321-atualiza-modelo-fable-e-refina-controle-de-sessao/</guid>
-      <pubDate>Mon, 09 Nov 2026 20:36:01 GMT</pubDate>
-      <description>Atualização do Claude Code foca em aprimoramentos de modelo e segurança, com impacto direto na forma como desenvolvedores interagem com a IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.321">Claude Code</source>
     </item>
   </channel>
 </rss>
