@@ -1,0 +1,50 @@
+{
+  "id": "oai:arXiv.org:2611.18747v1",
+  "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+  "url": "https://arxiv.org/abs/2611.18747",
+  "summary": "arXiv:2611.18747v1 Announce Type: new Abstract: Multimodal large language models (LLMs) have enabled capable computer-use agents that perceive graphical user interfaces, reason over instructions, and execute actions. However, existing approaches to learning from video demonstrations typically convert videos into screenshot-based action trajectories, rather than directly leveraging their rich audio-visual information. We introduce VEX (Video as EXperience), a framework that uses audio-visual understanding to unify learning from external demonstrations and reflecting on an agent's own behavior. Following a watch-act-rewatch paradigm, the agent extracts procedural guidance from tutorial videos containing visual demonstrations and spoken explanations, executes tasks, and verifies its progress by rewatching its execution as video. We instantiate VEX with video-SALMONN-VEX, a 9B-scale audio-visual computer-use agent built on the video-SALMONN 2 architecture with a Qwen3.5-9B backbone. We fur",
+  "published_at": "Tue, 17 Nov 2026 00:00:00 -0500",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA aprende a usar computadores com vídeos, sem converter tudo em screenshots",
+  "subtitle": "Nova abordagem no arXiv utiliza áudio e vídeo para treinar agentes de IA a executar tarefas em interfaces gráficas.",
+  "eyebrow_category": "RESEARCH",
+  "lead": "Pesquisadores apresentaram um novo framework chamado VEX (Video as Experience), que permite que modelos de linguagem grandes (LLMs) aprendam a interagir com interfaces de computador diretamente a partir de vídeos. A inovação reside em não converter demonstrações visuais em trajetórias de ações baseadas em screenshots, mas sim em aproveitar a riqueza de informações audiovisuais contidas nos vídeos.",
+  "body_markdown": "## O que aconteceu\n\nUm estudo publicado no arXiv, intitulado \"Video-as-Experience: Learning Computer Use via Audio-Visual Understanding\", propõe uma nova metodologia para o treinamento de agentes de IA capazes de interagir com sistemas computacionais. Tradicionalmente, o aprendizado a partir de demonstrações em vídeo para esses agentes envolvia um processo de conversão que transformava o conteúdo visual em uma sequência de capturas de tela e ações discretas. Esta abordagem, no entanto, perde grande parte da informação contextual e nuances presentes no material original. O framework VEX, introduzido pelos autores, busca superar essa limitação. Ele adota um paradigma de \"assistir-atua-reassistir\", onde o agente primeiro extrai orientações procedurais de vídeos tutoriais que combinam demonstrações visuais com explicações faladas. Em seguida, o agente executa as tarefas propostas e, por fim, revisa seu próprio desempenho, utilizando o vídeo para verificar seu progresso e identificar áreas de melhoria. Essa abordagem visa um aprendizado mais profundo e eficiente, similar à forma como humanos aprendem observando e praticando. O trabalho está disponível para consulta em [arXiv:2611.18747](https://arxiv.org/abs/2611.18747).\n\n## Por que importa\n\nPara o mercado brasileiro de tecnologia, o desenvolvimento de agentes de IA mais eficientes no uso de computadores abre portas para automação em larga escala. Imagine sistemas que podem aprender a operar softwares complexos, auxiliar no suporte técnico, ou até mesmo realizar tarefas administrativas, tudo isso a partir de demonstrações em vídeo acessíveis. A capacidade de processar diretamente áudio e vídeo pode significar uma redução significativa nos custos e no tempo de desenvolvimento desses agentes. Em vez de depender de descrições textuais ou de complexos processos de anotação de screenshots, as empresas poderão utilizar material de treinamento mais direto e intuitivo. Isso pode acelerar a adoção de soluções baseadas em IA em setores que tradicionalmente enfrentam barreiras na automação de processos manuais e repetitivos em interfaces gráficas, como o setor financeiro, administrativo e de atendimento ao cliente.\n\n## O que esperar\n\nA metodologia VEX sugere um caminho promissor para a criação de agentes de IA mais versáteis e com maior capacidade de adaptação. A integração do aprendizado a partir de demonstrações externas (vídeos tutoriais) com a reflexão sobre o próprio comportamento do agente é um passo importante para o desenvolvimento de sistemas autônomos mais robustos. Espera-se que futuras iterações deste framework possam refinar ainda mais a capacidade de compreensão multimodal, lidando com diferentes estilos de tutoriais e com a variabilidade inerente às interações humanas com interfaces digitais. O potencial de aplicação se estende desde a criação de assistentes virtuais mais competentes até o desenvolvimento de ferramentas de treinamento automatizado para usuários de software. A pesquisa em [arXiv:2611.18747](https://arxiv.org/abs/2611.18747) aponta para uma evolução na maneira como a IA aprende a interagir com o mundo digital.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um estudo publicado no arXiv, intitulado \"Video-as-Experience: Learning Computer Use via Audio-Visual Understanding\", propõe uma nova metodologia para o treinamento de agentes de IA capazes de interagir com sistemas computacionais. Tradicionalmente, o aprendizado a partir de demonstrações em vídeo para esses agentes envolvia um processo de conversão que transformava o conteúdo visual em uma sequência de capturas de tela e ações discretas. Esta abordagem, no entanto, perde grande parte da informação contextual e nuances presentes no material original. O framework VEX, introduzido pelos autores, busca superar essa limitação. Ele adota um paradigma de \"assistir-atua-reassistir\", onde o agente primeiro extrai orientações procedurais de vídeos tutoriais que combinam demonstrações visuais com explicações faladas. Em seguida, o agente executa as tarefas propostas e, por fim, revisa seu próprio desempenho, utilizando o vídeo para verificar seu progresso e identificar áreas de melhoria. Essa abordagem visa um aprendizado mais profundo e eficiente, similar à forma como humanos aprendem observando e praticando. O trabalho está disponível para consulta em <a href=\"https://arxiv.org/abs/2611.18747\" target=\"_blank\" rel=\"external noopener\">arXiv:2611.18747</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de tecnologia, o desenvolvimento de agentes de IA mais eficientes no uso de computadores abre portas para automação em larga escala. Imagine sistemas que podem aprender a operar softwares complexos, auxiliar no suporte técnico, ou até mesmo realizar tarefas administrativas, tudo isso a partir de demonstrações em vídeo acessíveis. A capacidade de processar diretamente áudio e vídeo pode significar uma redução significativa nos custos e no tempo de desenvolvimento desses agentes. Em vez de depender de descrições textuais ou de complexos processos de anotação de screenshots, as empresas poderão utilizar material de treinamento mais direto e intuitivo. Isso pode acelerar a adoção de soluções baseadas em IA em setores que tradicionalmente enfrentam barreiras na automação de processos manuais e repetitivos em interfaces gráficas, como o setor financeiro, administrativo e de atendimento ao cliente.</p>\n\n<h2>O que esperar</h2>\n\n<p>A metodologia VEX sugere um caminho promissor para a criação de agentes de IA mais versáteis e com maior capacidade de adaptação. A integração do aprendizado a partir de demonstrações externas (vídeos tutoriais) com a reflexão sobre o próprio comportamento do agente é um passo importante para o desenvolvimento de sistemas autônomos mais robustos. Espera-se que futuras iterações deste framework possam refinar ainda mais a capacidade de compreensão multimodal, lidando com diferentes estilos de tutoriais e com a variabilidade inerente às interações humanas com interfaces digitais. O potencial de aplicação se estende desde a criação de assistentes virtuais mais competentes até o desenvolvimento de ferramentas de treinamento automatizado para usuários de software. A pesquisa em <a href=\"https://arxiv.org/abs/2611.18747\" target=\"_blank\" rel=\"external noopener\">arXiv:2611.18747</a> aponta para uma evolução na maneira como a IA aprende a interagir com o mundo digital.</p>",
+  "tags": [
+    "ia",
+    "aprendizado de maquina",
+    "processamento de video"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "agentes de IA",
+    "LLMs",
+    "aprendizado multimodal",
+    "VEX",
+    "interfaces graficas"
+  ],
+  "meta_description_seo": "IA aprende a usar computadores com vídeos sem converter tudo em screenshots. Framework VEX utiliza áudio e vídeo para treinamento de agentes.",
+  "faq": [
+    {
+      "q": "Como a IA aprende a usar computadores com o novo método VEX?",
+      "a": "O framework VEX utiliza vídeos tutoriais que combinam demonstrações visuais com explicações faladas. A IA aprende extraindo orientações, executando tarefas e revisando seu próprio progresso."
+    },
+    {
+      "q": "Qual a principal diferença do VEX para métodos anteriores?",
+      "a": "Ao invés de converter vídeos em sequências de screenshots, o VEX aproveita diretamente as informações audiovisuais ricas dos vídeos para um aprendizado mais profundo."
+    },
+    {
+      "q": "Que tipo de tarefas um agente treinado com VEX poderia realizar?",
+      "a": "Agentes treinados com VEX podem aprender a interagir com interfaces de computador para executar tarefas, similar a como um humano aprenderia observando e praticando."
+    }
+  ],
+  "written_at": "2026-11-17T10:28:27.093Z",
+  "slug": "ia-aprende-a-usar-computadores-com-videos-sem-converter-tudo-em-screenshots",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}

@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-17T00:06:54.243Z",
+  "generated_at": "2026-11-17T10:28:27.228Z",
   "articles": [
+    {
+      "slug": "ia-aprende-a-usar-computadores-com-videos-sem-converter-tudo-em-screenshots",
+      "headline": "IA aprende a usar computadores com vídeos, sem converter tudo em screenshots",
+      "subtitle": "Nova abordagem no arXiv utiliza áudio e vídeo para treinar agentes de IA a executar tarefas em interfaces gráficas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.18747",
+      "category": "research",
+      "tags": [
+        "ia",
+        "aprendizado de maquina",
+        "processamento de video"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-17T10:28:27.093Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-moral-pesquisa-propoe-roteiro-para-avaliar-agencia-etica-em-sistemas",
+      "headline": "IA Moral: Pesquisa Propõe Roteiro para Avaliar Agência Ética em Sistemas",
+      "subtitle": "Estudo no arXiv sugere abordagens descritivas para definir e testar a capacidade de sistemas de IA agirem moralmente no Brasil e no mundo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.18714",
+      "category": "research",
+      "tags": [
+        "ia",
+        "etica",
+        "agencia moral"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-17T10:28:16.386Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-perdem-conhecimento-critico-ao-passar-informacoes",
+      "headline": "Agentes de IA perdem conhecimento crítico ao passar informações",
+      "subtitle": "Estudo aponta que a comunicação entre sistemas de IA pode ser um gargalo para o aprendizado contínuo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.18642",
+      "category": "research",
+      "tags": [
+        "agentes de ia",
+        "aprendizado de maquina",
+        "transferencia de conhecimento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 17 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-17T10:28:05.851Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nvidia-perguntas-cruciais-para-a-divulgacao-de-resultados-ignoradas-pela-lideran",
       "headline": "Nvidia: Perguntas Cruciais Para a Divulgação de Resultados Ignoradas Pela Liderança",
