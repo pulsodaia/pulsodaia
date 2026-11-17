@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-16T15:27:31.206Z",
+  "generated_at": "2026-11-17T00:06:54.243Z",
   "articles": [
+    {
+      "slug": "nvidia-perguntas-cruciais-para-a-divulgacao-de-resultados-ignoradas-pela-lideran",
+      "headline": "Nvidia: Perguntas Cruciais Para a Divulgação de Resultados Ignoradas Pela Liderança",
+      "subtitle": "A gigante dos chips enfrenta um escrutínio intenso, mas a comunicação da empresa pode deixar lacunas importantes para o mercado.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "inteligência artificial",
+        "tecnologia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 16 Nov 2026 22:03:02 +0000",
+      "written_at": "2026-11-17T00:06:54.153Z",
+      "quality_score": 0.8,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-326-ajusta-modo-de-codigo-e-avisos-para-desenvolvedores",
+      "headline": "Claude Code 2.1.326 Ajusta Modo de Código e Avisos para Desenvolvedores",
+      "subtitle": "Atualizações da Anthropic focam em usabilidade e clareza para quem trabalha com código via IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento com ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-16T22:11:05Z",
+      "written_at": "2026-11-17T00:06:43.013Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-e-openrouter-unem-forcas-para-simplificar-uso-de-modelos-de-ia-aber",
+      "headline": "Hugging Face e OpenRouter Unem Forças para Simplificar Uso de Modelos de IA Abertos",
+      "subtitle": "Nova parceria busca democratizar o acesso e a implementação de modelos de linguagem de código aberto no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/openrouter",
+      "category": "opensource",
+      "tags": [
+        "hugging face",
+        "openrouter",
+        "ia aberta"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 16 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-17T00:06:31.673Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "google-maps-cria-roteiros-de-viagem-dinamicos-com-detalhes-de-paradas",
       "headline": "Google Maps Cria Roteiros de Viagem Dinâmicos com Detalhes de Paradas",
