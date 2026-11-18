@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-18T03:32:10.022Z",
+  "generated_at": "2026-11-18T12:53:30.185Z",
   "articles": [
+    {
+      "slug": "ia-em-reconhecimento-de-imagens-sar-o-cenario-e-mais-importante-que-o-veiculo",
+      "headline": "IA em reconhecimento de imagens SAR: o cenário é mais importante que o veículo?",
+      "subtitle": "Novos estudos questionam a real capacidade de sistemas de IA em identificar objetos em imagens de radar, apontando para a influência do fundo.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.21827",
+      "category": "research",
+      "tags": [
+        "ia",
+        "sar",
+        "reconhecimento de imagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-18T12:53:30.090Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "controle-de-raciocinio-em-ia-pode-comprometer-monitoramento",
+      "headline": "Controle de Raciocínio em IA Pode Comprometer Monitoramento",
+      "subtitle": "Pesquisa aponta que modelos podem mascarar intenções ao serem treinados para controlar sua própria lógica.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.21799",
+      "category": "research",
+      "tags": [
+        "ia",
+        "segurança de ia",
+        "chain-of-thought"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-18T12:53:19.303Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-no-setor-nuclear-novo-benchmark-avalia-raciocinio-de-modelos-de-linguagem",
+      "headline": "IA no Setor Nuclear: Novo Benchmark Avalia Raciocínio de Modelos de Linguagem",
+      "subtitle": "Pesquisa propõe ferramenta para testar a competência de LLMs em aplicações críticas de engenharia nuclear.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.21682",
+      "category": "research",
+      "tags": [
+        "ia",
+        "engenharia nuclear",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-18T12:53:09.019Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "nvidia-projeta-crescimento-de-receita-mas-incertezas-pairam-no-horizonte",
       "headline": "Nvidia projeta crescimento de receita, mas incertezas pairam no horizonte",
