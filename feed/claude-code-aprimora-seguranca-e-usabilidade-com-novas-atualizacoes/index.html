@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<!-- Consent Mode v2 (DEVE rodar antes do GTM) -->
+<script src="/assets/js/consent.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MXGJBNFB');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Code Aprimora Segurança e Usabilidade com Novas Atualizações · Pulso da IA</title>
+<meta name="description" content="Claude Code v2.1.327: Novas funcionalidades de segurança e usabilidade. Saiba como a Anthropic aprimora o desenvolvimento de IA no Brasil.">
+<meta name="keywords" content="Claude Code, Anthropic, v2.1.327, segurança, desenvolvimento, GitHub, tokens, stdin">
+<meta name="author" content="Pulso da IA">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Pulso da IA">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Claude Code Aprimora Segurança e Usabilidade com Novas Atualizações">
+<meta property="og:description" content="Claude Code v2.1.327: Novas funcionalidades de segurança e usabilidade. Saiba como a Anthropic aprimora o desenvolvimento de IA no Brasil.">
+<meta property="og:url" content="https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/">
+<meta property="og:image" content="https://pulsodaia.com.br/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-11-17T23:17:45Z">
+<meta property="article:author" content="Pulso da IA">
+<meta property="article:section" content="Claude Code">
+<meta property="article:tag" content="claude code">
+<meta property="article:tag" content="anthropic">
+<meta property="article:tag" content="desenvolvimento de software">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@pulsodaia">
+<meta name="twitter:title" content="Claude Code Aprimora Segurança e Usabilidade com Novas Atualizações">
+<meta name="twitter:description" content="Claude Code v2.1.327: Novas funcionalidades de segurança e usabilidade. Saiba como a Anthropic aprimora o desenvolvimento de IA no Brasil.">
+<meta name="twitter:image" content="https://pulsodaia.com.br/assets/og-image.png">
+<link rel="canonical" href="https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/">
+<link rel="icon" href="/assets/favicon.ico">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM manifest">
+<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Pulso da IA · RSS feed">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta http-equiv="content-language" content="pt-BR">
+<meta name="google" content="translate">
+<meta name="ai-content-declaration" content="editorial; auto-translated from linked sources; human-curated">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsArticle",
+      "@id": "https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/"
+      },
+      "headline": "Claude Code Aprimora Segurança e Usabilidade com Novas Atualizações",
+      "alternativeHeadline": "A Anthropic introduz melhorias focadas em controle de acesso e transparência para desenvolvedores no Brasil.",
+      "description": "Claude Code v2.1.327: Novas funcionalidades de segurança e usabilidade. Saiba como a Anthropic aprimora o desenvolvimento de IA no Brasil.",
+      "datePublished": "2026-11-17T23:17:45Z",
+      "dateModified": "2026-11-18T03:31:50.153Z",
+      "inLanguage": "pt-BR",
+      "author": {
+        "@id": "https://pulsodaia.com.br/#org"
+      },
+      "publisher": {
+        "@id": "https://pulsodaia.com.br/#org"
+      },
+      "image": [
+        "https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/hero.jpg",
+        "https://pulsodaia.com.br/assets/og-image.png"
+      ],
+      "articleSection": "LANCAMENTO",
+      "articleBody": "## O que aconteceu A mais recente atualização do Claude Code, a versão v2.1.327, introduz uma série de refinamentos pensados para aprimorar a experiência do desenvolvedor. Uma das adições mais notáveis é a inclusão de uma etapa de confirmação antes que o comando `/install-github-app` realize alterações em um repositório, aumentando a proteção contra modificações acidentais ou não autorizadas. Em paralelo, a Anthropic facilitou o gerenciamento de tokens com a introdução do `claude mcp add-json -`. Esta funcionalidade permite que o JSON do servidor seja lido a partir da entrada padrão (stdin), o que significa que os tokens não precisam mais ser expostos diretamente na linha de comando. Essa medida é particularmente importante para manter a segurança das credenciais de acesso. Vale notar que esta opção não está disponível dentro de uma sessão ativa do Claude Code. A atualização também aborda a recuperação de sessões. Agora, quando uma sessão retomada não consegue carregar mensagens anteriores, uma linha informativa é exibida, alertando o usuário sobre a limitação. Para oferecer um panorama mais completo do estado do ambiente de desenvolvimento, o comando `/status` foi expandido. Ele agora lista arquivos de agente, skill, comando e estilo de saída que apresentaram falhas, erros de atalho de teclado, sandboxes indisponíveis, configurações de permissão ignoradas e correspondências de hook que nunca são ativadas. Adicionalmente, o comando `/config` agora indica quando outras configurações estão sobrescrevendo uma linha específica de configuração, promovendo maior transparência. Por fim, um novo cabeçalho `x-claude-code-managed-settings-checksum` foi adicionado aos cabeçalhos de dica do gateway, enviado sempre que as configurações gerenciadas definem `CL`. Todas essas melhorias estão detalhadas no [registro de alterações oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.327). ## Por que importa Para o mercado brasileiro de desenvolvimento de software e inteligência artificial, essas atualizações significam um passo adiante na adoção de práticas de segurança mais robustas e na otimização de fluxos de trabalho. A exigência de confirmação para alterações em repositórios Git, por exemplo, alinha o Claude Code com as melhores práticas de controle de versão, essenciais para equipes que colaboram em projetos complexos. A capacidade de gerenciar tokens via stdin reduz a exposição de informações sensíveis, um ponto crucial em ambientes corporativos onde a segurança de dados é primordial. Isso permite que empresas brasileiras que utilizam o Claude Code em seus pipelines de desenvolvimento implementem medidas de segurança mais eficazes, protegendo seus ativos intelectuais e dados de clientes. A maior clareza sobre o status do ambiente e as configurações também contribui para a resolução mais rápida de problemas, aumentando a produtividade das equipes. ## O que esperar Com estas melhorias, a expectativa é que o Claude Code se torne uma ferramenta ainda mais confiável e eficiente para desenvolvedores no Brasil. A Anthropic demonstra um compromisso contínuo em refinar suas ferramentas com base no feedback dos usuários, focando em aspectos práticos como segurança e usabilidade. A tendência é que futuras atualizações continuem a explorar a integração mais profunda com ferramentas de desenvolvimento populares, como o GitHub, e a oferecer mecanismos mais sofisticados para o gerenciamento de configurações complexas. A maior transparência em relação a erros e configurações pode acelerar a adoção por empresas que buscam um controle mais granular sobre suas ferramentas de IA. A comunidade de desenvolvedores no Brasil pode esperar que a Anthropic continue a inovar, possivelmente introduzindo novas funcionalidades que simplifiquem a prototipagem e a implantação de soluções baseadas em IA. Para se manter atualizado sobre esses avanços, é recomendável acompanhar o [repositório oficial](https://github.com/anthropics/claude-code/releases/tag/v2.1.327) para futuras notas de lançamento.",
+      "keywords": "claude code, anthropic, desenvolvimento de software",
+      "wordCount": 572,
+      "isBasedOn": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Claude Code",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327"
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "article.post h1",
+          "article.post p.lead",
+          "article.post h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Pulso da IA",
+          "item": "https://pulsodaia.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Feed",
+          "item": "https://pulsodaia.com.br/feed/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Claude Code",
+          "item": "https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://pulsodaia.com.br/#org",
+      "name": "Pulso da IA",
+      "alternateName": "Pulsodaia",
+      "url": "https://pulsodaia.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://pulsodaia.com.br/brand/assets/logo-symbol-400.png",
+        "width": 400,
+        "height": 400
+      },
+      "description": "Portal brasileiro de noticias sobre inteligencia artificial. Traducao em tempo real das fontes oficiais em portugues brasileiro.",
+      "foundingDate": "2026-04-17",
+      "founder": {
+        "@type": "Person",
+        "name": "Alex Campos",
+        "url": "https://triadeflow.com.br"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Triadeflow",
+        "url": "https://triadeflow.com.br"
+      },
+      "sameAs": [
+        "https://instagram.com/pulsodaia",
+        "https://x.com/pulsodaia",
+        "https://www.youtube.com/@pulsodaia",
+        "https://www.tiktok.com/@pulsodaia",
+        "https://www.pinterest.com/pulsodaia/",
+        "https://github.com/pulsodaia"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "editorial",
+        "email": "contato@triadeflow.com.br",
+        "availableLanguage": [
+          "Portuguese",
+          "English"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quais são as principais novidades da versão v2.1.327 do Claude Code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A atualização introduz confirmação antes de alterações em repositórios GitHub, gerenciamento de tokens via stdin e maior detalhe no status do ambiente de desenvolvimento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como a nova funcionalidade de tokens beneficia os desenvolvedores?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Permite que tokens sejam lidos da entrada padrão, evitando que fiquem expostos diretamente na linha de comando, o que aumenta a segurança das credenciais."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que o comando `/status` agora exibe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ele lista arquivos com falhas, erros de atalho, sandboxes indisponíveis, permissões ignoradas e hooks que nunca correspondem, oferecendo um diagnóstico mais completo."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/feed/article.css">
+</head>
+<body data-article-slug="claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes" data-article-category="LANCAMENTO" data-article-source="Claude Code" data-article-headline="Claude Code Aprimora Segurança e Usabilidade com Novas Atualizações" data-article-read-time="3" data-article-published-at="2026-11-17T23:17:45Z" data-article-word-count="572">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXGJBNFB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="site">
+  <div class="nav">
+    <a href="/" class="brand" data-gtm-event="logo_click">
+      <svg viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
+      <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Principal">
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="inovacao_ia">Inovacao & IA <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu">
+          <div class="nav-dropdown-grid">
+            <div class="nav-col">
+              <div class="nav-col-head">Categorias</div>
+              <a href="/feed/?c=lancamento">Lancamentos</a>
+              <a href="/feed/?c=analise">Analises</a>
+              <a href="/feed/?c=research">Research</a>
+              <a href="/feed/?c=mercado">Mercado</a>
+              <a href="/feed/?c=founders">Founders</a>
+            </div>
+            <div class="nav-col">
+              <div class="nav-col-head">Formatos</div>
+              <a href="/feed/">Feed completo</a>
+              <a href="/rss.xml">RSS</a>
+              <a href="#newsletter">Pulso Semanal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="empresas">Empresas <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu">
+          <div class="nav-dropdown-grid">
+            <div class="nav-col">
+              <div class="nav-col-head">Modelos</div>
+              <a href="/feed/?q=openai">OpenAI</a>
+              <a href="/feed/?q=anthropic">Anthropic</a>
+              <a href="/feed/?q=google">Google DeepMind</a>
+              <a href="/feed/?q=meta">Meta AI</a>
+              <a href="/feed/?q=mistral">Mistral</a>
+            </div>
+            <div class="nav-col">
+              <div class="nav-col-head">Ecossistema</div>
+              <a href="/feed/?q=huggingface">HuggingFace</a>
+              <a href="/feed/?q=nvidia">NVIDIA</a>
+              <a href="/feed/?q=xai">xAI</a>
+              <a href="/feed/?q=cohere">Cohere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <button class="nav-trigger" aria-expanded="false" aria-haspopup="true" data-gtm-event="nav_dropdown_open" data-gtm-dropdown-name="novidades">Novidades <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="nav-dropdown" role="menu">
+          <div class="nav-dropdown-grid">
+            <div class="nav-col">
+              <div class="nav-col-head">Mercado</div>
+              <a href="/feed/?c=mercado">Movimentos</a>
+              <a href="/feed/?q=funding">Rodadas de investimento</a>
+              <a href="/feed/?q=regulacao">Regulacao</a>
+            </div>
+            <div class="nav-col">
+              <div class="nav-col-head">Institucional</div>
+              <a href="/sobre/">Sobre o Pulso</a>
+              <a href="/contato/">Contato</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="/feed/" class="nav-direct">Feed</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#newsletter" class="nav-cta" data-gtm-event="cta_assinar_click" data-gtm-cta-location="header">Assinar</a>
+      <div class="nav-lang" aria-label="Idioma">PT-BR</div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <nav class="breadcrumb"><a href="/">Pulso da IA</a><span>›</span><a href="/feed/">Feed</a><span>›</span>Claude Code</nav>
+
+  <div class="eyebrow">
+    <span>LANCAMENTO</span>
+    <span class="dot">·</span>
+    <span>CLAUDE CODE</span>
+    <span class="dot">·</span>
+    <span>17 DE NOV DE 2026</span>
+  </div>
+
+  <h1>Claude Code Aprimora Segurança e Usabilidade com Novas Atualizações</h1>
+  <p class="subtitle">A Anthropic introduz melhorias focadas em controle de acesso e transparência para desenvolvedores no Brasil.</p>
+
+  <div class="byline">
+    <span class="by">Por Pulso da IA</span>
+    <span class="sep">·</span>
+    <span>17 de nov de 2026</span>
+    <span class="sep">·</span>
+    <span>3 min de leitura</span>
+  </div>
+
+  <div class="hero-image">
+    <img src="hero.jpg" alt="Claude Code Aprimora Segurança e Usabilidade com Novas Atualizações" loading="eager">
+    <div class="caption">
+      Imagem: <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.327" target="_blank" rel="external noopener">github.com</a>
+    </div>
+  </div>
+
+  <article class="post">
+    <p class="lead">A Anthropic liberou a versão v2.1.327 do Claude Code, trazendo atualizações significativas focadas em aumentar a segurança e a clareza para desenvolvedores. As mudanças incluem confirmações de segurança antes de alterações em repositórios e novas formas de gerenciar tokens, visando um fluxo de trabalho mais controlado e seguro.</p>
+    <h2>O que aconteceu</h2>
+
+<p>A mais recente atualização do Claude Code, a versão v2.1.327, introduz uma série de refinamentos pensados para aprimorar a experiência do desenvolvedor. Uma das adições mais notáveis é a inclusão de uma etapa de confirmação antes que o comando <code>/install-github-app</code> realize alterações em um repositório, aumentando a proteção contra modificações acidentais ou não autorizadas.</p>
+
+<p>Em paralelo, a Anthropic facilitou o gerenciamento de tokens com a introdução do <code>claude mcp add-json <name> -</code>. Esta funcionalidade permite que o JSON do servidor seja lido a partir da entrada padrão (stdin), o que significa que os tokens não precisam mais ser expostos diretamente na linha de comando. Essa medida é particularmente importante para manter a segurança das credenciais de acesso. Vale notar que esta opção não está disponível dentro de uma sessão ativa do Claude Code.</p>
+
+<p>A atualização também aborda a recuperação de sessões. Agora, quando uma sessão retomada não consegue carregar mensagens anteriores, uma linha informativa é exibida, alertando o usuário sobre a limitação. Para oferecer um panorama mais completo do estado do ambiente de desenvolvimento, o comando <code>/status</code> foi expandido. Ele agora lista arquivos de agente, skill, comando e estilo de saída que apresentaram falhas, erros de atalho de teclado, sandboxes indisponíveis, configurações de permissão ignoradas e correspondências de hook que nunca são ativadas.</p>
+
+<p>Adicionalmente, o comando <code>/config</code> agora indica quando outras configurações estão sobrescrevendo uma linha específica de configuração, promovendo maior transparência. Por fim, um novo cabeçalho <code>x-claude-code-managed-settings-checksum</code> foi adicionado aos cabeçalhos de dica do gateway, enviado sempre que as configurações gerenciadas definem <code>CL</code>. Todas essas melhorias estão detalhadas no <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.327" target="_blank" rel="external noopener">registro de alterações oficial</a>.</p>
+
+<h2>Por que importa</h2>
+
+<p>Para o mercado brasileiro de desenvolvimento de software e inteligência artificial, essas atualizações significam um passo adiante na adoção de práticas de segurança mais robustas e na otimização de fluxos de trabalho. A exigência de confirmação para alterações em repositórios Git, por exemplo, alinha o Claude Code com as melhores práticas de controle de versão, essenciais para equipes que colaboram em projetos complexos.</p>
+
+<p>A capacidade de gerenciar tokens via stdin reduz a exposição de informações sensíveis, um ponto crucial em ambientes corporativos onde a segurança de dados é primordial. Isso permite que empresas brasileiras que utilizam o Claude Code em seus pipelines de desenvolvimento implementem medidas de segurança mais eficazes, protegendo seus ativos intelectuais e dados de clientes. A maior clareza sobre o status do ambiente e as configurações também contribui para a resolução mais rápida de problemas, aumentando a produtividade das equipes.</p>
+
+<h2>O que esperar</h2>
+
+<p>Com estas melhorias, a expectativa é que o Claude Code se torne uma ferramenta ainda mais confiável e eficiente para desenvolvedores no Brasil. A Anthropic demonstra um compromisso contínuo em refinar suas ferramentas com base no feedback dos usuários, focando em aspectos práticos como segurança e usabilidade. A tendência é que futuras atualizações continuem a explorar a integração mais profunda com ferramentas de desenvolvimento populares, como o GitHub, e a oferecer mecanismos mais sofisticados para o gerenciamento de configurações complexas.</p>
+
+<p>A maior transparência em relação a erros e configurações pode acelerar a adoção por empresas que buscam um controle mais granular sobre suas ferramentas de IA. A comunidade de desenvolvedores no Brasil pode esperar que a Anthropic continue a inovar, possivelmente introduzindo novas funcionalidades que simplifiquem a prototipagem e a implantação de soluções baseadas em IA. Para se manter atualizado sobre esses avanços, é recomendável acompanhar o <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.327" target="_blank" rel="external noopener">repositório oficial</a> para futuras notas de lançamento.</p>
+
+    <div class="source-box">
+      <div class="label">FONTE OFICIAL</div>
+      <div class="title">Claude Code</div>
+      <div class="meta">17 DE NOV DE 2026 · github.com</div>
+      <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.327" target="_blank" rel="noopener external" class="link" data-gtm-event="source_link_click" data-gtm-source-domain="github.com">
+        Leia o original
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+      </a>
+    </div>
+
+    <div class="tags">
+      <a href="/tag/claude-code/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="claude code">#claude code</a><a href="/tag/anthropic/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="anthropic">#anthropic</a><a href="/tag/desenvolvimento-de-software/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="desenvolvimento de software">#desenvolvimento de software</a>
+    </div>
+
+    <!-- FORM NEWSLETTER INLINE (em todas as paginas) -->
+    <div class="inline-newsletter" x-data="{ name: '', email: '', submitted: false, submitting: false }">
+      <div class="inline-newsletter-grid">
+        <div>
+          <div class="eyebrow-mini">PULSO SEMANAL</div>
+          <h3>Recebe no inbox <span class="italic">toda quinta.</span></h3>
+          <p>Top 5 da semana de IA em portugues, em 3 minutos de leitura. Zero spam.</p>
+        </div>
+        <form @submit.prevent="submitting=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'article-inline', article_slug:'claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'article-inline', article_slug:'claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'article-inline', article_slug:'claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', error_message:String(e).substring(0,200)});}).finally(()=>{submitted=true;submitting=false;})" x-show="!submitted">
+          <input x-model="name" type="text" placeholder="Seu nome" required>
+          <input x-model="email" type="email" placeholder="seu@email.com" required>
+          <button type="submit" :disabled="submitting">
+            <span x-show="!submitting">Inscrever</span>
+            <span x-show="submitting">...</span>
+          </button>
+        </form>
+        <div x-show="submitted" class="success">
+          <strong>Inscrito.</strong> Proxima quinta, 9h, chega no teu inbox.
+        </div>
+      </div>
+    </div>
+
+    <div class="article-footer-nav">
+      <a href="/feed/" class="back-link">← Ver todo o feed</a>
+      <div class="share">
+        <span>Compartilhar:</span>
+        <a href="https://twitter.com/intent/tweet?text=Claude%20Code%20Aprimora%20Seguran%C3%A7a%20e%20Usabilidade%20com%20Novas%20Atualiza%C3%A7%C3%B5es&url=https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/" target="_blank" rel="noopener" data-gtm-event="share_twitter" data-gtm-share-channel="twitter">X</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://pulsodaia.com.br/feed/claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes/" target="_blank" rel="noopener" data-gtm-event="share_linkedin" data-gtm-share-channel="linkedin">LinkedIn</a>
+        <a href="https://wa.me/?text=Claude%20Code%20Aprimora%20Seguran%C3%A7a%20e%20Usabilidade%20com%20Novas%20Atualiza%C3%A7%C3%B5es%20https%3A%2F%2Fpulsodaia.com.br%2Ffeed%2Fclaude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes%2F" target="_blank" rel="noopener" data-gtm-event="share_whatsapp" data-gtm-share-channel="whatsapp">WhatsApp</a>
+      </div>
+    </div>
+  </article>
+
+    <section class="related-section">
+      <div class="related-header">
+        <h2 class="related-title">Historias relacionadas</h2>
+        <a href="/feed/" class="related-all">Ver tudo →</a>
+      </div>
+      <div class="related-grid">
+        
+        <a href="/feed/google-gemini-tarefas-automacao-de-ligacoes-e-compras-ganha-acesso-amplo/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="google-gemini-tarefas-automacao-de-ligacoes-e-compras-ganha-acesso-amplo" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="1">
+          <div class="related-image">
+            <img src="/feed/google-gemini-tarefas-automacao-de-ligacoes-e-compras-ganha-acesso-amplo/hero.jpg" alt="Google Gemini Tarefas: Automação de Ligações e Compras Ganha Acesso Amplo" loading="lazy">
+            <span class="related-pill">LANCAMENTO</span>
+          </div>
+          <div class="related-meta">
+            <h4>Google Gemini Tarefas: Automação de Ligações e Compras Ganha Acesso Amplo</h4>
+            <div class="related-byline">Pulso da IA · 17 DE NOV DE 2026</div>
+          </div>
+        </a>
+        <a href="/feed/model-ml-capta-us-250-milhoes-para-automatizar-tarefas-repetitivas-no-mercado-fi/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="model-ml-capta-us-250-milhoes-para-automatizar-tarefas-repetitivas-no-mercado-fi" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="2">
+          <div class="related-image">
+            <img src="/feed/model-ml-capta-us-250-milhoes-para-automatizar-tarefas-repetitivas-no-mercado-fi/hero.jpg" alt="Model ML capta US$ 250 milhões para automatizar tarefas repetitivas no mercado financeiro" loading="lazy">
+            <span class="related-pill">LANCAMENTO</span>
+          </div>
+          <div class="related-meta">
+            <h4>Model ML capta US$ 250 milhões para automatizar tarefas repetitivas no mercado financeiro</h4>
+            <div class="related-byline">Pulso da IA · 17 DE NOV DE 2026</div>
+          </div>
+        </a>
+        <a href="/feed/google-gemini-agora-gratuito-em-seis-paises-integracao-com-workspace-aprofundada/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="google-gemini-agora-gratuito-em-seis-paises-integracao-com-workspace-aprofundada" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="3">
+          <div class="related-image">
+            <img src="/feed/google-gemini-agora-gratuito-em-seis-paises-integracao-com-workspace-aprofundada/hero.png" alt="Google Gemini Agora Gratuito em Seis Países; Integração com Workspace Aprofundada" loading="lazy">
+            <span class="related-pill">LANCAMENTO</span>
+          </div>
+          <div class="related-meta">
+            <h4>Google Gemini Agora Gratuito em Seis Países; Integração com Workspace Aprofundada</h4>
+            <div class="related-byline">Pulso da IA · 17 DE NOV DE 2026</div>
+          </div>
+        </a>
+      </div>
+    </section>
+</div>
+
+
+    <section class="newsletter-block" id="newsletter">
+      <div class="container newsletter-inner">
+        <div class="newsletter-icon" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="#FF5E1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="11" width="36" height="26" rx="3"/><path d="M6 14l18 13L42 14"/></svg>
+        </div>
+        <h3 class="newsletter-headline">Receba o pulso da IA no seu inbox.</h3>
+        <p class="newsletter-sub">Toda quinta, 9h. Top 5 da semana em portugues, em 3 minutos de leitura. Zero spam.</p>
+        <form class="newsletter-form" x-data="{ name: '', email: '', submitted: false, submitting: false }" @submit.prevent="submitting=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'footer-block'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'footer-block'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'footer-block'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_message:String(e).substring(0,200)});}).finally(()=>{submitted=true;submitting=false;})">
+          <template x-if="!submitted">
+            <div class="newsletter-fields">
+              <input x-model="name" type="text" placeholder="Seu nome" required aria-label="Nome">
+              <input x-model="email" type="email" placeholder="seu@email.com" required aria-label="Email">
+              <button type="submit" :disabled="submitting">
+                <span x-show="!submitting">Assinar</span>
+                <span x-show="submitting">...</span>
+              </button>
+            </div>
+          </template>
+          <div x-show="submitted" class="newsletter-success">
+            <strong>Inscrito.</strong> Proxima quinta, 9h, chega no teu inbox.
+          </div>
+        </form>
+        <div class="newsletter-privacy">
+          Ao assinar voce aceita nossa <a href="/politica-privacidade/">politica de privacidade</a>. Cancele a qualquer momento.
+        </div>
+      </div>
+    </section>
+
+    <section class="follow-us">
+      <div class="container follow-inner">
+        <div class="follow-eyebrow">SIGA O PULSO</div>
+        <h3 class="follow-title">Siga a gente por onde quiser.</h3>
+        <div class="social-circles">
+          <a href="https://instagram.com/pulsodaia" target="_blank" rel="noopener" aria-label="Instagram" class="sc-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://x.com/pulsodaia" target="_blank" rel="noopener" aria-label="X" class="sc-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@pulsodaia" target="_blank" rel="noopener" aria-label="YouTube" class="sc-item">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@pulsodaia" target="_blank" rel="noopener" aria-label="TikTok" class="sc-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z"/></svg>
+          </a>
+          <a href="https://www.pinterest.com/pulsodaia/" target="_blank" rel="noopener" aria-label="Pinterest" class="sc-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.098.119.112.224.083.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+  <footer class="site">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand-col">
+        <a href="/" class="footer-brand">
+          <svg viewBox="0 0 80 32" fill="none"><path d="M2 16 L12 16 L16 4 L22 28 L28 10 L34 22 L40 14 L46 20 L54 16 L64 16" stroke="#FF5E1F" stroke-width="2.5" stroke-linecap="round"/><circle cx="68" cy="16" r="1.8" fill="#FF5E1F"/><circle cx="73" cy="16" r="1.8" fill="#FF5E1F" opacity="0.6"/><circle cx="78" cy="16" r="1.8" fill="#FF5E1F" opacity="0.3"/></svg>
+          <span class="wm">pulso<span class="da">da</span><span class="ia">IA</span></span>
+        </a>
+        <p class="footer-tagline">Sinta o pulso do mercado de IA.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-head">Conteudo</div>
+        <a href="/feed/">Feed completo</a>
+        <a href="/feed/?c=lancamento">Lancamentos</a>
+        <a href="/feed/?c=analise">Analises</a>
+        <a href="/#newsletter">Pulso Semanal</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-head">Sobre</div>
+        <a href="/sobre/">Quem somos</a>
+        <a href="/contato/">Contato</a>
+        <a href="https://triadeflow.com.br" target="_blank" rel="noopener">Triadeflow</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-head">Legal</div>
+        <a href="/politica-privacidade/">Privacidade</a>
+        <a href="/termos/">Termos de uso</a>
+        <a href="/rss.xml">RSS</a>
+      </div>
+    </div>
+    <div class="container footer-meta">
+      <span>© 2026 Pulso da IA · pulsodaia.com.br</span>
+      <span class="footer-signature">Feito por <a href="https://triadeflow.com.br" target="_blank" rel="noopener">Alex Campos @ Triadeflow</a></span>
+    </div>
+  </footer>
+
+<script defer src="/assets/js/tracking.js"></script>
+<!-- GHL External Tracking (attribution CRM HUB) -->
+<script src="https://link.triadeflow.ai/js/external-tracking.js" data-tracking-id="tk_bca577a169fb418e896b50cae1972352"></script>
+</body>
+</html>

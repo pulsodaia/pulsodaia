@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-17T20:43:02.907Z",
+  "generated_at": "2026-11-18T03:32:10.022Z",
   "articles": [
+    {
+      "slug": "nvidia-projeta-crescimento-de-receita-mas-incertezas-pairam-no-horizonte",
+      "headline": "Nvidia projeta crescimento de receita, mas incertezas pairam no horizonte",
+      "subtitle": "A gigante de chips de IA sinaliza otimismo financeiro, apesar de turbulências internas.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "inteligência artificial",
+        "semicondutores"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 00:16:50 +0000",
+      "written_at": "2026-11-18T03:32:09.975Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "investimentos-da-nvidia-em-startups-alcancam-us-65-bilhoes-mas-saida-de-huang-le",
+      "headline": "Investimentos da Nvidia em Startups Alcançam US$ 65 Bilhões, Mas Saída de Huang Levanta Questões",
+      "subtitle": "O valor das participações da gigante em empresas privadas triplicou em nove meses, mas o futuro de novos acordos está em xeque.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "startups",
+        "investimentos",
+        "tecnologia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 01:44:21 +0000",
+      "written_at": "2026-11-18T03:32:00.353Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-aprimora-seguranca-e-usabilidade-com-novas-atualizacoes",
+      "headline": "Claude Code Aprimora Segurança e Usabilidade com Novas Atualizações",
+      "subtitle": "A Anthropic introduz melhorias focadas em controle de acesso e transparência para desenvolvedores no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de software"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-17T23:17:45Z",
+      "written_at": "2026-11-18T03:31:50.153Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "google-gemini-tarefas-automacao-de-ligacoes-e-compras-ganha-acesso-amplo",
       "headline": "Google Gemini Tarefas: Automação de Ligações e Compras Ganha Acesso Amplo",
