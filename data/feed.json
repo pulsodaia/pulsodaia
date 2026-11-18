@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-18T12:53:30.185Z",
+  "generated_at": "2026-11-18T21:46:35.722Z",
   "articles": [
+    {
+      "slug": "deepmind-lanca-genie-4-modelo-de-ia-para-interacao-em-ambientes-virtuais",
+      "headline": "DeepMind Lança Genie 4, Modelo de IA para Interação em Ambientes Virtuais",
+      "subtitle": "A nova versão promete maior controle e compreensão de comandos textuais em simulações complexas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "ambientes virtuais",
+        "google deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 18:13:42 +0000",
+      "written_at": "2026-11-18T21:46:34.907Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-deepmind-apresenta-gemini-4-neon-um-novo-passo-na-evolucao-de-modelos-de-",
+      "headline": "Google DeepMind Apresenta Gemini 4 Neon: Um Novo Passo na Evolução de Modelos de Linguagem",
+      "subtitle": "A mais recente iteração do modelo de IA promete maior eficiência e capacidade, com implicações para o desenvolvimento de aplicações no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google deepmind",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 21:35:43 +0000",
+      "written_at": "2026-11-18T21:46:17.553Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-gemini-chega-a-celulares-android-com-menos-memoria",
+      "headline": "Google Gemini chega a celulares Android com menos memória",
+      "subtitle": "A expansão do chatbot visa democratizar o acesso à IA generativa em dispositivos mais básicos no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "category": "google",
+      "tags": [
+        "gemini",
+        "google",
+        "android"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 17:00:00 +0000",
+      "written_at": "2026-11-18T21:46:06.838Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-em-reconhecimento-de-imagens-sar-o-cenario-e-mais-importante-que-o-veiculo",
       "headline": "IA em reconhecimento de imagens SAR: o cenário é mais importante que o veículo?",
