@@ -1,0 +1,51 @@
+{
+  "id": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+  "title": "Introducing Tool Retrieval in the Gemini API",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+  "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp\">Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+  "published_at": "Thu, 19 Nov 2026 18:00:00 +0000",
+  "source_id": "google-ai-blog",
+  "source_name": "Google AI",
+  "category": "google",
+  "source_type": "blog-oficial",
+  "headline": "Gemini API ganha \"Tool Retrieval\" para agentes de IA mais eficientes",
+  "subtitle": "Nova funcionalidade promete otimizar o uso de tokens e expandir capacidades dos modelos de linguagem.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "O Google anunciou a prévia do recurso \"Tool Retrieval\" na Gemini API. A novidade permite que agentes de inteligência artificial acessem centenas de ferramentas externas, otimizando o consumo de tokens e ampliando a funcionalidade dos modelos.",
+  "body_markdown": "## O que aconteceu\n\nO Google AI introduziu o \"Tool Retrieval\" na Gemini API, uma funcionalidade que está em fase de prévia. Este avanço permite que modelos de linguagem, como o Gemini, interajam com um vasto conjunto de ferramentas externas. A principal vantagem é a capacidade de invocar a ferramenta correta para uma tarefa específica, utilizando um número significativamente menor de tokens. Isso significa que os desenvolvedores podem construir agentes de IA mais sofisticados e eficientes, sem a necessidade de carregar todas as informações sobre as ferramentas disponíveis em cada chamada de API. A proposta é que a inteligência artificial seja capaz de \"recuperar\" a ferramenta adequada de um repertório maior, de forma mais inteligente. Mais detalhes sobre a implementação e as ferramentas disponíveis podem ser encontrados no anúncio oficial do [Google AI](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/).\n\n## Por que importa\n\nPara o mercado brasileiro de tecnologia e desenvolvimento, a implementação do \"Tool Retrieval\" abre novas portas para a criação de aplicações de IA mais robustas e economicamente viáveis. A redução no consumo de tokens impacta diretamente os custos operacionais, tornando a adoção de soluções baseadas em modelos de linguagem avançados mais acessível para startups e empresas de médio porte. Além disso, a capacidade de integrar centenas de ferramentas permite que os agentes de IA realizem tarefas mais complexas, desde a análise de dados financeiros até a automação de processos em setores como o jurídico ou de atendimento ao cliente, sem que o modelo precise \"saber\" de tudo de antemão. Isso fomenta a inovação local ao diminuir barreiras técnicas e financeiras.\n\n## O que esperar\n\nCom o \"Tool Retrieval\" em prévia, espera-se que os desenvolvedores explorem novas formas de construir agentes de IA mais adaptáveis e versáteis. A capacidade de selecionar dinamicamente as ferramentas mais adequadas para cada solicitação promete um salto na performance e na inteligência dos sistemas autônomos. A tendência é que, com o tempo, mais ferramentas sejam integradas e que a funcionalidade se torne um padrão para o desenvolvimento de aplicações de IA que exigem interação com o mundo externo. A Google AI continua a refinar suas APIs, e este passo sugere um futuro onde os modelos de linguagem serão ainda mais capazes de executar ações complexas e multifacetadas. Para mais informações sobre as capacidades e o futuro da API, consulte [a publicação do Google AI](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>O Google AI introduziu o \"Tool Retrieval\" na Gemini API, uma funcionalidade que está em fase de prévia. Este avanço permite que modelos de linguagem, como o Gemini, interajam com um vasto conjunto de ferramentas externas. A principal vantagem é a capacidade de invocar a ferramenta correta para uma tarefa específica, utilizando um número significativamente menor de tokens. Isso significa que os desenvolvedores podem construir agentes de IA mais sofisticados e eficientes, sem a necessidade de carregar todas as informações sobre as ferramentas disponíveis em cada chamada de API. A proposta é que a inteligência artificial seja capaz de \"recuperar\" a ferramenta adequada de um repertório maior, de forma mais inteligente. Mais detalhes sobre a implementação e as ferramentas disponíveis podem ser encontrados no anúncio oficial do <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/\" target=\"_blank\" rel=\"external noopener\">Google AI</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>Para o mercado brasileiro de tecnologia e desenvolvimento, a implementação do \"Tool Retrieval\" abre novas portas para a criação de aplicações de IA mais robustas e economicamente viáveis. A redução no consumo de tokens impacta diretamente os custos operacionais, tornando a adoção de soluções baseadas em modelos de linguagem avançados mais acessível para startups e empresas de médio porte. Além disso, a capacidade de integrar centenas de ferramentas permite que os agentes de IA realizem tarefas mais complexas, desde a análise de dados financeiros até a automação de processos em setores como o jurídico ou de atendimento ao cliente, sem que o modelo precise \"saber\" de tudo de antemão. Isso fomenta a inovação local ao diminuir barreiras técnicas e financeiras.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com o \"Tool Retrieval\" em prévia, espera-se que os desenvolvedores explorem novas formas de construir agentes de IA mais adaptáveis e versáteis. A capacidade de selecionar dinamicamente as ferramentas mais adequadas para cada solicitação promete um salto na performance e na inteligência dos sistemas autônomos. A tendência é que, com o tempo, mais ferramentas sejam integradas e que a funcionalidade se torne um padrão para o desenvolvimento de aplicações de IA que exigem interação com o mundo externo. A Google AI continua a refinar suas APIs, e este passo sugere um futuro onde os modelos de linguagem serão ainda mais capazes de executar ações complexas e multifacetadas. Para mais informações sobre as capacidades e o futuro da API, consulte <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/\" target=\"_blank\" rel=\"external noopener\">a publicação do Google AI</a>.</p>",
+  "tags": [
+    "gemini api",
+    "inteligência artificial",
+    "google ai"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "Gemini API",
+    "Tool Retrieval",
+    "Google AI",
+    "modelos de linguagem",
+    "agentes de IA",
+    "desenvolvimento de IA"
+  ],
+  "meta_description_seo": "Google Gemini API lança \"Tool Retrieval\" em prévia, permitindo que agentes de IA acessem centenas de ferramentas com menor uso de tokens.",
+  "faq": [
+    {
+      "q": "O que é o \"Tool Retrieval\" na Gemini API?",
+      "a": "É uma nova funcionalidade em prévia que permite aos agentes de IA acessarem centenas de ferramentas externas de forma eficiente, utilizando menos tokens."
+    },
+    {
+      "q": "Quais os benefícios dessa nova funcionalidade?",
+      "a": "Os principais benefícios incluem a criação de agentes de IA mais eficientes, a redução de custos operacionais devido ao menor consumo de tokens e a expansão das capacidades dos modelos de linguagem."
+    },
+    {
+      "q": "Quando o \"Tool Retrieval\" estará disponível para todos os desenvolvedores?",
+      "a": "Atualmente, o recurso está em fase de prévia. A Google AI não especificou uma data para o lançamento geral, mas é provável que seja liberado após testes e feedback da comunidade."
+    }
+  ],
+  "written_at": "2026-11-19T22:03:06.316Z",
+  "slug": "gemini-api-ganha-tool-retrieval-para-agentes-de-ia-mais-eficientes",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.width-1300.png"
+}

@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-19T03:04:30.868Z",
+  "generated_at": "2026-11-19T22:03:28.248Z",
   "articles": [
+    {
+      "slug": "mutualismo-humano-ia-em-risco-com-crescimento-da-capacidade-das-maquinas",
+      "headline": "Mutualismo Humano-IA em Risco com Crescimento da Capacidade das Máquinas",
+      "subtitle": "Um estudo aponta que a dependência mútua idealizada pode ser insustentável à medida que a IA se torna mais avançada.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.23322",
+      "category": "research",
+      "tags": [
+        "ia",
+        "mutualismo",
+        "alinhamento"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 19 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-19T22:03:28.148Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "isaacson-discute-criatividade-e-julgamento-humano-em-dialogo-com-google-ai",
+      "headline": "Isaacson discute criatividade e julgamento humano em diálogo com Google AI",
+      "subtitle": "O autor de biografias de inovadores busca lições para o desenvolvimento de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "category": "google",
+      "tags": [
+        "inteligencia artificial",
+        "criatividade",
+        "inovacao",
+        "google ai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "written_at": "2026-11-19T22:03:16.185Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "gemini-api-ganha-tool-retrieval-para-agentes-de-ia-mais-eficientes",
+      "headline": "Gemini API ganha \"Tool Retrieval\" para agentes de IA mais eficientes",
+      "subtitle": "Nova funcionalidade promete otimizar o uso de tokens e expandir capacidades dos modelos de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "category": "google",
+      "tags": [
+        "gemini api",
+        "inteligência artificial",
+        "google ai"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 19 Nov 2026 18:00:00 +0000",
+      "written_at": "2026-11-19T22:03:06.316Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "satya-nadella-infraestrutura-critica-e-impatchavel-diante-de-ameacas-de-ciberata",
       "headline": "Satya Nadella: Infraestrutura Crítica é \"Impatchável\" Diante de Ameaças de Ciberataques de IA",
