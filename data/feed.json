@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-18T21:46:35.722Z",
+  "generated_at": "2026-11-19T03:04:30.868Z",
   "articles": [
+    {
+      "slug": "satya-nadella-infraestrutura-critica-e-impatchavel-diante-de-ameacas-de-ciberata",
+      "headline": "Satya Nadella: Infraestrutura Crítica é \"Impatchável\" Diante de Ameaças de Ciberataques de IA",
+      "subtitle": "CEO da Microsoft aponta vulnerabilidades persistentes em sistemas essenciais, mesmo com avanços em segurança.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "ciberseguranca",
+        "infraestrutura critica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 18 Nov 2026 23:45:00 +0000",
+      "written_at": "2026-11-19T03:04:30.710Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "microsoft-60-mil-pedidos-de-demissao-voluntaria-explicados-pela-ia",
+      "headline": "Microsoft: 60 mil pedidos de demissão voluntária explicados pela IA",
+      "subtitle": "A gigante de tecnologia optou por incentivar o desligamento de funcionários em vez de demissões em massa, citando a necessidade de realinhamento estratégico.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "category": "mercado",
+      "tags": [
+        "microsoft",
+        "ia",
+        "satya nadella"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 19 Nov 2026 00:42:56 +0000",
+      "written_at": "2026-11-19T03:04:11.258Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-v2-1-328-introduz-modo-automatico-e-melhorias-de-seguranca",
+      "headline": "Claude Code v2.1.328 Introduz Modo Automático e Melhorias de Segurança",
+      "subtitle": "Atualização foca em otimização de interações e robustez em plataformas de nuvem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "ia generativa"
+      ],
+      "read_time_min": 4,
+      "published_at": "2026-11-19T01:14:04Z",
+      "written_at": "2026-11-19T03:04:00.867Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "deepmind-lanca-genie-4-modelo-de-ia-para-interacao-em-ambientes-virtuais",
       "headline": "DeepMind Lança Genie 4, Modelo de IA para Interação em Ambientes Virtuais",
