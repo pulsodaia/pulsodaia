@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-20T03:01:14.053Z",
+  "generated_at": "2026-11-20T12:41:26.525Z",
   "articles": [
+    {
+      "slug": "ia-colaborativa-acelera-solucao-de-problemas-complexos-de-otimizacao",
+      "headline": "IA Colaborativa Acelera Solução de Problemas Complexos de Otimização",
+      "subtitle": "Pesquisadores apresentam método que usa agentes de linguagem para avançar em desafios computacionais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.25087",
+      "category": "research",
+      "tags": [
+        "otimização combinatória",
+        "inteligência artificial",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 20 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-20T12:41:26.451Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-agente-simplifica-manutencao-industrial-com-linguagem-natural",
+      "headline": "IA Agente Simplifica Manutenção Industrial com Linguagem Natural",
+      "subtitle": "Nova abordagem promete otimizar a gestão de ordens de serviço em plantas fabris brasileiras.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.25070",
+      "category": "research",
+      "tags": [
+        "ia",
+        "manutencao industrial",
+        "llm"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 20 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-20T12:41:14.948Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "agentes-de-ia-ganham-controle-em-laboratorios-autonomos-com-salvaguardas",
+      "headline": "Agentes de IA ganham controle em laboratórios autônomos com salvaguardas",
+      "subtitle": "Nova arquitetura de IA permite que sistemas tomem decisões em experimentos físicos, mas com supervisão e auditoria.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.25043",
+      "category": "research",
+      "tags": [
+        "ia",
+        "laboratorios autonomos",
+        "pesquisa cientifica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 20 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-20T12:40:57.950Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "fundadores-da-anthropic-embolsam-quase-us-2-bilhoes-em-ipo-historico",
       "headline": "Fundadores da Anthropic embolsam quase US$ 2 bilhões em IPO histórico",

@@ -1,0 +1,51 @@
+{
+  "id": "oai:arXiv.org:2611.25070v1",
+  "title": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
+  "url": "https://arxiv.org/abs/2611.25070",
+  "summary": "arXiv:2611.25070v1 Announce Type: new Abstract: This paper presents an AI-driven framework, CodeReAct agent, designed to enhance industrial equipment maintenance through natural language (NL) interactions. The framework employs an advanced AI agentic approach to interpret human instructions, providing knowledge extraction, asset status summarization, and work order recommendations. It identifies patterns and trends and predicts work orders by standardizing industrial data into business objects (BOs) and utilizing analytical function API calls. The AI agent operates through a Thought-Action-Observation process similar to human problem-solving, automating complex analytical tasks typically performed by data scientists. Notably, the Action phase generates executable code, replacing manual coding efforts. A case study focusing on chiller maintenance demonstrates the framework's capability to analyze multiple years of work orders, and alerts and anomalies are presented. The results indicate",
+  "published_at": "Fri, 20 Nov 2026 00:00:00 -0500",
+  "source_id": "arxiv-cs-ai",
+  "source_name": "ArXiv cs.AI",
+  "category": "research",
+  "source_type": "research-direto",
+  "headline": "IA Agente Simplifica Manutenção Industrial com Linguagem Natural",
+  "subtitle": "Nova abordagem promete otimizar a gestão de ordens de serviço em plantas fabris brasileiras.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "Pesquisadores apresentaram um framework de IA baseado em Large Language Models (LLMs) para gerenciar ordens de manutenção industrial. O sistema, batizado de CodeReAct, interpreta instruções em linguagem natural para extrair conhecimento, resumir o estado de ativos e recomendar ações.",
+  "body_markdown": "## O que aconteceu\n\nUm novo artigo publicado no arXiv (cs.AI), com o título \"An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance\", detalha o desenvolvimento do agente CodeReAct. Essa estrutura de IA visa automatizar e aprimorar o processo de manutenção de equipamentos industriais. O agente opera através de um ciclo de \"Pensamento-Ação-Observação\", similar à resolução de problemas humana, mas com a capacidade de gerar código executável para realizar tarefas analíticas complexas. Isso elimina a necessidade de intervenção manual de cientistas de dados em muitas etapas. O framework padroniza dados industriais em objetos de negócio (BOs) e utiliza chamadas de API de funções analíticas para identificar padrões, tendências e prever futuras ordens de serviço. A interação com o sistema é feita via linguagem natural, tornando o acesso e a operação mais intuitivos. A publicação original pode ser consultada em [https://arxiv.org/abs/2611.25070](https://arxiv.org/abs/2611.25070).\n\n## Por que importa\n\nA indústria brasileira, com seu parque fabril extenso e diversificado, enfrenta desafios constantes na otimização da manutenção. A gestão de ordens de serviço, muitas vezes um processo manual e propenso a erros, impacta diretamente a eficiência operacional e os custos. Um sistema como o CodeReAct pode significar uma redução expressiva no tempo de inatividade de máquinas, na alocação de recursos e na prevenção de falhas críticas. A capacidade de interpretar comandos em linguagem natural democratiza o acesso a análises de dados avançadas, permitindo que equipes de manutenção, sem expertise profunda em ciência de dados, obtenham insights valiosos sobre o desempenho e as necessidades de seus ativos. Isso pode levar a uma tomada de decisão mais ágil e fundamentada, crucial para a competitividade no cenário industrial atual.\n\n## O que esperar\n\nA introdução de frameworks como o CodeReAct sugere um futuro onde a manutenção industrial será mais preditiva e proativa. A padronização de dados industriais em objetos de negócio, combinada com a inteligência de LLMs, abre portas para análises mais profundas e personalizadas. Espera-se que sistemas similares permitam a integração direta com sistemas de gestão de manutenção (CMMS) e sistemas de execução de manufatura (MES), criando um fluxo de trabalho contínuo e automatizado. A evolução dessa tecnologia pode levar ao desenvolvimento de assistentes virtuais de manutenção, capazes de diagnosticar problemas, sugerir reparos e até mesmo agendar intervenções com base em dados históricos e em tempo real. O avanço em [abordagens agentic com LLMs](https://arxiv.org/abs/2611.25070) aponta para uma maior autonomia e eficiência em operações complexas.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>Um novo artigo publicado no arXiv (cs.AI), com o título \"An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance\", detalha o desenvolvimento do agente CodeReAct. Essa estrutura de IA visa automatizar e aprimorar o processo de manutenção de equipamentos industriais. O agente opera através de um ciclo de \"Pensamento-Ação-Observação\", similar à resolução de problemas humana, mas com a capacidade de gerar código executável para realizar tarefas analíticas complexas. Isso elimina a necessidade de intervenção manual de cientistas de dados em muitas etapas. O framework padroniza dados industriais em objetos de negócio (BOs) e utiliza chamadas de API de funções analíticas para identificar padrões, tendências e prever futuras ordens de serviço. A interação com o sistema é feita via linguagem natural, tornando o acesso e a operação mais intuitivos. A publicação original pode ser consultada em <a href=\"https://arxiv.org/abs/2611.25070\" target=\"_blank\" rel=\"external noopener\">https://arxiv.org/abs/2611.25070</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A indústria brasileira, com seu parque fabril extenso e diversificado, enfrenta desafios constantes na otimização da manutenção. A gestão de ordens de serviço, muitas vezes um processo manual e propenso a erros, impacta diretamente a eficiência operacional e os custos. Um sistema como o CodeReAct pode significar uma redução expressiva no tempo de inatividade de máquinas, na alocação de recursos e na prevenção de falhas críticas. A capacidade de interpretar comandos em linguagem natural democratiza o acesso a análises de dados avançadas, permitindo que equipes de manutenção, sem expertise profunda em ciência de dados, obtenham insights valiosos sobre o desempenho e as necessidades de seus ativos. Isso pode levar a uma tomada de decisão mais ágil e fundamentada, crucial para a competitividade no cenário industrial atual.</p>\n\n<h2>O que esperar</h2>\n\n<p>A introdução de frameworks como o CodeReAct sugere um futuro onde a manutenção industrial será mais preditiva e proativa. A padronização de dados industriais em objetos de negócio, combinada com a inteligência de LLMs, abre portas para análises mais profundas e personalizadas. Espera-se que sistemas similares permitam a integração direta com sistemas de gestão de manutenção (CMMS) e sistemas de execução de manufatura (MES), criando um fluxo de trabalho contínuo e automatizado. A evolução dessa tecnologia pode levar ao desenvolvimento de assistentes virtuais de manutenção, capazes de diagnosticar problemas, sugerir reparos e até mesmo agendar intervenções com base em dados históricos e em tempo real. O avanço em <a href=\"https://arxiv.org/abs/2611.25070\" target=\"_blank\" rel=\"external noopener\">abordagens agentic com LLMs</a> aponta para uma maior autonomia e eficiência em operações complexas.</p>",
+  "tags": [
+    "ia",
+    "manutencao industrial",
+    "llm"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "manutenção industrial",
+    "IA",
+    "LLM",
+    "ordens de serviço",
+    "CodeReAct",
+    "agente IA"
+  ],
+  "meta_description_seo": "IA agente CodeReAct simplifica gestão de manutenção industrial com linguagem natural, otimizando ordens de serviço e análise de ativos.",
+  "faq": [
+    {
+      "q": "Como a IA pode ajudar na manutenção industrial?",
+      "a": "A IA pode interpretar instruções em linguagem natural para extrair informações sobre ativos, resumir seu estado e recomendar ações de manutenção, automatizando tarefas analíticas complexas."
+    },
+    {
+      "q": "O que é o framework CodeReAct?",
+      "a": "CodeReAct é um agente de IA que utiliza LLMs para gerenciar ordens de serviço em manutenção industrial, operando através de um ciclo de pensamento, ação e observação para automatizar análises."
+    },
+    {
+      "q": "Qual o benefício principal dessa tecnologia para as indústrias?",
+      "a": "O principal benefício é a otimização da gestão de manutenção, reduzindo o tempo de inatividade de equipamentos, os custos operacionais e a necessidade de intervenção manual em análises de dados."
+    }
+  ],
+  "written_at": "2026-11-20T12:41:14.948Z",
+  "slug": "ia-agente-simplifica-manutencao-industrial-com-linguagem-natural",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+}
