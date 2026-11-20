@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 19 Nov 2026 22:11:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 03:10:48 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Fundadores da Anthropic embolsam quase US$ 2 bilhões em IPO histórico</title>
+      <link>https://pulsodaia.com.br/feed/fundadores-da-anthropic-embolsam-quase-us-2-bilhoes-em-ipo-historico/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/fundadores-da-anthropic-embolsam-quase-us-2-bilhoes-em-ipo-historico/</guid>
+      <pubDate>Fri, 20 Nov 2026 03:01:13 GMT</pubDate>
+      <description>Movimento sinaliza alta valorização de empresas de IA e potencial de retorno para investidores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Apple Investe em Agente de IA para Gerenciar Macs</title>
+      <link>https://pulsodaia.com.br/feed/apple-investe-em-agente-de-ia-para-gerenciar-macs/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-investe-em-agente-de-ia-para-gerenciar-macs/</guid>
+      <pubDate>Fri, 20 Nov 2026 03:01:03 GMT</pubDate>
+      <description>A gigante de Cupertino pode estar preparando uma resposta direta aos modelos de IA generativa atuais.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code V2.1.329: Mais Transparência e Controle em Gerenciamento de Hooks e Tarefas</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-329-mais-transparencia-e-controle-em-gerenciamento-de-hooks-e-t/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-329-mais-transparencia-e-controle-em-gerenciamento-de-hooks-e-t/</guid>
+      <pubDate>Fri, 20 Nov 2026 03:00:48 GMT</pubDate>
+      <description>Atualização do modelo de código da Anthropic introduz diálogos de confiança e melhorias na gestão de configurações.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.329">Claude Code</source>
+    </item>
     <item>
       <title>Mutualismo Humano-IA em Risco com Crescimento da Capacidade das Máquinas</title>
       <link>https://pulsodaia.com.br/feed/mutualismo-humano-ia-em-risco-com-crescimento-da-capacidade-das-maquinas/</link>
@@ -430,33 +457,6 @@
       <description>A versão 1.0.0 do llama.cpp consolida uma infraestrutura crucial para o desenvolvimento de inteligência artificial em dispositivos pessoais no país.</description>
       <category>LANCAMENTO</category>
       <source url="https://huggingface.co/blog/ggml-org/llama-cpp-v1">Hugging Face</source>
-    </item>
-    <item>
-      <title>XYBench: Nova Ferramenta da Hugging Face Busca Refinar Perguntas para IA</title>
-      <link>https://pulsodaia.com.br/feed/xybench-nova-ferramenta-da-hugging-face-busca-refinar-perguntas-para-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/xybench-nova-ferramenta-da-hugging-face-busca-refinar-perguntas-para-ia/</guid>
-      <pubDate>Fri, 13 Nov 2026 21:54:40 GMT</pubDate>
-      <description>A busca por prompts mais eficazes ganha um aliado técnico para desenvolvedores brasileiros.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/allenai/xybench">Hugging Face</source>
-    </item>
-    <item>
-      <title>Simulação Robótica de Pick-and-Place Ganha Novo Fôlego com Assets da Nvidia</title>
-      <link>https://pulsodaia.com.br/feed/simulacao-robotica-de-pick-and-place-ganha-novo-folego-com-assets-da-nvidia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/simulacao-robotica-de-pick-and-place-ganha-novo-folego-com-assets-da-nvidia/</guid>
-      <pubDate>Fri, 13 Nov 2026 21:54:29 GMT</pubDate>
-      <description>A Hugging Face disponibiliza recursos para acelerar o desenvolvimento de robôs autônomos no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">Hugging Face</source>
-    </item>
-    <item>
-      <title>Democratas Abrem Investigação Sobre Vendas da Nvidia para China e Relações com Trump</title>
-      <link>https://pulsodaia.com.br/feed/democratas-abrem-investigacao-sobre-vendas-da-nvidia-para-china-e-relacoes-com-t/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/democratas-abrem-investigacao-sobre-vendas-da-nvidia-para-china-e-relacoes-com-t/</guid>
-      <pubDate>Thu, 12 Nov 2026 23:30:13 GMT</pubDate>
-      <description>A ação parlamentar levanta questões sobre as práticas comerciais da gigante de chips e sua interação com a política externa.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
