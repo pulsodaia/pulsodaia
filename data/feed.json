@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-20T12:41:26.525Z",
+  "generated_at": "2026-11-20T21:44:39.979Z",
   "articles": [
+    {
+      "slug": "daniel-ek-aposta-em-startup-de-fusao-nuclear-com-foco-em-ia",
+      "headline": "Daniel Ek aposta em startup de fusão nuclear com foco em IA",
+      "subtitle": "Investimento do fundador do Spotify impulsiona pesquisa em energia limpa através de inteligência artificial.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "category": "mercado",
+      "tags": [
+        "energia de fusao",
+        "inteligencia artificial",
+        "daniel ek"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 20 Nov 2026 19:53:41 +0000",
+      "written_at": "2026-11-20T21:44:39.904Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-lanca-adaptadores-para-otimizar-modelos-de-ia-em-escala",
+      "headline": "Hugging Face Lança Adaptadores para Otimizar Modelos de IA em Escala",
+      "subtitle": "Nova abordagem da Hugging Face promete melhorar performance e reduzir custos de modelos de linguagem, com potencial impacto no mercado brasileiro.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "hugging face",
+        "adaptadores"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-20T21:44:29.611Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "inkling-2-mini-chega-com-foco-em-performance-local-para-desenvolvedores",
+      "headline": "Inkling 2 Mini chega com foco em performance local para desenvolvedores",
+      "subtitle": "Novos modelos de linguagem prometem agilidade para aplicações de IA sem dependência de nuvem no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/inkling2mini",
+      "category": "opensource",
+      "tags": [
+        "inkling 2 mini",
+        "hugging face",
+        "ia local"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-20T21:44:18.982Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-colaborativa-acelera-solucao-de-problemas-complexos-de-otimizacao",
       "headline": "IA Colaborativa Acelera Solução de Problemas Complexos de Otimização",

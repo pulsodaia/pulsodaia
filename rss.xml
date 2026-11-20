@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 20 Nov 2026 12:48:59 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 21:51:49 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Daniel Ek aposta em startup de fusão nuclear com foco em IA</title>
+      <link>https://pulsodaia.com.br/feed/daniel-ek-aposta-em-startup-de-fusao-nuclear-com-foco-em-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/daniel-ek-aposta-em-startup-de-fusao-nuclear-com-foco-em-ia/</guid>
+      <pubDate>Fri, 20 Nov 2026 21:44:39 GMT</pubDate>
+      <description>Investimento do fundador do Spotify impulsiona pesquisa em energia limpa através de inteligência artificial.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Hugging Face Lança Adaptadores para Otimizar Modelos de IA em Escala</title>
+      <link>https://pulsodaia.com.br/feed/hugging-face-lanca-adaptadores-para-otimizar-modelos-de-ia-em-escala/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/hugging-face-lanca-adaptadores-para-otimizar-modelos-de-ia-em-escala/</guid>
+      <pubDate>Fri, 20 Nov 2026 21:44:29 GMT</pubDate>
+      <description>Nova abordagem da Hugging Face promete melhorar performance e reduzir custos de modelos de linguagem, com potencial impacto no mercado brasileiro.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/harness-adapters-at-scale">Hugging Face</source>
+    </item>
+    <item>
+      <title>Inkling 2 Mini chega com foco em performance local para desenvolvedores</title>
+      <link>https://pulsodaia.com.br/feed/inkling-2-mini-chega-com-foco-em-performance-local-para-desenvolvedores/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/inkling-2-mini-chega-com-foco-em-performance-local-para-desenvolvedores/</guid>
+      <pubDate>Fri, 20 Nov 2026 21:44:18 GMT</pubDate>
+      <description>Novos modelos de linguagem prometem agilidade para aplicações de IA sem dependência de nuvem no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/inkling2mini">Hugging Face</source>
+    </item>
     <item>
       <title>IA Colaborativa Acelera Solução de Problemas Complexos de Otimização</title>
       <link>https://pulsodaia.com.br/feed/ia-colaborativa-acelera-solucao-de-problemas-complexos-de-otimizacao/</link>
@@ -430,33 +457,6 @@
       <description>A ascensão e possível declínio do CEO-showman levanta questões sobre o futuro da liderança em tecnologia.</description>
       <category>FOUNDERS</category>
       <source url="https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo">The Verge AI</source>
-    </item>
-    <item>
-      <title>Ex-membro do conselho da OpenAI alerta sobre confiança em CEOs de IA</title>
-      <link>https://pulsodaia.com.br/feed/ex-membro-do-conselho-da-openai-alerta-sobre-confianca-em-ceos-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ex-membro-do-conselho-da-openai-alerta-sobre-confianca-em-ceos-de-ia/</guid>
-      <pubDate>Sat, 14 Nov 2026 17:51:59 GMT</pubDate>
-      <description>A executiva que participou da demissão de Sam Altman levanta preocupações sobre a governança e a segurança em empresas de inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview">The Verge AI</source>
-    </item>
-    <item>
-      <title>Saida de Jensen Huang da Nvidia: Governos Asiáticos Reagem Confirmando Cadeias de Suprimentos e Monitorando Projetos Locais</title>
-      <link>https://pulsodaia.com.br/feed/saida-de-jensen-huang-da-nvidia-governos-asiaticos-reagem-confirmando-cadeias-de/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/saida-de-jensen-huang-da-nvidia-governos-asiaticos-reagem-confirmando-cadeias-de/</guid>
-      <pubDate>Sat, 14 Nov 2026 17:51:49 GMT</pubDate>
-      <description>A movimentação do CEO da gigante de chips gera respostas governamentais focadas em garantir a continuidade da produção e a saúde de iniciativas de IA regionais.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Runway Libera Modelo de IA para Controle de Robôs com Código Aberto</title>
-      <link>https://pulsodaia.com.br/feed/runway-libera-modelo-de-ia-para-controle-de-robos-com-codigo-aberto/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/runway-libera-modelo-de-ia-para-controle-de-robos-com-codigo-aberto/</guid>
-      <pubDate>Sat, 14 Nov 2026 11:19:50 GMT</pubDate>
-      <description>Nova ferramenta da Runway pode acelerar a integração de inteligência artificial em robótica no Brasil.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/">The Decoder</source>
     </item>
   </channel>
 </rss>
