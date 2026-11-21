@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 20 Nov 2026 21:51:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 03:10:49 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Claude Code Integra Controle Organizacional e Gera Gráficos Integrados</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-integra-controle-organizacional-e-gera-graficos-integrados/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-integra-controle-organizacional-e-gera-graficos-integrados/</guid>
+      <pubDate>Sat, 21 Nov 2026 03:03:25 GMT</pubDate>
+      <description>Atualizações da Anthropic focam em segurança corporativa e visualização de dados para desenvolvedores.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.330">Claude Code</source>
+    </item>
     <item>
       <title>Daniel Ek aposta em startup de fusão nuclear com foco em IA</title>
       <link>https://pulsodaia.com.br/feed/daniel-ek-aposta-em-startup-de-fusao-nuclear-com-foco-em-ia/</link>
@@ -448,15 +457,6 @@
       <description>Um movimento incomum no setor de tecnologia levanta questões sobre liderança e direção estratégica no mercado de hardware de IA.</description>
       <category>MERCADO</category>
       <source url="https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>O Fim de uma Era: Jensen Huang e o Declínio do Fundador Visionário</title>
-      <link>https://pulsodaia.com.br/feed/o-fim-de-uma-era-jensen-huang-e-o-declinio-do-fundador-visionario/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/o-fim-de-uma-era-jensen-huang-e-o-declinio-do-fundador-visionario/</guid>
-      <pubDate>Sat, 14 Nov 2026 17:52:10 GMT</pubDate>
-      <description>A ascensão e possível declínio do CEO-showman levanta questões sobre o futuro da liderança em tecnologia.</description>
-      <category>FOUNDERS</category>
-      <source url="https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo">The Verge AI</source>
     </item>
   </channel>
 </rss>
