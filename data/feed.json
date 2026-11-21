@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-21T03:03:26.639Z",
+  "generated_at": "2026-11-21T12:22:22.017Z",
   "articles": [
+    {
+      "slug": "mercado-de-tecnologia-americano-sofre-pior-queda-semanal-desde-pandemia-com-cres",
+      "headline": "Mercado de Tecnologia Americano Sofre Pior Queda Semanal Desde Pandemia com Crescente Ceticismo em IA",
+      "subtitle": "O Nasdaq 100 entrou em território de mercado em baixa, refletindo preocupações sobre avaliações e escrutínio regulatório.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "mercado financeiro",
+        "tecnologia"
+      ],
+      "read_time_min": 4,
+      "published_at": "Sat, 21 Nov 2026 10:27:44 +0000",
+      "written_at": "2026-11-21T12:22:20.142Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "inkling-2-mini-modelo-de-ia-de-codigo-aberto-pensa-em-ciclos-para-eficiencia-e-r",
+      "headline": "Inkling 2 Mini: Modelo de IA de código aberto pensa em ciclos para eficiência e roda em laptops",
+      "subtitle": "A nova arquitetura do modelo promete otimizar o processamento de linguagem natural com menor custo computacional.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "codigo aberto",
+        "processamento de linguagem natural"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 21 Nov 2026 10:33:02 +0000",
+      "written_at": "2026-11-21T12:22:07.086Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "ia-e-hipotese-de-riemann-anthropic-e-stanford-em-competicao",
+      "headline": "IA e Hipótese de Riemann: Anthropic e Stanford em Competição",
+      "subtitle": "A corrida pela prova de um dos problemas mais antigos da matemática ganha contornos digitais e humanos.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "matemática",
+        "riemann hypothesis"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 21 Nov 2026 11:19:49 +0000",
+      "written_at": "2026-11-21T12:21:55.182Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "claude-code-integra-controle-organizacional-e-gera-graficos-integrados",
       "headline": "Claude Code Integra Controle Organizacional e Gera Gráficos Integrados",
