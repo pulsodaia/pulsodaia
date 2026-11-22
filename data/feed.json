@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-21T20:26:09.956Z",
+  "generated_at": "2026-11-22T02:01:09.563Z",
   "articles": [
+    {
+      "slug": "nvidia-questiona-eficacia-de-janelas-de-contexto-gigantes-em-modelos-de-ia",
+      "headline": "Nvidia Questiona Eficácia de Janelas de Contexto Gigantes em Modelos de IA",
+      "subtitle": "Pesquisadores da gigante de chips sugerem que a corrida por janelas de contexto cada vez maiores pode ser um caminho sem futuro para a inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "nvidia",
+        "modelos de linguagem"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 21 Nov 2026 16:23:45 +0000",
+      "written_at": "2026-11-22T02:01:08.094Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-relatorio-financeiro-versus-narrativa-de-executivos",
+      "headline": "Nvidia: Relatório Financeiro versus Narrativa de Executivos",
+      "subtitle": "O desempenho da gigante de chips para IA gera visões contrastantes no mercado.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "inteligencia artificial",
+        "mercado de chips"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 21 Nov 2026 21:07:42 +0000",
+      "written_at": "2026-11-22T02:00:57.551Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "signal-bloqueia-capturas-de-tela-contra-vigilancia-por-ia",
+      "headline": "Signal Bloqueia Capturas de Tela Contra Vigilância por IA",
+      "subtitle": "O aplicativo de mensagens foca em proteger a privacidade do usuário em um cenário de ameaças crescentes.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "category": "mercado",
+      "tags": [
+        "privacidade",
+        "vigilância",
+        "inteligência artificial"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sat, 21 Nov 2026 21:37:10 +0000",
+      "written_at": "2026-11-22T02:00:47.344Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "anthropic-ipo-gigante-testa-se-seguranca-em-ia-cabe-no-bolso",
       "headline": "Anthropic: IPO Gigante Testa Se Segurança em IA Cabe no Bolso",
