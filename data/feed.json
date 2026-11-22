@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-22T02:01:09.563Z",
+  "generated_at": "2026-11-22T17:43:20.477Z",
   "articles": [
+    {
+      "slug": "agentes-de-ia-para-codificacao-falham-em-fluxo-de-trabalho-real-apesar-de-bom-de",
+      "headline": "Agentes de IA para Codificação Falham em Fluxo de Trabalho Real, Apesar de Bom Desempenho em Testes Isolados",
+      "subtitle": "Novos testes em ambiente simulado revelam limitações significativas na autonomia e na conclusão de tarefas complexas por modelos de IA.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "desenvolvimento de software",
+        "agentes de codificação"
+      ],
+      "read_time_min": 3,
+      "published_at": "Sun, 22 Nov 2026 15:15:48 +0000",
+      "written_at": "2026-11-22T17:43:19.086Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "a-nova-era-da-programacao-por-vibe-gadgets-ganham-inteligencia-emocional",
+      "headline": "A Nova Era da Programação por \"Vibe\": Gadgets Ganham Inteligência Emocional",
+      "subtitle": "A inteligência artificial generativa avança para além do código, moldando a interação com dispositivos no dia a dia do brasileiro.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "category": "mercado",
+      "tags": [
+        "ia generativa",
+        "interacao humano maquina",
+        "dispositivos inteligentes"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-22T08:00:00-05:00",
+      "written_at": "2026-11-22T17:43:08.287Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "desenvolvedor-de-the-binding-of-isaac-remove-musica-gerada-por-ia-apos-reacoes-n",
+      "headline": "Desenvolvedor de The Binding of Isaac remove música gerada por IA após reações negativas",
+      "subtitle": "A comunidade gamer brasileira acompanha de perto os desdobramentos éticos e criativos da inteligência artificial na produção de conteúdo.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "jogos",
+        "musica",
+        "the binding of isaac"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-22T12:25:20-05:00",
+      "written_at": "2026-11-22T17:42:57.420Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "nvidia-questiona-eficacia-de-janelas-de-contexto-gigantes-em-modelos-de-ia",
       "headline": "Nvidia Questiona Eficácia de Janelas de Contexto Gigantes em Modelos de IA",

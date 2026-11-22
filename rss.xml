@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 22 Nov 2026 09:43:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 17:50:36 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Agentes de IA para Codificação Falham em Fluxo de Trabalho Real, Apesar de Bom Desempenho em Testes Isolados</title>
+      <link>https://pulsodaia.com.br/feed/agentes-de-ia-para-codificacao-falham-em-fluxo-de-trabalho-real-apesar-de-bom-de/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-para-codificacao-falham-em-fluxo-de-trabalho-real-apesar-de-bom-de/</guid>
+      <pubDate>Sun, 22 Nov 2026 17:43:19 GMT</pubDate>
+      <description>Novos testes em ambiente simulado revelam limitações significativas na autonomia e na conclusão de tarefas complexas por modelos de IA.</description>
+      <category>ANALISE</category>
+      <source url="https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/">The Decoder</source>
+    </item>
+    <item>
+      <title>A Nova Era da Programação por "Vibe": Gadgets Ganham Inteligência Emocional</title>
+      <link>https://pulsodaia.com.br/feed/a-nova-era-da-programacao-por-vibe-gadgets-ganham-inteligencia-emocional/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/a-nova-era-da-programacao-por-vibe-gadgets-ganham-inteligencia-emocional/</guid>
+      <pubDate>Sun, 22 Nov 2026 17:43:08 GMT</pubDate>
+      <description>A inteligência artificial generativa avança para além do código, moldando a interação com dispositivos no dia a dia do brasileiro.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera">The Verge AI</source>
+    </item>
+    <item>
+      <title>Desenvolvedor de The Binding of Isaac remove música gerada por IA após reações negativas</title>
+      <link>https://pulsodaia.com.br/feed/desenvolvedor-de-the-binding-of-isaac-remove-musica-gerada-por-ia-apos-reacoes-n/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/desenvolvedor-de-the-binding-of-isaac-remove-musica-gerada-por-ia-apos-reacoes-n/</guid>
+      <pubDate>Sun, 22 Nov 2026 17:42:57 GMT</pubDate>
+      <description>A comunidade gamer brasileira acompanha de perto os desdobramentos éticos e criativos da inteligência artificial na produção de conteúdo.</description>
+      <category>ANALISE</category>
+      <source url="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music">The Verge AI</source>
+    </item>
     <item>
       <title>Nvidia Questiona Eficácia de Janelas de Contexto Gigantes em Modelos de IA</title>
       <link>https://pulsodaia.com.br/feed/nvidia-questiona-eficacia-de-janelas-de-contexto-gigantes-em-modelos-de-ia/</link>
@@ -430,33 +457,6 @@
       <description>Nova abordagem simplifica a gestão de múltiplos adaptadores para LLMs no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://arxiv.org/abs/2611.17340">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Detectores de Alucinação de IA Falham em Modelos Pequenos Usados em Dispositivos</title>
-      <link>https://pulsodaia.com.br/feed/detectores-de-alucinacao-de-ia-falham-em-modelos-pequenos-usados-em-dispositivos/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/detectores-de-alucinacao-de-ia-falham-em-modelos-pequenos-usados-em-dispositivos/</guid>
-      <pubDate>Mon, 16 Nov 2026 05:54:58 GMT</pubDate>
-      <description>Pesquisa aponta lacuna entre modelos de pesquisa e hardwares de uso prático no Brasil.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.17339">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>LLMs: o perigo de "esquecer" informacoes cruciais em agentes de IA</title>
-      <link>https://pulsodaia.com.br/feed/llms-o-perigo-de-esquecer-informacoes-cruciais-em-agentes-de-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/llms-o-perigo-de-esquecer-informacoes-cruciais-em-agentes-de-ia/</guid>
-      <pubDate>Mon, 16 Nov 2026 05:54:47 GMT</pubDate>
-      <description>Pesquisa aponta que a exclusao automatica de dados pode prejudicar a performance de sistemas de inteligencia artificial.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.17338">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>SNL satiriza executivos de tecnologia em episódios sobre namoro e espionagem</title>
-      <link>https://pulsodaia.com.br/feed/snl-satiriza-executivos-de-tecnologia-em-episodios-sobre-namoro-e-espionagem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/snl-satiriza-executivos-de-tecnologia-em-episodios-sobre-namoro-e-espionagem/</guid>
-      <pubDate>Sun, 15 Nov 2026 23:54:06 GMT</pubDate>
-      <description>O humorístico americano aborda a imagem de executivos tech, um tema recorrente no noticiário.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
