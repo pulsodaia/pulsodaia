@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 23 Nov 2026 07:09:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 20:08:36 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>RoboTrack: Nova tecnica para robos manipularem objetos no mundo real</title>
+      <link>https://pulsodaia.com.br/feed/robotrack-nova-tecnica-para-robos-manipularem-objetos-no-mundo-real/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/robotrack-nova-tecnica-para-robos-manipularem-objetos-no-mundo-real/</guid>
+      <pubDate>Mon, 23 Nov 2026 20:01:06 GMT</pubDate>
+      <description>Pesquisa da Allen Institute for AI aprimora a precisao de robos em tarefas complexas.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/allenai/robotrack">Hugging Face</source>
+    </item>
+    <item>
+      <title>DeepMind Usa Agentes e Verificação Formal para Acelerar Algoritmos Quânticos</title>
+      <link>https://pulsodaia.com.br/feed/deepmind-usa-agentes-e-verificacao-formal-para-acelerar-algoritmos-quanticos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/deepmind-usa-agentes-e-verificacao-formal-para-acelerar-algoritmos-quanticos/</guid>
+      <pubDate>Mon, 23 Nov 2026 20:00:55 GMT</pubDate>
+      <description>Pesquisa avança na aplicação de computação quântica para desafios em fusão nuclear e química.</description>
+      <category>RESEARCH</category>
+      <source url="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/">Google DeepMind</source>
+    </item>
+    <item>
+      <title>Google Busca Ganha Camada de Inteligência Pessoal com Integração de Apps</title>
+      <link>https://pulsodaia.com.br/feed/google-busca-ganha-camada-de-inteligencia-pessoal-com-integracao-de-apps/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-busca-ganha-camada-de-inteligencia-pessoal-com-integracao-de-apps/</guid>
+      <pubDate>Mon, 23 Nov 2026 20:00:45 GMT</pubDate>
+      <description>A gigante de Mountain View aposta em personalização profunda para respostas mais relevantes.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/">Google AI</source>
+    </item>
     <item>
       <title>IA Gera Grafos de Conhecimento por Simulação, Não Descrição</title>
       <link>https://pulsodaia.com.br/feed/ia-gera-grafos-de-conhecimento-por-simulacao-nao-descricao/</link>
@@ -430,33 +457,6 @@
       <description>Estudo no arXiv sugere abordagens descritivas para definir e testar a capacidade de sistemas de IA agirem moralmente no Brasil e no mundo.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2611.18714">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Agentes de IA perdem conhecimento crítico ao passar informações</title>
-      <link>https://pulsodaia.com.br/feed/agentes-de-ia-perdem-conhecimento-critico-ao-passar-informacoes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/agentes-de-ia-perdem-conhecimento-critico-ao-passar-informacoes/</guid>
-      <pubDate>Tue, 17 Nov 2026 10:28:05 GMT</pubDate>
-      <description>Estudo aponta que a comunicação entre sistemas de IA pode ser um gargalo para o aprendizado contínuo.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.18642">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Nvidia: Perguntas Cruciais Para a Divulgação de Resultados Ignoradas Pela Liderança</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-perguntas-cruciais-para-a-divulgacao-de-resultados-ignoradas-pela-lideran/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-perguntas-cruciais-para-a-divulgacao-de-resultados-ignoradas-pela-lideran/</guid>
-      <pubDate>Tue, 17 Nov 2026 00:06:54 GMT</pubDate>
-      <description>A gigante dos chips enfrenta um escrutínio intenso, mas a comunicação da empresa pode deixar lacunas importantes para o mercado.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code 2.1.326 Ajusta Modo de Código e Avisos para Desenvolvedores</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-2-1-326-ajusta-modo-de-codigo-e-avisos-para-desenvolvedores/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-2-1-326-ajusta-modo-de-codigo-e-avisos-para-desenvolvedores/</guid>
-      <pubDate>Tue, 17 Nov 2026 00:06:43 GMT</pubDate>
-      <description>Atualizações da Anthropic focam em usabilidade e clareza para quem trabalha com código via IA.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.326">Claude Code</source>
     </item>
   </channel>
 </rss>

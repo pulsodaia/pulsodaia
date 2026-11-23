@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-23T07:02:16.768Z",
+  "generated_at": "2026-11-23T20:01:07.116Z",
   "articles": [
+    {
+      "slug": "robotrack-nova-tecnica-para-robos-manipularem-objetos-no-mundo-real",
+      "headline": "RoboTrack: Nova tecnica para robos manipularem objetos no mundo real",
+      "subtitle": "Pesquisa da Allen Institute for AI aprimora a precisao de robos em tarefas complexas.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/robotrack",
+      "category": "opensource",
+      "tags": [
+        "robotica",
+        "manipulacao",
+        "rastreamento de pontos"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 23 Nov 2026 17:20:37 GMT",
+      "written_at": "2026-11-23T20:01:06.919Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "deepmind-usa-agentes-e-verificacao-formal-para-acelerar-algoritmos-quanticos",
+      "headline": "DeepMind Usa Agentes e Verificação Formal para Acelerar Algoritmos Quânticos",
+      "subtitle": "Pesquisa avança na aplicação de computação quântica para desafios em fusão nuclear e química.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "category": "google",
+      "tags": [
+        "computacao quantica",
+        "inteligencia artificial",
+        "deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 23 Nov 2026 16:59:40 +0000",
+      "written_at": "2026-11-23T20:00:55.750Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
+    {
+      "slug": "google-busca-ganha-camada-de-inteligencia-pessoal-com-integracao-de-apps",
+      "headline": "Google Busca Ganha Camada de Inteligência Pessoal com Integração de Apps",
+      "subtitle": "A gigante de Mountain View aposta em personalização profunda para respostas mais relevantes.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "category": "google",
+      "tags": [
+        "google search",
+        "inteligência artificial",
+        "personalização"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 23 Nov 2026 17:00:00 +0000",
+      "written_at": "2026-11-23T20:00:45.270Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "ia-gera-grafos-de-conhecimento-por-simulacao-nao-descricao",
       "headline": "IA Gera Grafos de Conhecimento por Simulação, Não Descrição",
