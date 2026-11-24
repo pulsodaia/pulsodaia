@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-23T20:01:07.116Z",
+  "generated_at": "2026-11-24T04:41:43.382Z",
   "articles": [
+    {
+      "slug": "supertake-capta-us-20-milhoes-para-automatizar-investimentos-com-previsoes-de-me",
+      "headline": "Supertake capta US$ 20 milhões para automatizar investimentos com previsões de mercado via IA",
+      "subtitle": "Plataforma promete transformar palpites de investidores em portfólios acionários sem intervenção direta.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "investimentos",
+        "fintech"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 23 Nov 2026 22:02:05 +0000",
+      "written_at": "2026-11-24T04:41:43.260Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "anthropic-automatiza-revisao-de-codigo-com-claude-ship",
+      "headline": "Anthropic Automatiza Revisão de Código com Claude Ship",
+      "subtitle": "Nova ferramenta da Anthropic promete agilizar o ciclo de desenvolvimento de software, delegando tarefas repetitivas a agentes de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "desenvolvimento de software",
+        "anthropic",
+        "claude"
+      ],
+      "read_time_min": 3,
+      "published_at": "Mon, 23 Nov 2026 22:05:50 +0000",
+      "written_at": "2026-11-24T04:41:20.171Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "claude-code-2-1-331-expande-acesso-e-capacidades-em-plataformas-de-nuvem",
+      "headline": "Claude Code 2.1.331 Expande Acesso e Capacidades em Plataformas de Nuvem",
+      "subtitle": "Atualização traz integração aprimorada com serviços da Amazon, Google e Microsoft, facilitando o desenvolvimento de IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-23T21:34:41Z",
+      "written_at": "2026-11-24T04:41:09.979Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "robotrack-nova-tecnica-para-robos-manipularem-objetos-no-mundo-real",
       "headline": "RoboTrack: Nova tecnica para robos manipularem objetos no mundo real",

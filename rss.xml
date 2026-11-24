@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 23 Nov 2026 20:08:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 04:46:40 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Supertake capta US$ 20 milhões para automatizar investimentos com previsões de mercado via IA</title>
+      <link>https://pulsodaia.com.br/feed/supertake-capta-us-20-milhoes-para-automatizar-investimentos-com-previsoes-de-me/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/supertake-capta-us-20-milhoes-para-automatizar-investimentos-com-previsoes-de-me/</guid>
+      <pubDate>Tue, 24 Nov 2026 04:41:43 GMT</pubDate>
+      <description>Plataforma promete transformar palpites de investidores em portfólios acionários sem intervenção direta.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Anthropic Automatiza Revisão de Código com Claude Ship</title>
+      <link>https://pulsodaia.com.br/feed/anthropic-automatiza-revisao-de-codigo-com-claude-ship/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/anthropic-automatiza-revisao-de-codigo-com-claude-ship/</guid>
+      <pubDate>Tue, 24 Nov 2026 04:41:20 GMT</pubDate>
+      <description>Nova ferramenta da Anthropic promete agilizar o ciclo de desenvolvimento de software, delegando tarefas repetitivas a agentes de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code 2.1.331 Expande Acesso e Capacidades em Plataformas de Nuvem</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-2-1-331-expande-acesso-e-capacidades-em-plataformas-de-nuvem/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-2-1-331-expande-acesso-e-capacidades-em-plataformas-de-nuvem/</guid>
+      <pubDate>Tue, 24 Nov 2026 04:41:09 GMT</pubDate>
+      <description>Atualização traz integração aprimorada com serviços da Amazon, Google e Microsoft, facilitando o desenvolvimento de IA no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.331">Claude Code</source>
+    </item>
     <item>
       <title>RoboTrack: Nova tecnica para robos manipularem objetos no mundo real</title>
       <link>https://pulsodaia.com.br/feed/robotrack-nova-tecnica-para-robos-manipularem-objetos-no-mundo-real/</link>
@@ -430,33 +457,6 @@
       <description>Startup aposta em agentes de IA para otimizar o trabalho de bancos de investimento.</description>
       <category>LANCAMENTO</category>
       <source url="https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Google Gemini Agora Gratuito em Seis Países; Integração com Workspace Aprofundada</title>
-      <link>https://pulsodaia.com.br/feed/google-gemini-agora-gratuito-em-seis-paises-integracao-com-workspace-aprofundada/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-gemini-agora-gratuito-em-seis-paises-integracao-com-workspace-aprofundada/</guid>
-      <pubDate>Tue, 17 Nov 2026 20:42:43 GMT</pubDate>
-      <description>Funcionalidades de automação de tarefas do Gemini chegam sem custo adicional em mercados selecionados, com expansão prometida.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/">Google AI</source>
-    </item>
-    <item>
-      <title>IA aprende a usar computadores com vídeos, sem converter tudo em screenshots</title>
-      <link>https://pulsodaia.com.br/feed/ia-aprende-a-usar-computadores-com-videos-sem-converter-tudo-em-screenshots/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-aprende-a-usar-computadores-com-videos-sem-converter-tudo-em-screenshots/</guid>
-      <pubDate>Tue, 17 Nov 2026 10:28:27 GMT</pubDate>
-      <description>Nova abordagem no arXiv utiliza áudio e vídeo para treinar agentes de IA a executar tarefas em interfaces gráficas.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.18747">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA Moral: Pesquisa Propõe Roteiro para Avaliar Agência Ética em Sistemas</title>
-      <link>https://pulsodaia.com.br/feed/ia-moral-pesquisa-propoe-roteiro-para-avaliar-agencia-etica-em-sistemas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-moral-pesquisa-propoe-roteiro-para-avaliar-agencia-etica-em-sistemas/</guid>
-      <pubDate>Tue, 17 Nov 2026 10:28:16 GMT</pubDate>
-      <description>Estudo no arXiv sugere abordagens descritivas para definir e testar a capacidade de sistemas de IA agirem moralmente no Brasil e no mundo.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.18714">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>
