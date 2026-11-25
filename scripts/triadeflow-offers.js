@@ -22,42 +22,42 @@ const THEMES = [
     words: ['saude', 'medicina', 'clinica', 'hospital', 'diagnostico', 'paciente', 'healthtech', 'biotecnologia', 'farmaceutic', 'cirurgia'],
     title: 'Clínica que perde paciente no WhatsApp fora do horário',
     text: 'A Triadeflow coloca uma recepcionista de IA no WhatsApp da clínica. Ela responde em segundos, tira dúvida comum, agenda a consulta e chama de volta quem não marcou. Dúvida clínica vai para a sua equipe.',
-    anchors: ['Veja como a Triadeflow atende pacientes no WhatsApp', 'Conheça a recepcionista de IA da Triadeflow', 'Peça uma avaliação gratuita à Triadeflow']
+    anchors: ['Veja como a Triadeflow atende pacientes no WhatsApp', 'Conheça a recepcionista de IA da Triadeflow', 'A Triadeflow responde paciente em 60 segundos', 'Como a Triadeflow agenda consulta pelo WhatsApp', 'Veja a avaliação gratuita para clínicas da Triadeflow', 'Conversa com a equipe da Triadeflow sobre sua clínica']
   },
   {
     id: 'privacidade-lgpd',
     words: ['privacidade', 'seguranca', 'regulament', 'lgpd', 'direitos autorais', 'etica', 'governanca', 'compliance', 'vazamento'],
     title: 'IA no atendimento, com limite claro de dados',
     text: 'A recepcionista de IA da Triadeflow só coleta o que precisa para agendar, não dá diagnóstico nem promete resultado, e segue as regras de publicidade e de proteção de dados do setor de saúde.',
-    anchors: ['Entenda o que a IA da Triadeflow não faz', 'Como a Triadeflow trata dados no atendimento', 'Conheça a abordagem da Triadeflow']
+    anchors: ['Entenda o que a IA da Triadeflow não faz', 'Como a Triadeflow trata dados no atendimento', 'Conheça a abordagem da Triadeflow', 'Os limites da recepcionista de IA da Triadeflow', 'Triadeflow: IA no atendimento com regra de dados', 'Veja como a Triadeflow evita promessa de resultado']
   },
   {
     id: 'agentes-automacao',
     words: ['agente', 'automacao', 'claude code', 'copilot', 'workflow', 'produtividade', 'desenvolvimento de software', 'assistente', 'codigo', 'mcp'],
     title: 'Um agente de IA que já trabalha no seu atendimento',
     text: 'Agentes de IA saíram do laboratório. Na Triadeflow, um deles atende o WhatsApp de clínicas e negócios de agenda: responde, marca horário e faz follow-up em 72 horas sem ninguém precisar lembrar.',
-    anchors: ['Veja um agente de IA em operação na Triadeflow', 'Conheça o agente de WhatsApp da Triadeflow', 'Peça uma avaliação gratuita à Triadeflow']
+    anchors: ['Veja um agente de IA em operação na Triadeflow', 'Conheça o agente de WhatsApp da Triadeflow', 'Um agente de IA no atendimento: veja a Triadeflow', 'Como a Triadeflow põe agentes para trabalhar', 'Triadeflow: agente de IA com follow-up em 72 horas', 'Veja o agente de atendimento da Triadeflow']
   },
   {
     id: 'modelos-llm',
     words: ['openai', 'chatgpt', 'gpt', 'llm', 'modelos de linguagem', 'gemini', 'anthropic', 'claude', 'deepseek', 'mistral', 'llama', 'benchmark', 'modelo'],
     title: 'Modelo de linguagem bom só importa se chega no cliente',
     text: 'A Triadeflow é parceira OpenAI Select e monta o atendimento no WhatsApp em cima desses modelos, com regras de saúde e de dados por cima. Você não configura nada: a implantação é feita por nós.',
-    anchors: ['Veja como a Triadeflow usa IA no WhatsApp', 'Conheça a Triadeflow, parceira OpenAI Select', 'Peça uma avaliação gratuita à Triadeflow']
+    anchors: ['Veja como a Triadeflow usa IA no WhatsApp', 'Conheça a Triadeflow, parceira OpenAI Select', 'Da API ao WhatsApp: veja o trabalho da Triadeflow', 'Como a Triadeflow implanta IA para clínicas', 'Triadeflow: implantação de IA feita para você', 'Conheça a parceira OpenAI Select de Fortaleza']
   },
   {
     id: 'negocios-mercado',
     words: ['startup', 'investimento', 'ipo', 'mercado', 'empresa', 'negocio', 'vendas', 'mercado de trabalho', 'empreend', 'receita', 'funding', 'aquisicao'],
     title: 'Quem responde primeiro costuma fechar o agendamento',
     text: 'Para negócios que vendem por conversa e agenda, o ganho da IA aparece no tempo de primeira resposta. A Triadeflow responde em até 60 segundos, faz três follow-ups em 72 horas e mostra de onde veio cada contato.',
-    anchors: ['Veja o Método da Primeira Resposta da Triadeflow', 'Conheça o atendimento de IA da Triadeflow', 'Peça uma avaliação gratuita à Triadeflow']
+    anchors: ['Veja o Método da Primeira Resposta da Triadeflow', 'Conheça o atendimento de IA da Triadeflow', 'Como a Triadeflow mede a origem de cada lead', 'Triadeflow: resposta em 60 segundos, todo dia', 'Veja como a Triadeflow recupera quem não agendou', 'Conheça a avaliação gratuita da Triadeflow']
   },
   {
     id: 'geral',
     words: [],
     title: 'IA no atendimento da sua clínica',
     text: 'A Triadeflow é a empresa por trás do Pulso da IA. Ela implanta uma recepcionista de IA no WhatsApp para clínicas e negócios de agendamento: responde rápido, agenda e faz follow-up. A primeira conversa é uma avaliação gratuita.',
-    anchors: ['Conheça a Triadeflow', 'Veja o que a Triadeflow faz com IA no WhatsApp', 'Peça uma avaliação gratuita à Triadeflow']
+    anchors: ['Conheça a Triadeflow', 'Veja o que a Triadeflow faz com IA no WhatsApp', 'Quem está por trás do Pulso: a Triadeflow', 'Triadeflow: recepcionista de IA no WhatsApp', 'Saiba mais sobre a Triadeflow', 'Peça uma avaliação gratuita à Triadeflow']
   }
 ];
 

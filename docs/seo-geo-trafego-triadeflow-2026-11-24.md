@@ -74,6 +74,7 @@ Sem anúncio de terceiros. Os links não usam `nofollow`: se quiser a opção ma
 - **Páginas de tag** com 1 artigo não são geradas (regra do builder), então o link da tag fica 404 em alguns artigos. Páginas de tag com 2 a 4 artigos são finas; se o Search Console acusar conteúdo raso, é trocar para `noindex` abaixo de 5.
 - O autopilot só regera sitemap, RSS e os artigos novos. Categoria, tag, autor e pilar continuam fora do autopilot. Convém incluir `build-category-tag-pages.js` no workflow para não congelar de novo.
 - A newsletter e o envio de quinta não foram testados no GHL (PIT inválido).
+- GA4 (lido pelo coordenador em 24/11): 52 visualizações em 30 dias e 47 dos 51 usuários são bots da China (Urumqi, Kashgar). Nada foi mexido no Cloudflare. O problema de tráfego é descoberta (sitemap parado, quase nenhuma entrada orgânica), não falta de tag: GTM-MXGJBNFB está nas páginas de artigo e `page_view` aparece para URLs `/feed/<slug>/`. Nenhum commit mexeu em `tracking.js`, `consent.js`, worker ou GTM depois de 20/04, então o que parou em 26/09 (`newsletter_confirmed`, `outbound_click`) não veio do repo: conferir o histórico de versões do GTM e o secret `GA4_API_SECRET` do worker. Também: o worker mandava `newsletter_confirmed` e o Lead do CAPI mesmo quando o GHL falhava; agora só manda com sucesso (vale após `wrangler deploy`). `newsletter_confirmed` é evento do servidor e `newsletter_success` é o do navegador: manter `newsletter_submit` e `newsletter_success` como key events e não marcar `newsletter_confirmed` junto, para não contar o mesmo cadastro duas vezes.
 
 ## TAREFA HUMANA
 
@@ -99,7 +100,7 @@ Sem anúncio de terceiros. Os links não usam `nofollow`: se quiser a opção ma
 - prioridade: high
 - item: T
 - como fazer:
-  1. GA4 (stream G-32GWZHPJGJ, property 533692705 no repo; confirmar qual property tem esse stream). Admin > Eventos: marcar `newsletter_success` e `triadeflow_click` como key event (depois que aparecerem na lista, até 24h).
+  1. GA4 (stream G-32GWZHPJGJ, property 533692705 no repo; confirmar qual property tem esse stream). Admin > Eventos: `newsletter_submit` e `newsletter_success` já são key events (manter os nomes). Marcar `triadeflow_click` como key event (depois que aparecer na lista, até 24h). Não marcar `newsletter_confirmed`: é o mesmo cadastro visto pelo servidor e contaria em dobro.
   2. Admin > Definições personalizadas > Dimensões, escopo Evento: `offer_theme`, `offer_position`, `offer_destination`, `article_slug`, `newsletter_source`.
   3. Dar acesso Visualizador (ou Analista) ao Google conectado no Composio, ou restaurar `~/.secrets/gcp-sa.json` e adicionar a conta de serviço na property. Hoje o 403 impede qualquer leitura de número.
   4. Na mesma tela, vincular Search Console à property.

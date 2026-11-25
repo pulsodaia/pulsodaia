@@ -640,6 +640,11 @@ function renderFooterBottom() {
   </footer>`;
 }
 
+// So linka a tag se a pagina existe (o builder pula tags com 1 artigo); evita 404 interno.
+function tagHasPage(tag) {
+  return fs.existsSync(path.join(ROOT, 'tag', slugify(tag), 'index.html'));
+}
+
 function renderArticleHtml(article, related) {
   const pubDate = new Date(article.published_at);
   const readableDate = pubDate.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' }).toUpperCase().replace(/\./g, '');
@@ -922,7 +927,9 @@ ${tf.renderBanner(article)}
     </div>
 
     <div class="tags">
-      ${(article.tags || []).map(t => `<a href="/tag/${slugify(t)}/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="${t}">#${t}</a>`).join('')}
+      ${(article.tags || []).map(t => tagHasPage(t)
+        ? `<a href="/tag/${slugify(t)}/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="${t}">#${t}</a>`
+        : `<span class="tag">#${t}</span>`).join('')}
     </div>
 
     ${tf.renderCta(article, 'fim-artigo')}

@@ -162,6 +162,13 @@ async function handleNewsletterSubscribe(request, env, origin) {
   const ok = ghlStatus >= 200 && ghlStatus < 300;
   const duplicate = (ghlStatus === 400 || ghlStatus === 422) && /duplicat|already exists/i.test(ghlBodyRaw);
 
+  // Falha no GHL: nao manda CAPI Lead nem newsletter_confirmed ao GA4 (antes mandava mesmo com 502,
+  // o que inflava o evento com cadastro que nao entrou na lista).
+  if (!ok && !duplicate) {
+    console.error('[newsletter-subscribe] GHL error', ghlStatus, ghlBodyRaw.substring(0, 300));
+    return json({ error: 'ghl_error', ghl_status: ghlStatus, detail: ghlBodyRaw.substring(0, 200) }, 502, origin);
+  }
+
   // event_id (UUID v4) — idealmente veio do client (deduplica Pixel+CAPI+GA4)
   const eventId = body.event_id || crypto.randomUUID();
   const emailHash = await sha256Hex(email);
@@ -233,11 +240,7 @@ async function handleNewsletterSubscribe(request, env, origin) {
 
   await Promise.allSettled([capiPromise, ga4Promise]);
 
-  if (ok || duplicate) {
-    return json({ status: 'ok', duplicate, ghl_status: ghlStatus }, 200, origin);
-  }
-  console.error('[newsletter-subscribe] GHL error', ghlStatus, ghlBodyRaw.substring(0, 300));
-  return json({ error: 'ghl_error', ghl_status: ghlStatus, detail: ghlBodyRaw.substring(0, 200) }, 502, origin);
+  return json({ status: 'ok', duplicate, ghl_status: ghlStatus }, 200, origin);
 }
 
 // =============== GHL WEBHOOK -> MP EVENT ===============
