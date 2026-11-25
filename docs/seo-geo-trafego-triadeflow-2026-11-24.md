@@ -65,6 +65,30 @@ Cada clique empurra `triadeflow_click` no dataLayer com `offer_theme`, `offer_po
 Texto âncora: sempre com a marca e com 3 variações por tema, escolhida por hash do slug, então nenhuma frase se repete em todo o site.
 Sem anúncio de terceiros. Os links não usam `nofollow`: se quiser a opção mais conservadora contra link spam, é trocar `rel="noopener"` por `rel="noopener nofollow"` em `link()` no `triadeflow-offers.js` (o tráfego não muda, só o repasse de autoridade).
 
+## Indexação: /feed/, home e www (análise do Search Console de 24/11)
+
+- **Orfandade resolvida:** `/feed/` e a home montavam a lista no navegador (`fetch('/data/feed.json')`), então o HTML não tinha nenhum link de artigo. O novo `scripts/build-feed-pages.js` gera `/feed/` com os 48 mais recentes em HTML, `/feed/page/2/` até `/feed/page/30/` (48 por página, cada uma linka todas as páginas, profundidade máxima de 2 cliques) e um bloco "Últimas do Pulso da IA" com 12 links na home. Os 1.399 artigos têm link em HTML estático; o teste `test-pulso-traffic.js` falha se algum ficar fora. O filtro por categoria e a lista completa no navegador continuam como antes. O script roda no autopilot antes dos sitemaps.
+- **Sitemap:** `sitemap.xml` (arquivo único, 1.848 URLs) tem os 1.399 artigos, todos com `lastmod` real (data de escrita, 165 datas distintas entre 17/04 e 25/11), mais as 29 páginas de `/feed/page/N/`. Não é sitemap índice porque cabe no limite de 50 mil URLs. O Search Console mostrou nenhum sitemap enviado: ver TAREFA HUMANA abaixo.
+- **www:** `www.pulsodaia.com.br` responde 200 (sem redirect) e o Cloudflare Pages não faz redirect por host (`_redirects` só trata caminho). Todos os `canonical`, `og:url`, sitemap e robots já usam o domínio sem www, então o Google consolida no domínio certo; falta o 301 no Cloudflare (TAREFA HUMANA).
+
+### TAREFA HUMANA
+- titulo: Criar Redirect Rule 301 de www para o domínio sem www
+- responsavel: Alex
+- prazo: 01/12/2026
+- prioridade: medium
+- item: B3
+- como fazer: Cloudflare, zona pulsodaia.com.br > Rules > Redirect Rules > Create rule. Se o nome do host for igual a `www.pulsodaia.com.br`, redirecionar (Dynamic) para `concat("https://pulsodaia.com.br", http.request.uri.path)` preservando a query, status 301. Conferir que o registro DNS de `www` existe e está com proxy ligado (nuvem laranja). Não foi alterado nada no Cloudflare.
+- pronto quando: `curl -sI https://www.pulsodaia.com.br/` devolve 301 com `location: https://pulsodaia.com.br/`.
+
+### TAREFA HUMANA
+- titulo: Enviar sitemap.xml e sitemap-news.xml no Search Console (propriedade de domínio)
+- responsavel: Alex
+- prazo: 01/12/2026
+- prioridade: high
+- item: B11
+- como fazer: Search Console, propriedade `pulsodaia.com.br` (domínio) > Sitemaps > enviar `sitemap.xml` e `sitemap-news.xml`, depois do deploy desta branch.
+- pronto quando: os dois aparecem como "Sucesso" e as URLs descobertas passam de 1.800.
+
 ## Pontos de atenção
 
 - **triadeflow.ai está em inglês** e não tem versão em português (`/pt` e `/pt-br` dão 404). Quem lê o Pulso é brasileiro, então a taxa de clique para a conversão tende a ser baixa. Duas saídas: criar uma página em português no triadeflow.ai, ou apontar os CTAs para triadeflow.com.br. Troca em uma linha (`BASE_URL`).

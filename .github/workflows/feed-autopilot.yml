@@ -105,6 +105,9 @@ jobs:
         run: |
           node scripts/build-static-pages.js | tee -a /tmp/engine.log || echo "[build-pages] falhou, nao eh critico"
 
+      - name: Rebuild /feed/ estatico, paginas /feed/page/N/ e bloco da home
+        run: node scripts/build-feed-pages.js || echo "[feed-pages] falhou, nao eh critico"
+
       - name: Rebuild sitemap.xml + sitemap-news.xml + llms-full.txt
         run: |
           # sitemap.xml: todos os artigos. sitemap-news.xml: so as ultimas 48h (regra do Google News).

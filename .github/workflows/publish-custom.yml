@@ -72,6 +72,9 @@ jobs:
       - name: Rebuild static pages
         run: node scripts/build-static-pages.js || echo "[build] falhou"
 
+      - name: Rebuild /feed/ estatico, paginas /feed/page/N/ e bloco da home
+        run: node scripts/build-feed-pages.js || echo "[feed-pages] falhou, nao eh critico"
+
       - name: Rebuild sitemaps
         run: node scripts/build-seo-files.js || echo "[seo-files] falhou"
 

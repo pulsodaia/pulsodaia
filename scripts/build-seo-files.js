@@ -64,7 +64,8 @@ function buildSitemap(articles) {
     ...scanDir('categoria', '/categoria', 'daily', '0.7'),
     ...scanDir('tag', '/tag', 'weekly', '0.6'),
     ...scanDir('pillar', '/pillar', 'weekly', '0.85'),
-    ...scanDir('autores', '/autores', 'monthly', '0.6')
+    ...scanDir('autores', '/autores', 'monthly', '0.6'),
+    ...scanDir('feed/page', '/feed/page', 'daily', '0.4')
   ];
 
   // Indices de collection pages

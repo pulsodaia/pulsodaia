@@ -38,4 +38,15 @@ const many = Array.from({ length: nl.MAX_RECIPIENTS + 1 }, (_, i) => ({ email: `
 assert.throws(() => nl.selectRecipients(many, '*'), /teto/);
 assert.strictEqual(nl.selectRecipients(many.slice(0, 3), '*').length, 3);
 
+// Nenhum artigo orfao: todo slug do feed.json tem link no HTML de /feed/ ou de /feed/page/N/ (sem JS)
+const fs = require('fs');
+const path = require('path');
+const root = path.join(__dirname, '..');
+const slugs = JSON.parse(fs.readFileSync(path.join(root, 'data', 'feed.json'), 'utf8')).articles.map(a => a.slug);
+const listed = new Set();
+const pagesDir = path.join(root, 'feed', 'page');
+const files = [path.join(root, 'feed', 'index.html'), ...fs.readdirSync(pagesDir).map(n => path.join(pagesDir, n, 'index.html'))];
+for (const f of files) for (const m of fs.readFileSync(f, 'utf8').matchAll(/<a href="\/feed\/([^/"]+)\/" class="(?:article|featured)-card"/g)) listed.add(m[1]);
+assert.deepStrictEqual(slugs.filter(sl => !listed.has(sl)), [], 'artigos orfaos fora de /feed/ e /feed/page/N/');
+
 console.log('ok: todos os checks passaram');
