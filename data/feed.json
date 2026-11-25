@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-24T17:23:46.807Z",
+  "generated_at": "2026-11-25T02:09:13.351Z",
   "articles": [
+    {
+      "slug": "huang-da-nvidia-planos-de-sucessao-geram-hierarquia-desnecessaria",
+      "headline": "Huang da Nvidia: Planos de Sucessão Geram Hierarquia Desnecessária",
+      "subtitle": "A visão do CEO da gigante de chips sobre liderança e estrutura corporativa em um momento crítico para a empresa.",
+      "eyebrow_category": "FOUNDERS",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "liderança"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 24 Nov 2026 22:27:52 +0000",
+      "written_at": "2026-11-25T02:09:13.297Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-critica-de-yale-questiona-o-verdadeiro-beneficio-para-o-poder-industrial-",
+      "headline": "Nvidia: Crítica de Yale Questiona o Verdadeiro Benefício para o Poder Industrial dos EUA",
+      "subtitle": "O retorno de Jensen Huang ao comando da Nvidia levanta preocupações sobre a exposição a litígios e o fornecimento de tecnologia avançada a adversários.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "ia",
+        "geopolitica"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 25 Nov 2026 00:12:02 +0000",
+      "written_at": "2026-11-25T02:09:03.261Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "claude-code-2-1-332-novas-habilidades-e-controle-refinado-para-desenvolvedores-d",
+      "headline": "Claude Code 2.1.332: Novas Habilidades e Controle Refinado para Desenvolvedores de IA",
+      "subtitle": "Atualização do Claude Code introduz funcionalidades que prometem maior integração e segurança em fluxos de trabalho de IA.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Claude Code",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "category": "claude-code",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "desenvolvimento ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-25T01:32:14Z",
+      "written_at": "2026-11-25T02:08:52.672Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "ia-sem-treinamento-monitora-batimentos-cardiacos-por-video-com-precisao-inedita",
       "headline": "IA sem treinamento monitora batimentos cardíacos por vídeo com precisão inédita",

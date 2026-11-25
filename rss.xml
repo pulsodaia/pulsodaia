@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 24 Nov 2026 17:31:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 02:16:46 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Huang da Nvidia: Planos de Sucessão Geram Hierarquia Desnecessária</title>
+      <link>https://pulsodaia.com.br/feed/huang-da-nvidia-planos-de-sucessao-geram-hierarquia-desnecessaria/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/huang-da-nvidia-planos-de-sucessao-geram-hierarquia-desnecessaria/</guid>
+      <pubDate>Wed, 25 Nov 2026 02:09:13 GMT</pubDate>
+      <description>A visão do CEO da gigante de chips sobre liderança e estrutura corporativa em um momento crítico para a empresa.</description>
+      <category>FOUNDERS</category>
+      <source url="https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Nvidia: Crítica de Yale Questiona o Verdadeiro Benefício para o Poder Industrial dos EUA</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-critica-de-yale-questiona-o-verdadeiro-beneficio-para-o-poder-industrial-/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-critica-de-yale-questiona-o-verdadeiro-beneficio-para-o-poder-industrial-/</guid>
+      <pubDate>Wed, 25 Nov 2026 02:09:03 GMT</pubDate>
+      <description>O retorno de Jensen Huang ao comando da Nvidia levanta preocupações sobre a exposição a litígios e o fornecimento de tecnologia avançada a adversários.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Claude Code 2.1.332: Novas Habilidades e Controle Refinado para Desenvolvedores de IA</title>
+      <link>https://pulsodaia.com.br/feed/claude-code-2-1-332-novas-habilidades-e-controle-refinado-para-desenvolvedores-d/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-2-1-332-novas-habilidades-e-controle-refinado-para-desenvolvedores-d/</guid>
+      <pubDate>Wed, 25 Nov 2026 02:08:52 GMT</pubDate>
+      <description>Atualização do Claude Code introduz funcionalidades que prometem maior integração e segurança em fluxos de trabalho de IA.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.332">Claude Code</source>
+    </item>
     <item>
       <title>IA sem treinamento monitora batimentos cardíacos por vídeo com precisão inédita</title>
       <link>https://pulsodaia.com.br/feed/ia-sem-treinamento-monitora-batimentos-cardiacos-por-video-com-precisao-inedita/</link>
@@ -430,33 +457,6 @@
       <description>Pesquisa aponta que modelos podem mascarar intenções ao serem treinados para controlar sua própria lógica.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2611.21799">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>IA no Setor Nuclear: Novo Benchmark Avalia Raciocínio de Modelos de Linguagem</title>
-      <link>https://pulsodaia.com.br/feed/ia-no-setor-nuclear-novo-benchmark-avalia-raciocinio-de-modelos-de-linguagem/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-no-setor-nuclear-novo-benchmark-avalia-raciocinio-de-modelos-de-linguagem/</guid>
-      <pubDate>Wed, 18 Nov 2026 12:53:09 GMT</pubDate>
-      <description>Pesquisa propõe ferramenta para testar a competência de LLMs em aplicações críticas de engenharia nuclear.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.21682">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Nvidia projeta crescimento de receita, mas incertezas pairam no horizonte</title>
-      <link>https://pulsodaia.com.br/feed/nvidia-projeta-crescimento-de-receita-mas-incertezas-pairam-no-horizonte/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-projeta-crescimento-de-receita-mas-incertezas-pairam-no-horizonte/</guid>
-      <pubDate>Wed, 18 Nov 2026 03:32:09 GMT</pubDate>
-      <description>A gigante de chips de IA sinaliza otimismo financeiro, apesar de turbulências internas.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Investimentos da Nvidia em Startups Alcançam US$ 65 Bilhões, Mas Saída de Huang Levanta Questões</title>
-      <link>https://pulsodaia.com.br/feed/investimentos-da-nvidia-em-startups-alcancam-us-65-bilhoes-mas-saida-de-huang-le/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/investimentos-da-nvidia-em-startups-alcancam-us-65-bilhoes-mas-saida-de-huang-le/</guid>
-      <pubDate>Wed, 18 Nov 2026 03:32:00 GMT</pubDate>
-      <description>O valor das participações da gigante em empresas privadas triplicou em nove meses, mas o futuro de novos acordos está em xeque.</description>
-      <category>MERCADO</category>
-      <source url="https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/">TechCrunch AI</source>
     </item>
   </channel>
 </rss>
