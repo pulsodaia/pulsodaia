@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-25T12:08:03.396Z",
+  "generated_at": "2026-11-25T14:04:43.593Z",
   "articles": [
+    {
+      "slug": "agentes-de-ia-gerenciam-parte-da-infraestrutura-do-deepmind-para-gemini",
+      "headline": "Agentes de IA Gerenciam Parte da Infraestrutura do Deepmind para Gemini",
+      "subtitle": "Google aposta em automação para experimentação, mas autoaperfeiçoamento recursivo segue distante.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "category": "mercado",
+      "tags": [
+        "google deepmind",
+        "gemini",
+        "agentes de ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 25 Nov 2026 13:23:36 +0000",
+      "written_at": "2026-11-25T14:04:42.605Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.webp"
+    },
+    {
+      "slug": "firmware-de-sintetizadores-em-codigo-aberto-a-nova-realidade-pos-vibe-coding",
+      "headline": "Firmware de Sintetizadores em Código Aberto: A Nova Realidade Pós-Vibe Coding",
+      "subtitle": "Ferramentas de IA que descompilam firmware abrem um novo capítulo para a comunidade de hardware musical.",
+      "eyebrow_category": "MERCADO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "category": "mercado",
+      "tags": [
+        "ia",
+        "firmware",
+        "codigo aberto"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-25T08:00:00-05:00",
+      "written_at": "2026-11-25T14:04:31.360Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "nvidia-jensen-huang-sob-fogo-cruzado-por-relacao-com-suspeito-de-contrabando-de-",
+      "headline": "Nvidia: Jensen Huang Sob Fogo Cruzado Por Relação com Suspeito de Contrabando de Chips",
+      "subtitle": "O CEO da gigante de semicondutores enfrenta escrutínio de órgãos reguladores e do conselho da empresa.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "jensen huang",
+        "semicondutores"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 25 Nov 2026 13:00:00 +0000",
+      "written_at": "2026-11-25T14:04:20.258Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "prismml-reduz-modelo-de-linguagem-de-54-gb-para-5-9-gb-com-compressao-de-pesos",
       "headline": "PrismML Reduz Modelo de Linguagem de 54 GB para 5.9 GB com Compressão de Pesos",
