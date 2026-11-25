@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 25 Nov 2026 11:17:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 12:15:08 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>PrismML Reduz Modelo de Linguagem de 54 GB para 5.9 GB com Compressão de Pesos</title>
+      <link>https://pulsodaia.com.br/feed/prismml-reduz-modelo-de-linguagem-de-54-gb-para-5-9-gb-com-compressao-de-pesos/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/prismml-reduz-modelo-de-linguagem-de-54-gb-para-5-9-gb-com-compressao-de-pesos/</guid>
+      <pubDate>Wed, 25 Nov 2026 12:08:01 GMT</pubDate>
+      <description>Inovação em compressão de modelos de IA abre portas para aplicações mais eficientes em hardware limitado.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/">The Decoder</source>
+    </item>
     <item>
       <title>IBM Pesquisa Agente de Voz em Idioma Indígena</title>
       <link>https://pulsodaia.com.br/feed/ibm-pesquisa-agente-de-voz-em-idioma-indigena/</link>
@@ -448,15 +457,6 @@
       <description>A expansão do chatbot visa democratizar o acesso à IA generativa em dispositivos mais básicos no Brasil.</description>
       <category>LANCAMENTO</category>
       <source url="https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/">Google AI</source>
-    </item>
-    <item>
-      <title>IA em reconhecimento de imagens SAR: o cenário é mais importante que o veículo?</title>
-      <link>https://pulsodaia.com.br/feed/ia-em-reconhecimento-de-imagens-sar-o-cenario-e-mais-importante-que-o-veiculo/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ia-em-reconhecimento-de-imagens-sar-o-cenario-e-mais-importante-que-o-veiculo/</guid>
-      <pubDate>Wed, 18 Nov 2026 12:53:30 GMT</pubDate>
-      <description>Novos estudos questionam a real capacidade de sistemas de IA em identificar objetos em imagens de radar, apontando para a influência do fundo.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.21827">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

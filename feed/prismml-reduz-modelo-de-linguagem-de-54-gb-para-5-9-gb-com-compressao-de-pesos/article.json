@@ -1,0 +1,50 @@
+{
+  "id": "https://the-decoder.com/?p=43292",
+  "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+  "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+  "summary": "Startup PrismML has released Ternary Bonsai 2.5 27B, an updated version of its aggressively compressed language model. The article PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values appeared first on The Decoder .",
+  "published_at": "Wed, 25 Nov 2026 11:51:49 +0000",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "category": "mercado",
+  "source_type": "portal-tech",
+  "headline": "PrismML Reduz Modelo de Linguagem de 54 GB para 5.9 GB com Compressão de Pesos",
+  "subtitle": "Inovação em compressão de modelos de IA abre portas para aplicações mais eficientes em hardware limitado.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A startup PrismML apresentou o Ternary Bonsai 2.5 27B, uma versão radicalmente comprimida de seu modelo de linguagem. A tecnologia reduz o tamanho do modelo de 54 GB para apenas 5.9 GB, ao limitar cada peso a apenas três valores possíveis.",
+  "body_markdown": "## O que aconteceu\n\nA PrismML, uma empresa focada em compressão de modelos de inteligência artificial, anunciou o lançamento do Ternary Bonsai 2.5 27B. Este modelo de linguagem, que possui 27 bilhões de parâmetros, foi submetido a um processo de compressão agressiva. A técnica principal envolveu a redução da precisão de cada peso individual dentro da rede neural. Em vez de utilizar a representação numérica tradicional, os pesos foram quantizados para assumir apenas três valores distintos. Essa abordagem permitiu uma diminuição drástica no tamanho do arquivo, que passou de 54 GB para 5.9 GB. A informação foi detalhada em uma matéria publicada no The Decoder, que pode ser acessada em [PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values](https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/). Este avanço é particularmente notável considerando a complexidade e a escala dos modelos de linguagem modernos.\n\n## Por que importa\n\nA capacidade de reduzir significativamente o tamanho de modelos de linguagem tem implicações diretas para o mercado brasileiro. Atualmente, a implantação de modelos de IA de grande escala frequentemente exige infraestrutura de hardware robusta e cara, o que pode ser uma barreira para empresas menores ou para aplicações que necessitam rodar em dispositivos com recursos limitados, como smartphones ou sistemas embarcados. A compressão proposta pela PrismML pode democratizar o acesso a tecnologias de IA avançadas, permitindo que mais empresas no Brasil desenvolvam e implementem soluções baseadas em IA sem a necessidade de investimentos proibitivos em hardware. Isso pode acelerar a adoção de IA em setores como atendimento ao cliente, análise de dados, desenvolvimento de software e automação de processos, impulsionando a inovação e a competitividade.\n\n## O que esperar\n\nO sucesso da PrismML em reduzir o tamanho do modelo sem comprometer drasticamente sua performance abre um leque de possibilidades. É provável que outras empresas e pesquisadores explorem métodos de quantização semelhantes para otimizar seus próprios modelos. A tendência é que vejamos uma corrida por modelos de IA cada vez mais eficientes, que possam ser executados em uma gama maior de dispositivos e plataformas. Para o Brasil, isso significa a possibilidade de integrar IA em produtos e serviços de forma mais acessível. A expectativa é que modelos como o Ternary Bonsai 2.5 27B se tornem fundamentais para o desenvolvimento de aplicações de IA mais distribuídas e de menor custo. Mais detalhes sobre essa tecnologia podem ser encontrados em [The Decoder](https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/). A pesquisa contínua em técnicas de compressão é essencial para o avanço da inteligência artificial.",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>A PrismML, uma empresa focada em compressão de modelos de inteligência artificial, anunciou o lançamento do Ternary Bonsai 2.5 27B. Este modelo de linguagem, que possui 27 bilhões de parâmetros, foi submetido a um processo de compressão agressiva. A técnica principal envolveu a redução da precisão de cada peso individual dentro da rede neural. Em vez de utilizar a representação numérica tradicional, os pesos foram quantizados para assumir apenas três valores distintos. Essa abordagem permitiu uma diminuição drástica no tamanho do arquivo, que passou de 54 GB para 5.9 GB. A informação foi detalhada em uma matéria publicada no The Decoder, que pode ser acessada em <a href=\"https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/\" target=\"_blank\" rel=\"external noopener\">PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values</a>. Este avanço é particularmente notável considerando a complexidade e a escala dos modelos de linguagem modernos.</p>\n\n<h2>Por que importa</h2>\n\n<p>A capacidade de reduzir significativamente o tamanho de modelos de linguagem tem implicações diretas para o mercado brasileiro. Atualmente, a implantação de modelos de IA de grande escala frequentemente exige infraestrutura de hardware robusta e cara, o que pode ser uma barreira para empresas menores ou para aplicações que necessitam rodar em dispositivos com recursos limitados, como smartphones ou sistemas embarcados. A compressão proposta pela PrismML pode democratizar o acesso a tecnologias de IA avançadas, permitindo que mais empresas no Brasil desenvolvam e implementem soluções baseadas em IA sem a necessidade de investimentos proibitivos em hardware. Isso pode acelerar a adoção de IA em setores como atendimento ao cliente, análise de dados, desenvolvimento de software e automação de processos, impulsionando a inovação e a competitividade.</p>\n\n<h2>O que esperar</h2>\n\n<p>O sucesso da PrismML em reduzir o tamanho do modelo sem comprometer drasticamente sua performance abre um leque de possibilidades. É provável que outras empresas e pesquisadores explorem métodos de quantização semelhantes para otimizar seus próprios modelos. A tendência é que vejamos uma corrida por modelos de IA cada vez mais eficientes, que possam ser executados em uma gama maior de dispositivos e plataformas. Para o Brasil, isso significa a possibilidade de integrar IA em produtos e serviços de forma mais acessível. A expectativa é que modelos como o Ternary Bonsai 2.5 27B se tornem fundamentais para o desenvolvimento de aplicações de IA mais distribuídas e de menor custo. Mais detalhes sobre essa tecnologia podem ser encontrados em <a href=\"https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/\" target=\"_blank\" rel=\"external noopener\">The Decoder</a>. A pesquisa contínua em técnicas de compressão é essencial para o avanço da inteligência artificial.</p>",
+  "tags": [
+    "compressão de ia",
+    "modelos de linguagem",
+    "prismml"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.85,
+  "seo_keywords": [
+    "compressão de modelo de IA",
+    "quantização de pesos",
+    "modelos de linguagem eficientes",
+    "PrismML",
+    "Ternary Bonsai"
+  ],
+  "meta_description_seo": "PrismML reduz modelo de IA de 54 GB para 5.9 GB com técnica inovadora de quantização de pesos. Saiba mais.",
+  "faq": [
+    {
+      "q": "Como a PrismML conseguiu reduzir tanto o tamanho do modelo?",
+      "a": "A PrismML reduziu o tamanho do modelo de linguagem ao limitar cada peso a apenas três valores possíveis, um método conhecido como quantização agressiva."
+    },
+    {
+      "q": "Qual o benefício prático dessa compressão para o mercado?",
+      "a": "Essa compressão permite que modelos de IA mais poderosos sejam executados em dispositivos com menos capacidade de processamento e armazenamento, tornando a tecnologia mais acessível."
+    },
+    {
+      "q": "Essa técnica afeta a performance do modelo de linguagem?",
+      "a": "Embora a fonte original não detalhe o impacto na performance, a redução drástica de tamanho geralmente envolve um trade-off em precisão ou velocidade, mas o objetivo é minimizar essa perda."
+    }
+  ],
+  "written_at": "2026-11-25T12:08:01.091Z",
+  "slug": "prismml-reduz-modelo-de-linguagem-de-54-gb-para-5-9-gb-com-compressao-de-pesos",
+  "hero_image": "hero.png",
+  "hero_source_url": "https://the-decoder.com/wp-content/uploads/2026/07/prsim_ml_demo.png"
+}
