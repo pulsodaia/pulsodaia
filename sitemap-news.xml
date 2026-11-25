@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://pulsodaia.com.br/feed/s-p-avalia-rebaixamento-de-credito-da-nvidia-por-riscos-de-governanca-e-key-man/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T22:44:32.000Z</news:publication_date>
+      <news:title>S&amp;P Avalia Rebaixamento de Crédito da Nvidia por Riscos de Governança e &quot;Key Man&quot;</news:title>
+      <news:keywords>nvidia, s&amp;p, credito</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsodaia.com.br/feed/inkling-2-mini-inferencia-eficiente-em-hardware-profissional/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T00:00:00.000Z</news:publication_date>
+      <news:title>Inkling 2 Mini: Inferência Eficiente em Hardware Profissional</news:title>
+      <news:keywords>ia, inferencia, hugging face</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsodaia.com.br/feed/cientistas-definem-fronteiras-para-agentes-de-ia-autonomia-e-controle-em-debate/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T18:52:55.000Z</news:publication_date>
+      <news:title>Cientistas Definem Fronteiras para Agentes de IA: Autonomia e Controle em Debate</news:title>
+      <news:keywords>agentes de ia, autonomia, etica em ia</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://pulsodaia.com.br/feed/agentes-de-ia-gerenciam-parte-da-infraestrutura-do-deepmind-para-gemini/</loc>
     <news:news>
       <news:publication>
@@ -166,42 +202,6 @@
       <news:publication_date>2026-11-23T21:34:41.000Z</news:publication_date>
       <news:title>Claude Code 2.1.331 Expande Acesso e Capacidades em Plataformas de Nuvem</news:title>
       <news:keywords>claude code, anthropic, desenvolvimento de ia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/robotrack-nova-tecnica-para-robos-manipularem-objetos-no-mundo-real/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T17:20:37.000Z</news:publication_date>
-      <news:title>RoboTrack: Nova tecnica para robos manipularem objetos no mundo real</news:title>
-      <news:keywords>robotica, manipulacao, rastreamento de pontos</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/deepmind-usa-agentes-e-verificacao-formal-para-acelerar-algoritmos-quanticos/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T16:59:40.000Z</news:publication_date>
-      <news:title>DeepMind Usa Agentes e Verificação Formal para Acelerar Algoritmos Quânticos</news:title>
-      <news:keywords>computacao quantica, inteligencia artificial, deepmind</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/google-busca-ganha-camada-de-inteligencia-pessoal-com-integracao-de-apps/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T17:00:00.000Z</news:publication_date>
-      <news:title>Google Busca Ganha Camada de Inteligência Pessoal com Integração de Apps</news:title>
-      <news:keywords>google search, inteligência artificial, personalização</news:keywords>
     </news:news>
   </url>
 </urlset>

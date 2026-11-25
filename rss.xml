@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:12:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 23:09:16 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>S&amp;P Avalia Rebaixamento de Crédito da Nvidia por Riscos de Governança e "Key Man"</title>
+      <link>https://pulsodaia.com.br/feed/s-p-avalia-rebaixamento-de-credito-da-nvidia-por-riscos-de-governanca-e-key-man/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/s-p-avalia-rebaixamento-de-credito-da-nvidia-por-riscos-de-governanca-e-key-man/</guid>
+      <pubDate>Wed, 25 Nov 2026 23:02:05 GMT</pubDate>
+      <description>Agência de classificação de risco considera a dependência excessiva em Jensen Huang um fator para a possível redução da nota.</description>
+      <category>ANALISE</category>
+      <source url="https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/">TechCrunch AI</source>
+    </item>
+    <item>
+      <title>Inkling 2 Mini: Inferência Eficiente em Hardware Profissional</title>
+      <link>https://pulsodaia.com.br/feed/inkling-2-mini-inferencia-eficiente-em-hardware-profissional/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/inkling-2-mini-inferencia-eficiente-em-hardware-profissional/</guid>
+      <pubDate>Wed, 25 Nov 2026 23:01:56 GMT</pubDate>
+      <description>Novos avanços em modelos de linguagem abrem portas para processamento local mais acessível no Brasil.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/inkling-2-mini-inference-hillclimb">Hugging Face</source>
+    </item>
+    <item>
+      <title>Cientistas Definem Fronteiras para Agentes de IA: Autonomia e Controle em Debate</title>
+      <link>https://pulsodaia.com.br/feed/cientistas-definem-fronteiras-para-agentes-de-ia-autonomia-e-controle-em-debate/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/cientistas-definem-fronteiras-para-agentes-de-ia-autonomia-e-controle-em-debate/</guid>
+      <pubDate>Wed, 25 Nov 2026 23:01:46 GMT</pubDate>
+      <description>A comunidade científica busca delimitar a capacidade de ação autônoma de sistemas de inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents">Hugging Face</source>
+    </item>
     <item>
       <title>Agentes de IA Gerenciam Parte da Infraestrutura do Deepmind para Gemini</title>
       <link>https://pulsodaia.com.br/feed/agentes-de-ia-gerenciam-parte-da-infraestrutura-do-deepmind-para-gemini/</link>
@@ -430,33 +457,6 @@
       <description>Nova funcionalidade promete otimizar o uso de tokens e expandir capacidades dos modelos de linguagem.</description>
       <category>LANCAMENTO</category>
       <source url="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/">Google AI</source>
-    </item>
-    <item>
-      <title>Satya Nadella: Infraestrutura Crítica é "Impatchável" Diante de Ameaças de Ciberataques de IA</title>
-      <link>https://pulsodaia.com.br/feed/satya-nadella-infraestrutura-critica-e-impatchavel-diante-de-ameacas-de-ciberata/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/satya-nadella-infraestrutura-critica-e-impatchavel-diante-de-ameacas-de-ciberata/</guid>
-      <pubDate>Thu, 19 Nov 2026 03:04:30 GMT</pubDate>
-      <description>CEO da Microsoft aponta vulnerabilidades persistentes em sistemas essenciais, mesmo com avanços em segurança.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Microsoft: 60 mil pedidos de demissão voluntária explicados pela IA</title>
-      <link>https://pulsodaia.com.br/feed/microsoft-60-mil-pedidos-de-demissao-voluntaria-explicados-pela-ia/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/microsoft-60-mil-pedidos-de-demissao-voluntaria-explicados-pela-ia/</guid>
-      <pubDate>Thu, 19 Nov 2026 03:04:11 GMT</pubDate>
-      <description>A gigante de tecnologia optou por incentivar o desligamento de funcionários em vez de demissões em massa, citando a necessidade de realinhamento estratégico.</description>
-      <category>ANALISE</category>
-      <source url="https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code v2.1.328 Introduz Modo Automático e Melhorias de Segurança</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-328-introduz-modo-automatico-e-melhorias-de-seguranca/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-328-introduz-modo-automatico-e-melhorias-de-seguranca/</guid>
-      <pubDate>Thu, 19 Nov 2026 03:04:00 GMT</pubDate>
-      <description>Atualização foca em otimização de interações e robustez em plataformas de nuvem.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.328">Claude Code</source>
     </item>
   </channel>
 </rss>

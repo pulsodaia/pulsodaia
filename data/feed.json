@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-25T14:04:43.593Z",
+  "generated_at": "2026-11-25T23:02:06.007Z",
   "articles": [
+    {
+      "slug": "s-p-avalia-rebaixamento-de-credito-da-nvidia-por-riscos-de-governanca-e-key-man",
+      "headline": "S&P Avalia Rebaixamento de Crédito da Nvidia por Riscos de Governança e \"Key Man\"",
+      "subtitle": "Agência de classificação de risco considera a dependência excessiva em Jensen Huang um fator para a possível redução da nota.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "category": "mercado",
+      "tags": [
+        "nvidia",
+        "s&p",
+        "credito"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 25 Nov 2026 22:44:32 +0000",
+      "written_at": "2026-11-25T23:02:05.963Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "inkling-2-mini-inferencia-eficiente-em-hardware-profissional",
+      "headline": "Inkling 2 Mini: Inferência Eficiente em Hardware Profissional",
+      "subtitle": "Novos avanços em modelos de linguagem abrem portas para processamento local mais acessível no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "inferencia",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 25 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-25T23:01:56.215Z",
+      "quality_score": 0.85,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "cientistas-definem-fronteiras-para-agentes-de-ia-autonomia-e-controle-em-debate",
+      "headline": "Cientistas Definem Fronteiras para Agentes de IA: Autonomia e Controle em Debate",
+      "subtitle": "A comunidade científica busca delimitar a capacidade de ação autônoma de sistemas de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "category": "opensource",
+      "tags": [
+        "agentes de ia",
+        "autonomia",
+        "etica em ia"
+      ],
+      "read_time_min": 3,
+      "published_at": "Wed, 25 Nov 2026 18:52:55 GMT",
+      "written_at": "2026-11-25T23:01:46.345Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "agentes-de-ia-gerenciam-parte-da-infraestrutura-do-deepmind-para-gemini",
       "headline": "Agentes de IA Gerenciam Parte da Infraestrutura do Deepmind para Gemini",
