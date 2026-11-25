@@ -157,9 +157,10 @@ async function handleNewsletterSubscribe(request, env, origin) {
     return json({ error: 'ghl_unreachable', detail: err.message }, 502, origin);
   }
 
-  // 200/201 = criado. 422 = duplicado (ja existe, OK). Outros = erro.
+  // 200/201 = criado. Duplicado (ja existe, OK): o GHL v2 responde 400 ("does not allow duplicated
+  // contacts") em locations com checagem de duplicidade; 422 tambem entra por seguranca. Outros = erro.
   const ok = ghlStatus >= 200 && ghlStatus < 300;
-  const duplicate = ghlStatus === 422 && /duplicate|already exists/i.test(ghlBodyRaw);
+  const duplicate = (ghlStatus === 400 || ghlStatus === 422) && /duplicat|already exists/i.test(ghlBodyRaw);
 
   // event_id (UUID v4) — idealmente veio do client (deduplica Pixel+CAPI+GA4)
   const eventId = body.event_id || crypto.randomUUID();

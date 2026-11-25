@@ -105,6 +105,11 @@ jobs:
         run: |
           node scripts/build-static-pages.js | tee -a /tmp/engine.log || echo "[build-pages] falhou, nao eh critico"
 
+      - name: Rebuild sitemap.xml + sitemap-news.xml + llms-full.txt
+        run: |
+          # sitemap.xml: todos os artigos. sitemap-news.xml: so as ultimas 48h (regra do Google News).
+          node scripts/build-seo-files.js | tee -a /tmp/engine.log || echo "[seo-files] falhou, nao eh critico"
+
       - name: Check if anything changed
         id: changes
         run: |
@@ -145,6 +150,14 @@ jobs:
           PAGES_BRANCH: main
         run: |
           node deploy.js
+
+      - name: IndexNow (avisa Bing/Yandex dos artigos novos)
+        if: steps.changes.outputs.changed == 'true'
+        continue-on-error: true
+        run: |
+          # Roda depois do deploy: o IndexNow confere /<chave>.txt no ar. Teto de 100 URLs no script.
+          sleep 20
+          node scripts/indexnow.js
 
       - name: Summary
         if: always()
