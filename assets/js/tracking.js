@@ -11,7 +11,7 @@
  *   outbound_click / resource_error / js_error / unhandled_rejection
  *   theme_switch / set_user_property
  *   web_vital_LCP / _CLS / _INP / _FCP / _TTFB
- *   + arbitrary names declared via data-gtm-event="..."
+ *   + arbitrary names declared via data-gtm-event="..." (ex.: triadeflow_click, params em snake_case)
  */
 (function () {
   'use strict';
@@ -49,8 +49,9 @@
     return s.length > max ? s.slice(0, max) : s;
   }
 
+  // snake_case: e o nome que o GTM le (DLV article_slug, to_slug, offer_theme...). Em camelCase os parametros chegavam vazios no GA4.
   function camel(key) {
-    return key.replace(/-([a-z])/g, function (_, c) { return c.toUpperCase(); });
+    return key.replace(/-/g, '_');
   }
 
   // ---------- 1. Scroll milestones ----------

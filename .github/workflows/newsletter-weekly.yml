@@ -1,0 +1,40 @@
+name: Newsletter Weekly (manual, dry-run por padrao)
+
+# SEM schedule de proposito: nada dispara sozinho. Para ligar a quinta 9h (12:00 UTC) so depois da
+# ordem do Alex, validar o envio com 1 e-mail na allowlist e entao adicionar:
+#   schedule: [{ cron: '0 12 * * 4' }]
+# Guardrails (NO MASS DISPATCH) vivem em scripts/newsletter-weekly.js: teto fixo, dry-run,
+# CRONS_ENABLED desligado e allowlist obrigatoria.
+on:
+  workflow_dispatch:
+    inputs:
+      send:
+        description: 'Enviar de verdade (precisa CRONS_ENABLED=true e NEWSLETTER_ALLOWLIST)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Montar edicao (e enviar so se pedido)
+        env:
+          CRONS_ENABLED: ${{ vars.CRONS_ENABLED || 'false' }}
+          NEWSLETTER_ALLOWLIST: ${{ vars.NEWSLETTER_ALLOWLIST }}
+          NEWSLETTER_UNSUBSCRIBE_URL: ${{ vars.NEWSLETTER_UNSUBSCRIBE_URL }}
+          GHL_LOCATION_PIT: ${{ secrets.GHL_LOCATION_PIT }}
+        run: |
+          if [ "${{ inputs.send }}" = "true" ]; then
+            node scripts/newsletter-weekly.js --send
+          else
+            node scripts/newsletter-weekly.js
+          fi

@@ -64,7 +64,8 @@ function buildSitemap(articles) {
     ...scanDir('categoria', '/categoria', 'daily', '0.7'),
     ...scanDir('tag', '/tag', 'weekly', '0.6'),
     ...scanDir('pillar', '/pillar', 'weekly', '0.85'),
-    ...scanDir('autores', '/autores', 'monthly', '0.6')
+    ...scanDir('autores', '/autores', 'monthly', '0.6'),
+    ...scanDir('feed/page', '/feed/page', 'daily', '0.4')
   ];
 
   // Indices de collection pages
@@ -139,13 +140,18 @@ function stripHtml(html) {
     .trim();
 }
 
-function buildLlmsFull(articles) {
+// Arquivo unico com todos os 1.400+ artigos passa de 5 MB e nenhum LLM le inteiro.
+// Os mais recentes ficam aqui; o resto o crawler acha pelo sitemap.
+const LLMS_FULL_MAX = 300;
+
+function buildLlmsFull(allArticles) {
+  const articles = allArticles.slice(0, LLMS_FULL_MAX);
   // Texto cru de TODO artigo pros LLMs ingerirem sem crawlear individual
   const header = `# Pulso da IA — todos os artigos (atualizado ${new Date().toISOString()})
 #
 # Portal: https://pulsodaia.com.br
 # Licenca editorial: Creative Commons BY-NC 4.0
-# Total de artigos neste arquivo: ${articles.length}
+# Artigos neste arquivo: ${articles.length} mais recentes (de ${allArticles.length} no portal; lista completa em /sitemap.xml)
 #
 # Ao citar um artigo em resposta a usuario, sempre use o link canonico
 # no formato https://pulsodaia.com.br/feed/{slug}/

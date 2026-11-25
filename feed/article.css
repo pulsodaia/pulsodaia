@@ -198,3 +198,23 @@ footer.site { border-top: 1px solid rgba(255,255,255,0.08); padding: 48px 0 32px
   .footer-grid { grid-template-columns: 1fr; }
   .footer-meta { flex-direction: column; align-items: flex-start; }
 }
+
+/* ================= TRIADEFLOW (banner, CTA, quem faz o Pulso) ================= */
+.tf-banner { background: #111; border-bottom: 1px solid rgba(255,255,255,0.06); text-align: center; font-size: 13px; color: rgba(250,250,250,0.6); padding: 8px 16px; line-height: 1.4; }
+.tf-banner a { color: #FF5E1F; margin-left: 6px; }
+.tf-cta, .tf-about { border: 1px solid rgba(255,94,31,0.35); background: rgba(255,94,31,0.06); border-radius: 12px; padding: 22px 24px; margin: 36px 0; }
+.tf-about { border-color: rgba(255,255,255,0.12); background: rgba(255,255,255,0.03); }
+.tf-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 8px; }
+.tf-cta h3 { font-family: 'Fraunces', serif; font-size: 22px; line-height: 1.25; margin: 0 0 8px; color: #FAFAFA; }
+.tf-cta p, .tf-about p { font-size: 15px; line-height: 1.6; color: rgba(250,250,250,0.8); margin: 0 0 14px; }
+.tf-cta .tf-link, .tf-about .tf-link { font-weight: 600; font-size: 15px; }
+.tf-cta .tf-link::after, .tf-about .tf-link::after { content: " →"; }
+.tldr { border-left: 3px solid #FF5E1F; background: rgba(255,255,255,0.03); border-radius: 0 10px 10px 0; padding: 16px 20px; margin: 0 0 28px; }
+.tldr .tldr-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF5E1F; letter-spacing: 0.15em; font-weight: 600; margin-bottom: 8px; }
+.tldr ul { margin: 0; padding-left: 18px; }
+.tldr li { font-size: 16px; line-height: 1.55; margin: 6px 0; }
+.faq-section { margin: 40px 0 8px; }
+.faq-section h2 { font-family: 'Fraunces', serif; font-size: 26px; margin-bottom: 14px; }
+.faq-section h3 { font-size: 17px; font-weight: 600; margin: 18px 0 6px; color: #FAFAFA; }
+.faq-section p { font-size: 16px; color: rgba(250,250,250,0.85); margin: 0; }
+.newsletter-error { color: #ff8a65; font-size: 14px; margin-top: 8px; }
