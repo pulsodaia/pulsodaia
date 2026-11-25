@@ -1136,7 +1136,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <h3 class="newsletter-headline">Receba o pulso da IA no seu inbox.</h3>
     <p class="newsletter-sub">Toda quinta, 9h. Top 5 da semana em portugues, em 3 minutos de leitura. Zero spam.</p>
-    <form class="newsletter-form" x-data="{ name2: '', email2: '', submitted2: false, submitting2: false }" @submit.prevent="submitting2=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'homepage-footer'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name: name2, email: email2, newsletter_source:'homepage-footer'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'homepage-footer'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'homepage-footer', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'homepage-footer', error_message:String(e).substring(0,200)});}).finally(()=>{submitted2=true;submitting2=false;})">
+    <form class="newsletter-form" x-data="{ name2: '', email2: '', submitted2: false, submitting2: false, failed2: false }" @submit.prevent="submitting2=true; failed2=false; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'homepage-footer'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name: name2, email: email2, newsletter_source:'homepage-footer'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'homepage-footer'});submitted2=true;}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'homepage-footer', error_status:r.status});failed2=true;}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'homepage-footer', error_message:String(e).substring(0,200)});failed2=true;}).finally(()=>{submitting2=false;})">
       <template x-if="!submitted2">
         <div class="newsletter-fields">
           <input x-model="name2" type="text" placeholder="Seu nome" required aria-label="Nome">
@@ -1150,6 +1150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div x-show="submitted2" class="newsletter-success">
         <strong>Inscrito.</strong> Proxima quinta, 9h, chega no teu inbox.
       </div>
+      <div class="newsletter-error" style="display:none;color:#ff8a65;font-size:14px;margin-top:8px" x-show="failed2">Não deu para concluir agora. Tente de novo em instantes.</div>
     </form>
     <div class="newsletter-privacy">
       Ao assinar voce aceita nossa <a href="/politica-privacidade/">politica de privacidade</a>. Cancele a qualquer momento.

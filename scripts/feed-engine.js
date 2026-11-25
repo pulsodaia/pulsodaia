@@ -9,6 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const tf = require('./triadeflow-offers.js');
 
 const API_KEY = process.env.GOOGLE_API_KEY;
 const ROOT = path.join(__dirname, '..');
@@ -450,13 +451,72 @@ function formatShortDate(iso) {
   } catch { return ''; }
 }
 
-function getRelatedArticles(currentSlug, feedArticles, limit = 3) {
+// Relacionados por afinidade: tags em comum (peso 2), mesma categoria (peso 1), desempate por recencia.
+// Sem afinidade nenhuma, cai nos mais recentes. Os links internos saem do conteudo, nao so da data.
+function getRelatedArticles(currentSlug, feedArticles, limit = 6) {
   if (!Array.isArray(feedArticles)) return [];
+  const me = feedArticles.find(a => a.slug === currentSlug) || {};
+  const myTags = new Set((me.tags || []).map(t => String(t).toLowerCase()));
+  const when = a => new Date(a.written_at || a.published_at);
+  const score = a => (a.tags || []).filter(t => myTags.has(String(t).toLowerCase())).length * 2 + (a.category && a.category === me.category ? 1 : 0);
   return feedArticles
     .filter(a => a.slug !== currentSlug)
-    .sort((a, b) => new Date(b.written_at || b.published_at) - new Date(a.written_at || a.published_at))
-    .slice(0, limit);
+    .map(a => ({ a, s: score(a) }))
+    .sort((x, y) => y.s - x.s || when(y.a) - when(x.a))
+    .slice(0, limit)
+    .map(x => x.a);
 }
+
+// ---- GEO: resumo em resposta direta + FAQ visivel (sem chamada de IA, tudo derivado do texto ja escrito) ----
+function plainText(html) {
+  return String(html || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function firstSentence(text, max = 230) {
+  const t = plainText(text);
+  const m = t.match(/^.+?[.!?](?=\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]|$)/);
+  const sentence = (m ? m[0] : t).trim();
+  if (sentence.length <= max) return sentence;
+  const cut = sentence.slice(0, max);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:\s]+$/, '') + '...';
+}
+
+// Uma frase por secao (O que aconteceu / Por que importa / O que esperar), na ordem do artigo.
+function renderTldrHtml(article) {
+  const parts = String(article.body_html || '').split(/<h2[^>]*>/).slice(1);
+  const items = parts.map(sec => {
+    const [h, ...rest] = sec.split('</h2>');
+    const para = (rest.join('</h2>').match(/<p[^>]*>([\s\S]*?)<\/p>/) || [])[1];
+    return para ? { label: plainText(h), sentence: firstSentence(para) } : null;
+  }).filter(Boolean).slice(0, 3);
+  if (items.length < 2) return '';
+  return `<div class="tldr">
+      <div class="tldr-label">EM RESUMO</div>
+      <ul>
+        ${items.map(i => `<li><strong>${i.label}:</strong> ${i.sentence}</li>`).join('\n        ')}
+      </ul>
+    </div>`;
+}
+
+// FAQPage no JSON-LD exige a mesma pergunta/resposta visivel na pagina.
+function renderFaqHtml(article) {
+  const faq = (article.faq || []).filter(f => f && f.q && f.a);
+  if (!faq.length) return '';
+  return `<section class="faq-section" id="perguntas-frequentes">
+      <h2>Perguntas frequentes</h2>
+      ${faq.map(f => `<h3>${f.q}</h3>\n      <p>${f.a}</p>`).join('\n      ')}
+    </section>`;
+}
+
+// Handler do formulario de newsletter. So mostra "Inscrito" quando o worker responde 2xx;
+// antes o .finally() marcava sucesso mesmo com 502 e o visitante achava que estava na lista.
+function newsletterSubmitExpr(source, slug) {
+  const extra = slug ? `, article_slug:'${slug}'` : '';
+  const dl = (ev, more = '') => `(window.dataLayer=window.dataLayer||[]).push({event:'${ev}', newsletter_source:'${source}'${extra}${more}})`;
+  return `submitting=true; failed=false; ${dl('newsletter_submit')}; fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'${source}'${extra}})}).then(r=>{if(r.ok){${dl('newsletter_success')};submitted=true}else{${dl('newsletter_error', ', error_status:r.status')};failed=true}}).catch(e=>{${dl('newsletter_error', ', error_message:String(e).substring(0,200)')};failed=true}).finally(()=>{submitting=false})`;
+}
+
+const NEWSLETTER_ERROR_HTML = '<div class="newsletter-error" style="display:none" x-show="failed">Não deu para concluir agora. Tente de novo em instantes.</div>';
 
 function renderRelatedHtml(related) {
   if (!related || related.length === 0) return '';
@@ -494,7 +554,7 @@ function renderFollowUsHtml() {
         </div>
         <h3 class="newsletter-headline">Receba o pulso da IA no seu inbox.</h3>
         <p class="newsletter-sub">Toda quinta, 9h. Top 5 da semana em portugues, em 3 minutos de leitura. Zero spam.</p>
-        <form class="newsletter-form" x-data="{ name: '', email: '', submitted: false, submitting: false }" @submit.prevent="submitting=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'footer-block'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'footer-block'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'footer-block'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_message:String(e).substring(0,200)});}).finally(()=>{submitted=true;submitting=false;})">
+        <form class="newsletter-form" x-data="{ name: '', email: '', submitted: false, submitting: false, failed: false }" @submit.prevent="${newsletterSubmitExpr('footer-block')}">
           <template x-if="!submitted">
             <div class="newsletter-fields">
               <input x-model="name" type="text" placeholder="Seu nome" required aria-label="Nome">
@@ -508,6 +568,7 @@ function renderFollowUsHtml() {
           <div x-show="submitted" class="newsletter-success">
             <strong>Inscrito.</strong> Proxima quinta, 9h, chega no teu inbox.
           </div>
+          ${NEWSLETTER_ERROR_HTML}
         </form>
         <div class="newsletter-privacy">
           Ao assinar voce aceita nossa <a href="/politica-privacidade/">politica de privacidade</a>. Cancele a qualquer momento.
@@ -584,6 +645,9 @@ function renderArticleHtml(article, related) {
   const readableDate = pubDate.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' }).toUpperCase().replace(/\./g, '');
   const metaDesc = (article.meta_description_seo || article.subtitle || '').replace(/"/g, '&quot;').substring(0, 160);
   const keywords = (article.seo_keywords || article.tags || []).join(', ');
+  const ogImage = article.hero_image
+    ? `https://pulsodaia.com.br/feed/${article.slug}/${article.hero_image}`
+    : 'https://pulsodaia.com.br/assets/og-image.png';
   const sourceDomain = (() => { try { return new URL(article.url).hostname.replace('www.', ''); } catch { return article.source_name; } })();
 
   return `<!DOCTYPE html>
@@ -611,10 +675,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:title" content="${article.headline.replace(/"/g, '&quot;')}">
 <meta property="og:description" content="${metaDesc}">
 <meta property="og:url" content="https://pulsodaia.com.br/feed/${article.slug}/">
-<meta property="og:image" content="https://pulsodaia.com.br/assets/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="${ogImage}">
+${article.hero_image ? '' : '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">'}
+<meta property="og:image:alt" content="${article.headline.replace(/"/g, '&quot;')}">
 <meta property="article:published_time" content="${article.published_at}">
+<meta property="article:modified_time" content="${article.written_at || article.published_at}">
 <meta property="article:author" content="Pulso da IA">
 <meta property="article:section" content="${article.source_name}">
 ${(article.tags || []).map(t => `<meta property="article:tag" content="${t}">`).join('\n')}
@@ -622,7 +687,7 @@ ${(article.tags || []).map(t => `<meta property="article:tag" content="${t}">`).
 <meta name="twitter:site" content="@pulsodaia">
 <meta name="twitter:title" content="${article.headline.replace(/"/g, '&quot;')}">
 <meta name="twitter:description" content="${metaDesc}">
-<meta name="twitter:image" content="https://pulsodaia.com.br/assets/og-image.png">
+<meta name="twitter:image" content="${ogImage}">
 <link rel="canonical" href="https://pulsodaia.com.br/feed/${article.slug}/">
 <link rel="icon" href="/assets/favicon.ico">
 <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM manifest">
@@ -644,6 +709,8 @@ ${(() => {
       "datePublished": article.published_at,
       "dateModified": article.written_at || article.published_at,
       "inLanguage": "pt-BR",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
       "author": { "@id": "https://pulsodaia.com.br/#org" },
       "publisher": { "@id": "https://pulsodaia.com.br/#org" },
       "image": article.hero_image
@@ -657,7 +724,7 @@ ${(() => {
       "citation": [{ "@type": "CreativeWork", "name": article.source_name, "url": article.url }],
       "speakable": {
         "@type": "SpeakableSpecification",
-        "cssSelector": ["article.post h1", "article.post p.lead", "article.post h2"]
+        "cssSelector": ["h1", "article.post p.lead", ".tldr li", ".faq-section h3"]
       }
     },
     {
@@ -665,8 +732,17 @@ ${(() => {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Pulso da IA", "item": "https://pulsodaia.com.br/" },
         { "@type": "ListItem", "position": 2, "name": "Feed", "item": "https://pulsodaia.com.br/feed/" },
-        { "@type": "ListItem", "position": 3, "name": article.source_name || "Artigo", "item": `https://pulsodaia.com.br/feed/${article.slug}/` }
+        { "@type": "ListItem", "position": 3, "name": article.headline || "Artigo", "item": `https://pulsodaia.com.br/feed/${article.slug}/` }
       ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pulsodaia.com.br/#website",
+      "url": "https://pulsodaia.com.br/",
+      "name": "Pulso da IA",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "https://pulsodaia.com.br/#org" },
+      "potentialAction": { "@type": "SearchAction", "target": "https://pulsodaia.com.br/feed/?q={search_term_string}", "query-input": "required name=search_term_string" }
     },
     {
       "@type": "Organization",
@@ -795,6 +871,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </header>
+${tf.renderBanner(article)}
 
 <div class="container">
   <nav class="breadcrumb"><a href="/">Pulso da IA</a><span>›</span><a href="/feed/">Feed</a><span>›</span>${article.source_name}</nav>
@@ -811,7 +888,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p class="subtitle">${article.subtitle}</p>
 
   <div class="byline">
-    <span class="by">Por Pulso da IA</span>
+    <span class="by">Por <a href="/autores/pulso-da-ia/">Pulso da IA</a>, editor <a href="/autores/alex-campos/">Alex Campos</a></span>
     <span class="sep">·</span>
     <span>${readableDate.toLowerCase()}</span>
     <span class="sep">·</span>
@@ -830,7 +907,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <article class="post">
     <p class="lead">${article.lead}</p>
-    ${article.body_html}
+    ${renderTldrHtml(article)}
+    ${tf.injectMidCta(article.body_html, article)}
+    ${renderFaqHtml(article)}
 
     <div class="source-box">
       <div class="label">FONTE OFICIAL</div>
@@ -846,15 +925,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       ${(article.tags || []).map(t => `<a href="/tag/${slugify(t)}/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="${t}">#${t}</a>`).join('')}
     </div>
 
+    ${tf.renderCta(article, 'fim-artigo')}
+    ${tf.renderAboutBox(article)}
+
     <!-- FORM NEWSLETTER INLINE (em todas as paginas) -->
-    <div class="inline-newsletter" x-data="{ name: '', email: '', submitted: false, submitting: false }">
+    <div class="inline-newsletter" x-data="{ name: '', email: '', submitted: false, submitting: false, failed: false }">
       <div class="inline-newsletter-grid">
         <div>
           <div class="eyebrow-mini">PULSO SEMANAL</div>
           <h3>Recebe no inbox <span class="italic">toda quinta.</span></h3>
           <p>Top 5 da semana de IA em portugues, em 3 minutos de leitura. Zero spam.</p>
         </div>
-        <form @submit.prevent="submitting=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'article-inline', article_slug:'${article.slug}'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'article-inline', article_slug:'${article.slug}'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'article-inline', article_slug:'${article.slug}'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', error_message:String(e).substring(0,200)});}).finally(()=>{submitted=true;submitting=false;})" x-show="!submitted">
+        <form @submit.prevent="${newsletterSubmitExpr('article-inline', article.slug)}" x-show="!submitted">
           <input x-model="name" type="text" placeholder="Seu nome" required>
           <input x-model="email" type="email" placeholder="seu@email.com" required>
           <button type="submit" :disabled="submitting">
@@ -865,6 +947,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div x-show="submitted" class="success">
           <strong>Inscrito.</strong> Proxima quinta, 9h, chega no teu inbox.
         </div>
+        ${NEWSLETTER_ERROR_HTML}
       </div>
     </div>
 
@@ -943,7 +1026,7 @@ async function publishArticle(article) {
   feed.generated_at = new Date().toISOString();
   fs.writeFileSync(FEED_JSON, JSON.stringify(feed, null, 2));
 
-  const related = getRelatedArticles(article.slug, feed.articles, 3);
+  const related = getRelatedArticles(article.slug, feed.articles);
   fs.writeFileSync(path.join(dir, 'index.html'), renderArticleHtml(article, related));
 
   return dir;
@@ -1154,7 +1237,7 @@ footer.site { border-top: 1px solid rgba(255,255,255,0.08); padding: 48px 0 32px
   .footer-grid { grid-template-columns: 1fr; }
   .footer-meta { flex-direction: column; align-items: flex-start; }
 }
-`);
+${tf.CSS}`);
   console.log('[css] article.css atualizado');
 }
 

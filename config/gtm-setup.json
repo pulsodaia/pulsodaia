@@ -58,7 +58,10 @@
     { "name": "DLV - web_vital_rating", "type": "dataLayerVar", "key": "rating" },
     { "name": "DLV - error_message", "type": "dataLayerVar", "key": "error_message" },
     { "name": "DLV - error_source", "type": "dataLayerVar", "key": "error_source" },
-    { "name": "DLV - error_status", "type": "dataLayerVar", "key": "error_status" }
+    { "name": "DLV - error_status", "type": "dataLayerVar", "key": "error_status" },
+    { "name": "DLV - offer_theme", "type": "dataLayerVar", "key": "offer_theme" },
+    { "name": "DLV - offer_position", "type": "dataLayerVar", "key": "offer_position" },
+    { "name": "DLV - offer_destination", "type": "dataLayerVar", "key": "offer_destination" }
   ],
 
   "triggers": [
@@ -66,7 +69,7 @@
       "id_ref": "pulso_custom_events",
       "name": "Pulso - Custom Events (regex)",
       "type": "customEvent",
-      "event_regex": "^(article_|newsletter_|nav_|theme_|web_vital_|outbound_|tag_|share_|related_|source_|feed_|logo_|breadcrumb_|cta_|whatsapp_).+|^(js_error|unhandled_rejection|resource_error)$"
+      "event_regex": "^(article_|newsletter_|nav_|theme_|web_vital_|outbound_|tag_|share_|related_|source_|feed_|logo_|breadcrumb_|cta_|whatsapp_|triadeflow_).+|^(js_error|unhandled_rejection|resource_error)$"
     }
   ],
 
@@ -107,7 +110,10 @@
         { "name": "web_vital_rating", "value": "{{DLV - web_vital_rating}}" },
         { "name": "error_message", "value": "{{DLV - error_message}}" },
         { "name": "error_source", "value": "{{DLV - error_source}}" },
-        { "name": "error_status", "value": "{{DLV - error_status}}" }
+        { "name": "error_status", "value": "{{DLV - error_status}}" },
+        { "name": "offer_theme", "value": "{{DLV - offer_theme}}" },
+        { "name": "offer_position", "value": "{{DLV - offer_position}}" },
+        { "name": "offer_destination", "value": "{{DLV - offer_destination}}" }
       ]
     }
   ],
@@ -116,6 +122,7 @@
     "newsletter_submit",
     "newsletter_success",
     "whatsapp_click",
-    "cta_assinar_click"
+    "cta_assinar_click",
+    "triadeflow_click"
   ]
 }
