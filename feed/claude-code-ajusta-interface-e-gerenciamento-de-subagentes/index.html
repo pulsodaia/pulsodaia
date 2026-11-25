@@ -23,10 +23,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:title" content="Claude Code Ajusta Interface e Gerenciamento de Subagentes">
 <meta property="og:description" content="Claude Code v2.1.296 atualiza gateway, políticas e subagentes para aprimorar a experiência de desenvolvedores.">
 <meta property="og:url" content="https://pulsodaia.com.br/feed/claude-code-ajusta-interface-e-gerenciamento-de-subagentes/">
-<meta property="og:image" content="https://pulsodaia.com.br/assets/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://pulsodaia.com.br/feed/claude-code-ajusta-interface-e-gerenciamento-de-subagentes/hero.jpg">
+
+<meta property="og:image:alt" content="Claude Code Ajusta Interface e Gerenciamento de Subagentes">
 <meta property="article:published_time" content="2026-10-09T19:28:59Z">
+<meta property="article:modified_time" content="2026-10-09T23:55:50.657Z">
 <meta property="article:author" content="Pulso da IA">
 <meta property="article:section" content="Claude Code">
 <meta property="article:tag" content="claude">
@@ -36,7 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:site" content="@pulsodaia">
 <meta name="twitter:title" content="Claude Code Ajusta Interface e Gerenciamento de Subagentes">
 <meta name="twitter:description" content="Claude Code v2.1.296 atualiza gateway, políticas e subagentes para aprimorar a experiência de desenvolvedores.">
-<meta name="twitter:image" content="https://pulsodaia.com.br/assets/og-image.png">
+<meta name="twitter:image" content="https://pulsodaia.com.br/feed/claude-code-ajusta-interface-e-gerenciamento-de-subagentes/hero.jpg">
 <link rel="canonical" href="https://pulsodaia.com.br/feed/claude-code-ajusta-interface-e-gerenciamento-de-subagentes/">
 <link rel="icon" href="/assets/favicon.ico">
 <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM manifest">
@@ -62,6 +63,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "datePublished": "2026-10-09T19:28:59Z",
       "dateModified": "2026-10-09T23:55:50.657Z",
       "inLanguage": "pt-BR",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
       "author": {
         "@id": "https://pulsodaia.com.br/#org"
       },
@@ -87,9 +90,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
-          "article.post h1",
+          "h1",
           "article.post p.lead",
-          "article.post h2"
+          ".tldr li",
+          ".faq-section h3"
         ]
       }
     },
@@ -111,10 +115,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Claude Code",
+          "name": "Claude Code Ajusta Interface e Gerenciamento de Subagentes",
           "item": "https://pulsodaia.com.br/feed/claude-code-ajusta-interface-e-gerenciamento-de-subagentes/"
         }
       ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pulsodaia.com.br/#website",
+      "url": "https://pulsodaia.com.br/",
+      "name": "Pulso da IA",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://pulsodaia.com.br/#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://pulsodaia.com.br/feed/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     },
     {
       "@type": "Organization",
@@ -277,6 +296,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </header>
+<div class="tf-banner" role="note">Pulso da IA é um projeto da Triadeflow. <a href="https://triadeflow.ai/?utm_source=pulsodaia&amp;utm_medium=artigo&amp;utm_campaign=agentes-automacao&amp;utm_content=banner-topo" target="_blank" rel="noopener" class="tf-link" data-gtm-event="triadeflow_click" data-gtm-offer-theme="agentes-automacao" data-gtm-offer-position="banner-topo" data-gtm-article-slug="claude-code-ajusta-interface-e-gerenciamento-de-subagentes" data-gtm-offer-destination="triadeflow.ai">Veja um agente de IA em operação na Triadeflow</a></div>
 
 <div class="container">
   <nav class="breadcrumb"><a href="/">Pulso da IA</a><span>›</span><a href="/feed/">Feed</a><span>›</span>Claude Code</nav>
@@ -293,7 +313,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p class="subtitle">Atualizações focam em controle granular e otimização de fluxos de trabalho para desenvolvedores.</p>
 
   <div class="byline">
-    <span class="by">Por Pulso da IA</span>
+    <span class="by">Por <a href="/autores/pulso-da-ia/">Pulso da IA</a>, editor <a href="/autores/alex-campos/">Alex Campos</a></span>
     <span class="sep">·</span>
     <span>09 de out de 2026</span>
     <span class="sep">·</span>
@@ -309,6 +329,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <article class="post">
     <p class="lead">A Anthropic liberou a versão v2.1.296 do Claude Code, introduzindo modificações significativas na gestão de políticas e na configuração de subagentes. As mudanças visam aprimorar a experiência do usuário no Claude Desktop e o controle sobre a execução de fluxos de trabalho.</p>
+    <div class="tldr">
+      <div class="tldr-label">EM RESUMO</div>
+      <ul>
+        <li><strong>O que aconteceu:</strong> A versão v2.1.296 do Claude Code traz novidades importantes para a organização e o uso do modelo.</li>
+        <li><strong>Por que importa:</strong> Essas atualizações impactam diretamente a forma como desenvolvedores e usuários avançados interagem com o Claude, especialmente no contexto de tarefas de codificação e fluxos de trabalho complexos.</li>
+        <li><strong>O que esperar:</strong> Com a introdução dessas novas configurações, espera-se que os usuários do Claude Desktop e da linha de comando possam gerenciar suas interações de forma mais refinada.</li>
+      </ul>
+    </div>
     <h2>O que aconteceu</h2>
 
 <p>A versão v2.1.296 do Claude Code traz novidades importantes para a organização e o uso do modelo. Uma das principais adições é a chave <code>code</code> dentro do gateway de aplicativos do Claude, especificamente em <code>managed.policies[]</code>. Essa configuração espelha as opções disponíveis na linha de comando (<code>cli</code>) e será aplicada na aba de Código do Claude Desktop. Complementarmente, a opção <code>desktop</code> ativa o modo gateway do Claude Desktop.</p>
@@ -321,9 +349,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p>Essas atualizações impactam diretamente a forma como desenvolvedores e usuários avançados interagem com o Claude, especialmente no contexto de tarefas de codificação e fluxos de trabalho complexos. A granularidade no controle de políticas e a otimização de janelas de subagentes sugerem um movimento em direção a interfaces mais personalizáveis e eficientes. A capacidade de direcionar modelos específicos para agentes de fluxo de trabalho pode levar a um uso mais consciente dos recursos e a melhor desempenho em tarefas repetitivas. No Brasil, onde a adoção de ferramentas de IA para desenvolvimento e análise de código tem crescido, essas funcionalidades podem representar um avanço na produtividade.</p>
 
+<aside class="tf-cta tf-cta-meio-artigo" aria-label="Triadeflow">
+      <div class="tf-eyebrow">DA TRIADEFLOW</div>
+      <h3>Um agente de IA que já trabalha no seu atendimento</h3>
+      <p>Agentes de IA saíram do laboratório. Na Triadeflow, um deles atende o WhatsApp de clínicas e negócios de agenda: responde, marca horário e faz follow-up em 72 horas sem ninguém precisar lembrar.</p>
+      <a href="https://triadeflow.ai/?utm_source=pulsodaia&amp;utm_medium=artigo&amp;utm_campaign=agentes-automacao&amp;utm_content=meio-artigo" target="_blank" rel="noopener" class="tf-link" data-gtm-event="triadeflow_click" data-gtm-offer-theme="agentes-automacao" data-gtm-offer-position="meio-artigo" data-gtm-article-slug="claude-code-ajusta-interface-e-gerenciamento-de-subagentes" data-gtm-offer-destination="triadeflow.ai">Veja um agente de IA em operação na Triadeflow</a>
+    </aside>
 <h2>O que esperar</h2>
 
 <p>Com a introdução dessas novas configurações, espera-se que os usuários do Claude Desktop e da linha de comando possam gerenciar suas interações de forma mais refinada. A capacidade de auto-compactação de janelas de subagentes pode ser particularmente útil para manter a organização em sessões de trabalho extensas. A otimização de modelos para fluxos de trabalho específicos pode incentivar a criação de pipelines de IA mais especializados. A melhoria no tratamento de requisições sobrecarregadas indica um foco contínuo na robustez e confiabilidade do serviço. Para entender as implicações técnicas e as melhores práticas de uso, é recomendável acompanhar as atualizações e a documentação oficial, disponível em <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.296" target="_blank" rel="external noopener">GitHub</a>.</p>
+    <section class="faq-section" id="perguntas-frequentes">
+      <h2>Perguntas frequentes</h2>
+      <h3>Quais foram as principais novidades na versão v2.1.296 do Claude Code?</h3>
+      <p>A atualização introduziu uma chave `code` para configurações de políticas, a opção `autoCompactWindow` para subagentes e a variável `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` para gerenciar modelos de agentes.</p>
+      <h3>Como a nova versão melhora o uso do Claude Desktop?</h3>
+      <p>A chave `code` nas políticas e a opção `desktop` ativam o modo gateway, e a configuração `autoCompactWindow` permite uma melhor organização visual para subagentes.</p>
+      <h3>O que a variável `CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS` faz?</h3>
+      <p>Ela permite configurar um tempo de espera maior ao tentar novamente solicitações que resultaram em erro de sobrecarga (529), melhorando a resiliência do sistema.</p>
+    </section>
 
     <div class="source-box">
       <div class="label">FONTE OFICIAL</div>
@@ -339,15 +382,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="/tag/claude/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="claude">#claude</a><a href="/tag/anthropic/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="anthropic">#anthropic</a><a href="/tag/desenvolvimento/" class="tag" data-gtm-event="tag_click" data-gtm-tag-name="desenvolvimento">#desenvolvimento</a>
     </div>
 
+    <aside class="tf-cta tf-cta-fim-artigo" aria-label="Triadeflow">
+      <div class="tf-eyebrow">DA TRIADEFLOW</div>
+      <h3>Um agente de IA que já trabalha no seu atendimento</h3>
+      <p>Agentes de IA saíram do laboratório. Na Triadeflow, um deles atende o WhatsApp de clínicas e negócios de agenda: responde, marca horário e faz follow-up em 72 horas sem ninguém precisar lembrar.</p>
+      <a href="https://triadeflow.ai/?utm_source=pulsodaia&amp;utm_medium=artigo&amp;utm_campaign=agentes-automacao&amp;utm_content=fim-artigo" target="_blank" rel="noopener" class="tf-link" data-gtm-event="triadeflow_click" data-gtm-offer-theme="agentes-automacao" data-gtm-offer-position="fim-artigo" data-gtm-article-slug="claude-code-ajusta-interface-e-gerenciamento-de-subagentes" data-gtm-offer-destination="triadeflow.ai">Veja um agente de IA em operação na Triadeflow</a>
+    </aside>
+    <aside class="tf-about" aria-label="Quem faz o Pulso">
+      <div class="tf-eyebrow">QUEM FAZ O PULSO</div>
+      <p>O Pulso da IA traduz e resume as fontes oficiais de IA para o português, com o link do original em cada artigo. Quem mantém o portal é a Triadeflow, empresa de Fortaleza que implanta recepcionistas de IA no WhatsApp para clínicas. Editor responsável: <a href="/autores/alex-campos/">Alex Campos</a>.</p>
+      <a href="https://triadeflow.ai/?utm_source=pulsodaia&amp;utm_medium=artigo&amp;utm_campaign=agentes-automacao&amp;utm_content=quem-faz-o-pulso" target="_blank" rel="noopener" class="tf-link" data-gtm-event="triadeflow_click" data-gtm-offer-theme="agentes-automacao" data-gtm-offer-position="quem-faz-o-pulso" data-gtm-article-slug="claude-code-ajusta-interface-e-gerenciamento-de-subagentes" data-gtm-offer-destination="triadeflow.ai">Veja um agente de IA em operação na Triadeflow</a>
+    </aside>
+
     <!-- FORM NEWSLETTER INLINE (em todas as paginas) -->
-    <div class="inline-newsletter" x-data="{ name: '', email: '', submitted: false, submitting: false }">
+    <div class="inline-newsletter" x-data="{ name: '', email: '', submitted: false, submitting: false, failed: false }">
       <div class="inline-newsletter-grid">
         <div>
           <div class="eyebrow-mini">PULSO SEMANAL</div>
           <h3>Recebe no inbox <span class="italic">toda quinta.</span></h3>
           <p>Top 5 da semana de IA em portugues, em 3 minutos de leitura. Zero spam.</p>
         </div>
-        <form @submit.prevent="submitting=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'article-inline', article_slug:'claude-code-ajusta-interface-e-gerenciamento-de-subagentes'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'article-inline', article_slug:'claude-code-ajusta-interface-e-gerenciamento-de-subagentes'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'article-inline', article_slug:'claude-code-ajusta-interface-e-gerenciamento-de-subagentes'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', error_message:String(e).substring(0,200)});}).finally(()=>{submitted=true;submitting=false;})" x-show="!submitted">
+        <form @submit.prevent="submitting=true; failed=false; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'article-inline', article_slug:'claude-code-ajusta-interface-e-gerenciamento-de-subagentes'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'article-inline', article_slug:'claude-code-ajusta-interface-e-gerenciamento-de-subagentes'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'article-inline', article_slug:'claude-code-ajusta-interface-e-gerenciamento-de-subagentes'});submitted=true}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', article_slug:'claude-code-ajusta-interface-e-gerenciamento-de-subagentes', error_status:r.status});failed=true}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'article-inline', article_slug:'claude-code-ajusta-interface-e-gerenciamento-de-subagentes', error_message:String(e).substring(0,200)});failed=true}).finally(()=>{submitting=false})" x-show="!submitted">
           <input x-model="name" type="text" placeholder="Seu nome" required>
           <input x-model="email" type="email" placeholder="seu@email.com" required>
           <button type="submit" :disabled="submitting">
@@ -358,6 +413,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div x-show="submitted" class="success">
           <strong>Inscrito.</strong> Proxima quinta, 9h, chega no teu inbox.
         </div>
+        <div class="newsletter-error" style="display:none" x-show="failed">Não deu para concluir agora. Tente de novo em instantes.</div>
       </div>
     </div>
 
@@ -379,34 +435,64 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="related-grid">
         
-        <a href="/feed/amazon-fim-de-sigilo-em-data-centers-e-ia-novas-fronteiras-de-negocios-e-privaci/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="amazon-fim-de-sigilo-em-data-centers-e-ia-novas-fronteiras-de-negocios-e-privaci" data-gtm-to-category="MERCADO" data-gtm-card-position="1">
+        <a href="/feed/claude-code-ajusta-operacoes-com-novas-configuracoes-de-orcamento-e-controle-de-/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="claude-code-ajusta-operacoes-com-novas-configuracoes-de-orcamento-e-controle-de-" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="1">
           <div class="related-image">
-            <img src="/feed/amazon-fim-de-sigilo-em-data-centers-e-ia-novas-fronteiras-de-negocios-e-privaci/hero.jpg" alt="Amazon Fim de Sigilo em Data Centers e IA: Novas Fronteiras de Negócios e Privacidade" loading="lazy">
-            <span class="related-pill">MERCADO</span>
-          </div>
-          <div class="related-meta">
-            <h4>Amazon Fim de Sigilo em Data Centers e IA: Novas Fronteiras de Negócios e Privacidade</h4>
-            <div class="related-byline">Pulso da IA · 09 DE OUT DE 2026</div>
-          </div>
-        </a>
-        <a href="/feed/gigantes-da-nuvem-aboliram-sigilo-em-acordos-de-data-centers/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="gigantes-da-nuvem-aboliram-sigilo-em-acordos-de-data-centers" data-gtm-to-category="MERCADO" data-gtm-card-position="2">
-          <div class="related-image">
-            <img src="/feed/gigantes-da-nuvem-aboliram-sigilo-em-acordos-de-data-centers/hero.jpg" alt="Gigantes da Nuvem Aboliram Sigilo em Acordos de Data Centers" loading="lazy">
-            <span class="related-pill">MERCADO</span>
-          </div>
-          <div class="related-meta">
-            <h4>Gigantes da Nuvem Aboliram Sigilo em Acordos de Data Centers</h4>
-            <div class="related-byline">Pulso da IA · 09 DE OUT DE 2026</div>
-          </div>
-        </a>
-        <a href="/feed/otimizacao-de-agendamento-para-clusters-de-gpus-um-avanco-para-o-treinamento-de-/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="otimizacao-de-agendamento-para-clusters-de-gpus-um-avanco-para-o-treinamento-de-" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="3">
-          <div class="related-image">
-            <img src="/feed/otimizacao-de-agendamento-para-clusters-de-gpus-um-avanco-para-o-treinamento-de-/hero.png" alt="Otimização de Agendamento para Clusters de GPUs: Um Avanço para o Treinamento de IA" loading="lazy">
+            <img src="/feed/claude-code-ajusta-operacoes-com-novas-configuracoes-de-orcamento-e-controle-de-/hero.jpg" alt="Claude Code Ajusta Operações com Novas Configurações de Orçamento e Controle de Processos" loading="lazy">
             <span class="related-pill">LANCAMENTO</span>
           </div>
           <div class="related-meta">
-            <h4>Otimização de Agendamento para Clusters de GPUs: Um Avanço para o Treinamento de IA</h4>
-            <div class="related-byline">Pulso da IA · 09 DE OUT DE 2026</div>
+            <h4>Claude Code Ajusta Operações com Novas Configurações de Orçamento e Controle de Processos</h4>
+            <div class="related-byline">Pulso da IA · 30 DE OUT DE 2026</div>
+          </div>
+        </a>
+        <a href="/feed/claude-atualiza-gateway-de-apps-e-refina-interacao-com-codigo/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="claude-atualiza-gateway-de-apps-e-refina-interacao-com-codigo" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="2">
+          <div class="related-image">
+            <img src="/feed/claude-atualiza-gateway-de-apps-e-refina-interacao-com-codigo/hero.jpg" alt="Claude Atualiza Gateway de Apps e Refina Interação com Código" loading="lazy">
+            <span class="related-pill">LANCAMENTO</span>
+          </div>
+          <div class="related-meta">
+            <h4>Claude Atualiza Gateway de Apps e Refina Interação com Código</h4>
+            <div class="related-byline">Pulso da IA · 27 DE OUT DE 2026</div>
+          </div>
+        </a>
+        <a href="/feed/claude-code-2-1-288-refina-interatividade-e-seguranca-em-sessoes-de-codigo/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="claude-code-2-1-288-refina-interatividade-e-seguranca-em-sessoes-de-codigo" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="3">
+          <div class="related-image">
+            <img src="/feed/claude-code-2-1-288-refina-interatividade-e-seguranca-em-sessoes-de-codigo/hero.jpg" alt="Claude Code 2.1.288 Refina Interatividade e Segurança em Sessões de Código" loading="lazy">
+            <span class="related-pill">LANCAMENTO</span>
+          </div>
+          <div class="related-meta">
+            <h4>Claude Code 2.1.288 Refina Interatividade e Segurança em Sessões de Código</h4>
+            <div class="related-byline">Pulso da IA · 02 DE OUT DE 2026</div>
+          </div>
+        </a>
+        <a href="/feed/claude-code-recebe-atualizacao-menor-focada-em-estabilidade/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="claude-code-recebe-atualizacao-menor-focada-em-estabilidade" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="4">
+          <div class="related-image">
+            <img src="/feed/claude-code-recebe-atualizacao-menor-focada-em-estabilidade/hero.jpg" alt="Claude Code Recebe Atualização Menor Focada em Estabilidade" loading="lazy">
+            <span class="related-pill">LANCAMENTO</span>
+          </div>
+          <div class="related-meta">
+            <h4>Claude Code Recebe Atualização Menor Focada em Estabilidade</h4>
+            <div class="related-byline">Pulso da IA · 22 DE AGO DE 2026</div>
+          </div>
+        </a>
+        <a href="/feed/claude-code-v2-1-178-refina-controle-e-organizacao-de-skills/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="claude-code-v2-1-178-refina-controle-e-organizacao-de-skills" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="5">
+          <div class="related-image">
+            <img src="/feed/claude-code-v2-1-178-refina-controle-e-organizacao-de-skills/hero.jpg" alt="Claude Code v2.1.178 Refina Controle e Organização de Skills" loading="lazy">
+            <span class="related-pill">LANCAMENTO</span>
+          </div>
+          <div class="related-meta">
+            <h4>Claude Code v2.1.178 Refina Controle e Organização de Skills</h4>
+            <div class="related-byline">Pulso da IA · 15 DE JUN DE 2026</div>
+          </div>
+        </a>
+        <a href="/feed/claude-ganha-modo-de-codigo-para-executar-ferramentas-via-javascript/" class="related-card" data-gtm-event="related_article_click" data-gtm-to-slug="claude-ganha-modo-de-codigo-para-executar-ferramentas-via-javascript" data-gtm-to-category="LANCAMENTO" data-gtm-card-position="6">
+          <div class="related-image">
+            <img src="/feed/claude-ganha-modo-de-codigo-para-executar-ferramentas-via-javascript/hero.jpg" alt="Claude Ganha Modo de Código para Executar Ferramentas via JavaScript" loading="lazy">
+            <span class="related-pill">LANCAMENTO</span>
+          </div>
+          <div class="related-meta">
+            <h4>Claude Ganha Modo de Código para Executar Ferramentas via JavaScript</h4>
+            <div class="related-byline">Pulso da IA · 12 DE NOV DE 2026</div>
           </div>
         </a>
       </div>
@@ -421,7 +507,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <h3 class="newsletter-headline">Receba o pulso da IA no seu inbox.</h3>
         <p class="newsletter-sub">Toda quinta, 9h. Top 5 da semana em portugues, em 3 minutos de leitura. Zero spam.</p>
-        <form class="newsletter-form" x-data="{ name: '', email: '', submitted: false, submitting: false }" @submit.prevent="submitting=true; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'footer-block'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'footer-block'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'footer-block'});}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_status:r.status});}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_message:String(e).substring(0,200)});}).finally(()=>{submitted=true;submitting=false;})">
+        <form class="newsletter-form" x-data="{ name: '', email: '', submitted: false, submitting: false, failed: false }" @submit.prevent="submitting=true; failed=false; (window.dataLayer=window.dataLayer||[]).push({event:'newsletter_submit', newsletter_source:'footer-block'}); fetch('https://ghl-bridge.pulsodaia.workers.dev/api/newsletter-subscribe', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({name, email, newsletter_source:'footer-block'})}).then(r=>{if(r.ok){(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_success', newsletter_source:'footer-block'});submitted=true}else{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_status:r.status});failed=true}}).catch(e=>{(window.dataLayer=window.dataLayer||[]).push({event:'newsletter_error', newsletter_source:'footer-block', error_message:String(e).substring(0,200)});failed=true}).finally(()=>{submitting=false})">
           <template x-if="!submitted">
             <div class="newsletter-fields">
               <input x-model="name" type="text" placeholder="Seu nome" required aria-label="Nome">
@@ -435,6 +521,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div x-show="submitted" class="newsletter-success">
             <strong>Inscrito.</strong> Proxima quinta, 9h, chega no teu inbox.
           </div>
+          <div class="newsletter-error" style="display:none" x-show="failed">Não deu para concluir agora. Tente de novo em instantes.</div>
         </form>
         <div class="newsletter-privacy">
           Ao assinar voce aceita nossa <a href="/politica-privacidade/">politica de privacidade</a>. Cancele a qualquer momento.
