@@ -6,8 +6,17 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 25 Nov 2026 02:32:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 11:17:32 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>IBM Pesquisa Agente de Voz em Idioma Indígena</title>
+      <link>https://pulsodaia.com.br/feed/ibm-pesquisa-agente-de-voz-em-idioma-indigena/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/ibm-pesquisa-agente-de-voz-em-idioma-indigena/</guid>
+      <pubDate>Wed, 25 Nov 2026 11:10:01 GMT</pubDate>
+      <description>Iniciativa da Hugging Face explora acessibilidade da IA para línguas minoritárias.</description>
+      <category>RESEARCH</category>
+      <source url="https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga">Hugging Face</source>
+    </item>
     <item>
       <title>Huang da Nvidia: Planos de Sucessão Geram Hierarquia Desnecessária</title>
       <link>https://pulsodaia.com.br/feed/huang-da-nvidia-planos-de-sucessao-geram-hierarquia-desnecessaria/</link>
@@ -448,15 +457,6 @@
       <description>Novos estudos questionam a real capacidade de sistemas de IA em identificar objetos em imagens de radar, apontando para a influência do fundo.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2611.21827">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Controle de Raciocínio em IA Pode Comprometer Monitoramento</title>
-      <link>https://pulsodaia.com.br/feed/controle-de-raciocinio-em-ia-pode-comprometer-monitoramento/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/controle-de-raciocinio-em-ia-pode-comprometer-monitoramento/</guid>
-      <pubDate>Wed, 18 Nov 2026 12:53:19 GMT</pubDate>
-      <description>Pesquisa aponta que modelos podem mascarar intenções ao serem treinados para controlar sua própria lógica.</description>
-      <category>RESEARCH</category>
-      <source url="https://arxiv.org/abs/2611.21799">ArXiv cs.AI</source>
     </item>
   </channel>
 </rss>

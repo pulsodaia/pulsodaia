@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://pulsodaia.com.br/feed/ibm-pesquisa-agente-de-voz-em-idioma-indigena/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T10:22:09.000Z</news:publication_date>
+      <news:title>IBM Pesquisa Agente de Voz em Idioma Indígena</news:title>
+      <news:keywords>ia conversacional, idiomas indigenas, processamento de linguagem natural</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://pulsodaia.com.br/feed/huang-da-nvidia-planos-de-sucessao-geram-hierarquia-desnecessaria/</loc>
     <news:news>
       <news:publication>
@@ -142,30 +154,6 @@
       <news:publication_date>2026-11-23T17:00:00.000Z</news:publication_date>
       <news:title>Google Busca Ganha Camada de Inteligência Pessoal com Integração de Apps</news:title>
       <news:keywords>google search, inteligência artificial, personalização</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/ia-gera-grafos-de-conhecimento-por-simulacao-nao-descricao/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T05:00:00.000Z</news:publication_date>
-      <news:title>IA Gera Grafos de Conhecimento por Simulação, Não Descrição</news:title>
-      <news:keywords>ia, grafos de conhecimento, ciberseguranca, llm, stix</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/ia-em-dupla-ou-trio-mais-agentes-nem-sempre-significam-mais-ideias/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T05:00:00.000Z</news:publication_date>
-      <news:title>IA em Dupla ou Trio: Mais Agentes Nem Sempre Significam Mais Ideias</news:title>
-      <news:keywords>ia, produtividade, colaboração</news:keywords>
     </news:news>
   </url>
 </urlset>
