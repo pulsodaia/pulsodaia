@@ -1,6 +1,64 @@
 {
-  "generated_at": "2026-11-25T23:02:06.007Z",
+  "generated_at": "2026-11-26T07:51:44.153Z",
   "articles": [
+    {
+      "slug": "nova-abordagem-de-verificacao-aumenta-confiabilidade-em-respostas-de-ia",
+      "headline": "Nova Abordagem de Verificação Aumenta Confiabilidade em Respostas de IA",
+      "subtitle": "Pesquisa no arXiv propõe método para selecionar as melhores respostas geradas por modelos de linguagem.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.33161",
+      "category": "research",
+      "tags": [
+        "ia",
+        "llm",
+        "vlm",
+        "confiabilidade"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 26 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-26T07:51:43.957Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "context-scaling-nova-fronteira-para-escalar-sistemas-de-ia",
+      "headline": "Context Scaling: Nova Fronteira para Escalar Sistemas de IA",
+      "subtitle": "Pesquisa no arXiv aponta para otimização da capacidade de sistemas de IA em lidar com informações contextuais.",
+      "eyebrow_category": "RESEARCH",
+      "source_name": "ArXiv cs.AI",
+      "source_url": "https://arxiv.org/abs/2611.33160",
+      "category": "research",
+      "tags": [
+        "ia",
+        "context scaling",
+        "pesquisa"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 26 Nov 2026 00:00:00 -0500",
+      "written_at": "2026-11-26T07:51:23.838Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "nvidia-libera-modelo-nemotron-3-5-parse-para-desenvolvimento-aberto-e-otimizacao",
+      "headline": "Nvidia Libera Modelo Nemotron 3.5 Parse para Desenvolvimento Aberto e Otimização",
+      "subtitle": "Novas capacidades de processamento de linguagem prometem acelerar a adoção de IA em empresas brasileiras.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "category": "opensource",
+      "tags": [
+        "ia",
+        "nvidia",
+        "nemotron"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 26 Nov 2026 05:05:36 GMT",
+      "written_at": "2026-11-26T07:51:10.625Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.png"
+    },
     {
       "slug": "s-p-avalia-rebaixamento-de-credito-da-nvidia-por-riscos-de-governanca-e-key-man",
       "headline": "S&P Avalia Rebaixamento de Crédito da Nvidia por Riscos de Governança e \"Key Man\"",

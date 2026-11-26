@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 25 Nov 2026 23:09:16 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 07:58:51 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Nova Abordagem de Verificação Aumenta Confiabilidade em Respostas de IA</title>
+      <link>https://pulsodaia.com.br/feed/nova-abordagem-de-verificacao-aumenta-confiabilidade-em-respostas-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nova-abordagem-de-verificacao-aumenta-confiabilidade-em-respostas-de-ia/</guid>
+      <pubDate>Thu, 26 Nov 2026 07:51:43 GMT</pubDate>
+      <description>Pesquisa no arXiv propõe método para selecionar as melhores respostas geradas por modelos de linguagem.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2611.33161">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Context Scaling: Nova Fronteira para Escalar Sistemas de IA</title>
+      <link>https://pulsodaia.com.br/feed/context-scaling-nova-fronteira-para-escalar-sistemas-de-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/context-scaling-nova-fronteira-para-escalar-sistemas-de-ia/</guid>
+      <pubDate>Thu, 26 Nov 2026 07:51:23 GMT</pubDate>
+      <description>Pesquisa no arXiv aponta para otimização da capacidade de sistemas de IA em lidar com informações contextuais.</description>
+      <category>RESEARCH</category>
+      <source url="https://arxiv.org/abs/2611.33160">ArXiv cs.AI</source>
+    </item>
+    <item>
+      <title>Nvidia Libera Modelo Nemotron 3.5 Parse para Desenvolvimento Aberto e Otimização</title>
+      <link>https://pulsodaia.com.br/feed/nvidia-libera-modelo-nemotron-3-5-parse-para-desenvolvimento-aberto-e-otimizacao/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/nvidia-libera-modelo-nemotron-3-5-parse-para-desenvolvimento-aberto-e-otimizacao/</guid>
+      <pubDate>Thu, 26 Nov 2026 07:51:10 GMT</pubDate>
+      <description>Novas capacidades de processamento de linguagem prometem acelerar a adoção de IA em empresas brasileiras.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin">Hugging Face</source>
+    </item>
     <item>
       <title>S&amp;P Avalia Rebaixamento de Crédito da Nvidia por Riscos de Governança e "Key Man"</title>
       <link>https://pulsodaia.com.br/feed/s-p-avalia-rebaixamento-de-credito-da-nvidia-por-riscos-de-governanca-e-key-man/</link>
@@ -430,33 +457,6 @@
       <description>Atualização do modelo de código da Anthropic introduz diálogos de confiança e melhorias na gestão de configurações.</description>
       <category>LANCAMENTO</category>
       <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.329">Claude Code</source>
-    </item>
-    <item>
-      <title>Mutualismo Humano-IA em Risco com Crescimento da Capacidade das Máquinas</title>
-      <link>https://pulsodaia.com.br/feed/mutualismo-humano-ia-em-risco-com-crescimento-da-capacidade-das-maquinas/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/mutualismo-humano-ia-em-risco-com-crescimento-da-capacidade-das-maquinas/</guid>
-      <pubDate>Thu, 19 Nov 2026 22:03:28 GMT</pubDate>
-      <description>Um estudo aponta que a dependência mútua idealizada pode ser insustentável à medida que a IA se torna mais avançada.</description>
-      <category>ANALISE</category>
-      <source url="https://arxiv.org/abs/2611.23322">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Isaacson discute criatividade e julgamento humano em diálogo com Google AI</title>
-      <link>https://pulsodaia.com.br/feed/isaacson-discute-criatividade-e-julgamento-humano-em-dialogo-com-google-ai/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/isaacson-discute-criatividade-e-julgamento-humano-em-dialogo-com-google-ai/</guid>
-      <pubDate>Thu, 19 Nov 2026 22:03:16 GMT</pubDate>
-      <description>O autor de biografias de inovadores busca lições para o desenvolvimento de inteligência artificial.</description>
-      <category>ANALISE</category>
-      <source url="https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/">Google AI</source>
-    </item>
-    <item>
-      <title>Gemini API ganha "Tool Retrieval" para agentes de IA mais eficientes</title>
-      <link>https://pulsodaia.com.br/feed/gemini-api-ganha-tool-retrieval-para-agentes-de-ia-mais-eficientes/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/gemini-api-ganha-tool-retrieval-para-agentes-de-ia-mais-eficientes/</guid>
-      <pubDate>Thu, 19 Nov 2026 22:03:06 GMT</pubDate>
-      <description>Nova funcionalidade promete otimizar o uso de tokens e expandir capacidades dos modelos de linguagem.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/">Google AI</source>
     </item>
   </channel>
 </rss>

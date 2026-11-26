@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://pulsodaia.com.br/feed/nova-abordagem-de-verificacao-aumenta-confiabilidade-em-respostas-de-ia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T05:00:00.000Z</news:publication_date>
+      <news:title>Nova Abordagem de Verificação Aumenta Confiabilidade em Respostas de IA</news:title>
+      <news:keywords>ia, llm, vlm, confiabilidade</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsodaia.com.br/feed/context-scaling-nova-fronteira-para-escalar-sistemas-de-ia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T05:00:00.000Z</news:publication_date>
+      <news:title>Context Scaling: Nova Fronteira para Escalar Sistemas de IA</news:title>
+      <news:keywords>ia, context scaling, pesquisa</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsodaia.com.br/feed/nvidia-libera-modelo-nemotron-3-5-parse-para-desenvolvimento-aberto-e-otimizacao/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T05:05:36.000Z</news:publication_date>
+      <news:title>Nvidia Libera Modelo Nemotron 3.5 Parse para Desenvolvimento Aberto e Otimização</news:title>
+      <news:keywords>ia, nvidia, nemotron</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://pulsodaia.com.br/feed/s-p-avalia-rebaixamento-de-credito-da-nvidia-por-riscos-de-governanca-e-key-man/</loc>
     <news:news>
       <news:publication>
@@ -166,42 +202,6 @@
       <news:publication_date>2026-11-24T16:00:00.000Z</news:publication_date>
       <news:title>Gemini do Google Impulsiona Operações e Experiências do Golden State Warriors</news:title>
       <news:keywords>gemini, google ai, golden state warriors</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/supertake-capta-us-20-milhoes-para-automatizar-investimentos-com-previsoes-de-me/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T22:02:05.000Z</news:publication_date>
-      <news:title>Supertake capta US$ 20 milhões para automatizar investimentos com previsões de mercado via IA</news:title>
-      <news:keywords>ia, investimentos, fintech</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/anthropic-automatiza-revisao-de-codigo-com-claude-ship/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T22:05:50.000Z</news:publication_date>
-      <news:title>Anthropic Automatiza Revisão de Código com Claude Ship</news:title>
-      <news:keywords>ia, desenvolvimento de software, anthropic, claude</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/claude-code-2-1-331-expande-acesso-e-capacidades-em-plataformas-de-nuvem/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T21:34:41.000Z</news:publication_date>
-      <news:title>Claude Code 2.1.331 Expande Acesso e Capacidades em Plataformas de Nuvem</news:title>
-      <news:keywords>claude code, anthropic, desenvolvimento de ia</news:keywords>
     </news:news>
   </url>
 </urlset>
