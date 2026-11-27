@@ -1,6 +1,63 @@
 {
-  "generated_at": "2026-11-26T07:51:44.153Z",
+  "generated_at": "2026-11-27T02:44:36.571Z",
   "articles": [
+    {
+      "slug": "sistemas-multiagente-da-teoria-a-pratica-com-hugging-face",
+      "headline": "Sistemas Multiagente: Da Teoria à Prática com Hugging Face",
+      "subtitle": "A Hugging Face detalha como construir, treinar e avaliar sistemas complexos de inteligência artificial.",
+      "eyebrow_category": "ANALISE",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/training-swarms",
+      "category": "opensource",
+      "tags": [
+        "sistemas multiagente",
+        "ia",
+        "hugging face"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 26 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-27T02:44:36.487Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "llama-cpp-ganha-painel-de-benchmarks-para-hardware-amd",
+      "headline": "Llama.cpp Ganha Painel de Benchmarks para Hardware AMD",
+      "subtitle": "Novas ferramentas oferecem transparência no desempenho de modelos de linguagem em processadores Ryzen e placas Radeon.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "category": "opensource",
+      "tags": [
+        "llama.cpp",
+        "amd",
+        "benchmarks"
+      ],
+      "read_time_min": 3,
+      "published_at": "Thu, 26 Nov 2026 11:37:17 GMT",
+      "written_at": "2026-11-27T02:44:12.330Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.png"
+    },
+    {
+      "slug": "google-deepmind-aprimora-analise-molecular-com-ia",
+      "headline": "Google DeepMind Aprimora Análise Molecular com IA",
+      "subtitle": "Nova ferramenta do Google Antigravity facilita a interpretação de espectros de massa para cientistas.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Google DeepMind",
+      "source_url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "category": "google",
+      "tags": [
+        "ia",
+        "quimica",
+        "deepmind"
+      ],
+      "read_time_min": 3,
+      "published_at": "Tue, 24 Nov 2026 13:07:53 +0000",
+      "written_at": "2026-11-27T02:44:02.299Z",
+      "quality_score": 0.9,
+      "hero_image": null
+    },
     {
       "slug": "nova-abordagem-de-verificacao-aumenta-confiabilidade-em-respostas-de-ia",
       "headline": "Nova Abordagem de Verificação Aumenta Confiabilidade em Respostas de IA",

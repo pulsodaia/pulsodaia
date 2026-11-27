@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://pulsodaia.com.br/feed/sistemas-multiagente-da-teoria-a-pratica-com-hugging-face/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T00:00:00.000Z</news:publication_date>
+      <news:title>Sistemas Multiagente: Da Teoria à Prática com Hugging Face</news:title>
+      <news:keywords>sistemas multiagente, ia, hugging face</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsodaia.com.br/feed/llama-cpp-ganha-painel-de-benchmarks-para-hardware-amd/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T11:37:17.000Z</news:publication_date>
+      <news:title>Llama.cpp Ganha Painel de Benchmarks para Hardware AMD</news:title>
+      <news:keywords>llama.cpp, amd, benchmarks</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsodaia.com.br/feed/google-deepmind-aprimora-analise-molecular-com-ia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T13:07:53.000Z</news:publication_date>
+      <news:title>Google DeepMind Aprimora Análise Molecular com IA</news:title>
+      <news:keywords>ia, quimica, deepmind</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://pulsodaia.com.br/feed/nova-abordagem-de-verificacao-aumenta-confiabilidade-em-respostas-de-ia/</loc>
     <news:news>
       <news:publication>
@@ -130,78 +166,6 @@
       <news:publication_date>2026-11-25T10:22:09.000Z</news:publication_date>
       <news:title>IBM Pesquisa Agente de Voz em Idioma Indígena</news:title>
       <news:keywords>ia conversacional, idiomas indigenas, processamento de linguagem natural</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/huang-da-nvidia-planos-de-sucessao-geram-hierarquia-desnecessaria/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-24T22:27:52.000Z</news:publication_date>
-      <news:title>Huang da Nvidia: Planos de Sucessão Geram Hierarquia Desnecessária</news:title>
-      <news:keywords>nvidia, jensen huang, liderança</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/nvidia-critica-de-yale-questiona-o-verdadeiro-beneficio-para-o-poder-industrial-/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-25T00:12:02.000Z</news:publication_date>
-      <news:title>Nvidia: Crítica de Yale Questiona o Verdadeiro Benefício para o Poder Industrial dos EUA</news:title>
-      <news:keywords>nvidia, ia, geopolitica</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/claude-code-2-1-332-novas-habilidades-e-controle-refinado-para-desenvolvedores-d/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-25T01:32:14.000Z</news:publication_date>
-      <news:title>Claude Code 2.1.332: Novas Habilidades e Controle Refinado para Desenvolvedores de IA</news:title>
-      <news:keywords>claude code, anthropic, desenvolvimento ia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/ia-sem-treinamento-monitora-batimentos-cardiacos-por-video-com-precisao-inedita/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-24T05:00:00.000Z</news:publication_date>
-      <news:title>IA sem treinamento monitora batimentos cardíacos por vídeo com precisão inédita</news:title>
-      <news:keywords>ia, saude digital, telemedicina</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/simulacao-e-realidade-se-unem-para-robos-autonomos-com-ia/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-24T16:34:13.000Z</news:publication_date>
-      <news:title>Simulação e Realidade se Unem para Robôs Autônomos com IA</news:title>
-      <news:keywords>robótica, simulação, ia, navegação autônoma</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/gemini-do-google-impulsiona-operacoes-e-experiencias-do-golden-state-warriors/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-24T16:00:00.000Z</news:publication_date>
-      <news:title>Gemini do Google Impulsiona Operações e Experiências do Golden State Warriors</news:title>
-      <news:keywords>gemini, google ai, golden state warriors</news:keywords>
     </news:news>
   </url>
 </urlset>

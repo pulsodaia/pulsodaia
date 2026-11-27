@@ -6,8 +6,35 @@
     <atom:link href="https://pulsodaia.com.br/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Sinta o pulso do mercado de IA. Fontes oficiais em portugues, direto da fonte, sem filtro de influenciador.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 26 Nov 2026 07:58:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 02:51:58 GMT</lastBuildDate>
     <generator>Pulso da IA Motor Pulsante</generator>
+    <item>
+      <title>Sistemas Multiagente: Da Teoria à Prática com Hugging Face</title>
+      <link>https://pulsodaia.com.br/feed/sistemas-multiagente-da-teoria-a-pratica-com-hugging-face/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/sistemas-multiagente-da-teoria-a-pratica-com-hugging-face/</guid>
+      <pubDate>Fri, 27 Nov 2026 02:44:36 GMT</pubDate>
+      <description>A Hugging Face detalha como construir, treinar e avaliar sistemas complexos de inteligência artificial.</description>
+      <category>ANALISE</category>
+      <source url="https://huggingface.co/blog/training-swarms">Hugging Face</source>
+    </item>
+    <item>
+      <title>Llama.cpp Ganha Painel de Benchmarks para Hardware AMD</title>
+      <link>https://pulsodaia.com.br/feed/llama-cpp-ganha-painel-de-benchmarks-para-hardware-amd/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/llama-cpp-ganha-painel-de-benchmarks-para-hardware-amd/</guid>
+      <pubDate>Fri, 27 Nov 2026 02:44:12 GMT</pubDate>
+      <description>Novas ferramentas oferecem transparência no desempenho de modelos de linguagem em processadores Ryzen e placas Radeon.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench">Hugging Face</source>
+    </item>
+    <item>
+      <title>Google DeepMind Aprimora Análise Molecular com IA</title>
+      <link>https://pulsodaia.com.br/feed/google-deepmind-aprimora-analise-molecular-com-ia/</link>
+      <guid isPermaLink="true">https://pulsodaia.com.br/feed/google-deepmind-aprimora-analise-molecular-com-ia/</guid>
+      <pubDate>Fri, 27 Nov 2026 02:44:02 GMT</pubDate>
+      <description>Nova ferramenta do Google Antigravity facilita a interpretação de espectros de massa para cientistas.</description>
+      <category>LANCAMENTO</category>
+      <source url="https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/">Google DeepMind</source>
+    </item>
     <item>
       <title>Nova Abordagem de Verificação Aumenta Confiabilidade em Respostas de IA</title>
       <link>https://pulsodaia.com.br/feed/nova-abordagem-de-verificacao-aumenta-confiabilidade-em-respostas-de-ia/</link>
@@ -430,33 +457,6 @@
       <description>Nova arquitetura de IA permite que sistemas tomem decisões em experimentos físicos, mas com supervisão e auditoria.</description>
       <category>RESEARCH</category>
       <source url="https://arxiv.org/abs/2611.25043">ArXiv cs.AI</source>
-    </item>
-    <item>
-      <title>Fundadores da Anthropic embolsam quase US$ 2 bilhões em IPO histórico</title>
-      <link>https://pulsodaia.com.br/feed/fundadores-da-anthropic-embolsam-quase-us-2-bilhoes-em-ipo-historico/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/fundadores-da-anthropic-embolsam-quase-us-2-bilhoes-em-ipo-historico/</guid>
-      <pubDate>Fri, 20 Nov 2026 03:01:13 GMT</pubDate>
-      <description>Movimento sinaliza alta valorização de empresas de IA e potencial de retorno para investidores.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Apple Investe em Agente de IA para Gerenciar Macs</title>
-      <link>https://pulsodaia.com.br/feed/apple-investe-em-agente-de-ia-para-gerenciar-macs/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/apple-investe-em-agente-de-ia-para-gerenciar-macs/</guid>
-      <pubDate>Fri, 20 Nov 2026 03:01:03 GMT</pubDate>
-      <description>A gigante de Cupertino pode estar preparando uma resposta direta aos modelos de IA generativa atuais.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/">TechCrunch AI</source>
-    </item>
-    <item>
-      <title>Claude Code V2.1.329: Mais Transparência e Controle em Gerenciamento de Hooks e Tarefas</title>
-      <link>https://pulsodaia.com.br/feed/claude-code-v2-1-329-mais-transparencia-e-controle-em-gerenciamento-de-hooks-e-t/</link>
-      <guid isPermaLink="true">https://pulsodaia.com.br/feed/claude-code-v2-1-329-mais-transparencia-e-controle-em-gerenciamento-de-hooks-e-t/</guid>
-      <pubDate>Fri, 20 Nov 2026 03:00:48 GMT</pubDate>
-      <description>Atualização do modelo de código da Anthropic introduz diálogos de confiança e melhorias na gestão de configurações.</description>
-      <category>LANCAMENTO</category>
-      <source url="https://github.com/anthropics/claude-code/releases/tag/v2.1.329">Claude Code</source>
     </item>
   </channel>
 </rss>
