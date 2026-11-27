@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-11-27T02:44:36.571Z",
+  "generated_at": "2026-11-27T22:36:27.406Z",
   "articles": [
+    {
+      "slug": "android-abre-portas-para-criacao-de-widgets-personalizados-com-ia",
+      "headline": "Android abre portas para criação de widgets personalizados com IA",
+      "subtitle": "A Google aposta em ferramentas de inteligência artificial para democratizar a criação de interfaces úteis no sistema operacional.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "The Verge AI",
+      "source_url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "category": "mercado",
+      "tags": [
+        "android",
+        "inteligência artificial",
+        "widgets",
+        "google"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-27T09:00:00-05:00",
+      "written_at": "2026-11-27T22:36:27.155Z",
+      "quality_score": 0.88,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "modelcontext-protocol-corrige-vulnerabilidades-criticas-em-servidores-de-ia",
+      "headline": "ModelContext Protocol Corrige Vulnerabilidades Críticas em Servidores de IA",
+      "subtitle": "Atualização de segurança visa proteger infraestruturas que integram modelos de linguagem.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "MCP Spec",
+      "source_url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0",
+      "category": "claude-code",
+      "tags": [
+        "segurança",
+        "ia",
+        "modelcontext protocol"
+      ],
+      "read_time_min": 3,
+      "published_at": "2026-11-27T09:58:10Z",
+      "written_at": "2026-11-27T22:36:16.857Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
+    {
+      "slug": "hugging-face-explora-geracao-de-videos-com-trainium3-e-ltx-2-5",
+      "headline": "Hugging Face Explora Geração de Vídeos com Trainium3 e LTX-2.5",
+      "subtitle": "Nova abordagem promete avanços na criação de conteúdo audiovisual por IA no Brasil.",
+      "eyebrow_category": "LANCAMENTO",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/video-trainium3",
+      "category": "opensource",
+      "tags": [
+        "ia generativa",
+        "video",
+        "hugging face",
+        "trainium3"
+      ],
+      "read_time_min": 3,
+      "published_at": "Fri, 27 Nov 2026 00:00:00 GMT",
+      "written_at": "2026-11-27T22:36:06.366Z",
+      "quality_score": 0.9,
+      "hero_image": "hero.jpg"
+    },
     {
       "slug": "sistemas-multiagente-da-teoria-a-pratica-com-hugging-face",
       "headline": "Sistemas Multiagente: Da Teoria à Prática com Hugging Face",

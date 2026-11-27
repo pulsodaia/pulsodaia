@@ -1,0 +1,50 @@
+{
+  "id": "tag:github.com,2008:Repository/890668799/v2.6.0",
+  "title": "v2.6.0",
+  "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0",
+  "summary": "<h2>Security fixes</h2> <p>v2.6.0 fixes eight vulnerabilities in three servers, and completes two fixes that v2.5.0 left open. Upgrade <code>mcp-server-git</code> to 2026.11.27,<br> <code>@modelcontextprotocol/server-memory</code> to 2.2.2 and <code>mcp-server-fetch</code> to 2026.11.27; on Windows, also <code>@modelcontextprotocol/server-filesystem</code> to 2.4.1.</p> <table> <thead> <tr> <th>Package</th> <th>Affected</th> <th>Fixed in</th> </tr> </thead> <tbody> <tr> <td><code>mcp-server-git</code></td> <td>through 2026.11.18</td> <td>2026.11.27</td> </tr> <tr> <td><code>@modelcontextprotocol/server-memory</code></td> <td>1.0.0 through 2.2.1</td> <td>2.2.2</td> </tr> <tr> <td><code>mcp-server-fetch</code></td> <td>2026.10.10 through 2026.11.18</td> <td>2026.11.27</td> </tr> <tr> <td><code>@modelcontextprotocol/server-filesystem</code></td> <td>on Windows, through 2.4.0</td> <td>2.4.1</td> </tr> </tbody> </table> <h3><code>mcp-server-git</code> 2026.11.27</h3> <ul> <li><strong>Git LF",
+  "published_at": "2026-11-27T09:58:10Z",
+  "source_id": "mcp-spec-releases",
+  "source_name": "MCP Spec",
+  "category": "claude-code",
+  "source_type": "github-release-oficial",
+  "headline": "ModelContext Protocol Corrige Vulnerabilidades Críticas em Servidores de IA",
+  "subtitle": "Atualização de segurança visa proteger infraestruturas que integram modelos de linguagem.",
+  "eyebrow_category": "LANCAMENTO",
+  "lead": "A versão v2.6.0 do ModelContext Protocol (MCP) foi lançada com correções para oito vulnerabilidades em três servidores. A atualização aborda falhas deixadas em aberto pela versão anterior, v2.5.0, reforçando a segurança de sistemas que dependem da integração de modelos de IA.",
+  "body_markdown": "## O que aconteceu\n\nO ModelContext Protocol, um framework para gerenciar e integrar modelos de IA, liberou a versão v2.6.0 de seus servidores, focada em segurança. O lançamento corrige um total de oito vulnerabilidades identificadas em três componentes principais da infraestrutura do MCP. Duas dessas falhas haviam sido deixadas incompletas na atualização v2.5.0, agora totalmente resolvidas. Para garantir a proteção, os usuários devem atualizar os pacotes `mcp-server-git` para a versão 2026.11.27, `@modelcontextprotocol/server-memory` para 2.2.2 e `mcp-server-fetch` também para 2026.11.27. Em sistemas operacionais Windows, a atualização do `@modelcontextprotocol/server-filesystem` para 2.4.1 também é recomendada. As correções específicas incluem o `mcp-server-git`, que foi afetado até a versão 2026.11.18 e agora está seguro na 2026.11.27. O `@modelcontextprotocol/server-memory` teve suas versões de 1.0.0 a 2.2.1 corrigidas para a 2.2.2. Já o `mcp-server-fetch` teve as versões de 2026.10.10 a 2026.11.18 corrigidas para a 2026.11.27. Detalhes completos sobre as vulnerabilidades e as correções podem ser consultados diretamente no [repositório oficial](https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0).\n\n## Por que importa\n\nA segurança em infraestruturas de IA é um ponto nevrálgico para empresas que buscam implementar soluções baseadas em modelos de linguagem. Vulnerabilidades em servidores como os do MCP podem expor dados sensíveis, comprometer a integridade dos modelos ou permitir acessos não autorizados. No Brasil, onde a adoção de IA tem crescido exponencialmente em diversos setores, desde o financeiro até o de saúde e varejo, a estabilidade e a segurança dessas plataformas são cruciais para a confiança do mercado e a continuidade dos negócios. A rápida resposta do MCP em sanar essas falhas demonstra um compromisso com a robustez de seus serviços, o que é vital para empresas que dependem dessa tecnologia para otimizar processos e inovar.\n\n## O que esperar\n\nCom a aplicação das atualizações recomendadas, os usuários do ModelContext Protocol podem esperar uma camada adicional de segurança em suas implementações de IA. A expectativa é que a resolução dessas vulnerabilidades minimize riscos de incidentes de segurança, permitindo que as empresas se concentrem na exploração das capacidades dos modelos de linguagem, sem a preocupação constante com brechas de segurança. Para quem utiliza o MCP, é fundamental que as equipes de infraestrutura e desenvolvimento priorizem a aplicação dessas correções. Acompanhar os comunicados de segurança do projeto, como este lançamento, é um passo essencial para manter os sistemas protegidos e atualizados. As próximas versões do MCP provavelmente continuarão a priorizar a segurança, com foco em novas ameaças e a evolução das práticas de proteção de dados e modelos de IA, conforme detalhado nas [notas de lançamento](https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0).",
+  "body_html": "<h2>O que aconteceu</h2>\n\n<p>O ModelContext Protocol, um framework para gerenciar e integrar modelos de IA, liberou a versão v2.6.0 de seus servidores, focada em segurança. O lançamento corrige um total de oito vulnerabilidades identificadas em três componentes principais da infraestrutura do MCP. Duas dessas falhas haviam sido deixadas incompletas na atualização v2.5.0, agora totalmente resolvidas. Para garantir a proteção, os usuários devem atualizar os pacotes <code>mcp-server-git</code> para a versão 2026.11.27, <code>@modelcontextprotocol/server-memory</code> para 2.2.2 e <code>mcp-server-fetch</code> também para 2026.11.27. Em sistemas operacionais Windows, a atualização do <code>@modelcontextprotocol/server-filesystem</code> para 2.4.1 também é recomendada. As correções específicas incluem o <code>mcp-server-git</code>, que foi afetado até a versão 2026.11.18 e agora está seguro na 2026.11.27. O <code>@modelcontextprotocol/server-memory</code> teve suas versões de 1.0.0 a 2.2.1 corrigidas para a 2.2.2. Já o <code>mcp-server-fetch</code> teve as versões de 2026.10.10 a 2026.11.18 corrigidas para a 2026.11.27. Detalhes completos sobre as vulnerabilidades e as correções podem ser consultados diretamente no <a href=\"https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0\" target=\"_blank\" rel=\"external noopener\">repositório oficial</a>.</p>\n\n<h2>Por que importa</h2>\n\n<p>A segurança em infraestruturas de IA é um ponto nevrálgico para empresas que buscam implementar soluções baseadas em modelos de linguagem. Vulnerabilidades em servidores como os do MCP podem expor dados sensíveis, comprometer a integridade dos modelos ou permitir acessos não autorizados. No Brasil, onde a adoção de IA tem crescido exponencialmente em diversos setores, desde o financeiro até o de saúde e varejo, a estabilidade e a segurança dessas plataformas são cruciais para a confiança do mercado e a continuidade dos negócios. A rápida resposta do MCP em sanar essas falhas demonstra um compromisso com a robustez de seus serviços, o que é vital para empresas que dependem dessa tecnologia para otimizar processos e inovar.</p>\n\n<h2>O que esperar</h2>\n\n<p>Com a aplicação das atualizações recomendadas, os usuários do ModelContext Protocol podem esperar uma camada adicional de segurança em suas implementações de IA. A expectativa é que a resolução dessas vulnerabilidades minimize riscos de incidentes de segurança, permitindo que as empresas se concentrem na exploração das capacidades dos modelos de linguagem, sem a preocupação constante com brechas de segurança. Para quem utiliza o MCP, é fundamental que as equipes de infraestrutura e desenvolvimento priorizem a aplicação dessas correções. Acompanhar os comunicados de segurança do projeto, como este lançamento, é um passo essencial para manter os sistemas protegidos e atualizados. As próximas versões do MCP provavelmente continuarão a priorizar a segurança, com foco em novas ameaças e a evolução das práticas de proteção de dados e modelos de IA, conforme detalhado nas <a href=\"https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0\" target=\"_blank\" rel=\"external noopener\">notas de lançamento</a>.</p>",
+  "tags": [
+    "segurança",
+    "ia",
+    "modelcontext protocol"
+  ],
+  "read_time_min": 3,
+  "quality_score": 0.9,
+  "seo_keywords": [
+    "ModelContext Protocol",
+    "v2.6.0",
+    "segurança IA",
+    "vulnerabilidades",
+    "servidores de IA"
+  ],
+  "meta_description_seo": "Atualização v2.6.0 do ModelContext Protocol corrige 8 vulnerabilidades em servidores de IA. Essencial para segurança de infraestruturas de modelos de linguagem.",
+  "faq": [
+    {
+      "q": "O que a nova versão v2.6.0 do ModelContext Protocol corrige?",
+      "a": "A versão v2.6.0 corrige oito vulnerabilidades em três servidores do ModelContext Protocol, incluindo falhas deixadas em aberto pela versão anterior v2.5.0."
+    },
+    {
+      "q": "Quais pacotes precisam ser atualizados e para quais versões?",
+      "a": "É necessário atualizar `mcp-server-git` para 2026.11.27, `@modelcontextprotocol/server-memory` para 2.2.2 e `mcp-server-fetch` para 2026.11.27. No Windows, `mcp-server-filesystem` deve ir para 2.4.1."
+    },
+    {
+      "q": "Por que essa atualização é importante para o mercado brasileiro?",
+      "a": "A atualização é crucial para o mercado brasileiro pois reforça a segurança de infraestruturas de IA, essencial para a confiança e continuidade de negócios que implementam modelos de linguagem."
+    }
+  ],
+  "written_at": "2026-11-27T22:36:16.857Z",
+  "slug": "modelcontext-protocol-corrige-vulnerabilidades-criticas-em-servidores-de-ia",
+  "hero_image": "hero.jpg",
+  "hero_source_url": "https://opengraph.githubassets.com/0e52be9ce67c07b87026bb803ade57cb8656f2f6f75f41f4cac0ff940b714a7f/modelcontextprotocol/servers/releases/tag/v2.6.0"
+}

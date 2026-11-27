@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://pulsodaia.com.br/feed/android-abre-portas-para-criacao-de-widgets-personalizados-com-ia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-27T14:00:00.000Z</news:publication_date>
+      <news:title>Android abre portas para criação de widgets personalizados com IA</news:title>
+      <news:keywords>android, inteligência artificial, widgets, google</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsodaia.com.br/feed/modelcontext-protocol-corrige-vulnerabilidades-criticas-em-servidores-de-ia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-27T09:58:10.000Z</news:publication_date>
+      <news:title>ModelContext Protocol Corrige Vulnerabilidades Críticas em Servidores de IA</news:title>
+      <news:keywords>segurança, ia, modelcontext protocol</news:keywords>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pulsodaia.com.br/feed/hugging-face-explora-geracao-de-videos-com-trainium3-e-ltx-2-5/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pulso da IA</news:name>
+        <news:language>pt-BR</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-27T00:00:00.000Z</news:publication_date>
+      <news:title>Hugging Face Explora Geração de Vídeos com Trainium3 e LTX-2.5</news:title>
+      <news:keywords>ia generativa, video, hugging face, trainium3</news:keywords>
+    </news:news>
+  </url>
+  <url>
     <loc>https://pulsodaia.com.br/feed/sistemas-multiagente-da-teoria-a-pratica-com-hugging-face/</loc>
     <news:news>
       <news:publication>
@@ -106,66 +142,6 @@
       <news:publication_date>2026-11-25T18:52:55.000Z</news:publication_date>
       <news:title>Cientistas Definem Fronteiras para Agentes de IA: Autonomia e Controle em Debate</news:title>
       <news:keywords>agentes de ia, autonomia, etica em ia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/agentes-de-ia-gerenciam-parte-da-infraestrutura-do-deepmind-para-gemini/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-25T13:23:36.000Z</news:publication_date>
-      <news:title>Agentes de IA Gerenciam Parte da Infraestrutura do Deepmind para Gemini</news:title>
-      <news:keywords>google deepmind, gemini, agentes de ia</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/firmware-de-sintetizadores-em-codigo-aberto-a-nova-realidade-pos-vibe-coding/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-25T13:00:00.000Z</news:publication_date>
-      <news:title>Firmware de Sintetizadores em Código Aberto: A Nova Realidade Pós-Vibe Coding</news:title>
-      <news:keywords>ia, firmware, codigo aberto</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/nvidia-jensen-huang-sob-fogo-cruzado-por-relacao-com-suspeito-de-contrabando-de-/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-25T13:00:00.000Z</news:publication_date>
-      <news:title>Nvidia: Jensen Huang Sob Fogo Cruzado Por Relação com Suspeito de Contrabando de Chips</news:title>
-      <news:keywords>nvidia, jensen huang, semicondutores</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/prismml-reduz-modelo-de-linguagem-de-54-gb-para-5-9-gb-com-compressao-de-pesos/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-25T11:51:49.000Z</news:publication_date>
-      <news:title>PrismML Reduz Modelo de Linguagem de 54 GB para 5.9 GB com Compressão de Pesos</news:title>
-      <news:keywords>compressão de ia, modelos de linguagem, prismml</news:keywords>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://pulsodaia.com.br/feed/ibm-pesquisa-agente-de-voz-em-idioma-indigena/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Pulso da IA</news:name>
-        <news:language>pt-BR</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-25T10:22:09.000Z</news:publication_date>
-      <news:title>IBM Pesquisa Agente de Voz em Idioma Indígena</news:title>
-      <news:keywords>ia conversacional, idiomas indigenas, processamento de linguagem natural</news:keywords>
     </news:news>
   </url>
 </urlset>
