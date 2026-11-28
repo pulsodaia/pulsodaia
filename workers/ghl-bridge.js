@@ -18,7 +18,7 @@
 // Setup:
 //   1. npm install -D wrangler
 //   2. npx wrangler secret put GA4_API_SECRET       (valor do GA4 MP secret)
-//   3. npx wrangler secret put GHL_LOCATION_PIT     (PIT da sub-account Pulso)
+//   3. npx wrangler secret put GHL_LOCATION_PIT     (PIT da subconta Triadeflow, LImTvhcHSBl9dFiTTZfD)
 //   4. npx wrangler secret put GHL_WEBHOOK_SECRET   (opcional, pra webhooks)
 //   5. npx wrangler deploy
 
@@ -30,7 +30,9 @@ const WEBHOOK_ROUTES = {
 
 const GHL_API_BASE = 'https://services.leadconnectorhq.com';
 const GHL_API_VERSION = '2021-07-28';
-const GHL_LOCATION_ID = 'l4nQqozhymP3hUZibeRY'; // Pulso da IA sub-account
+// A subconta do Pulso deixou de existir no HUB (27/11/2026): inscritos vao para a subconta Triadeflow.
+const GHL_LOCATION_ID = 'LImTvhcHSBl9dFiTTZfD';
+const NEWSLETTER_SOURCE_LABEL = 'Pulso da IA - newsletter';
 
 const META_GRAPH_BASE = 'https://graph.facebook.com/v21.0';
 const META_PIXEL_ID_DEFAULT = '944241681711983';
@@ -132,7 +134,7 @@ async function handleNewsletterSubscribe(request, env, origin) {
     firstName,
     lastName,
     email,
-    source: `pulsodaia:${source}`,
+    source: NEWSLETTER_SOURCE_LABEL,
     tags,
     customFields: articleSlug ? [{ key: 'article_slug', field_value: articleSlug }] : []
   };

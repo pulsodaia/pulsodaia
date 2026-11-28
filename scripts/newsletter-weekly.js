@@ -25,7 +25,7 @@ const https = require('https');
 const tf = require('./triadeflow-offers.js');
 
 const MAX_RECIPIENTS = 50;
-const LOCATION_ID = 'l4nQqozhymP3hUZibeRY'; // sub-account Pulso da IA
+const LOCATION_ID = 'LImTvhcHSBl9dFiTTZfD'; // subconta Triadeflow (a do Pulso nao existe mais)
 const TAG = 'newsletter-ia-semanal';
 const SITE = 'https://pulsodaia.com.br';
 
