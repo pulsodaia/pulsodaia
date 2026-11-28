@@ -3,9 +3,10 @@
 // dos ultimos 7 dias e, SO com ordem explicita, envia pelos contatos do GHL.
 //
 // NO MASS DISPATCH: este script manda e-mail para mais de 1 pessoa, entao tem os 4 guardrails em codigo:
-//   1. Teto fixo: MAX_RECIPIENTS. Passou disso, aborta (nao trunca).
+//   1. Teto fixo: MAX_RECIPIENTS (25). Passou disso, aborta com alerta no log (nao trunca).
 //   2. Dry-run e o padrao. So envia com --send.
 //   3. CRONS_ENABLED desligado por padrao: --send sem CRONS_ENABLED=true aborta.
+//   Escopo: so contatos com a tag newsletter-ia-semanal (filtro na busca + conferencia no codigo) e sem dnd.
 //   4. Allowlist herdada: --send exige NEWSLETTER_ALLOWLIST (e-mails separados por virgula);
 //      so quem esta na lista recebe. "*" libera geral, decisao so do Alex.
 // Nao existe cron nem schedule apontando para este arquivo. Nada dispara sozinho.
@@ -24,7 +25,7 @@ const path = require('path');
 const https = require('https');
 const tf = require('./triadeflow-offers.js');
 
-const MAX_RECIPIENTS = 50;
+const MAX_RECIPIENTS = 25; // a location Triadeflow tem contatos de clientes: teto baixo de proposito
 const LOCATION_ID = 'LImTvhcHSBl9dFiTTZfD'; // subconta Triadeflow (a do Pulso nao existe mais)
 const TAG = 'newsletter-ia-semanal';
 const SITE = 'https://pulsodaia.com.br';
@@ -70,7 +71,9 @@ function selectRecipients(contacts, allowlistRaw, max = MAX_RECIPIENTS) {
   const raw = String(allowlistRaw || '').trim();
   if (!raw) throw new Error('NEWSLETTER_ALLOWLIST vazia: envio bloqueado');
   const allowed = raw === '*' ? null : new Set(raw.split(',').map(e => e.trim().toLowerCase()).filter(Boolean));
-  const list = contacts.filter(c => c.email && (!allowed || allowed.has(String(c.email).toLowerCase())));
+  // Defesa em profundidade: mesmo que o filtro da busca falhe, so entra quem tem a tag e nao pediu para sair (dnd).
+  const list = contacts.filter(c => c.email && !c.dnd && (c.tags || []).map(t => String(t).toLowerCase()).includes(TAG)
+    && (!allowed || allowed.has(String(c.email).toLowerCase())));
   if (list.length > max) throw new Error(`${list.length} destinatarios > teto ${max}: abortado (risco de mass dispatch)`);
   return list;
 }
@@ -112,7 +115,9 @@ async function main() {
   if (!pit) { console.error('[newsletter] GHL_LOCATION_PIT ausente.'); process.exit(3); }
 
   const found = await ghl(pit, 'POST', '/contacts/search', { locationId: LOCATION_ID, pageLimit: MAX_RECIPIENTS + 1, filters: [{ field: 'tags', operator: 'contains', value: [TAG] }] }, '2021-07-28');
-  const recipients = selectRecipients(found.contacts || [], process.env.NEWSLETTER_ALLOWLIST);
+  let recipients;
+  try { recipients = selectRecipients(found.contacts || [], process.env.NEWSLETTER_ALLOWLIST); }
+  catch (e) { console.error(`[ALERTA mass-dispatch] ${e.message}`); throw e; }
   console.log(`[newsletter] ${recipients.length} destinatario(s) apos allowlist`);
   for (const c of recipients) {
     await ghl(pit, 'POST', '/conversations/messages', { type: 'Email', contactId: c.id, subject: issue.subject, html: issue.html }, '2021-04-15');

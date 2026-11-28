@@ -32,9 +32,11 @@ assert.strictEqual((mid.match(/tf-cta-meio-artigo/g) || []).length, 1);
 assert.ok(mid.indexOf('tf-cta-meio-artigo') < mid.indexOf('<h2>c</h2>') && mid.indexOf('tf-cta-meio-artigo') > mid.indexOf('<h2>b</h2>'));
 
 // Guardrails da newsletter
-assert.throws(() => nl.selectRecipients([{ email: 'a@b.com' }], ''), /ALLOWLIST/);
-assert.deepStrictEqual(nl.selectRecipients([{ email: 'a@b.com' }, { email: 'c@d.com' }], 'A@b.com').map(c => c.email), ['a@b.com']);
-const many = Array.from({ length: nl.MAX_RECIPIENTS + 1 }, (_, i) => ({ email: `u${i}@x.com` }));
+const T = ['newsletter-ia-semanal'];
+assert.throws(() => nl.selectRecipients([{ email: 'a@b.com', tags: T }], ''), /ALLOWLIST/);
+assert.deepStrictEqual(nl.selectRecipients([{ email: 'a@b.com', tags: T }, { email: 'c@d.com', tags: T }], 'A@b.com').map(c => c.email), ['a@b.com']);
+assert.strictEqual(nl.selectRecipients([{ email: 'x@y.com', tags: ['cliente'] }, { email: 'z@y.com', tags: T, dnd: true }], '*').length, 0);
+const many = Array.from({ length: nl.MAX_RECIPIENTS + 1 }, (_, i) => ({ email: `u${i}@x.com`, tags: T }));
 assert.throws(() => nl.selectRecipients(many, '*'), /teto/);
 assert.strictEqual(nl.selectRecipients(many.slice(0, 3), '*').length, 3);
 
